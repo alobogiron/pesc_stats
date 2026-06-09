@@ -385,14 +385,14 @@ elif pagina_selecionada == "Relatório de Credenciamento Consolidado":
                             (CASE WHEN maior_percentil >= 87.5 THEN 1.000 WHEN maior_percentil >= 75.0 THEN 0.875 WHEN maior_percentil >= 62.5 THEN 0.750 WHEN maior_percentil >= 50.0 THEN 0.625 WHEN maior_percentil >= 37.5 THEN 0.500 WHEN maior_percentil >= 25.0 THEN 0.375 WHEN maior_percentil >= 12.5 THEN 0.250 ELSE 0.125 END) * 1.25
                         ELSE 
                             (CASE WHEN maior_percentil >= 87.5 THEN 1.000 WHEN maior_percentil >= 75.0 THEN 0.875 WHEN maior_percentil >= 62.5 THEN 0.750 WHEN maior_percentil >= 50.0 THEN 0.625 WHEN maior_percentil >= 37.5 THEN 0.500 WHEN maior_percentil >= 25.0 THEN 0.375 WHEN maior_percentil >= 12.5 THEN 0.250 ELSE 0.125 END)
-                    END) AS pontos_p
+                    END * CASE WHEN coautoria_aluno = TRUE THEN 1.5 ELSE 1.0 END) AS pontos_p
                 FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ?
                 GROUP BY id_lattes
             ),
             cte_conferencias AS (
                 SELECT id_lattes,
                     COUNT(*) AS total_c,
-                    SUM(CASE WHEN estrato = 'A1' THEN 1.000 WHEN estrato = 'A2' THEN 0.875 WHEN estrato = 'A3' THEN 0.750 WHEN estrato = 'A4' THEN 0.625 WHEN estrato = 'A5' THEN 0.500 WHEN estrato = 'A6' THEN 0.375 WHEN estrato = 'A7' THEN 0.250 ELSE 0.125 END) AS pontos_c
+                    SUM(CASE WHEN estrato = 'A1' THEN 1.000 WHEN estrato = 'A2' THEN 0.875 WHEN estrato = 'A3' THEN 0.750 WHEN estrato = 'A4' THEN 0.625 WHEN estrato = 'A5' THEN 0.500 WHEN estrato = 'A6' THEN 0.375 WHEN estrato = 'A7' THEN 0.250 ELSE 0.125 END * CASE WHEN coautoria_aluno = TRUE THEN 1.5 ELSE 1.0 END) AS pontos_c
                 FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ?
                 GROUP BY id_lattes
             )
@@ -425,7 +425,7 @@ elif pagina_selecionada == "Relatório de Credenciamento Consolidado":
                 SELECT id_lattes,
                     COUNT(*) AS total_p,
                     COUNT(CASE WHEN computation_area = TRUE THEN 1 END) AS comp_p,
-                    SUM(CASE WHEN computation_area = TRUE THEN peso_base * 1.25 ELSE peso_base END) AS pontos_p
+                    SUM(CASE WHEN computation_area = TRUE THEN peso_base * 1.25 ELSE peso_base END * CASE WHEN coautoria_aluno = TRUE THEN 1.5 ELSE 1.0 END) AS pontos_p
                 FROM cte_p_class GROUP BY id_lattes
             ),
             cte_c_class AS (
@@ -434,13 +434,14 @@ elif pagina_selecionada == "Relatório de Credenciamento Consolidado":
                         WHEN estrato = 'A1' THEN 1.000 WHEN estrato = 'A2' THEN 0.875
                         WHEN estrato = 'A3' THEN 0.750 WHEN estrato = 'A4' THEN 0.625
                         ELSE 0.000 
-                    END AS peso_base
+                    END AS peso_base,
+                    coautoria_aluno
                 FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ? AND estrato IN ('A1', 'A2', 'A3', 'A4')
             ),
             cte_c_agg AS (
                 SELECT id_lattes,
                     COUNT(*) AS total_c,
-                    SUM(peso_base) AS pontos_c
+                    SUM(peso_base * CASE WHEN coautoria_aluno = TRUE THEN 1.5 ELSE 1.0 END) AS pontos_c
                 FROM cte_c_class GROUP BY id_lattes
             )
             SELECT 
