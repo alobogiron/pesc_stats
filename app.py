@@ -179,16 +179,36 @@ elif pagina_selecionada == "Repositório Geral de Artigos":
     
     with aba_p:
         query_p = """
-            SELECT p.nome_completo AS Docente, CAST(a.ano_pub AS VARCHAR) AS Ano, a.titulo_artigo AS Titulo, a.titulo_revista_lattes AS Revista, a.maior_percentil AS Percentil
-            FROM tb_artigo_periodico a INNER JOIN tb_professores p ON a.id_lattes = p.id_lattes ORDER BY a.ano_pub DESC
+            SELECT 
+                p.nome_completo AS Docente, 
+                CAST(a.ano_pub AS VARCHAR) AS Ano, 
+                a.titulo_artigo AS Titulo, 
+                a.autores AS Autores,
+                a.titulo_revista_lattes AS Revista, 
+                a.maior_percentil AS Percentil,
+                CASE WHEN a.computation_area = TRUE THEN 'Sim' ELSE 'Não' END AS "Área Computação",
+                CASE WHEN a.coautoria_aluno = TRUE THEN 'Sim' ELSE 'Não' END AS "Coautoria Aluno"
+            FROM tb_artigo_periodico a 
+            INNER JOIN tb_professores p ON a.id_lattes = p.id_lattes 
+            ORDER BY a.ano_pub DESC
         """
         df_p = con.execute(query_p).df()
         st.dataframe(df_p, use_container_width=True, hide_index=True)
         
     with aba_c:
         query_c = """
-            SELECT p.nome_completo AS Docente, CAST(a.ano AS VARCHAR) AS Ano, a.titulo_artigo AS Titulo, a.titulo_evento_lattes AS Evento, a.estrato AS Estrato, a.tipo_match AS "Tipo Match"
-            FROM tb_artigo_conferencia a INNER JOIN tb_professores p ON a.id_lattes = p.id_lattes ORDER BY a.ano DESC
+            SELECT 
+                p.nome_completo AS Docente, 
+                CAST(a.ano AS VARCHAR) AS Ano, 
+                a.titulo_artigo AS Titulo, 
+                a.autores AS Autores,
+                a.titulo_evento_lattes AS Evento, 
+                a.estrato AS Estrato, 
+                a.tipo_match AS "Tipo Match",
+                CASE WHEN a.coautoria_aluno = TRUE THEN 'Sim' ELSE 'Não' END AS "Coautoria Aluno"
+            FROM tb_artigo_conferencia a 
+            INNER JOIN tb_professores p ON a.id_lattes = p.id_lattes 
+            ORDER BY a.ano DESC
         """
         df_c = con.execute(query_c).df()
         st.dataframe(df_c, use_container_width=True, hide_index=True)
@@ -370,7 +390,7 @@ elif pagina_selecionada == "Relatório de Credenciamento Consolidado":
     with col_f2:
         ano_fim = st.number_input("Ano de Fim", min_value=ANO_MIN, max_value=ANO_MAX, value=ANO_MAX)
         
-    st.markdown(f"**Janela regulamentar consolidada ativa: {ano_inicio} a {ano_fim}**")
+    st.markdown(f"**Janela regulamentar consolidada activa: {ano_inicio} a {ano_fim}**")
     
     filtro_tipo_avaliacao = st.radio("Selecione o Critério de Apuração institucional:", ["Pontuação Integral (A1-A8)", "Pontuação Restrita (A1-A4)"], horizontal=True)
     
@@ -413,7 +433,7 @@ elif pagina_selecionada == "Relatório de Credenciamento Consolidado":
     else:
         query_consolidada = """
             WITH cte_p_class AS (
-                SELECT id_lattes, computation_area,
+                SELECT id_lattes, computation_area, coautoria_aluno, -- << CORRIGIDO AQUI (Inclusão da coluna na CTE)
                     CASE 
                         WHEN maior_percentil >= 87.5 THEN 1.000 WHEN maior_percentil >= 75.0 THEN 0.875
                         WHEN maior_percentil >= 62.5 THEN 0.750 WHEN maior_percentil >= 50.0 THEN 0.625
