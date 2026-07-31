@@ -1,0 +1,6 @@
+beautifulsoup4==4.13.5
+networkx==3.5
+rapidfuzz==3.14.0
+scipy==1.16.1
+selenium==4.35.0
+tqdm==4.67.1

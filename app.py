@@ -4,8 +4,11 @@ import pandas as pd
 import tempfile
 import os
 import re
+import time
 import html as html_lib
 from datetime import datetime
+
+import jobs
 
 # ==========================================
 # 1. CONFIGURAÇÃO DA INTERFACE INSTITUCIONAL
@@ -152,6 +155,33 @@ def carregar_base_comparacao(arquivo_bytes, nome_arquivo):
             )
     return conexao_b
 
+@st.cache_resource(show_spinner=False)
+def abrir_base_comparacao_gerida(caminho, _mtime):
+    """Abre (somente leitura) um DuckDB de comparação gerido pelo sistema
+    (gerado por run_process_comparacao.py). Cache chaveado por (caminho,
+    mtime) -- reabre sozinho quando o arquivo é regenerado por um
+    reprocessamento novo."""
+    return duckdb.connect(database=caminho, read_only=True)
+
+def listar_bases_comparacao_info():
+    """Uma linha por base de comparação (.list em scriptlattes/exemplo/comparacao/):
+    nome, status de extração/processamento e se já existe um DuckDB gerado."""
+    linhas = []
+    for nome in jobs.listar_nomes_comparacao():
+        status_extract = jobs.read_status(jobs.comparacao_extract_status(nome))
+        status_process = jobs.read_status(jobs.comparacao_process_status(nome))
+        duckdb_path = f"pesquisadores_comparacao_{nome}.duckdb"
+        duckdb_existe = os.path.exists(duckdb_path)
+        linhas.append({
+            "nome": nome,
+            "última extração": status_extract.get("finished_at") or ("em execução" if status_extract.get("state") == "running" else "nunca"),
+            "último processamento": status_process.get("finished_at") or ("em execução" if status_process.get("state") == "running" else "nunca"),
+            "banco gerado": "sim" if duckdb_existe else "não",
+            "_duckdb_path": duckdb_path,
+            "_duckdb_existe": duckdb_existe,
+        })
+    return linhas
+
 # ==========================================
 # 3. MENU DE NAVEGAÇÃO INTERNO
 # ==========================================
@@ -247,6 +277,89 @@ if "filtro_ano_fim" not in st.session_state:
 st.sidebar.info("Plataforma integrada com indexadores bibliográficos Lattes, Scopus e Google Scholar.")
 
 # ==========================================
+# 2.1 ATUALIZAÇÃO DE DADOS (EXTRAÇÃO + REPROCESSAMENTO)
+# ==========================================
+# Dois jobs assíncronos e destacados do processo do Streamlit (sobrevivem a
+# fechar a aba): "Re-extrair currículos" roda o scriptLattes (repo externo,
+# ver run_extract.py) e encadeia automaticamente o reprocessamento; "Reprocessar
+# dados" só executa `analyse_organizado.ipynb` via papermill sobre os JSONs
+# já extraídos. Status em dados_brutos/status/*.json, lidos aqui via poll.
+
+st.sidebar.divider()
+st.sidebar.subheader("Atualização de Dados")
+
+status_extract = jobs.read_status(jobs.EXTRACT_STATUS)
+status_process = jobs.read_status(jobs.PROCESS_STATUS)
+algum_job_rodando = status_extract.get("state") == "running" or status_process.get("state") == "running"
+extracao_global_rodando = jobs.existe_extracao_rodando()
+
+# Se o reprocessamento acabou de terminar com sucesso, a conexão em cache
+# ainda aponta para o arquivo antigo -- descarta para reabrir o DuckDB novo
+# na próxima query. Só faz isso uma vez por conclusão (rastreado na sessão).
+if status_process.get("state") == "done":
+    if st.session_state.get("_ultimo_process_done") != status_process.get("finished_at"):
+        st.session_state["_ultimo_process_done"] = status_process.get("finished_at")
+        get_db_connection.clear()
+        st.rerun()
+
+col_extrair, col_reprocessar = st.sidebar.columns(2)
+
+ignorar_cache_extracao = st.sidebar.checkbox(
+    "Ignorar cache (rebaixar todos os currículos)",
+    value=False,
+    disabled=extracao_global_rodando,
+    help="Por padrão, 'Re-extrair' só busca quem ainda não foi baixado ou falhou -- "
+         "reaproveita o cache do scriptLattes, então não pega CVs atualizados de quem "
+         "já está no cache. Marque isto pra apagar o cache antes e rebaixar todo mundo "
+         "de novo (mais lento, mais requisições à Lattes -- maior risco de bloqueio).",
+)
+
+if col_extrair.button(
+    "Re-extrair currículos",
+    disabled=extracao_global_rodando,
+    help="Roda o scriptLattes (Selenium) contra a Lattes. Desabilitado enquanto "
+         "qualquer extração (principal ou de comparação) estiver em andamento.",
+    use_container_width=True,
+):
+    jobs.write_status(jobs.EXTRACT_STATUS, state="running", started_at=jobs.now_iso())
+    if ignorar_cache_extracao:
+        jobs.launch("run_extract.py", "--limpar-cache")
+    else:
+        jobs.launch("run_extract.py")
+    st.rerun()
+
+if col_reprocessar.button(
+    "Reprocessar dados",
+    disabled=algum_job_rodando,
+    help="Roda analyse_organizado.ipynb sobre os JSONs já extraídos, sem bater na Lattes.",
+    use_container_width=True,
+):
+    jobs.write_status(jobs.PROCESS_STATUS, state="running", started_at=jobs.now_iso())
+    jobs.launch("run_process.py")
+    st.rerun()
+
+def _linha_status(rotulo, status):
+    estado = status.get("state", "idle")
+    sufixo_cache = " (cache ignorado -- rebaixou tudo)" if status.get("cache_limpo") else ""
+    if estado == "running":
+        st.sidebar.caption(f"{rotulo}: em execução (desde {status.get('started_at', '?')}){sufixo_cache}")
+    elif estado == "done":
+        st.sidebar.caption(f"{rotulo}: última execução OK em {status.get('finished_at', '?')}{sufixo_cache}")
+    elif estado == "error":
+        st.sidebar.caption(f"{rotulo}: falhou em {status.get('finished_at', '?')}")
+        with st.sidebar.expander(f"Ver log de erro ({rotulo})"):
+            st.code(status.get("error", "(sem detalhes)"))
+    else:
+        st.sidebar.caption(f"{rotulo}: nunca executado")
+
+_linha_status("Extração", status_extract)
+_linha_status("Reprocessamento", status_process)
+
+if jobs.existe_algum_job_rodando():
+    time.sleep(2.5)
+    st.rerun()
+
+# ==========================================
 # 3.1 UPLOAD DA BASE DE COMPARAÇÃO (BASE B)
 # ==========================================
 # A base principal ("Base A") permanece fixa em pesquisadores.duckdb.
@@ -258,21 +371,135 @@ nome_base_b = None
 
 if pagina_selecionada == "Comparativo entre Bases":
     st.sidebar.divider()
-    st.sidebar.subheader("Base de Comparação")
-    arquivo_base_b = st.sidebar.file_uploader(
-        "Envie um segundo arquivo .duckdb (mesma arquitetura de tabelas)",
-        type=["duckdb", "db"],
-        help="O arquivo deve conter as mesmas tabelas da base institucional: "
-             "tb_professores, tb_artigo_periodico, tb_artigo_conferencia e tb_orientacoes."
+    st.sidebar.subheader("Bases de Comparação Geridas")
+
+    arquivo_lista = st.sidebar.file_uploader(
+        "Enviar lista (.list) de uma nova instituição/programa para comparar",
+        type=["list", "txt"],
+        help="Mesmo formato usado pelo scriptLattes: uma linha por pessoa, "
+             "'id_lattes,Nome Completo'. O banco gerado é nomeado a partir do "
+             "nome deste arquivo.",
+        key="upload_lista_comparacao",
     )
-    if arquivo_base_b is not None:
-        try:
-            con_b = carregar_base_comparacao(arquivo_base_b.getvalue(), arquivo_base_b.name)
-            nome_base_b = arquivo_base_b.name
-            st.sidebar.success(f"Base B carregada: {nome_base_b}")
-        except Exception as e:
-            st.sidebar.error(f"Falha ao abrir a base enviada: {e}")
-            con_b = None
+    if arquivo_lista is not None:
+        conteudo = arquivo_lista.getvalue().decode("utf-8", errors="replace")
+        linhas_validas = [l for l in conteudo.splitlines() if l.strip()]
+        if not linhas_validas or any("," not in l for l in linhas_validas):
+            st.sidebar.error(
+                "Arquivo inválido: cada linha não vazia precisa ter o formato "
+                "'id_lattes,Nome Completo' (mesmo formato do scriptLattes)."
+            )
+        else:
+            nome_comparacao = jobs.slugify(os.path.splitext(arquivo_lista.name)[0])
+            os.makedirs(jobs.COMPARACAO_LISTS_DIR, exist_ok=True)
+            destino_lista = os.path.join(jobs.COMPARACAO_LISTS_DIR, f"{nome_comparacao}.list")
+            with open(destino_lista, "w", encoding="utf-8") as f:
+                f.write(conteudo)
+            st.sidebar.success(f"Lista salva como '{nome_comparacao}' ({len(linhas_validas)} pessoa(s)).")
+
+    bases_comparacao = listar_bases_comparacao_info()
+
+    if not bases_comparacao:
+        st.sidebar.info("Nenhuma base de comparação cadastrada ainda -- envie uma lista acima.")
+    else:
+        st.sidebar.dataframe(
+            [{k: v for k, v in linha.items() if not k.startswith("_")} for linha in bases_comparacao],
+            hide_index=True,
+            use_container_width=True,
+        )
+
+        nomes_disponiveis = [linha["nome"] for linha in bases_comparacao]
+        nome_selecionado = st.sidebar.selectbox("Base de comparação para operar", nomes_disponiveis)
+        linha_selecionada = next(l for l in bases_comparacao if l["nome"] == nome_selecionado)
+
+        status_extract_comp = jobs.read_status(jobs.comparacao_extract_status(nome_selecionado))
+        status_process_comp = jobs.read_status(jobs.comparacao_process_status(nome_selecionado))
+        algum_job_comp_rodando = (
+            status_extract_comp.get("state") == "running" or status_process_comp.get("state") == "running"
+        )
+
+        col_extrair_comp, col_reprocessar_comp = st.sidebar.columns(2)
+
+        ignorar_cache_comp = st.sidebar.checkbox(
+            "Ignorar cache nesta base de comparação (rebaixar tudo)",
+            value=False,
+            disabled=algum_job_comp_rodando,
+            key="ignorar_cache_comparacao",
+        )
+
+        if col_extrair_comp.button(
+            "Re-extrair base de comparação",
+            disabled=jobs.existe_extracao_rodando() or algum_job_comp_rodando,
+            help="Roda o scriptLattes contra a lista desta base de comparação.",
+            use_container_width=True,
+            key="btn_extrair_comparacao",
+        ):
+            jobs.write_status(jobs.comparacao_extract_status(nome_selecionado), state="running", started_at=jobs.now_iso())
+            if ignorar_cache_comp:
+                jobs.launch("run_extract_comparacao.py", "--nome", nome_selecionado, "--limpar-cache")
+            else:
+                jobs.launch("run_extract_comparacao.py", "--nome", nome_selecionado)
+            st.rerun()
+
+        if col_reprocessar_comp.button(
+            "Reprocessar base de comparação",
+            disabled=algum_job_comp_rodando,
+            help="Roda analyse_organizado_comparação.ipynb sobre os JSONs já extraídos desta base.",
+            use_container_width=True,
+            key="btn_reprocessar_comparacao",
+        ):
+            jobs.write_status(jobs.comparacao_process_status(nome_selecionado), state="running", started_at=jobs.now_iso())
+            jobs.launch("run_process_comparacao.py", "--nome", nome_selecionado)
+            st.rerun()
+
+        _linha_status(f"Extração ({nome_selecionado})", status_extract_comp)
+        _linha_status(f"Reprocessamento ({nome_selecionado})", status_process_comp)
+
+        if algum_job_comp_rodando:
+            time.sleep(2.5)
+            st.rerun()
+
+    st.sidebar.divider()
+    st.sidebar.subheader("Base de Comparação (Base B)")
+
+    fonte_base_b = st.sidebar.radio(
+        "Fonte da Base B",
+        ["Base gerida pelo sistema", "Enviar arquivo .duckdb manualmente"],
+        horizontal=False,
+    )
+
+    if fonte_base_b == "Base gerida pelo sistema":
+        bases_com_duckdb = [l for l in bases_comparacao if l["_duckdb_existe"]] if bases_comparacao else []
+        if not bases_com_duckdb:
+            st.sidebar.info("Nenhuma base gerida com banco gerado ainda -- extraia e reprocesse uma acima.")
+        else:
+            nome_base_b_escolhida = st.sidebar.selectbox(
+                "Escolha a base gerida", [l["nome"] for l in bases_com_duckdb], key="select_base_b_gerida"
+            )
+            linha_escolhida = next(l for l in bases_com_duckdb if l["nome"] == nome_base_b_escolhida)
+            try:
+                mtime = os.path.getmtime(linha_escolhida["_duckdb_path"])
+                con_b = abrir_base_comparacao_gerida(linha_escolhida["_duckdb_path"], mtime)
+                nome_base_b = linha_escolhida["_duckdb_path"]
+                st.sidebar.success(f"Base B carregada: {nome_base_b}")
+            except Exception as e:
+                st.sidebar.error(f"Falha ao abrir a base gerida: {e}")
+                con_b = None
+    else:
+        arquivo_base_b = st.sidebar.file_uploader(
+            "Envie um segundo arquivo .duckdb (mesma arquitetura de tabelas)",
+            type=["duckdb", "db"],
+            help="O arquivo deve conter as mesmas tabelas da base institucional: "
+                 "tb_professores, tb_artigo_periodico, tb_artigo_conferencia e tb_orientacoes."
+        )
+        if arquivo_base_b is not None:
+            try:
+                con_b = carregar_base_comparacao(arquivo_base_b.getvalue(), arquivo_base_b.name)
+                nome_base_b = arquivo_base_b.name
+                st.sidebar.success(f"Base B carregada: {nome_base_b}")
+            except Exception as e:
+                st.sidebar.error(f"Falha ao abrir a base enviada: {e}")
+                con_b = None
 
 # ==========================================
 # 4. DESENVOLVIMENTO DOS MÓDULOS (DATAVIEWS)
@@ -327,22 +554,42 @@ elif pagina_selecionada == "Análise por Docente":
 
     # Tabela Mestra Unificada
     query_mestra = f"""
-        SELECT 
-            p.nome_completo AS Docente, 
-            COUNT(DISTINCT a_p.id_artigo_periodico) AS Periodicos, 
+        SELECT
+            p.nome_completo AS Docente,
+            p.data_ingresso AS "Ano de Ingresso",
+            COUNT(DISTINCT a_p.id_artigo_periodico) AS Periodicos,
             COUNT(DISTINCT a_c.id_artigo_conferencia) AS Conferencias,
             (COUNT(DISTINCT a_p.id_artigo_periodico) + COUNT(DISTINCT a_c.id_artigo_conferencia)) AS Total
         FROM tb_professores p
         LEFT JOIN tb_artigo_periodico a_p ON p.id_lattes = a_p.id_lattes AND a_p.ano_pub BETWEEN {f_ano_inicio} AND {f_ano_fim}{sql_fonte('a_p.fontes')}{sql_ingresso('a_p', 'ano_pub')}
         LEFT JOIN tb_artigo_conferencia a_c ON p.id_lattes = a_c.id_lattes AND a_c.ano BETWEEN {f_ano_inicio} AND {f_ano_fim}{sql_fonte('a_c.fontes')}{sql_ingresso('a_c', 'ano')}
-        GROUP BY p.nome_completo
+        GROUP BY p.nome_completo, p.data_ingresso
         ORDER BY Total DESC
     """
     df_mestra = con.execute(query_mestra).df()
-    
+
+    def _destacar_fora_do_periodo(linha):
+        """Sinaliza (linha inteira) o pesquisador cujo ano de ingresso é
+        posterior ao fim da janela selecionada -- ele ainda não fazia parte
+        do programa durante todo o período em análise, então a produção
+        exibida (sempre recortada por `sql_ingresso`) fica zerada aqui."""
+        fora = pd.notna(linha["Ano de Ingresso"]) and linha["Ano de Ingresso"] > f_ano_fim
+        cor = "background-color: rgba(255, 75, 75, 0.25)" if fora else ""
+        return [cor] * len(linha)
+
+    tabela_mestra_estilizada = (
+        df_mestra.style
+        .format({"Ano de Ingresso": lambda v: "—" if pd.isna(v) else str(int(v))})
+        .apply(_destacar_fora_do_periodo, axis=1)
+    )
+
     st.subheader("Volume de Produção por Pesquisador")
-    st.dataframe(df_mestra, use_container_width=True, hide_index=True)
-    
+    st.dataframe(tabela_mestra_estilizada, use_container_width=True, hide_index=True)
+    st.caption(
+        "Linhas destacadas: pesquisador ingressou no programa depois do fim do período "
+        "selecionado — não fazia parte dele durante a janela em análise, por isso não é contado."
+    )
+
     st.markdown("---")
     st.subheader("Análise Gráfica de Produção")
     
@@ -1701,6 +1948,40 @@ elif pagina_selecionada == "Comparativo entre Bases":
             }).set_index("Base")
             st.bar_chart(df_score_total, use_container_width=True)
 
+            st.markdown("#### Índices Per Capita (Score ÷ Docentes Cadastrados)")
+            st.caption(
+                "Calculado para os dois critérios de apuração simultaneamente, "
+                "independente do critério selecionado acima para o detalhamento por docente."
+            )
+            df_quad_geral_a = comp_indice_quadrienal(con, comp_ano_inicio, comp_ano_fim, False, frag_p=fA, frag_c=fA, aplicar_ingresso=True)
+            df_quad_geral_b = comp_indice_quadrienal(con_b, comp_ano_inicio, comp_ano_fim, False, frag_p=fB, frag_c=fB, aplicar_ingresso=ingresso_b_ok)
+            df_quad_restrito_a = comp_indice_quadrienal(con, comp_ano_inicio, comp_ano_fim, True, frag_p=fA, frag_c=fA, aplicar_ingresso=True)
+            df_quad_restrito_b = comp_indice_quadrienal(con_b, comp_ano_inicio, comp_ano_fim, True, frag_p=fB, frag_c=fB, aplicar_ingresso=ingresso_b_ok)
+
+            total_doc_a = len(df_quad_geral_a) or 1
+            total_doc_b = len(df_quad_geral_b) or 1
+
+            percapita_livre_a = df_quad_geral_a["Score Total"].sum() / total_doc_a
+            percapita_livre_b = df_quad_geral_b["Score Total"].sum() / total_doc_b
+            percapita_restrito_a = df_quad_restrito_a["Score Total"].sum() / total_doc_a
+            percapita_restrito_b = df_quad_restrito_b["Score Total"].sum() / total_doc_b
+
+            col_a, col_b = st.columns(2)
+            with col_a:
+                st.markdown("##### Base A")
+                st.metric("Per Capita — Livre (A1-A8)", f"{percapita_livre_a:.3f}")
+                st.metric("Per Capita — Restrito (A1-A4)", f"{percapita_restrito_a:.3f}")
+            with col_b:
+                st.markdown(f"##### Base B ({nome_base_b})")
+                st.metric(
+                    "Per Capita — Livre (A1-A8)", f"{percapita_livre_b:.3f}",
+                    delta=round(percapita_livre_b - percapita_livre_a, 3)
+                )
+                st.metric(
+                    "Per Capita — Restrito (A1-A4)", f"{percapita_restrito_b:.3f}",
+                    delta=round(percapita_restrito_b - percapita_restrito_a, 3)
+                )
+
         # ===== ABA 5: ORIENTAÇÕES ACADÊMICAS (lado a lado) =====
         with aba_orientacoes:
             st.subheader("Panorama de Orientações — Base A vs. Base B")
@@ -1719,6 +2000,23 @@ elif pagina_selecionada == "Comparativo entre Bases":
                     st.metric("Total de Orientações", tot_b, delta=tot_b - tot_a)
                     st.metric("Concluídas", conc_b, delta=conc_b - conc_a)
                     st.metric("Em Andamento", and_b, delta=and_b - and_a)
+
+                st.markdown("#### Orientações Per Capita (÷ Docentes Cadastrados)")
+                total_doc_ori_a = con.execute("SELECT COUNT(*) FROM tb_professores").fetchone()[0] or 1
+                total_doc_ori_b = con_b.execute("SELECT COUNT(*) FROM tb_professores").fetchone()[0] or 1
+                percapita_ori_a = tot_a / total_doc_ori_a
+                percapita_ori_b = tot_b / total_doc_ori_b
+
+                col_a, col_b = st.columns(2)
+                with col_a:
+                    st.markdown("##### Base A")
+                    st.metric("Orientações Per Capita", f"{percapita_ori_a:.2f}")
+                with col_b:
+                    st.markdown(f"##### Base B ({nome_base_b})")
+                    st.metric(
+                        "Orientações Per Capita", f"{percapita_ori_b:.2f}",
+                        delta=round(percapita_ori_b - percapita_ori_a, 2)
+                    )
 
                 st.markdown("#### Distribuição por Nível Acadêmico — Comparativo")
                 df_nivel_a = comp_orientacoes_por_nivel(con, comp_ano_inicio, comp_ano_fim, aplicar_ingresso=True)

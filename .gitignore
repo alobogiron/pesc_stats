@@ -3,3 +3,15 @@ __pycache__/
 dados_brutos
 .DS_Store
 .env
+
+# scriptLattes vendorizado: binário, cache de CVs baixados e saídas de scraping
+# não são versionados
+scriptlattes/chromedriver
+scriptlattes/cache/
+scriptlattes/exemplo/alunos_pesc/
+scriptlattes/exemplo/professores_ufrj/
+
+# Bases de comparação: as .list enviadas ficam versionadas, mas o .config
+# (regenerado a cada extração) e a saída bruta do scriptLattes, não.
+scriptlattes/exemplo/comparacao/*.config
+scriptlattes/exemplo/comparacao/*_saida/
