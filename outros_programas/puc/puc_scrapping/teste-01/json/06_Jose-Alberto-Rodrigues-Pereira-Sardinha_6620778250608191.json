@@ -1,0 +1,4281 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "6620778250608191",
+    "nome_completo": "Jose Alberto Rodrigues Pereira Sardinha",
+    "nome_citacoes": "SARDINHA, Jose Alberto Rodrigues Pereira;SARDINHA, ALBERTO;SARDINHA, José A.",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "Nível C",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática. Rua Marquês de São Vicente, 225 RDC, 4o Andar Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 URL da Homepage: http://www.inf.puc-rio.br",
+    "atualizacao_cv": "26/05/2026",
+    "url": "http://lattes.cnpq.br/6620778250608191",
+    "texto_resumo": "Possui graduação em Engenharia de Computação pela Pontifícia Universidade Católica do Rio de Janeiro(1997), especialização em Iag Master Em Finanças Corporativas pela Pontifícia Universidade Católica do Rio de Janeiro(1998), mestrado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro(2001), doutorado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro(2005), pós-doutorado pela Carnegie Mellon University(2008) e pós-doutorado pela Lancaster University(2010). Atualmente é Professor Adjunto da Pontifícia Universidade Católica do Rio de Janeiro e Coordenador do PPG em Informática da Pontifícia Universidade Católica do Rio de Janeiro. Tem experiência na área de Ciência da Computação, com ênfase em Inteligência Artificial. Atuando principalmente nos seguintes temas:Agentes de Software, Inteligência Artificial, machine learning e e-commerce. (Texto gerado automaticamente pela aplicação CVLattes)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "2001",
+      "ano_conclusao": "2005",
+      "descricao": "Título: MAS-School e ASYNC: Um Método e um Framework para Construção de Agentes Inteligentes O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2005. Orientador: Ruy Luiz Milidiú e Carlos José Pereira de Lucena. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Agentes de Software; Inteligência Artificial; machine learning; e-commerce. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Engenharia de Software. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Sistemas de Informação. Setores de atividade: Outras Atividades de Assessoria e Consultoria Às Empresas."
+    },
+    {
+      "tipo": "Mestrado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1999",
+      "ano_conclusao": "2001",
+      "descricao": "Título: VGroups: Um Framework para Grupos Virtuais de Consumo O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2001. Orientador: Ruy Luiz Milidiú. Bolsista do(a): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ, FAPERJ, Brasil. Palavras-chave: Agentes de Software; e-commerce; Data Mining; Frameworks Orientado a Objetos. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Engenharia de Software. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Sistemas de Informação. Setores de atividade: Outras Atividades de Assessoria e Consultoria Às Empresas."
+    },
+    {
+      "tipo": "Especialização em Iag Master Em Finanças Corporativas",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1998",
+      "ano_conclusao": "1998",
+      "descricao": ""
+    },
+    {
+      "tipo": "Graduação em Engenharia de Computação",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1992",
+      "ano_conclusao": "1997",
+      "descricao": "Título: Ferramentas de Depuração para Aplicações Distribuídas. Orientador: Noemi de La Rocque Rodriguez."
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Carnegie Mellon University, CMU, Estados Unidos.",
+      "instituicao_nome": "Carnegie Mellon University",
+      "instituicao_sigla": "CMU",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": "2005 - 2008",
+      "ano_inicio": "2005",
+      "ano_fim": "2008",
+      "vinculo": "Bolsista",
+      "enquadramento": "Pesquisador Pos Doutorado",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Carnegie Mellon University, CMU, Estados Unidos",
+      "instituicao_nome": "Carnegie Mellon University",
+      "instituicao_sigla": "CMU",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": "12/2005 - 05/2008",
+      "ano_inicio": "2005",
+      "ano_fim": "2008",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, School Of Computer Science, Institute For Software Research International."
+      ]
+    },
+    {
+      "instituicao": "Carnegie Mellon University, CMU, Estados Unidos",
+      "instituicao_nome": "Carnegie Mellon University",
+      "instituicao_sigla": "CMU",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": "08/2007 - 12/2007",
+      "ano_inicio": "2007",
+      "ano_fim": "2007",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2024 - Atual",
+      "ano_inicio": "2024",
+      "ano_fim": "Atual",
+      "vinculo": "Função de Gestão",
+      "enquadramento": "Coordenador do PPG em Informática",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2023 - Atual",
+      "ano_inicio": "2023",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor Adjunto",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2005 - 2005",
+      "ano_inicio": "2005",
+      "ano_fim": "2005",
+      "vinculo": "Bolsista recém-doutor",
+      "enquadramento": "Pesquisador",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2001 - 2005",
+      "ano_inicio": "2001",
+      "ano_fim": "2005",
+      "vinculo": "Bolsista de doutorado",
+      "enquadramento": "Aluno de doutorado",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1999 - 2001",
+      "ano_inicio": "1999",
+      "ano_fim": "2001",
+      "vinculo": "Bolsista de mestrado",
+      "enquadramento": "Aluno de Mestrado",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "08/2023 - Atual",
+      "ano_inicio": "2023",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "04/2023 - Atual",
+      "ano_inicio": "2023",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "04/2023 - Atual",
+      "ano_inicio": "2023",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Getúlio",
+      "instituicao_nome": "Fundação Getúlio",
+      "instituicao_sigla": null,
+      "instituicao_pais": null,
+      "periodo": "2001 - 2005",
+      "ano_inicio": "2001",
+      "ano_fim": "2005",
+      "vinculo": "Professor Convidado",
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Getúlio Vargas, FGV, Brasil",
+      "instituicao_nome": "Fundação Getúlio Vargas",
+      "instituicao_sigla": "FGV",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Lancaster University, LANCASTER, Inglaterra.",
+      "instituicao_nome": "Lancaster University",
+      "instituicao_sigla": "LANCASTER",
+      "instituicao_pais": "Inglaterra",
+      "periodo": "2008 - 2010",
+      "ano_inicio": "2008",
+      "ano_fim": "2010",
+      "vinculo": "Bolsista",
+      "enquadramento": "Pesquisador com Bolsa Marie Curie",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Lancaster University, LANCASTER, Inglaterra",
+      "instituicao_nome": "Lancaster University",
+      "instituicao_sigla": "LANCASTER",
+      "instituicao_pais": "Inglaterra",
+      "periodo": "06/2008 - 06/2010",
+      "ano_inicio": "2008",
+      "ano_fim": "2010",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Computing Department."
+      ]
+    },
+    {
+      "instituicao": "Instituto Superior Técnico, IST, Portugal.",
+      "instituicao_nome": "Instituto Superior Técnico",
+      "instituicao_sigla": "IST",
+      "instituicao_pais": "Portugal",
+      "periodo": "2010 - 2023",
+      "ano_inicio": "2010",
+      "ano_fim": "2023",
+      "vinculo": "Servidor público",
+      "enquadramento": "Professor Auxiliar",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Superior Técnico, IST, Portugal",
+      "instituicao_nome": "Instituto Superior Técnico",
+      "instituicao_sigla": "IST",
+      "instituicao_pais": "Portugal",
+      "periodo": "07/2010 - 07/2023",
+      "ano_inicio": "2010",
+      "ano_fim": "2023",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Departamento de Engenharia Informática."
+      ]
+    },
+    {
+      "instituicao": "Instituto Superior Técnico, IST, Portugal",
+      "instituicao_nome": "Instituto Superior Técnico",
+      "instituicao_sigla": "IST",
+      "instituicao_pais": "Portugal",
+      "periodo": "07/2010 - 07/2023",
+      "ano_inicio": "2010",
+      "ano_fim": "2023",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Superior Técnico, IST, Portugal",
+      "instituicao_nome": "Instituto Superior Técnico",
+      "instituicao_sigla": "IST",
+      "instituicao_pais": "Portugal",
+      "periodo": "07/2010 - 07/2023",
+      "ano_inicio": "2010",
+      "ano_fim": "2023",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Superior Técnico, IST, Portugal",
+      "instituicao_nome": "Instituto Superior Técnico",
+      "instituicao_sigla": "IST",
+      "instituicao_pais": "Portugal",
+      "periodo": "07/2010 - 07/2023",
+      "ano_inicio": "2010",
+      "ano_fim": "2023",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Departamento de Engenharia Informática."
+      ]
+    },
+    {
+      "instituicao": "Instituto Superior Técnico, IST, Portugal",
+      "instituicao_nome": "Instituto Superior Técnico",
+      "instituicao_sigla": "IST",
+      "instituicao_pais": "Portugal",
+      "periodo": "01/2023 - 06/2023",
+      "ano_inicio": "2023",
+      "ano_fim": "2023",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Departamento de Engenharia Informática."
+      ]
+    },
+    {
+      "instituicao": "Instituto Superior Técnico, IST, Portugal",
+      "instituicao_nome": "Instituto Superior Técnico",
+      "instituicao_sigla": "IST",
+      "instituicao_pais": "Portugal",
+      "periodo": "01/2014 - 12/2015",
+      "ano_inicio": "2014",
+      "ano_fim": "2015",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Departamento de Engenharia Informática."
+      ]
+    },
+    {
+      "instituicao": "Instituto Superior Técnico, IST, Portugal",
+      "instituicao_nome": "Instituto Superior Técnico",
+      "instituicao_sigla": "IST",
+      "instituicao_pais": "Portugal",
+      "periodo": "01/2012 - 12/2013",
+      "ano_inicio": "2012",
+      "ano_fim": "2013",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Departamento de Engenharia Informática."
+      ]
+    },
+    {
+      "instituicao": "Instituto Superior Técnico, IST, Portugal",
+      "instituicao_nome": "Instituto Superior Técnico",
+      "instituicao_sigla": "IST",
+      "instituicao_pais": "Portugal",
+      "periodo": "01/2012 - 12/2013",
+      "ano_inicio": "2012",
+      "ano_fim": "2013",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Departamento de Engenharia Informática."
+      ]
+    },
+    {
+      "instituicao": "Instituto Superior Técnico, IST, Portugal",
+      "instituicao_nome": "Instituto Superior Técnico",
+      "instituicao_sigla": "IST",
+      "instituicao_pais": "Portugal",
+      "periodo": "01/2012 - 12/2013",
+      "ano_inicio": "2012",
+      "ano_fim": "2013",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Departamento de Engenharia Informática."
+      ]
+    },
+    {
+      "instituicao": "IBM BRASIL IND.MAQ. E SER",
+      "instituicao_nome": "IBM BRASIL IND.MAQ. E SER",
+      "instituicao_sigla": null,
+      "instituicao_pais": null,
+      "periodo": "1995 - 1999",
+      "ano_inicio": "1995",
+      "ano_fim": "1999",
+      "vinculo": "Especialista de Sistemas",
+      "enquadramento": "Funcionário",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "IBM BRASIL IND",
+      "instituicao_nome": "IBM BRASIL IND",
+      "instituicao_sigla": null,
+      "instituicao_pais": null,
+      "periodo": "02/1995 - 02/1999",
+      "ano_inicio": "1995",
+      "ano_fim": "1999",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto de Engenharia de Sistemas e Computadores - Investigação e Desenv., INESC-ID, Portugal.",
+      "instituicao_nome": "Instituto de Engenharia de Sistemas e Computadores - Investigação e Desenv.",
+      "instituicao_sigla": "INESC-ID",
+      "instituicao_pais": "Portugal",
+      "periodo": "2012 - 2023",
+      "ano_inicio": "2012",
+      "ano_fim": "2023",
+      "vinculo": "Pesquisador",
+      "enquadramento": "Pesquisador Sênior",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto de Engenharia de Sistemas e Computadores - Investigação e Desenv",
+      "instituicao_nome": "Instituto de Engenharia de Sistemas e Computadores - Investigação e Desenv",
+      "instituicao_sigla": null,
+      "instituicao_pais": null,
+      "periodo": "03/2012 - 07/2023",
+      "ano_inicio": "2012",
+      "ano_fim": "2023",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Group of Artificial Intelligence for People and Society."
+      ]
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Submarino - Geração de conhecimento sobre integridade e confiabilidade de dutos e equipamentos submarinos com base em dados estruturados, semiestruturados e não estruturados",
+      "ano_inicio": "2023",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Projeto de pesquisa com Petrobrás que tem o objetivo de criar uma solução com IA Generativa para encontrar informações em relatórios de inspeção. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Coordenador / Ítalo Matias - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Ítalo Matias",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Trustworthy Ad Hoc Teamwork",
+      "ano_inicio": "2022",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: The goal of the Trustworthy Ad Hoc Teamwork project is to create an autonomous agent that can collaborate efficiently and robustly with previously unknown teammates. To do so, the group of researchers will create new artificial intelligence teamwork algorithms and explore the issue of trust in human-robot interactions, addressing a vital question: How can a robot learn to cooperate on the fly with unknown human teammates in complex domains, and at the same time foster the development of a trusting relationship?. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) Doutorado: (4) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Coordenador / PAIVA, ANA - Integrante / Francisco S. Melo - Integrante / Sérgio Colcher - Integrante / lEduardo Laber - Integrante. Financiador(es): Air Force Office of Scientific Research - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "PAIVA, ANA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Francisco S",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Air Force Office of Scientific Research",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "RELEvaNT - REinforcement LEarning in Non-stationary environmenTs",
+      "ano_inicio": "2022",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Reinforcement learning (RL), both classical algorithms and their deep variants, critically rely on the fact that the underlying system is assumed stationary. RELEvaNT will investigate new models and methods for efficient deep RL in non-stationary environments and the potential applications on several \"human-centered\" domains.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (3) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Integrante / MELO, FRANCISCO S. - Coordenador. Financiador(es): Fundação para a Ciência e a Tecnologia - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "MELO, FRANCISCO S",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação para a Ciência e a Tecnologia",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "HOTSPOT - Human-robOt TeamS without PrecoOrdinaTion",
+      "ano_inicio": "2021",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Ad hoc teamwork aims to build learning agents, such as softbots or robots, that engage in cooperative tasks with other unknown agents. This research project explores the challenges posed by the collaborative interaction between robots and humans in order to build novel decision-making algorithms.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (2) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Coordenador / PAIVA, ANA - Integrante / MELO, FRANCISCO S. - Integrante. Financiador(es): Fundação para a Ciência e a Tecnologia - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "PAIVA, ANA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "MELO, FRANCISCO S",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação para a Ciência e a Tecnologia",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "TAILOR - Foundations of Trustworthy AI - Integrating Reasoning, Learning and Optimization",
+      "ano_inicio": "2020",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: The EU-funded TAILOR project aims to bring European AI groups together in a single scientific network on the Foundations of Trustworthy AI. Hence, reducing the fragmentation and increasing the joint AI research capacity, helping it take the lead and advance the state-of-the-art in trustworthy AI.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (2) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Integrante / PAIVA, ANA - Coordenador. Financiador(es): Comissão Européia - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "PAIVA, ANA",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Comissão Européia",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "ILU - Integrative Learning from Urban Data and Situational Context for City Mobility Optimization",
+      "ano_inicio": "2019",
+      "ano_conclusao": "2022",
+      "descricao": [
+        "Descrição: Our research work aims to create novel deep reinforcement learning approaches for traffic light control. In particular, we are interested in distributed RL approaches that take advantage of rich multiagent models, thus learning distributed policies that consider several traffic patterns (e.g., disruptive events, pedestrians, and vehicles).. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (2) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Integrante / MELO, FRANCISCO S. - Integrante / Rui Henriques - Coordenador. Financiador(es): Fundação para a Ciência e a Tecnologia - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "MELO, FRANCISCO S",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação para a Ciência e a Tecnologia",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Ad Hoc Teams With Humans And Robots",
+      "ano_inicio": "2018",
+      "ano_conclusao": "2021",
+      "descricao": [
+        "Descrição: This project explores cutting-edge research on ad hoc teamwork and natural language processing for human-robot interaction. The project aims to create novel algorithms for ad hoc teamwork that are tailored for human-robot collaboration.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (2) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Coordenador / MELO, FRANCISCO S. - Integrante. Financiador(es): Air Force Office of Scientific Research - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "MELO, FRANCISCO S",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Air Force Office of Scientific Research",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "INSIDE - Intelligent Networked robot systems for Symbiotic Interaction with children with impaired Development",
+      "ano_inicio": "2014",
+      "ano_conclusao": "2018",
+      "descricao": [
+        "Descrição: The INSIDE project explored how to use symbiotic interactions between humans and robots in joint cooperative activities. The project strived to develop new hardware and software solutions to support real-world interactions between children with ASD and a robot in cooperative tasks with therapeutical purposes.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) Doutorado: (2) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Integrante / PAIVA, ANA - Integrante / MELO, FRANCISCO S. - Coordenador. Financiador(es): Fundação para a Ciência e a Tecnologia - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "PAIVA, ANA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "MELO, FRANCISCO S",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação para a Ciência e a Tecnologia",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "LIREC - LIving with Robots and IntEractive Companions",
+      "ano_inicio": "2008",
+      "ano_conclusao": "2012",
+      "descricao": [
+        "Descrição: LIREC is a research project that explored how we live with digital and interactive companions. Throughout the project, we explored how to design digital and interactive companions who could develop and read emotions and act cross-platform.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (4) Doutorado: (4) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Integrante / PAIVA, ANA - Coordenador. Financiador(es): Comissão Européia - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "PAIVA, ANA",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Comissão Européia",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Decentralized Trust Management in Supply Chains",
+      "ano_inicio": "2005",
+      "ano_conclusao": "2008",
+      "descricao": [
+        "Descrição: Trust management is a critical element in most supply chains, because it creates a secure collaborative environment for key trading partners to share information and trade goods in a timely and cost-effective manner. Sharing of accurate information that is trusted by every stages results in a lower cost of transactions and better matching of supply and demand throughout the supply chain. Moreover, the forces of globalization make trust management more challenging than ever. The objective of this project is to build an infrastructure based on semantic web services and software agents for the trust management of supply chains.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (0) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (1) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Integrante / Norman Sadeh - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Norman Sadeh",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "CMieux Supply Trading Agent",
+      "ano_inicio": "2005",
+      "ano_conclusao": "2008",
+      "descricao": [
+        "Descrição: Supply chains are a central element of today?s global economy. Existing management practices consist primarily of static interactions between established partners. Global competition, shorter product life cycles and the emergence of Internet-mediated business solutions create an incentive for exploring more dynamic supply chain practices. The Sup- ply Chain Trading Agent Competition (TAC SCM) was designed to explore approaches to dynamic supply chain trad- ing. TAC SCM pits against one another trading agents developed by teams from around the world. Each agent is responsible for running the procurement, planning and bidding operations of a PC assembly company, while compet- ing with others for both customer orders and supplies under varying market conditions. This paper presents Carnegie Mellon University?s 2005 TAC SCM entry, the CMieux supply chain trading agent. CMieux implements a novel ap- proach to coordinating supply chain bidding, procurement and planning, with an emphasis on the ability to rapidly adapt to changing market conditions. We present empirical results based on 200 games involving agents entered by 25 different teams during what can be seen as the most competitive phase of the 2005 tournament. Not only did CMieux perform among the top five agents, it significantly outperformed these agents in procurement while matching their bidding performance.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (1) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Integrante / Norman Sadeh - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Norman Sadeh",
+          "papel": "Coordenador"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Inteligência Artificial",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Aprendizado Automático",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Aprendizado Automático."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Sistemas Multi-Agente",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas Multi-Agente."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Português",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Francês",
+      "compreende": "Pouco",
+      "fala": "Pouco",
+      "le": "Pouco",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco."
+    },
+    {
+      "nome": "Espanhol",
+      "compreende": "Pouco",
+      "fala": "Pouco",
+      "le": "Pouco",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Prêmio de Excelência no Ensino, Instituto Superior Técnico, Universidade de Lisboa.",
+      "ano": 2024
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "Inteligência Artificial",
+      "objetivo": ""
+    },
+    {
+      "nome": "Aprendizado de Máquina",
+      "objetivo": ""
+    },
+    {
+      "nome": "Sistemas Multi-Agente",
+      "objetivo": ""
+    },
+    {
+      "nome": "Sistemas Multi-Agente",
+      "objetivo": ""
+    },
+    {
+      "nome": "Agentes para Negociacao Automatica",
+      "objetivo": ""
+    },
+    {
+      "nome": "Inteligência Artificial",
+      "objetivo": ""
+    },
+    {
+      "nome": "Aprendizado Automático",
+      "objetivo": ""
+    },
+    {
+      "nome": "Inteligência Artificial",
+      "objetivo": ""
+    },
+    {
+      "nome": "Aprendizado Auotmático",
+      "objetivo": ""
+    },
+    {
+      "nome": "Engenharia de Software",
+      "objetivo": ""
+    },
+    {
+      "nome": "Inteligência Artificial",
+      "objetivo": ""
+    },
+    {
+      "nome": "Aprendizado Automático",
+      "objetivo": ""
+    },
+    {
+      "nome": "Sistemas Multi-Agente",
+      "objetivo": ""
+    },
+    {
+      "nome": "Inteligência Artificial",
+      "objetivo": ""
+    },
+    {
+      "nome": "Aprendizado Automático",
+      "objetivo": ""
+    },
+    {
+      "nome": "Sistemas Multi-Agente",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Centralized training with hybrid execution in multi-agent reinforcement learning via predictive observation imputation",
+        "ano": 2025,
+        "autores": "SANTOS, PEDRO P. ; CARVALHO, DIOGO S. ; VASCO, MIGUEL ; SARDINHA, ALBERTO ; SANTOS, PEDRO A. ; PAIVA, ANA ; MELO, FRANCISCO S.",
+        "revista": "ARTIFICIAL INTELLIGENCE",
+        "volume": "348",
+        "numero": "",
+        "paginas": "104404",
+        "issn": "0004-3702",
+        "doi": "http://dx.doi.org/10.1016/j.artint.2025.104404",
+        "qualis": ""
+      },
+      {
+        "titulo": "The impact of data distribution on Q-learning with function approximation",
+        "ano": 2024,
+        "autores": "SANTOS, PEDRO P. ; CARVALHO, DIOGO S. ; SARDINHA, ALBERTO ; MELO, FRANCISCO S.",
+        "revista": "MACHINE LEARNING",
+        "volume": "113",
+        "numero": "",
+        "paginas": "6141-6163",
+        "issn": "0885-6125",
+        "doi": "http://dx.doi.org/10.1007/s10994-024-06564-5",
+        "qualis": ""
+      },
+      {
+        "titulo": "HOTSPOT: An ad hoc teamwork platform for mixed human-robot teams",
+        "ano": 2024,
+        "autores": "RIBEIRO, JOÃO G. ; HENRIQUES, LUIS MÜLLER ; COLCHER, SÉRGIO ; DUARTE, JULIO CESAR ; MELO, FRANCISCO S. ; MILIDIÚ, Ruy Luiz ; SARDINHA, ALBERTO",
+        "revista": "PLoS One",
+        "volume": "19",
+        "numero": "",
+        "paginas": "e0305705-27",
+        "issn": "1932-6203",
+        "doi": "http://dx.doi.org/10.1371/journal.pone.0305705",
+        "qualis": ""
+      },
+      {
+        "titulo": "Onception</i> : Active Learning with Expert Advice for Real World Machine Translation",
+        "ano": 2023,
+        "autores": "MENDONÇA, VÂNIA ; REI, RICARDO ; COHEUR, LUÍSA ; SARDINHA, ALBERTO",
+        "revista": "COMPUTATIONAL LINGUISTICS",
+        "volume": "49",
+        "numero": "",
+        "paginas": "325-372",
+        "issn": "0891-2017",
+        "doi": "http://dx.doi.org/10.1162/coli_a_00473",
+        "qualis": ""
+      },
+      {
+        "titulo": "TEAMSTER: Model-based reinforcement learning for ad hoc teamwork",
+        "ano": 2023,
+        "autores": "RIBEIRO, JOÃO G. ; RODRIGUES, GONÇALO ; SARDINHA, ALBERTO ; MELO, FRANCISCO S.",
+        "revista": "ARTIFICIAL INTELLIGENCE",
+        "volume": "324",
+        "numero": "",
+        "paginas": "104013-104039",
+        "issn": "0004-3702",
+        "doi": "http://dx.doi.org/10.1016/j.artint.2023.104013",
+        "qualis": ""
+      },
+      {
+        "titulo": "Optimal price subsidies under uncertainty",
+        "ano": 2022,
+        "autores": "BARBOSA, LUCIANA ; RODRIGUES, ARTUR ; SARDINHA, ALBERTO",
+        "revista": "EUROPEAN JOURNAL OF OPERATIONAL RESEARCH",
+        "volume": "303",
+        "numero": "",
+        "paginas": "471-479",
+        "issn": "0377-2217",
+        "doi": "http://dx.doi.org/10.1016/j.ejor.2022.02.024",
+        "qualis": ""
+      },
+      {
+        "titulo": "Use of Learning Mechanisms to Improve the Condition Monitoring of Wind Turbine Generators: A Review",
+        "ano": 2021,
+        "autores": "NUNES, ANA RITA ; MORAIS, HUGO ; SARDINHA, ALBERTO",
+        "revista": "Energies",
+        "volume": "14",
+        "numero": "",
+        "paginas": "7129",
+        "issn": "1996-1073",
+        "doi": "http://dx.doi.org/10.3390/en14217129",
+        "qualis": ""
+      },
+      {
+        "titulo": "Feed-in tariff contract schemes and regulatory uncertainty",
+        "ano": 2020,
+        "autores": "BARBOSA, LUCIANA ; NUNES, CLÁUDIA ; RODRIGUES, ARTUR ; SARDINHA, ALBERTO",
+        "revista": "EUROPEAN JOURNAL OF OPERATIONAL RESEARCH",
+        "volume": "287",
+        "numero": "",
+        "paginas": "331-347",
+        "issn": "0377-2217",
+        "doi": "http://dx.doi.org/10.1016/j.ejor.2020.04.054",
+        "qualis": ""
+      },
+      {
+        "titulo": "Project INSIDE: towards autonomous semi-unstructured human-robot social interaction in autism therapy",
+        "ano": 2019,
+        "autores": "MELO, FRANCISCO S. ; SARDINHA, ALBERTO ; BELO, DAVID ; COUTO, MARTA ; FARIA, MIGUEL ; FARIAS, ANABELA ; GAMBÔA, HUGO ; JESUS, CÁTIA ; KINARULLATHIL, MITHUN ; LIMA, PEDRO ; LUZ, LUÍS ; MATEUS, ANDRÉ ; MELO, ISABEL ; MORENO, PLINIO ; OSÓRIO, DANIEL ; PAIVA, ANA ; PIMENTEL, JHIELSON ; RODRIGUES, JOÃO ; SEQUEIRA, PEDRO ; SOLERA-UREÑA, RUBÉN ; et.al",
+        "revista": "ARTIFICIAL INTELLIGENCE IN MEDICINE",
+        "volume": "96",
+        "numero": "",
+        "paginas": "198-216",
+        "issn": "0933-3657",
+        "doi": "http://dx.doi.org/10.1016/j.artmed.2018.12.003",
+        "qualis": ""
+      },
+      {
+        "titulo": "Feed-in tariffs with minimum price guarantees and regulatory uncertainty",
+        "ano": 2018,
+        "autores": "BARBOSA, LUCIANA ; FERRÃO, PAULO ; RODRIGUES, ARTUR ; SARDINHA, ALBERTO",
+        "revista": "ENERGY ECONOMICS",
+        "volume": "72",
+        "numero": "",
+        "paginas": "517-541",
+        "issn": "0140-9883",
+        "doi": "http://dx.doi.org/10.1016/j.eneco.2018.04.028",
+        "qualis": ""
+      },
+      {
+        "titulo": "Ad hoc teamwork by learning teammates? task",
+        "ano": 2016,
+        "autores": "MELO, FRANCISCO S. ; SARDINHA, ALBERTO",
+        "revista": "AUTONOMOUS AGENTS AND MULTI-AGENT SYSTEMS",
+        "volume": "30",
+        "numero": "",
+        "paginas": "175-219",
+        "issn": "1387-2532",
+        "doi": "http://dx.doi.org/10.1007/s10458-015-9280-x",
+        "qualis": ""
+      },
+      {
+        "titulo": "Migration Between Two Embodiments of an Artificial Pet",
+        "ano": 2014,
+        "autores": "GOMES, PAULO F. ; SARDINHA, ALBERTO ; MÁRQUEZ SEGURA, ELENA ; CRAMER, HENRIETTE ; PAIVA, ANA",
+        "revista": "International Journal of Humanoid Robotics",
+        "volume": "11",
+        "numero": "",
+        "paginas": "1450001",
+        "issn": "0219-8436",
+        "doi": "http://dx.doi.org/10.1142/S0219843614500017",
+        "qualis": ""
+      },
+      {
+        "titulo": "EA-Analyzer: automating conflict detection in a large set of textual aspect-oriented requirements",
+        "ano": 2013,
+        "autores": "SARDINHA, ALBERTO; CHITCHYAN, RUZANNA ; WESTON, NATHAN ; GREENWOOD, PHIL ; RASHID, AWAIS",
+        "revista": "Automated Software Engineering",
+        "volume": "20",
+        "numero": "",
+        "paginas": "111-135",
+        "issn": "0928-8910",
+        "doi": "http://dx.doi.org/10.1007/s10515-012-0106-7",
+        "qualis": ""
+      },
+      {
+        "titulo": "A meta-control architecture for orchestrating policy enforcement across heterogeneous information sources",
+        "ano": 2009,
+        "autores": "RAO, JINGHAI ; SARDINHA, ALBERTO ; SADEH, Norman",
+        "revista": "Journal of Web Semantics",
+        "volume": "7",
+        "numero": "",
+        "paginas": "40-56",
+        "issn": "1570-8268",
+        "doi": "http://dx.doi.org/10.1016/j.websem.2007.10.001",
+        "qualis": ""
+      },
+      {
+        "titulo": "CMieux: Adaptive strategies for competitive supply chain trading",
+        "ano": 2009,
+        "autores": "BENISCH, Michael ; SARDINHA, ALBERTO ; ANDREWS, James ; RAVICHANDRAN, RAMPRASAD ; SADEH, Norman",
+        "revista": "Electronic Commerce Research and Applications",
+        "volume": "8",
+        "numero": "",
+        "paginas": "78-90",
+        "issn": "1567-4223",
+        "doi": "http://dx.doi.org/10.1016/j.elerap.2008.09.005",
+        "qualis": ""
+      },
+      {
+        "titulo": "The 2007 procurement challenge: A competition to evaluate mixed procurement strategies",
+        "ano": 2009,
+        "autores": "SARDINHA, ALBERTO; BENISCH, Michael ; SADEH, Norman ; RAVICHANDRAN, RAMPRASAD ; PODOBNIK, VEDRAN ; STAN, MIHAI",
+        "revista": "Electronic Commerce Research and Applications",
+        "volume": "8",
+        "numero": "",
+        "paginas": "106-114",
+        "issn": "1567-4223",
+        "doi": "http://dx.doi.org/10.1016/j.elerap.2008.09.002",
+        "qualis": ""
+      },
+      {
+        "titulo": "Real estate and real options - A case study",
+        "ano": 2007,
+        "autores": "ROCHA, Katia ; BARBOSA, Luciana Salles ; ALCARAZ, Francisco ; SARDINHA, Jose Alberto Rodrigues Pereira ; TEIXEIRA, José Paulo",
+        "revista": "Emerging Markets Review",
+        "volume": "8",
+        "numero": "",
+        "paginas": "67-79",
+        "issn": "1566-0141",
+        "doi": "http://dx.doi.org/10.1016/j.ememar.2006.09.008",
+        "qualis": ""
+      },
+      {
+        "titulo": "A combined specification language and development framework for agent-based application engineering",
+        "ano": 2006,
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; CHOREN, Ricardo ; TORRES, Viviane ; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P.",
+        "revista": "JOURNAL OF SYSTEMS AND SOFTWARE",
+        "volume": "79",
+        "numero": "11",
+        "paginas": "1565-1577",
+        "issn": "0164-1212",
+        "doi": "http://dx.doi.org/10.1016/j.jss.2006.02.018",
+        "qualis": ""
+      },
+      {
+        "titulo": "CMieux",
+        "ano": 2006,
+        "autores": "BENISCH, Michael ; SARDINHA, ALBERTO ; ANDREWS, James ; SADEH, Norman",
+        "revista": "Si Gecom Exchanges",
+        "volume": "6",
+        "numero": "",
+        "paginas": "1-10",
+        "issn": "1551-9031",
+        "doi": "http://dx.doi.org/10.1145/1150735.1150737",
+        "qualis": ""
+      },
+      {
+        "titulo": "Software engineering for large-scale multi-agent systems",
+        "ano": 2003,
+        "autores": "GARCIA, Alessandro ; PERINI, Anna ; SARDINHA, Jose Alberto Rodrigues Pereira ; LUCENA, Carlos ; CASTRO, Jaelson ; LEITE, Júlio ; MILIDIÚ, Ruy ; ROMANOVSKY, Alexander ; GRISS, Martin ; LEMOS, Rogério de",
+        "revista": "SOFTWARE ENGINEERING NOTES",
+        "volume": "28",
+        "numero": "6",
+        "paginas": "1",
+        "issn": "0163-5948",
+        "doi": "http://dx.doi.org/10.1145/966221.966223",
+        "qualis": ""
+      },
+      {
+        "titulo": "An Object-Oriented Framework for Building Software Agents",
+        "ano": 2003,
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; RIBEIRO, Paula Clark ; MILIDIÚ, Ruy Luiz ; LUCENA, Carlos José Pereira de",
+        "revista": "Journal of Object Technology",
+        "volume": "2",
+        "numero": "1",
+        "paginas": "85-97",
+        "issn": "1660-1769",
+        "doi": "",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [
+      {
+        "titulo": "Análise estatística de dados financeiros",
+        "ano": 2019,
+        "autores": "Conceição Amado ; Cláudia Nunes ; SARDINHA, ALBERTO",
+        "editora": "Sociedade Portuguesa de Estatística",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      }
+    ],
+    "capitulos_livros": [
+      {
+        "titulo": "Learning to Cooperate with Completely Unknown Teammates. Progress in Artificial Intelligence. EPIA 2022. Lecture Notes in Computer Science. 1ed",
+        "ano": 2022,
+        "autores": "NEVES, A. ; SARDINHA, ALBERTO",
+        "titulo_livro": "",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "739-750"
+      },
+      {
+        "titulo": "One Arm to Rule Them All: Online Learning with Multi-armed Bandits for Low-Resource Conversational Agents. Progress in Artificial Intelligence. EPIA 2021. Lecture Notes in Computer Science. 1ed",
+        "ano": 2021,
+        "autores": "MENDONCA, V. ; COHEUR, L. ; SARDINHA, ALBERTO",
+        "titulo_livro": "",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "625-634"
+      },
+      {
+        "titulo": "Ad Hoc Teamwork in the Presence of Non-stationary Teammates. Progress in Artificial Intelligence. EPIA 2021. Lecture Notes in Computer Science. 1ed",
+        "ano": 2021,
+        "autores": "SANTOS, P. M. ; RIBEIRO, J. G. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "titulo_livro": "",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "648-660"
+      },
+      {
+        "titulo": "Helping People on the Fly: Ad Hoc Teamwork for Human-Robot Teams. Progress in Artificial Intelligence. EPIA 2021. Lecture Notes in Computer Science. 1ed",
+        "ano": 2021,
+        "autores": "RIBEIRO, J. G. ; FARIA, M. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "titulo_livro": "",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "635-647"
+      },
+      {
+        "titulo": "Online Learning for Conversational Agents. Progress in Artificial Intelligence. EPIA 2017. Lecture Notes in Computer Science. 1ed",
+        "ano": 2017,
+        "autores": "MENDONCA, V. ; MELO, F. S. ; COHEUR, L. ; SARDINHA, ALBERTO",
+        "titulo_livro": "",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "739-750"
+      },
+      {
+        "titulo": "NAPP: Connecting Mentors and Students at Técnico Lisboa. Data Driven Approaches in Digital Education. EC-TEL 2017. Lecture Notes in Computer Science. 1ed",
+        "ano": 2017,
+        "autores": "VEIGA, P. ; SARDINHA, ALBERTO ; SANTOS, A. M. ; BOURA, C.",
+        "titulo_livro": "",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "610-613"
+      },
+      {
+        "titulo": "Conflict Identification with EA-Analyzer",
+        "ano": 2013,
+        "autores": "SARDINHA, ALBERTO; CHITCHYAN, R. ; ARAUJO, J. ; MOREIRA, A. ; RASHID, A.",
+        "titulo_livro": "",
+        "editora": "Springer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "209-224"
+      },
+      {
+        "titulo": "Electronic Markets and Multiagent Systems. Strategic and Pragmatic E-Business: Implications for Future Business Practices. 1ed",
+        "ano": 2012,
+        "autores": "SARDINHA, ALBERTO; MILIDIÚ, Ruy L.",
+        "titulo_livro": "",
+        "editora": "IGI Global",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "56-71"
+      },
+      {
+        "titulo": "Using Information Gain to Analyze and Fine Tune the Performance of Supply Chain Trading Agents. Agent-Mediated Electronic Commerce and Trading Agent Design and Analysis. AMEC TADA 2007. 1ed",
+        "ano": 2008,
+        "autores": "ANDREWS, James ; BENISCH, Michael ; SARDINHA, ALBERTO ; SADEH, Norman",
+        "titulo_livro": "",
+        "editora": "Springer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "182-199"
+      },
+      {
+        "titulo": "A Systematic Approach for Including Machine Learning in Multi-Agent Systems",
+        "ano": 2005,
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; GARCIA, Alessandro F. ; LUCENA, Carlos J. P. ; MILIDIÚ, Ruy L.",
+        "titulo_livro": "",
+        "editora": "Springer-Verlag",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "198-211"
+      },
+      {
+        "titulo": "Estruturas dinâmicas de incentivos para grupos de consumo",
+        "ano": 2001,
+        "autores": "BEVILACQUA, Flavio ; SARDINHA, Jose Alberto Rodrigues Pereira",
+        "titulo_livro": "",
+        "editora": "Papel Virtual Editora",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "145-160"
+      },
+      {
+        "titulo": "A Critical Look Upon Agent UML",
+        "ano": 2001,
+        "autores": "MAGALHÃES, João A. P. ; SARDINHA, Jose Alberto Rodrigues Pereira",
+        "titulo_livro": "",
+        "editora": "Papel Virtual Editora",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "69-82"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "Solving General-Utility Markov Decision Processes in the Single-Trial Regime with Online Planning",
+        "ano": 2026,
+        "doi": "http://dx.doi.org/10.1007/978-3-540-88713-3_13",
+        "autores": "SANTOS, P. P. ; SARDINHA, ALBERTO ; MELO, FRANCISCO S.",
+        "evento": "International Conference on Learning Representations",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Evaluating XAI Support From A Hierarchical Reinforcement Learning Policy in Human-Agent Collaboration",
+        "ano": 2026,
+        "doi": "",
+        "autores": "FERNANDES, M. L. S. ; SARDINHA, ALBERTO",
+        "evento": "nternational Conference on Autonomous Agents and Multiagent Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Distributed Value Decomposition Networks with Networked Agents",
+        "ano": 2025,
+        "doi": "",
+        "autores": "VARELA, G. S. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "evento": "International Conference on Autonomous Agents and MultiAgent Systems",
+        "cidade": "",
+        "paginas": "1-2",
+        "isbn": ""
+      },
+      {
+        "titulo": "Networked Agents in the Dark: Team Value Learning under Partial Observability",
+        "ano": 2025,
+        "doi": "",
+        "autores": "VARELA, G. S. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "evento": "International Conference on Autonomous Agents and MultiAgent Systems",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Implicit Repair with Reinforcement Learning in Emergent Communication",
+        "ano": 2025,
+        "doi": "",
+        "autores": "VITAL, F. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "evento": "International Conference on Autonomous Agents and Multiagent Systems",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Number of Trials Matters in Infinite-Horizon General-Utility Markov Decision Processes",
+        "ano": 2025,
+        "doi": "",
+        "autores": "SANTOS, P. P. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "evento": "The 42nd International Conference on Machine Learning (ICML 2025)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Framework for Requirements Classification with Machine Learning Methods",
+        "ano": 2025,
+        "doi": "",
+        "autores": "AZEVEDO, J. ; ARAUJO, J. ; SARDINHA, ALBERTO ; ALVES, C.",
+        "evento": "28o. Workshop em Engenharia de Requisitos (WER 2025)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Centralized Training with Hybrid Execution in Multi-Agent Reinforcement Learning",
+        "ano": 2024,
+        "doi": "",
+        "autores": "SANTOS, P. P. ; CARVALHO, D. S. ; VASCO, M. ; SARDINHA, ALBERTO ; SANTOS, P. A. ; PAIVA, A. ; MELO, FRANCISCO S.",
+        "evento": "International Conference on Autonomous Agents and Multiagent Systems",
+        "cidade": "",
+        "paginas": "2453-2455",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Middleware Architecture for Enhancing Multimedia Flows with High-Level Semantic Information",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1145/3672406.3672407",
+        "autores": "CARVALHO BOARO, JOSE MATHEUS ; BEZERRA DA COSTA, POLYANA ; DE SOUSA MORAES, DANIEL ; CUTRIM DOS SANTOS, PEDRO THIAGO ; RIBEIRO, JOÃO G. ; DUARTE, JULIO CESAR ; SARDINHA, ALBERTO ; COLCHER, SÉRGIO",
+        "evento": "IMXw '24: Proceedings of the 2024 ACM International Conference on Interactive Media Experiences Workshops",
+        "cidade": "",
+        "paginas": "1-6",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Systematic Approach To Derive Conceptual Models from BPMN Models",
+        "ano": 2024,
+        "doi": "",
+        "autores": "LOPES, R. ; ARAUJO, J. ; SILVEIRA, D. S. ; SARDINHA, ALBERTO",
+        "evento": "International Business Modeling and Software Design Symposium",
+        "cidade": "",
+        "paginas": "83-96",
+        "isbn": ""
+      },
+      {
+        "titulo": "Learning to Perceive in Deep Model-Free Reinforcement Learning",
+        "ano": 2023,
+        "doi": "",
+        "autores": "QUERIDO, G. ; SARDINHA, ALBERTO ; MELO, FRANCISCO S.",
+        "evento": "International Conference on Autonomous Agents and Multiagent Systems",
+        "cidade": "",
+        "paginas": "2595-2597",
+        "isbn": ""
+      },
+      {
+        "titulo": "Making Friends in the Dark: Ad Hoc Teamwork Under Partial",
+        "ano": 2023,
+        "doi": "",
+        "autores": "RIBEIRO, J. G. ; MARTINHO, C. ; SARDINHA, ALBERTO ; MELO, FRANCISCO S.",
+        "evento": "European Conference on Artificial Intelligence",
+        "cidade": "",
+        "paginas": "1954-1961",
+        "isbn": ""
+      },
+      {
+        "titulo": "Strategic Investment and Subsidies In An Asymmetric Duopoly",
+        "ano": 2023,
+        "doi": "",
+        "autores": "BARBOSA, LUCIANA ; RODRIGUES, ARTUR ; SARDINHA, ALBERTO",
+        "evento": "26th Annual International Real Options Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Strategic investment and subsidies within an asymmetric duopoly under uncertainty",
+        "ano": 2023,
+        "doi": "",
+        "autores": "BARBOSA, Luciana ; RODRIGUES, A. ; SARDINHA, ALBERTO",
+        "evento": "12th Portuguese Financial Network Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Feed-In Tariffs In Renewable Energy Projects",
+        "ano": 2022,
+        "doi": "",
+        "autores": "BARBOSA, Luciana ; Nunes, C. ; RODRIGUES, A. ; SARDINHA, ALBERTO",
+        "evento": "25th Annual International Real Options Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Auctions and Real Options: Bidding for Feed-In Tariff",
+        "ano": 2022,
+        "doi": "",
+        "autores": "BARBOSA, Luciana ; Nunes, C. ; RODRIGUES, A. ; SARDINHA, ALBERTO",
+        "evento": "29th Annual Global Finance Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Making Friends in the Dark: Ad Hoc Teamwork under Partial Observability",
+        "ano": 2022,
+        "doi": "",
+        "autores": "RIBEIRO, J. G. ; MARTINHO, C. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "evento": "IJCAI?22 Workshop on Ad Hoc Teamwork",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Perceive, Represent, Generate: Translating Multimodal Information to Robotic Motion Trajectories",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/IROS47612.2022.9981788",
+        "autores": "VITAL, FABIO ; VASCO, MIGUEL ; SARDINHA, ALBERTO ; MELO, FRANCISCO",
+        "evento": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "cidade": "",
+        "paginas": "5855",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Methodology for the Development of RL-Based Adaptive Traffic Signal Controllers",
+        "ano": 2021,
+        "doi": "",
+        "autores": "VARELA, G. ; SANTOS, P. P. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "evento": "AAAI Workshop on AI for Urban Mobility (AI4UM)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Online Learning Meets Machine Translation Evaluation: Finding the Best Systems with the Least Human Effort",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.18653/v1/2021.acl-long.242",
+        "autores": "MENDONÇA, VÂNIA ; REI, RICARDO ; COHEUR, LUISA ; SARDINHA, ALBERTO ; SANTOS, ANA LÚCIA",
+        "evento": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+        "cidade": "",
+        "paginas": "3105",
+        "isbn": ""
+      },
+      {
+        "titulo": "MARE: an Active Learning Approach for Requirements Classification",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/RE51729.2021.9714537",
+        "autores": "MAGALHAES, CLAUDIA ; ARAUJO, JOAO ; SARDINHA, ALBERTO",
+        "evento": "2021 IEEE 29th International Requirements Engineering Conference (RE)",
+        "cidade": "",
+        "paginas": "516",
+        "isbn": ""
+      },
+      {
+        "titulo": "Query Strategies, Assemble! Active Learning with Expert Advice for Low-resource Natural Language Processing",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/FUZZ48607.2020.9177707",
+        "autores": "MENDONCA, VANIA ; SARDINHA, ALBERTO ; COHEUR, LUISA ; SANTOS, ANA LUCIA",
+        "evento": "2020 IEEE International Conference on Fuzzy Systems (FUZZIEEE)",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "Investment Timing and Social Welfare under Feed-in Tariff Contract Schemes",
+        "ano": 2020,
+        "doi": "",
+        "autores": "BARBOSA, Luciana ; RODRIGUES, A. ; SARDINHA, ALBERTO",
+        "evento": "29th European Financial Management Association (EFMA) Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "L2F/INESC-ID at SemEval-2019 Task 2: Unsupervised Lexical Semantic Frame Induction using Contextualized Word Representations",
+        "ano": 2019,
+        "doi": "",
+        "autores": "RIBEIRO, E. ; MENDONCA, V. ; RIBEIRO, R. ; MATOS, D. M. ; SARDINHA, ALBERTO ; SANTOS, A. L. ; COHEUR, L.",
+        "evento": "13th International Workshop on Semantic Evaluation (SemEval-2019)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Feed-in Tariff Contract Schemes in Oligopoly",
+        "ano": 2018,
+        "doi": "",
+        "autores": "BARBOSA, Luciana ; RODRIGUES, A. ; SARDINHA, ALBERTO",
+        "evento": "The 22nd Annual International Real Options Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "NAPP: comunicar melhor num programa de mentorado",
+        "ano": 2018,
+        "doi": "",
+        "autores": "COSTA, C. ; CEPEDA, C. ; SARDINHA, ALBERTO ; SANTOS, A. M.",
+        "evento": "5o. Congresso Nacional de Práticas Pedagógicas no Ensino Superior (CNaPPES.18)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Feed-in Tariff Contract Schemes in Oligopoly",
+        "ano": 2018,
+        "doi": "",
+        "autores": "BARBOSA, Luciana ; RODRIGUES, A. ; SARDINHA, ALBERTO",
+        "evento": "10th Portuguese Finance Network Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Interactive Consoles for Adjustable Autonomy in Assistive Robots: a Case Study with ASD Children",
+        "ano": 2018,
+        "doi": "",
+        "autores": "PIMENTEL, J. M. ; GUERRA, C. ; SEQUEIRA, P. ; MATEUS, A. ; SARDINHA, ALBERTO ; MELO, F. S. ; LIMA, P. U.",
+        "evento": "IROS'2018 Workshop - Robots for Assisted Living",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Conversational Agent Powered by Online Learning",
+        "ano": 2017,
+        "doi": "",
+        "autores": "MENDONCA, V. ; MELO, F. S. ; COHEUR, L. ; SARDINHA, ALBERTO",
+        "evento": "2017 International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2017)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Napp - desenvolvimento de uma aplicação móvel no âmbito do programa sucesso escolar",
+        "ano": 2017,
+        "doi": "",
+        "autores": "COSTA, C. ; VEIGA, P. ; SANTOS, A. M. ; SARDINHA, ALBERTO",
+        "evento": "4o. Congresso Nacional de Práticas Pedagógicas no Ensino Superior (CNaPPES.17)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "VITHEA-Kids: Adapting The VITHEA Platform To Children With Autism Spectrum Disorder",
+        "ano": 2016,
+        "doi": "",
+        "autores": "MENDONCA, V. ; POMPILI, A. ; SARDINHA, ALBERTO ; COHEUR, L.",
+        "evento": "VI Workshop on Linguistics",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Ad Hoc Teamwork by Learning Teammates' Task",
+        "ano": 2016,
+        "doi": "",
+        "autores": "MELO, F. S. ; SARDINHA, ALBERTO",
+        "evento": "AAMAS '16: 2016 International Conference on Autonomous Agents & Multiagent Systems",
+        "cidade": "",
+        "paginas": "577",
+        "isbn": ""
+      },
+      {
+        "titulo": "Analysis of Renewable Energy Policy: Feed-in Tariffs with Minimum Price Guarantees",
+        "ano": 2016,
+        "doi": "",
+        "autores": "BARBOSA, Luciana ; FERRAO, P. ; RODRIGUES, A. ; SARDINHA, ALBERTO",
+        "evento": "6th MIT Portugal Program Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "VITHEA-Kids: Improving the Linguistic Skills of Children with Autism Spectrum Disorder",
+        "ano": 2016,
+        "doi": "",
+        "autores": "MENDONCA, V. ; FILIPE, C. ; COHEUR, L. ; SARDINHA, ALBERTO",
+        "evento": "12th International Conference on the Computational Processing of the Portuguese Language (PROPOR 2016)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An equilibrium analysis of feed-in tariff remunerations",
+        "ano": 2015,
+        "doi": "",
+        "autores": "BARBOSA, Luciana ; SARDINHA, ALBERTO ; TARSALEWSKA, M. ; FERRAO, P. ; RODRIGUES, A.",
+        "evento": "5th MIT Portugal Program Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "VITHEA-Kids",
+        "ano": 2015,
+        "doi": "http://dx.doi.org/10.1145/2700648.2811371",
+        "autores": "MENDONÇA, VÂNIA ; COHEUR, LUÍSA ; SARDINHA, ALBERTO",
+        "evento": "the 17th International ACM SIGACCESS Conference",
+        "cidade": "",
+        "paginas": "345",
+        "isbn": ""
+      },
+      {
+        "titulo": "Managerial Flexibilities and Competition in Renewable Energy Investment",
+        "ano": 2014,
+        "doi": "",
+        "autores": "BARBOSA, Luciana ; SARDINHA, ALBERTO ; TARSALEWSKA, M. ; FERRAO, P. ; RODRIGUES, A.",
+        "evento": "4th MIT Portugal Program Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Deploying a Renewable Energy Project: An Equilibrium Analysis",
+        "ano": 2013,
+        "doi": "",
+        "autores": "BARBOSA, Luciana ; SARDINHA, ALBERTO",
+        "evento": "1st International Conference on Energy & Environment",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An equilibrium analysis of feed-in tariff remuneration: market-dependent and market independent models",
+        "ano": 2013,
+        "doi": "",
+        "autores": "BARBOSA, Luciana Salles ; TARSALEWSKA, M. ; SARDINHA, ALBERTO",
+        "evento": "Conference on Corporate Sustainability and Eco-innovations",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "EA-tracer",
+        "ano": 2012,
+        "doi": "http://dx.doi.org/10.1145/2245276.2231938",
+        "autores": "SARDINHA, ALBERTO; YU, YIJUN ; NIU, NAN ; RASHID, AWAIS",
+        "evento": "the 27th Annual ACM Symposium",
+        "cidade": "",
+        "paginas": "1035",
+        "isbn": ""
+      },
+      {
+        "titulo": "Decentralized Multiagent Planning for Balance Control in Smart Grids",
+        "ano": 2012,
+        "doi": "",
+        "autores": "MELO, F. S. ; SARDINHA, ALBERTO ; WITIWICKI, Stefan ; RAMIREZ-ELIZONDO, L. M. ; SPAAN, M. T. J.",
+        "evento": "International Workshop on Information Technology for Energy Applications (IT4ENERGY 2012)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Managerial Flexibilities and Competition in Shopping Center Investment. Real Options Approach to Real Estate",
+        "ano": 2012,
+        "doi": "",
+        "autores": "BARBOSA, Luciana Salles ; TARSALEWSKA, M. ; SARDINHA, ALBERTO",
+        "evento": "4th ReCapNet Conference: Real Estate Markets and Capital Markets",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Conflict Management in Aspect-Oriented Requirements Engineering",
+        "ano": 2010,
+        "doi": "",
+        "autores": "SARDINHA, ALBERTO; ARAUJO, J. ; MOREIRA, A. ; RASHID, A.",
+        "evento": "2010 Workshop on Aspect Oriented Requirements Engineering and Architecture Design (Early Aspects @ AOSD 2010)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "EA-Analyzer: Automating Conflict Detection in Aspect-Oriented Requirements",
+        "ano": 2009,
+        "doi": "http://dx.doi.org/10.1109/ASE.2009.31",
+        "autores": "SARDINHA, ALBERTO; CHITCHYAN, RUZANNA ; WESTON, NATHAN ; GREENWOOD, PHIL ; RASHID, AWAIS",
+        "evento": "2009 24th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+        "cidade": "",
+        "paginas": "530",
+        "isbn": ""
+      },
+      {
+        "titulo": "The 2007 Procurement Challenge: A Competition to Evaluate Mixed Procurement Strategies",
+        "ano": 2008,
+        "doi": "",
+        "autores": "SARDINHA, ALBERTO; BENISCH, Michael ; SADEH, Norman ; RAVICHANDRAN, R. ; PODOBNIK, Vedran ; STAN, Mihai",
+        "evento": "AAAI-08 Workshop on Trading Agent Design and Analysis (TADA'08)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Enforcing Context-Sensitive Policies in Collaborative Business Environments",
+        "ano": 2007,
+        "doi": "http://dx.doi.org/10.1109/ICDEW.2007.4401058",
+        "autores": "SARDINHA, ALBERTO; RAO, JINGHAI ; SADEH, Norman",
+        "evento": "2007 IEEE 23rd International Conference on Data Engineering Workshop",
+        "cidade": "",
+        "paginas": "705",
+        "isbn": ""
+      },
+      {
+        "titulo": "What Differentiates a Winning Agent: An Information Gain Based Analysis of TAC-SCM",
+        "ano": 2007,
+        "doi": "",
+        "autores": "ANDREWS, James ; BENISCH, Michael ; SARDINHA, ALBERTO ; SADEH, Norman",
+        "evento": "AAAI-07 Workshop on Trading Agent Design and Analysis (TADA?07)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "CMieux: Adaptive Strategies for Competitive Supply Chains",
+        "ano": 2006,
+        "doi": "",
+        "autores": "BENISCH, Michael ; SARDINHA, Jose Alberto Rodrigues Pereira ; ANDREWS, James ; SADEH, Norman",
+        "evento": "The Eighth International Conference on Electronic Commerce",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Multi-Agent Architecture for a Dynamic Supply Chain Management",
+        "ano": 2006,
+        "doi": "",
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; MOLINARO, Marco S. ; PARANHOS, Patrick M. ; CUNHA, Pedro M ; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P.",
+        "evento": "The 19th International Florida AI Research Society Conference",
+        "cidade": "",
+        "paginas": "178-179",
+        "isbn": ""
+      },
+      {
+        "titulo": "CMieux: Carnegie Mellon Univeresity's Supply Chain Trading Agent",
+        "ano": 2006,
+        "doi": "",
+        "autores": "BENISCH, Michael ; ANDREWS, James ; SARDINHA, Jose Alberto Rodrigues Pereira ; SADEH, Norman",
+        "evento": "Poster Session at Trading Agent Competition 2006",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Agent Based Architecture for Highly Competitive Electronic Markets",
+        "ano": 2005,
+        "doi": "",
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; MILIDIÚ, Ruy L. ; PARANHOS, Patrick M. ; CUNHA, Pedro M ; LUCENA, Carlos J. P.",
+        "evento": "The 18th International FLAIRS Conference",
+        "cidade": "",
+        "paginas": "326-331",
+        "isbn": ""
+      },
+      {
+        "titulo": "Real Estate Investments: Risk Management and Real Option",
+        "ano": 2005,
+        "doi": "",
+        "autores": "BARBOSA, Luciana Salles ; ROCHA, Katia ; ALCARAZ, Francisco ; SARDINHA, Jose Alberto Rodrigues Pereira ; TEIXEIRA, José Paulo",
+        "evento": "9th International Managerial Real Options Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "LearnAgents 2005 - A multi-agent system for the TAC Classic",
+        "ano": 2005,
+        "doi": "",
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; PARANHOS, Patrick M. ; CUNHA, Pedro M ; MOLINARO, Marco S. ; MILIDIÚ, Helena ; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P.",
+        "evento": "Poster Session at Trading Agent Competition 2005",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "LearnAgentsSCM - A multi-agent system for the TAC Supply Chain Management",
+        "ano": 2005,
+        "doi": "",
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; PARANHOS, Patrick M. ; CUNHA, Pedro M ; MOLINARO, Marco S. ; MILIDIÚ, Helena ; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P.",
+        "evento": "Poster Session at Trading Agent Competition 2005",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Learning Aspect Pattern",
+        "ano": 2004,
+        "doi": "",
+        "autores": "GARCIA, Alessandro F. ; KULESZA, Uirá ; SARDINHA, Jose Alberto Rodrigues Pereira ; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P.",
+        "evento": "The 11th Conference on Pattern Languages of Programs (PLoP2004)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Agent Learning Pattern",
+        "ano": 2004,
+        "doi": "",
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; GARCIA, Alessandro F. ; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P.",
+        "evento": "4th Latin American Conference on Pattern Languages of Programming (SugarLoafPLoP'04)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Incorporation of Learning in Open Multi-Agent Systems: A Systematic Approach",
+        "ano": 2004,
+        "doi": "",
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; GARCIA, Alessandro F. ; LUCENA, Carlos J. P. ; MILIDIÚ, Ruy L.",
+        "evento": "Sixth International Bi-Conference Workshop on Agent Oriented Information Systems(AOIS-2004) at the 16th Conference on Advanced Information Systems Engineering",
+        "cidade": "",
+        "paginas": "309-324",
+        "isbn": ""
+      },
+      {
+        "titulo": "LearnAgents - A multi-agent system for the TAC Classic",
+        "ano": 2004,
+        "doi": "",
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P. ; PARANHOS, Patrick M. ; CUNHA, Pedro M",
+        "evento": "Thrird International Joint Conference on Autonomous Agents & Multi Agent Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Software Engineering for Large-Scale Multi-Agent Systems ? SELMAS 2003",
+        "ano": 2003,
+        "doi": "",
+        "autores": "LUCENA, Carlos ; SARDINHA, Jose Alberto Rodrigues Pereira ; GARCIA, Alessandro ; CASTRO, Jaelson ; ROMANOVSKY, Alexander ; ALENCAR, Paulo ; COWAN, Donald",
+        "evento": "International Conference on Software Engineering (ICSE 2003)",
+        "cidade": "",
+        "paginas": "771-772",
+        "isbn": ""
+      },
+      {
+        "titulo": "An OO Framework for building Intelligence and Learning properties in Software Agents",
+        "ano": 2003,
+        "doi": "",
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P. ; PARANHOS, Patrick M.",
+        "evento": "International Conference on Software Engineering (ICSE 2003)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An object-oriented framework for creating offerings",
+        "ano": 2001,
+        "doi": "",
+        "autores": "MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P. ; SARDINHA, Jose Alberto Rodrigues Pereira",
+        "evento": "International Conference on Internet Computing",
+        "cidade": "",
+        "paginas": "119-123",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [],
+    "resumos_congressos": [
+      {
+        "titulo": "TEAMSTER: Model-Based Reinforcement Learning for Ad Hoc Teamwork (Abstract Reprint)",
+        "ano": 2024,
+        "autores": "RIBEIRO, J. G. ; RODRIGUES, G. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "evento": "AAAI Conference on Artificial Intelligence, 2024, Vancouver. Proceedings of the AAAI Conference on Artificial Intelligence",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "Trustworthy Ad Hoc Teamwork",
+        "ano": 2024,
+        "autores": "SARDINHA, ALBERTO",
+        "evento": ""
+      },
+      {
+        "titulo": "O Futuro de Adoção de IA no País",
+        "ano": 2024,
+        "autores": "SARDINHA, ALBERTO",
+        "evento": ""
+      },
+      {
+        "titulo": "Ad Hoc Teamwork and Trust",
+        "ano": 2023,
+        "autores": "SARDINHA, ALBERTO",
+        "evento": ""
+      },
+      {
+        "titulo": "Ad Hoc Teamwork Project",
+        "ano": 2022,
+        "autores": "SARDINHA, ALBERTO",
+        "evento": ""
+      },
+      {
+        "titulo": "Inteligência Artificial no Desenvolvimento de software: desafios e oportunidades",
+        "ano": 2020,
+        "autores": "SARDINHA, ALBERTO",
+        "evento": ""
+      },
+      {
+        "titulo": "Trading Agent Competition",
+        "ano": 2004,
+        "autores": "SARDINHA, ALBERTO",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [],
+    "outras_producoes": [
+      {
+        "titulo": "Assisting Unknown Teammates in Unknown Tasks: Ad Hoc Teamwork under Partial Observability. arXiv:2201.03538",
+        "ano": 2022,
+        "autores": "RIBEIRO, J. G. ; MARTINHO, C. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Onception: Active Learning with Expert Advice for Real World Machine Translation. arXiv:2203.04507",
+        "ano": 2022,
+        "autores": "MENDONCA, V. ; REI, R. ; COHEUR, L. ; SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Perceive, Represent, Generate: Translating Multimodal Information to Robotic Motion Trajectories. arXiv:2204.03051",
+        "ano": 2022,
+        "autores": "VITAL, F. ; VASCO, M. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Learning to Cooperate with Completely Unknown Teammates. arXiv:2205.03289",
+        "ano": 2022,
+        "autores": "NEVES, A. ; SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "A Methodology for the Development of RL-Based Adaptive Traffic Signal Controllers. arXiv:2101.09614",
+        "ano": 2021,
+        "autores": "VARELA, G. ; SANTOS, P. P. ; SARDINHA, ALBERTO ; MELO, F. S.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Online Learning Meets Machine Translation Evaluation: Finding the Best Systems with the Least Human Effort. arXiv:2105.13385",
+        "ano": 2021,
+        "autores": "MENDONCA, V. ; REI, R. ; COHEUR, L. ; SARDINHA, ALBERTO ; SANTOS, A. L.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Understanding the Impact of Data Distribution on Q-learning with Function Approximation. arXiv:2111.11758",
+        "ano": 2021,
+        "autores": "SANTOS, P. P. ; MELO, F. S. ; SARDINHA, ALBERTO ; CARVALHO, D. S.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "HOTSPOT: An Ad Hoc Teamwork Platform for Mixed Human-Robot Teams. techrxiv.17026013.v1",
+        "ano": 2021,
+        "autores": "RIBEIRO, J. G. ; HENRIQUES, L. M. ; COLCHER, S. ; DUARTE, J. C. ; MELO, F. S. ; MILIDIÚ, Ruy L. ; SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Feed-in Tariff Contract Schemes and Regulatory Uncertainty. arXiv:2002.02107",
+        "ano": 2020,
+        "autores": "BARBOSA, Luciana ; Nunes, C. ; RODRIGUES, A. ; SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "RE-Track at the ACM Symposium on Applied Computing (SAC-13)",
+        "ano": 2013,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Trading Agent Analysis and Design Workshop (TADA/AMEC-13) at AAAI-2013",
+        "ano": 2013,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "International Workshop on Artificial Intelligence Techniques for Power Systems and Energy Markets (IATEM 2013)",
+        "ano": 2013,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "IEEE International Conference on e-Business Engineering (ICEBE)",
+        "ano": 2013,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Trading Agent Analysis and Design Workshop (TADA/AMEC-12) at AAMAS-12",
+        "ano": 2012,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "International Workshop on Artificial Intelligence Techniques for Power Systems and Energy Markets (IATEM 2012)",
+        "ano": 2012,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Trading Agent Analysis and Design Workshop (TADA-11) at IJCAI 2011",
+        "ano": 2011,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Int. Conference on Electronic Commerce and Web Technologies (EC-Web?11)",
+        "ano": 2011,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Agent Mediated Electronic Commerce Workshop (AMEC-10) at AAMAS-10",
+        "ano": 2010,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Int. Conference on Electronic Commerce and Web Technologies (EC-Web?10)",
+        "ano": 2010,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Agent Mediated Electronic Commerce Workshop (AMEC-09) at AAMAS-09",
+        "ano": 2009,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Trading Agent Analysis and Design Workshop (TADA-09) at AAAI-09",
+        "ano": 2009,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "The 2008 Supply Chain Trading Agent Competition - Procurement Challenge. School of Computer Science, Carnegie Mellon University, Technical Report CMU-ISR-08-101",
+        "ano": 2008,
+        "autores": "SARDINHA, ALBERTO; BENISCH, Michael ; RAVICHANDRAN, R. ; SADEH, Norman",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Trading Agent Analysis and Design Workshop (TADA-08) at AAAI-08",
+        "ano": 2008,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Agent Mediated Electronic Commerce (AMEC 2008) at AAMAS-08",
+        "ano": 2008,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "The Twenty-Third Conference on Artificial Intelligence (AAAI-08)",
+        "ano": 2008,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "The 2007 Supply Chain Trading Agent Competition - Procurement Challenge. School of Computer Science, Carnegie Mellon University, Technical Report CMU-ISRI-07-106",
+        "ano": 2007,
+        "autores": "SARDINHA, ALBERTO; BENISCH, Michael ; ANDREWS, James ; SADEH, Norman",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "The 2007 Procurement Challenge: A Competition to Evaluate Mixed Procurement Strategies. School of Computer Science, Carnegie Mellon University, Technical Report CMU-ISRI-07-123",
+        "ano": 2007,
+        "autores": "SARDINHA, ALBERTO; BENISCH, Michael ; SADEH, Norman ; RAVICHANDRAN, R. ; PODOBNIK, Vedran ; STAN, Mihai",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Workshop on Software Engineering for Agent-oriented Systems (SEAS-07)",
+        "ano": 2007,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Trading Agent Analysis and Design Workshop (TADA-07) at AAAI-07",
+        "ano": 2007,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Joint Conference on Autonomous Agents & Multi Agent Systems (AAMAS-07)",
+        "ano": 2007,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "The Twenty-Second Conference on Artificial Intelligence (AAAI-07)",
+        "ano": 2007,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "CMieux 2005: Design and Analysis of Carnegie Mellon Univeresity's Entry in the Supply Chain Trading Agent Competition. School of Computer Science, Carnegie Mellon University, Technical Report CMU-ISRI-06-104",
+        "ano": 2006,
+        "autores": "BENISCH, Michael ; SARDINHA, Jose Alberto Rodrigues Pereira ; ANDREWS, James ; SADEH, Norman",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Trading Agent Analysis and Design Workshop (TADA/AMEC-06) at AAMAS-06",
+        "ano": 2006,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Workshop on Software Engineering for Agent-oriented Systems (SEAS-06)",
+        "ano": 2006,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Joint Conference on Autonomous Agents & Multi Agent Systems (AAMAS-06)",
+        "ano": 2006,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "A Combined Specification Language and Development Framework for Agent-based Application Engineering",
+        "ano": 2005,
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; CHOREN, Ricardo ; TORRES, Viviane ; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Sweetening Regulated Open Multi-Agent Systems with Support for Agents to Reason about Laws",
+        "ano": 2005,
+        "autores": "FELICÍSSIMO, Carolina ; SARDINHA, Jose Alberto Rodrigues Pereira ; LUCENA, Carlos J. P.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "A Multi-Agent Architecture for a Dynamic Supply Chain Management",
+        "ano": 2005,
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; MOLINARO, Marco S. ; PARANHOS, Patrick M. ; CUNHA, Pedro M ; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "VI Workshop de Software Livre",
+        "ano": 2005,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Workshop on Software Engineering for Agent-oriented Systems (SEAS-05)",
+        "ano": 2005,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "An Agent Based Architecture for Highly Competitive Electronic Markets",
+        "ano": 2004,
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P. ; PARANHOS, Patrick M. ; CUNHA, Pedro M",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "A Methodology for Building Trading Agents in Electronic Markets",
+        "ano": 2004,
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P. ; PARANHOS, Patrick M.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Engineering Machine Learning Techniques into Multi-Agent Systems",
+        "ano": 2004,
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; CHOREN, Ricardo ; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "On the Incorporation of Learning in Open Multi-Agent Systems: A Systematic Approach",
+        "ano": 2004,
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; GARCIA, Alessandro F. ; LUCENA, Carlos J. P. ; MILIDIÚ, Ruy L.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Second International Workshop on Software Engineering for Large-Scale Multi-Agent Systems (SELMAS-03) at ICSE-03",
+        "ano": 2003,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "An Object-Oriented Framework for Building Software Agents",
+        "ano": 2002,
+        "autores": "MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P. ; SARDINHA, Jose Alberto Rodrigues Pereira ; RIBEIRO, Paula Clark",
+        "tipo": "Demais tipos de produção bibliográfica"
+      }
+    ]
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [
+      {
+        "titulo": "Membro do Comitê de Programa da 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025)",
+        "ano": 2025,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro Sênior do Comitê de Programa da 28th European Conference on Artificial Intelligence",
+        "ano": 2025,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro Sênior do Comitê de Programa da 27th European Conference on Artificial Intelligence",
+        "ano": 2024,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do Comitê de Programa da 18th International Conference on Research Challenges in Information Science (RCIS 2024)",
+        "ano": 2024,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do Comitê de Programa da 22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2023)",
+        "ano": 2023,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do Comitê de Programa da 22nd EPIA Conference on Artificial Intelligence",
+        "ano": 2023,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do Comitê de Programa da IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "ano": 2023,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do 21st EPIA Conference on Artificial Intelligence",
+        "ano": 2022,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do 24th International Conference on Principles and Practice of Multi-Agent Systems (PRIMA 2022)",
+        "ano": 2022,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do International Conference on Intelligent Robots and Systems (IROS 2022)",
+        "ano": 2022,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do 30th IEEE International Conference on Requirements Engineering (RE 2022)",
+        "ano": 2022,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do 35th AAAI Conference on Artificial Intelligence (AAAI 2021)",
+        "ano": 2021,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do 20th EPIA Conference on Artificial Intelligence (EPIA 2021)",
+        "ano": 2021,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do 29th IEEE International Conference on Requirements Engineering (RE 2021)",
+        "ano": 2021,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do International Conference on Intelligent Robots and Systems (IROS 2020), 2020",
+        "ano": 2020,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do International Joint Conference on Artificial Intelligence (IJCAI 2020)",
+        "ano": 2020,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do AAMAS-IJCAI workshop on Agents and Incentives in AI",
+        "ano": 2018,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do Joint Conference on Autonomous Agents & Multi Agent Systems (AAMAS-18)",
+        "ano": 2018,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do Trading Agent Analysis and Design Workshop (TADA/AMEC-17) at AAMAS-17",
+        "ano": 2017,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do IEEE International Conference on e-Business Engineering (ICEBE)",
+        "ano": 2016,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do International Workshop on Artificial Intelligence Techniques for Power Systems and Energy Markets (IATEM 2016)",
+        "ano": 2016,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do International Joint Conference on Artificial Intelligence (IJCAI 2016)",
+        "ano": 2016,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do Conference on Practical Applications of Agents and Multi-Agent Systems (PAAMS'16)",
+        "ano": 2016,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do Trading Agent Analysis and Design Workshop (TADA/AMEC-16) at IJCAI-2016",
+        "ano": 2016,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do IEEE International Conference on e-Business Engineering (ICEBE)",
+        "ano": 2015,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do International Workshop on Artificial Intelligence Techniques for Power Systems and Energy Markets (IATEM 2015)",
+        "ano": 2015,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do Trading Agent Analysis and Design Workshop (TADA/AMEC-15) at AAMAS-15",
+        "ano": 2015,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do IEEE International Conference on e-Business Engineering (ICEBE)",
+        "ano": 2014,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do International Workshop on Artificial Intelligence Techniques for Power Systems and Energy Markets (IATEM 2014)",
+        "ano": 2014,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do Trading Agent Analysis and Design Workshop (TADA/AMEC-14) at AAMAS-14",
+        "ano": 2014,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "Membro do comitê de programa do Conference on Practical Applications of Agents and Multi-Agent Systems (PAAMS'14)",
+        "ano": 2014,
+        "autores": "SARDINHA, ALBERTO",
+        "tipo": "Trabalho técnico"
+      }
+    ],
+    "outras_producoes_tecnicas": [],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Machine Learning e Geofísica",
+          "ano_inicio": 2024,
+          "orientando": "Antônio Carlos Pereira de Azambuja",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Trustworthy Ad Hoc Teamwork",
+          "ano_inicio": 2022,
+          "orientando": "Ana Villaça Carrasco",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Offline Reinforcement Learning: Towards a Wider Application of Reinforcement Learning Algorithms",
+          "ano_inicio": 2022,
+          "orientando": "Pedro Pinto Santos",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Emergent Communication in Multi-Agent Reinforcement Learning",
+          "ano_inicio": 2022,
+          "orientando": "Fábio Guilherme Morgado Vital",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Coordination Mechanisms for Large Scale Reinforcement Learning based Adaptive Traffic Signal Control",
+          "ano_inicio": 2019,
+          "orientando": "Guilherme Sant'Anna Varela",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Data Science para Transparência Publica",
+          "ano_inicio": 2024,
+          "orientando": "Vinicius Rogério da Silva",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Aprendizado de Máquina em Mercados Financeiros",
+          "ano_inicio": 2023,
+          "orientando": "Flávio Silva",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "IA Generativa",
+          "ano_inicio": 2023,
+          "orientando": "Felipe Kestelman",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Ad Hoc Teamwork",
+          "ano_inicio": 2023,
+          "orientando": "Mateus Levi",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Aprendizado por Reforço em Ambientes Multi-Agente",
+          "ano_inicio": 2023,
+          "orientando": "João Darze",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Ambientes Inteligentes para Freelances de TI",
+          "ano_inicio": 2024,
+          "orientando": "Wladimir Calazam de Araujo Goes Ramos",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [
+        {
+          "titulo": "",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Anna Carolina Finamore",
+          "tipo_trabalho": "",
+          "instituicao": "Instituto de Engenharia de Sistemas e Computadores - Investigação e Desenv.",
+          "curso": ""
+        }
+      ],
+      "doutorado": [
+        {
+          "titulo": "Making Friends In the Dark: Ad Hoc Teamwork under Partial Observability",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "João Manuel Godinho Ribeiro",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Best of All Worlds for Low-resource Natural Language Processing",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Vânia Patrícia Padrão Mendonça",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Managerial flexibilities and regulatory uncertainty in feed-in tariffs",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Luciana Salles Barbosa",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Using feudal hierarchies for non-stationary reinforcement learning",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Guilherme Garcia Inácio de Freitas Jardim",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "A SYSTEMATIC APPROACH TO DERIVE CONCEPTUAL MODELS FROM BPMN MODELS",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "RICARDO VALENÇA DA COSTA LOPES",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Nova de Lisboa",
+          "curso": ""
+        },
+        {
+          "titulo": "Trust in human-robot ad hoc teamwork",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Joana Rocha Raposo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Using deep model-based RL in ad hoc teamwork with partial observability",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Eduardo Filipe Sousa Paiva",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "A Machine Learning-based Framework for Requirements Classification",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "João Azevedo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Nova de Lisboa",
+          "curso": ""
+        },
+        {
+          "titulo": "Predicting Startup Outcomes: A KDD approach for the application of deep learning techniques to predict startup outcomes",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "João Filipe Espírito Santo Porto",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Apollo: Self-learning robots in medical centres",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Tiago Sequeira e Fonseca",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Multi-Armed Bandits for Selection of Risk-Based Portfolios with Transaction Costs",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Pedro Miguel Martins Chanca",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Ad hoc teamwork using approximate representations",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Filipe Miguel Gomes de Sousa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Learning to perceive in deep model-free reinforcement learning",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Gonçalo Dos Santos Querido",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Learning Robots in Medical Centers",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Tiago Sequeira e Fonseca",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Playing Soccer with Unknown Teammates",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "João Francisco Lopes Pirralha",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Pac-Man vs Ghosts game",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "João Mário Pereira Guerreiro. Learning Agent in the Ms",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "NAPP v2.0: Integration of freshmen students in Instituto Superior Técnico Campus Taguspark",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Dário André Canário de Sá",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Ad Hoc Teamwork in the presence of non-stationary teammates",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Pedro Miguel Matias Santos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Traffic Light Control using Deep Reinforcement Learning",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Pedro Pinto Santos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "MARE: A Machine Learning Approach for Requirements",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Cláudia Magalhães",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Nova de Lisboa",
+          "curso": ""
+        },
+        {
+          "titulo": "Use of Learning Mechanisms to Improve Wind Farms Operation Conditions Monitoring",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Ana Rita Sabudin Nunes",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Ad Hoc Teamwork under Partial Observability",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Cassandro Micael Gonçalves Martinho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Perceive, Represent, Generate: Translating Multimodal Information to Robotic Motion Trajectories",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Fábio Guilherme Morgado Vital",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Playing Soccer with Deep Reinforcement Learning",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Francisco Nuno Dias dos Santos Delgado",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Critical Review of Reinforcement Learning Based Adaptive Traffic Signal Control",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Miguel Ângelo Mendes Coelho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "VITHEA-Kids 3.0",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Sílvia Maria Matos Timóteo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Bets Helper - A Sports Betting Chatbot",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "João Pedro Dantas Loureiro",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "MyCampus Chatbot - A Conversational Agent that offers information to IST Students",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Francisco Evangelista da Cruz Maria",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Ms.Pac-Man vs Ghost Team - A Monte Carlo Tree Search Approach",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Miguel de Carvalho Maximiano",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Service Integration Framework for TIBCO ActiveMatrix BusinessWorks 6",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Diogo Rebelo da Cruz",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Controladores Ghost Team Hybrid e Bullseye - Eficiência de controladores Ghost Team com Observação Parcial",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "João Filipe Prazeres Peixoto",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Systems Integration within Cyber-Physical Systems",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "José Jorge Abreu e Sousa de Matos Azinheira",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualising Data in NAPP Web Application",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Catarina Alexandra Pereira Cepeda",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Ad hoc teamwork with unknown task model and teammate behavior",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Gonçalo Alfredo dos Santos Rodrigues",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Adopting Microservices - Migrating a HR tool from a monolithic architecture",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Tiago Costa Santos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "VITHEA Kids 2.0: An application to help children with communication disorders",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Cláudia Patricia Balixa Filipe",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Análise de consumo de energia de PMEs",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Hugo Miguel Pimenta de Castro Martins",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "NAPP: Connecting mentors and students at Técnico Lisboa",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Pedro Miguel Branco Veiga",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Adopt a Student",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Mafalda Sousa Rosado",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Sports Betting - Tipster Platform",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Paulo Jorge dos Santos Martins",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Intelligent Agents Coordination in Ad Hoc Teams",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Rodrigo Catarino Antunes de Perez Monteiro",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Comparador de Preços Inteligente",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Jhonny Alexander Aldeia de Jesus",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "iPad Apps in Teaching Programs for Kids with Autism Spectrum Disorder",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Cátia Vanessa Alves Braz de Matos Rosa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Debt Analytics: Proactive prediction of debtors in the telecommunications industry",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Ana Henriques Narciso",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "Extending VITHEA in order to improve children?s linguistic skills",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Vânia Patrícia Padrão Mendonça",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "TAC SCM - Negociação automatizada para uma Cadeia de Fornecimento",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Henrique Pires dos Santos da Fonseca",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "CargoStats: Extracção automática de informação em dados de transporte",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Ricardo Miguel Rebelo de Carvalho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        },
+        {
+          "titulo": "PowerTAC: Negociação automatizada para o Mercado de Energia",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Bruno Miguel Fernandes de Sá",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Instituto Superior Técnico",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Um estudo de diferentes estruturas de dados para acelerar o algoritmo k-NN",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Bruno Pedrazza de Gouvêa e Silva",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Deep Reinforcement Learning para o Arcade Learning Environment",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Flávio Thiago Franco Vaz",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [
+        {
+          "titulo": "Engenharia de Software para Sistemas Multi-Agentes",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Pedro M Cunha",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Engenharia de Software para Sistemas Multi-Agentes",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Patrick M. Paranhos",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Engenharia de Software para Sistemas Multi-Agentes",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Marco S. Molinaro",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Engenharia de Software para Sistemas Multi-Agentes",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Helena Milidiú",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Engenharia de Software para Sistemas Multi-Agentes",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Patrick M. Paranhos",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Engenharia de Software para Sistemas Multi-Agentes",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Pedro M Cunha",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Engenharia de Software para Sistemas Multi-Agentes",
+          "ano_inicio": 2003,
+          "ano_conclusao": 2003,
+          "orientando": "Patrick M. Paranhos",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "Nineteenth International Joint Conference on Artificial Intelligence",
+        "apresentacao": "LearnAgents",
+        "ano": 2005,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "The 18th International FLAIRS Conference",
+        "apresentacao": "n Agent Based Architecture for Highly Competitive Electronic Markets",
+        "ano": 2005,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "AAMAS'2004 - Trading Agent Competition",
+        "apresentacao": "LearnAgents",
+        "ano": 2004,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Fourth Latin American Conference on Pattern Languages of Programming, SugarLoafPLoP'04",
+        "apresentacao": "The Agent Learning Pattern",
+        "ano": 2004,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Second European Workshop on Multi-Agent Systems",
+        "apresentacao": null,
+        "ano": 2004,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Sixth International Bi-Conference Workshop on Agent Oriented Information Systems(AOIS-2004) at CAiSE 2004",
+        "apresentacao": "On the Incorporation of Learning in Open Multi-Agent Systems: A Systematic Approach",
+        "ano": 2004,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IEEE/ACM International Conference on Software Engineering (ICSE 2003)",
+        "apresentacao": null,
+        "ano": 2003,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": [
+      {
+        "autores": "SARDINHA, ALBERTO; PAIVA, ANA ; MARTINS, B. E. G.",
+        "evento": "Local chair, 21st EPIA Conference on Artificial Intelligence (EPIA 2022)",
+        "ano": 2022,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "SARDINHA, ALBERTO; ARAUJO, JOAO",
+        "evento": "Member of the organizing committee, 17th International Workshop on Early Aspects at AOSD 2011",
+        "ano": 2011,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "SARDINHA, ALBERTO; RASHID, AWAIS",
+        "evento": "Publicity chair, 25th European Conference on Object-Oriented Programming (ECOOP 2011)",
+        "ano": 2011,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "SARDINHA, ALBERTO; SADEH, Norman",
+        "evento": "Game Master of the Trading Agent Competition (TAC) ? Procurement Challenge, The Twenty-Third Conference on Artificial Intelligence (AAAI-08)",
+        "ano": 2008,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "SARDINHA, ALBERTO; SADEH, Norman",
+        "evento": "Game Master of the Trading Agent Competition (TAC) ? Procurement Challenge, The Twenty-Second Conference on Artificial Intelligence (AAAI-07)",
+        "ano": 2007,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "SARDINHA, ALBERTO; WELLMAN, M. ; SADEH, Norman",
+        "evento": "Game Master of the Trading Agent Competition (TAC) - Travel Game, Fifth International Joint Conference on Autonomous Agents and Multi-Agent Systems",
+        "ano": 2006,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "SARDINHA, ALBERTO; GARCIA, Alessandro F. ; LUCENA, Carlos J. P.",
+        "evento": "Member of the organizing committee, Second International Workshop on Software Engineering for Large-Scale Multi- Agent Systems (SELMAS-03) at ICSE-03",
+        "ano": 2003,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      }
+    ]
+  },
+  "bancas": {
+    "mestrado": [
+      {
+        "descricao": "SARDINHA, ALBERTO; GATTASS, M.; JAUREGUI, J. J. H.; MATIAS, I. O.. Participação em banca de Pedro Henrique Barroso Gomes. FCGAN: Convoluções Espectrais via Transformada Rápida de Fourier para Campos Receptivos de Abrangência Global em Redes Adversárias Generativas. 2024. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Mestrado",
+        "aluno": "Pedro Henrique Barroso Gomes",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "GATTASS, M.",
+          "JAUREGUI, J. J. H.",
+          "MATIAS, I. O."
+        ],
+        "titulo_trabalho": "FCGAN: Convoluções Espectrais via Transformada Rápida de Fourier para Campos Receptivos de Abrangência Global em Redes Adversárias Generativas",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "HAEUSLER, E. H.; SARDINHA, ALBERTO; BAFFA, A.. Participação em banca de Felipe da Rocha Lopes. PAC Learning em uma abordagem de Predição de falhas em ativos de transmissão de energia. 2024. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Mestrado",
+        "aluno": "Felipe da Rocha Lopes",
+        "membros_banca": [
+          "HAEUSLER, E. H.",
+          "SARDINHA, ALBERTO",
+          "BAFFA, A."
+        ],
+        "titulo_trabalho": "PAC Learning em uma abordagem de Predição de falhas em ativos de transmissão de energia",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "PEREIRA, J. A. M.; MELO, F. A. C. S.; SARDINHA, ALBERTO. Participação em banca de Guilherme Eduardo Roque Salvador. Discounting Strategies for Planning in Hazardous Environments. 2024. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2024,
+        "tipo": "Mestrado",
+        "aluno": "Guilherme Eduardo Roque Salvador",
+        "membros_banca": [
+          "PEREIRA, J. A. M.",
+          "MELO, F. A. C. S.",
+          "SARDINHA, ALBERTO"
+        ],
+        "titulo_trabalho": "Discounting Strategies for Planning in Hazardous Environments",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; CELES, W.; MENEZES, I. F. M.. Participação em banca de Matheus Kerber Venturelli. Fast and Accurate Simulation of Deformable Solid Dynamics on Coarse Meshes. 2024. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Mestrado",
+        "aluno": "Matheus Kerber Venturelli",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "CELES, W.",
+          "MENEZES, I. F. M."
+        ],
+        "titulo_trabalho": "Fast and Accurate Simulation of Deformable Solid Dynamics on Coarse Meshes",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; GONCALVES, D. J. V.; GAMA, S. P.. Participação em banca de Joana Isabel Quintãs Sesinando. GameCourse ? The Ultimate UI. 2023. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2023,
+        "tipo": "Mestrado",
+        "aluno": "Joana Isabel Quintãs Sesinando",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "GONCALVES, D. J. V.",
+          "GAMA, S. P."
+        ],
+        "titulo_trabalho": "GameCourse ? The Ultimate UI",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; LOPES, M. F. C. P.; SAPATEIRO, C. M. G. L. S.. Participação em banca de Pedro Wilson Neves Lamego. LowFi: Crypto Wallet Aggregator. 2023. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2023,
+        "tipo": "Mestrado",
+        "aluno": "Pedro Wilson Neves Lamego",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "LOPES, M. F. C. P.",
+          "SAPATEIRO, C. M. G. L. S."
+        ],
+        "titulo_trabalho": "LowFi: Crypto Wallet Aggregator",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; LOPES, D. S.; ESTEVES, A. E. A.. Participação em banca de Bernardo Gonçalves de Faria. Anatomy Education Applied to Dental Surgery in Virtual Reality. 2023. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2023,
+        "tipo": "Mestrado",
+        "aluno": "Bernardo Gonçalves de Faria",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "LOPES, D. S.",
+          "ESTEVES, A. E. A."
+        ],
+        "titulo_trabalho": "Anatomy Education Applied to Dental Surgery in Virtual Reality",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "COLCHER, S.; SARDINHA, Jose Alberto Rodrigues Pereira; SAADE, D. C. M.; DUARTE, J. C.. Participação em banca de JOSE MATHEUS CARVALHO BOARO. An Architecture for Enhancing Real-Time Multimedia Flows with Semantic Information. 2023. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2023,
+        "tipo": "Mestrado",
+        "aluno": "JOSE MATHEUS CARVALHO BOARO",
+        "membros_banca": [
+          "COLCHER, S.",
+          "SARDINHA, Jose Alberto Rodrigues Pereira",
+          "SAADE, D. C. M.",
+          "DUARTE, J. C."
+        ],
+        "titulo_trabalho": "An Architecture for Enhancing Real-Time Multimedia Flows with Semantic Information",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; MATOS, D. M. M.; SANTOS, P. A. S.. Participação em banca de Mariana Bento Ferreira. Real Estate Official Data Analysis for market prediction. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Mariana Bento Ferreira",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "MATOS, D. M. M.",
+          "SANTOS, P. A. S."
+        ],
+        "titulo_trabalho": "Real Estate Official Data Analysis for market prediction",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; NUNES, CLÁUDIA; MATEUS, P.; SANTOS, P. A. S.. Participação em banca de Ine?s Louc ̧a ̃o Vieira. Distilled PLASTIC-Policy: Distillation in Ad Hoc Teamwork. 2022. Dissertação (Mestrado em Matemática Aplicada e Computação) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Ine?s Louc ̧a ̃o Vieira",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "NUNES, CLÁUDIA",
+          "MATEUS, P.",
+          "SANTOS, P. A. S."
+        ],
+        "titulo_trabalho": "Distilled PLASTIC-Policy: Distillation in Ad Hoc Teamwork",
+        "curso": "Dissertação (Mestrado em Matemática Aplicada e Computação)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; LIMA, PEDRO; XAVIER, J.. Participação em banca de Ana Maria Seixas Martins da Cruz. Cooperative Perception for Human Intention Prediction. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Ana Maria Seixas Martins da Cruz",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "LIMA, PEDRO",
+          "XAVIER, J."
+        ],
+        "titulo_trabalho": "Cooperative Perception for Human Intention Prediction",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; PAIVA, ANA; MARTINS, B. E. G.. Participação em banca de Regina De Brito Duarte. AI Trust: can explainable AI enhance warranted trust?. 2022. Dissertação (Mestrado em Engenharia e Ciência de Dados) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Regina De Brito Duarte",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "PAIVA, ANA",
+          "MARTINS, B. E. G."
+        ],
+        "titulo_trabalho": "AI Trust: can explainable AI enhance warranted trust?",
+        "curso": "Dissertação (Mestrado em Engenharia e Ciência de Dados)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; FIGUEIREDO, M. A. T.; BERNARDINO, A. J. M.. Participação em banca de Gonçalo Correia de Matos. Automatic User Interface Generation. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Gonçalo Correia de Matos",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "FIGUEIREDO, M. A. T.",
+          "BERNARDINO, A. J. M."
+        ],
+        "titulo_trabalho": "Automatic User Interface Generation",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; LIMA, P. M. U. A.; LOPES, M. F. C. P.. Participação em banca de João Ribeiro Dias. Dynamic Sensor Network for Air Quality Monitoring Using Sequential Decision-Making Under Uncertainty. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "João Ribeiro Dias",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "LIMA, P. M. U. A.",
+          "LOPES, M. F. C. P."
+        ],
+        "titulo_trabalho": "Dynamic Sensor Network for Air Quality Monitoring Using Sequential Decision-Making Under Uncertainty",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; GONCALVES, D. J. V.; FERREIRA JUNIOR, A. M. S.. Participação em banca de Ana Sofia Marques Silva. ArgumentNext - Visualizing arguments in the real world. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Ana Sofia Marques Silva",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "GONCALVES, D. J. V.",
+          "FERREIRA JUNIOR, A. M. S."
+        ],
+        "titulo_trabalho": "ArgumentNext - Visualizing arguments in the real world",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; MARTINS, B. E. G.; MAGALHAES, J. M. C.. Participação em banca de Nichal Ashok Narotamo. Conversational Question Re-Writing. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Nichal Ashok Narotamo",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "MARTINS, B. E. G.",
+          "MAGALHAES, J. M. C."
+        ],
+        "titulo_trabalho": "Conversational Question Re-Writing",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; CARVALHO, P. C. Q. F.; COHEUR, M. L. T. R. M. S.. Participação em banca de Bernardo Cunha Matos. Automatic Hate Speech Detection in Portuguese Social Media Text. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Bernardo Cunha Matos",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "CARVALHO, P. C. Q. F.",
+          "COHEUR, M. L. T. R. M. S."
+        ],
+        "titulo_trabalho": "Automatic Hate Speech Detection in Portuguese Social Media Text",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; BATISTA, F. M. M.; MAMEDE, N. J. N.. Participação em banca de Raquel Bento Santos. Semi-Automatic Selection and Annotation of Hate Speech from Social Media. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Raquel Bento Santos",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "BATISTA, F. M. M.",
+          "MAMEDE, N. J. N."
+        ],
+        "titulo_trabalho": "Semi-Automatic Selection and Annotation of Hate Speech from Social Media",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; CORREIA, M. N. D. A. P.; PASIN, M.. Participação em banca de Rodrigo de Magalhães Marques dos Santos Silva. Deduplication vs Privacy Tradeoffs in Cloud Storage. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Rodrigo de Magalhães Marques dos Santos Silva",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "CORREIA, M. N. D. A. P.",
+          "PASIN, M."
+        ],
+        "titulo_trabalho": "Deduplication vs Privacy Tradeoffs in Cloud Storage",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; ROMANO, P.; GARCIA, J. C.. Participação em banca de Enrico Giorio. Optimization of Cloud Storage Costs Through Efficient Data Placement. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Enrico Giorio",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "ROMANO, P.",
+          "GARCIA, J. C."
+        ],
+        "titulo_trabalho": "Optimization of Cloud Storage Costs Through Efficient Data Placement",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; CABRAL, D. N. C. R.; DIONISIO, M.. Participação em banca de David Miguel FIgueiredo Honório. Voting system for idea evaluation: A web-based system where users can input and vote for ideas. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "David Miguel FIgueiredo Honório",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "CABRAL, D. N. C. R.",
+          "DIONISIO, M."
+        ],
+        "titulo_trabalho": "Voting system for idea evaluation: A web-based system where users can input and vote for ideas",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; RODRIGUES, R. S. M.; VEIGA, L. M. A.. Participação em banca de Rafael Coelho Alexandre. R-Check: A Reactive Checkpointing Approach for Serverless Computing. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Rafael Coelho Alexandre",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "RODRIGUES, R. S. M.",
+          "VEIGA, L. M. A."
+        ],
+        "titulo_trabalho": "R-Check: A Reactive Checkpointing Approach for Serverless Computing",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; SILVA, H. H. P.; MARTINS, S. A. M. V.. Participação em banca de João Miguel Areias Saraiva. Deep Residual Learning for Epileptic Seizure Prediction and Tools to Expedite Biosignal Research. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "João Miguel Areias Saraiva",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "SILVA, H. H. P.",
+          "MARTINS, S. A. M. V."
+        ],
+        "titulo_trabalho": "Deep Residual Learning for Epileptic Seizure Prediction and Tools to Expedite Biosignal Research",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; LEITAO, A. P. T. M. C.; MARTINS, B. E. G.. Participação em banca de João Carlos Morgado David. Inverse Algorithmic Design: Automatic Conversion of Floor Plan Images into Computer Programs. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "João Carlos Morgado David",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "LEITAO, A. P. T. M. C.",
+          "MARTINS, B. E. G."
+        ],
+        "titulo_trabalho": "Inverse Algorithmic Design: Automatic Conversion of Floor Plan Images into Computer Programs",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; RODRIGUES, R. S. M.; SANTOS, N. M. C.. Participação em banca de BALTASAR AZEVEDO E SILVA DINIS. Restart-Rollback: A Fault model for distributed systems with persistent state. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "BALTASAR AZEVEDO E SILVA DINIS",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "RODRIGUES, R. S. M.",
+          "SANTOS, N. M. C."
+        ],
+        "titulo_trabalho": "Restart-Rollback: A Fault model for distributed systems with persistent state",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; SANTOS, N. M. C.; BRUNO, R. F. B. P.. Participação em banca de DANIEL MAXIMIANO MATOS. OWARDS AUTOMATIC DETECTION OF EXPLOITABLE VULNERABILITIES IN WEBASSEMBLY MODULES OF REAL-WORLD WEBSITES. 2022. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "DANIEL MAXIMIANO MATOS",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "SANTOS, N. M. C.",
+          "BRUNO, R. F. B. P."
+        ],
+        "titulo_trabalho": "OWARDS AUTOMATIC DETECTION OF EXPLOITABLE VULNERABILITIES IN WEBASSEMBLY MODULES OF REAL-WORLD WEBSITES",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; MAMEDE, N. J. N.; SANTOS, P. A. S.. Participação em banca de Maria Pereira Marques Quaresma Leitão. Real Estate Market Analysis For Investment and Buying Cycles Prediction. 2021. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2021,
+        "tipo": "Mestrado",
+        "aluno": "Maria Pereira Marques Quaresma Leitão",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "MAMEDE, N. J. N.",
+          "SANTOS, P. A. S."
+        ],
+        "titulo_trabalho": "Real Estate Market Analysis For Investment and Buying Cycles Prediction",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; ADAO, P. M. S. A. M.; LOPES, M. F. C. P.. Participação em banca de Francisco Lopes Pereira de Carvalho. Modelling the Recommender Alignment Problem. 2021. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2021,
+        "tipo": "Mestrado",
+        "aluno": "Francisco Lopes Pereira de Carvalho",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "ADAO, P. M. S. A. M.",
+          "LOPES, M. F. C. P."
+        ],
+        "titulo_trabalho": "Modelling the Recommender Alignment Problem",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; SILVA, A. M. F. R.; COHEUR, M. L. T. R. M. S.. Participação em banca de Jéssica Cristina Azevedo Veiga. Movie Subtitles at the Service of Natural Language Processing. 2020. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2020,
+        "tipo": "Mestrado",
+        "aluno": "Jéssica Cristina Azevedo Veiga",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "SILVA, A. M. F. R.",
+          "COHEUR, M. L. T. R. M. S."
+        ],
+        "titulo_trabalho": "Movie Subtitles at the Service of Natural Language Processing",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; VEIGA, L. M. A.; FERREIRA, D. M. R.. Participação em banca de Iezalde Faria Lopes. A Survey of Process Mining Competitions. 2019. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2019,
+        "tipo": "Mestrado",
+        "aluno": "Iezalde Faria Lopes",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "VEIGA, L. M. A.",
+          "FERREIRA, D. M. R."
+        ],
+        "titulo_trabalho": "A Survey of Process Mining Competitions",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; SANTOS, F. J. D. C. C.; PIRES, A. M. P.. Participação em banca de Pedro Alexandre Caetano Lopes Ferreira. The Fall of Homo Economicus - The Role of Cognitive Biases and Theory of Mind in Human Coordination. 2019. Dissertação (Mestrado em Matemática Aplicada e Computação) - Instituto Superior Técnico.",
+        "ano": 2019,
+        "tipo": "Mestrado",
+        "aluno": "Pedro Alexandre Caetano Lopes Ferreira",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "SANTOS, F. J. D. C. C.",
+          "PIRES, A. M. P."
+        ],
+        "titulo_trabalho": "The Fall of Homo Economicus - The Role of Cognitive Biases and Theory of Mind in Human Coordination",
+        "curso": "Dissertação (Mestrado em Matemática Aplicada e Computação)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; VASCONCELOS, J. B.; PESTANA, G.. Participação em banca de Mónica da Conceição Pereira Guido Henriques. Os Dados do Estado e o Estado dos Dados. 2019. Dissertação (Mestrado em Sistemas de Informação para a Gestão) - Universidade Européia.",
+        "ano": 2019,
+        "tipo": "Mestrado",
+        "aluno": "Mónica da Conceição Pereira Guido Henriques",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "VASCONCELOS, J. B.",
+          "PESTANA, G."
+        ],
+        "titulo_trabalho": "Os Dados do Estado e o Estado dos Dados",
+        "curso": "Dissertação (Mestrado em Sistemas de Informação para a Gestão)",
+        "universidade": "Universidade Européia"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; GONCALVES, D. J. V.; LOPES, M. F. C. P.. Participação em banca de Renato Paulo Da Costa Cardoso. Generation of Explanations in Reinforcement Learning. 2019. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2019,
+        "tipo": "Mestrado",
+        "aluno": "Renato Paulo Da Costa Cardoso",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "GONCALVES, D. J. V.",
+          "LOPES, M. F. C. P."
+        ],
+        "titulo_trabalho": "Generation of Explanations in Reinforcement Learning",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; BORBINHA, J. L. B.; SILVA, F. H. C. M.. Participação em banca de Daniel Filipe Dos Reis Rodrigues. Optimization of Public Transport Routes by Means of AITechniques. 2019. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2019,
+        "tipo": "Mestrado",
+        "aluno": "Daniel Filipe Dos Reis Rodrigues",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "BORBINHA, J. L. B.",
+          "SILVA, F. H. C. M."
+        ],
+        "titulo_trabalho": "Optimization of Public Transport Routes by Means of AITechniques",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; PEREIRA, J. A. M.; GARETA, A. A.. Participação em banca de Guilherme Jorge de Lemos Marques. Development of a Mobile Application for Remote Speech Therapy. 2019. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2019,
+        "tipo": "Mestrado",
+        "aluno": "Guilherme Jorge de Lemos Marques",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "PEREIRA, J. A. M.",
+          "GARETA, A. A."
+        ],
+        "titulo_trabalho": "Development of a Mobile Application for Remote Speech Therapy",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; SILVA, A. M. F. R.; MARTINHO, C. A. R.. Participação em banca de João Carlos Borges Pereira Catarino. Skill-based Progression Model for Smash Time. 2018. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2018,
+        "tipo": "Mestrado",
+        "aluno": "João Carlos Borges Pereira Catarino",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "SILVA, A. M. F. R.",
+          "MARTINHO, C. A. R."
+        ],
+        "titulo_trabalho": "Skill-based Progression Model for Smash Time",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; PEREIRA, J. A. M.; MARQUES, J. M. C. A.. Participação em banca de João Diogo Castro. Business Process Automation Using Intelligent Software Robots. 2018. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2018,
+        "tipo": "Mestrado",
+        "aluno": "João Diogo Castro",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "PEREIRA, J. A. M.",
+          "MARQUES, J. M. C. A."
+        ],
+        "titulo_trabalho": "Business Process Automation Using Intelligent Software Robots",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; MAGALHAES, J. M. C.; MOREIRA, A. M. D.. Participação em banca de Soraia Guardado Freitas. Suporte à Modelação de Valor de Negócio. 2018. Dissertação (Mestrado em Engenharia Informática) - Universidade Nova de Lisboa.",
+        "ano": 2018,
+        "tipo": "Mestrado",
+        "aluno": "Soraia Guardado Freitas",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "MAGALHAES, J. M. C.",
+          "MOREIRA, A. M. D."
+        ],
+        "titulo_trabalho": "Suporte à Modelação de Valor de Negócio",
+        "curso": "Dissertação (Mestrado em Engenharia Informática)",
+        "universidade": "Universidade Nova de Lisboa"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; KRIPPAHL, L.; GOULAO, M. C. P. A.. Participação em banca de Mafalda Coelho Dias Faria Santos. Avaliação da Eficácia Cognitiva de Modelos de Requisitos Orientados a Objectivos. 2017. Dissertação (Mestrado em Engenharia Informática) - Universidade Nova de Lisboa.",
+        "ano": 2017,
+        "tipo": "Mestrado",
+        "aluno": "Mafalda Coelho Dias Faria Santos",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "KRIPPAHL, L.",
+          "GOULAO, M. C. P. A."
+        ],
+        "titulo_trabalho": "Avaliação da Eficácia Cognitiva de Modelos de Requisitos Orientados a Objectivos",
+        "curso": "Dissertação (Mestrado em Engenharia Informática)",
+        "universidade": "Universidade Nova de Lisboa"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; SEQUEIRA, J. F. C. S.; TRANCOSO, I. M. M.. Participação em banca de Mariana Sofia da Silva Sousa. Robot Interaction with Autistic Children. 2017. Dissertação (Mestrado em Engenharia Eletrotécnica e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2017,
+        "tipo": "Mestrado",
+        "aluno": "Mariana Sofia da Silva Sousa",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "SEQUEIRA, J. F. C. S.",
+          "TRANCOSO, I. M. M."
+        ],
+        "titulo_trabalho": "Robot Interaction with Autistic Children",
+        "curso": "Dissertação (Mestrado em Engenharia Eletrotécnica e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; SILVA, A. M. F. R.; SANTOS, F. J. D. C. C.. Participação em banca de Carina Rafaela de Oliveira Antunes. O Impacto da Honra e Vergonha em Dilemas de Bens Públicos - Um estudo sobre a emergência da cooperação. 2017. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2017,
+        "tipo": "Mestrado",
+        "aluno": "Carina Rafaela de Oliveira Antunes",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "SILVA, A. M. F. R.",
+          "SANTOS, F. J. D. C. C."
+        ],
+        "titulo_trabalho": "O Impacto da Honra e Vergonha em Dilemas de Bens Públicos - Um estudo sobre a emergência da cooperação",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; MARQUES, J. M. C. A.; MARTINS, B. E. G.. Participação em banca de Vasco Pinto Ferreira. Using Textual Transcripts of Parliamentary Interventions for Profiling Portuguese Politicians. 2016. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2016,
+        "tipo": "Mestrado",
+        "aluno": "Vasco Pinto Ferreira",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "MARQUES, J. M. C. A.",
+          "MARTINS, B. E. G."
+        ],
+        "titulo_trabalho": "Using Textual Transcripts of Parliamentary Interventions for Profiling Portuguese Politicians",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; ARAUJO, JOAO; RODRIGUES, A.. Participação em banca de Cláudio António Pina Querido dos Reis Borges. Elicitação de Requisitos de Domínio para Sistemas de Emergência usando Redes Sociais. 2016. Dissertação (Mestrado em Engenharia Informática) - Universidade Nova de Lisboa.",
+        "ano": 2016,
+        "tipo": "Mestrado",
+        "aluno": "Cláudio António Pina Querido dos Reis Borges",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "ARAUJO, JOAO",
+          "RODRIGUES, A."
+        ],
+        "titulo_trabalho": "Elicitação de Requisitos de Domínio para Sistemas de Emergência usando Redes Sociais",
+        "curso": "Dissertação (Mestrado em Engenharia Informática)",
+        "universidade": "Universidade Nova de Lisboa"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; SILVA, A. M. R.; SANTOS, F. J. D. C. C.. Participação em banca de Francisco Pedro Durão. Learning in Collective Dilemmas. 2016. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2016,
+        "tipo": "Mestrado",
+        "aluno": "Francisco Pedro Durão",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "SILVA, A. M. R.",
+          "SANTOS, F. J. D. C. C."
+        ],
+        "titulo_trabalho": "Learning in Collective Dilemmas",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; MARQUES, J. M. C. A.; CARREIRA, P. J. F.. Participação em banca de Diana Gouveia Ribeiro. A Recommender System to Assist the Semantic Enrichment of IFC models. 2016. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2016,
+        "tipo": "Mestrado",
+        "aluno": "Diana Gouveia Ribeiro",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "MARQUES, J. M. C. A.",
+          "CARREIRA, P. J. F."
+        ],
+        "titulo_trabalho": "A Recommender System to Assist the Semantic Enrichment of IFC models",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; CORREIA, M. N. D. A. P.; MARTINHO, C. A. R.. Participação em banca de Fábio David da Silva Alves. Gamification Outside Physical Borders. 2016. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2016,
+        "tipo": "Mestrado",
+        "aluno": "Fábio David da Silva Alves",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "CORREIA, M. N. D. A. P.",
+          "MARTINHO, C. A. R."
+        ],
+        "titulo_trabalho": "Gamification Outside Physical Borders",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; MARTINS, B. E. G.; PEREIRA, J. A. M.. Participação em banca de Fernando José Soares Melo. Automatically Georeferencing Textual Documents. 2015. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2015,
+        "tipo": "Mestrado",
+        "aluno": "Fernando José Soares Melo",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "MARTINS, B. E. G.",
+          "PEREIRA, J. A. M."
+        ],
+        "titulo_trabalho": "Automatically Georeferencing Textual Documents",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; MARTINS, J. E. S. P.; CARREIRA, P. J. F.. Participação em banca de Jorge Miguel Trigo Coelho. Fine-Tuning HVAC Operation Through RFID and User Feedback. 2015. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2015,
+        "tipo": "Mestrado",
+        "aluno": "Jorge Miguel Trigo Coelho",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "MARTINS, J. E. S. P.",
+          "CARREIRA, P. J. F."
+        ],
+        "titulo_trabalho": "Fine-Tuning HVAC Operation Through RFID and User Feedback",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; MAMEDE, N. J. N.; SANTOS, F. J. D. C. C.. Participação em banca de Volodymyr Balytskyy. The role of emotional traits in the evolutionary dynamics of Multiplayer Ultimatum Game. 2015. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2015,
+        "tipo": "Mestrado",
+        "aluno": "Volodymyr Balytskyy",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "MAMEDE, N. J. N.",
+          "SANTOS, F. J. D. C. C."
+        ],
+        "titulo_trabalho": "The role of emotional traits in the evolutionary dynamics of Multiplayer Ultimatum Game",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; ARAUJO, J.. Participação em banca de Fábio Jorge Tavares Soares. Uma Abordagem para Derivar Modelos de Requisitos a partir de Mecanismos de Reconhecimento de Voz. 2014. Dissertação (Mestrado em Engenharia Informática) - Universidade Nova de Lisboa.",
+        "ano": 2014,
+        "tipo": "Mestrado",
+        "aluno": "Fábio Jorge Tavares Soares",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "ARAUJO, J."
+        ],
+        "titulo_trabalho": "Uma Abordagem para Derivar Modelos de Requisitos a partir de Mecanismos de Reconhecimento de Voz",
+        "curso": "Dissertação (Mestrado em Engenharia Informática)",
+        "universidade": "Universidade Nova de Lisboa"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; SILVA, M. J. C. G.; MARTINS, B. E. G.. Participação em banca de Cecília Margarida Furtado Raposo. A Recommendation Method Based on Personalized Random Walks. 2014. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2014,
+        "tipo": "Mestrado",
+        "aluno": "Cecília Margarida Furtado Raposo",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "SILVA, M. J. C. G.",
+          "MARTINS, B. E. G."
+        ],
+        "titulo_trabalho": "A Recommendation Method Based on Personalized Random Walks",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; GOULAO, M.; FERREIRA, C.. Participação em banca de Ana Catarina Gralha de Almeida. Avaliação da Qualidade em Modelos de Requisitos i*. 2014. Dissertação (Mestrado em Engenharia Informática) - Universidade Nova de Lisboa.",
+        "ano": 2014,
+        "tipo": "Mestrado",
+        "aluno": "Ana Catarina Gralha de Almeida",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "GOULAO, M.",
+          "FERREIRA, C."
+        ],
+        "titulo_trabalho": "Avaliação da Qualidade em Modelos de Requisitos i*",
+        "curso": "Dissertação (Mestrado em Engenharia Informática)",
+        "universidade": "Universidade Nova de Lisboa"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; FERREIRA, P. J. P.; CALADO, P. P.. Participação em banca de André Filipe Caldaça da Silva Carvalho. Movie Recommendation based on User Interests. 2014. Dissertação (Mestrado em Engenharia de Telecomunicações e Informática) - Instituto Superior Técnico.",
+        "ano": 2014,
+        "tipo": "Mestrado",
+        "aluno": "André Filipe Caldaça da Silva Carvalho",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "FERREIRA, P. J. P.",
+          "CALADO, P. P."
+        ],
+        "titulo_trabalho": "Movie Recommendation based on User Interests",
+        "curso": "Dissertação (Mestrado em Engenharia de Telecomunicações e Informática)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; DELGADO, J. C. M.; CALADO, P. P.. Participação em banca de Hugo Miguel Laranjeira Guimarães. GEN-X2: Generation of XPath Expressions for Unsupervised Web Data Extraction. 2013. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2013,
+        "tipo": "Mestrado",
+        "aluno": "Hugo Miguel Laranjeira Guimarães",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "DELGADO, J. C. M.",
+          "CALADO, P. P."
+        ],
+        "titulo_trabalho": "GEN-X2: Generation of XPath Expressions for Unsupervised Web Data Extraction",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; GOULAO, M.; PREGUICA, N.. Participação em banca de Patrícia Espada. Melhoria da qualidade para modelos orientados a objectivos: o caso da abordagem KAOS. 2012. Dissertação (Mestrado em Engenharia Informática) - Universidade Nova de Lisboa.",
+        "ano": 2012,
+        "tipo": "Mestrado",
+        "aluno": "Patrícia Espada",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "GOULAO, M.",
+          "PREGUICA, N."
+        ],
+        "titulo_trabalho": "Melhoria da qualidade para modelos orientados a objectivos: o caso da abordagem KAOS",
+        "curso": "Dissertação (Mestrado em Engenharia Informática)",
+        "universidade": "Universidade Nova de Lisboa"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; PESTANA, G. C. F.; SILVA, J. P. M.. Participação em banca de Bruno Manuel de Freitas Valentim. Marketing em Tempo Real para o Sector da Banca: Metodologia para Gestão de Campanhas em Tempo Real. 2012. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2012,
+        "tipo": "Mestrado",
+        "aluno": "Bruno Manuel de Freitas Valentim",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "PESTANA, G. C. F.",
+          "SILVA, J. P. M."
+        ],
+        "titulo_trabalho": "Marketing em Tempo Real para o Sector da Banca: Metodologia para Gestão de Campanhas em Tempo Real",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; SILVA, A. M. F. R.; MARTINS, B. E. G.. Participação em banca de Luís Miguel Rosa Dos Santos. Resolution of Place Name References in Textual Documents. 2012. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2012,
+        "tipo": "Mestrado",
+        "aluno": "Luís Miguel Rosa Dos Santos",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "SILVA, A. M. F. R.",
+          "MARTINS, B. E. G."
+        ],
+        "titulo_trabalho": "Resolution of Place Name References in Textual Documents",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; DELGADO, J. C. M.; FERREIRA, D. M. R.. Participação em banca de Pedro Manuel Ferreira da Silva Miranda. Integração de Processos de Carga e Descarga de Contentores. 2012. Dissertação (Mestrado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2012,
+        "tipo": "Mestrado",
+        "aluno": "Pedro Manuel Ferreira da Silva Miranda",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "DELGADO, J. C. M.",
+          "FERREIRA, D. M. R."
+        ],
+        "titulo_trabalho": "Integração de Processos de Carga e Descarga de Contentores",
+        "curso": "Dissertação (Mestrado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; AMARAL, V.; RODRIGUES, A.. Participação em banca de Ana Rita Duarte Oliveira. Uma Linguagem de Domínio Específico para AORE. 2010. Dissertação (Mestrado em Engenharia Informática) - Universidade Nova de Lisboa.",
+        "ano": 2010,
+        "tipo": "Mestrado",
+        "aluno": "Ana Rita Duarte Oliveira",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "AMARAL, V.",
+          "RODRIGUES, A."
+        ],
+        "titulo_trabalho": "Uma Linguagem de Domínio Específico para AORE",
+        "curso": "Dissertação (Mestrado em Engenharia Informática)",
+        "universidade": "Universidade Nova de Lisboa"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; AMARAL, V.; RODRIGUES, A.. Participação em banca de Sara Patrícia Rovisco Farto Machado Silva. Modelação de Concerns Voláteis em aplicações geoespaciais: O caso dos Concerns Geoespaciais. 2010. Dissertação (Mestrado em Engenharia Informática) - Universidade Nova de Lisboa.",
+        "ano": 2010,
+        "tipo": "Mestrado",
+        "aluno": "Sara Patrícia Rovisco Farto Machado Silva",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "AMARAL, V.",
+          "RODRIGUES, A."
+        ],
+        "titulo_trabalho": "Modelação de Concerns Voláteis em aplicações geoespaciais: O caso dos Concerns Geoespaciais",
+        "curso": "Dissertação (Mestrado em Engenharia Informática)",
+        "universidade": "Universidade Nova de Lisboa"
+      }
+    ],
+    "doutorado": [
+      {
+        "descricao": "GARCIA, A. F.; LUCENA, C. J. P.; SARDINHA, ALBERTO; GUIMARAES, R. L.; FAUSTINO, G. M.; PEREIRA, J. A.. Participação em banca de GUILHERME NASCIMENTO PATE SANTOS. Metodologia Ágil para Desenvolvimento de Sistemas Inteligentes de Apoio à Decisão. 2024. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Tese de Doutorado",
+        "aluno": "GUILHERME NASCIMENTO PATE SANTOS",
+        "membros_banca": [
+          "GARCIA, A. F.",
+          "LUCENA, C. J. P.",
+          "SARDINHA, ALBERTO",
+          "GUIMARAES, R. L.",
+          "FAUSTINO, G. M.",
+          "PEREIRA, J. A."
+        ],
+        "titulo_trabalho": "Metodologia Ágil para Desenvolvimento de Sistemas Inteligentes de Apoio à Decisão",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "GARCIA, A. F.; ASSUNCAO, W. K. G.; SARDINHA, ALBERTO; SANTOS NETO, B. F.; MELLO, R. M.; PEREIRA, J. A.. Participação em banca de DANIEL TENORIO MARTINS DE OLIVEIRA. On the Identification and Analysis of Refactoring-related Modifications. 2024. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Tese de Doutorado",
+        "aluno": "DANIEL TENORIO MARTINS DE OLIVEIRA",
+        "membros_banca": [
+          "GARCIA, A. F.",
+          "ASSUNCAO, W. K. G.",
+          "SARDINHA, ALBERTO",
+          "SANTOS NETO, B. F.",
+          "MELLO, R. M.",
+          "PEREIRA, J. A."
+        ],
+        "titulo_trabalho": "On the Identification and Analysis of Refactoring-related Modifications",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "GARCIA, A. F.; ASSUNCAO, W. K. G.; SARDINHA, Jose Alberto Rodrigues Pereira; MURTA, L. G. P.; KALINOWSKI, M.; GHEYI, R.. Participação em banca de ANA CARLA GOMES BIBIANO. On the Completeness of Composite Code Refactorings for Beneficial Smell Removal. 2023. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2023,
+        "tipo": "Tese de Doutorado",
+        "aluno": "ANA CARLA GOMES BIBIANO",
+        "membros_banca": [
+          "GARCIA, A. F.",
+          "ASSUNCAO, W. K. G.",
+          "SARDINHA, Jose Alberto Rodrigues Pereira",
+          "MURTA, L. G. P.",
+          "KALINOWSKI, M.",
+          "GHEYI, R."
+        ],
+        "titulo_trabalho": "On the Completeness of Composite Code Refactorings for Beneficial Smell Removal",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "IOCCHI, L.; LIMA, P. M. U. A.; CASTRO, H. F. C.; SARDINHA, Jose Alberto Rodrigues Pereira; CUSTODIO, L. M. M.; OLIVEIRA, P. J. C. R.. Participação em banca de Carlos Miguel Mendes Guerra de Azevedo. Multi-Robot Coordination Under Uncertainty in Cyclic Long Horizon Tasks. 2023. Tese (Doutorado em Engenharia Electrotécnica e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2023,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Carlos Miguel Mendes Guerra de Azevedo",
+        "membros_banca": [
+          "IOCCHI, L.",
+          "LIMA, P. M. U. A.",
+          "CASTRO, H. F. C.",
+          "SARDINHA, Jose Alberto Rodrigues Pereira",
+          "CUSTODIO, L. M. M.",
+          "OLIVEIRA, P. J. C. R."
+        ],
+        "titulo_trabalho": "Multi-Robot Coordination Under Uncertainty in Cyclic Long Horizon Tasks",
+        "curso": "Tese (Doutorado em Engenharia Electrotécnica e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      },
+      {
+        "descricao": "GARCIA, A. F.; PEREIRA, J. A.; SARDINHA, Jose Alberto Rodrigues Pereira; CALPA, G. F. M. S.; SANTOS NETO, B. F.; MELLO, R. M.. Participação em banca de Anderson José Silva de Oliveira. Unveiling Design Problems Identification: Combining Multiple Symptoms. 2023. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2023,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Anderson José Silva de Oliveira",
+        "membros_banca": [
+          "GARCIA, A. F.",
+          "PEREIRA, J. A.",
+          "SARDINHA, Jose Alberto Rodrigues Pereira",
+          "CALPA, G. F. M. S.",
+          "SANTOS NETO, B. F.",
+          "MELLO, R. M."
+        ],
+        "titulo_trabalho": "Unveiling Design Problems Identification: Combining Multiple Symptoms",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SARDINHA, ALBERTO; BELPAEME, T.; OKITA, S.; TRANCOSO, I.; SANTOS-VICTOR, J.; DILLENBOURG, P.. Participação em banca de Schruti Chandra. Learning How to Write with a Social Robot. 2019. Tese (Doutorado em Engenharia Informática e de Computadores) - Instituto Superior Técnico.",
+        "ano": 2019,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Schruti Chandra",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "BELPAEME, T.",
+          "OKITA, S.",
+          "TRANCOSO, I.",
+          "SANTOS-VICTOR, J.",
+          "DILLENBOURG, P."
+        ],
+        "titulo_trabalho": "Learning How to Write with a Social Robot",
+        "curso": "Tese (Doutorado em Engenharia Informática e de Computadores)",
+        "universidade": "Instituto Superior Técnico"
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [
+      {
+        "descricao": "SARDINHA, ALBERTO; HAEUSLER, E. H.; LIFSCHITZ, S.. Participação em banca de Mariana Barreto.Uma ferramenta para a identificação de perfis em múltiplas redes sociais. 2024. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Mariana Barreto",
+        "membros_banca": [
+          "SARDINHA, ALBERTO",
+          "HAEUSLER, E. H.",
+          "LIFSCHITZ, S."
+        ],
+        "titulo_trabalho": "Uma ferramenta para a identificação de perfis em múltiplas redes sociais",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "BAFFA, A.; HAEUSLER, E. H.; SARDINHA, ALBERTO. Participação em banca de Thomas Addis Junqueira Botelho.Extração de Políticas de Agentes Especialista para Árvores de Decisão Interpretáveis via Aprendizado por Imitação. 2024. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Thomas Addis Junqueira Botelho",
+        "membros_banca": [
+          "BAFFA, A.",
+          "HAEUSLER, E. H.",
+          "SARDINHA, ALBERTO"
+        ],
+        "titulo_trabalho": "Extração de Políticas de Agentes Especialista para Árvores de Decisão Interpretáveis via Aprendizado por Imitação",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "LIFSCHITZ, S.; VILLAS, M. V.; SARDINHA, ALBERTO. Participação em banca de Ricardo Matheus de Oliveira Amaral.Projeto de dados para análise de padrões de usuários de cigarros eletrônicos. 2024. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Ricardo Matheus de Oliveira Amaral",
+        "membros_banca": [
+          "LIFSCHITZ, S.",
+          "VILLAS, M. V.",
+          "SARDINHA, ALBERTO"
+        ],
+        "titulo_trabalho": "Projeto de dados para análise de padrões de usuários de cigarros eletrônicos",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "outras": []
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 21,
+    "total_livros": 1,
+    "total_capitulos": 12,
+    "total_trabalhos_congressos": 61,
+    "total_projetos_pesquisa": 11,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 0,
+    "total_orientacoes_concluidas": 56,
+    "total_orientacoes_andamento": 10
+  }
+}

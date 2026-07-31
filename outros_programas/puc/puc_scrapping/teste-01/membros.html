@@ -1,0 +1,105 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>teste-01</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>teste-01</h2></div>
+    <link href="css/tabulator_site.min.css" rel="stylesheet" />
+    <link href="css/tabulator-scriplattes.css" rel="stylesheet" />
+    <script src="js/tabulator.min.js"></script>
+    <script src="js/xlsx.full.min.js"></script>
+    
+    <style>
+    /* Ellipsis nas células: mostra "..." e deixa o tooltip trabalhar */
+    #tabela-membros .tabulator-cell {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    </style>
+    
+    <h3>Lista de membros</h3>
+    <div class="sl-controls">
+      <button id="membros-csv">⬇️ CSV</button>
+      <button id="membros-xlsx">⬇️ XLSX</button>
+    </div>
+    <div id="tabela-membros" class="sl-tabela" id="tabela-membros"></div>
+    
+    <script>
+    const DATA_MEMBROS = [{"nome": "Alberto Barbosa Raposo", "url": "membro-4394162331037750.html", "id_lattes": "4394162331037750", "rotulo_grupo": "* Sem rótulo", "bolsa": "Bolsista de Produtividade Desen. Tec. e Extensão Inovadora do CNPq - Nível 1C", "periodo": "", "atualizacao": "08/07/2026", "atualizacao_num": 20260708, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Alessandro Fabricio Garcia", "url": "membro-0807511237795775.html", "id_lattes": "0807511237795775", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível A", "periodo": "", "atualizacao": "21/07/2026", "atualizacao_num": 20260721, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informatica"}, {"nome": "Eduardo Sany Laber", "url": "membro-6039007393332552.html", "id_lattes": "6039007393332552", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível 1D", "periodo": "", "atualizacao": "01/01/2026", "atualizacao_num": 20260101, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Edward Hermann Haeusler", "url": "membro-6075905438020841.html", "id_lattes": "6075905438020841", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível 2", "periodo": "", "atualizacao": "02/07/2026", "atualizacao_num": 20260702, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Greis Francy Mireya Silva Calpa", "url": "membro-3617813687111663.html", "id_lattes": "3617813687111663", "rotulo_grupo": "* Sem rótulo", "bolsa": "", "periodo": "", "atualizacao": "28/06/2026", "atualizacao_num": 20260628, "grande_area": "[sem-grandeArea]", "area": "[sem-area]", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Instituto Tecgraf"}, {"nome": "Helio Côrtes Vieira Lopes", "url": "membro-9199970180870105.html", "id_lattes": "9199970180870105", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível B", "periodo": "", "atualizacao": "04/02/2026", "atualizacao_num": 20260204, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática"}, {"nome": "Jose Alberto Rodrigues Pereira Sardinha", "url": "membro-6620778250608191.html", "id_lattes": "6620778250608191", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível C", "periodo": "", "atualizacao": "26/05/2026", "atualizacao_num": 20260526, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática"}, {"nome": "Juliana Arriel", "url": "membro-3894389473532167.html", "id_lattes": "3894389473532167", "rotulo_grupo": "* Sem rótulo", "bolsa": "", "periodo": "", "atualizacao": "19/06/2026", "atualizacao_num": 20260619, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Reitoria, Coordenação Central de Pós-Graduação"}, {"nome": "Marcelo Gattass", "url": "membro-7454736736043931.html", "id_lattes": "7454736736043931", "rotulo_grupo": "* Sem rótulo", "bolsa": "", "periodo": "", "atualizacao": "16/11/2025", "atualizacao_num": 20251116, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Marco Serpa Molinaro", "url": "membro-1656881663114095.html", "id_lattes": "1656881663114095", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível C", "periodo": "", "atualizacao": "16/03/2026", "atualizacao_num": 20260316, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática"}, {"nome": "Marcos Kalinowski", "url": "membro-1095304607841635.html", "id_lattes": "1095304607841635", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível 1D", "periodo": "", "atualizacao": "12/01/2026", "atualizacao_num": 20260112, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática"}, {"nome": "Marcus Vinicius Soledade Poggi de Aragao", "url": "membro-0833253899619895.html", "id_lattes": "0833253899619895", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível 1D (***", "periodo": "", "atualizacao": "10/06/2025", "atualizacao_num": 20250610, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Markus Endler", "url": "membro-6505039023842313.html", "id_lattes": "6505039023842313", "rotulo_grupo": "* Sem rótulo", "bolsa": "Bolsista de Produtividade Desen. Tec. e Extensão Inovadora do CNPq - Nível 2", "periodo": "", "atualizacao": "10/03/2026", "atualizacao_num": 20260310, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informatica"}, {"nome": "Paulo Ivson Netto Santos", "url": "membro-3762142722427704.html", "id_lattes": "3762142722427704", "rotulo_grupo": "* Sem rótulo", "bolsa": "", "periodo": "", "atualizacao": "17/01/2026", "atualizacao_num": 20260117, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro"}, {"nome": "Rafael Martinelli Pinto", "url": "membro-6823993478179598.html", "id_lattes": "6823993478179598", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível 2", "periodo": "", "atualizacao": "03/06/2026", "atualizacao_num": 20260603, "grande_area": "Ciências Exatas e da Terra", "area": "Matemática", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Engenharia Industrial"}, {"nome": "Sérgio Colcher", "url": "membro-1104157433492666.html", "id_lattes": "1104157433492666", "rotulo_grupo": "* Sem rótulo", "bolsa": "", "periodo": "", "atualizacao": "14/05/2026", "atualizacao_num": 20260514, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Sergio Lifschitz", "url": "membro-8164403687403639.html", "id_lattes": "8164403687403639", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível C", "periodo": "", "atualizacao": "08/04/2026", "atualizacao_num": 20260408, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Simone Diniz Junqueira Barbosa", "url": "membro-9222024053983021.html", "id_lattes": "9222024053983021", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível 1D", "periodo": "", "atualizacao": "19/01/2026", "atualizacao_num": 20260119, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Waldemar Celes Filho", "url": "membro-6533801740375459.html", "id_lattes": "6533801740375459", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível 2", "periodo": "", "atualizacao": "01/09/2025", "atualizacao_num": 20250901, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Antonio Luz Furtado", "url": "membro-1621729459222873.html", "id_lattes": "1621729459222873", "rotulo_grupo": "* Sem rótulo", "bolsa": "", "periodo": "", "atualizacao": "03/02/2025", "atualizacao_num": 20250203, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico"}, {"nome": "Bruno Feijo", "url": "membro-8249534204731109.html", "id_lattes": "8249534204731109", "rotulo_grupo": "* Sem rótulo", "bolsa": "", "periodo": "", "atualizacao": "31/08/2025", "atualizacao_num": 20250831, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Carlos José Pereira de Lucena", "url": "membro-2491891766759477.html", "id_lattes": "2491891766759477", "rotulo_grupo": "* Sem rótulo", "bolsa": "", "periodo": "", "atualizacao": "11/03/2026", "atualizacao_num": 20260311, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática"}, {"nome": "Clarisse Sieckenius de Souza", "url": "membro-4031565135568125.html", "id_lattes": "4031565135568125", "rotulo_grupo": "* Sem rótulo", "bolsa": "", "periodo": "", "atualizacao": "07/01/2026", "atualizacao_num": 20260107, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática"}, {"nome": "Marco Antonio Casanova", "url": "membro-0400232298849115.html", "id_lattes": "0400232298849115", "rotulo_grupo": "* Sem rótulo", "bolsa": "Nível 1B", "periodo": "", "atualizacao": "19/02/2026", "atualizacao_num": 20260219, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Reitoria, Instituto TecGraf"}, {"nome": "Roberto Ierusalimschy", "url": "membro-0427692772445368.html", "id_lattes": "0427692772445368", "rotulo_grupo": "* Sem rótulo", "bolsa": "", "periodo": "", "atualizacao": "06/01/2025", "atualizacao_num": 20250106, "grande_area": "Ciências Exatas e da Terra", "area": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico Científico"}];
+    const TABLE_HEIGHT = "70vh"; // "auto" | "70vh" | "90vh"
+    
+    const LANG_PT = {
+      "pt-br": {
+        "pagination": {
+          "first":"«","first_title":"Primeira",
+          "last":"»","last_title":"Última",
+          "prev":"‹","prev_title":"Anterior",
+          "next":"›","next_title":"Próxima"
+        },
+        "headerFilters": { "default":"⎯ Filtrar ⎯" }
+      }
+    };
+    
+    // Ordenador para data BR usando campo auxiliar yyyymmdd (numérico)
+    function sortDateBR(a, b, aRow, bRow, column, dir, sorterParams) {
+      const av = aRow?.getData()?.atualizacao_num ?? 0;
+      const bv = bRow?.getData()?.atualizacao_num ?? 0;
+      return av - bv;
+    }
+    
+    // Formatter de link com title (tooltip no próprio <a>)
+    function linkWithTitle(cell, formatterParams, onRendered) {
+      const data = cell.getData();
+      const url = data && data.url ? String(data.url) : "#";
+      const label = String(cell.getValue() ?? "");
+      const a = document.createElement("a");
+      a.href = url;
+      a.textContent = label;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.title = label; // <-- tooltip no link
+      return a;
+    }
+    
+    function createTable(el, data, columns, initialSort) {
+      const base = {
+        data,
+        layout: "fitColumns",
+        responsiveLayout: "collapse",
+        pagination: "local",
+        paginationSize: 50,
+        paginationSizeSelector: [10, 25, 50, 100, 200, 500],
+        movableColumns: true,
+        initialSort,
+        headerFilterLiveFilter: true,
+        columns,
+        locale: true, langs: LANG_PT, locale: "pt-br",
+        tooltips: true    // <-- tooltip global (para colunas sem link)
+      };
+      if (TABLE_HEIGHT !== "auto") {
+        base.height = TABLE_HEIGHT;
+      }
+      return new Tabulator(el, base);
+    }
+    
+    document.addEventListener("DOMContentLoaded", function(){
+      const columns = [
+        // Nome com link + title no próprio <a>
+        { title:"Nome", field:"nome", formatter: linkWithTitle,
+           headerFilter:"input", widthGrow:3, tooltip:true },
+    
+        // Demais colunas (tooltip global já cobre)
+        { title:"ID Lattes", field:"id_lattes", headerFilter:"input", tooltip:true },
+        { title:"Rótulo/Grupo", field:"rotulo_grupo", headerFilter:"input", tooltip:true },
+        { title:"Bolsa CNPq", field:"bolsa", headerFilter:"input", tooltip:true },
+        { title:"Período de análise individual", field:"periodo", headerFilter:"input", tooltip:true },
+        { title:"Data de atualização do CV", field:"atualizacao", headerFilter:"input", sorter: sortDateBR, tooltip:true },
+        { title:"Grande área", field:"grande_area", headerFilter:"input", tooltip:true },
+        { title:"Área", field:"area", headerFilter:"input", tooltip:true },
+        { title:"Instituição", field:"instituicao", headerFilter:"input", tooltip:true },
+      ];
+    
+      const t = createTable("#tabela-membros", DATA_MEMBROS, columns, [{ column: "nome", dir: "asc" }]);
+    
+      document.getElementById("membros-csv").onclick  = () => t.download("csv",  "lista_membros.csv", { bom:true });
+      document.getElementById("membros-xlsx").onclick = () => t.download("xlsx", "lista_membros.xlsx", { sheetName:"Membros" });
+    });
+    </script>
+    <br><p><br>(*) Relatório criado com produções desde 1900 até 2027
+<br>Data de processamento: 22/07/2026 11:46:15<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V.2025.09</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>

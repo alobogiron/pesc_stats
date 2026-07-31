@@ -1,0 +1,2210 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "3762142722427704",
+    "nome_completo": "Paulo Ivson Netto Santos",
+    "nome_citacoes": "IVSON, P.;SANTOS, PAULO IVSON NETTO;SANTOS, PAULO I. N.;SANTOS, PAULO;IVSON, PAULO;Santos, Paulo Ivson N.",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro. Rua Marquês de São Vicente, 225 Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 URL da Homepage: http://www.inf.puc-rio.br/",
+    "atualizacao_cv": "17/01/2026",
+    "url": "http://lattes.cnpq.br/3762142722427704",
+    "texto_resumo": "Paulo Ivson é professor do Departamento de Informática da PUC-Rio e gerente de projetos no Instituto Tecgraf da PUC-Rio. Suas pesquisas envolvem as áreas de Inteligência Artificial e Computação Gráfica, com ênfase em técnicas de Aprendizado de Máquina, Aprendizado Profundo, Visão Computacional e Visualização 3D. Paulo Ivson é Doutor e Mestre em Informática, com foco em Computação Gráfica, tendo se graduado em Engenharia de Computação pela PUC-Rio. Atua há mais de 20 anos em projetos de Pesquisa, Desenvolvimento e Inovação com a indústria, atualmente focando em tecnologias inovadoras para gestão digital de ativos de engenharia, com base em conceitos de Indústria 4.0 e Building Information Modeling (BIM). (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Doutorado em Informática - Computação Gráfica",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "2014",
+      "ano_conclusao": "2018",
+      "descricao": "Título: Information Visualization for Managing Large-Scale Engineering Projects O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2018. Orientador: Waldemar Celes Filho. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Information Visualization; 3D CAD; Building Information Modeling. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Processamento Gráfico (Graphics). Grande Área: Engenharias / Área: Engenharia Civil / Subárea: Construção Civil."
+    },
+    {
+      "tipo": "Mestrado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "2007",
+      "ano_conclusao": "2009",
+      "descricao": "Título: Ray Tracing Dynamic Scenes On the GPU O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2009. Orientador: Waldemar Celes Filho. Palavras-chave: Interactive ray tracing; Uniform grids; Dynamic scenes; GPU. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Computação Gráfica. Setores de atividade: Pesquisa e desenvolvimento científico."
+    },
+    {
+      "tipo": "Graduação em Engenharia de Computação",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "2001",
+      "ano_conclusao": "2006",
+      "descricao": "Título: Técnicas de Aceleração para Visualização de Modelos Massivos. Orientador: Waldemar Celes Filho. Bolsista do(a): Vice-Reitoria Comunitaria, VRC, Brasil."
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2023 - Atual",
+      "ano_inicio": "2023",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor titular",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2020 - 2022",
+      "ano_inicio": "2020",
+      "ano_fim": "2022",
+      "vinculo": "Celetista",
+      "enquadramento": "Consultor",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2014 - 2019",
+      "ano_inicio": "2014",
+      "ano_fim": "2019",
+      "vinculo": "Colaborador",
+      "enquadramento": "Pesquisador do Instituto Tecgraf",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2009 - 2014",
+      "ano_inicio": "2009",
+      "ano_fim": "2014",
+      "vinculo": "Colaborador",
+      "enquadramento": "Technical Coordinator",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2007 - 2009",
+      "ano_inicio": "2007",
+      "ano_fim": "2009",
+      "vinculo": "Colaborador",
+      "enquadramento": "Pesquisador",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2005 - 2007",
+      "ano_inicio": "2005",
+      "ano_fim": "2007",
+      "vinculo": "Estágio",
+      "enquadramento": "Estagiário",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2003 - 2004",
+      "ano_inicio": "2003",
+      "ano_fim": "2004",
+      "vinculo": "Estágio",
+      "enquadramento": "Monitor de Desenho Técnico em AutoCAD",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "07/2024 - Atual",
+      "ano_inicio": "2024",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "06/2024 - Atual",
+      "ano_inicio": "2024",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/2007 - Atual",
+      "ano_inicio": "2007",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Vice-Reitoria Acadêmica, Instituto Tecgraf de Desenvolvimento de Software Técnico-Científico."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "07/2023 - 12/2023",
+      "ano_inicio": "2023",
+      "ano_fim": "2023",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/2005 - 12/2006",
+      "ano_inicio": "2005",
+      "ano_fim": "2006",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "08/2003 - 07/2004",
+      "ano_inicio": "2003",
+      "ano_fim": "2004",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Evolução tecnológica do sitema Environ/Petrobras para monitoração e gestão da integridade das UEPs",
+      "ano_inicio": "2023",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Pesquisa e desenvolvimento de um ambiente baseado em visualização 3D para análise e apoio à decisão na monitoração e gestão da integridade dos sistemas de produção.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Integrante / CORSEUIL, EDUARDO T. L. - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "CORSEUIL, EDUARDO T",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa e Desenvolvimento de Técnicas de Ciência de Dados para Construção de Índice de Ecoeficiência de Frotas Rodoviárias",
+      "ano_inicio": "2022",
+      "ano_conclusao": "2022",
+      "descricao": [
+        "Descrição: o objetivo deste projeto é a pesquisa e desenvolvimento de técnicas de ciência de dados para construção de Índice de Ecoeficiência (IEE) segundo direcionamento da ZANE sobre as frotas rodoviárias da White Martins.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "SubSea Digital para Inspeção e Otimização de Produção",
+      "ano_inicio": "2021",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Integrar dados do SubSea com o TopSide com o objetivo de obter acesso rápido a informações confiáveis e identificar padrões e correlações que poderão otimizar os processos de produção, segurança e conformidade regulatória.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Integrante / Eduardo Thadeu - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Thadeu",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "MI3D - Ambiente 3D para Manutenção, Integridade e Monitoramento de Instalações de Superfície",
+      "ano_inicio": "2019",
+      "ano_conclusao": "2022",
+      "descricao": [
+        "Descrição: Pesquisar e desenvolver tecnologias para testar um ambiente integrado de análise e apoio à decisão baseado no modelo CAD/CAE 3D com ferramentas computacionais para agregar dados reais e de simulações, visando manutenção e integridade de instalações de superfície.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Integrante / Eduardo Thadeu - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Thadeu",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "PESQUISAS, DESENVOLVIMENTOS E SUPORTE TECNÓLOGICO NOS SISTEMAS PROTEUS, ENVIRON E GCAB",
+      "ano_inicio": "2019",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Continuidade no apoio tecnológico e desenvolvimento de soluções para as diferentes unidades de negócio no EP da Petrobras. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Integrante / Eduardo Thadeu - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Thadeu",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa e Desenvolvimento de Sistema de Verificação de Conformidade Legal de Projetos de Plantas Industriais",
+      "ano_inicio": "2018",
+      "ano_conclusao": "2020",
+      "descricao": [
+        "Descrição: O objetivo deste projeto de pesquisa é investigar a viabilidade de realizar a verificação de conformidade legal de projetos de engenharia de forma automatizada. A partir de um estudo sistemático da norma NR-13, serão consolidadas as principais verificações que podem ser automatizadas em relação a equipamentos estáticos, dentro da disciplina de equipamentos mecânicos. Este estudo envolverá especialistas da área para auxiliar na identificação dos principais itens de conformidade legal, desenvolvendo e validando métricas de qualidade sobre as ferramentas CAD/CAE 2D e 3D. A saída das verificações será apresentada sob a forma de indicadores em relatório, com opção de visualização 3D dos itens em desconformidade.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Integrante / Eduardo Thadeu - Coordenador / Daniel Luiz de Mattos Nascimento - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Thadeu",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Daniel Luiz de Mattos Nascimento",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa e Desenvolvimento na Interligação entre Ferramentas Open BIM, Sistemas de Análise e Plant Design",
+      "ano_inicio": "2018",
+      "ano_conclusao": "2020",
+      "descricao": [
+        "Descrição: O trabalho tem por objetivo geral desenvolver metodologias e tecnologias que utilizem os formatos Neutros: PCF (Packed Collaboration File), IFC (Industry Foundation Classes) e BCF (BIM Collaboration format) para padronizar e otimizar fluxos de trabalho em projetos de tubulações industriais e estruturas civis. Além disso, fornecer à indústria nacional um padrão neutro de trocas de informações, sem direcionar fornecedores de softwares na relação entre contratantes e contratadas, aumentando a colaboração entre todos envolvidos em empreendimentos com foco na diminuição do retrabalho no setor de óleo e gás. Como objetivo específico, esta pesquisa será focada na proposição de um fluxo de trabalho e informações voltados para projetos de tubulação. Mais especificamente análise de flexibilidade e análise dos suportes estruturais, a serem explorados em casos de uso para validação da solução proposta.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Integrante / CORSEUIL, EDUARDO T. L. - Integrante / Daniel Luiz de Mattos Nascimento - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "CORSEUIL, EDUARDO T",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa e Desenvolvimento de Soluções para Geração Automática de LogBook",
+      "ano_inicio": "2017",
+      "ano_conclusao": "2024",
+      "descricao": [
+        "Descrição: O projeto tem como objetivo desenvolver e implantar soluções de integração de dados, verificação de consistência e geração de documentos técnicos para automatizar o processo de geração do LogBook de serviços de reparos de motores. As soluções deverão facilitar o acesso a informações armazenadas em bancos de dados, verificando sua consistência através de regras de engenharia. De posse destas informações, será desenvolvido um ambiente para controle do processo de geração automática com conteúdo de maior confiabilidade.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Coordenador / CORSEUIL, EDUARDO T. L. - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "CORSEUIL, EDUARDO T",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa e Desenvolvimento de soluções e apoio tecnológico em Automação de Projetos",
+      "ano_inicio": "2017",
+      "ano_conclusao": "2022",
+      "descricao": [
+        "Descrição: Este projeto visa desenvolver soluções computacionais e suporte na área de Automação de Projetos, além de prospecção de tecnologias e pesquisas relacionadas a modelagem e representação de dados dos sistemas de superfície.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Integrante / CORSEUIL, EDUARDO T. L. - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "CORSEUIL, EDUARDO T",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa e Desenvolvimento de Tecnologias para Gestão e Controle Anti-Corrosiva em Plantas Industriais",
+      "ano_inicio": "2016",
+      "ano_conclusao": "2018",
+      "descricao": [
+        "Descrição: Desenvolvimento de tecnologias para integração entre sistemas de visualização e análise 3D e ferramentas de planejamento e controle de atividades a bordo das plataformas de petróleo.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Coordenador / Eduardo Thadeu - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Eduardo Thadeu",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa e Desenvolvimento de Tecnologias em Automação de Projetos",
+      "ano_inicio": "2013",
+      "ano_conclusao": "2016",
+      "descricao": [
+        "Descrição: P&D de ferramentas baseadas em modelos CAD/CAE 3D e bancos de dados de engenharia para integração de informações de projeto, construção e montagem, operação e manutenção de plantas industriais de óleo e gás.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Coordenador / Eduardo Thadeu - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Eduardo Thadeu",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa e Desenvolvimento de Software 3D para Cálculo de Pintura Anticorrosiva",
+      "ano_inicio": "2013",
+      "ano_conclusao": "2014",
+      "descricao": [
+        "Descrição: Desenvolvimento de algoritmos para cálculo de área de superfície de pintura anti-corrosiva sobre componentes de plantas industriais a bordo de unidades de exploração e produção de petróleo em alto mar.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Coordenador / Eduardo Thadeu - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Eduardo Thadeu",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa e Desenvolvimento de Tecnologias para Monitoramento e Controle Remoto de Plantas Industriais",
+      "ano_inicio": "2011",
+      "ano_conclusao": "2012",
+      "descricao": [
+        "Descrição: Desenvolvimento de softwares para integração de bases de dados de engenharia, análises de dados, comunicação com sistemas supervisórios de instrumentação e controle, simuladores de processo, visualização de modelos CAD/CAE 3D e apoio à decisão.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Coordenador / Eduardo Thadeu - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Eduardo Thadeu",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa e Desenvolvimento de Tecnologias Gráficas para Modelos CAD 3D",
+      "ano_inicio": "2010",
+      "ano_conclusao": "2011",
+      "descricao": [
+        "Descrição: Desenvolvimento de algoritmos e técnicas de otimização para visualização de modelos CAD/CAE 3D massivos em tempo real.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Paulo Ivson Netto Santos - Coordenador / Eduardo Thadeu - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Eduardo Thadeu",
+          "papel": "Integrante"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [
+    {
+      "nome": "utomated Learning Intelligence for Exploration Potencializando a Detecção de Acumulações de Gás com Generative AI em Dados Sísmicos e Evolução de Usabilidade do Sistema",
+      "ano_inicio": "2025",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Situação: Em andamento; Natureza: Desenvolvimento. Integrantes: Paulo Ivson Netto Santos - Coordenador / Luiz Fernando Santos - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Paulo Ivson Netto Santos",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Luiz Fernando Santos",
+          "papel": "Integrante"
+        }
+      ]
+    }
+  ],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Inteligência Artificial",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Computação Gráfica",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Computação Gráfica."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Ciência de Dados",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Ciência de Dados."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Espanhol",
+      "compreende": "Razoavelmente",
+      "fala": "Razoavelmente",
+      "le": "Razoavelmente",
+      "escreve": "Razoavelmente",
+      "proficiencia_completa": "Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente."
+    },
+    {
+      "nome": "Português",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Prêmio ANP de Inovação Tecnológica, Agência Nacional de Petróleo (ANP).",
+      "ano": 2025
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "Building Information Modeling",
+      "objetivo": ""
+    },
+    {
+      "nome": "Visualization",
+      "objetivo": ""
+    },
+    {
+      "nome": "Industry 4.0",
+      "objetivo": ""
+    },
+    {
+      "nome": "Real-Time Rendering",
+      "objetivo": ""
+    },
+    {
+      "nome": "Artificial Intelligence",
+      "objetivo": ""
+    },
+    {
+      "nome": "Image Processing",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Combining Convolutions and Transformers for Automatic Detection of Vugs and Fractures in Borehole Log Images",
+        "ano": 2025,
+        "autores": "SILVA, MAYARA GOMES ; IVSON, PAULO ; NASCIMENTO, RENATA THOMAZ LINS DO ; BAZZARELLA, CAMILLA QUITAN",
+        "revista": "IEEE GEOSCIENCE AND REMOTE SENSING LETTERS",
+        "volume": "22",
+        "numero": "",
+        "paginas": "1-5",
+        "issn": "1558-0571",
+        "doi": "http://dx.doi.org/10.1109/LGRS.2025.3586181",
+        "qualis": ""
+      },
+      {
+        "titulo": "Decision Framework for Asset Criticality and Maintenance Planning in Complex Systems: An Offshore Corrosion Management Case",
+        "ano": 2025,
+        "autores": "RIOS, MARINA POLONIA ; KAISER, BRUNA SIQUEIRA ; CAIADO, RODRIGO GOYANNES GUSMÃO ; IVSON, PAULO ; ROEHL, DEANE",
+        "revista": "Applied Sciences-Basel",
+        "volume": "15",
+        "numero": "",
+        "paginas": "10407",
+        "issn": "2076-3417",
+        "doi": "http://dx.doi.org/10.3390/app151910407",
+        "qualis": ""
+      },
+      {
+        "titulo": "Automatic corrosion segmentation and classification using image processing and machine learning",
+        "ano": 2025,
+        "autores": "RIOS, MARINA POLONIA ; SANTOS, PAULO IVSON NETTO ; ROEHL, DEANE",
+        "revista": "JOURNAL OF OCEAN ENGINEERING AND MARINE ENERGY (PRINT)",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1",
+        "issn": "2198-6444",
+        "doi": "http://dx.doi.org/10.1007/s40722-025-00445-2",
+        "qualis": ""
+      },
+      {
+        "titulo": "A novel BIM maturity model integrating Industry 4.0 and sustainability: a design science research approach",
+        "ano": 2025,
+        "autores": "DIAZ SCHERY, CARLOS ALEJANDRO ; CAIADO, RODRIGO GOYANNES GUSMÃO ; CORSEUIL, EDUARDO THADEU ; IVSON, PAULO ; BUENO, ADAUTO",
+        "revista": "Engineering Construction And Architectural Management",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1",
+        "issn": "1365-232X",
+        "doi": "http://dx.doi.org/10.1108/ECAM-10-2024-1333",
+        "qualis": ""
+      },
+      {
+        "titulo": "Optimising Maintenance Planning and Integrity in Offshore Facilities Using Machine Learning and Design Science: A Predictive Approach",
+        "ano": 2024,
+        "autores": "RIOS, MARINA POLONIA ; CAIADO, RODRIGO GOYANNES GUSMÃO ; VIGNON, YISELIS RODRÍGUEZ ; CORSEUIL, EDUARDO THADEU ; SANTOS, PAULO IVSON NETTO",
+        "revista": "Applied Sciences-Basel",
+        "volume": "14",
+        "numero": "",
+        "paginas": "10902-10922",
+        "issn": "2076-3417",
+        "doi": "http://dx.doi.org/10.3390/app142310902",
+        "qualis": ""
+      },
+      {
+        "titulo": "Unsupervised method for identifying shape instances on 3D CAD models",
+        "ano": 2023,
+        "autores": "FIGUEIREDO, LUCAS ; IVSON, PAULO ; CELES, WALDEMAR",
+        "revista": "COMPUTERS & GRAPHICS-UK",
+        "volume": "116",
+        "numero": "",
+        "paginas": "228-238",
+        "issn": "0097-8493",
+        "doi": "http://dx.doi.org/10.1016/j.cag.2023.08.018",
+        "qualis": ""
+      },
+      {
+        "titulo": "Decision support framework for inventory management combining fuzzy multicriteria methods, genetic algorithm, and artificial neural network",
+        "ano": 2022,
+        "autores": "DE PAULA VIDAL, GUILHERME HENRIQUE ; CAIADO, RODRIGO GOYANNES GUSMÃO ; SCAVARDA, LUIZ FELIPE ; IVSON, PAULO ; GARZA-REYES, JOSE ARTURO",
+        "revista": "COMPUTERS & INDUSTRIAL ENGINEERING",
+        "volume": "174",
+        "numero": "",
+        "paginas": "108777",
+        "issn": "0360-8352",
+        "doi": "http://dx.doi.org/10.1016/j.cie.2022.108777",
+        "qualis": ""
+      },
+      {
+        "titulo": "Deep learning-based framework for Shape Instance Registration on 3D CAD models",
+        "ano": 2021,
+        "autores": "FIGUEIREDO, LUCAS ; IVSON, PAULO ; CELES, WALDEMAR",
+        "revista": "COMPUTERS & GRAPHICS-UK",
+        "volume": "101",
+        "numero": "",
+        "paginas": "72-81",
+        "issn": "0097-8493",
+        "doi": "http://dx.doi.org/10.1016/j.cag.2021.08.012",
+        "qualis": ""
+      },
+      {
+        "titulo": "A fuzzy rule-based industry 4.0 maturity model for operations and supply chain management",
+        "ano": 2021,
+        "autores": "CAIADO, RODRIGO GOYANNES GUSMÃO ; SCAVARDA, LUIZ FELIPE ; GAVIÃO, LUIZ OCTÁVIO ; IVSON, PAULO ; NASCIMENTO, DANIEL LUIZ DE MATTOS ; GARZA-REYES, JOSE ARTURO",
+        "revista": "INTERNATIONAL JOURNAL OF PRODUCTION ECONOMICS",
+        "volume": "231",
+        "numero": "",
+        "paginas": "107883",
+        "issn": "0925-5273",
+        "doi": "http://dx.doi.org/10.1016/j.ijpe.2020.107883",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Systematic Review of Visualization in Building Information Modeling",
+        "ano": 2019,
+        "autores": "IVSON, PAULO; MOREIRA, ANDRE ; QUEIROZ, FRANCISCO ; SANTOS, WALLAS ; CELES, WALDEMAR",
+        "revista": "IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS",
+        "volume": "26",
+        "numero": "",
+        "paginas": "3109-3127",
+        "issn": "1077-2626",
+        "doi": "http://dx.doi.org/10.1109/tvcg.2019.2907583",
+        "qualis": ""
+      },
+      {
+        "titulo": "Digital Obeya Room: exploring the synergies between BIM and lean for visual construction management",
+        "ano": 2018,
+        "autores": "NASCIMENTO, DANIEL ; CAIADO, RODRIGO ; TORTORELLA, GUILHERME ; IVSON, PAULO ; MEIRIÑO, MARCELO",
+        "revista": "Innovative Infrastructure Solutions",
+        "volume": "3",
+        "numero": "",
+        "paginas": "1-10",
+        "issn": "2364-4176",
+        "doi": "http://dx.doi.org/10.1007/s41062-017-0125-0",
+        "qualis": ""
+      },
+      {
+        "titulo": "FACILITY MANAGEMENT USING DIGITAL OBEYA ROOM BY INTEGRATING BIM-LEAN APPROACHES - AN EMPIRICAL STUDY",
+        "ano": 2018,
+        "autores": "NASCIMENTO, DANIEL LUIZ DE MATTOS ; QUELHAS, OSVALDO LUIZ GONÇALVES ; MEIRIÑO, MARCELO JASMIM ; CAIADO, RODRIGO GOYANNES GUSMÃO ; BARBOSA, SIMONE D. J. ; IVSON, PAULO",
+        "revista": "Journal of Civil Engineering and Management",
+        "volume": "24",
+        "numero": "",
+        "paginas": "581-591",
+        "issn": "1392-3730",
+        "doi": "http://dx.doi.org/10.3846/jcem.2018.5609",
+        "qualis": ""
+      },
+      {
+        "titulo": "CasCADe: A Novel 4D Visualization System for Virtual Construction Planning",
+        "ano": 2017,
+        "autores": "IVSON, PAULO; NASCIMENTO, DANIEL ; CELES, WALDEMAR ; DJ BARBOSA, SIMONE",
+        "revista": "IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS",
+        "volume": "24",
+        "numero": "",
+        "paginas": "1-1",
+        "issn": "1077-2626",
+        "doi": "http://dx.doi.org/10.1109/tvcg.2017.2745105",
+        "qualis": ""
+      },
+      {
+        "titulo": "Constructability in industrial plants construction: a BIM-Lean approach using the Digital Obeya Room framework",
+        "ano": 2017,
+        "autores": "NASCIMENTO, DANIEL LUIZ DE MATTOS ; SOTELINO, ELISA DOMINGUEZ ; LARA, THIAGO PIRES SANTOLONI ; CAIADO, RODRIGO GOYANNES GUSMÃO ; IVSON, PAULO",
+        "revista": "Journal of Civil Engineering and Management",
+        "volume": "23",
+        "numero": "",
+        "paginas": "1100-1108",
+        "issn": "1392-3730",
+        "doi": "http://dx.doi.org/10.3846/13923730.2017.1385521",
+        "qualis": ""
+      },
+      {
+        "titulo": "Synergy between Principles of Lean Thinking and BIM Functionalities in Interdisciplinarity of Management in Industrial Plants",
+        "ano": 2017,
+        "autores": "NASCIMENTO, DANIEL ; SOTELINO, ELISA DOMINGUEZ ; CAIADO, RODRIGO ; IVSON, PAULO ; FARIA, P. S.",
+        "revista": "JOURNAL OF LEAN SYSTEMS",
+        "volume": "2",
+        "numero": "",
+        "paginas": "1",
+        "issn": "2448-0266",
+        "doi": "",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [
+      {
+        "titulo": "Digital Obeya Room: Maximizing the Synergy between BIM and Lean",
+        "ano": 2018,
+        "autores": "NASCIMENTO, D. L. M. ; QUELHAS, O. L. G. ; IVSON, P.",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      }
+    ],
+    "capitulos_livros": [
+      {
+        "titulo": "Leveraging LLM in the Implementation of the CFIHOS Standards Conceptual Model. Lecture Notes in Networks and Systems. 1ed",
+        "ano": 2026,
+        "autores": "Molina de Armas, Elvismary ; G. Campos, Júlio ; Hamazaki da Silva, Geiza M. ; Santos, Paulo Ivson N. ; L. Corseuil, Eduardo T. ; de Lima, Denyson Tomaz",
+        "titulo_livro": "",
+        "editora": "Springer Nature Switzerland",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "85-96"
+      },
+      {
+        "titulo": "Automatic Deformation Detection and Analysis Visualization of 3D Steel Structures in As-Built Point Clouds. Automatic Deformation Detection and Analysis Visualization of 3D Steel Structures in As-Built Point Clouds. 1ed",
+        "ano": 2020,
+        "autores": "de Souza, Rogério Pinheiro ; Sierra-Franco, César A. ; SANTOS, PAULO IVSON NETTO ; Polonia Rios, Marina ; de Mattos Nascimento, Daniel Luiz ; Barbosa Raposo, Alberto",
+        "titulo_livro": "",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "635-654"
+      },
+      {
+        "titulo": "A Maturity Model for Manufacturing 4.0 in Emerging Countries. Springer Proceedings in Business and Economics. 1ed",
+        "ano": 2019,
+        "autores": "CAIADO, RODRIGO GOYANNES GUSMÃO ; SCAVARDA, L. F. ; NASCIMENTO, DANIEL LUIZ DE MATTOS ; IVSON, PAULO ; CUNHA, V. H. C.",
+        "titulo_livro": "",
+        "editora": "Springer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "0"
+      },
+      {
+        "titulo": "Interdisciplinary Management of Construction Projects from the Integration of Lean Philosophy with Building Information Modeling. Princípios e Filosofia Lean. 1ed",
+        "ano": 2017,
+        "autores": "NASCIMENTO, D. L. M. ; SOTELINO, ELISA DOMINGUEZ ; CAIADO, RODRIGO ; IVSON, PAULO ; FARIA, P. S.",
+        "titulo_livro": "",
+        "editora": "Atena Editora",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "181"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "From Data to Decisions: A Digital Twin Approach for Subsea Integrity Management",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.4043/36278-ms",
+        "autores": "LEMOS, M. ; IVSON, P. ; DE OLIVEIRA, R. FERREIRA ; CARRILHO, J. ; DITTRICH, E. CLARO ; NAKAMURA, I. ; MACHADO, V. ; CARVALHO, F. ; DE CARVALHO, B. ; MAKSOUD, D. ; ATHAYDE, T. ; DE ARMAS, E. MOLINA ; NEVES, A. ; DE SOUSA, J. ALVES ; REZENDE, B. ; SOUZA, R. ; MARQUES, L. ; VIDAL, J. ; CASTRO, L. CRUZ ; et.al",
+        "evento": "OTC Brasil",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Improved Hydrocarbon Detection with Self-Supervised Long Short-Term Memory Networks",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1109/sibgrapi62404.2024.10716309",
+        "autores": "PINTO, ANTÔNIO ; ANDRADE, FELIPE ; SUAREZ, CARLOS ; SANTOS, LUIZ FERNANDO ; MIRANDA, FREDERICO ; MICHELON, DIOGO ; RIBEIRO, ROBERTO ; IVSON, PAULO",
+        "evento": "2024 37th SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "1-6",
+        "isbn": ""
+      },
+      {
+        "titulo": "Automatic Detection of 3D Steel Structures in As-built Point Clouds",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1145/3373509.3373565",
+        "autores": "de Souza, Rogério Pinheiro ; SANTOS, PAULO IVSON NETTO ; FRANCO, CESAR A. SIERRA ; RAPOSO, ALBERTO BARBOSA",
+        "evento": "ICCPR '19: 2019 8th International Conference on Computing and Pattern Recognition",
+        "cidade": "",
+        "paginas": "147-157",
+        "isbn": ""
+      },
+      {
+        "titulo": "Hidden Surface Removal for Accurate Painting-Area Calculation on CAD Models",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1109/sibgrapi.2018.00008",
+        "autores": "FIGUEIREDO, LUCAS ; IVSON, PAULO ; CELES, WALDEMAR",
+        "evento": "2018 31st SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "9-19",
+        "isbn": ""
+      },
+      {
+        "titulo": "Hybrid Cloud Rendering System for Massive CAD Models",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1109/sibgrapi.2018.00037",
+        "autores": "MOREIRA, ANDRE ; IVSON, PAULO ; CELES, WALDEMAR",
+        "evento": "2018 31st SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "234-244",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Maturity Model for Manufacturing 4.0 from emerging countries",
+        "ano": 2018,
+        "doi": "",
+        "autores": "CAIADO, RODRIGO ; SCAVARDA, L. F. ; NASCIMENTO, D. L. M. ; IVSON, P.",
+        "evento": "Production Operation Management Society",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "CAD Shape Grammar: Procedural Generation for Massive CAD Model",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1109/sibgrapi.2017.11",
+        "autores": "DOS SANTOS, WALLAS H. S. ; IVSON, PAULO ; RAPOSO, ALBERTO BARBOSA",
+        "evento": "2017 30th SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "31-41",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Ontology-Driven Framework for Data Integration and Dynamic Service Composition: Case Study in the Oil & Gas Industry",
+        "ano": 2017,
+        "doi": "",
+        "autores": "HAMAZAKI, G. ; SAETTLER, A. ; LLANES, K. ; IVSON, P. ; NASCIMENTO, D. L. M. ; CORSEUIL, EDUARDO T. L.",
+        "evento": "2017 IADIS International Conference on WWW/Internet",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Instanced Rendering of Massive CAD Models Using Shape Matching",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1109/sibgrapi.2014.34",
+        "autores": "SANTOS, PAULO IVSON NETTO; FILHO, WALDEMAR CELES",
+        "evento": "2014 27th SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "335-345",
+        "isbn": ""
+      },
+      {
+        "titulo": "EnViron: An integrated VR tool for engineering projects",
+        "ano": 2008,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2008.4537067",
+        "autores": "DOS SANTOS, ISMAEL H. F. ; RAPOSO, ALBERTO ; SOARES, LUCIANO P. ; CORSEUIL, EDUARDO T. L. ; WAGNER, GUSTAVO N. ; SANTOS, PAULO I. N. ; DE TOLEDO, RODRIGO ; GATTASS, MARCELO",
+        "evento": "12th International Conference on CSCW in Design ? CSCWD 2008",
+        "cidade": "",
+        "paginas": "721-731",
+        "isbn": ""
+      },
+      {
+        "titulo": "Solid height-map sets",
+        "ano": 2008,
+        "doi": "http://dx.doi.org/10.1145/1364901.1364953",
+        "autores": "SANTOS, PAULO; DE TOLEDO, RODRIGO ; GATTASS, MARCELO",
+        "evento": "the 2008 ACM symposium",
+        "cidade": "",
+        "paginas": "359-369",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [],
+    "resumos_congressos": [],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "Information Visualization for Managing Large-Scale Engineering Projects",
+        "ano": 2018,
+        "autores": "IVSON, P.; CELES, WALDEMAR",
+        "evento": ""
+      },
+      {
+        "titulo": "Técnicas de Aceleração para Visualização de Modelos Massivos",
+        "ano": 2007,
+        "autores": "IVSON, P.; CELES, W.",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [],
+    "outras_producoes": []
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [
+      {
+        "titulo": "L. . ENVIRON",
+        "ano": 2024,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "ABISS",
+        "ano": 2024,
+        "autores": "IVSON, P.",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . E-LIBRA",
+        "ano": 2023,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . CONECTOR",
+        "ano": 2023,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . GIANTS",
+        "ano": 2023,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Software para análise de ecoeficiência de frotas rodoviárias",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . CAPTURADOR DE TAGS",
+        "ano": 2022,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . AUDITOR",
+        "ano": 2022,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . GCAB",
+        "ano": 2021,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . FAPENG",
+        "ano": 2021,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . PORTAL DE MODELOS",
+        "ano": 2021,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . CONVERSOR WEB",
+        "ano": 2021,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "instituicao": "",
+        "finalidade": ""
+      }
+    ],
+    "produtos_tecnologicos": [
+      {
+        "titulo": "L. . ENVIRON",
+        "ano": 2024,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "ABISS",
+        "ano": 2024,
+        "autores": "IVSON, P.",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . CONECTOR",
+        "ano": 2023,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . E-LIBRA",
+        "ano": 2023,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . GIANTS",
+        "ano": 2023,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Software para análise de ecoeficiência de frotas rodoviárias",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . AUDITOR",
+        "ano": 2022,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . CAPTURADOR DE TAGS",
+        "ano": 2022,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . CONVERSOR WEB",
+        "ano": 2021,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . FAPENG",
+        "ano": 2021,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . PORTAL DE MODELOS",
+        "ano": 2021,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      },
+      {
+        "titulo": "L. . GCAB",
+        "ano": 2021,
+        "autores": "IVSON, P.; CORSEUIL, EDUARDO T",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      }
+    ],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [
+      {
+        "titulo": "European Conference on Artificial Intelligence",
+        "ano": 2025,
+        "autores": "IVSON, PAULO",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "PESQUISA E DESENVOLVIMENTO DE TÉCNICAS DE CIÊNCIA DE DADOS PARA CONSTRUÇÃO DE ÍNDICE DE ECOEFICIÊNCIA DE FROTAS RODOVIÁRIAS 1 de 3",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "PESQUISA E DESENVOLVIMENTO DE TÉCNICAS DE CIÊNCIA DE DADOS PARA CONSTRUÇÃO DE ÍNDICE DE ECOEFICIÊNCIA DE FROTAS RODOVIÁRIAS 2 de 3",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "PESQUISA E DESENVOLVIMENTO DE TÉCNICAS DE CIÊNCIA DE DADOS PARA CONSTRUÇÃO DE ÍNDICE DE ECOEFICIÊNCIA DE FROTAS RODOVIÁRIAS 3 de 3",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Trabalho técnico"
+      },
+      {
+        "titulo": "GPU-accelerated uniform grid construction for ray tracing dynamic scenes",
+        "ano": 2009,
+        "autores": "IVSON, P.; DUARTE, L. ; CELES, W.",
+        "tipo": "Trabalho técnico"
+      }
+    ],
+    "outras_producoes_tecnicas": [
+      {
+        "titulo": "ESTUDO E EXPERIMENTOS SOBRE INICIATIVAS INTERNACIONAIS PARA TROCA DE DADOS DE PLANTAS E PROCESSOS INDUSTRIAIS",
+        "ano": 2023,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO SOBRE A APLICABILIDADE E DESAFIOS DA ARQUITETURA DE EVENT SOURCING EM SISTEMAS DE GESTÃO DE WORKFLOW",
+        "ano": 2023,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO SOBRE INSTANCIAÇÃO DA ENGINE DO ENVIRON 1 de 2",
+        "ano": 2023,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO SOBRE INSTANCIAÇÃO DA ENGINE DO ENVIRON 2 de 2",
+        "ano": 2023,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO SOBRE CONVERTER ARQUIVOS DO NAVISWORKS PARA MODELOS DO ENVIRON",
+        "ano": 2023,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa sobre Reconstrução da Hierarquia de Modelos convertidos para o Environ a partir do MDB2 com Dados de Engenharia (PARTE 5)",
+        "ano": 2023,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "PESQUISA E DESENVOLVIMENTO DE TÉCNICAS DE CIÊNCIA DE DADOS PARA CONSTRUÇÃO DE ÍNDICE DE ECOEFICIÊNCIA DE FROTAS RODOVIÁRIAS 1 de 3",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "PESQUISA E DESENVOLVIMENTO DE TÉCNICAS DE CIÊNCIA DE DADOS PARA CONSTRUÇÃO DE ÍNDICE DE ECOEFICIÊNCIA DE FROTAS RODOVIÁRIAS 2 de 3",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "PESQUISA E DESENVOLVIMENTO DE TÉCNICAS DE CIÊNCIA DE DADOS PARA CONSTRUÇÃO DE ÍNDICE DE ECOEFICIÊNCIA DE FROTAS RODOVIÁRIAS 3 de 3",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa sobre Reconstrução da Hierarquia de Modelos convertidos para o Environ a partir do MDB2 com Dados de Engenharia (PARTE 4)",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa sobre Reconstrução da Hierarquia de Modelos convertidos para o Environ a partir do MDB2 com Dados de Engenharia (PARTE 3)",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Introdução do CylinderSlope Paramétrico no Conversor VUE ? Parte I",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Automação Eficiente de Escrita em Planilhas com padrão Office Open XML (OOXML) em C# utilizando o Modelo SAX",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa sobre Tampas Duplicadas em Cilindros que foram interpretados como paramétricos",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa sobre Algoritmos de Transparência Independente de Ordem (OIT)",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa sobre Reconstrução da Hierarquia de Modelos Convertidos para o Environ a partir do MDB2 com dados de Engenharia (PARTE 2)",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa sobre Data Exchange in the Process Industry (DEXPI)",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa sobre Reconstrução da Hierarquia de Modelos Convertidos para o Environ a partir do MDB2 com dados de Engenharia (PARTE 1)",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo de Tecnologias de EDW",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo sobre Reconstrução da Hierarquia de Modelos Convertidos para o Environ a partir do XML com dados de Engenharia",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo de Instanciação de Geometrias Baseada em Deep Learning ( PARTE 2)",
+        "ano": 2022,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo de Viabilidade de Integração do P&ID com o Environ (Parte Final)",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo de Instanciação de Geometrias Baseada em Deep Learning",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo de Viabilidade de Integração do P&ID com o Environ",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo sobre Conceitos de BIM aplicáveis à Indústria de Óleo & Gás ? Parte III: Classificação e Identificação de Informações",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo sobre Nuvens de Ponto 3D (PARTE 4)",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo sobre Nuvens de Ponto 3D (PARTE 3)",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo sobre Nuvens de Ponto 3D (PARTE 2)",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo sobre Nuvens de Ponto 3D (PARTE I)",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo sobre Conceitos de BIM aplicáveis à Indústria de Óleo & Gás ? Parte II: Normatização",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Estudo sobre Conceitos de BIM aplicáveis à Indústria de Óleo & Gás ? Parte I: Gestão da Informação na Fase de Operação de Ativos",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa de Tecnologias para Aparelhos Móveis",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa PDF 3D",
+        "ano": 2021,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa de Renderização de Efeito de Transparência na GPU",
+        "ano": 2020,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Pesquisa de Validação do Uso do Danke nos Bancos de Dados de Búzios",
+        "ano": 2020,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ARQUITETURA DE FLUXO DE DOCUMENTOS",
+        "ano": 2020,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO DE RENDERING REMOTO DE PLANTAS INDUSTRIAIS (PARTE 4)",
+        "ano": 2020,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO DE RENDERING REMOTO DE PLANTAS INDUSTRIAIS (PARTE 3)",
+        "ano": 2020,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO DE RENDERING REMOTO DE PLANTAS INDUSTRIAIS (PARTE 2)",
+        "ano": 2020,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO DE RENDERING REMOTO DE PLANTAS INDUSTRIAIS (PARTE 1)",
+        "ano": 2020,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO DA TECNOLOGIA WEBGL PARA RENDERIZAÇÃO DE MODELOS CAD 3D NA WEB (PARTE 3)",
+        "ano": 2020,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO DA TECNOLOGIA WEBGL PARA RENDERIZAÇÃO DE MODELOS CAD 3D NA WEB (PARTE 2)",
+        "ano": 2020,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "ESTUDO DA TECNOLOGIA WEBGL PARA RENDERIZAÇÃO DE MODELOS CAD 3D NA WEB (PARTE 1)",
+        "ano": 2020,
+        "autores": "IVSON, P",
+        "tipo": "Demais tipos de produção técnica"
+      }
+    ],
+    "entrevistas": [
+      {
+        "titulo": "SHELL TALKS - INTELIGÊNCIA ARTIFICAL: A NOVA FRONTEIRA?",
+        "ano": 2023,
+        "autores": "IVSON, P",
+        "veiculo": ""
+      }
+    ]
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Modelos de difusão voltados para geração de sísmicas sintéticas 'orientadas' voltadas para detecção de gás.",
+          "ano_inicio": 2024,
+          "orientando": "Anderson Silva",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Segmentação de Megaporos e Gigaporos em Perfis Imagem com Aprendizado Profundo",
+          "ano_inicio": 2024,
+          "orientando": "Mayara Gomes",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Reconstrução de Dados Sísmicos Ausentes usando Deep Learning",
+          "ano_inicio": 2024,
+          "orientando": "Nelia Reis",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "xAI em LLM",
+          "ano_inicio": 2024,
+          "orientando": "Beatriz Pinna",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Modelos de IA para ciência de dados",
+          "ano_inicio": 2024,
+          "orientando": "Dayana Carvalho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Análise do Impacto das Condições Meteorológicas",
+          "ano_inicio": 2024,
+          "orientando": "André Souza",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Definição assistida dos intervalos de completação de poços: uso integrado da sísmica, perfis e simulação para a seleção ótima dos intervalos abertos ao fluxo",
+          "ano_inicio": 2024,
+          "orientando": "Luiz de Abreu",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Modelos de otimização matemática",
+          "ano_inicio": 2024,
+          "orientando": "Daniel Lourenço",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo de anomalias na ecoeficência de frotas rodoviárias",
+          "ano_inicio": 2024,
+          "orientando": "Camilla Alves",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "LLM4VIS: Sugestão de Visualização com IA",
+          "ano_inicio": 2024,
+          "orientando": "Eduardo Maksoud",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "IMPLEMENTAÇÃO DE ALGORITMOS DE APRENDIZAGEM DE MÁQUINA PARA ANÁLISE E CONDIÇÕES DA EMISSÃO DE óxidos de nitrogênio (NOx) SOB PREVISTAS ALTERAÇÕES FUTURAS DAS CONDIÇÕES CLIMÁTICAS",
+          "ano_inicio": 2024,
+          "orientando": "Renan Florias",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Previsão de avanço da corrosão em instalações industriais a partir de dados climáticos, de área e de percentual corroído",
+          "ano_inicio": 2024,
+          "orientando": "Arthur Xavier Tavares",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Tubos Homólogos e/ou Bending Strain - Alogritmo para automatizar o processo de detecção de anomalias em dutos.",
+          "ano_inicio": 2024,
+          "orientando": "Lucas Cassar",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento de Modelos Inteligentes para Estimativa de área de Pintura em Plataformas de Petróleo",
+          "ano_inicio": 2024,
+          "orientando": "Caio Valle",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Ciência de dados e IA para análise de eficiência e redução de emissões de poluentes de veículos",
+          "ano_inicio": 2024,
+          "orientando": "Caio Coutinho",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Inteligência Artificial Aplicada no Reconhecimento de Padrões em Imagens para Diagnóstico Médico",
+          "ano_inicio": 2024,
+          "orientando": "Rafael Lavatori",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Automation of corrosion inspection and diagnosis through digital image analysis and maintenance prioritization on offshore assets",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Marina Polonia Rios",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "METHOD FOR AUTOMATIC DETECTION OF STAMPS IN SCANNED DOCUMENTS USING DEEP LEAR- NING AND SYNTHETIC DATA GENERATION BY INSTANCE AUGMENTATION",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "THALES LEVI AZEVEDO VALENTE",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Deep Learning-Based Shape Matching Framework on 3D CAD Models",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Lucas Caracas de Figueiredo",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Detecção de Anomalias em Séries Temporais Multivariadas de Frotas de Caminhões Pesados com LSTM Autoencoder",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Camlla Alves",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Previsão de Emissões de NOx em Veículos Pesados Usando Deep Learning com Integração de Dados Metereológicos",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "André Souza",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Machine Learning and Heuristic Map Matching For Estimating NOx Emissions Of Heavy-Duty Vehicles",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Renan Florias",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "ALGORITMOS DE OTIMIZAÇÃO PARA DEFINIÇÃO ASSISTIDA DE INTERVALOS DE ISOLAMENTO CRÍTICO DE POÇOS DE PETRÓLEO",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Luiz de Abreu",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Graph-Based Clustering In Deep Feature Space for Shape Matching",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Daniel Luca Alves da Silva",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Fine-Tuning Self-Supervised Model With Siamese Neural Networks for Covid-19 Image Classification",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "ANTONIO MOREIRA PINTO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sistema de anotação baseado em visualização 3D com imagens 360o de instalações industriais",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Anderson Silva Fonseca",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Algoritmos para melhorar a qualidade de imagens de exames médicos",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Bruna Forjaz Amarante Rosa",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Automação de cálculo de Bending Strain utilizando Machine Learning",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Lucas Bomfim Cassar",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Redes Neurais Recorrentes e Análise Estatística Multivariada para Previsão e Medição da influência entre as variáveis de Emissões e Consumo de Combustível em Veículos",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Caio Coutinho Palmieri",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Previsão do Avanço da Corrosão em Instalações Industriais a partir de Dados Climáticos, de Área e de Percentual Corroído",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Arthur Xavier Tavares",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uso de Técnicas de Deep Learning Para a Classificação de Vídeos de Exames Médicos",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Rafael Lavatori Caetano de Bastos",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "November Conference",
+        "apresentacao": "November Conference",
+        "ano": 2025,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Offshore Technology Conference",
+        "apresentacao": "From Data to Decisions: A Digital Twin Approach for Subsea Integrity Management",
+        "ano": 2025,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Consulta Pública EBIA",
+        "apresentacao": "Consulta Pública EBIA",
+        "ano": 2024,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "SHELL TALKS",
+        "apresentacao": "INTELIGÊNCIA ARTIFICAL: A NOVA FRONTEIRA?",
+        "ano": 2023,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": []
+  },
+  "bancas": {
+    "mestrado": [
+      {
+        "descricao": "IVSON, P.. Participação em banca de Carlos Alejandro Diaz Schery. Modelo de maturidade de BIM combinando Indústria 4.0, sustentabilidade e abordagens multicritério. 2025. Dissertação (Mestrado em Engenharia de Produção) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2025,
+        "tipo": "Mestrado",
+        "aluno": "Carlos Alejandro Diaz Schery",
+        "membros_banca": [
+          "IVSON, P."
+        ],
+        "titulo_trabalho": "Modelo de maturidade de BIM combinando Indústria 4.0, sustentabilidade e abordagens multicritério",
+        "curso": "Dissertação (Mestrado em Engenharia de Produção)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "VELLASCO, M.; FIGUEIREDO, K.; IVSON, P.; AMARAL, J. F. M.; MELLO JUNIOR, H. D.. Participação em banca de Guilherme Vinícius Lima dos Anjos. Sistema Inteligente para Identificação de Suspeitos de Fraude no Consumo de Água. 2022. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Guilherme Vinícius Lima dos Anjos",
+        "membros_banca": [
+          "VELLASCO, M.",
+          "FIGUEIREDO, K.",
+          "IVSON, P.",
+          "AMARAL, J. F. M.",
+          "MELLO JUNIOR, H. D."
+        ],
+        "titulo_trabalho": "Sistema Inteligente para Identificação de Suspeitos de Fraude no Consumo de Água",
+        "curso": "Dissertação (Mestrado em Engenharia Elétrica)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "doutorado": [
+      {
+        "descricao": "IVSON, P.. Participação em banca de Felipe Jordão Pinheiro de Andrade. Predição Conforme Espacial para Tarefa de Segmentação Semântica Usando Agrupamento dos Escores de Não Conformidade. 2025. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2025,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Felipe Jordão Pinheiro de Andrade",
+        "membros_banca": [
+          "IVSON, P."
+        ],
+        "titulo_trabalho": "Predição Conforme Espacial para Tarefa de Segmentação Semântica Usando Agrupamento dos Escores de Não Conformidade",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "IVSON, P.. Participação em banca de MARCOS MELO FERREIRA. Classificação do estágio de glaucoma usando dados multimodais. 2025. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2025,
+        "tipo": "Tese de Doutorado",
+        "aluno": "MARCOS MELO FERREIRA",
+        "membros_banca": [
+          "IVSON, P."
+        ],
+        "titulo_trabalho": "Classificação do estágio de glaucoma usando dados multimodais",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": [
+      {
+        "descricao": "IVSON, PAULO. Participação em banca de Juliana Prado. Automated Breast Density Assessment in Mammograms Using Deep Learning. 2025.",
+        "ano": 2025,
+        "tipo": "Participação em banca",
+        "aluno": "Juliana Prado",
+        "membros_banca": [
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "Automated Breast Density Assessment in Mammograms Using Deep Learning",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "Hall, Carlos; IVSON, PAULO; FRANCO, CESAR A. SIERRA; Colcher, Sergio. Participação em banca de Santiago Vallejo Silva. Abordagem centrada em dados para aprimoramento de modelo de segmentacao semantica. 2023.",
+        "ano": 2023,
+        "tipo": "Participação em banca",
+        "aluno": "Santiago Vallejo Silva",
+        "membros_banca": [
+          "Hall, Carlos",
+          "IVSON, PAULO",
+          "FRANCO, CESAR A. SIERRA",
+          "Colcher, Sergio"
+        ],
+        "titulo_trabalho": "Abordagem centrada em dados para aprimoramento de modelo de segmentacao semantica",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "SCAVARDA, LUIZ FELIPE; CAIADO, RODRIGO; IVSON, PAULO; LIMA, G. B. A.; Medina, Paula. Participação em banca de Guilherme Henrique de Paula Vidal. Métodos de apoio multicritério à decisão e modelos de machine learning na gestão de esto- ques: um estudo de caso em uma ferrovia de transporte de cargas. 2021.",
+        "ano": 2021,
+        "tipo": "Participação em banca",
+        "aluno": "Guilherme Henrique de Paula Vidal",
+        "membros_banca": [
+          "SCAVARDA, LUIZ FELIPE",
+          "CAIADO, RODRIGO",
+          "IVSON, PAULO",
+          "LIMA, G. B. A.",
+          "Medina, Paula"
+        ],
+        "titulo_trabalho": "Métodos de apoio multicritério à decisão e modelos de machine learning na gestão de esto- ques: um estudo de caso em uma ferrovia de transporte de cargas",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO. Participação em banca de Guilherme Ferreira Gusmão. KCrossVEL: Interpretable Deep Ensemble Segmentation of Fetal Echocardiographic Images Using K-Fold and Uncertainty Maps. 2024.",
+        "ano": 2024,
+        "tipo": "Participação em banca",
+        "aluno": "Guilherme Ferreira Gusmão",
+        "membros_banca": [
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "KCrossVEL: Interpretable Deep Ensemble Segmentation of Fetal Echocardiographic Images Using K-Fold and Uncertainty Maps",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "Parada, Victor; IVSON, PAULO. Participação em banca de Guilherme Vidal. Lean, agile, resilient, and green (LARG) model for data-driven MRO inventory planning. 2024.",
+        "ano": 2024,
+        "tipo": "Participação em banca",
+        "aluno": "Guilherme Vidal",
+        "membros_banca": [
+          "Parada, Victor",
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "Lean, agile, resilient, and green (LARG) model for data-driven MRO inventory planning",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO. Participação em banca de Joel Diniz. Metodologia para Inspeção Visual de Estruturas de Concreto com Uso de Redes Neurais Profundas. 2024.",
+        "ano": 2024,
+        "tipo": "Participação em banca",
+        "aluno": "Joel Diniz",
+        "membros_banca": [
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "Metodologia para Inspeção Visual de Estruturas de Concreto com Uso de Redes Neurais Profundas",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO. Participação em banca de Marcos Melo Ferreira. Detecção de Patologias da Visão via Modelos Multimodais Profundos. 2024.",
+        "ano": 2024,
+        "tipo": "Participação em banca",
+        "aluno": "Marcos Melo Ferreira",
+        "membros_banca": [
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "Detecção de Patologias da Visão via Modelos Multimodais Profundos",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO; Baffa, Augusto. Participação em banca de Mateus Levi. Interpretable ad hoc agents for improved performance in human-agent collaboration. 2024.",
+        "ano": 2024,
+        "tipo": "Participação em banca",
+        "aluno": "Mateus Levi",
+        "membros_banca": [
+          "IVSON, PAULO",
+          "Baffa, Augusto"
+        ],
+        "titulo_trabalho": "Interpretable ad hoc agents for improved performance in human-agent collaboration",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "MENEZES, I.; IVSON, PAULO. Participação em banca de Matheus Venturelli. Fast and Accurate Simulation of Deformable Solid Dynamics on Coarse Meshes. 2023.",
+        "ano": 2023,
+        "tipo": "Participação em banca",
+        "aluno": "Matheus Venturelli",
+        "membros_banca": [
+          "MENEZES, I.",
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "Fast and Accurate Simulation of Deformable Solid Dynamics on Coarse Meshes",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "Franco, Cesar; IVSON, PAULO; Hall, Carlos. Participação em banca de Santiago Vallejo Silva. Abordagem centrada em dados para aprimoramento de modelo de segmentacao semantica. 2023.",
+        "ano": 2023,
+        "tipo": "Participação em banca",
+        "aluno": "Santiago Vallejo Silva",
+        "membros_banca": [
+          "Franco, Cesar",
+          "IVSON, PAULO",
+          "Hall, Carlos"
+        ],
+        "titulo_trabalho": "Abordagem centrada em dados para aprimoramento de modelo de segmentacao semantica",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO. Participação em banca de João Pedro Maia.Improving the Generalization of Mammography Segmentation Models for Multiple Equipments. 2024.",
+        "ano": 2024,
+        "tipo": "Participação em banca",
+        "aluno": "João Pedro Maia",
+        "membros_banca": [
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "Improving the Generalization of Mammography Segmentation Models for Multiple Equipments",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO. Participação em banca de Aiko Ramalho.Text-to-SQL on Real World Datasets. 2024.",
+        "ano": 2024,
+        "tipo": "Participação em banca",
+        "aluno": "Aiko Ramalho",
+        "membros_banca": [
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "Text-to-SQL on Real World Datasets",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO. Participação em banca de Théo Athayde.Dashboard Web para visualização de dados coletados de dispositivos IoT. 2024.",
+        "ano": 2024,
+        "tipo": "Participação em banca",
+        "aluno": "Théo Athayde",
+        "membros_banca": [
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "Dashboard Web para visualização de dados coletados de dispositivos IoT",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO; RAPOSO, ALBERTO. Participação em banca de Breno Varela de Oliveira.Desenvolvimento de Interface para Análise de Performance Individual e em Equipe de Jogadores de Basquete. 2024.",
+        "ano": 2024,
+        "tipo": "Participação em banca",
+        "aluno": "Breno Varela de Oliveira",
+        "membros_banca": [
+          "IVSON, PAULO",
+          "RAPOSO, ALBERTO"
+        ],
+        "titulo_trabalho": "Desenvolvimento de Interface para Análise de Performance Individual e em Equipe de Jogadores de Basquete",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO; RAPOSO, ALBERTO. Participação em banca de Bernardo Luiz Bach.Automated Analysis of Rat Behavior Using Deep Learning and Spatio-Temporal Visualization. 2024.",
+        "ano": 2024,
+        "tipo": "Participação em banca",
+        "aluno": "Bernardo Luiz Bach",
+        "membros_banca": [
+          "IVSON, PAULO",
+          "RAPOSO, ALBERTO"
+        ],
+        "titulo_trabalho": "Automated Analysis of Rat Behavior Using Deep Learning and Spatio-Temporal Visualization",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "RAPOSO, ALBERTO; IVSON, PAULO. Participação em banca de Eduardo Maksoud.Renderização de modelos CAD com traçado de raios. 2023.",
+        "ano": 2023,
+        "tipo": "Participação em banca",
+        "aluno": "Eduardo Maksoud",
+        "membros_banca": [
+          "RAPOSO, ALBERTO",
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "Renderização de modelos CAD com traçado de raios",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "RAPOSO, ALBERTO; IVSON, PAULO. Participação em banca de Leonardo Trote Martins.Visualização do Impacto de Quintetos no Desempenho de Equipes em Partidas de Basquete. 2023.",
+        "ano": 2023,
+        "tipo": "Participação em banca",
+        "aluno": "Leonardo Trote Martins",
+        "membros_banca": [
+          "RAPOSO, ALBERTO",
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "Visualização do Impacto de Quintetos no Desempenho de Equipes em Partidas de Basquete",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO. Participação em banca de GUILHERME MURAD HELOUI TEIXEIRA.INTERAÇÃO E VISUALIZAÇÃO DE OBJETOS TETRADIMENSIONAIS. 2023.",
+        "ano": 2023,
+        "tipo": "Participação em banca",
+        "aluno": "GUILHERME MURAD HELOUI TEIXEIRA",
+        "membros_banca": [
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "INTERAÇÃO E VISUALIZAÇÃO DE OBJETOS TETRADIMENSIONAIS",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO. Participação em banca de DIOGO FARIA PEREIRA CHEHAB.COMPARATIVE STUDY BETWEEN TEST AUTOMATION TOOLS IN A WEB ENVIRONMENT. 2023.",
+        "ano": 2023,
+        "tipo": "Participação em banca",
+        "aluno": "DIOGO FARIA PEREIRA CHEHAB",
+        "membros_banca": [
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "COMPARATIVE STUDY BETWEEN TEST AUTOMATION TOOLS IN A WEB ENVIRONMENT",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "IVSON, PAULO. Participação em banca de LEONARDO SANTOS ABREU.VISUALIZAÇÃO DE MAPAS DE ARREMESSOS DE UMA PARTIDA DE BASQUETE. 2023.",
+        "ano": 2023,
+        "tipo": "Participação em banca",
+        "aluno": "LEONARDO SANTOS ABREU",
+        "membros_banca": [
+          "IVSON, PAULO"
+        ],
+        "titulo_trabalho": "VISUALIZAÇÃO DE MAPAS DE ARREMESSOS DE UMA PARTIDA DE BASQUETE",
+        "curso": "",
+        "universidade": ""
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 15,
+    "total_livros": 1,
+    "total_capitulos": 4,
+    "total_trabalhos_congressos": 11,
+    "total_projetos_pesquisa": 14,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 1,
+    "total_orientacoes_concluidas": 10,
+    "total_orientacoes_andamento": 11
+  }
+}

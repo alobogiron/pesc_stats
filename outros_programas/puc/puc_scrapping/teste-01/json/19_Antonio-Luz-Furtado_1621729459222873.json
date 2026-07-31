@@ -1,0 +1,2933 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "1621729459222873",
+    "nome_completo": "Antonio Luz Furtado",
+    "nome_citacoes": "FURTADO, A. L.;FURTADO, ANTONIO L.;FURTADO, ANTONIO;DE LIMA, EDIRLEI SOARES",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico. RUA MARQUÊS DE S. VICENTE 225 GAVEA 22453-900 - Rio de Janeiro, RJ - Brasil Telefone: (021) 2744449 Fax: (021) 5115645",
+    "atualizacao_cv": "03/02/2025",
+    "url": "http://lattes.cnpq.br/1621729459222873",
+    "texto_resumo": "Sua formação acadêmica inclui graduação em Direito pela Universidade Federal do Rio de Janeiro (1957), graduação em Economia pela Universidade do Estado do Rio de Janeiro (1964), mestrado em Administração pela Fundação Getúlio Vargas (1962), mestrado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (1969), e doutorado em Ciência da Computação pela University of Toronto (1974). Atualmente é professor emérito da Pontifícia Universidade Católica do Rio de Janeiro. Trabalha em ensino e pesquisa no campo de Ciência da Computação, nas áreas de Bancos de Dados, Sistemas de Informação, Entretenimento Digital e Programação em Lógica. Além disso, tem publicado trabalhos em Literatura Medieval, especialmente voltados para a pesquisa de fontes de textos Arturianos. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Computer Science",
+      "nome_instituicao": "University of Toronto, UTORONTO, Canadá",
+      "ano_inicio": "1972",
+      "ano_conclusao": "1974",
+      "descricao": "Título: DATA SCHEMATA BASED ON DIRECTED GRAPHS, Ano de obtenção: 1974. Orientador: C.C. GOTLIEB. Palavras-chave: Data Bases; Graphs. Grande área: Ciências Exatas e da Terra"
+    },
+    {
+      "tipo": "Mestrado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1968",
+      "ano_conclusao": "1969",
+      "descricao": "Título: CALCULO AUTOMATICO DE DISTANCIAS EM FERROVIAS., Ano de Obtenção: 1969. Orientador: ANTONIO CESAR OLINTO. Palavras-chave: Calculo de Distancias; Ferrovias. Grande área: Ciências Exatas e da Terra"
+    },
+    {
+      "tipo": "Mestrado em Administração",
+      "nome_instituicao": "Fundação Getúlio Vargas, FGV, Brasil",
+      "ano_inicio": "1961",
+      "ano_conclusao": "1962",
+      "descricao": "Título: Estrutura organizacional para mercadologia, Ano de Obtenção: 1962. Orientador: Nelson Mello e Souza."
+    },
+    {
+      "tipo": "Graduação em Economia",
+      "nome_instituicao": "Universidade do Estado do Rio de Janeiro, UERJ, Brasil",
+      "ano_inicio": "1961",
+      "ano_conclusao": "1964",
+      "descricao": ""
+    },
+    {
+      "tipo": "Graduação em Direito",
+      "nome_instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "ano_inicio": "1953",
+      "ano_conclusao": "1957",
+      "descricao": ""
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Centro Científico Rio da IBM, C.C. RIO/IBM, Brasil.",
+      "instituicao_nome": "Centro Científico Rio da IBM",
+      "instituicao_sigla": "C.C. RIO/IBM",
+      "instituicao_pais": "Brasil",
+      "periodo": "1986 - 1988",
+      "ano_inicio": "1986",
+      "ano_fim": "1988",
+      "vinculo": "Servidor público ou celetista",
+      "enquadramento": "PESQUISADOR SENIOR VISITANTE",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Centro Científico Rio da IBM, C",
+      "instituicao_nome": "Centro Científico Rio da IBM",
+      "instituicao_sigla": "C",
+      "instituicao_pais": null,
+      "periodo": "03/1986 - 03/1988",
+      "ano_inicio": "1986",
+      "ano_fim": "1988",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento."
+      ]
+    },
+    {
+      "instituicao": "Instituto Militar de Engenharia, IME, Brasil.",
+      "instituicao_nome": "Instituto Militar de Engenharia",
+      "instituicao_sigla": "IME",
+      "instituicao_pais": "Brasil",
+      "periodo": "1981 - 1984",
+      "ano_inicio": "1981",
+      "ano_fim": "1984",
+      "vinculo": "Colaborador",
+      "enquadramento": "PROFESSOR CONFERENCISTA",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Militar de Engenharia, IME, Brasil",
+      "instituicao_nome": "Instituto Militar de Engenharia",
+      "instituicao_sigla": "IME",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/1981 - 11/1984",
+      "ano_inicio": "1981",
+      "ano_fim": "1984",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2009 - Atual",
+      "ano_inicio": "2009",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista formal",
+      "enquadramento": "PROFESSOR EMÉRITO",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1983 - 2008",
+      "ano_inicio": "1983",
+      "ano_fim": "2008",
+      "vinculo": "Celetista formal",
+      "enquadramento": "Professor titular",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1968 - 1983",
+      "ano_inicio": "1968",
+      "ano_fim": "1983",
+      "vinculo": "Servidor público ou celetista",
+      "enquadramento": "PROFESSOR ASSOCIADO",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Rede Ferroviaria Federal S/A, RFFSA, Brasil.",
+      "instituicao_nome": "Rede Ferroviaria Federal S/A",
+      "instituicao_sigla": "RFFSA",
+      "instituicao_pais": "Brasil",
+      "periodo": "1960 - 1967",
+      "ano_inicio": "1960",
+      "ano_fim": "1967",
+      "vinculo": "Servidor público ou celetista",
+      "enquadramento": "ASSISTENTE TECNICO DE O & M",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Rede Ferroviaria Federal S/A, RFFSA, Brasil",
+      "instituicao_nome": "Rede Ferroviaria Federal S/A",
+      "instituicao_sigla": "RFFSA",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Web de Dados: Fundamentos, Técnicas e Aplicações",
+      "ano_inicio": "2014",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: As aplicações desenvolvidas para a Web, de visualizações simples a ferramentas interativas sofisticadas, facilitam consideravelmente o acesso a dados. Porém, tais aplicações processam dados em volumes variados, em formatos diferentes e oriundos de diversas origens. A W3C Data Activity: Building the Web of Data foi criada para endereçar os problemas gerados por esta diversidade e, portanto, potencialmente facilitar a integração e o processamento de dados publicados na Web. Esta iniciativa desenvolve recomendações, formatos, modelos e ferramentas para troca de dados. Porém, publicar e acessar dados segundo os preceitos da Web de Dados gera desafios. O objetivo geral deste projeto consiste em investigar os fundamentos, criar técnicas e desenvolver aplicações experimentais para tornar a publicação e o acesso a dados na Web de Dados tão simples quanto atualmente é a publicação e o acesso a páginas Web. No que tange a fundamentos, o projeto estudará inicialmente o problema de reuso de ontologias no projeto de esquemas RDF. Este problema será abordado através da definição de procedimentos de decisão estruturais para ontologias expressivas. Tais procedimentos permitem a definição de álgebras de ontologias que, por sua vez, formalizam a noção de reuso de vocabulários e de restrições de integridade. O projeto tratará em seguida do problema de fusão (mashup) de dados inconsistentes. Este segundo problema será abordado através da definição de procedimentos para verificação de modelos em Lógicas de Descrição com Defaults. As técnicas para construção da Web de Dados abordarão: a descoberta de relacionamentos entre entidades; a recomendação de ontologias para publicação de bancos de dados; a recomendação de conjuntos de dados a serem interligados; a manutenção de interligações materializadas entre conjuntos de dados; a manutenção de fusões materializadas de dados; a fusão de dados híbridos (dados estáticos e sequências de dados). Os resultados esperados são técnicas para publicação de bancos de dados e de sequências de dados na Web de Dados, de uma nova geração, oferecendo funcionalidade mais sofisticada. O projeto abordará o desenvolvimento de duas classes de aplicações: indução de valores de propriedades de entidades e recomendação de entidades. O projeto explorará como as características da Web de Dados podem facilitar o desenvolvimento destas classes de aplicações. Basicamente, a Web de Dados provê conjuntos de dados estruturados que facilitam o treinamento de algoritmos de aprendizado de máquina para interpretação automática de texto, simplifica a fusão de dados oriundos de fontes distintas e oferece diretrizes para a divulgação de dados de forma aberta. As contribuições esperadas são de diferentes naturezas: (1) contribuições aos fundamentos da Web de Dados; (2) desenvolvimento de novas técnicas para facilitar a publicação de bancos de dados e de sequências de dados na Web de Dados; (3) desenvolvimento de aplicações inovadoras e realistas que ilustrem as vantagens da Web de Dados; (4) formação de recursos humanos, através da inclusão de mestrandos, doutorandos e pós-doutores no projeto; (5) fortalecimento da cooperação entre os pesquisadores das instituições envolvidas no projeto; (6) publicações sobre os resultados de pesquisa para disseminação do conhecimento sobre a Web de Dados.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (8) Doutorado: (8) . Integrantes: Antonio Luz Furtado - Integrante / M. A. Casanova - Coordenador / LEME, Luiz André P. - Integrante / VIDAL, V. - Integrante / José Antonio Fernandes de Macedo - Integrante / Bernardo Pereira Nunes - Integrante / Fabio Andre Machado Porto - Integrante / Giseli Rebello Lopes - Integrante / Hélio Côrtes Vieira Lopes - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Antonio Luz Furtado",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "M",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Banco de Dados",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Sistemas de Computação",
+      "especialidade": "Inteligência Artificial",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Inteligência Artificial."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Francês",
+      "compreende": "",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Razoavelmente",
+      "proficiencia_completa": "Fala Bem, Lê Bem, Escreve Razoavelmente."
+    },
+    {
+      "nome": "Italiano",
+      "compreende": "",
+      "fala": "Razoavelmente",
+      "le": "Bem",
+      "escreve": "Razoavelmente",
+      "proficiencia_completa": "Fala Razoavelmente, Lê Bem, Escreve Razoavelmente."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Honorary Chair of the 44th International Conference on Very Large Data Bases, VLDB Endowment.",
+      "ano": 2018
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "BANCOS DE DADOS.",
+      "objetivo": ""
+    },
+    {
+      "nome": "PESQUISA BASICA E APLICADA NA AREA DE BANCOS DE DADOS.",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "An AI-powered approach to the semiotic reconstruction of narratives",
+        "ano": 2024,
+        "autores": "SOARES DE LIMA, EDIRLEI ; NEGGERS, MARGOT M.E. ; FEIJÓ, BRUNO ; CASANOVA, MARCO A. ; FURTADO, ANTONIO L.",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "52",
+        "numero": "",
+        "paginas": "100810-100836",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2024.100810",
+        "qualis": ""
+      },
+      {
+        "titulo": "Managing the plot structure of character-based interactive narratives in games",
+        "ano": 2023,
+        "autores": "DE LIMA, EDIRLEI SOARES ; FEIJÓ, BRUNO ; FURTADO, ANTONIO L.",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "47",
+        "numero": "",
+        "paginas": "100590-100607",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2023.100590",
+        "qualis": ""
+      },
+      {
+        "titulo": "Procedural Generation of Branching Quests for Games",
+        "ano": 2022,
+        "autores": "SOARES DE LIMA, EDIRLEI ; FEIJÓ, BRUNO ; FURTADO, ANTONIO L.",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "2022",
+        "numero": "",
+        "paginas": "100491",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2022.100491",
+        "qualis": ""
+      },
+      {
+        "titulo": "Adaptive storytelling based on personality and preference modeling",
+        "ano": 2020,
+        "autores": "LIMA, E. S. ; FEIJO, B. ; FURTADO, A. L.",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "34",
+        "numero": "",
+        "paginas": "100342-12",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/entcom.2020.100342",
+        "qualis": ""
+      },
+      {
+        "titulo": "Player Behavior and Personality Modeling for Interactive Storytelling in Games",
+        "ano": 2018,
+        "autores": "LIMA, E. S. ; FEIJO, B. ; FURTADO, A. L.",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "28",
+        "numero": "",
+        "paginas": "32-48",
+        "issn": "1875-9521",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Video-based interactive storytelling using real-time video compositing techniques",
+        "ano": 2017,
+        "autores": "DE LIMA, EDIRLEI SOARES ; FEIJÓ, BRUNO ; FURTADO, ANTONIO L.",
+        "revista": "MULTIMEDIA TOOLS AND APPLICATIONS (DORDRECHT. ONLINE)",
+        "volume": "77",
+        "numero": "",
+        "paginas": "2333-2357",
+        "issn": "1573-7721",
+        "doi": "http://dx.doi.org/10.1007/s11042-017-4423-5",
+        "qualis": ""
+      },
+      {
+        "titulo": "Storytelling variants based on semiotic relations",
+        "ano": 2016,
+        "autores": "DE LIMA, EDIRLEI SOARES ; FEIJÓ, BRUNO ; CASANOVA, MARCO ANTONIO ; FURTADO, ANTONIO L.",
+        "revista": "Entertainment Computing",
+        "volume": "17",
+        "numero": "",
+        "paginas": "31-44",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2016.08.003",
+        "qualis": ""
+      },
+      {
+        "titulo": "Plot Generation with Character-Based Decisions",
+        "ano": 2015,
+        "autores": "BARBOSA, SIMONE D. J. ; GUILHERME DA SILVA, FABIO A. ; FURTADO, ANTONIO L. ; CASANOVA, MARCO A.",
+        "revista": "Computers in Entertainment",
+        "volume": "12",
+        "numero": "",
+        "paginas": "1-21",
+        "issn": "1544-3574",
+        "doi": "http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=10.1145/2702109.2633407&md5=95dc0715e4ff70e331f3bb74e11d6d69",
+        "qualis": ""
+      },
+      {
+        "titulo": "Publishing deep web geographic data",
+        "ano": 2014,
+        "autores": "Piccinini, H. ; CASANOVA, M. A. ; FURTADO, A. L.",
+        "revista": "Geoinformatica (Dordrecht)",
+        "volume": "18",
+        "numero": "",
+        "paginas": "1-24",
+        "issn": "1384-6175",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Generation and Dramatization of Detective Stories",
+        "ano": 2014,
+        "autores": "BARBOSA, S. D. J.; LIMA, E. S. ; FURTADO, A. L. ; FEIJO, B.",
+        "revista": "SBC Journal on 3D Interactive Systems",
+        "volume": "5",
+        "numero": "",
+        "paginas": "39-52",
+        "issn": "2236-3297",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Draw your own story: Paper and pencil interactive storytelling",
+        "ano": 2013,
+        "autores": "BARBOSA, S. D. J.; LIMA, E.S. ; FEIJO, B. ; FURTADO, A. L. ; CIARLINI, A. E. M. ; POZZER,C.T.",
+        "revista": "Entertainment Computing",
+        "volume": "5",
+        "numero": "",
+        "paginas": "33-41",
+        "issn": "1875-9521",
+        "doi": "http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49",
+        "qualis": ""
+      },
+      {
+        "titulo": "Three Decades of Research on Database Design at PUC-Rio",
+        "ano": 2012,
+        "autores": "CASANOVA, M. A. ; BARBOSA, S. D. J. ; BREITMAN,K.K. ; FURTADO, A. L.",
+        "revista": "Journal of Information and Data Management - JIDM",
+        "volume": "3",
+        "numero": "",
+        "paginas": "19-34",
+        "issn": "2178-7107",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Modeling interactive storytelling genres as application domains",
+        "ano": 2010,
+        "autores": "CIARLINI, A. E. M. ; CASANOVA, M. A. ; FURTADO, A. L. ; VELOSO, P. A. S.",
+        "revista": "Journal of Intelligent Information Systems",
+        "volume": "35",
+        "numero": "",
+        "paginas": "347-381",
+        "issn": "0925-9902",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "OWL schema matching",
+        "ano": 2010,
+        "autores": "LEME, Luiz André P. ; CASANOVA, M. A. ; BREITMAN,K.K. ; FURTADO, A. L.",
+        "revista": "Journal of the Brazilian Computer Society (Impresso)",
+        "volume": "16",
+        "numero": "",
+        "paginas": "21-34",
+        "issn": "0104-6500",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Revising the Constraints of Lightweight Mediated Schemas",
+        "ano": 2010,
+        "autores": "CASANOVA, M. A. ; LAUSCHNER, T. ; LEME, L. A. P. ; BREITMAN,K.K. ; FURTADO, A. L. ; VIDAL, V.",
+        "revista": "Data & Knowledge Engineering",
+        "volume": "69",
+        "numero": "",
+        "paginas": "1274-1301",
+        "issn": "0169-023X",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Event Relations in Plan-Based Plot Composition",
+        "ano": 2009,
+        "autores": "CIARLINI, A. E. M. ; Barbosa, Simone D. J. ; CASANOVA, Marco Antônio ; FURTADO, A. L.",
+        "revista": "Computers in Entertainment : CIE",
+        "volume": "7",
+        "numero": "",
+        "paginas": "55:1-55:37",
+        "issn": "1544-3574",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Modeling interactive storytelling genres as application domains",
+        "ano": 2009,
+        "autores": "CIARLINI, A. E. M. ; CASANOVA, M. A. ; FURTADO, A. L. ; VELOSO, P. A. S.",
+        "revista": "Journal of Intelligent Information Systems",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1",
+        "issn": "0925-9902",
+        "doi": "http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49",
+        "qualis": ""
+      },
+      {
+        "titulo": "Event relations in plan-based plot composition",
+        "ano": 2009,
+        "autores": "CIARLINI, A. E. M. ; BARBOSA, S.D.J. ; CASANOVA, M. A. ; FURTADO, A. L.",
+        "revista": "Computers in Entertainment : CIE",
+        "volume": "7",
+        "numero": "",
+        "paginas": "1",
+        "issn": "1544-3574",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Process pipeline scheduling",
+        "ano": 2008,
+        "autores": "LEMOS, M. ; CASANOVA, M. A. ; FURTADO, A. L.",
+        "revista": "Journal of Systems and Software",
+        "volume": "81",
+        "numero": "",
+        "paginas": "307-327",
+        "issn": "0164-1212",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Adding flexibility to workflows through incremental planning",
+        "ano": 2007,
+        "autores": "FERNANDES, A. ; CIARLINI, A. E. M. ; FURTADO, A. L. ; HINCHEY,M.G. ; BREITMAN,K.K. ; CASANOVA, M. A.",
+        "revista": "Innovations in Systems and Software Engineering",
+        "volume": "3",
+        "numero": "",
+        "paginas": "291-302",
+        "issn": "1614-5046",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Managing actions and movements of non-player characters in computer games",
+        "ano": 2004,
+        "autores": "POZZER,C.T. ; FEIJO, B. ; CIARLINI, A. E. M. ; FURTADO, A. L. ; DREUX, M.",
+        "revista": "Scientia",
+        "volume": "15",
+        "numero": "2",
+        "paginas": "148-157",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Aventuras arturianas francesas nos séculos XII e XIII",
+        "ano": 2003,
+        "autores": "FURTADO, A. L",
+        "revista": "Cultura Vozes",
+        "volume": "97",
+        "numero": "",
+        "paginas": "",
+        "issn": "0104-222X",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Cognitive and Affective Motivation in Conceptual Modelling",
+        "ano": 2002,
+        "autores": "FURTADO, A. L.; CIARLINI, A. E. M.",
+        "revista": "Revista Colombiana de Computación",
+        "volume": "3",
+        "numero": "2",
+        "paginas": "",
+        "issn": "1657-2831",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "O \"José de Arimatéia\" da tradição arturiana",
+        "ano": 2001,
+        "autores": "FURTADO, A. L",
+        "revista": "Filologia e Lingüística Portuguesa",
+        "volume": "4",
+        "numero": "",
+        "paginas": "",
+        "issn": "1517-4530",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Formação de uma alegoria na",
+        "ano": 2001,
+        "autores": "FURTADO, A. L",
+        "revista": "Palavra (PUCRJ)",
+        "volume": "7",
+        "numero": "",
+        "paginas": "",
+        "issn": "1413-7763",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Interactive Multistage Simulation of Goal-Driven Agents",
+        "ano": 1999,
+        "autores": "CIARLINI, A. E. M. ; FURTADO, A. L.",
+        "revista": "Journal of the Brazilian Computer Society",
+        "volume": "2",
+        "numero": "6",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "The Questing Beast as emblem of the ruin of Logres in the \"Post-Vulgate\"",
+        "ano": 1999,
+        "autores": "FURTADO, A. L",
+        "revista": "Arthuriana (Dallas)",
+        "volume": "9",
+        "numero": "3",
+        "paginas": "",
+        "issn": "1078-6279",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Folklore and Myth in the Knight of the Cart",
+        "ano": 1996,
+        "autores": "FURTADO, A. L.; VELOSO, P. A. S.",
+        "revista": "Arthuriana (Dallas)",
+        "volume": "6",
+        "numero": "2",
+        "paginas": "",
+        "issn": "1078-6279",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "From Alexander of Macedonia to Arthur of Britain",
+        "ano": 1995,
+        "autores": "FURTADO, A. L",
+        "revista": "Arthuriana (Dallas)",
+        "volume": "5",
+        "numero": "3",
+        "paginas": "",
+        "issn": "1078-6279",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Avoiding Misconstruals in Database Systems - a Default Logic Approach",
+        "ano": 1994,
+        "autores": "HEMERLY, A. ; FURTADO, A. L. ; CASANOVA, M. A.",
+        "revista": "IEEE Transactions on Data and Knowledge Engineering",
+        "volume": "5",
+        "numero": "6",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A source in Babylon",
+        "ano": 1993,
+        "autores": "FURTADO, A. L",
+        "revista": "Quondam et Futurus",
+        "volume": "3",
+        "numero": "1",
+        "paginas": "",
+        "issn": "8755-3527",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Analogy by Generalization and the Quest of the Grail",
+        "ano": 1992,
+        "autores": "FURTADO, A. L",
+        "revista": "ACM/SIGPLAN Notices",
+        "volume": "27",
+        "numero": "1",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Software Tool for Modular Database Design",
+        "ano": 1991,
+        "autores": "CASANOVA, M. A. ; FURTADO, A. L. ; TUCHERMAN, L.",
+        "revista": "ACM Transactions on Data Base Systems",
+        "volume": "",
+        "numero": "",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "The \"Arabian Nights\": yet another source of the Grail stories?",
+        "ano": 1991,
+        "autores": "FURTADO, A. L",
+        "revista": "Quondam et Futurus",
+        "volume": "1",
+        "numero": "3",
+        "paginas": "",
+        "issn": "8755-3627",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "The Chris Consultant",
+        "ano": 1990,
+        "autores": "FURTADO, A. L.; CASANOVA, M. A. ; TUCHERMAN, L.",
+        "revista": "INFORMATION SYSTEMS",
+        "volume": "",
+        "numero": "",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Geoffrey of Monmouth: a source of the Grail stories",
+        "ano": 1989,
+        "autores": "FURTADO, A. L",
+        "revista": "Quondam et Futurus",
+        "volume": "1",
+        "numero": "3",
+        "paginas": "",
+        "issn": "8755-3627",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Uma fonte da história do Graal",
+        "ano": 1989,
+        "autores": "FURTADO, A. L",
+        "revista": "Humanidades (Brasília)",
+        "volume": "VI",
+        "numero": "22",
+        "paginas": "",
+        "issn": "0102-9479",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Iteration for Aplicative Languages.",
+        "ano": 1988,
+        "autores": "FURTADO, A. L.; VELOSO, P. A. S.",
+        "revista": "ACM/SIGPLAN NOTICES",
+        "volume": "23",
+        "numero": "12",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "String Pattern-Matching in Prolog",
+        "ano": 1988,
+        "autores": "CASANOVA, M. A. ; FURTADO, A. L.",
+        "revista": "COMPUTER LANGUAGES",
+        "volume": "13",
+        "numero": "3",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Towards Functional Programming in Prolog.",
+        "ano": 1988,
+        "autores": "FURTADO, A. L",
+        "revista": "ACM/SIGPLAN NOTICES",
+        "volume": "23",
+        "numero": "3",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "PROWIN - Windows Package for VM/Prolog",
+        "ano": 1987,
+        "autores": "FURTADO, A. L",
+        "revista": "IBM Expert Systems Newsletter",
+        "volume": "87",
+        "numero": "1",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "An Informal Approach to Formal Algebraic Specifications.",
+        "ano": 1985,
+        "autores": "FURTADO, A. L.; MAIBAUM, T. S. E.",
+        "revista": "COMPUTER JOURNAL",
+        "volume": "28",
+        "numero": "",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Generalized Set Comparison",
+        "ano": 1984,
+        "autores": "FURTADO, A. L",
+        "revista": "ACM/SIGPLAN NOTICES",
+        "volume": "19",
+        "numero": "9",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Algebraic Specifications of Data Base Applications",
+        "ano": 1984,
+        "autores": "CASTILHO, J. M. V. ; FURTADO, A. L. ; VELOSO, P. A. S.",
+        "revista": "INTERNATIONAL JOURNAL ON POLICY AND INFORATION",
+        "volume": "8",
+        "numero": "1",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "An Informal Approach to Formal Specifications",
+        "ano": 1983,
+        "autores": "FURTADO, A. L",
+        "revista": "ACM/SIGMOD RECORD",
+        "volume": "",
+        "numero": "",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Towards Multi-Level and Modular Conceptual Schema Specifications",
+        "ano": 1983,
+        "autores": "SCHIEL, U. ; FURTADO, A. L. ; NEUHOLD, E. J. ; CASANOVA, M. A.",
+        "revista": "INFORMATION SYSTEMS",
+        "volume": "",
+        "numero": "",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Instructional Graphics Packages to Be Used With a Line Printer.",
+        "ano": 1982,
+        "autores": "FURTADO, A. L.; MESSEDER, F.",
+        "revista": "ACM/SIGSE BULLETIN",
+        "volume": "15",
+        "numero": "4",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Horizontal Decomposition to Improve a Non-BCNF Scheme.",
+        "ano": 1981,
+        "autores": "FURTADO, A. L",
+        "revista": "ACM/SIGMOD RECORD",
+        "volume": "12",
+        "numero": "1",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Conceptual Modelling of Data Base Operations.",
+        "ano": 1981,
+        "autores": "SANTOS, C. S. ; MAIBAUM, T. S. E. ; FURTADO, A. L.",
+        "revista": "INTERNATIONAL JOURNAL OF COMPUTER AND INFORMATION SCIENCE",
+        "volume": "10",
+        "numero": "5",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Procedural Specifications and Implementations for Abstract Data Types.",
+        "ano": 1981,
+        "autores": "FURTADO, A. L.; VELOSO, P. A. S.",
+        "revista": "ACM/SIGPLAN NOTICES",
+        "volume": "16",
+        "numero": "3",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Dynamic Modelling of a Simple Existence Constraint.",
+        "ano": 1981,
+        "autores": "FURTADO, A. L.; SANTOS, C. S. ; CASTILHO, J. M. V.",
+        "revista": "INFORMATION SYSTEMS",
+        "volume": "6",
+        "numero": "1",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Using Graph Grammars to Define Sets of Digraphs.",
+        "ano": 1979,
+        "autores": "FURTADO, A. L.; MYLOPOLOUS, J.",
+        "revista": "INFOR",
+        "volume": "3",
+        "numero": "",
+        "paginas": "0-0",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Data Schemata  Based on Directed Graphs",
+        "ano": 1979,
+        "autores": "GOTLIEB, C. ; FURTADO, A. L.",
+        "revista": "International Journal of Computer and Information Sciences",
+        "volume": "8",
+        "numero": "1",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Permitting Updates Through Views of Data Bases",
+        "ano": 1979,
+        "autores": "SEVCIK, K. ; FURTADO, A. L.",
+        "revista": "Information Systems",
+        "volume": "4",
+        "numero": "4",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Implementing a Data Definition Facility Driven by Graph Grammars",
+        "ano": 1978,
+        "autores": "BARROSO, P. ; FURTADO, A. L.",
+        "revista": "Computer Languages",
+        "volume": "3",
+        "numero": "2",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Formal Aspects of the Relational Model",
+        "ano": 1978,
+        "autores": "FURTADO, A. L",
+        "revista": "Information Systems",
+        "volume": "3",
+        "numero": "2",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Characterizing Sets of Data Structures by the Connectivity Relation",
+        "ano": 1976,
+        "autores": "FURTADO, A. L",
+        "revista": "Journal of Computer and Information Sciences",
+        "volume": "5",
+        "numero": "2",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "G/PL/I - Extending PL/I for Graph Processing",
+        "ano": 1974,
+        "autores": "SANTOS, C. S. ; FURTADO, A. L.",
+        "revista": "Information Systems",
+        "volume": "",
+        "numero": "",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "An Algorithm for Obtaining the Chromatic Number and an Optimal Coloring of a Graph",
+        "ano": 1973,
+        "autores": "ROSCHKE, S. ; FURTADO, A. L.",
+        "revista": "Information Processing Letters",
+        "volume": "2",
+        "numero": "2",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [
+      {
+        "titulo": "Lais dos Bretões",
+        "ano": 2013,
+        "autores": "FURTADO, ANTONIO L",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Mitos e Lendas: Heróis do Ocidente e do Oriente",
+        "ano": 2006,
+        "autores": "FURTADO, A. L",
+        "editora": "Rio de Janeiro: Nova Era",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "290"
+      },
+      {
+        "titulo": "Aventuras da Távola Redonda",
+        "ano": 2003,
+        "autores": "FURTADO, A. L",
+        "editora": "Petrópolis: Vozes",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "262"
+      },
+      {
+        "titulo": "Lais de Maria de França",
+        "ano": 2001,
+        "autores": "FURTADO, A. L",
+        "editora": "Petrópolis: Vozes",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "156"
+      },
+      {
+        "titulo": "Artur e Alexandre",
+        "ano": 1995,
+        "autores": "FURTADO, A. L",
+        "editora": "São Paulo: Ática",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "216"
+      },
+      {
+        "titulo": "Programacao em Lógica.. SAO PAULO: BLUCHER",
+        "ano": 1987,
+        "autores": "CASANOVA, M. A. ; GIORNO, F. A. C. ; FURTADO, A. L.",
+        "editora": "Programacao em Lógica.. SAO PAULO: BLUCHER",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Formal Techniques for Data Base Design.. NOVA YORK: SPRINGER",
+        "ano": 1986,
+        "autores": "FURTADO, A. L.; NEUHOLD, E. J.",
+        "editora": "Formal Techniques for Data Base Design.. NOVA YORK: SPRINGER",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Estruturas de Dados.. SAO PAULO: CAMPUS",
+        "ano": 1983,
+        "autores": "VELOSO, P. A. S. ; AZEREDO, P. ; SANTOS, C. S. ; FURTADO, A. L.",
+        "editora": "Estruturas de Dados.. SAO PAULO: CAMPUS",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Organizacao de Bancos de Dados.. SAO PAULO: CAMPUS",
+        "ano": 1979,
+        "autores": "FURTADO, A. L.; SANTOS, C. S.",
+        "editora": "Organizacao de Bancos de Dados.. SAO PAULO: CAMPUS",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Introdução à Programação com PL/I. Livros Técnicos Científicos",
+        "ano": 1978,
+        "autores": "FURTADO, A. L.; PASSOS, E. P. L.",
+        "editora": "Introdução à Programação com PL/I. Livros Técnicos Científicos",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Teoria dos Grafos.. RIO DE JANEIRO: LIVROS TECNICOS CIENTIFICO",
+        "ano": 1973,
+        "autores": "FURTADO, A. L",
+        "editora": "Teoria dos Grafos.. RIO DE JANEIRO: LIVROS TECNICOS CIENTIFICO",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      }
+    ],
+    "capitulos_livros": [
+      {
+        "titulo": "From Images to Stories: Exploring Player-Driven Narratives in Games. From Images to Stories: Exploring Player-Driven Narratives in Games. 1ed.Cham",
+        "ano": 2025,
+        "autores": "DE LIMA, EDIRLEI SOARES; NEGGERS, M. M. E. ; CASANOVA, M. A. ; FURTADO, ANTONIO",
+        "titulo_livro": "",
+        "editora": "Springer Nature Switzerland",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "228-242"
+      },
+      {
+        "titulo": "The Crusaders' Grail",
+        "ano": 2008,
+        "autores": "FURTADO, A. L",
+        "titulo_livro": "",
+        "editora": "D. S. Brewer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "The Plan Recognition / Plan Generation Paradigm",
+        "ano": 2000,
+        "autores": "FURTADO, A. L.; CIARLINI, A. E. M.",
+        "titulo_livro": "",
+        "editora": "Springer-Verlag",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "A Formal Framework for Modelling at the Behavioural Level",
+        "ano": 2000,
+        "autores": "CIARLINI, A. E. M. ; VELOSO, P. A. S. ; FURTADO, A. L.",
+        "titulo_livro": "",
+        "editora": "IOS Press",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Narratives and Temporal Databases: An Interdisciplinary Perspective",
+        "ano": 1999,
+        "autores": "FURTADO, A. L",
+        "titulo_livro": "",
+        "editora": "Springer-Verlag",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Leir: mais feliz rei do que pai",
+        "ano": 1999,
+        "autores": "FURTADO, A. L",
+        "titulo_livro": "",
+        "editora": "Humanitas",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Vidas Paralelas de Alexandre da Macedônia",
+        "ano": 1995,
+        "autores": "FURTADO, A. L",
+        "titulo_livro": "",
+        "editora": "Editora da Universidade de São Paulo",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Exploiting User Models to Avoid Misconstruals",
+        "ano": 1994,
+        "autores": "HEMERLY, A. ; CASANOVA, M. A. ; FURTADO, A. L.",
+        "titulo_livro": "",
+        "editora": "Oxford University Press",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Modular Database Design Tools. Relational Databases, State of the Art Report",
+        "ano": 1986,
+        "autores": "TUCHERMAN, L. ; FURTADO, A. L. ; CASANOVA, M. A.",
+        "titulo_livro": "",
+        "editora": "Pergamon",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Towards Simpler and Yet Complete Formal Specifications. INFORMATION SYSTEMS: THEORETICAL AND FORMAL ASPECTS.. NOVA YORK",
+        "ano": 1985,
+        "autores": "VELOSO, P. A. S. ; FURTADO, A. L.",
+        "titulo_livro": "",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Updating Relational Views. QUERY PROCESSING IN DATABASE SYSTEMS.. NOVA YORK",
+        "ano": 1985,
+        "autores": "FURTADO, A. L.; CASANOVA, M. A.",
+        "titulo_livro": "",
+        "editora": "SPRINGER",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Stepwise Construction Of Algebraic Specifications. ADVANCES IN DATA BASE THEORY.. NOVA YORK",
+        "ano": 1984,
+        "autores": "VELOSO, P. A. S. ; FURTADO, A. L.",
+        "titulo_livro": "",
+        "editora": "PLENUM",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Constraint Specifications In Evolutionary Data Base Design. FORMAL METHODS AND PRACTICAL TOOLS FOR INFORMATION SYSTEMS DESIGN.. NOVA YORK",
+        "ano": 1979,
+        "autores": "BRACCHI, G. ; FURTADO, A. L. ; PELAGATTI, G.",
+        "titulo_livro": "",
+        "editora": "NORTH HOLLAND",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Transformations of Data Base Structures. Graph Grammars and their Application to Computer Science and Biology",
+        "ano": 1979,
+        "autores": "FURTADO, A. L",
+        "titulo_livro": "",
+        "editora": "Springer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "A Pattern-oriented AI-powered Approach to Story Composition",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1007/978-3-031-81713-7_16",
+        "autores": "LIMA, E. S. ; Neggers, M.M.E. ; CASANOVA, M. A. ; FEIJO, B. ; FURTADO, A. L.",
+        "evento": "23rd IFIP TC 14 International Conference on Entertainment Computing (ICEC 2024)",
+        "cidade": "",
+        "paginas": "135-150",
+        "isbn": ""
+      },
+      {
+        "titulo": "ChatGeppetto - an AI-powered Storyteller",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1145/3631085.3631302",
+        "autores": "DE LIMA, EDIRLEI SOARES ; FEIJÓ, BRUNO ; CASSANOVA, MARCO A. ; FURTADO, ANTONIO L.",
+        "evento": "SBGames 2023: 22nd Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "28-37",
+        "isbn": ""
+      },
+      {
+        "titulo": "Semiotic Structuring in Movie Narrative Generation",
+        "ano": 2023,
+        "doi": "",
+        "autores": "LIMA, E. S. ; CASANOVA, MARCO A. ; FEIJO, B. ; FURTADO, A. L.",
+        "evento": "22nd IFIP International Conference on Entertainment Computing (ICEC 2023)",
+        "cidade": "",
+        "paginas": "161-175",
+        "isbn": ""
+      },
+      {
+        "titulo": "Plot Composition by Mapping Situation Calculus Schemas into Petri Net Representation",
+        "ano": 2022,
+        "doi": "",
+        "autores": "LIMA, E. S. ; FURTADO, A. L. ; FEIJO, B. ; CASANOVA, MARCO A.",
+        "evento": "International Conference on Entertainment Computing (ICEC 2022)",
+        "cidade": "",
+        "paginas": "61-75",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Character-based Model for Interactive Storytelling in Games",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/sbgames56371.2022.9961071",
+        "autores": "DE LIMA, EDIRLEI SOARES ; FEIJO, BRUNO ; FURTADO, ANTONIO L.",
+        "evento": "2022 21st Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "An adaptive music generation architecture for games based on the deep learning Transformer model",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/sbgames56371.2022.9961081",
+        "autores": "AMARAL, GUSTAVO ; BAFFA, AUGUSTO ; BRIOT, JEAN-PIERRE ; FEIJO, BRUNO ; FURTADO, ANTONIO",
+        "evento": "2022 21st Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "Adaptive Branching Quests Based on Automated Planning and Story Arcs",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/sbgames54170.2021.00012",
+        "autores": "DE LIMA, EDIRLEI SOARES ; FEIJO, BRUNO ; FURTADO, ANTONIO L.",
+        "evento": "2021 20th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "9",
+        "isbn": ""
+      },
+      {
+        "titulo": "A transdisciplinary approach to computational narratology",
+        "ano": 2021,
+        "doi": "",
+        "autores": "FEIJO, B. ; DE LIMA, EDIRLEI SOARES ; FURTADO, A. L.",
+        "evento": "Brazilian Symposium on Computer Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "SLang: A Domain-specific Language for Survey Questionnaires",
+        "ano": 2020,
+        "doi": "",
+        "autores": "ARAUJO, L. C. ; CASANOVA, MARCO A. ; LEME, Luiz André P. ; FURTADO, A. L.",
+        "evento": "22nd International Conference on Enterprise Information Systems (ICEIS 2020)",
+        "cidade": "",
+        "paginas": "133-144",
+        "isbn": ""
+      },
+      {
+        "titulo": "Procedural Generation of Quests for Games Using Genetic Algorithms and Automated Planning",
+        "ano": 2019,
+        "doi": "",
+        "autores": "LIMA, E. S. ; FEIJO, B. ; FURTADO, A. L.",
+        "evento": "XVIII Simpósio Brasileiro de Games e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "144-153",
+        "isbn": ""
+      },
+      {
+        "titulo": "Information and Data Management at PUCRio and UFMG",
+        "ano": 2018,
+        "doi": "",
+        "autores": "FURTADO, A. L.; ZIVIANI, N.",
+        "evento": "44th International Conference on Very Large Data Bases",
+        "cidade": "",
+        "paginas": "2114-2129",
+        "isbn": ""
+      },
+      {
+        "titulo": "Personality and Preference Modeling for Adaptive Storytelling",
+        "ano": 2018,
+        "doi": "",
+        "autores": "LIMA, E. S. ; FEIJO, B. ; FURTADO, A. L. ; GOTTIN, V. M.",
+        "evento": "XVII Brazilian Symposium on Computer Games and Digital Entertainment (SBGames 2018)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Network Traversal as an Aid to Plot Analysis and Composition",
+        "ano": 2017,
+        "doi": "",
+        "autores": "LIMA, E.S. ; GOTTIN, V. M. ; FEIJÓ, BRUNO ; FURTADO, A. L.",
+        "evento": "XVI Simpósio Brasileiro de Jogos e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Analysis of Degree Curricula through Mining Student Records",
+        "ano": 2017,
+        "doi": "",
+        "autores": "GOTTIN, V. M. ; JMENEZ, H. ; FINAMORE, A. C. ; CASANOVA, MARCO A. ; FURTADO, A. L. ; NUNES, B. P.",
+        "evento": "17th IEEE International Conference on Advanced Learning Technologies (ICALT)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Searching Linked Data with a Twist of Serendipity",
+        "ano": 2017,
+        "doi": "",
+        "autores": "EICHLER, J. ; CASANOVA, MARCO A. ; FURTADO, A. L. ; RUBACK, L. ; LEME, Luiz André P. ; LOPES, G. R. ; NUNES, B. P. ; RAFFAETA, A. ; RENSO, C.",
+        "evento": "29th International Conference on Advanced Information Systems Engineering (CAiSE)",
+        "cidade": "",
+        "paginas": "495-510",
+        "isbn": ""
+      },
+      {
+        "titulo": "Player Behavior Modeling for Interactive Storytelling in Games",
+        "ano": 2016,
+        "doi": "",
+        "autores": "LIMA, E.S. ; FEIJÓ, BRUNO ; FURTADO, A. L.",
+        "evento": "XV Simpósio Brasileiro de Jogos e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards Reactive Failure-Recovery Gameplaying: The Fall and Rise of the Grail Hero",
+        "ano": 2016,
+        "doi": "",
+        "autores": "LIMA, E. S. ; FURTADO, A. L. ; FEIJÓ, BRUNO ; CASANOVA, MARCO A.",
+        "evento": "XV Simpósio Brasileiro de Jogos e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "262-271",
+        "isbn": ""
+      },
+      {
+        "titulo": "Storytelling Variants: The Case of Little Red Riding Hood",
+        "ano": 2015,
+        "doi": "",
+        "autores": "LIMA, E. S. ; FURTADO, A. L. ; FEIJO, B.",
+        "evento": "IFIP International Conference on Entertainment Computing (ICEC 2015)",
+        "cidade": "",
+        "paginas": "286-300",
+        "isbn": ""
+      },
+      {
+        "titulo": "Types, Motifs and the Emergence of Variants",
+        "ano": 2015,
+        "doi": "",
+        "autores": "LIMA, E.S. ; FURTADO, A. L. ; FEIJO, B.",
+        "evento": "XIV Simpósio Brasileiro de Jogos e Entretenimento Digital - SBGames 2015",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Applying Digital Storytelling to Information System Domains",
+        "ano": 2015,
+        "doi": "",
+        "autores": "GOTTIN, V. M. ; LIMA, E.S. ; FURTADO, A. L.",
+        "evento": "XIV Simpósio Brasileiro de Jogos e Entretenimento Digital - SBGames 2015",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Conceptual Model and System for Genre-Focused Interactive Storytelling",
+        "ano": 2014,
+        "doi": "",
+        "autores": "KARLSSON, B. ; FURTADO, A. L.",
+        "evento": "13th International Conference",
+        "cidade": "",
+        "paginas": "27-35",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Semiotic Approach to Conceptual Modelling",
+        "ano": 2014,
+        "doi": "",
+        "autores": "FURTADO, A. L. ; CASANOVA, M. A. ; BARBOSA, S. D. J.",
+        "evento": "33rd International Conference on Conceptual Modeling",
+        "cidade": "",
+        "paginas": "1-12",
+        "isbn": ""
+      },
+      {
+        "titulo": "Building Keyword-Indexed Virtual Libraries in a Logic Programming Environment",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1145/2664551.2664553",
+        "autores": "DE LIMA, EDIRLEI SOARES ; BARBOSA, SIMONE DINIZ JUNQUEIRA ; FEIJÓ, Bruno ; FURTADO, ANTONIO LUZ",
+        "evento": "20th Brazilian Symposium on Multimedia and the Web (WebMedia 2014)",
+        "cidade": "",
+        "paginas": "75-82",
+        "isbn": ""
+      },
+      {
+        "titulo": "Hierarchical Generation of Dynamic and Nondeterministic Quests in Games",
+        "ano": 2014,
+        "doi": "",
+        "autores": "LIMA, E.S. ; FEIJO, B. ; FURTADO, A. L.",
+        "evento": "11th International Conference on Advances in Computer Entertainment Technology",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Non-Branching Interactive Comics",
+        "ano": 2013,
+        "doi": "",
+        "autores": "LIMA, E.S. ; FEIJÓ, Bruno ; FURTADO, A. L. ; BARBOSA, S. D. J. ; POZZER, C.",
+        "evento": "10th International Conference on Advances in Computer Entertainment",
+        "cidade": "",
+        "paginas": "230-245",
+        "isbn": ""
+      },
+      {
+        "titulo": "Early Cases of Bertillon, the Logic Programming Sleuth",
+        "ano": 2013,
+        "doi": "",
+        "autores": "BARBOSA, S. D. J.; LIMA, E.S. ; SILVA, F.G. ; FURTADO, A. L. ; FEIJÓ, Bruno",
+        "evento": "XII Simpósio Brasileiro de Jogos e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "7-16",
+        "isbn": ""
+      },
+      {
+        "titulo": "Constraint Reuse in DL-Lite Core with Arbitrary Number Restrictions",
+        "ano": 2012,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; BREITMAN,K.K. ; FURTADO, A. L. ; VIDAL, V. ; MACEDO, J. A. F. ; SACRAMENTO, E.",
+        "evento": "6th Alberto Mendelzon International Workshop on Foundations of Data Management",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Dealing with inconsistencies in linked data mashups",
+        "ano": 2012,
+        "doi": "",
+        "autores": "SACRAMENTO, E. ; CASANOVA, M. A. ; BREITMAN,K.K. ; FURTADO, A. L. ; MACEDO, J. A. F. ; VIDAL, V.",
+        "evento": "16th International Database Engineering & Applications Symposium",
+        "cidade": "",
+        "paginas": "175-180",
+        "isbn": ""
+      },
+      {
+        "titulo": "Social Interaction for Interactive Storytelling",
+        "ano": 2012,
+        "doi": "",
+        "autores": "LIMA, E.S. ; FEIJÓ, Bruno ; POZZER, C. ; CIARLINI, A. E. M. ; BARBOSA, S. D. J. ; FURTADO, A. L. ; SILVA, F.G.",
+        "evento": "11th International Conference on Entertainment Computing",
+        "cidade": "",
+        "paginas": "1-15",
+        "isbn": ""
+      },
+      {
+        "titulo": "Draw Your Own Story: Paper and Pencil Interactive Storytelling",
+        "ano": 2011,
+        "doi": "",
+        "autores": "LIMA, E.S. ; FEIJÓ, Bruno ; FURTADO, A. L. ; BARBOSA, S. D. J. ; CIARLINI, A. E. M. ; POZZER, C.",
+        "evento": "Tenth International Conference on Entertainment Computing (ICEC)",
+        "cidade": "",
+        "paginas": "1-12",
+        "isbn": ""
+      },
+      {
+        "titulo": "Multimodal, Multi-User and Adaptive Interaction for Interactive Storytelling Applications",
+        "ano": 2011,
+        "doi": "",
+        "autores": "LIMA, E.S. ; FEIJÓ, Bruno ; BARBOSA, S. D. J. ; SILVA, F.G. ; POZZER, C. ; CIARLINI, A. E. M. ; FURTADO, A. L.",
+        "evento": "SBGames 2011",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Role of Constraints in Linked Data",
+        "ano": 2011,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; BREITMAN,K.K. ; FURTADO, A. L. ; VIDAL, V. ; MACEDO, J. A. F. ; Gomes, R. V. A. ; SALAS, P. E. R.",
+        "evento": "OTM Conferences",
+        "cidade": "",
+        "paginas": "781-799",
+        "isbn": ""
+      },
+      {
+        "titulo": "W-Ray: a strategy to publish deep web geographic data",
+        "ano": 2010,
+        "doi": "",
+        "autores": "Piccinini, H. ; CASANOVA, M. A. ; FURTADO, A. L.",
+        "evento": "4th International Workshop on Semantic and Conceptual Issues in GIS",
+        "cidade": "",
+        "paginas": "2-11",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modeling the mediated schema constraints",
+        "ano": 2010,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; LAUSCHNER, T. ; LEME, L. A. P. ; BREITMAN,K.K. ; FURTADO, A. L. ; VIDAL, V.",
+        "evento": "1st IEEE Latin American Regional Conference on the Engineering of Computer Based Systems",
+        "cidade": "",
+        "paginas": "393-402",
+        "isbn": ""
+      },
+      {
+        "titulo": "Director of photography and music director for interactive storytelling",
+        "ano": 2010,
+        "doi": "",
+        "autores": "LIMA, E.S. ; POZZER,C.T. ; FEIJO, B. ; CIARLINI, A. E. M. ; FURTADO, A. L.",
+        "evento": "IX Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A decision-making process for digital storytelling",
+        "ano": 2010,
+        "doi": "",
+        "autores": "BARBOSA, S. D. J.; FURTADO, A. L. ; CASANOVA, M. A.",
+        "evento": "IX Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Instance-based OWL Schema Matching",
+        "ano": 2009,
+        "doi": "",
+        "autores": "LEME, Luiz André P. ; CASANOVA, M. A. ; BREITMAN,K.K. ; FURTADO, A. L.",
+        "evento": "11th International Conference on Enterprise Information Systems",
+        "cidade": "",
+        "paginas": "14-26",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Plot-Manipulation Algebra to Support Digital Storytelling",
+        "ano": 2009,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-04052-8_12",
+        "autores": "KARLSSON, B. ; BARBOSA, S. D. J. ; FURTADO, A. L. ; CASANOVA, M. A.",
+        "evento": "8th International Conference on Entertainment Computing - ICEC 2009",
+        "cidade": "",
+        "paginas": "132-144",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Strategy to Revise the Constraints of the Mediated Schema",
+        "ano": 2009,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; LAUSCHNER, T. ; LEME, Luiz André P. ; BREITMAN,K.K. ; FURTADO, A. L. ; VIDAL, V.",
+        "evento": "28th International Conference on Conceptual Modeling",
+        "cidade": "",
+        "paginas": "265-279",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Frame Manipulation Algebra for ER Logical Stage Modelling",
+        "ano": 2009,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-04840-1",
+        "autores": "FURTADO, A. L. ; CASANOVA, M. A. ; BREITMAN, Karin Koogan ; BARBOSA, S. D. J.",
+        "evento": "28th International Conference on Conceptual Modeling",
+        "cidade": "",
+        "paginas": "9-24",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Model for Interactive TV Storytelling",
+        "ano": 2009,
+        "doi": "",
+        "autores": "CAMANHO, M. M. ; CIARLINI, A. E. M. ; FURTADO, A. L. ; POZZER,C.T. ; FEIJO, B.",
+        "evento": "VIII Simpósio Brasileiro de Games e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "19",
+        "isbn": ""
+      },
+      {
+        "titulo": "Support Vector Machines for Cinematography Real-Time Camera Control in Storytelling Environments",
+        "ano": 2009,
+        "doi": "",
+        "autores": "LIMA, E.S. ; POZZER,C.T. ; FAVERA, E. ; CIARLINI, A. E. M. ; FEIJO, B. ; FURTADO, A. L. ; D'ORNELAS, M.",
+        "evento": "VIII Simpósio Brasileiro de Games e Entretenimento Digital - SBGAMES 2009",
+        "cidade": "",
+        "paginas": "176",
+        "isbn": ""
+      },
+      {
+        "titulo": "Virtual Cinematography Director for Interactive Storytelling",
+        "ano": 2009,
+        "doi": "",
+        "autores": "LIMA, E.S. ; POZZER,C.T. ; D'ORNELAS, M. ; CIARLINI, A. E. M. ; FEIJO, B. ; FURTADO, A. L.",
+        "evento": "5th Advances in Computer Entertainment Technology Conference - ACE 2009",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Generalization and blending in the generation of entity-relationship schemas by analogy",
+        "ano": 2008,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; BARBOSA, S.D.J. ; BREITMAN,K.K. ; FURTADO, A. L.",
+        "evento": "ICEIS - Tenth International Conference on Enterprise Information Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Analysis and reuse of plots using similarity and analogy",
+        "ano": 2008,
+        "doi": "http://dx.doi.org/10.1007/978-3-540-87877-3",
+        "autores": "FURTADO, A. L. ; CASANOVA, M. A. ; BARBOSA, S. D. J. ; BREITMAN, Karin Koogan",
+        "evento": "Conceptual Modeling - ER 2008",
+        "cidade": "",
+        "paginas": "355-368",
+        "isbn": ""
+      },
+      {
+        "titulo": "Database mediation using multi-agent systems",
+        "ano": 2008,
+        "doi": "",
+        "autores": "LEME, L. A. P. ; CASANOVA, M. A. ; BREITMAN,K.K. ; FURTADO, A. L.",
+        "evento": "32nd Annual IEEE Software Engineering Workshop",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Event relations in plan-based plot composition",
+        "ano": 2008,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; BARBOSA, S. D. J. ; CASANOVA, Marco Antônio ; FURTADO, A. L.",
+        "evento": "Simpósio Brasileiro de Jogos e Entretenimento Digital - SBGAMES 2008",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Conciliating Coherence and High Responsiveness in Interactive Storytelling",
+        "ano": 2008,
+        "doi": "",
+        "autores": "CAMANHO, M. M. ; CIARLINI, A. E. M. ; FURTADO, A. L. ; POZZER,C.T. ; FEIJO, B.",
+        "evento": "3rd ACM International Conference on Digital Interactive Media in Entertainment and Arts - DIMEA 2008",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Planning and Interaction Levels for TV Storytelling",
+        "ano": 2008,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; CAMANHO, M. M. ; DORIA, T.R. ; FURTADO, A. L. ; POZZER,C.T. ; FEIJO, B.",
+        "evento": "First Joint International Conference on Interactive Digital Storytelling - ICIDS 2008",
+        "cidade": "",
+        "paginas": "198-209",
+        "isbn": ""
+      },
+      {
+        "titulo": "Using analogy to promote conceptual modeling reuse",
+        "ano": 2007,
+        "doi": "",
+        "autores": "BREITMAN, Karin Koogan ; BARBOSA, S. D. J. ; CASANOVA, M. A. ; FURTADO, A. L.",
+        "evento": "2007 ISoLA Workshop On Leveraging Applications of Formal Methods",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modeling provenance for semantic desktop applications",
+        "ano": 2007,
+        "doi": "",
+        "autores": "MARINS, A.L.A. ; CASANOVA, M. A. ; FURTADO, A. L. ; BREITMAN,K.K.",
+        "evento": "Seminário Integrado de Software e de Hardware",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Similarity and analogy over application domains",
+        "ano": 2007,
+        "doi": "",
+        "autores": "BARBOSA, S. D. J.; BREITMAN, Karin Koogan ; CASANOVA, M. A. ; FURTADO, A. L.",
+        "evento": "Simpósio Brasileiro de Banco de Dados",
+        "cidade": "",
+        "paginas": "238-254",
+        "isbn": ""
+      },
+      {
+        "titulo": "Applying a Plan-Recognition / Plan-Generation Paradigm to Interactive Storytelling",
+        "ano": 2006,
+        "doi": "",
+        "autores": "KARLSSON, B. ; CIARLINI, A. E. M. ; FEIJO, B. ; FURTADO, A. L.",
+        "evento": "AI Planning for Computer Games and Synthetic Characters",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Narrating stories in participatory games",
+        "ano": 2006,
+        "doi": "",
+        "autores": "RODRIGUES, P.S.L. ; FEIJO, B. ; VELHO, L.C.P.R ; CIARLINI, A. E. M. ; FURTADO, A. L.",
+        "evento": "Symposium on Computer Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Improving the scene: extending LOGTELL to support a plan recognition/ plan generation paradigm",
+        "ano": 2006,
+        "doi": "",
+        "autores": "KARLSSON, B. ; POZZER,C.T. ; CIARLINI, A. E. M. ; FURTADO, A. L. ; FEIJO, B.",
+        "evento": "Symposium on Computer Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "A logic-based tool for interactive generation and dramatization of stories",
+        "ano": 2005,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; POZZER,C.T. ; FURTADO, A. L. ; FEIJO, B.",
+        "evento": "ACM-SIGCHI International Conference on Advances in Computer Entertainment Technology",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Narratives over real-life and fictional domains",
+        "ano": 2004,
+        "doi": "",
+        "autores": "FURTADO, A. L",
+        "evento": "19o Simpósio Brasileiro de Bancos de Dados",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards a Plan-based Learning Environment",
+        "ano": 2003,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; FURTADO, A. L.",
+        "evento": "I PGL Database Research Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Integrated Tool for Modelling, Generating and Exhibiting Narratives",
+        "ano": 2002,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; FEIJO, B. ; FURTADO, A. L.",
+        "evento": "AI",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Understanding and Simulating Narratives in the Context of Information Systems",
+        "ano": 2002,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; FURTADO, A. L.",
+        "evento": "ER2002 - 21st International Conference on Conceptual Modeling",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Constructing Libraries of Typical Plans",
+        "ano": 2001,
+        "doi": "",
+        "autores": "FURTADO, A. L.; CIARLINI, A. E. M.",
+        "evento": "Conference on Advanced Information Systems Engineering (CAiSE)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Cooperative interfaces based on plan recognition and generation",
+        "ano": 2001,
+        "doi": "",
+        "autores": "PEREZ ALCAZAR, J. J. ; FURTADO, A. L. ; CIARLINI, A. E. M.",
+        "evento": "XXVII Conferencia Latinoamericana de Informática (CLEI)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Generating Narratives from Plots using Schema Information",
+        "ano": 2000,
+        "doi": "",
+        "autores": "FURTADO, A. L.; CIARLINI, A. E. M.",
+        "evento": "5th International Workshop on Applications of Natural Language for Information Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Simulating the Interaction of Database Agents",
+        "ano": 1999,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; FURTADO, A. L.",
+        "evento": "Database and Expert Systems Applications Conference (DEXA'99)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Operational Characterization of Genre in Literary and Real-life Domains",
+        "ano": 1999,
+        "doi": "",
+        "autores": "FURTADO, A. L.; CIARLINI, A. E. M.",
+        "evento": "Conceptual Modeling Conference - ER'99",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Interactive Multistage Simulation of Goal-Driven Agents",
+        "ano": 1999,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; FURTADO, A. L.",
+        "evento": "SBBD99 - XIV Seminário Brasileiro de Bancos de Dados",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Extended Query-The-User Tool for Expert Systems",
+        "ano": 1998,
+        "doi": "",
+        "autores": "SENA, G. J. ; FURTADO, A. L.",
+        "evento": "4th WCES Applications on Advanced Information Technologies",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards a Cooperative Question-Answering Model",
+        "ano": 1998,
+        "doi": "",
+        "autores": "SENA, G. J. ; FURTADO, A. L.",
+        "evento": "International conference on Flexible Query Answering Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards a Dialogue-Based Model for Cooperative Query Answering",
+        "ano": 1998,
+        "doi": "",
+        "autores": "SENA, G. J. ; FURTADO, A. L.",
+        "evento": "WORKCOMP'98",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Plots of Narratives over Temporal Databases",
+        "ano": 1997,
+        "doi": "",
+        "autores": "FURTADO, A. L.; CIARLINI, A. E. M.",
+        "evento": "8th International Conference and Workshop on Database and Expert Systems Applications (DEXA'97)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Hybrid Formal Theory of Plan Recognition and its Implementation",
+        "ano": 1996,
+        "doi": "",
+        "autores": "HELANO, J. H. M. ; FURTADO, A. L. ; PEREZ ALCAZAR, J. J.",
+        "evento": "XIII Simpósio Brasileiro de Inteligência Artificial",
+        "cidade": "",
+        "paginas": "31-40",
+        "isbn": ""
+      },
+      {
+        "titulo": "Rule-based databases",
+        "ano": 1994,
+        "doi": "",
+        "autores": "FURTADO, A. L",
+        "evento": "DB Workshop on New Database Research Challenges",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Designing a User-Oriented Query Modification Facility in Object-Oriented Database Systems",
+        "ano": 1994,
+        "doi": "",
+        "autores": "ABERER, K. ; KLAS, W. ; FURTADO, A. L.",
+        "evento": "Conference on Advanced Information Systems Engineering (CAiSE)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Cooperative Interfaces for Spatio-Temporal Databases",
+        "ano": 1994,
+        "doi": "",
+        "autores": "PEREZ ALCAZAR, J. J. ; HEMERLY, A. ; CASANOVA, M. A. ; FURTADO, A. L.",
+        "evento": "Advances in Database and Expert Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards Cooperativeness in Geographic Databases",
+        "ano": 1993,
+        "doi": "",
+        "autores": "HEMERLY, A. ; FURTADO, A. L. ; CASANOVA, M. A.",
+        "evento": "International Conference on Database and Expert Systems Applications",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Correcting User Queries through a Cooperative Database Interface",
+        "ano": 1993,
+        "doi": "",
+        "autores": "SENA, G. J. ; FURTADO, A. L.",
+        "evento": "International Conference on Computing and Information",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Declarative Conceptual Modelling Language: Description and Example Applications",
+        "ano": 1992,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; HEMERLY, A. ; FURTADO, A. L.",
+        "evento": "4th Conference on Advanced Information Systems Engineering",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Cooperative Behaviour through Request Modification",
+        "ano": 1991,
+        "doi": "",
+        "autores": "HEMERLY, A. ; FURTADO, A. L. ; CASANOVA, M. A.",
+        "evento": "- 10th International Conference on the Entity-Relationship Approach",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploiting User Models to Avoid Misconceptions",
+        "ano": 1991,
+        "doi": "",
+        "autores": "HEMERLY, A. ; CASANOVA, M. A. ; FURTADO, A. L.",
+        "evento": "Workshop on Nonstandard Queries and Answers",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Information System Environment Based on Plan Generation",
+        "ano": 1990,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; FURTADO, A. L.",
+        "evento": "International Conference on Cooperating Knowledge based Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Plan and Schedule Generation over Temporal Databases",
+        "ano": 1990,
+        "doi": "",
+        "autores": "FURTADO, A. L.; CASANOVA, M. A.",
+        "evento": "9th International Conference on the Entity-Relationship Approach",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Optimization of Relational Schemas Containing Inclusion Dependencies",
+        "ano": 1989,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; TUCHERMAN, L. ; FURTADO, A. L. ; BRAGA, A. P.",
+        "evento": "INTERNATIONAL CONFERENCE ON VERY LARGE DATA BASES",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Enforcing Inclusion Dependecies and Referential Integrity",
+        "ano": 1988,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; TUCHERMAN, L. ; FURTADO, A. L.",
+        "evento": "INTERNATIONAL CONFERENCE ON VERY LARGE DATA BASES",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Chris Consultant",
+        "ano": 1987,
+        "doi": "",
+        "autores": "FURTADO, A. L.; CASANOVA, M. A. ; TUCHERMAN, L.",
+        "evento": "INTERNATIONAL CONFERENCE ON THE ENTITY-RELATIONSHIP APPROACH.",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Update-Oriented Database Structures",
+        "ano": 1987,
+        "doi": "",
+        "autores": "TUCHERMAN, L. ; FURTADO, A. L.",
+        "evento": "INTERNATIONAL CONFERENCE ON EXPERT DATABASE SYSTEMS",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Framework For Design-Redesign Experts",
+        "ano": 1986,
+        "doi": "",
+        "autores": "FURTADO, A. L.; CASANOVA, M. A. ; TUCHERMAN, L.",
+        "evento": "INTERNATIONAL CONFERENCE ON EXPERT DATABASE SYSTEMS",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Transforming Constraints Into Logic Programs: a Case Study",
+        "ano": 1986,
+        "doi": "",
+        "autores": "FURTADO, A. L.; CASANOVA, M. A. ; TUCHERMAN, L.",
+        "evento": "IFIP TC-2 WORKING CONFERENCE ON KNOWLEDGE AND DATA.",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Framework for Design/Redesign Experts",
+        "ano": 1986,
+        "doi": "",
+        "autores": "FURTADO, A. L.; CASANOVA, M. A. ; TUCHERMAN, L.",
+        "evento": "First International Conference on Expert Database Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "VM/Prolog, etc - Adding an Expert Tool Capability to VM/Prolog",
+        "ano": 1986,
+        "doi": "",
+        "autores": "FURTADO, A. L.; SOUZA, C. R.",
+        "evento": "IBM Interdivisional Technical Liaison Conference on Expert Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Tool for Modular Database Design",
+        "ano": 1985,
+        "doi": "",
+        "autores": "TUCHERMAN, L. ; FURTADO, A. L. ; CASANOVA, M. A.",
+        "evento": "INTERNATIONAL CONFERENCE ON VERY LARGE DATABASES",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Expert Helpers to Database Information Systems",
+        "ano": 1984,
+        "doi": "",
+        "autores": "FURTADO, A. L.; MOURA, C.",
+        "evento": "INTERNATIONAL WORKSHOP ON EXPERT DATABASE SYSTEMS",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Database Specification Formalisms: An Eclectic Perspective",
+        "ano": 1984,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; VELOSO, P. A. S. ; FURTADO, A. L.",
+        "evento": "ACM SYMPOSIUM ON PRINCIPLES OF DATABASE SYSTEMS (PODS)",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "View Constructs For The Specification And Design Of External Schemas",
+        "ano": 1983,
+        "doi": "",
+        "autores": "VELOSO, P. A. S. ; FURTADO, A. L.",
+        "evento": "INTERNATIONAL CONFERENCE ON THE ENTITY-RELATIONSHIP APPROACH.",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Pragmatic Approach to Structures Database Design",
+        "ano": 1983,
+        "doi": "",
+        "autores": "TUCHERMAN, L. ; FURTADO, A. L. ; CASANOVA, M. A.",
+        "evento": "INTERNATIONAL CONFERENCE ON VERY LARGE DATABASES",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Grammatical Approach to Data Bases",
+        "ano": 1982,
+        "doi": "",
+        "autores": "FURTADO, A. L.; VELOSO, P. A. S. ; CASANOVA, M. A.",
+        "evento": "IFIP World Computer Congress",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Multi-Level Specifications Based on Traces",
+        "ano": 1983,
+        "doi": "",
+        "autores": "FURTADO, A. L.; VELOSO, P. A. S.",
+        "evento": "International Computing Symposium",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Properties of Conceptual and External Database Schemas",
+        "ano": 1982,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; CASTILHO, J. M. V. ; FURTADO, A. L.",
+        "evento": "IFIP WG2.2 Working Conference on Formal Description of Programming Concepts II",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Temporal Framework for Database Specifications",
+        "ano": 1981,
+        "doi": "",
+        "autores": "CASTILHO, J. M. V. ; CASANOVA, M. A. ; FURTADO, A. L.",
+        "evento": "VLDB Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Family of Temporal Languages for the Description of Transition Constraints",
+        "ano": 1982,
+        "doi": "",
+        "autores": "CASANOVA, M. A. ; FURTADO, A. L.",
+        "evento": "Workshop on Logical Bases for Databases",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Stepwise Construction of Algebraic Specifications",
+        "ano": 1982,
+        "doi": "",
+        "autores": "VELOSO, P. A. S. ; FURTADO, A. L.",
+        "evento": "Workshop on Logical Bases for Databases",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Algebraic Specification of Data Base Applications",
+        "ano": 1982,
+        "doi": "",
+        "autores": "VELOSO, P. A. S. ; FURTADO, A. L.",
+        "evento": "International Computer Symposium",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Specification of Data Bases Through Rewriting Rules",
+        "ano": 1982,
+        "doi": "",
+        "autores": "FURTADO, A. L.; VELOSO, P. A. S.",
+        "evento": "Workshop on Graph Grammars and their applications to computer science",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Systematic Derivation of Complementary Specifications",
+        "ano": 1981,
+        "doi": "",
+        "autores": "VELOSO, P. A. S. ; CASTILHO, J. M. V. ; FURTADO, A. L.",
+        "evento": "VLDB Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Verification and Testing of S-ER Specifications",
+        "ano": 1981,
+        "doi": "",
+        "autores": "FURTADO, A. L.; VELOSO, P. A. S. ; CASTILHO, J. M. V.",
+        "evento": "Entity- Relationship Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards Constructive Axiomatic Specifications",
+        "ano": 1980,
+        "doi": "",
+        "autores": "SANTOS, C. S. ; FURTADO, A. L. ; CASTILHO, J. M. V. ; CARVALHO, S.",
+        "evento": "Workshop on Data Abstraction",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Data Type Approach to the Entity-Relationship Model",
+        "ano": 1979,
+        "doi": "",
+        "autores": "SANTOS, C. S. ; NEUHOLD, E. J. ; FURTADO, A. L.",
+        "evento": "International Conference on the Entity-Relationship Approach to Systems Analysis and Design",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Data Structure for Fast Relational Algebra Operations",
+        "ano": 1977,
+        "doi": "",
+        "autores": "FURTADO, A. L.; BRODIE, M. L.",
+        "evento": "10th Hawaii International Conference on System Sciences",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards the Design of Data Base Interfaces for Non-Programmers",
+        "ano": 1977,
+        "doi": "",
+        "autores": "FURTADO, A. L",
+        "evento": "Workshop on Simula and Data Bases",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Algebra of Quotient Relations",
+        "ano": 1977,
+        "doi": "",
+        "autores": "FURTADO, A. L.; KERSCHBERG, L.",
+        "evento": "ACM/SIGMOD Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Incremental Approach to the Construction of Data Base Software",
+        "ano": 1977,
+        "doi": "",
+        "autores": "FURTADO, A. L.; LUCENA, C. J. P.",
+        "evento": "AICA Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Directed Hypergraph Approach to Data Base Systems",
+        "ano": 1977,
+        "doi": "",
+        "autores": "FURTADO, A. L",
+        "evento": "1st International Conference on Applied General Systems Research",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Characterizing Sets of Data Structures by Graph Grammars",
+        "ano": 1975,
+        "doi": "",
+        "autores": "FURTADO, A. L",
+        "evento": "Conference on Computer Graphics",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Pattern-matching for Structured Programming",
+        "ano": 1974,
+        "doi": "",
+        "autores": "FURTADO, A. L.; PFEFFER, A.",
+        "evento": "7th Asilomar Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Formula Manipulation in the Fletcher and Powel Optimization Method",
+        "ano": 1969,
+        "doi": "",
+        "autores": "FURTADO, A. L.; FREIRE, F.",
+        "evento": "JMCAD Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [],
+    "resumos_congressos": [
+      {
+        "titulo": "Mitos Arturianos",
+        "ano": 2004,
+        "autores": "FURTADO, A. L",
+        "evento": "I Simpósio Nacional de Estudos Celtas e Germânicos - Novas Perspectivas, 2004, Rio de Janeiro. Programação e Livro de Resumos. Rio de Janeiro: Universidade Federal do Rio de Janeiro",
+        "cidade": ""
+      },
+      {
+        "titulo": "The \"Arabian Nights\" and Chétien's \"Perceval\"",
+        "ano": 1993,
+        "autores": "FURTADO, A. L",
+        "evento": "XVIIth International Congress of the Arthurian Society, 1993, Bonn. Proc. of the XVIIth IAS Congress",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [],
+    "textos_jornais": [
+      {
+        "titulo": "Coautoria Inteligente, às suas ordens",
+        "ano": 0,
+        "autores": "FURTADO, A. L",
+        "jornal": "",
+        "cidade": "",
+        "data": ""
+      }
+    ],
+    "outras_producoes": []
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Discovery, conformance and enhancement of academic process models via typical plans",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Vinicius Michel Gottin",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Emotions in Plots with Non-Deterministic Planning for Interactive Storytelling",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Fabio Araujo Guilherme da Silva",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Model and an Interactive System for Plot Composition and Adaptation, based on Plan Recognition and Plan Generation",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Börje Felipe Fernandes Karlsson",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Permanência e Mutações: O desafio de escrever adaptações escolares baseadas em clássicos da literatura",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "MÁRIO FEIJÓ BORGES MONTEIRO",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Sistema para Geração Interação e Visualização de Histórias para TV Interativa",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "CESAR TADEU POZZER",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Geração Interativa de Enredos",
+          "ano_inicio": 1999,
+          "ano_conclusao": 1999,
+          "orientando": "ANGELO ERNANI MAIA CIARLINI",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Respostas Cooperativas Baseadas na Geração e Reconhecimento de Planos",
+          "ano_inicio": 1995,
+          "ano_conclusao": 1995,
+          "orientando": "JOSÉ JESUS PEREZ DE ALCAZAR",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Modelo de Sistema Cooperativo Baseado na Modificação de Solicitações de Consulta e de Atualização",
+          "ano_inicio": 1992,
+          "ano_conclusao": 1992,
+          "orientando": "GALENO JOSÉ DE SENA",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Disciplina Modular Para Projeto Modular de Bancos de Dados.",
+          "ano_inicio": 1989,
+          "ano_conclusao": 1989,
+          "orientando": "LUIZ TUCHERMAN",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Especificacoes Formais Para O Projeto de Aplicacoes de Bancos de Dados.",
+          "ano_inicio": 1982,
+          "ano_conclusao": 1982,
+          "orientando": "JOSE MAURO VOLKMER DE CASTILHO",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Caracterizacao Sistematica de Restricoes de Integridade Em Bancos de Dados.",
+          "ano_inicio": 1980,
+          "ano_conclusao": 1980,
+          "orientando": "CLESIO SARAIVA DOS SANTOS",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Um Jogo Multijogador Online para Identificação de Funções Executivas em Idosos",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Bruno Portella Tassara",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Applying process mining to the academic administration domain",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Haydée Guillot Jiménez",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Engenharia de Estórias - Um estudo sobre a geração e narração automática de estórias",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "FÁBIO WANDERLEY GUERRA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Reconhecimento de Planos: uma Teoria Formal Híbrida e Implementação de um Sistema Reconhecedor",
+          "ano_inicio": 1994,
+          "ano_conclusao": 1994,
+          "orientando": "JOSÉ HELANO MATOS NOGUEIRA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sistema Especialista Baseado em Regras para Escalonamento de Serviços em Ambiente VMS",
+          "ano_inicio": 1992,
+          "ano_conclusao": 1992,
+          "orientando": "CARLOS HENRIQUE REIS CARDOSO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Implementacao de Prototipo de Ferramenta Para Projeto/ Reprojeto de Bancos de Dados.",
+          "ano_inicio": 1987,
+          "ano_conclusao": 1987,
+          "orientando": "GALENO JOSE DE SENA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Ferramenta Para Mapeamento de Esquemas de Bancos de Dados Em Estrutras Fisicas.",
+          "ano_inicio": 1987,
+          "ano_conclusao": 1987,
+          "orientando": "ALEXANDRE IBRHIM DIRENE",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Especificacao do Mapeamento de Esquemas de Bancos de Dados Em Estruturas Fisicas.",
+          "ano_inicio": 1987,
+          "ano_conclusao": 1987,
+          "orientando": "JUMAR PIZOL",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento de Dicionarios de Dados Inteligentes.",
+          "ano_inicio": 1986,
+          "ano_conclusao": 1986,
+          "orientando": "PAULO WILLIAM CARDOSO MACIEL",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo e Implementacao de Tecnicas de Compressao de Dados.",
+          "ano_inicio": 1985,
+          "ano_conclusao": 1985,
+          "orientando": "ANTONIO CARLOS PEREIRA MAIA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Banco de Dados Para Informacao Academica e Producao Cientifica.",
+          "ano_inicio": 1984,
+          "ano_conclusao": 1984,
+          "orientando": "JOAO BOSCO SCHUMAN CUNHA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Gerador de Sistemas de Apoio A Decisao.",
+          "ano_inicio": 1984,
+          "ano_conclusao": 1984,
+          "orientando": "ROBERTO VELASCO KOPP JUNIOR",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Avaliacao de Uma Estrategia de Encapsulamento.",
+          "ano_inicio": 1983,
+          "ano_conclusao": 1983,
+          "orientando": "LUIZ TUCHERMAN",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Implementação de Arquivos Invertidos Utilizando Árvores B+ em COBOL",
+          "ano_inicio": 1982,
+          "ano_conclusao": 1982,
+          "orientando": "VANIA LUCIA SUSINI RAMALHO CHAVES",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Projeto e Implementacao de Banco de Dados Considerando Restricoes de Integridade e Seguranca.",
+          "ano_inicio": 1980,
+          "ano_conclusao": 1980,
+          "orientando": "LUCAS MORTIMER MACEDO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Estudo sobre Modularização de Programas",
+          "ano_inicio": 1979,
+          "ano_conclusao": 1979,
+          "orientando": "PEDRO LUIZ STEINBRUCH",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Metodologia para Seleção de Sistemas de Gerência de Bancos de Dados",
+          "ano_inicio": 1979,
+          "ano_conclusao": 1979,
+          "orientando": "RONALDO RIBEIRO FREITAS",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Sistema de Orçamento Programa para Órgãos de Administração Direta Apoiado em Banco de Dados",
+          "ano_inicio": 1979,
+          "ano_conclusao": 1979,
+          "orientando": "CLÁUDIO DE ANDRADE TEIXEIRA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Especificações Lógicas para Criação de um \"Cross Compiler\"",
+          "ano_inicio": 1979,
+          "ano_conclusao": 1979,
+          "orientando": "WEBER ALVES",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Especificações Físicas para Implementação de um \"Cross Compiler\"",
+          "ano_inicio": 1979,
+          "ano_conclusao": 1979,
+          "orientando": "ESTEPHAN LEITÃO LAGE",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento, Implementação, Descrição Lógica e Documentação de um Sistema de Banco de Dados",
+          "ano_inicio": 1978,
+          "ano_conclusao": 1978,
+          "orientando": "ROBERTO PIRES VASQUES",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento, Implementação e Avaliação de Eficiência de um Sistema de Banco de Dados",
+          "ano_inicio": 1978,
+          "ano_conclusao": 1978,
+          "orientando": "SONIA MARIA MIGUEL PASSOS",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Subconjunto de Linguagem Natural Para Consulta A Bancos de Dados.",
+          "ano_inicio": 1976,
+          "ano_conclusao": 1976,
+          "orientando": "NIVIO ZIVIANI",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Modelo Fisico e Operacoes Primitivas Para Um Banco de Dados Relacional.",
+          "ano_inicio": 1976,
+          "ano_conclusao": 1976,
+          "orientando": "GEOVANNE CAYRES MAGALHAES",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Discussão e Implementação de um Formalismo para Definição de Tipos de Dados",
+          "ano_inicio": 1974,
+          "ano_conclusao": 1974,
+          "orientando": "PAULO BLANCO BARROSO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Extensão de PL/I para Processamento de Grafos",
+          "ano_inicio": 1973,
+          "ano_conclusao": 1973,
+          "orientando": "CLÉSIO SARAIVA DOS SANTOS",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Compilador BASIC Otimizado",
+          "ano_inicio": 1972,
+          "ano_conclusao": 1972,
+          "orientando": "PAULO ALBERTO DE AZEREDO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Extensão de PL/I para Processamento de Listas",
+          "ano_inicio": 1972,
+          "ano_conclusao": 1972,
+          "orientando": "ADILSON TADEU DE MEDEIROS",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Extensão de PL/I para \"Pattern-Matching\"",
+          "ano_inicio": 1972,
+          "ano_conclusao": 1972,
+          "orientando": "ADALBERTO PFEFFER",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Algoritmo para Determinação de Número Cromático e um Colorido Ótimo de Grafo Não Dirigido",
+          "ano_inicio": 1972,
+          "ano_conclusao": 1972,
+          "orientando": "SÉRGIO IVAN ROSCHKE",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Ampliação da Estrutura de Controle e Extensão Modular de PL/I",
+          "ano_inicio": 1972,
+          "ano_conclusao": 1972,
+          "orientando": "JOÃO CARLOS PIRES BAUER",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sistemas de Controle Acadêmico",
+          "ano_inicio": 1971,
+          "ano_conclusao": 1971,
+          "orientando": "FERNANDO FARIA LIMA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sistema para Gráficos Estatísticos",
+          "ano_inicio": 1971,
+          "ano_conclusao": 1971,
+          "orientando": "JOSÉ CARLOS BARBOSA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Introdução à Demonstração Automática de Teoremas",
+          "ano_inicio": 1971,
+          "ano_conclusao": 1971,
+          "orientando": "EMMANUEL PISECES LOPES PASSOS",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Caminhamento em Grafos Simétricos",
+          "ano_inicio": 1970,
+          "ano_conclusao": 1970,
+          "orientando": "AKEO TANABE",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [],
+    "organizacoes": []
+  },
+  "bancas": {
+    "mestrado": [],
+    "doutorado": [],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": []
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 59,
+    "total_livros": 11,
+    "total_capitulos": 14,
+    "total_trabalhos_congressos": 114,
+    "total_projetos_pesquisa": 1,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 0,
+    "total_orientacoes_concluidas": 46,
+    "total_orientacoes_andamento": 0
+  }
+}

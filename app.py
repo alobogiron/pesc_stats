@@ -37,17 +37,86 @@ def get_db_connection():
 con = get_db_connection()
 
 def get_year_bounds(conexao):
-    """Obtém os limites de anos disponíveis em uma conexão DuckDB qualquer."""
-    try:
-        res_p = conexao.execute("SELECT MIN(ano_pub), MAX(ano_pub) FROM tb_artigo_periodico").fetchone()
-        res_c = conexao.execute("SELECT MIN(ano), MAX(ano) FROM tb_artigo_conferencia").fetchone()
-        a_min = min([res_p[0] or 2000, res_c[0] or 2000])
-        a_max = max([res_p[1] or 2026, res_c[1] or 2026])
-        return int(a_min), int(a_max)
-    except:
-        return 2000, 2026
+    """Obtém os limites de anos disponíveis (artigos e orientações) em uma
+    conexão DuckDB qualquer. Cada tabela é consultada em seu próprio
+    try/except -- uma base enviada para comparação pode ter arquitetura
+    mais antiga sem alguma dessas tabelas, e isso não deve derrubar as
+    demais, só ser ignorado silenciosamente."""
+    candidatos_min, candidatos_max = [], []
+
+    for query in [
+        "SELECT MIN(ano_pub), MAX(ano_pub) FROM tb_artigo_periodico",
+        "SELECT MIN(ano), MAX(ano) FROM tb_artigo_conferencia",
+        "SELECT MIN(ano_inicio), MAX(COALESCE(ano_conclusao, ano_inicio)) FROM tb_orientacoes",
+    ]:
+        try:
+            res = conexao.execute(query).fetchone()
+            if res and res[0] is not None:
+                candidatos_min.append(res[0])
+            if res and res[1] is not None:
+                candidatos_max.append(res[1])
+        except Exception:
+            pass
+
+    a_min = min(candidatos_min) if candidatos_min else 2000
+    a_max = max(candidatos_max) if candidatos_max else 2026
+    return int(a_min), int(a_max)
 
 ANO_MIN, ANO_MAX = get_year_bounds(con)
+
+def renderizar_filtro_periodo(ano_min, ano_max, chave_pagina, titulo_extra=""):
+    """Renderiza o par de campos 'Ano de Início'/'Ano de Fim'.
+
+    A intenção do usuário é compartilhada globalmente entre todas as páginas
+    via st.session_state['filtro_ano_inicio'/'filtro_ano_fim'] -- mudar o
+    período em qualquer página propaga para as demais. Cada página, porém,
+    usa uma chave de widget própria (`chave_pagina`) e recorta (clampa) o
+    valor herdado para os seus próprios limites válidos (ano_min/ano_max),
+    já que páginas diferentes podem ter intervalos de dados diferentes (ex.:
+    a base de comparação enviada pelo usuário). Valida ao final que início
+    <= fim, corrigindo automaticamente -- nunca deixa passar um intervalo
+    invertido/negativo para as consultas.
+    """
+    def _clamp(valor, padrao):
+        if valor is None:
+            valor = padrao
+        return min(max(int(valor), ano_min), ano_max)
+
+    chave_inicio = f"{chave_pagina}_ano_inicio"
+    chave_fim = f"{chave_pagina}_ano_fim"
+
+    if chave_inicio not in st.session_state:
+        st.session_state[chave_inicio] = _clamp(
+            st.session_state.get("filtro_ano_inicio"), max(ano_min, ano_max - 4)
+        )
+    if chave_fim not in st.session_state:
+        st.session_state[chave_fim] = _clamp(
+            st.session_state.get("filtro_ano_fim"), ano_max
+        )
+
+    col1, col2 = st.columns(2)
+    with col1:
+        ano_inicio = st.number_input(
+            f"Ano de Início{titulo_extra}", min_value=ano_min, max_value=ano_max, key=chave_inicio
+        )
+    with col2:
+        ano_fim = st.number_input(
+            f"Ano de Fim{titulo_extra}", min_value=ano_min, max_value=ano_max, key=chave_fim
+        )
+
+    if ano_inicio > ano_fim:
+        st.error(
+            f"Ano de Início ({ano_inicio}) não pode ser maior que Ano de Fim ({ano_fim}); "
+            "os valores foram trocados automaticamente."
+        )
+        ano_inicio, ano_fim = ano_fim, ano_inicio
+        st.session_state[chave_inicio] = ano_inicio
+        st.session_state[chave_fim] = ano_fim
+
+    st.session_state["filtro_ano_inicio"] = ano_inicio
+    st.session_state["filtro_ano_fim"] = ano_fim
+
+    return ano_inicio, ano_fim
 
 @st.cache_resource(show_spinner=False)
 def carregar_base_comparacao(arquivo_bytes, nome_arquivo):
@@ -148,6 +217,26 @@ def tem_coluna(conexao, tabela, coluna):
         return False
 
 
+def sql_ingresso(alias_tabela, coluna_ano, conector="AND", aplicar=True):
+    """Fragmento SQL que restringe `coluna_ano` de `alias_tabela` (nome de
+    tabela ou alias de JOIN) à produção/orientação posterior à data de
+    ingresso do professor no programa (`tb_professores.data_ingresso`) —
+    currículos Lattes trazem a vida acadêmica inteira, mas a apresentação
+    institucional só deve considerar o período em que o docente já fazia
+    parte do quadro. `COALESCE` faz o corte virar no-op quando
+    `data_ingresso` é nulo (docente sem essa informação, ou Base B do
+    Comparativo, que não tem `lista_pessoas.csv`). `aplicar=False` também
+    devolve '' -- usado quando a base não tem a coluna `data_ingresso`
+    (verificar antes com `tem_coluna`)."""
+    if not aplicar:
+        return ""
+    return (
+        f" {conector} {alias_tabela}.{coluna_ano} >= COALESCE("
+        f"(SELECT data_ingresso FROM tb_professores pr_ing WHERE pr_ing.id_lattes = {alias_tabela}.id_lattes), "
+        f"{alias_tabela}.{coluna_ano})"
+    )
+
+
 # Filtro de período compartilhado entre as páginas padrão: inicializado uma
 # única vez para que o intervalo escolhido persista ao alternar de dataview.
 if "filtro_ano_inicio" not in st.session_state:
@@ -195,21 +284,17 @@ if pagina_selecionada == "Comparativo entre Bases":
 if pagina_selecionada == "Indicadores Institucionais":
     st.title("Indicadores Institucionais (Métricas Globais)")
     st.markdown("Consolidação estatística descritiva da base total de dados da instituição.")
-    
+
     st.subheader("Filtro de Período")
-    col_f1, col_f2 = st.columns(2)
-    with col_f1:
-        f_ano_inicio = st.number_input("Ano de Início", min_value=ANO_MIN, max_value=ANO_MAX, key="filtro_ano_inicio")
-    with col_f2:
-        f_ano_fim = st.number_input("Ano de Fim", min_value=ANO_MIN, max_value=ANO_MAX, key="filtro_ano_fim")
-    
+    f_ano_inicio, f_ano_fim = renderizar_filtro_periodo(ANO_MIN, ANO_MAX, "indicadores")
+
     res_docentes = con.execute("SELECT COUNT(id_lattes) FROM tb_professores").fetchone()
     
     # Métricas filtradas por ano
-    query_p = f"SELECT COUNT(id_artigo_periodico) FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ?{sql_fonte()}"
+    query_p = f"SELECT COUNT(id_artigo_periodico) FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ?{sql_fonte()}{sql_ingresso('tb_artigo_periodico', 'ano_pub')}"
     res_periodicos = con.execute(query_p, [f_ano_inicio, f_ano_fim]).fetchone()
-    
-    query_c = f"SELECT COUNT(id_artigo_conferencia) FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ?{sql_fonte()}"
+
+    query_c = f"SELECT COUNT(id_artigo_conferencia) FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ?{sql_fonte()}{sql_ingresso('tb_artigo_conferencia', 'ano')}"
     res_conferencias = con.execute(query_c, [f_ano_inicio, f_ano_fim]).fetchone()
     
     total_docentes = res_docentes[0] if res_docentes else 0
@@ -236,13 +321,9 @@ if pagina_selecionada == "Indicadores Institucionais":
 elif pagina_selecionada == "Análise por Docente":
     st.title("Análise por Docente")
     st.markdown("Visão analítica quantitativa de publicações segregadas por pesquisador.")
-    
+
     st.subheader("Filtro de Período")
-    col_f1, col_f2 = st.columns(2)
-    with col_f1:
-        f_ano_inicio = st.number_input("Ano de Início", min_value=ANO_MIN, max_value=ANO_MAX, key="filtro_ano_inicio")
-    with col_f2:
-        f_ano_fim = st.number_input("Ano de Fim", min_value=ANO_MIN, max_value=ANO_MAX, key="filtro_ano_fim")
+    f_ano_inicio, f_ano_fim = renderizar_filtro_periodo(ANO_MIN, ANO_MAX, "docente")
 
     # Tabela Mestra Unificada
     query_mestra = f"""
@@ -252,9 +333,9 @@ elif pagina_selecionada == "Análise por Docente":
             COUNT(DISTINCT a_c.id_artigo_conferencia) AS Conferencias,
             (COUNT(DISTINCT a_p.id_artigo_periodico) + COUNT(DISTINCT a_c.id_artigo_conferencia)) AS Total
         FROM tb_professores p
-        LEFT JOIN tb_artigo_periodico a_p ON p.id_lattes = a_p.id_lattes AND a_p.ano_pub BETWEEN {f_ano_inicio} AND {f_ano_fim}{sql_fonte('a_p.fontes')}
-        LEFT JOIN tb_artigo_conferencia a_c ON p.id_lattes = a_c.id_lattes AND a_c.ano BETWEEN {f_ano_inicio} AND {f_ano_fim}{sql_fonte('a_c.fontes')}
-        GROUP BY p.nome_completo 
+        LEFT JOIN tb_artigo_periodico a_p ON p.id_lattes = a_p.id_lattes AND a_p.ano_pub BETWEEN {f_ano_inicio} AND {f_ano_fim}{sql_fonte('a_p.fontes')}{sql_ingresso('a_p', 'ano_pub')}
+        LEFT JOIN tb_artigo_conferencia a_c ON p.id_lattes = a_c.id_lattes AND a_c.ano BETWEEN {f_ano_inicio} AND {f_ano_fim}{sql_fonte('a_c.fontes')}{sql_ingresso('a_c', 'ano')}
+        GROUP BY p.nome_completo
         ORDER BY Total DESC
     """
     df_mestra = con.execute(query_mestra).df()
@@ -289,13 +370,13 @@ elif pagina_selecionada == "Série Histórica da Produção":
     
     with aba_p:
         st.subheader("Histórico de Publicações em Periódicos")
-        query_p = f"SELECT CAST(ano_pub AS VARCHAR) AS Ano, COUNT(*) AS Quantidade FROM tb_artigo_periodico WHERE ano_pub IS NOT NULL{sql_fonte()} GROUP BY ano_pub ORDER BY ano_pub"
+        query_p = f"SELECT CAST(ano_pub AS VARCHAR) AS Ano, COUNT(*) AS Quantidade FROM tb_artigo_periodico WHERE ano_pub IS NOT NULL{sql_fonte()}{sql_ingresso('tb_artigo_periodico', 'ano_pub')} GROUP BY ano_pub ORDER BY ano_pub"
         df_p = con.execute(query_p).df()
         if not df_p.empty: st.bar_chart(data=df_p, x='Ano', y='Quantidade', use_container_width=True)
-        
+
     with aba_c:
         st.subheader("Histórico de Publicações em Conferências")
-        query_c = f"SELECT CAST(ano AS VARCHAR) AS Ano, COUNT(*) AS Quantidade FROM tb_artigo_conferencia WHERE ano IS NOT NULL{sql_fonte()} GROUP BY ano ORDER BY ano"
+        query_c = f"SELECT CAST(ano AS VARCHAR) AS Ano, COUNT(*) AS Quantidade FROM tb_artigo_conferencia WHERE ano IS NOT NULL{sql_fonte()}{sql_ingresso('tb_artigo_conferencia', 'ano')} GROUP BY ano ORDER BY ano"
         df_c = con.execute(query_c).df()
         if not df_c.empty: st.bar_chart(data=df_c, x='Ano', y='Quantidade', use_container_width=True)
 
@@ -350,14 +431,10 @@ elif pagina_selecionada == "Repositório Geral de Artigos":
 elif pagina_selecionada == "Avaliação Quadrienal Geral (A1-A8)":
     st.title("Índice de Produtividade Intelectual Geral (A1-A8)")
     st.markdown("Modelo quantitativo abrangente baseado na ponderação integral da produção bibliográfica.")
-    
+
     st.subheader("Configuração da Janela Temporal")
-    col_f1, col_f2 = st.columns(2)
-    with col_f1:
-        ano_inicio = st.number_input("Ano de Início", min_value=ANO_MIN, max_value=ANO_MAX, key="filtro_ano_inicio")
-    with col_f2:
-        ano_fim = st.number_input("Ano de Fim", min_value=ANO_MIN, max_value=ANO_MAX, key="filtro_ano_fim")
-    
+    ano_inicio, ano_fim = renderizar_filtro_periodo(ANO_MIN, ANO_MAX, "quadrienal_geral")
+
     st.markdown(f"**Período sob análise regulamentar: {ano_inicio} a {ano_fim}**")
     
     aba_p, aba_c = st.tabs(["Indicadores de Periódicos", "Indicadores de Conferências"])
@@ -379,7 +456,7 @@ elif pagina_selecionada == "Avaliação Quadrienal Geral (A1-A8)":
                         WHEN maior_percentil >= 37.5 THEN 0.500 WHEN maior_percentil >= 25.0 THEN 0.375
                         WHEN maior_percentil >= 12.5 THEN 0.250 ELSE 0.125 
                     END AS peso_base
-                FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ? AND ano_pub >= COALESCE((SELECT data_ingresso FROM tb_professores pr WHERE pr.id_lattes = tb_artigo_periodico.id_lattes), ano_pub){sql_fonte()}
+                FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ?{sql_fonte()}{sql_ingresso('tb_artigo_periodico', 'ano_pub')}
             ),
             cte_pontuacao AS (
                 SELECT id_lattes, estrato, peso_base AS pontos_artigo FROM cte_classificacao
@@ -411,7 +488,7 @@ elif pagina_selecionada == "Avaliação Quadrienal Geral (A1-A8)":
                         WHEN estrato = 'A5' THEN 0.500 WHEN estrato = 'A6' THEN 0.375
                         WHEN estrato = 'A7' THEN 0.250 ELSE 0.125 
                     END AS pontos_artigo
-                FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ? AND ano >= COALESCE((SELECT data_ingresso FROM tb_professores pr WHERE pr.id_lattes = tb_artigo_conferencia.id_lattes), ano){sql_fonte()}
+                FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ?{sql_fonte()}{sql_ingresso('tb_artigo_conferencia', 'ano')}
             )
             SELECT p.nome_completo AS "Pesquisador",
                 COUNT(CASE WHEN a.estrato = 'A1' THEN 1 END) AS A1, COUNT(CASE WHEN a.estrato = 'A2' THEN 1 END) AS A2,
@@ -435,14 +512,10 @@ elif pagina_selecionada == "Avaliação Quadrienal Geral (A1-A8)":
 elif pagina_selecionada == "Avaliação Quadrienal Restrita (A1-A4)":
     st.title("Índice de Produtividade Intelectual Restrito (A1-A4)")
     st.markdown("Critério normativo estrito limitando a contagem de pontos aos quatro estratos superiores da CAPES/Scopus.")
-    
+
     st.subheader("Configuração da Janela Temporal")
-    col_f1, col_f2 = st.columns(2)
-    with col_f1:
-        ano_inicio = st.number_input("Ano de Início", min_value=ANO_MIN, max_value=ANO_MAX, key="filtro_ano_inicio")
-    with col_f2:
-        ano_fim = st.number_input("Ano de Fim", min_value=ANO_MIN, max_value=ANO_MAX, key="filtro_ano_fim")
-        
+    ano_inicio, ano_fim = renderizar_filtro_periodo(ANO_MIN, ANO_MAX, "quadrienal_restrita")
+
     st.markdown(f"**Período sob análise regulamentar estrita: {ano_inicio} a {ano_fim}**")
     
     aba_p, aba_c = st.tabs(["Indicadores Restritos de Periódicos", "Indicadores Restritos de Conferências"])
@@ -462,7 +535,7 @@ elif pagina_selecionada == "Avaliação Quadrienal Restrita (A1-A4)":
                         WHEN maior_percentil >= 62.5 THEN 0.750 WHEN maior_percentil >= 50.0 THEN 0.625
                         ELSE 0.000 
                     END AS peso_base
-                FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ? AND ano_pub >= COALESCE((SELECT data_ingresso FROM tb_professores pr WHERE pr.id_lattes = tb_artigo_periodico.id_lattes), ano_pub){sql_fonte()}
+                FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ?{sql_fonte()}{sql_ingresso('tb_artigo_periodico', 'ano_pub')}
             ),
             cte_pontuacao AS (
                 SELECT id_lattes, estrato, peso_base AS pontos_artigo FROM cte_classificacao WHERE estrato IN ('A1', 'A2', 'A3', 'A4')
@@ -491,7 +564,7 @@ elif pagina_selecionada == "Avaliação Quadrienal Restrita (A1-A4)":
                         WHEN estrato = 'A3' THEN 0.750 WHEN estrato = 'A4' THEN 0.625
                         ELSE 0.000 
                     END AS pontos_artigo
-                FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ? AND estrato IN ('A1', 'A2', 'A3', 'A4') AND ano >= COALESCE((SELECT data_ingresso FROM tb_professores pr WHERE pr.id_lattes = tb_artigo_conferencia.id_lattes), ano){sql_fonte()}
+                FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ? AND estrato IN ('A1', 'A2', 'A3', 'A4'){sql_fonte()}{sql_ingresso('tb_artigo_conferencia', 'ano')}
             )
             SELECT p.nome_completo AS "Pesquisador",
                 COUNT(CASE WHEN a.estrato = 'A1' THEN 1 END) AS A1, COUNT(CASE WHEN a.estrato = 'A2' THEN 1 END) AS A2,
@@ -513,14 +586,10 @@ elif pagina_selecionada == "Avaliação Quadrienal Restrita (A1-A4)":
 elif pagina_selecionada == "Relatório de Credenciamento Consolidado":
     st.title("Relatório de Credenciamento Consolidado")
     st.markdown("Módulo unificado para apuração final do score de credenciamento acadêmico, somando as pontuações obtidas nas categorias de Periódicos e Conferências.")
-    
+
     st.subheader("Configuração da Janela de Consolidação")
-    col_f1, col_f2 = st.columns(2)
-    with col_f1:
-        ano_inicio = st.number_input("Ano de Início", min_value=ANO_MIN, max_value=ANO_MAX, key="filtro_ano_inicio")
-    with col_f2:
-        ano_fim = st.number_input("Ano de Fim", min_value=ANO_MIN, max_value=ANO_MAX, key="filtro_ano_fim")
-        
+    ano_inicio, ano_fim = renderizar_filtro_periodo(ANO_MIN, ANO_MAX, "credenciamento")
+
     st.markdown(f"**Janela regulamentar consolidada activa: {ano_inicio} a {ano_fim}**")
     
     filtro_tipo_avaliacao = st.radio("Selecione o Critério de Apuração institucional:", ["Pontuação Integral (A1-A8)", "Pontuação Restrita (A1-A4)"], horizontal=True)
@@ -537,14 +606,14 @@ elif pagina_selecionada == "Relatório de Credenciamento Consolidado":
                         ELSE 
                             (CASE WHEN maior_percentil >= 87.5 THEN 1.000 WHEN maior_percentil >= 75.0 THEN 0.875 WHEN maior_percentil >= 62.5 THEN 0.750 WHEN maior_percentil >= 50.0 THEN 0.625 WHEN maior_percentil >= 37.5 THEN 0.500 WHEN maior_percentil >= 25.0 THEN 0.375 WHEN maior_percentil >= 12.5 THEN 0.250 ELSE 0.125 END)
                     END * CASE WHEN coautoria_aluno = TRUE THEN 1.5 ELSE 1.0 END) AS pontos_p
-                FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ? AND ano_pub >= COALESCE((SELECT data_ingresso FROM tb_professores pr WHERE pr.id_lattes = tb_artigo_periodico.id_lattes), ano_pub){sql_fonte()}
+                FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ?{sql_fonte()}{sql_ingresso('tb_artigo_periodico', 'ano_pub')}
                 GROUP BY id_lattes
             ),
             cte_conferencias AS (
                 SELECT id_lattes,
                     COUNT(*) AS total_c,
                     SUM(CASE WHEN estrato = 'A1' THEN 1.000 WHEN estrato = 'A2' THEN 0.875 WHEN estrato = 'A3' THEN 0.750 WHEN estrato = 'A4' THEN 0.625 WHEN estrato = 'A5' THEN 0.500 WHEN estrato = 'A6' THEN 0.375 WHEN estrato = 'A7' THEN 0.250 ELSE 0.125 END * CASE WHEN coautoria_aluno = TRUE THEN 1.5 ELSE 1.0 END) AS pontos_c
-                FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ? AND ano >= COALESCE((SELECT data_ingresso FROM tb_professores pr WHERE pr.id_lattes = tb_artigo_conferencia.id_lattes), ano){sql_fonte()}
+                FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ?{sql_fonte()}{sql_ingresso('tb_artigo_conferencia', 'ano')}
                 GROUP BY id_lattes
             )
             SELECT 
@@ -570,7 +639,7 @@ elif pagina_selecionada == "Relatório de Credenciamento Consolidado":
                         WHEN maior_percentil >= 62.5 THEN 0.750 WHEN maior_percentil >= 50.0 THEN 0.625
                         ELSE 0.000 
                     END AS peso_base
-                FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ? AND maior_percentil >= 50.0 AND ano_pub >= COALESCE((SELECT data_ingresso FROM tb_professores pr WHERE pr.id_lattes = tb_artigo_periodico.id_lattes), ano_pub){sql_fonte()}
+                FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ? AND maior_percentil >= 50.0{sql_fonte()}{sql_ingresso('tb_artigo_periodico', 'ano_pub')}
             ),
             cte_p_agg AS (
                 SELECT id_lattes,
@@ -587,7 +656,7 @@ elif pagina_selecionada == "Relatório de Credenciamento Consolidado":
                         ELSE 0.000 
                     END AS peso_base,
                     coautoria_aluno
-                FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ? AND estrato IN ('A1', 'A2', 'A3', 'A4') AND ano >= COALESCE((SELECT data_ingresso FROM tb_professores pr WHERE pr.id_lattes = tb_artigo_conferencia.id_lattes), ano){sql_fonte()}
+                FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ? AND estrato IN ('A1', 'A2', 'A3', 'A4'){sql_fonte()}{sql_ingresso('tb_artigo_conferencia', 'ano')}
             ),
             cte_c_agg AS (
                 SELECT id_lattes,
@@ -646,20 +715,19 @@ elif pagina_selecionada == "Panorama de Orientações Acadêmicas":
     
     query_anos = "SELECT MIN(ano_inicio), MAX(COALESCE(ano_conclusao, 2026)) FROM tb_orientacoes"
     resultado_anos = con.execute(query_anos).fetchone()
-    
+
     ano_min_ori = int(resultado_anos[0]) if resultado_anos and resultado_anos[0] else 2000
     ano_max_ori = int(resultado_anos[1]) if resultado_anos and resultado_anos[1] else 2026
-    
+
     st.subheader("Configuração da Janela Temporal")
-    col_f1, col_f2 = st.columns(2)
-    with col_f1:
-        ano_inicio_filtro = st.number_input("Ano de Início", min_value=ano_min_ori, max_value=ano_max_ori, value=max(ano_min_ori, ano_max_ori-4))
-    with col_f2:
-        ano_fim_filtro = st.number_input("Ano de Fim", min_value=ano_min_ori, max_value=ano_max_ori, value=ano_max_ori)
-    
+    ano_inicio_filtro, ano_fim_filtro = renderizar_filtro_periodo(ano_min_ori, ano_max_ori, "orientacoes")
+
     st.markdown(f"**Analisando vínculos ativos em qualquer momento entre {ano_inicio_filtro} e {ano_fim_filtro}**")
     
-    condicao_intersecao = "ano_inicio <= ? AND COALESCE(ano_conclusao, 2026) >= ?"
+    condicao_intersecao = (
+        "ano_inicio <= ? AND COALESCE(ano_conclusao, 2026) >= ?"
+        f"{sql_ingresso('tb_orientacoes', 'ano_inicio')}"
+    )
     parametros_filtro = [ano_fim_filtro, ano_inicio_filtro]
     
     query_kpis = f"""
@@ -767,6 +835,8 @@ elif pagina_selecionada == "Geração de Relatórios":
 
     RELATORIOS_DISPONIVEIS = [
         "Papers faltantes na base do Lattes (periódicos e conferências)",
+        "Alunos do programa faltando no Lattes do orientador",
+        "Títulos dos alunos no Lattes de cada professor",
     ]
     relatorio_selecionado = st.selectbox("Selecione o relatório:", RELATORIOS_DISPONIVEIS)
     st.divider()
@@ -948,6 +1018,307 @@ localize cada publicação na base indicada na coluna "Rastreado em".</footer>
         if not algum_exibido:
             st.success("Nenhum docente possui papers faltantes no Lattes nesta base.")
 
+    elif relatorio_selecionado == "Alunos do programa faltando no Lattes do orientador":
+        st.markdown(
+            "Lista, para cada orientador, os alunos do programa (registro administrativo em "
+            "`dados_brutos/lista_alunos_pesc.xlsx`) que **ainda não constam no currículo Lattes "
+            "dele** como orientando — para que o orientador possa incluí-los. O casamento entre a "
+            "planilha administrativa, `tb_orientacoes` e o que o próprio aluno declara no Lattes "
+            "dele é feito pelo notebook `analyse_organizado.ipynb` (Seção 14) e persistido em "
+            "`tb_situacao_orientandos`; rode-o novamente para atualizar este relatório.\n\n"
+            "Cada pendência traz um **nível de confiança**, cruzando o Lattes do próprio aluno "
+            "(Seção 11.2.2) com o do orientador:\n"
+            "- **Divergente** — o aluno declarou, para aquele nível, um orientador que a planilha "
+            "nem lista como (co)orientador dele — revisar antes de mais nada;\n"
+            "- **Confirmado** / **Confirmado parcialmente** — o aluno já declara esse orientador no "
+            "próprio Lattes (título/ano ao lado) — pendência de fácil resolução, é só incluir;\n"
+            "- **Sem confirmação** — só a planilha administrativa registra o vínculo."
+        )
+
+        tabela_situacao_ok = True
+        try:
+            con.execute("SELECT 1 FROM tb_situacao_orientandos LIMIT 1")
+        except Exception:
+            tabela_situacao_ok = False
+
+        colunas_confianca_ok = True
+        if tabela_situacao_ok:
+            try:
+                con.execute(
+                    "SELECT nivel_confianca, titulo_trabalho_aluno, ano_obtencao_aluno "
+                    "FROM tb_situacao_orientandos LIMIT 1"
+                )
+            except Exception:
+                colunas_confianca_ok = False
+
+        if not tabela_situacao_ok:
+            st.warning(
+                "A tabela `tb_situacao_orientandos` não existe nesta base ainda. Rode a Seção 14 "
+                "de `analyse_organizado.ipynb` para gerá-la antes de usar este relatório."
+            )
+        elif not colunas_confianca_ok:
+            st.warning(
+                "A tabela `tb_situacao_orientandos` existe, mas ainda não tem as colunas de "
+                "confiança (`nivel_confianca`, `titulo_trabalho_aluno`, `ano_obtencao_aluno`). "
+                "Rode novamente a Seção 14 de `analyse_organizado.ipynb` para adicioná-las "
+                "(migração aditiva — não apaga nada) antes de usar este relatório."
+            )
+        else:
+            _ROTULOS_CONFIANCA = {
+                "confirmado": "Confirmado (Lattes do orientador + do aluno)",
+                "confirmado_parcial": "Confirmado parcialmente (1 das 2 fontes)",
+                "sem_confirmacao": "Sem confirmação",
+                "divergente": "Divergente — revisar",
+            }
+
+            def _fmt_confianca(valor):
+                return _ROTULOS_CONFIANCA.get(valor, _fmt_txt(valor))
+
+            def _dados_alunos_faltantes(id_lattes):
+                return con.execute(
+                    """
+                    SELECT nome_aluno, nivel, ano_ingresso, nivel_confianca,
+                        titulo_trabalho_aluno, ano_obtencao_aluno
+                    FROM tb_situacao_orientandos
+                    WHERE id_lattes_professor = ? AND encontrado_no_lattes = FALSE
+                    ORDER BY
+                        CASE nivel_confianca
+                            WHEN 'divergente' THEN 0
+                            WHEN 'confirmado' THEN 1
+                            WHEN 'confirmado_parcial' THEN 2
+                            ELSE 3
+                        END,
+                        ano_ingresso DESC NULLS LAST, nome_aluno
+                    """, [id_lattes]).df()
+
+            def _html_alunos_faltantes(nome, id_lattes, df_alunos_falt):
+                gerado_em = datetime.now().strftime("%d/%m/%Y %H:%M")
+                col_alunos = [
+                    ("Aluno", "nome_aluno", _fmt_txt), ("Nível", "nivel", _fmt_txt),
+                    ("Ano de Ingresso", "ano_ingresso", _fmt_ano),
+                    ("Confiança", "nivel_confianca", _fmt_confianca),
+                    ("Título (Lattes do aluno)", "titulo_trabalho_aluno", _fmt_txt),
+                    ("Ano de Obtenção (Lattes do aluno)", "ano_obtencao_aluno", _fmt_ano),
+                ]
+
+                corpo = (
+                    "<p class='vazio'>Nenhum aluno faltante encontrado.</p>"
+                    if df_alunos_falt.empty else _tabela_html(df_alunos_falt, col_alunos)
+                )
+
+                return f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Alunos faltantes no Lattes — {html_lib.escape(str(nome))}</title>
+<style>{_CSS_RELATORIO}</style></head>
+<body>
+<header>
+  <h1>Alunos do programa faltando no Lattes do orientador</h1>
+  <p class="sub">Alunos cadastrados no programa (planilha administrativa) e ausentes do currículo Lattes deste orientador.
+  A coluna "Confiança" cruza o que o próprio aluno declara no Lattes dele -- "Divergente" merece revisão antes de mais nada; "Confirmado"/"Confirmado parcialmente" já tem título/ano prontos ao lado, só falta incluir no Lattes.</p>
+  <table class="meta">
+    <tr><td><strong>Orientador</strong></td><td>{html_lib.escape(str(nome))}</td></tr>
+    <tr><td><strong>ID Lattes</strong></td><td>{html_lib.escape(str(id_lattes))}</td></tr>
+    <tr><td><strong>Gerado em</strong></td><td>{gerado_em}</td></tr>
+  </table>
+</header>
+<h2>Alunos <span class="cont">({len(df_alunos_falt)})</span></h2>
+{corpo}
+<footer>Sistema de Avaliação de Produtividade Acadêmica — para resolver estas pendências,
+inclua cada aluno na seção de Orientações do seu currículo Lattes.</footer>
+<button class="noprint" onclick="window.print()">Imprimir / Salvar como PDF</button>
+</body></html>"""
+
+            df_profs_alunos = con.execute(
+                """
+                SELECT p.id_lattes, p.nome_completo,
+                    (SELECT COUNT(*) FROM tb_situacao_orientandos s
+                       WHERE s.id_lattes_professor = p.id_lattes
+                         AND s.encontrado_no_lattes = FALSE) AS falt_alunos,
+                    (SELECT COUNT(*) FROM tb_situacao_orientandos s
+                       WHERE s.id_lattes_professor = p.id_lattes
+                         AND s.encontrado_no_lattes = FALSE
+                         AND s.nivel_confianca = 'divergente') AS div_alunos
+                FROM tb_professores p
+                ORDER BY p.nome_completo
+                """
+            ).df()
+
+            mostrar_todos_alunos = st.checkbox(
+                "Mostrar também orientadores sem pendências", value=False, key="mostrar_todos_alunos"
+            )
+
+            st.markdown("#### Orientadores")
+            h1, h2, h3, h4 = st.columns([5, 1, 1, 2])
+            h1.markdown("**Orientador**")
+            h2.markdown("**Alunos Faltantes**")
+            h3.markdown("**Divergentes**")
+            h4.markdown("**Relatório**")
+
+            algum_exibido_alunos = False
+            for _, prof in df_profs_alunos.iterrows():
+                falt_alunos = int(prof["falt_alunos"])
+                div_alunos = int(prof["div_alunos"])
+                if falt_alunos == 0 and not mostrar_todos_alunos:
+                    continue
+                algum_exibido_alunos = True
+                c1, c2, c3, c4 = st.columns([5, 1, 1, 2])
+                c1.write(prof["nome_completo"])
+                c2.write(falt_alunos)
+                c3.write(div_alunos if div_alunos else "—")
+                if falt_alunos == 0:
+                    c4.caption("Sem pendências")
+                else:
+                    df_alunos_falt = _dados_alunos_faltantes(prof["id_lattes"])
+                    doc_html = _html_alunos_faltantes(prof["nome_completo"], prof["id_lattes"], df_alunos_falt)
+                    slug = re.sub(r"[^A-Za-z0-9]+", "_", str(prof["nome_completo"])).strip("_")
+                    c4.download_button(
+                        "Baixar HTML",
+                        data=doc_html.encode("utf-8"),
+                        file_name=f"alunos_faltantes_lattes_{slug}.html",
+                        mime="text/html",
+                        key=f"dl_falt_alunos_{prof['id_lattes']}",
+                    )
+
+            if not algum_exibido_alunos:
+                st.success("Nenhum orientador possui alunos faltantes no Lattes nesta base.")
+
+    elif relatorio_selecionado == "Títulos dos alunos no Lattes de cada professor":
+        st.markdown(
+            "Lista, para cada professor, o **histórico completo de títulos** (Mestrado/Doutorado, "
+            "concluído ou em andamento) de todo aluno que aparece como orientando no seu currículo "
+            "Lattes — inclusive títulos obtidos **com outros orientadores**, para dar visibilidade "
+            "à trajetória completa do aluno no programa. Fonte: tabela `tb_aluno_titulos`, gerada "
+            "pelo notebook `analyse_organizado.ipynb` (Seção 11.2.1) a partir do cruzamento entre "
+            "`tb_orientacoes` (de todos os professores) e o CSV de defesas do PESC; rode-o novamente "
+            "para atualizar este relatório."
+        )
+
+        tabela_titulos_ok = True
+        try:
+            con.execute("SELECT 1 FROM tb_aluno_titulos LIMIT 1")
+        except Exception:
+            tabela_titulos_ok = False
+
+        if not tabela_titulos_ok:
+            st.warning(
+                "A tabela `tb_aluno_titulos` não existe nesta base ainda. Rode a Seção 11.2.1 de "
+                "`analyse_organizado.ipynb` para gerá-la antes de usar este relatório."
+            )
+        else:
+            def _fmt_bool_sim_nao(valor):
+                try:
+                    if pd.isna(valor):
+                        return "—"
+                except (TypeError, ValueError):
+                    pass
+                return "Sim" if bool(valor) else "Não"
+
+            def _dados_titulos_professor(id_lattes_professor):
+                return con.execute(
+                    """
+                    WITH alunos_do_professor AS (
+                        SELECT DISTINCT id_lattes_aluno
+                        FROM tb_aluno_titulos
+                        WHERE id_lattes_professor = ? AND fonte = 'lattes_orientacoes'
+                    )
+                    SELECT
+                        a.nome_completo AS aluno,
+                        t.nivel,
+                        t.status,
+                        t.ano,
+                        COALESCE(
+                            p.nome_completo,
+                            CASE WHEN t.fonte = 'csv_defesas' THEN 'CSV de defesas (sem orientador)' END
+                        ) AS orientador,
+                        (t.id_lattes_professor = ?) AS deste_orientador
+                    FROM tb_aluno_titulos t
+                    JOIN tb_alunos a ON a.id_lattes = t.id_lattes_aluno
+                    LEFT JOIN tb_professores p ON p.id_lattes = t.id_lattes_professor
+                    WHERE t.id_lattes_aluno IN (SELECT id_lattes_aluno FROM alunos_do_professor)
+                    ORDER BY a.nome_completo, t.nivel, t.ano
+                    """, [id_lattes_professor, id_lattes_professor]).df()
+
+            def _html_titulos_professor(nome, id_lattes_professor, df_titulos):
+                gerado_em = datetime.now().strftime("%d/%m/%Y %H:%M")
+                col_titulos = [
+                    ("Aluno", "aluno", _fmt_txt), ("Nível", "nivel", _fmt_txt),
+                    ("Status", "status", _fmt_txt), ("Ano", "ano", _fmt_ano),
+                    ("Orientador", "orientador", _fmt_txt),
+                    ("Deste orientador?", "deste_orientador", _fmt_bool_sim_nao),
+                ]
+
+                corpo = (
+                    "<p class='vazio'>Nenhum aluno com título registrado.</p>"
+                    if df_titulos.empty else _tabela_html(df_titulos, col_titulos)
+                )
+                total_alunos_doc = df_titulos["aluno"].nunique() if not df_titulos.empty else 0
+
+                return f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Títulos dos alunos no Lattes — {html_lib.escape(str(nome))}</title>
+<style>{_CSS_RELATORIO}</style></head>
+<body>
+<header>
+  <h1>Títulos dos alunos no Lattes de cada professor</h1>
+  <p class="sub">Histórico completo de títulos (nesta e em outras orientações) dos alunos que constam no currículo Lattes deste orientador.</p>
+  <table class="meta">
+    <tr><td><strong>Orientador</strong></td><td>{html_lib.escape(str(nome))}</td></tr>
+    <tr><td><strong>ID Lattes</strong></td><td>{html_lib.escape(str(id_lattes_professor))}</td></tr>
+    <tr><td><strong>Gerado em</strong></td><td>{gerado_em}</td></tr>
+  </table>
+</header>
+<h2>Alunos <span class="cont">({total_alunos_doc})</span></h2>
+{corpo}
+<footer>Sistema de Avaliação de Produtividade Acadêmica — "Deste orientador" indica que o vínculo consta no currículo Lattes deste professor; as demais linhas mostram outros títulos do mesmo aluno, obtidos com outro orientador ou registrados apenas na CSV de defesas.</footer>
+<button class="noprint" onclick="window.print()">Imprimir / Salvar como PDF</button>
+</body></html>"""
+
+            df_profs_titulos = con.execute(
+                """
+                SELECT p.id_lattes, p.nome_completo,
+                    (SELECT COUNT(DISTINCT t.id_lattes_aluno) FROM tb_aluno_titulos t
+                       WHERE t.id_lattes_professor = p.id_lattes AND t.fonte = 'lattes_orientacoes') AS total_alunos
+                FROM tb_professores p
+                ORDER BY p.nome_completo
+                """
+            ).df()
+
+            mostrar_todos_titulos = st.checkbox(
+                "Mostrar também orientadores sem alunos no Lattes", value=False, key="mostrar_todos_titulos"
+            )
+
+            st.markdown("#### Orientadores")
+            h1, h2, h3 = st.columns([5, 1, 2])
+            h1.markdown("**Orientador**")
+            h2.markdown("**Alunos no Lattes**")
+            h3.markdown("**Relatório**")
+
+            algum_exibido_titulos = False
+            for _, prof in df_profs_titulos.iterrows():
+                total_alunos = int(prof["total_alunos"])
+                if total_alunos == 0 and not mostrar_todos_titulos:
+                    continue
+                algum_exibido_titulos = True
+                c1, c2, c3 = st.columns([5, 1, 2])
+                c1.write(prof["nome_completo"])
+                c2.write(total_alunos)
+                if total_alunos == 0:
+                    c3.caption("Sem alunos no Lattes")
+                else:
+                    df_titulos_prof = _dados_titulos_professor(prof["id_lattes"])
+                    doc_html = _html_titulos_professor(prof["nome_completo"], prof["id_lattes"], df_titulos_prof)
+                    slug = re.sub(r"[^A-Za-z0-9]+", "_", str(prof["nome_completo"])).strip("_")
+                    c3.download_button(
+                        "Baixar HTML",
+                        data=doc_html.encode("utf-8"),
+                        file_name=f"titulos_alunos_{slug}.html",
+                        mime="text/html",
+                        key=f"dl_titulos_{prof['id_lattes']}",
+                    )
+
+            if not algum_exibido_titulos:
+                st.success("Nenhum orientador possui alunos no Lattes nesta base.")
+
 # ------------------------------------------
 # PÁGINA 9: COMPARATIVO ENTRE BASES
 # ------------------------------------------
@@ -972,14 +1343,16 @@ elif pagina_selecionada == "Comparativo entre Bases":
         # reaproveitar exatamente a mesma lógica das demais páginas
         # em qualquer uma das duas bases (A ou B).
         # --------------------------------------------------
-        def comp_indicadores_gerais(conexao, ano_ini, ano_fim_, frag=""):
+        def comp_indicadores_gerais(conexao, ano_ini, ano_fim_, frag="", aplicar_ingresso=True):
             res_docentes = conexao.execute("SELECT COUNT(id_lattes) FROM tb_professores").fetchone()
             res_p = conexao.execute(
-                f"SELECT COUNT(id_artigo_periodico) FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ?{frag}",
+                f"SELECT COUNT(id_artigo_periodico) FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ?{frag}"
+                f"{sql_ingresso('tb_artigo_periodico', 'ano_pub', aplicar=aplicar_ingresso)}",
                 [ano_ini, ano_fim_]
             ).fetchone()
             res_c = conexao.execute(
-                f"SELECT COUNT(id_artigo_conferencia) FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ?{frag}",
+                f"SELECT COUNT(id_artigo_conferencia) FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ?{frag}"
+                f"{sql_ingresso('tb_artigo_conferencia', 'ano', aplicar=aplicar_ingresso)}",
                 [ano_ini, ano_fim_]
             ).fetchone()
             total_docentes = res_docentes[0] if res_docentes else 0
@@ -987,43 +1360,53 @@ elif pagina_selecionada == "Comparativo entre Bases":
             total_c = res_c[0] if res_c else 0
             return total_docentes, total_p, total_c
 
-        def comp_serie_historica_periodico(conexao, frag=""):
-            q = f"SELECT CAST(ano_pub AS VARCHAR) AS Ano, COUNT(*) AS Quantidade FROM tb_artigo_periodico WHERE ano_pub IS NOT NULL{frag} GROUP BY ano_pub ORDER BY ano_pub"
+        def comp_serie_historica_periodico(conexao, frag="", aplicar_ingresso=True):
+            q = (
+                f"SELECT CAST(ano_pub AS VARCHAR) AS Ano, COUNT(*) AS Quantidade FROM tb_artigo_periodico "
+                f"WHERE ano_pub IS NOT NULL{frag}{sql_ingresso('tb_artigo_periodico', 'ano_pub', aplicar=aplicar_ingresso)} "
+                f"GROUP BY ano_pub ORDER BY ano_pub"
+            )
             return conexao.execute(q).df()
 
-        def comp_serie_historica_conferencia(conexao, frag=""):
-            q = f"SELECT CAST(ano AS VARCHAR) AS Ano, COUNT(*) AS Quantidade FROM tb_artigo_conferencia WHERE ano IS NOT NULL{frag} GROUP BY ano ORDER BY ano"
+        def comp_serie_historica_conferencia(conexao, frag="", aplicar_ingresso=True):
+            q = (
+                f"SELECT CAST(ano AS VARCHAR) AS Ano, COUNT(*) AS Quantidade FROM tb_artigo_conferencia "
+                f"WHERE ano IS NOT NULL{frag}{sql_ingresso('tb_artigo_conferencia', 'ano', aplicar=aplicar_ingresso)} "
+                f"GROUP BY ano ORDER BY ano"
+            )
             return conexao.execute(q).df()
 
-        def comp_ranking_docente(conexao, ano_ini, ano_fim_, frag_p="", frag_c=""):
+        def comp_ranking_docente(conexao, ano_ini, ano_fim_, frag_p="", frag_c="", aplicar_ingresso=True):
             q = f"""
-                SELECT 
-                    p.nome_completo AS Docente, 
-                    COUNT(DISTINCT a_p.id_artigo_periodico) AS Periodicos, 
+                SELECT
+                    p.nome_completo AS Docente,
+                    COUNT(DISTINCT a_p.id_artigo_periodico) AS Periodicos,
                     COUNT(DISTINCT a_c.id_artigo_conferencia) AS Conferencias,
                     (COUNT(DISTINCT a_p.id_artigo_periodico) + COUNT(DISTINCT a_c.id_artigo_conferencia)) AS Total
                 FROM tb_professores p
-                LEFT JOIN tb_artigo_periodico a_p ON p.id_lattes = a_p.id_lattes AND a_p.ano_pub BETWEEN {ano_ini} AND {ano_fim_}{frag_p}
-                LEFT JOIN tb_artigo_conferencia a_c ON p.id_lattes = a_c.id_lattes AND a_c.ano BETWEEN {ano_ini} AND {ano_fim_}{frag_c}
-                GROUP BY p.nome_completo 
+                LEFT JOIN tb_artigo_periodico a_p ON p.id_lattes = a_p.id_lattes AND a_p.ano_pub BETWEEN {ano_ini} AND {ano_fim_}{frag_p}{sql_ingresso('a_p', 'ano_pub', aplicar=aplicar_ingresso)}
+                LEFT JOIN tb_artigo_conferencia a_c ON p.id_lattes = a_c.id_lattes AND a_c.ano BETWEEN {ano_ini} AND {ano_fim_}{frag_c}{sql_ingresso('a_c', 'ano', aplicar=aplicar_ingresso)}
+                GROUP BY p.nome_completo
                 ORDER BY Total DESC
             """
             return conexao.execute(q).df()
 
-        def comp_indice_quadrienal(conexao, ano_ini, ano_fim_, restrito, frag_p="", frag_c=""):
+        def comp_indice_quadrienal(conexao, ano_ini, ano_fim_, restrito, frag_p="", frag_c="", aplicar_ingresso=True):
             """Replica a lógica das páginas de Avaliação Quadrienal (Geral ou Restrita A1-A4),
             retornando periódicos e conferências consolidados em um único score por docente."""
+            ing_p = sql_ingresso('tb_artigo_periodico', 'ano_pub', aplicar=aplicar_ingresso)
+            ing_c = sql_ingresso('tb_artigo_conferencia', 'ano', aplicar=aplicar_ingresso)
             if not restrito:
                 query_p = f"""
                     WITH cte_classificacao AS (
                         SELECT id_lattes,
-                            CASE 
+                            CASE
                                 WHEN maior_percentil >= 87.5 THEN 1.000 WHEN maior_percentil >= 75.0 THEN 0.875
                                 WHEN maior_percentil >= 62.5 THEN 0.750 WHEN maior_percentil >= 50.0 THEN 0.625
                                 WHEN maior_percentil >= 37.5 THEN 0.500 WHEN maior_percentil >= 25.0 THEN 0.375
-                                WHEN maior_percentil >= 12.5 THEN 0.250 ELSE 0.125 
+                                WHEN maior_percentil >= 12.5 THEN 0.250 ELSE 0.125
                             END AS pontos_artigo
-                        FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ?{frag_p}
+                        FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ?{frag_p}{ing_p}
                     )
                     SELECT id_lattes, COUNT(*) AS total_p, COALESCE(ROUND(SUM(pontos_artigo), 3), 0) AS score_p
                     FROM cte_classificacao GROUP BY id_lattes
@@ -1031,13 +1414,13 @@ elif pagina_selecionada == "Comparativo entre Bases":
                 query_c = f"""
                     WITH cte_classificacao AS (
                         SELECT id_lattes,
-                            CASE 
+                            CASE
                                 WHEN estrato = 'A1' THEN 1.000 WHEN estrato = 'A2' THEN 0.875
                                 WHEN estrato = 'A3' THEN 0.750 WHEN estrato = 'A4' THEN 0.625
                                 WHEN estrato = 'A5' THEN 0.500 WHEN estrato = 'A6' THEN 0.375
-                                WHEN estrato = 'A7' THEN 0.250 ELSE 0.125 
+                                WHEN estrato = 'A7' THEN 0.250 ELSE 0.125
                             END AS pontos_artigo
-                        FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ?{frag_c}
+                        FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ?{frag_c}{ing_c}
                     )
                     SELECT id_lattes, COUNT(*) AS total_c, COALESCE(ROUND(SUM(pontos_artigo), 3), 0) AS score_c
                     FROM cte_classificacao GROUP BY id_lattes
@@ -1046,12 +1429,12 @@ elif pagina_selecionada == "Comparativo entre Bases":
                 query_p = f"""
                     WITH cte_classificacao AS (
                         SELECT id_lattes,
-                            CASE 
+                            CASE
                                 WHEN maior_percentil >= 87.5 THEN 1.000 WHEN maior_percentil >= 75.0 THEN 0.875
                                 WHEN maior_percentil >= 62.5 THEN 0.750 WHEN maior_percentil >= 50.0 THEN 0.625
-                                ELSE 0.000 
+                                ELSE 0.000
                             END AS pontos_artigo
-                        FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ? AND maior_percentil >= 50.0{frag_p}
+                        FROM tb_artigo_periodico WHERE ano_pub BETWEEN ? AND ? AND maior_percentil >= 50.0{frag_p}{ing_p}
                     )
                     SELECT id_lattes, COUNT(*) AS total_p, COALESCE(ROUND(SUM(pontos_artigo), 3), 0) AS score_p
                     FROM cte_classificacao GROUP BY id_lattes
@@ -1059,12 +1442,12 @@ elif pagina_selecionada == "Comparativo entre Bases":
                 query_c = f"""
                     WITH cte_classificacao AS (
                         SELECT id_lattes,
-                            CASE 
+                            CASE
                                 WHEN estrato = 'A1' THEN 1.000 WHEN estrato = 'A2' THEN 0.875
                                 WHEN estrato = 'A3' THEN 0.750 WHEN estrato = 'A4' THEN 0.625
-                                ELSE 0.000 
+                                ELSE 0.000
                             END AS pontos_artigo
-                        FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ? AND estrato IN ('A1', 'A2', 'A3', 'A4'){frag_c}
+                        FROM tb_artigo_conferencia WHERE ano BETWEEN ? AND ? AND estrato IN ('A1', 'A2', 'A3', 'A4'){frag_c}{ing_c}
                     )
                     SELECT id_lattes, COUNT(*) AS total_c, COALESCE(ROUND(SUM(pontos_artigo), 3), 0) AS score_c
                     FROM cte_classificacao GROUP BY id_lattes
@@ -1082,12 +1465,14 @@ elif pagina_selecionada == "Comparativo entre Bases":
             df['Score Total'] = df['score_p'] + df['score_c']
             return df.sort_values('Score Total', ascending=False)
 
-        def comp_orientacoes(conexao, ano_ini, ano_fim_):
-            condicao = "ano_inicio <= ? AND COALESCE(ano_conclusao, 2026) >= ?"
+        def comp_orientacoes(conexao, ano_ini, ano_fim_, aplicar_ingresso=True):
+            condicao = "ano_inicio <= ? AND COALESCE(ano_conclusao, 2026) >= ?" + sql_ingresso(
+                'tb_orientacoes', 'ano_inicio', aplicar=aplicar_ingresso
+            )
             parametros = [ano_fim_, ano_ini]
             q = f"""
-                SELECT 
-                    COUNT(*) AS total, 
+                SELECT
+                    COUNT(*) AS total,
                     SUM(CASE WHEN status = 'Concluída' THEN 1 ELSE 0 END) AS concluidas,
                     SUM(CASE WHEN status = 'Em Andamento' THEN 1 ELSE 0 END) AS andamento
                 FROM tb_orientacoes
@@ -1096,8 +1481,10 @@ elif pagina_selecionada == "Comparativo entre Bases":
             res = conexao.execute(q, parametros).fetchone()
             return (res[0] or 0), (res[1] or 0), (res[2] or 0)
 
-        def comp_orientacoes_por_nivel(conexao, ano_ini, ano_fim_):
-            condicao = "ano_inicio <= ? AND COALESCE(ano_conclusao, 2026) >= ?"
+        def comp_orientacoes_por_nivel(conexao, ano_ini, ano_fim_, aplicar_ingresso=True):
+            condicao = "ano_inicio <= ? AND COALESCE(ano_conclusao, 2026) >= ?" + sql_ingresso(
+                'tb_orientacoes', 'ano_inicio', aplicar=aplicar_ingresso
+            )
             parametros = [ano_fim_, ano_ini]
             q = f"""
                 SELECT nivel AS "Nível Acadêmico", COUNT(*) AS "Volume de Orientações"
@@ -1117,17 +1504,7 @@ elif pagina_selecionada == "Comparativo entre Bases":
         comp_ano_max = max(ano_max_a, ano_max_b)
 
         st.subheader("Filtro de Período (aplicado simultaneamente às duas bases)")
-        col_f1, col_f2 = st.columns(2)
-        with col_f1:
-            comp_ano_inicio = st.number_input(
-                "Ano de Início", min_value=comp_ano_min, max_value=comp_ano_max,
-                value=max(comp_ano_min, comp_ano_max - 4), key="comp_ano_inicio"
-            )
-        with col_f2:
-            comp_ano_fim = st.number_input(
-                "Ano de Fim", min_value=comp_ano_min, max_value=comp_ano_max,
-                value=comp_ano_max, key="comp_ano_fim"
-            )
+        comp_ano_inicio, comp_ano_fim = renderizar_filtro_periodo(comp_ano_min, comp_ano_max, "comparacao")
 
         # Filtro de fonte aplicado às duas bases. A Base B enviada pode ter
         # arquitetura antiga (sem a coluna `fontes`); nesse caso o filtro
@@ -1141,6 +1518,16 @@ elif pagina_selecionada == "Comparativo entre Bases":
         fA_p, fA_c = sql_fonte('a_p.fontes'), sql_fonte('a_c.fontes')
         fB_p = sql_fonte('a_p.fontes', ativo=_ativo_b)
         fB_c = sql_fonte('a_c.fontes', ativo=_ativo_b)
+
+        # Corte por data de ingresso aplicado às duas bases (produção e
+        # orientações só contam a partir do ano em que o docente ingressou no
+        # programa). A Base B enviada pode não ter a coluna `data_ingresso`
+        # (arquitetura antiga, ou base gerada só a partir do Lattes de outra
+        # instituição, sem `lista_pessoas.csv`); nesse caso o corte é
+        # aplicado somente à Base A.
+        ingresso_b_ok = tem_coluna(con_b, 'tb_professores', 'data_ingresso')
+        if not ingresso_b_ok:
+            st.warning("A Base B enviada não possui a coluna `data_ingresso`; o corte por data de ingresso será aplicado somente à Base A.")
 
         st.markdown(f"**Base A:** `{CAMINHO_BASE_INSTITUCIONAL}`  |  **Base B:** `{nome_base_b}`")
         st.markdown("---")
@@ -1156,8 +1543,8 @@ elif pagina_selecionada == "Comparativo entre Bases":
         # ===== ABA 1: INDICADORES GERAIS (lado a lado) =====
         with aba_indic:
             st.subheader("Indicadores Institucionais — Base A vs. Base B")
-            doc_a, p_a, c_a = comp_indicadores_gerais(con, comp_ano_inicio, comp_ano_fim, frag=fA)
-            doc_b, p_b, c_b = comp_indicadores_gerais(con_b, comp_ano_inicio, comp_ano_fim, frag=fB)
+            doc_a, p_a, c_a = comp_indicadores_gerais(con, comp_ano_inicio, comp_ano_fim, frag=fA, aplicar_ingresso=True)
+            doc_b, p_b, c_b = comp_indicadores_gerais(con_b, comp_ano_inicio, comp_ano_fim, frag=fB, aplicar_ingresso=ingresso_b_ok)
 
             col_a, col_b = st.columns(2)
             with col_a:
@@ -1188,8 +1575,8 @@ elif pagina_selecionada == "Comparativo entre Bases":
 
             with sub_p:
                 col_a, col_b = st.columns(2)
-                df_serie_p_a = comp_serie_historica_periodico(con, frag=fA)
-                df_serie_p_b = comp_serie_historica_periodico(con_b, frag=fB)
+                df_serie_p_a = comp_serie_historica_periodico(con, frag=fA, aplicar_ingresso=True)
+                df_serie_p_b = comp_serie_historica_periodico(con_b, frag=fB, aplicar_ingresso=ingresso_b_ok)
                 with col_a:
                     st.markdown("##### Base A")
                     if not df_serie_p_a.empty:
@@ -1215,8 +1602,8 @@ elif pagina_selecionada == "Comparativo entre Bases":
 
             with sub_c:
                 col_a, col_b = st.columns(2)
-                df_serie_c_a = comp_serie_historica_conferencia(con, frag=fA)
-                df_serie_c_b = comp_serie_historica_conferencia(con_b, frag=fB)
+                df_serie_c_a = comp_serie_historica_conferencia(con, frag=fA, aplicar_ingresso=True)
+                df_serie_c_b = comp_serie_historica_conferencia(con_b, frag=fB, aplicar_ingresso=ingresso_b_ok)
                 with col_a:
                     st.markdown("##### Base A")
                     if not df_serie_c_a.empty:
@@ -1242,8 +1629,8 @@ elif pagina_selecionada == "Comparativo entre Bases":
         # ===== ABA 3: RANKING POR DOCENTE (lado a lado) =====
         with aba_docente:
             st.subheader("Volume de Produção por Pesquisador — Base A vs. Base B")
-            df_rank_a = comp_ranking_docente(con, comp_ano_inicio, comp_ano_fim, frag_p=fA_p, frag_c=fA_c)
-            df_rank_b = comp_ranking_docente(con_b, comp_ano_inicio, comp_ano_fim, frag_p=fB_p, frag_c=fB_c)
+            df_rank_a = comp_ranking_docente(con, comp_ano_inicio, comp_ano_fim, frag_p=fA_p, frag_c=fA_c, aplicar_ingresso=True)
+            df_rank_b = comp_ranking_docente(con_b, comp_ano_inicio, comp_ano_fim, frag_p=fB_p, frag_c=fB_c, aplicar_ingresso=ingresso_b_ok)
 
             col_a, col_b = st.columns(2)
             with col_a:
@@ -1276,8 +1663,8 @@ elif pagina_selecionada == "Comparativo entre Bases":
             )
             restrito = criterio == "Pontuação Restrita (A1-A4)"
 
-            df_quad_a = comp_indice_quadrienal(con, comp_ano_inicio, comp_ano_fim, restrito, frag_p=fA, frag_c=fA)
-            df_quad_b = comp_indice_quadrienal(con_b, comp_ano_inicio, comp_ano_fim, restrito, frag_p=fB, frag_c=fB)
+            df_quad_a = comp_indice_quadrienal(con, comp_ano_inicio, comp_ano_fim, restrito, frag_p=fA, frag_c=fA, aplicar_ingresso=True)
+            df_quad_b = comp_indice_quadrienal(con_b, comp_ano_inicio, comp_ano_fim, restrito, frag_p=fB, frag_c=fB, aplicar_ingresso=ingresso_b_ok)
 
             col_a, col_b = st.columns(2)
             with col_a:
@@ -1318,8 +1705,8 @@ elif pagina_selecionada == "Comparativo entre Bases":
         with aba_orientacoes:
             st.subheader("Panorama de Orientações — Base A vs. Base B")
             try:
-                tot_a, conc_a, and_a = comp_orientacoes(con, comp_ano_inicio, comp_ano_fim)
-                tot_b, conc_b, and_b = comp_orientacoes(con_b, comp_ano_inicio, comp_ano_fim)
+                tot_a, conc_a, and_a = comp_orientacoes(con, comp_ano_inicio, comp_ano_fim, aplicar_ingresso=True)
+                tot_b, conc_b, and_b = comp_orientacoes(con_b, comp_ano_inicio, comp_ano_fim, aplicar_ingresso=ingresso_b_ok)
 
                 col_a, col_b = st.columns(2)
                 with col_a:
@@ -1334,8 +1721,8 @@ elif pagina_selecionada == "Comparativo entre Bases":
                     st.metric("Em Andamento", and_b, delta=and_b - and_a)
 
                 st.markdown("#### Distribuição por Nível Acadêmico — Comparativo")
-                df_nivel_a = comp_orientacoes_por_nivel(con, comp_ano_inicio, comp_ano_fim)
-                df_nivel_b = comp_orientacoes_por_nivel(con_b, comp_ano_inicio, comp_ano_fim)
+                df_nivel_a = comp_orientacoes_por_nivel(con, comp_ano_inicio, comp_ano_fim, aplicar_ingresso=True)
+                df_nivel_b = comp_orientacoes_por_nivel(con_b, comp_ano_inicio, comp_ano_fim, aplicar_ingresso=ingresso_b_ok)
 
                 col_a, col_b = st.columns(2)
                 with col_a:

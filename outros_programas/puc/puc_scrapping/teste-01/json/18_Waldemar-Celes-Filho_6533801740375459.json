@@ -1,0 +1,1960 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "6533801740375459",
+    "nome_completo": "Waldemar Celes Filho",
+    "nome_citacoes": "CELES, W.;Celes, Waldemar;CELES, W",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "Nível 2",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente, 255 Gávea 22453-900 - Rio de Janeiro, RJ - Brasil - Caixa-postal: 22453900 Telefone: (21) 31141500 Ramal: 4357 Fax: (21) 31141530 URL da Homepage: www.inf.puc-rio.br/~celes",
+    "atualizacao_cv": "01/09/2025",
+    "url": "http://lattes.cnpq.br/6533801740375459",
+    "texto_resumo": "Waldemar Celes Filho é professor associado do Departamento de Informática da PUC-Rio e pesquisador associado do Instituto Tecgraf/PUC-Rio. Concluiu o doutorado em Informática pela PUC-Rio em 1995. Possui mestrado em Engenharia Civil pela PUC-Rio (1990) e graduação em Engenharia Civil pela UFRJ (1986). Fez pós-doutorado no Programa de Computação Gráfica da Universidade Cornell (1995-1997). Tem desenvolvido pesquisas na área de Computação Gráfica, com especial interesse em Visualização Científica, Renderização em Tempo Real, Modelagem, Simulação Numérica e Visualização Distribuída. No Tecgraf/PUC-Rio, coordena o Grupo de Visualização e desenvolve projetos de PD&I em parceria com a indústria. É um dos autores da linguagem de programação Lua. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Informática",
+      "nome_instituicao": "Departamento de Informática, INF, Brasil",
+      "ano_inicio": "1992",
+      "ano_conclusao": "1995",
+      "descricao": "Título: Modelagem Configurável de Subdivisões Planares Hierárquicas O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 1995. Orientador: Marcelo Gattass. Grande área: Ciências Exatas e da Terra"
+    },
+    {
+      "tipo": "Mestrado em Engenharia Civil",
+      "nome_instituicao": "Departamento de Engenharia Civil, CIV, Brasil",
+      "ano_inicio": "1988",
+      "ano_conclusao": "1990",
+      "descricao": "Título: Um Pós-processador de Elemenetos Finitos Sólidos baseado na Fronteira dos Elementos, Ano de Obtenção: 1990. Orientador: Marcelo Gattass. Grande área: Engenharias"
+    },
+    {
+      "tipo": "Graduação em Engenharia Civil (Estruturas)",
+      "nome_instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "ano_inicio": "1982",
+      "ano_conclusao": "1986",
+      "descricao": ""
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2017 - Atual",
+      "ano_inicio": "2017",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Departamento de Informática, INF, Brasil.",
+      "instituicao_nome": "Departamento de Informática",
+      "instituicao_sigla": "INF",
+      "instituicao_pais": "Brasil",
+      "periodo": "2001 - Atual",
+      "ano_inicio": "2001",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": "Professor Associado",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Departamento de Informática, INF, Brasil",
+      "instituicao_nome": "Departamento de Informática",
+      "instituicao_sigla": "INF",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Departamento de Informática, INF, Brasil",
+      "instituicao_nome": "Departamento de Informática",
+      "instituicao_sigla": "INF",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Departamento de Informática, INF, Brasil",
+      "instituicao_nome": "Departamento de Informática",
+      "instituicao_sigla": "INF",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Departamento de Informática, INF, Brasil",
+      "instituicao_nome": "Departamento de Informática",
+      "instituicao_sigla": "INF",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    }
+  ],
+  "projetos_pesquisa": [],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [
+    {
+      "nome": "Pos-3D: Sistema de Visualização de Análise por Elementos Finitos",
+      "ano_inicio": "2017",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Este projeto, em parceria com a Petrobras, tem por objetivo investigar técnicas de visualização científica aplicadas a malhas não estruturadas utilizadas em simulações numéricas por elementos finitos.. Situação: Em andamento; Natureza: Desenvolvimento. Integrantes: Waldemar Celes Filho - Coordenador / Espinha, Rodrigo - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Waldemar Celes Filho",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Espinha, Rodrigo",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Projeto de sistema leve de escapamento veicular",
+      "ano_inicio": "2017",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Investigar técnicas de otimização multifísica aplicadas a componentes estruturais, otimização teórica e prototipagem avançada. Investigar técnicas de otimização de componentes estruturais para o desenvolvimento de um sistema de escapamento leve. Situação: Em andamento; Natureza: Desenvolvimento. Integrantes: Waldemar Celes Filho - Coordenador / M. MENEZES, IVAN F. - Integrante / Virginia Monteiro - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Waldemar Celes Filho",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "M",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "GERESIM: Sistema para Gerenciamento de Simulação Numérica de Reservatório",
+      "ano_inicio": "2017",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: O GERESIM é um sistema computacional para o gerenciamento de simulações numéricas de reservatórios naturais de petróleo. Este projeto, em parceria com a Petrobras, visa investigar técnicas inovadoras para dar suporte a atividades de modelagem (geração de malhas), simulação numérica, visualização científica, interface interativa e programação pelo usuário final aplicadas às atividades de simulação numérica de reservatórios, incluindo suporte para modelos gigantes do pré-sal.. Situação: Em andamento; Natureza: Desenvolvimento. Integrantes: Waldemar Celes Filho - Coordenador / Espinha, Rodrigo - Integrante / Thiago Toledo - Integrante / Abraham, Frederico - Integrante / Andrei Alhadeff - Integrante / DUARTE, LEONARDO S. - Integrante / Leonardo Quatrin Campagnolo - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Waldemar Celes Filho",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Espinha, Rodrigo",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Thiago Toledo",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Abraham, Frederico",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Andrei Alhadeff",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "DUARTE, LEONARDO S",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "ICARO-GERESIM: Disponibilização de otimizadores de controle de poços",
+      "ano_inicio": "2016",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Este projeto visa investigar interfaces interativas e técnicas de visualização afim de integrar o sistema ICARO, desenvolvido na Petrobras, com o sistema GERESIM. O sistema ICARO é um sistema de otimização de controle de produção de reservatórios de petróleo.. Situação: Em andamento; Natureza: Desenvolvimento. Integrantes: Waldemar Celes Filho - Coordenador / Ericsson Leal - Integrante / Otavio Leao - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Waldemar Celes Filho",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Ericsson Leal",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Otavio Leao",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Visualização de incertezas",
+      "ano_inicio": "2014",
+      "ano_conclusao": "2016",
+      "descricao": [
+        "Descrição: Investigar técnicas de visualização de incertezas, mineração de dados e métricas de similaridades associadas a múltiplas (centenas) simulações numéricas de reservatório.. Situação: Concluído; Natureza: Desenvolvimento. Integrantes: Waldemar Celes Filho - Coordenador / Helio Lopes - Integrante / Simone Barbosa - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Waldemar Celes Filho",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Helio Lopes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Simone Barbosa",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "GeoRisco 3D: Sistema de Monitoramento de Dutos",
+      "ano_inicio": "2014",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: O GeoRisco3D é um sistema computacional para monitoramento virtual de oleodutos. Um dos objetivos do projeto, em parceria com a Petrobras, é a investigação de técnicas de visualização em tempo real de longas (milhares de quilômetros) de faixas de terreno onde estão instalados os oleodutos. Além da faixa, investiga-se a integração de mapas de contexto dos arredores, sempre em larga escala.. Situação: Em andamento; Natureza: Desenvolvimento. Integrantes: Waldemar Celes Filho - Coordenador / Andrey Rodrigues - Integrante / Vicente da Silva Neto - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Waldemar Celes Filho",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Andrey Rodrigues",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Vicente da Silva Neto",
+          "papel": "Integrante"
+        }
+      ]
+    }
+  ],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Processamento Gráfico (Graphics)",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics)."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Matemática da Computação",
+      "especialidade": "Modelos Analíticos e de Simulação",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação/Especialidade: Modelos Analíticos e de Simulação."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Linguagens de Programação",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação."
+    },
+    {
+      "grande_area": "Engenharias",
+      "area": "Engenharia Civil",
+      "subarea": "Estruturas",
+      "especialidade": "Mecânica das Estruturas",
+      "descricao_completa": "Grande área: Engenharias / Área: Engenharia Civil / Subárea: Estruturas/Especialidade: Mecânica das Estruturas."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Prêmio de Excelência SPE Brasil 2016 -- Destaque em Ensino e Pesquisa, SPE - Society of Petroleum Engineers (Seção Brasil).",
+      "ano": 2016
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "Computação Gráfica",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Direct Rendering of Intrinsic Triangulations",
+        "ano": 2025,
+        "autores": "CELES, W",
+        "revista": "ACM TRANSACTIONS ON GRAPHICS",
+        "volume": "44",
+        "numero": "",
+        "paginas": "1-15",
+        "issn": "0730-0301",
+        "doi": "http://dx.doi.org/10.1145/37163",
+        "qualis": ""
+      },
+      {
+        "titulo": "Semi-implicit representation of discrete black oil reservoir models",
+        "ano": 2025,
+        "autores": "HOLTZ, GISELE ; Celes, Waldemar ; MARTHA, LUIZ FERNANDO",
+        "revista": "COMPUTERS & GRAPHICS-UK",
+        "volume": "132",
+        "numero": "",
+        "paginas": "104373",
+        "issn": "0097-8493",
+        "doi": "http://dx.doi.org/10.1016/j.cag.2025.104373",
+        "qualis": ""
+      },
+      {
+        "titulo": "The evolution of Lua, continued",
+        "ano": 2025,
+        "autores": "IERUSALIMSCHY, Roberto ; De Figueiredo, Luiz Henrique ; Celes, Waldemar",
+        "revista": "JOURNAL OF COMPUTER LANGUAGES",
+        "volume": "83",
+        "numero": "",
+        "paginas": "101326",
+        "issn": "2590-1184",
+        "doi": "http://dx.doi.org/10.1016/j.cola.2025.101326",
+        "qualis": ""
+      },
+      {
+        "titulo": "Unsupervised method for identifying shape instances on 3D CAD models",
+        "ano": 2023,
+        "autores": "FIGUEIREDO, LUCAS ; IVSON, PAULO ; Celes, Waldemar",
+        "revista": "COMPUTERS & GRAPHICS-UK",
+        "volume": "116",
+        "numero": "",
+        "paginas": "228-238",
+        "issn": "0097-8493",
+        "doi": "http://dx.doi.org/10.1016/j.cag.2023.08.018",
+        "qualis": ""
+      },
+      {
+        "titulo": "Deep learning-based framework for Shape Instance Registration on 3D CAD models",
+        "ano": 2021,
+        "autores": "FIGUEIREDO, LUCAS ; IVSON, PAULO ; Celes, Waldemar",
+        "revista": "COMPUTERS & GRAPHICS-UK",
+        "volume": "101",
+        "numero": "",
+        "paginas": "72-81",
+        "issn": "0097-8493",
+        "doi": "http://dx.doi.org/10.1016/j.cag.2021.08.012",
+        "qualis": ""
+      },
+      {
+        "titulo": "An experimental study on volumetric visualization of black oil reservoir models",
+        "ano": 2020,
+        "autores": "CAMPAGNOLO, LEONARDO QUATRIN ; Celes, Waldemar",
+        "revista": "COMPUTERS & GRAPHICS-UK",
+        "volume": "93",
+        "numero": "",
+        "paginas": "84-94",
+        "issn": "0097-8493",
+        "doi": "http://dx.doi.org/10.1016/j.cag.2020.09.008",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Systematic Review of Visualization in Building Information Modeling",
+        "ano": 2019,
+        "autores": "IVSON, PAULO ; MOREIRA, ANDRE ; QUEIROZ, FRANCISCO ; SANTOS, WALLAS ; Celes, Waldemar",
+        "revista": "IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS",
+        "volume": "99",
+        "numero": "",
+        "paginas": "3109-3127",
+        "issn": "1077-2626",
+        "doi": "http://dx.doi.org/10.1109/tvcg.2019.2907583",
+        "qualis": ""
+      },
+      {
+        "titulo": "Multiresolution visualization of massive black oil reservoir models",
+        "ano": 2019,
+        "autores": "Abraham, Frederico ; Celes, Waldemar",
+        "revista": "VISUAL COMPUTER",
+        "volume": "35",
+        "numero": "",
+        "paginas": "837-848",
+        "issn": "0178-2789",
+        "doi": "http://dx.doi.org/10.1007/s00371-019-01674-x",
+        "qualis": ""
+      },
+      {
+        "titulo": "Interactive directional ambient occlusion and shadow computations for volume ray casting",
+        "ano": 2019,
+        "autores": "CAMPAGNOLO, LEONARDO Q. ; Celes, Waldemar",
+        "revista": "COMPUTERS & GRAPHICS-UK",
+        "volume": "84",
+        "numero": "",
+        "paginas": "66-76",
+        "issn": "0097-8493",
+        "doi": "http://dx.doi.org/10.1016/j.cag.2019.08.009",
+        "qualis": ""
+      },
+      {
+        "titulo": "A look at the design of Lua",
+        "ano": 2018,
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "revista": "COMMUNICATIONS OF THE ACM",
+        "volume": "61",
+        "numero": "",
+        "paginas": "114-123",
+        "issn": "0001-0782",
+        "doi": "http://dx.doi.org/10.1145/3186277",
+        "qualis": ""
+      },
+      {
+        "titulo": "CasCADe: A Novel 4D Visualization System for Virtual Construction Planning",
+        "ano": 2018,
+        "autores": "IVSON, PAULO ; NASCIMENTO, DANIEL ; Celes, Waldemar ; BARBOSA, SIMONE DJ",
+        "revista": "IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS",
+        "volume": "24",
+        "numero": "",
+        "paginas": "687-697",
+        "issn": "1077-2626",
+        "doi": "http://dx.doi.org/10.1109/TVCG.2017.2745105",
+        "qualis": ""
+      },
+      {
+        "titulo": "A new quadtree-based approach for automatic quadrilateral mesh generation",
+        "ano": 2017,
+        "autores": "POCHET, AXELLE ; Celes, Waldemar ; LOPES, HÉLIO ; GATTASS, MARCELO",
+        "revista": "Engineering with Computers (Internet)",
+        "volume": "33",
+        "numero": "",
+        "paginas": "275-292",
+        "issn": "1435-5663",
+        "doi": "http://dx.doi.org/10.1007/s00366-016-0471-0",
+        "qualis": ""
+      },
+      {
+        "titulo": "Massively parallel adaptive mesh refinement and coarsening for dynamic fracture simulations",
+        "ano": 2016,
+        "autores": "ALHADEFF, ANDREI ; LEON, SOFIE E. ; Celes, Waldemar ; Paulino, Glaucio H.",
+        "revista": "Engineering with Computers",
+        "volume": "32",
+        "numero": "",
+        "paginas": "533-552",
+        "issn": "0177-0667",
+        "doi": "http://dx.doi.org/10.1007/s00366-015-0431-0",
+        "qualis": ""
+      },
+      {
+        "titulo": "An efficient algorithm to generate random sphere packs in arbitrary domains",
+        "ano": 2016,
+        "autores": "LOZANO, ELIAS ; ROEHL, DEANE ; Celes, Waldemar ; GATTASS, MARCELO",
+        "revista": "Computers & Mathematics with Applications (1987)",
+        "volume": "71",
+        "numero": "",
+        "paginas": "1586-1601",
+        "issn": "0898-1221",
+        "doi": "http://dx.doi.org/10.1016/j.camwa.2016.02.032",
+        "qualis": ""
+      },
+      {
+        "titulo": "Methodology for geomechanically controlled transmissibility through active natural fractures in reservoir simulation",
+        "ano": 2016,
+        "autores": "DE SOUSA JUNIOR, LUIS CARLOS ; DOS SANTOS, LUIZ OTÁVIO SCHMALL ; DE SOUZA RIOS, VICTOR ; ARAÚJO, CHRYSTIANO ; Celes, Waldemar ; SEPEHRNOORI, KAMY",
+        "revista": "Journal of Petroleum Science & Engineering",
+        "volume": "147",
+        "numero": "",
+        "paginas": "7-14",
+        "issn": "0920-4105",
+        "doi": "http://dx.doi.org/10.1016/j.petrol.2016.04.040",
+        "qualis": ""
+      },
+      {
+        "titulo": "Mapping Cohesive Fracture and Fragmentation Simulations to Graphics Processor Units",
+        "ano": 2015,
+        "autores": "ALHADEFF, A. ; CELES, W. ; PAULINO, G. H.",
+        "revista": "International Journal for Numerical Methods in Engineering (Print)",
+        "volume": "103",
+        "numero": "",
+        "paginas": "859-893",
+        "issn": "0029-5981",
+        "doi": "http://dx.doi.org/10.1002/nme.4842",
+        "qualis": ""
+      },
+      {
+        "titulo": "PolyTop++: an efficient alternative for serial and parallel topology optimization on CPUs",
+        "ano": 2015,
+        "autores": "DUARTE, LEONARDO S. ; Celes, Waldemar ; PEREIRA, ANDERSON ; M. MENEZES, IVAN F. ; Paulino, Glaucio H.",
+        "revista": "Structural and Multidisciplinary Optimization (Print)",
+        "volume": "52",
+        "numero": "",
+        "paginas": "845-859",
+        "issn": "1615-147X",
+        "doi": "http://dx.doi.org/10.1007/s00158-015-1252-x",
+        "qualis": ""
+      },
+      {
+        "titulo": "An object-oriented framework for finite element analysis based on a compact topological data structure",
+        "ano": 2014,
+        "autores": "BEGHINI, LAUREN L. ; PEREIRA, ANDERSON ; Espinha, Rodrigo ; MENEZES, IVAN F.M. ; Celes, Waldemar ; Paulino, Glaucio H.",
+        "revista": "Advances in Engineering Software (1992)",
+        "volume": "68",
+        "numero": "",
+        "paginas": "40-48",
+        "issn": "0965-9978",
+        "doi": "http://dx.doi.org/10.1016/j.advengsoft.2013.10.006",
+        "qualis": ""
+      },
+      {
+        "titulo": "Quadrilateral Mesh Generation with Deferred Constraint Insertion",
+        "ano": 2014,
+        "autores": "ARAÚJO, CHRYSTIANO ; Celes, Waldemar",
+        "revista": "PROCEDIA ENGINEERING",
+        "volume": "82",
+        "numero": "",
+        "paginas": "88-100",
+        "issn": "1877-7058",
+        "doi": "http://dx.doi.org/10.1016/j.proeng.2014.10.375",
+        "qualis": ""
+      },
+      {
+        "titulo": "Scalable parallel dynamic fracture simulation using an extrinsic cohesive zone model",
+        "ano": 2013,
+        "autores": "ESPINHA, R. DE S. L. ; PARK, K. ; CELES, W. ; PAULINO, G. H.",
+        "revista": "Computer Methods in Applied Mechanics and Engineering",
+        "volume": "266",
+        "numero": "",
+        "paginas": "144-161",
+        "issn": "0045-7825",
+        "doi": "http://dx.doi.org/10.1016/j.cma.2013.07.008",
+        "qualis": ""
+      },
+      {
+        "titulo": "Adaptive mesh refinement and coarsening for cohesive zone modeling of dynamic fracture",
+        "ano": 2012,
+        "autores": "Park, Kyoungsoo ; Paulino, Glaucio H. ; Celes, Waldemar ; Espinha, Rodrigo",
+        "revista": "International Journal for Numerical Methods in Engineering (Print)",
+        "volume": "92",
+        "numero": "",
+        "paginas": "1-35",
+        "issn": "0029-5981",
+        "doi": "http://dx.doi.org/10.1002/nme.3163",
+        "qualis": ""
+      },
+      {
+        "titulo": "Volume rendering of unstructured hexahedral meshes",
+        "ano": 2012,
+        "autores": "MIRANDA, FABIO MARKUS ; Celes, Waldemar",
+        "revista": "The Visual Computer (Internet)",
+        "volume": "28",
+        "numero": "",
+        "paginas": "1005-1014",
+        "issn": "1432-2315",
+        "doi": "http://dx.doi.org/10.1007/s00371-012-0742-8",
+        "qualis": ""
+      },
+      {
+        "titulo": "Fast and versatile texture-based wireframe rendering",
+        "ano": 2011,
+        "autores": "Celes, Waldemar; Abraham, Frederico",
+        "revista": "The Visual Computer",
+        "volume": "27",
+        "numero": "",
+        "paginas": "939-948",
+        "issn": "0178-2789",
+        "doi": "http://dx.doi.org/10.1007/s00371-011-0623-6",
+        "qualis": ""
+      },
+      {
+        "titulo": "Passing a language through the eye of a needle",
+        "ano": 2011,
+        "autores": "IERUSALIMSCHY, Roberto ; De Figueiredo, Luiz Henrique ; Celes, Waldemar",
+        "revista": "Communications of the ACM",
+        "volume": "54",
+        "numero": "",
+        "paginas": "38",
+        "issn": "0001-0782",
+        "doi": "http://dx.doi.org/10.1145/1965724.1965739",
+        "qualis": ""
+      },
+      {
+        "titulo": "Adaptive dynamic cohesive fracture simulation using nodal perturbation and edge-swap operators",
+        "ano": 2010,
+        "autores": "Paulino, Glaucio H. ; Park, Kyoungsoo ; CELES, W. ; Espinha, Rodrigo",
+        "revista": "International Journal for Numerical Methods in Engineering (Print)",
+        "volume": "84",
+        "numero": "",
+        "paginas": "1303-1343",
+        "issn": "0029-5981",
+        "doi": "http://dx.doi.org/10.1002/nme.2943",
+        "qualis": ""
+      },
+      {
+        "titulo": "ParTopS: Compact Topological Framework for Parallel Fragmentation Simulations",
+        "ano": 2009,
+        "autores": "ESPINHA, R. ; CELES, W. ; RODRIGUEZ, N. ; PAULINO, G. H.",
+        "revista": "Engineering with Computers",
+        "volume": "25",
+        "numero": "",
+        "paginas": "345-365",
+        "issn": "0177-0667",
+        "doi": "http://dx.doi.org/10.1007/s00366-009-0129-2",
+        "qualis": ""
+      },
+      {
+        "titulo": "A general topology-based framework for adaptive insertion of cohesive elements in finite element meshes",
+        "ano": 2008,
+        "autores": "PAULINO, G. H. ; CELES, W. ; ESPINHA, R. ; ZHANG, Z.",
+        "revista": "Engineering with Computers",
+        "volume": "24",
+        "numero": "",
+        "paginas": "59-78",
+        "issn": "0177-0667",
+        "doi": "http://dx.doi.org/10.1007/s00366-007-0069-7",
+        "qualis": ""
+      },
+      {
+        "titulo": "Extrinsic cohesive modelling of dynamic fracture and microbranching instability in brittle materials",
+        "ano": 2007,
+        "autores": "ZHANG, Z. ; PAULINO, G. H. ; CELES, W.",
+        "revista": "International Journal for Numerical Methods in Engineering",
+        "volume": "72",
+        "numero": "",
+        "paginas": "893-923",
+        "issn": "0029-5981",
+        "doi": "http://dx.doi.org/10.1002/nme.2030",
+        "qualis": ""
+      },
+      {
+        "titulo": "GPU-based particle simulation with inter-collisions",
+        "ano": 2007,
+        "autores": "J.S. VENETILLO ; CELES, W.",
+        "revista": "The Visual Computer",
+        "volume": "23",
+        "numero": "",
+        "paginas": "851-860",
+        "issn": "0178-2789",
+        "doi": "http://dx.doi.org/10.1007/s00371-007-0151-6",
+        "qualis": ""
+      },
+      {
+        "titulo": "The implementation of Lua 5.0",
+        "ano": 2005,
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "revista": "Journal of Universal Computer Science",
+        "volume": "11",
+        "numero": "7",
+        "paginas": "1159-1176",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A compact adjacency-based topological data structure for finite element mesh representation",
+        "ano": 2005,
+        "autores": "CELES, W.; PAULINO, G. H. ; ESPINHA, R.",
+        "revista": "International Journal for Numerical Methods in Engineering",
+        "volume": "64",
+        "numero": "11",
+        "paginas": "1529-1556",
+        "issn": "0029-5981",
+        "doi": "http://dx.doi.org/10.1002/nme.1440",
+        "qualis": ""
+      },
+      {
+        "titulo": "Efficient handling of implicit entities in reduced mesh representations",
+        "ano": 2005,
+        "autores": "CELES, W.; PAULINO, G. H. ; ESPINHA, R.",
+        "revista": "Journal of Computing and Information Science in Engineering",
+        "volume": "5",
+        "numero": "4",
+        "paginas": "348-359",
+        "issn": "1530-9827",
+        "doi": "http://dx.doi.org/10.1115/1.2052830",
+        "qualis": ""
+      },
+      {
+        "titulo": "Lua: an extensible extension language",
+        "ano": 1996,
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "revista": "Software, Practice & Experience",
+        "volume": "26",
+        "numero": "6",
+        "paginas": "635-652",
+        "issn": "0038-0644",
+        "doi": "http://dx.doi.org/10.1002/(SICI)1097-024X(199606)26:6<635::AID-SPE26>3.0.CO;2-P",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [
+      {
+        "titulo": "Introdução a Estruturas de Dados com Técnicas de Programação em C",
+        "ano": 2016,
+        "autores": "CELES, W.; CERQUEIRA, R. ; RANGEL, J. L.",
+        "editora": "Rio de Janeiro: Elsevier",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "408"
+      },
+      {
+        "titulo": "Lua programming gems. Lua.org",
+        "ano": 2008,
+        "autores": "FIGUEIREDO, Luiz Henrique de (Org.) ; CELES, W. (Org.) ; IERUSALIMSCHY, Roberto (Org.)",
+        "editora": "Lua programming gems. Lua.org",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Lua Reference Manual. Lua.org",
+        "ano": 2006,
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "editora": "Lua Reference Manual. Lua.org",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "103"
+      },
+      {
+        "titulo": "Introdução a Estruturas de Dados - com técnicas de programação em C",
+        "ano": 2004,
+        "autores": "CELES, W.; CERQUEIRA, R. ; RANGEL, J. L.",
+        "editora": "Elsevier Editora Ltda.",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "294"
+      }
+    ],
+    "capitulos_livros": [
+      {
+        "titulo": "Binding C/C++ objects to Lua",
+        "ano": 2005,
+        "autores": "CELES, W.; FIGUEIREDO, Luiz Henrique de ; IERUSALIMSCHY, Roberto",
+        "titulo_livro": "",
+        "editora": "Charles River Media",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "341-355"
+      },
+      {
+        "titulo": "Programming advance control mechanisms with Lua coroutines",
+        "ano": 2005,
+        "autores": "FIGUEIREDO, Luiz Henrique de ; CELES, W. ; IERUSALIMSCHY, Roberto",
+        "titulo_livro": "",
+        "editora": "Charles River Media",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "357-369"
+      },
+      {
+        "titulo": "Extracting Frustum and Camera Information",
+        "ano": 2004,
+        "autores": "CELES, W",
+        "titulo_livro": "",
+        "editora": "Charles River Media",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "147-156"
+      },
+      {
+        "titulo": "Estereoscopia",
+        "ano": 2004,
+        "autores": "SISCOUTTO, Robson ; SZENBERG, Flavio ; TORI, Romero ; RAPOSO, Alberto Barbosa ; CELES FILHO, Waldemar ; GATTASS, M.",
+        "titulo_livro": "",
+        "editora": "Editora Mania de Livro",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "179-201"
+      },
+      {
+        "titulo": "Simulating and Rendering Particle Systems",
+        "ano": 2003,
+        "autores": "CELES, W.; Calomeni, A.",
+        "titulo_livro": "",
+        "editora": "Charles River Media",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "5-16"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "A New Focus+Context Visualization Technique for Inspecting Black Oil Reservoir Models",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI54419.2021.00013",
+        "autores": "NETTO, LUIZ FELIPE ; Celes, Waldemar",
+        "evento": "2021 34th SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "25-32",
+        "isbn": ""
+      },
+      {
+        "titulo": "Robust and Effective Method for Automatic Generation of One-Dimensional Transfer Functions",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2019.00021",
+        "autores": "MESQUITA, RUSTAM ; Celes, Waldemar",
+        "evento": "2019 32nd SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "92-99",
+        "isbn": ""
+      },
+      {
+        "titulo": "GPU-Based Rendering of Arbitrarily Complex Cutting Surfaces for Black Oil Reservoir Models",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2019.00026",
+        "autores": "FRANCESCHIN, BERNARDO ; Abraham, Frederico ; NETTO, LUIZ FELIPE ; Celes, Waldemar",
+        "evento": "2019 32nd SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "131-138",
+        "isbn": ""
+      },
+      {
+        "titulo": "Metaheuristic-Based Workload Selection for Hybrid Cloud Rendering of CAD Models",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/CloudCom.2019.00024",
+        "autores": "MOREIRA, ANDRE ; Celes, Waldemar",
+        "evento": "2019 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
+        "cidade": "",
+        "paginas": "87-94",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Hybrid CPU-GPU Scalable Strategy for Multi-resolution Rendering of Large Digital Elevation Models with Borders and Holes",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.5220/0006621902400247",
+        "autores": "Celes, Waldemar; RODRIGUES, ANDREY",
+        "evento": "International Conference on Computer Graphics Theory and Applications",
+        "cidade": "",
+        "paginas": "240",
+        "isbn": ""
+      },
+      {
+        "titulo": "Hidden Surface Removal for Accurate Painting-Area Calculation on CAD Models",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2018.00008",
+        "autores": "FIGUEIREDO, LUCAS ; IVSON, PAULO ; Celes, Waldemar",
+        "evento": "2018 31st SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "9-19",
+        "isbn": ""
+      },
+      {
+        "titulo": "Hybrid Cloud Rendering System for Massive CAD Models",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2018.00037",
+        "autores": "MOREIRA, ANDRE ; IVSON, PAULO ; Celes, Waldemar",
+        "evento": "2018 31st SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "234-244",
+        "isbn": ""
+      },
+      {
+        "titulo": "Accurate Volume Rendering Based on Adaptive Numerical Integration",
+        "ano": 2015,
+        "doi": "http://dx.doi.org/10.1109/sibgrapi.2015.27",
+        "autores": "CAMPAGNOLO, LEONARDO QUATRIN ; Celes, Waldemar ; De Figueiredo, Luiz Henrique",
+        "evento": "2015 28th SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "17",
+        "isbn": ""
+      },
+      {
+        "titulo": "Quadrilateral Mesh Generation with Deferred Constraint Insertion",
+        "ano": 2014,
+        "doi": "",
+        "autores": "ARAUJO, C. ; CELES, W.",
+        "evento": "International Meshing Roundtable",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Instanced Rendering of Massive CAD Models Using Shape Matching",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2014.34",
+        "autores": "SANTOS, PAULO IVSON NETTO; FILHO, WALDEMAR CELES",
+        "evento": "2014 27th SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "335-342",
+        "isbn": ""
+      },
+      {
+        "titulo": "Fast Fluid Simulation on Three-Dimensional Parameterized Structured Grids",
+        "ano": 2013,
+        "doi": "",
+        "autores": "BARROSO, V. ; CELES FILHO, Waldemar ; Gattass, Marcelo",
+        "evento": "International Conference on Modeling",
+        "cidade": "",
+        "paginas": "28-34",
+        "isbn": ""
+      },
+      {
+        "titulo": "Ambient Occlusion Using Cone Tracing with Scene Voxelization",
+        "ano": 2012,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2012.28",
+        "autores": "FAVERA, EDUARDO CERETTA DALLA ; Celes, Waldemar",
+        "evento": "2012 XXV SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "142",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modeling the Copacabana Sidewalk Pavement",
+        "ano": 2012,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2012.34",
+        "autores": "WAINTRAUB, TATIANA ; Celes, Waldemar",
+        "evento": "2012 XXV SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "190",
+        "isbn": ""
+      },
+      {
+        "titulo": "Visualizing 3D Flow of Black-Oil Reservoir Models on Arbitrary Surfaces Using Projected 2D Line Integral Convolution",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2011.45",
+        "autores": "TOLEDO, THIAGO ; Celes, Waldemar",
+        "evento": "2011 24th SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "133",
+        "isbn": ""
+      },
+      {
+        "titulo": "Illustrative Volume Visualization for Unstructured Meshes Based on Photic Extremum Lines",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1109/sibgrapi.2011.20",
+        "autores": "ROCHA, ALLAN ; MIRANDA, F´BIO MARKUS ; Celes, Waldemar",
+        "evento": "2011 24th SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "101",
+        "isbn": ""
+      },
+      {
+        "titulo": "Accurate Volume Rendering of Unstructured Hexahedral Meshes",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2011.3",
+        "autores": "MIRANDA, F´BIO MARKUS ; Celes, Waldemar",
+        "evento": "2011 24th SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "93",
+        "isbn": ""
+      },
+      {
+        "titulo": "Fluid Animation on Arbitrarily-Shaped Structured Grids",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1109/SBGAMES.2011.19",
+        "autores": "BARROSO, VITOR ; Celes, Waldemar",
+        "evento": "2011 Brazilian Symposium on Games and Digital Entertainment (SBGAMES)",
+        "cidade": "",
+        "paginas": "148-157",
+        "isbn": ""
+      },
+      {
+        "titulo": "Texture-Based Wireframe Rendering",
+        "ano": 2010,
+        "doi": "http://dx.doi.org/10.1109/sibgrapi.2010.28",
+        "autores": "CELES, W; ABRAHAM, F",
+        "evento": "2010 23rd SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "149-155",
+        "isbn": ""
+      },
+      {
+        "titulo": "Distributed Visualization of Complex Black Oil Reservoir Models",
+        "ano": 2009,
+        "doi": "http://dx.doi.org/10.2312/EGPGV/EGPGV09/087-094",
+        "autores": "ABRAHAM, F. R. ; CELES, W.",
+        "evento": "Eurographics Symposium on Parallel Graphics and Visualization (EGPGV09)",
+        "cidade": "",
+        "paginas": "87-94",
+        "isbn": ""
+      },
+      {
+        "titulo": "GPU-accelerated Adaptively Sampled Distance Fields",
+        "ano": 2008,
+        "doi": "http://dx.doi.org/10.1109/smi.2008.4547967",
+        "autores": "BASTOS, THIAGO ; Celes, Waldemar",
+        "evento": "2008 IEEE International Conference on Shape Modeling and Applications (SMI)",
+        "cidade": "",
+        "paginas": "171-178",
+        "isbn": ""
+      },
+      {
+        "titulo": "Accelerated Corner Detector Algorithms",
+        "ano": 2008,
+        "doi": "http://dx.doi.org/10.5244/C.22.62",
+        "autores": "TEIXEIRA, L. ; CELES, W. ; GATTASS, M.",
+        "evento": "British Machine Vision Confencence 2008",
+        "cidade": "",
+        "paginas": "625-634",
+        "isbn": ""
+      },
+      {
+        "titulo": "The evolution of Lua",
+        "ano": 2007,
+        "doi": "http://dx.doi.org/10.1145/1238844.1238846",
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "evento": "ACM History of Programming Languages",
+        "cidade": "",
+        "paginas": "2-1-2-26",
+        "isbn": ""
+      },
+      {
+        "titulo": "Improved Real-Time Shadow Mapping for CAD Models",
+        "ano": 2007,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2007.23",
+        "autores": "BARATA, V. ; CELES, W.",
+        "evento": "Brazilian Symposium on Computer Graphics and Image Processing",
+        "cidade": "",
+        "paginas": "139-146",
+        "isbn": ""
+      },
+      {
+        "titulo": "Assisted and Automatic Navigation in Black Oil Reservoir Models based on Probabilistic Roadmaps",
+        "ano": 2006,
+        "doi": "http://dx.doi.org/10.1145/1111411.1111443",
+        "autores": "Calomeni, A. ; CELES, W.",
+        "evento": "Symposium on Interactive 3D Graphics and Games",
+        "cidade": "",
+        "paginas": "175-182",
+        "isbn": ""
+      },
+      {
+        "titulo": "The implementation of Lua 5.0",
+        "ano": 2005,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "evento": "Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "63-75",
+        "isbn": ""
+      },
+      {
+        "titulo": "High-Quality Hardware-Based Ray-Casting Volume Rendering Using Partial Pre-Integration",
+        "ano": 2005,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2005.29",
+        "autores": "ESPINHA, R. ; CELES, W.",
+        "evento": "Brazilian Symposium on Comp. Graphics and Image Processing",
+        "cidade": "",
+        "paginas": "273-280",
+        "isbn": ""
+      },
+      {
+        "titulo": "Posicionamento Automatico de Câmera em Ambientes Virtuais Dinâmicos",
+        "ano": 2005,
+        "doi": "",
+        "autores": "Hermann, R. ; CELES, W.",
+        "evento": "Simpósio Brasileiro de Jogos para Computador e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "174-185",
+        "isbn": ""
+      },
+      {
+        "titulo": "A load-balancing strategy for sort-first distributed rendering",
+        "ano": 2004,
+        "doi": "",
+        "autores": "ABRAHAM, F. R. ; CELES, W. ; CERQUEIRA, R. ; CAMPOS, J. L.",
+        "evento": "Brazilian Symposium on Comp. Graphics and Image Processing",
+        "cidade": "",
+        "paginas": "292-299",
+        "isbn": ""
+      },
+      {
+        "titulo": "A High-Level Abstraction for Graphics Hardware Programming",
+        "ano": 2002,
+        "doi": "http://dx.doi.org/10.1109/SIBGRA.2002.1167159",
+        "autores": "TULER, D. ; CELES, W.",
+        "evento": "Brazilian Symposium on Comp. Graphics and Image Processing",
+        "cidade": "",
+        "paginas": "306-312",
+        "isbn": ""
+      },
+      {
+        "titulo": "Organization of Large Engineering Models for Real-Time Walk-Through Rendering",
+        "ano": 2002,
+        "doi": "",
+        "autores": "SILVA, M. H. ; GATTASS, M. ; CELES FILHO, Waldemar",
+        "evento": "International Conference on Computational Engeneering & Sciences - ICCES",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma Estratégia para a Visualização do Céu e seus Elementos em Jogos",
+        "ano": 2002,
+        "doi": "",
+        "autores": "ARAUJO, M. P. ; CELES, W.",
+        "evento": "I Brazilian Workshop in Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "The evolution of an extension language: A history of Lua",
+        "ano": 2001,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "evento": "Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "B14-B28",
+        "isbn": ""
+      },
+      {
+        "titulo": "MULTIPLE DISPLAY VIEWING ARCHITECTURE FOR VIRTUAL ENVIRONMENTS OVER HETEROGENEOUS NETWORKS",
+        "ano": 1999,
+        "doi": "http://dx.doi.org/10.1109/SIBGRA.1999.805713",
+        "autores": "FERREIRA, A. G. ; CERQUEIRA, Renato F G ; CELES, W. ; GATTASS, M.",
+        "evento": "XII SIBGRAPI",
+        "cidade": "",
+        "paginas": "83-92",
+        "isbn": ""
+      },
+      {
+        "titulo": "Efficient Asynchronous Evolution of Physical Simulations",
+        "ano": 1998,
+        "doi": "http://dx.doi.org/10.1109/SIBGRA.1998.722754",
+        "autores": "CELES, W",
+        "evento": "XI SIBGRAPI",
+        "cidade": "",
+        "paginas": "224-231",
+        "isbn": ""
+      },
+      {
+        "titulo": "Act: an easy-to-use and dynamically extensible 3D graphics library",
+        "ano": 1997,
+        "doi": "http://dx.doi.org/10.1109/SIGRA.1997.625144",
+        "autores": "CELES, W.; CORSON-RIKERT, J.",
+        "evento": "X SIBGRAPI",
+        "cidade": "",
+        "paginas": "26-33",
+        "isbn": ""
+      },
+      {
+        "titulo": "EDG UMA FERRAMENTA PARA A CRIAÇAO DE INTERFACES GRÁFICAS INTERATIVAS",
+        "ano": 1995,
+        "doi": "",
+        "autores": "CELES FILHO, Waldemar ; FIGUEIREDO, L. H. ; GATTASS, M.",
+        "evento": "VIII SIBGRAPI",
+        "cidade": "",
+        "paginas": "241-248",
+        "isbn": ""
+      },
+      {
+        "titulo": "The design and implementation of a language for extending applications",
+        "ano": 1994,
+        "doi": "",
+        "autores": "CELES, W",
+        "evento": "XXI Semish",
+        "cidade": "",
+        "paginas": "273-283",
+        "isbn": ""
+      },
+      {
+        "titulo": "GERENCIAMENTO DE SUBDIVISOES PLANARES HIERÁRQUICAS",
+        "ano": 1994,
+        "doi": "",
+        "autores": "CELES FILHO, Waldemar ; GATTASS, M. ; CARVALHO, Paulo Cezar P",
+        "evento": "VII SIBGRAPI",
+        "cidade": "",
+        "paginas": "287-294",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma Estrutura de Dados Eficiente para Pós-processamento de Elementos Finitos Sólidos",
+        "ano": 1991,
+        "doi": "",
+        "autores": "CELES, W.; MARTHA, L. F. ; GATTASS, M.",
+        "evento": "XI Congresso Brasileiro de Engenharia Mecânica",
+        "cidade": "",
+        "paginas": "105-108",
+        "isbn": ""
+      },
+      {
+        "titulo": "Pós-processador Genérico de Elementos Finitos",
+        "ano": 1990,
+        "doi": "",
+        "autores": "CELES, W.; MARTHA, L. F. ; GATTASS, M.",
+        "evento": "XI Congresso Íbero Latino Americano sobre Métodos Computacionais para Engenharia",
+        "cidade": "",
+        "paginas": "569-577",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um Algoritmo para Remoção de Linhas Ocultas",
+        "ano": 1990,
+        "doi": "",
+        "autores": "COELHO, L. C. ; GATTASS, M. ; CELES, W.",
+        "evento": "III SIBGRAPI",
+        "cidade": "",
+        "paginas": "2-10",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [],
+    "resumos_congressos": [],
+    "artigos_aceitos": [
+      {
+        "titulo": "Direct Rendering of Intrinsic Triangulations",
+        "ano": 2025,
+        "autores": "CELES, W",
+        "revista": "ACM TRANSACTIONS ON GRAPHICS",
+        "issn": ""
+      }
+    ],
+    "apresentacoes_trabalhos": [],
+    "textos_jornais": [
+      {
+        "titulo": "A importância de aprender programação",
+        "ano": 2016,
+        "autores": "CELES, W",
+        "jornal": "",
+        "cidade": "",
+        "data": "17 maio 2016"
+      },
+      {
+        "titulo": "A importância e as vantagens de saber programar em linguagem C",
+        "ano": 2016,
+        "autores": "CELES, W",
+        "jornal": "",
+        "cidade": "",
+        "data": "12 maio 2016"
+      },
+      {
+        "titulo": "Passing a Language through the Eye of a Needle",
+        "ano": 2011,
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "jornal": "",
+        "cidade": "",
+        "data": "12 maio 2011"
+      },
+      {
+        "titulo": "Cartoon Rendering para Inspeção de Maquetes Eletrônicas de Modelos Industriais",
+        "ano": 2007,
+        "autores": "J.S. VENETILLO ; CELES, W.",
+        "jornal": "",
+        "cidade": "",
+        "data": "01 mar. 2007"
+      },
+      {
+        "titulo": "Lua: an extensible embedded language. Dr",
+        "ano": 1996,
+        "autores": "FIGUEIREDO, Luiz Henrique de ; IERUSALIMSCHY, Roberto ; CELES, W.",
+        "jornal": "",
+        "cidade": "",
+        "data": "01 dez. 1996"
+      }
+    ],
+    "outras_producoes": [
+      {
+        "titulo": "Information Visualization for Managing Large-Scale Engineering Projects",
+        "ano": 2018,
+        "autores": "IVSON, P. ; CELES, W.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      }
+    ]
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [
+      {
+        "titulo": "Gerador de Malhas para Meios Fraturados - versão 2.0",
+        "ano": 2021,
+        "autores": "MACHADO, B. N. ; ESPINHA, R. ; CELES, W.",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Sistema remoto de monitoramento de ondas - versão 2.0",
+        "ano": 2021,
+        "autores": "SOUZA, L. H. G. A. ; CELES, W.",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "GERESIM: Sistema de Gerenciamento de Simulação Numérica de Reservatório",
+        "ano": 2020,
+        "autores": "CELES, W.; ABRAHAM, F. ; ESPINHA, R. ; TOLEDO, T. ; FRANCESCHIN, BERNARDO ; RODRIGUES, A. ; CAMPAGNOLO, L. Q.",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Extração de isosuperfícies de domos de sal em volumes binários massivos",
+        "ano": 2020,
+        "autores": "SOUZA, S. B. ; CELES, W.",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Extração de Isosuperfícies com base em retalhes curvos de superfícies",
+        "ano": 2020,
+        "autores": "RANGEL, J. R. ; CELES, W.",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Gerador de Malhas para Meios Fraturados - versão 1.0",
+        "ano": 2020,
+        "autores": "MACHADO, B. N. ; ESPINHA, R. ; Celes, Waldemar",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Sistema remoto de monitoramento de ondas - versão 1.0",
+        "ano": 2020,
+        "autores": "SOUZA, L. H. G. A. ; Celes, Waldemar",
+        "instituicao": "",
+        "finalidade": ""
+      }
+    ],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [
+      {
+        "titulo": "Method of Determining Carotid Artery Stenosis using X-Ray Imagery",
+        "ano": 1999,
+        "autores": "GREENBERG, R. K. ; CELES, W. ; GREENBERG, D.",
+        "tipo": "Processo ou técnica"
+      }
+    ],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Remote Rendering for CAD Models",
+          "ano_inicio": 2017,
+          "orientando": "André de Souza Moreira",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização de Informações Aplicada a Modelos CAD",
+          "ano_inicio": 2017,
+          "orientando": "Paulo Ivson Neto Santos",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Manutenção Preditiva Utilizando Modelos CAD",
+          "ano_inicio": 2017,
+          "orientando": "Lucas Caracas de Figueiredo",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Determinação semi-automática de funções de transferência para visualização volumétrica",
+          "ano_inicio": 2017,
+          "orientando": "Rustam Camara Mesquita",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Interactive Directional Occlusion Shading and Black Oil Reservoir Visualization using Ray Casting",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Leonardo Quatrin Campagnolo",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Hybrid Cloud Rendering for Industrial-Plant CAD Models",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Andre de Souza Moreira",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Information Visualization for Managing Large-Scale Engineering Projects",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Paulo Ivson Netto Santos",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "TopSim: A plugin-based framework for large-scale numerical analysis",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Leonardo Seperuelo Duarte",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Mapping Cohesive Fracture and Fragmentation Simulations to GPUs",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Andrei Alhadeff Monteiro",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Simulação tridimensional eficiente de fluidos no espaço paramétrico de malhas estruturadas",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Vitor Barata Ribeiro Blanco Barroso",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Suporte topológico em paralelo para malhas de elementos finitos em análises dinâmicas de fratura e fragmentação",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Rodrigo de Souza Lima Espinha",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização de Modelos Massivos de Reservatórios Naturais de Petróleo",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Frederico Rodrigues Abraham",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sistema de cache preditivo para processamento em tempo-real de dados graficos",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Sérgio Estevão Machado Lisboa Pinheiro",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Identificação e Mapeamento das Propriedades das Ondas através de Sensor Remoto de Vídeo",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Lauro Henriko Garcia Alves de Souza",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Extração de isosuperfícies de domos de sal em volumes binários massivos",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Samuel Bastos de Souza Junior",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Extração de Isosuperfícies com Patches Curvos e Subdivisão Adaptativa em Malhas de Hexaedros Levemente Côncavos",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Jordan Rodrigues Rangel",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Geração Semiautomática de Função de Transferência para Realce de Fronteiras Baseada em Derivadas Médias",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Rustam Camara Mesquita",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização de Fluxo em Reservatórios de Petróleo Usando LIC Volumétrico",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Allan Werner Schöttler",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sistema eficiente de otimização topológica estrutural utilizando o método de malha densa de barras",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Vinicius Gama Tavares",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Remoção de Superfícies Encobertas no Cálculo de Área de Pintura em Modelos CAD",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Lucas Caracas de Figueiredo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Campos de direcionalidade na geração e avaliação de malhas de quadriláteros",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Alice Herrera de Figueiredo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização de modelos digitais de elevação em multiresolução utilizando programação em GPU",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Andrey d'Almeida Rocha Rodrigues",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmo de corte com preservação de contexto para visualização de modelos de reservatório",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Luiz Felipe Netto",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma plataforma de jogos JRPG destinada à educação com entretenimento",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Vicente Correa da Silva Neto",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Traçado de linhas de fluxo em modelos de reservatórios naturais de petróleo baseado em métodos núméricos adaptativos",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Ericsson de Souza Leal",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Oclusão de Ambiente para Renderização de Linhas",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Leonardo de Paula Batista Benevides",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização volumétrica precisa baseada em integração numérica adaptativa",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Leonardo Quatrin Campagnolo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização de seções de corte arbitrárias de malhas não estruturadas",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Bernardo Bianchi Franceschin",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Oclusão ambiente usando traçado de cone com voxelização da cena",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Eduardo Ceretta Dalla Favera",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualizando Campos Vetoriais em Superfícies",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Thiago Marques Toledo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Geração de malha de elementos finitos com inserção de restrições a posteriori",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Chrystiano Barbosa de Souza Araujo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Modelagem da calçada de Copacabana",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Tatiana Waintraub",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um framework para o uso colaborativo de dispositivos móveis como ferramenta de controle remoto de aplicações científicas",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Joner Martins Veiga Duarte Junior",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Animação de Fratura de Objetos baseada em Agrupamentos de Vértices",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Ygor Hecht Speranza",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização volumétrica de dados sísmicos utilizando um modelo de iluminação por oclusão direcional",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Marcelo Medeiros Arruda",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização volumétrica ilustrativa de malhas não estruturadas",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Allan Carlos Avelino Rocha",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Volume rendering of unstructured hexahedral meshes",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Fabio Markus Nunes Miranda",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Many-core fragmentation simulation",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Andrei Alhadeff Monteiro",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização de Dados Geográficos Vetoriais sobre Terrenos em Multi-Resolução",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Vinicius Lopes Rodrigues",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Ray Tracing Dynamic Scenes on the GPU",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Paulo Ivson Netto Santos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Simulação de Grãos em GPU",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Leonardo Seperuelo Duarte",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Campos de Distância Amostrados Adaptativamente com Aceleração por Placa Gráfica",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "Thiago de Almeida Bastos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma abordagem baseada em SPH para animação interativa de águas rasas em jogos",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "Algemiro Augusto da Silva Neto",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Geração de Sombras em Tempo Real para Modelos CAD",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Vitor Barata Ribeiro Blanco Barroso",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Animação Interativa de Fluido baseada em Partículas pelo Método SPH",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Fabio Issao Nakamura",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Simulação de partículas baseada em GPU com tratamento de colisão",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Jeronimo Silverio Venetillo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização Distribuída utilizando Agrupamentos de PCs",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Frederico Rodrigues Abraham",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização Volumétrica Interativa de Malhas Não-Estruturadas Utilizando Placas Gráficas Programáveis",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Rodrigo de Souza Lima Espinha",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Navegação Automática e Assistida em Reservatórios Naturais de Petróleo",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Antonio Luiz Vitalo Calomeni",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Posicionamento Automático de Câmera em Ambientes Virtuais Dinâmicos",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Rodrigo Hermann",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Multi-resolução de Geometria de Terrenos Armazenados em Memória Secundária",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Luiz Gustavo Bustamente Magalhães",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Operações Booleanas na Modelagem por Pontos",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Heloisa Reis Leal",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Abstração de Alto Nível para Programação do Processador Gráfico",
+          "ano_inicio": 2002,
+          "ano_conclusao": 2002,
+          "orientando": "Danilo Tuler",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Tratamento Eficiente de Visibilidade Através de Árvores de Volumes Envolventes",
+          "ano_inicio": 2002,
+          "ano_conclusao": 2002,
+          "orientando": "Maurício Hofmam",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização em Multi-resolução de Reservatórios Naturais de Petróleo",
+          "ano_inicio": 2002,
+          "ano_conclusao": 2002,
+          "orientando": "Antônio Carlos Pereira de Azambuja",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Arquitetura para a Visualização Distribuída de Ambientes Virtuais",
+          "ano_inicio": 1999,
+          "ano_conclusao": 1999,
+          "orientando": "Alexandre Ferreira",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Arquitetura para o Desenvolvimento de Interfaces Gráficas Baseadas em Grafos",
+          "ano_inicio": 1998,
+          "ano_conclusao": 1998,
+          "orientando": "Juli Ling Ching Huang",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [],
+    "organizacoes": []
+  },
+  "bancas": {
+    "mestrado": [],
+    "doutorado": [
+      {
+        "descricao": "M. Walter; A. Maciel; A. L. Apolinario Jr; E. Gastal; CELES, W. Participação em banca de Augusto Luengo Pereira Nunes. Modelagem de Aparência Baseada em Biofísica para Tecidos do Fígado Humano. 2019. Tese (Doutorado em Computação) - Universidade Federal do Rio Grande do Sul.",
+        "ano": 2019,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Augusto Luengo Pereira Nunes",
+        "membros_banca": [
+          "M. Walter",
+          "A. Maciel",
+          "A. L. Apolinario Jr",
+          "E. Gastal",
+          "CELES, W"
+        ],
+        "titulo_trabalho": "Modelagem de Aparência Baseada em Biofísica para Tecidos do Fígado Humano",
+        "curso": "Tese (Doutorado em Computação)",
+        "universidade": "Universidade Federal do Rio Grande do Sul"
+      },
+      {
+        "descricao": "CELES, W.. Participação em banca de Bernardo Fortunato Costa. Desenvolvendo Animações Utilizando Spatial Keyframe com Ajuda de Movimento Capturado. 2018. Tese (Doutorado em Engenharia de Sistemas e Computação) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2018,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Bernardo Fortunato Costa",
+        "membros_banca": [
+          "CELES, W."
+        ],
+        "titulo_trabalho": "Desenvolvendo Animações Utilizando Spatial Keyframe com Ajuda de Movimento Capturado",
+        "curso": "Tese (Doutorado em Engenharia de Sistemas e Computação)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": [
+      {
+        "descricao": "CAVALCANTI, P.; ESPERANCA, C.; TREVISAN, D.; GIRALDI, G.; CELES, W.. Concurso para Professor Adjunto a Instituto de Matemática. 2018. Universidade Federal do Rio de Janeiro.",
+        "ano": 2018,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Federal do Rio de Janeiro.",
+        "universidade": ""
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 33,
+    "total_livros": 4,
+    "total_capitulos": 5,
+    "total_trabalhos_congressos": 41,
+    "total_projetos_pesquisa": 0,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 6,
+    "total_orientacoes_concluidas": 53,
+    "total_orientacoes_andamento": 4
+  }
+}

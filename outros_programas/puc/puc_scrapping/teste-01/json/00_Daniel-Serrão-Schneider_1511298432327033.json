@@ -1,0 +1,3218 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "1511298432327033",
+    "nome_completo": "Daniel Serrão Schneider",
+    "nome_citacoes": "SCHNEIDER, D. S.;SCHNEIDER, DANIEL;SCHNEIDER, D.S.;SCHNEIDER, Daniel S.;SCHNEIDER, DANIEL SERRÃO",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Universidade Federal do Rio de Janeiro, Instituto Tércio Pacitti de Aplicações e Pesquisas Computacionais (NCE). Avenida Athos da Silveira Ramos, 274 - Prédio do CCMN Cidade Universitária - Ilha do Fundão 21941590 - Rio de Janeiro, RJ - Brasil Telefone: (21) 39383202 URL da Homepage: http://www.nce.ufrj.br/",
+    "atualizacao_cv": "20/01/2026",
+    "url": "http://lattes.cnpq.br/1511298432327033",
+    "texto_resumo": "Doutor em Engenharia de Sistemas e Computação pelo PESC/COPPE/UFRJ (2015). Mestre em Engenharia de Sistemas e Computação pelo PESC/COPPE/UFRJ (2004). Bacharel em Ciência da Computação pelo Departamento de Ciência da Computação - UFRJ (2001).Tem experiência nas áreas de Bancos de Dados, CSCW e em Sistemas de Computação Social e de Multidão. De 1999 a 2011 atuou como consultor de software e também como líder no desenvolvimento do DataWarehouse da Diretoria de Abastecimento da Marinha do Brasil, por meio da Fundação Coppetec, no Rio de Janeiro, antes de ingressar na Universidade Federal Rural do Rio de Janeiro e atuar como Professor a partir de 2011. Desde 2017, é Professor Adjunto da Universidade Federal do Rio de Janeiro (UFRJ), atuando no Instituto Tércio Pacitti de Aplicações e Pesquisa de Computadores (NCE) e no Programa de Pós-Graduação em Informática (PPGI / UFRJ). É também o criador e desenvolvedor da plataforma Acropolis, um ambiente de curadoria social especialmente projetado para envolver os cidadãos em histórias complexas ou de longa duração. Publicou mais de 80 artigos revisados por pares, incluindo trabalhos em conferências, periódicos e capítulos de livro, principalmente nas áreas de CSCW e HCI. Seus interesses de pesquisa atuais se concentram em projetar e implementar sistemas de crowdsourcing para resolver problemas em uma gama de áreas de aplicação. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Engenharia de Sistemas e Computação",
+      "nome_instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "ano_inicio": "2010",
+      "ano_conclusao": "2015",
+      "descricao": "Título: UMA ABORDAGEM DE COMPUTAÇÃO SOCIAL PARA A CONSTRUÇÃO DE HISTÓRIAS E TRAMAS NOTICIOSAS POR MEIO DA CURADORIA SOCIAL O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2015. Orientador: JANO MOREIRA DE SOUZA. Palavras-chave: Curadoria social; Computação Social; Design Science; Interação Humano-Computador; CSCW. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Sistemas de Informação."
+    },
+    {
+      "tipo": "Mestrado em Engenharia de Sistemas e Computação",
+      "nome_instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "ano_inicio": "2001",
+      "ano_conclusao": "2004",
+      "descricao": "Título: UM AMBIENTE PARA A DEFINICAO E EXECUCAO DE PROCESSOS CUSTOMIZÁVEIS DE PUBLICAÇÃO CIENTÍFICA, Ano de Obtenção: 2004. Orientador: JANO MOREIRA DE SOUZA. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: CSCW; mídia eletrônica; workflow; web semântica. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Banco de Dados."
+    },
+    {
+      "tipo": "Graduação em Bacharelado em Ciência da Computação",
+      "nome_instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "ano_inicio": "1996",
+      "ano_conclusao": "2001",
+      "descricao": "Título: UMA PROPOSTA DE FERRAMENTA DE GERÊNCIA COOPERATIVA DE CONFIGURAÇÃO DE SOFTWARE. Orientador: RICARDO LUIZ SCHNEIDER."
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Universidade Federal Rural do Rio de Janeiro, UFRRJ, Brasil.",
+      "instituicao_nome": "Universidade Federal Rural do Rio de Janeiro",
+      "instituicao_sigla": "UFRRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2011 - 2017",
+      "ano_inicio": "2011",
+      "ano_fim": "2017",
+      "vinculo": "Servidor Público",
+      "enquadramento": "Professor Efetivo",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal Rural do Rio de Janeiro, UFRRJ, Brasil",
+      "instituicao_nome": "Universidade Federal Rural do Rio de Janeiro",
+      "instituicao_sigla": "UFRRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2012 - Atual",
+      "ano_inicio": "2012",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal Rural do Rio de Janeiro, UFRRJ, Brasil",
+      "instituicao_nome": "Universidade Federal Rural do Rio de Janeiro",
+      "instituicao_sigla": "UFRRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "08/2011 - 12/2013",
+      "ano_inicio": "2011",
+      "ano_fim": "2013",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Estácio de Sá, UNESA, Brasil.",
+      "instituicao_nome": "Universidade Estácio de Sá",
+      "instituicao_sigla": "UNESA",
+      "instituicao_pais": "Brasil",
+      "periodo": "2002 - 2011",
+      "ano_inicio": "2002",
+      "ano_fim": "2011",
+      "vinculo": "Celetista formal",
+      "enquadramento": "Professor Auxiliar II",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Estácio de Sá, UNESA, Brasil.",
+      "instituicao_nome": "Universidade Estácio de Sá",
+      "instituicao_sigla": "UNESA",
+      "instituicao_pais": "Brasil",
+      "periodo": "2007 - 2007",
+      "ano_inicio": "2007",
+      "ano_fim": "2007",
+      "vinculo": "Professor",
+      "enquadramento": "Professor de Pós-Graduação",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Estácio de Sá, UNESA, Brasil",
+      "instituicao_nome": "Universidade Estácio de Sá",
+      "instituicao_sigla": "UNESA",
+      "instituicao_pais": "Brasil",
+      "periodo": "02/2003 - 05/2011",
+      "ano_inicio": "2003",
+      "ano_fim": "2011",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Estácio de Sá, UNESA, Brasil",
+      "instituicao_nome": "Universidade Estácio de Sá",
+      "instituicao_sigla": "UNESA",
+      "instituicao_pais": "Brasil",
+      "periodo": "08/2002 - 07/2010",
+      "ano_inicio": "2002",
+      "ano_fim": "2010",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Estácio de Sá, UNESA, Brasil",
+      "instituicao_nome": "Universidade Estácio de Sá",
+      "instituicao_sigla": "UNESA",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/2007 - 12/2007",
+      "ano_inicio": "2007",
+      "ano_fim": "2007",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "COPPE/Sistemas - Universidade Federal do Rio de Janeiro, COPPE, Brasil., COPPE/UFRJ, Brasil.",
+      "instituicao_nome": "COPPE/Sistemas - Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "COPPE",
+      "instituicao_pais": "Brasil.",
+      "periodo": "2010 - 2015",
+      "ano_inicio": "2010",
+      "ano_fim": "2015",
+      "vinculo": "Aluno",
+      "enquadramento": "Aluno de Doutorado",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "COPPE/Sistemas - Universidade Federal do Rio de Janeiro, COPPE, Brasil., COPPE/UFRJ, Brasil.",
+      "instituicao_nome": "COPPE/Sistemas - Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "COPPE",
+      "instituicao_pais": "Brasil.",
+      "periodo": "2005 - 2010",
+      "ano_inicio": "2005",
+      "ano_fim": "2010",
+      "vinculo": "Livre",
+      "enquadramento": "Pesquisador colaborador",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "COPPE/Sistemas - Universidade Federal do Rio de Janeiro, COPPE, Brasil., COPPE/UFRJ, Brasil.",
+      "instituicao_nome": "COPPE/Sistemas - Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "COPPE",
+      "instituicao_pais": "Brasil.",
+      "periodo": "2001 - 2004",
+      "ano_inicio": "2001",
+      "ano_fim": "2004",
+      "vinculo": "Livre",
+      "enquadramento": "Aluno de Mestrado (CAPES)",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "COPPE/Sistemas - Universidade Federal do Rio de Janeiro, COPPE, Brasil",
+      "instituicao_nome": "COPPE/Sistemas - Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "COPPE",
+      "instituicao_pais": "Brasil",
+      "periodo": "09/2010 - Atual",
+      "ano_inicio": "2010",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil.",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2018 - Atual",
+      "ano_inicio": "2018",
+      "ano_fim": "Atual",
+      "vinculo": "Servidor Público",
+      "enquadramento": "Coordenador de Extensão do NCE",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil.",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2018 - Atual",
+      "ano_inicio": "2018",
+      "ano_fim": "Atual",
+      "vinculo": "Servidor Público",
+      "enquadramento": "Membro da Comissão Organizadora da SIAC",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil.",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2017 - Atual",
+      "ano_inicio": "2017",
+      "ano_fim": "Atual",
+      "vinculo": "Servidor Público",
+      "enquadramento": "Professor Adjunto",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil.",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2002 - 2002",
+      "ano_inicio": "2002",
+      "ano_fim": "2002",
+      "vinculo": "Colaborador",
+      "enquadramento": "Professor de Graduação",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil.",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "1996 - 2000",
+      "ano_inicio": "1996",
+      "ano_fim": "2000",
+      "vinculo": "Aluno de Graduação",
+      "enquadramento": "Aluno bolsista",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2002 - 06/2002",
+      "ano_inicio": "2002",
+      "ano_fim": "2002",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "08/1999 - 12/1999",
+      "ano_inicio": "1999",
+      "ano_fim": "1999",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/1999 - 06/1999",
+      "ano_inicio": "1999",
+      "ano_fim": "1999",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "08/1997 - 12/1997",
+      "ano_inicio": "1997",
+      "ano_fim": "1997",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Coordenação de Projetos, Pesquisas e Estudos Tecnológicos, COPPETEC, Brasil.",
+      "instituicao_nome": "Fundação Coordenação de Projetos",
+      "instituicao_sigla": "Pesquisas e Estudos Tecnológicos",
+      "instituicao_pais": "COPPETEC",
+      "periodo": "2001 - 2010",
+      "ano_inicio": "2001",
+      "ano_fim": "2010",
+      "vinculo": "Colaborador",
+      "enquadramento": "Consultor de TI",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Coordenação de Projetos, Pesquisas e Estudos Tecnológicos, COPPETEC, Brasil",
+      "instituicao_nome": "Fundação Coordenação de Projetos",
+      "instituicao_sigla": "Pesquisas e Estudos Tecnológicos",
+      "instituicao_pais": "COPPETEC",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Coordenação de Projetos, Pesquisas e Estudos Tecnológicos, COPPETEC, Brasil.",
+      "instituicao_nome": "Fundação Coordenação de Projetos",
+      "instituicao_sigla": "Pesquisas e Estudos Tecnológicos",
+      "instituicao_pais": "COPPETEC",
+      "periodo": "1999 - 2001",
+      "ano_inicio": "1999",
+      "ano_fim": "2001",
+      "vinculo": "Colaborador",
+      "enquadramento": "Analista de Sistemas",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Coordenação de Projetos, Pesquisas e Estudos Tecnológicos, COPPETEC, Brasil",
+      "instituicao_nome": "Fundação Coordenação de Projetos",
+      "instituicao_sigla": "Pesquisas e Estudos Tecnológicos",
+      "instituicao_pais": "COPPETEC",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Diretoria de Abastecimento da Marinha, DABM, Brasil.",
+      "instituicao_nome": "Diretoria de Abastecimento da Marinha",
+      "instituicao_sigla": "DABM",
+      "instituicao_pais": "Brasil",
+      "periodo": "1999 - 2013",
+      "ano_inicio": "1999",
+      "ano_fim": "2013",
+      "vinculo": "Colaborador",
+      "enquadramento": "Consultor de TI",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Diretoria de Abastecimento da Marinha, DABM, Brasil",
+      "instituicao_nome": "Diretoria de Abastecimento da Marinha",
+      "instituicao_sigla": "DABM",
+      "instituicao_pais": "Brasil",
+      "periodo": "2008 - 2013",
+      "ano_inicio": "2008",
+      "ano_fim": "2013",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Diretoria de Abastecimento da Marinha, DABM, Brasil",
+      "instituicao_nome": "Diretoria de Abastecimento da Marinha",
+      "instituicao_sigla": "DABM",
+      "instituicao_pais": "Brasil",
+      "periodo": "2006 - 2013",
+      "ano_inicio": "2006",
+      "ano_fim": "2013",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Diretoria de Abastecimento da Marinha, DABM, Brasil",
+      "instituicao_nome": "Diretoria de Abastecimento da Marinha",
+      "instituicao_sigla": "DABM",
+      "instituicao_pais": "Brasil",
+      "periodo": "2002 - 2006",
+      "ano_inicio": "2002",
+      "ano_fim": "2006",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Diretoria de Abastecimento da Marinha, DABM, Brasil",
+      "instituicao_nome": "Diretoria de Abastecimento da Marinha",
+      "instituicao_sigla": "DABM",
+      "instituicao_pais": "Brasil",
+      "periodo": "2002 - 2002",
+      "ano_inicio": "2002",
+      "ano_fim": "2002",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Diretoria de Abastecimento da Marinha, DABM, Brasil",
+      "instituicao_nome": "Diretoria de Abastecimento da Marinha",
+      "instituicao_sigla": "DABM",
+      "instituicao_pais": "Brasil",
+      "periodo": "2001 - 2002",
+      "ano_inicio": "2001",
+      "ano_fim": "2002",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Diretoria de Abastecimento da Marinha, DABM, Brasil",
+      "instituicao_nome": "Diretoria de Abastecimento da Marinha",
+      "instituicao_sigla": "DABM",
+      "instituicao_pais": "Brasil",
+      "periodo": "2000 - 2001",
+      "ano_inicio": "2000",
+      "ano_fim": "2001",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Diretoria de Abastecimento da Marinha, DABM, Brasil",
+      "instituicao_nome": "Diretoria de Abastecimento da Marinha",
+      "instituicao_sigla": "DABM",
+      "instituicao_pais": "Brasil",
+      "periodo": "1999 - 2000",
+      "ano_inicio": "1999",
+      "ano_fim": "2000",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Ministério da Defesa, MD, Brasil.",
+      "instituicao_nome": "Ministério da Defesa",
+      "instituicao_sigla": "MD",
+      "instituicao_pais": "Brasil",
+      "periodo": "2005 - 2006",
+      "ano_inicio": "2005",
+      "ano_fim": "2006",
+      "vinculo": "Colaborador",
+      "enquadramento": "Colaborador",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Ministério da Defesa, MD, Brasil",
+      "instituicao_nome": "Ministério da Defesa",
+      "instituicao_sigla": "MD",
+      "instituicao_pais": "Brasil",
+      "periodo": "2005 - 2006",
+      "ano_inicio": "2005",
+      "ano_fim": "2006",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "IBPI Software e Serviços SA, IBPI, Brasil.",
+      "instituicao_nome": "IBPI Software e Serviços SA",
+      "instituicao_sigla": "IBPI",
+      "instituicao_pais": "Brasil",
+      "periodo": "2002 - 2002",
+      "ano_inicio": "2002",
+      "ano_fim": "2002",
+      "vinculo": "Professor Visitante",
+      "enquadramento": "Professor",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "IBPI Software e Serviços SA, IBPI, Brasil",
+      "instituicao_nome": "IBPI Software e Serviços SA",
+      "instituicao_sigla": "IBPI",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "IBPI Software e Serviços SA, IBPI, Brasil",
+      "instituicao_nome": "IBPI Software e Serviços SA",
+      "instituicao_sigla": "IBPI",
+      "instituicao_pais": "Brasil",
+      "periodo": "2002 - 2002",
+      "ano_inicio": "2002",
+      "ano_fim": "2002",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Colégio PH, PH, Brasil.",
+      "instituicao_nome": "Colégio PH",
+      "instituicao_sigla": "PH",
+      "instituicao_pais": "Brasil",
+      "periodo": "1997 - 1999",
+      "ano_inicio": "1997",
+      "ano_fim": "1999",
+      "vinculo": "Celetista formal",
+      "enquadramento": "Monitor",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Colégio PH, PH, Brasil",
+      "instituicao_nome": "Colégio PH",
+      "instituicao_sigla": "PH",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Colégio PH, PH, Brasil",
+      "instituicao_nome": "Colégio PH",
+      "instituicao_sigla": "PH",
+      "instituicao_pais": "Brasil",
+      "periodo": "1997 - 1999",
+      "ano_inicio": "1997",
+      "ano_fim": "1999",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Curso PH, PH, Brasil.",
+      "instituicao_nome": "Curso PH",
+      "instituicao_sigla": "PH",
+      "instituicao_pais": "Brasil",
+      "periodo": "1997 - 1999",
+      "ano_inicio": "1997",
+      "ano_fim": "1999",
+      "vinculo": "Celetista formal",
+      "enquadramento": "Monitor",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Curso PH, PH, Brasil",
+      "instituicao_nome": "Curso PH",
+      "instituicao_sigla": "PH",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Curso PH, PH, Brasil",
+      "instituicao_nome": "Curso PH",
+      "instituicao_sigla": "PH",
+      "instituicao_pais": "Brasil",
+      "periodo": "1997 - 1999",
+      "ano_inicio": "1997",
+      "ano_fim": "1999",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Politécnico da UFRJ, POLI/UFRJ, Brasil.",
+      "instituicao_nome": "Instituto Politécnico da UFRJ",
+      "instituicao_sigla": "POLI/UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2005 - 2006",
+      "ano_inicio": "2005",
+      "ano_fim": "2006",
+      "vinculo": "Professor Visitante",
+      "enquadramento": "Professor de MBA",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Politécnico da UFRJ, POLI/UFRJ, Brasil",
+      "instituicao_nome": "Instituto Politécnico da UFRJ",
+      "instituicao_sigla": "POLI/UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Politécnico da UFRJ, POLI/UFRJ, Brasil",
+      "instituicao_nome": "Instituto Politécnico da UFRJ",
+      "instituicao_sigla": "POLI/UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "05/2005 - 07/2006",
+      "ano_inicio": "2005",
+      "ano_fim": "2006",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Prefeitura da Cidade do Rio de Janeiro, PM/RJ, Brasil.",
+      "instituicao_nome": "Prefeitura da Cidade do Rio de Janeiro",
+      "instituicao_sigla": "PM/RJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2002 - 2002",
+      "ano_inicio": "2002",
+      "ano_fim": "2002",
+      "vinculo": "Professor Visitante",
+      "enquadramento": "Professor",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Prefeitura da Cidade do Rio de Janeiro, PM/RJ, Brasil",
+      "instituicao_nome": "Prefeitura da Cidade do Rio de Janeiro",
+      "instituicao_sigla": "PM/RJ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Prefeitura da Cidade do Rio de Janeiro, PM/RJ, Brasil",
+      "instituicao_nome": "Prefeitura da Cidade do Rio de Janeiro",
+      "instituicao_sigla": "PM/RJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "2002 - 2002",
+      "ano_inicio": "2002",
+      "ano_fim": "2002",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Regiões: história das desigualdades sociais no Brasil (INCT)",
+      "ano_inicio": "2025",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: No Brasil, 1 da população concentra 23 da riqueza e 100 milhões vivem com até 1/2 salário mínimo, sobretudo no Nordeste e no Norte. Mas a maior desigualdade se alastra tanto em estados pobres quanto nos mais ricos, evidenciando-se uma questão política, cuja solução advirá da democracia. Propomos investigar essa complexa desigualdade social a partir do estudo das Grandes Regiões (IBGE), suas interações e especificidades, com o objetivo de a população conhecer sua história e, assim, consolidar a democracia. Para tanto, propõe-se o resgate dos documentos históricos para a criação de bancos de dados a serem disponibilizados. A opinião pública se resignou a entender a miséria e a concentração de renda como herança colonial, naturalizando-a como fenômeno imutável. Tais explicações, sem base documental, revelam o desconhecimento do passado e do presente do país, gerando equívocos no combate à desigualdade, reinventando preconceitos. O argumento de que a desigualdade social é responsabilidade do passado escravista foi criado pelas elites sociais beneficiadas por essa realidade produzida, desde os anos de 1930 pelo capitalismo. Em 1970, o país deixou de ser rural. No campo, a propriedade privada solapou formas costumeiras de acesso à terra e expropriou milhões de lavradores. A concentração fundiária permaneceu, porém, difere do período escravista. Em 2017, nos latifúndios as máquinas continuaram a substituir o trabalho assalariado. No campo e na cidade, antigas práticas de disciplinamento e mandonismo local cederam, em tese, espaço a meios modernos de vigilância, como o CPF. Ao mesmo tempo. Apesar disso, nas redes sociais vicejam ideias antirrepublicanas de hierarquização social. Assim como a desigualdade social, esses fenômenos serão pesquisados observando-se as grandes regiões. Os documentos históricos cuja preservação está prevista na Constituição ao serem analisados, terão seus resultados publicizados e, assim, a sociedade se conhecerá, e poderá enfrentar seus problemas.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Daniel Serrão Schneider - Integrante / Joao Luis Ribeiro Fragoso - Coordenador / Antonio Carlos Jucá de Sampaio - Integrante / Roberto Guedes Ferreira - Integrante / Carmem Alveal - Integrante / Maira Fróes - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Joao Luis Ribeiro Fragoso",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Antonio Carlos Jucá de Sampaio",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Roberto Guedes Ferreira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carmem Alveal",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Maira Fróes",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Acropolis: engajamento do cidadão na curadoria social de histórias de conteúdo noticioso",
+      "ano_inicio": "2015",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Projeto de pesquisa envolvendo o design, a construção e a avaliação simultâneos, e em diversos ciclos de design, da plataforma de Computação Social denominada Acropolis, orientados pela metodologia da Action Design Research (ADR). O objetivo central é avaliar o engajamento do cidadão em tarefas de curadoria de artefatos de cunho noticioso, como forma de engajá-los nas histórias que estão no seu radar. O projeto teve início no ano de 2015, junto com a etapa final da tese de Daniel Schneider, e já produziu desde então mais de 10 publicações em eventos nacionais, internacionais e periódicos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (0) / Especialização: (0) / Mestrado acadêmico: (1) / Mestrado profissional: (0) / Doutorado: (2) . Integrantes: Daniel Serrão Schneider - Coordenador / JANO MOREIRA DE SOUZA - Integrante / Marcio Antelio - Integrante / Edson Melo Lucas - Integrante / Ramon Chaves - Integrante / António Correia - Integrante / Ana Paula Pimentel - Integrante / Claudia Lage Rebello da Motta - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "JANO MOREIRA DE SOUZA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Marcio Antelio",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Edson Melo Lucas",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ramon Chaves",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "António Correia",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ana Paula Pimentel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Claudia Lage Rebello da Motta",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Computação para Multidões e Persuasão em Massa (Cientista do Nosso Estado)",
+      "ano_inicio": "2012",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Neste projeto pretende-se explorar o conceito de Crowd Computing - ainda em discussão e definição, e nesta proposta traduzido como Computação para Multidões - em três subprojetos: (1) redes sociais de apoio à comunicação científica e acadêmica; (2) relacionamento entre notícias (news stories) baseado no conceito de sabedoria das multidões. O conceito de Persuasão em Massa, definido (vagamente) dentro da área de pesquisa de Computação Persuasiva, também será explorado; e (3) multidões e qualidade da informação.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Daniel Serrão Schneider - Integrante / JANO MOREIRA DE SOUZA - Coordenador / JONICE DE OLIVEIRA SAMPAIO - Integrante / WALLACE PINHEIRO - Integrante. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "JANO MOREIRA DE SOUZA",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "JONICE DE OLIVEIRA SAMPAIO",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "WALLACE PINHEIRO",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Projeto QUILHA Fase II",
+      "ano_inicio": "2006",
+      "ano_conclusao": "2009",
+      "descricao": [
+        "Descrição: Conhecer e descrever os processos e atividades realizadas pelos órgãos envolvidos no contexto da atividade gerencial Determinação de Necessidades, detalhando seus problemas, encontrando soluções a serem implementadas e implantadas, e propondo padronização (sempre que possível) e aprimoramento dos processos realizados.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Daniel Serrão Schneider - Integrante / ERCILIA DE STEFANO - Integrante / Giancarlo Cuquel - Coordenador. Financiador(es): Diretoria de Abastecimento da Marinha - Cooperação."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "ERCILIA DE STEFANO",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Giancarlo Cuquel",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Diretoria de Abastecimento da Marinha",
+          "tipo_apoio": "Cooperação"
+        }
+      ]
+    },
+    {
+      "nome": "Projeto CONEWS: Abordagem Colaborativa para Publicação de Notícias",
+      "ano_inicio": "2006",
+      "ano_conclusao": "2007",
+      "descricao": [
+        "Descrição: Estudar modelos de negócio inovadores para a publicação de notícias no ambiente eletrônico. Projetar um ambiente computacional para suportar a definição e execução de workflows colaborativos de publicação de notícias, utilizando tecnologias como Web Semântica, trabalho colaborativo e Web 2.0.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Daniel Serrão Schneider - Coordenador / JANO MOREIRA DE SOUZA - Integrante / ERCILIA DE STEFANO - Integrante. Financiador(es): Fundação Coordenação de Projetos, Pesquisas e Estudos Tecnológicos - Auxílio financeiro. Número de produções C, T & A: 1"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "JANO MOREIRA DE SOUZA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "ERCILIA DE STEFANO",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação Coordenação de Projetos, Pesquisas e Estudos Tecnológicos",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "SocialEduLab - Laboratório de Pesquisa em Tecnologias Educacionais e Socais",
+      "ano_inicio": "2006",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Grupo de Pesquisa que atua em projetos na área de Informática, Educação e Sociedade procurando levar as pesquisas de ponta da área para a Sociedade. As principais linhas de atuação são: Inteligência Coletiva, Sistemas de Recomendação, Combinação Social, Reputação, Aprendizagem de Máquina e Sistemas Baseado em Conhecimento. O ActivUFRJ - Ambiente Coletivo de Trabalho Integrado e Virtual da UFRJ é um dos projetos vinculados a esse grupo de pesquisa.oratório de Pesquisas e desenvolvimento de projetos que envolvam a Construção Coletiva do Conhecimento, Sistemas de Recomendação, Combinação Social, Aprendizagem de Máquina e Sistemas Baseado em Conhecimento. O projeto ActivUFRJ é um dos projetos vinculados.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (20) / Mestrado acadêmico: (20) / Doutorado: (3) . Integrantes: Daniel Serrão Schneider - Coordenador / Carlo Emmanuel Tola de Oliveira - Integrante / Carla Verônica Machado Marques - Integrante / Claudia Lage Rebello da Motta - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Carlo Emmanuel Tola de Oliveira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carla Verônica Machado Marques",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Claudia Lage Rebello da Motta",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Projeto CEJ - Configurable Electronic Journal",
+      "ano_inicio": "2003",
+      "ano_conclusao": "2004",
+      "descricao": [
+        "Descrição: Estudar modelos de negócio inovadores para a publicação científica no ambiente eletrônico. Projetar um ambiente computacional para suportar a definição e execução de processos customizáveis de publicação científica utilizando tecnologias como Web Semântica, anotações e trabalho colaborativo. Discutir questões como acesso aberto a repositórios de publicação, peer-review e infra-estruturas de conhecimento científico.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Daniel Serrão Schneider - Coordenador / JANO MOREIRA DE SOUZA - Integrante / SERGIO PALMA DA JUSTA MEDEIROS - Integrante / GERALDO BONORINO XEXEO - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa. Número de produções C, T & A: 4"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "JANO MOREIRA DE SOUZA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "SERGIO PALMA DA JUSTA MEDEIROS",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "GERALDO BONORINO XEXEO",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    },
+    {
+      "nome": "Socrates: recomendação, combinação social e reputação como estratégias de networking acadêmicas",
+      "ano_inicio": "2003",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Projeto de pesquisa e desenvolvimento de plataformas computacionais utilizando os Sistemas de Recomendação, a Combinação Social e a Reputação como formas de mapear áreas de interesse, habilidades e competências; identificar pares; recomendar artefatos; reputar atividades e combinar pessoas com interesse em comum. Outras linhas de pesquisa relacionadas são: Sistemas Baseados em Conhecimento e Aprendizagem de Máquina. População de interesse: comunidades acadêmicas. Projeto pertencente ao Grupo de Pesquisa SOCIALEDULAB. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (12) / Doutorado: (1) . Integrantes: Daniel Serrão Schneider - Coordenador / Carlo Emmanuel Tola de Oliveira - Integrante / Carla Verônica Machado Marques - Integrante / Claudia Lage Rebello da Motta - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Carlo Emmanuel Tola de Oliveira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carla Verônica Machado Marques",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Claudia Lage Rebello da Motta",
+          "papel": "Integrante"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [
+    {
+      "nome": "Aprendendo a Programar por Intermédio da Mediação Cognitiva",
+      "ano_inicio": "2019",
+      "ano_conclusao": "2026",
+      "descricao": [
+        "Descrição: Este projeto propõe uma nova metodologia de ensino aprendizado de programação com a utilização de ferramentas que ampliam a cognição humana, fazem uso da mediação cognitiva e do método agile. Implementação de uma cultura de construção e elaboração de projetos para programação com objetos e situações reais. Iniciação nos conhecimentos de metacognição, que segundo pesquisadores otimiza o cérebro facilitando um aprendizado mais rápido e efetivo dos conteúdos apresentados. Além disso, indivíduos expostos aos conhecimentos do funcionamento da mente durante o processo de aprendizado criam padrões novos e mais eficientes para adquirir novos conhecimentos. Desenvolvimento de novas ferramentas virtuais que ampliam a cognição humana pelo seu potencial de design construídos com atributos metacognitivos. A introdução do método agile durante a programação das tarefas desenvolve processos de observação, análise, elaboração, planejamento e execução de pequenas tarefas numa formato diferente do convencional. O projeto vislumbra a possibilidade de apresentar aos alunos de Ensino Médio profissionalizante formas novas de aprender a programação. Almeja ao final do processo mudar a forma como os participantes criam padrões de construção de conhecimento.. Situação: Em andamento; Natureza: Extensão. Alunos envolvidos: Mestrado acadêmico: (4) Doutorado: (1) . Integrantes: Daniel Serrão Schneider - Coordenador / Ana Paula Pimentel - Integrante / ALEXANDRE MAGALHÃES RANGEL - Integrante / ANTOANE CHRISTOPHER PONTES WANDERLEY - Integrante."
+      ],
+      "tipo": "Projeto de extensão",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Ana Paula Pimentel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "ALEXANDRE MAGALHÃES RANGEL",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "ANTOANE CHRISTOPHER PONTES WANDERLEY",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Projeto de extensão Activ EaD",
+      "ano_inicio": "2019",
+      "ano_conclusao": "2026",
+      "descricao": [
+        "Descrição: Este projeto propõe uma pesquisa-ação sobre a aplicação do paradigma da metacognição para a mudança cognitiva e modelação cognoscente do sujeito epistêmico em professores do ensino fundamental. A pesquisa se dará através de cursos de formação de professores do ensino fundamental EaD, considerando situações problemas que envolvam o contexto a aplicação integrada de concepções e instrumentos metacognitivos com implicações pedagógicas aplicadas em sala de aula, com os estudantes de redes municipais de educação. Estes cursos serão dados através de uma plataforma EaD inteligente,isto é, com design metacognitivo e dotada de inteligência artificial. Este ambiente virtual é representativo da construção e gerenciamento do conhecimento e da interação entre participantes com seus grupos especialistas e de trabalho, na busca da eficiência cognitiva. Isto implica em desenvolver, em conjunto com os professores, uma metodologia inovadora para estruturar um ambiente metacognitivo virtual de aprendizagem (AVA), isto é, com a entrada para vários participantes simultaneamente navegarem de forma rizomática com base na web semântica. Será utilizado como suporte, equipes executoras formadas por alunos da graduação e pós-graduação que oferecerão oficinas de trabalho presenciais para os professores do curso, estreitando uma interação dialógica, especialmente para disseminar conhecimentos de psicologia e neurociência cognitiva, cognição computacional e cidadania para a boa interação com o meio ambiente. Desta forma, a equipe executora deverá formar professores que estenderão benefícios diretamente aplicados aos seus estudantes e compartilhados com todos os professores matriculados na plataforma ACTIV, através de postagens de planejamentos, registros de atividades pedagógicas e relatórios de resultados finais.. Situação: Em andamento; Natureza: Extensão. Alunos envolvidos: Graduação: (11) / Mestrado acadêmico: (10) / Doutorado: (1) . Integrantes: Daniel Serrão Schneider - Coordenador / Carlo Emmanuel Tola de Oliveira - Integrante / Carla Verônica Machado Marques - Integrante / Claudia Lage Rebello da Motta - Integrante."
+      ],
+      "tipo": "Projeto de extensão",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Carlo Emmanuel Tola de Oliveira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carla Verônica Machado Marques",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Claudia Lage Rebello da Motta",
+          "papel": "Integrante"
+        }
+      ]
+    }
+  ],
+  "projetos_desenvolvimento": [
+    {
+      "nome": "Projeto DW 2.0",
+      "ano_inicio": "2009",
+      "ano_conclusao": "2010",
+      "descricao": [
+        "Descrição: Pesquisa e desenvolvimento do DW 2.0, cujo objetivo é integrar as bases analíticas do Planejamento, do Controle e do repositório DW 1.0.. Situação: Desativado; Natureza: Desenvolvimento. Integrantes: Daniel Serrão Schneider - Coordenador / Julliano Pintas - Integrante / Fernando Morgado - Integrante / Saulo Ribeiro - Integrante / Alexandre Papanis - Integrante / Maurício Munhoz - Integrante. Financiador(es): Diretoria de Abastecimento da Marinha - Cooperação."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Julliano Pintas",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Fernando Morgado",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Saulo Ribeiro",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alexandre Papanis",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Maurício Munhoz",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Diretoria de Abastecimento da Marinha",
+          "tipo_apoio": "Cooperação"
+        }
+      ]
+    },
+    {
+      "nome": "FORM-MUTANTE: Projeto Arquitetural do Subsistema SINGRA-CONTROLE",
+      "ano_inicio": "2005",
+      "ano_conclusao": "2005",
+      "descricao": [
+        "Descrição: Pesquisa científica com o objetivo de projetar uma arquitetura customizada para o subsistema Singra-Controle, baseado em Indicadores de Desempenho do Sistema de Abastecimento da Marinha do Brasil (SAbM).. Situação: Concluído; Natureza: Desenvolvimento. Integrantes: Daniel Serrão Schneider - Coordenador / GLAUCO CASTRO - Integrante / Rógea Rocha - Integrante. Financiador(es): Diretoria de Abastecimento da Marinha - Cooperação. Número de produções C, T & A: 1"
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "GLAUCO CASTRO",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Rógea Rocha",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Diretoria de Abastecimento da Marinha",
+          "tipo_apoio": "Cooperação"
+        }
+      ]
+    },
+    {
+      "nome": "SINGRA-PLAN: Sistema de Suporte a Decisão para Logística Planejamento e Controle de Inventário",
+      "ano_inicio": "2002",
+      "ano_conclusao": "2003",
+      "descricao": [
+        "Descrição: Pesquisa científica com o objetivo de especificar e desenvolver um sistema de suporte a decisão para a gestão de Logística Planejamento e Controle de Inventário.. Situação: Concluído; Natureza: Desenvolvimento. Integrantes: Daniel Serrão Schneider - Coordenador / Giancarlo Cuquel - Integrante. Financiador(es): Diretoria de Abastecimento da Marinha - Cooperação."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Daniel Serrão Schneider",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Giancarlo Cuquel",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Diretoria de Abastecimento da Marinha",
+          "tipo_apoio": "Cooperação"
+        }
+      ]
+    }
+  ],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Banco de Dados",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Linguagens de Programação",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Interação Humano-Computador",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Interação Humano-Computador."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Trabalho Cooperativo Suportado por Computador",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Trabalho Cooperativo Suportado por Computador."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Sistemas de Informação",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Informação."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Aprovado em 1o. lugar em concurso público para Professor Adjunto A na área de IHC, NCE/Universidade Federal do Rio de Janeiro.",
+      "ano": 2017
+    }
+  ],
+  "linhas_de_pesquisa": [],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Natural-Language Mediation Versus Numerical Aggregation in Multi-Stakeholder AI Governance: Capability Boundaries and Architectural Requirements",
+        "ano": 2026,
+        "autores": "UCHOA, ALEXANDRE P. ; OLIVEIRA, CARLO E. T. ; MOTTA, CLAUDIA L. R. ; SCHNEIDER, DANIEL",
+        "revista": "Computers",
+        "volume": "15",
+        "numero": "",
+        "paginas": "24",
+        "issn": "2073-431X",
+        "doi": "http://dx.doi.org/10.3390/computers15010024",
+        "qualis": ""
+      },
+      {
+        "titulo": "Encouraging Sustainable Choices Through Socially Engaged Persuasive Recycling Initiatives: A Participatory Action Design Research Study",
+        "ano": 2025,
+        "autores": "DA SILVA, EMILLY MARQUES ; SCHNEIDER, DANIEL ; MICELI, CLAUDIO ; Correia, António",
+        "revista": "Informatics-Basel",
+        "volume": "12",
+        "numero": "",
+        "paginas": "5",
+        "issn": "2227-9709",
+        "doi": "http://dx.doi.org/10.3390/informatics12010005",
+        "qualis": ""
+      },
+      {
+        "titulo": "Charting a course at the human-AI frontier: a paradigm matrix informed by social sciences and humanities",
+        "ano": 2025,
+        "autores": "CHAVES, RAMON ; Barbosa, Carlos Eduardo ; DE OLIVEIRA, GUSTAVO ARAUJO ; LYRA, ALAN ; ARGÔLO, MATHEUS ; SALAZAR, HERBERT ; LIMA, YURI ; SCHNEIDER, DANIEL ; Correia, António ; DE SOUZA, JANO MOREIRA",
+        "revista": "AI & Society",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1",
+        "issn": "0951-5666",
+        "doi": "http://dx.doi.org/10.1007/s00146-025-02295-w",
+        "qualis": ""
+      },
+      {
+        "titulo": "Human-Artificial Intelligence (AI) Interaction: Latest Advances and Prospects",
+        "ano": 2025,
+        "autores": "Correia, António ; SCHNEIDER, DANIEL ; Fonseca, Benjamim ; KÄRKKÄINEN, TOMMI",
+        "revista": "Applied Sciences-Basel",
+        "volume": "15",
+        "numero": "",
+        "paginas": "12218",
+        "issn": "2076-3417",
+        "doi": "http://dx.doi.org/10.3390/app152212218",
+        "qualis": ""
+      },
+      {
+        "titulo": "Driving the Emergence of Self-managed Enterprises of Crowdworkers: A Survey and Review of Motivating Factors",
+        "ano": 2025,
+        "autores": "UCHOA, ALEXANDRE ; SCHNEIDER, DANIEL",
+        "revista": "LECTURE NOTES IN BUSINESS INFORMATION PROCESSING",
+        "volume": "567",
+        "numero": "",
+        "paginas": "63-88",
+        "issn": "1865-1356",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Pipeline for AI-Based Quantitative Studies of Science Enhanced by Crowdsourced Inferential Modelling",
+        "ano": 2025,
+        "autores": "CORREIA, A. ; KARKKAINEN, T. ; JAMEEL, S. ; SCHNEIDER, DANIEL ; ANTUNES, PEDRO ; Fonseca, Benjamim ; GROVER, ANDREA",
+        "revista": "Lecture Notes in Networks and Systems (LNNS)",
+        "volume": "1226",
+        "numero": "",
+        "paginas": "291-300",
+        "issn": "2367-3389",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Tailoring Treatment in the Age of AI: A Systematic Review of Large Language Models in Personalized Healthcare",
+        "ano": 2025,
+        "autores": "SOUZA, GIORDANO DE PINHO ; MELO, GLAUCIA ; SCHNEIDER, DANIEL",
+        "revista": "Informatics-Basel",
+        "volume": "12",
+        "numero": "",
+        "paginas": "113",
+        "issn": "2227-9709",
+        "doi": "http://dx.doi.org/10.3390/informatics12040113",
+        "qualis": ""
+      },
+      {
+        "titulo": "Switching Off to Switch On: An Ontological Inquiry into the Many Facets of Digital Well-Being",
+        "ano": 2024,
+        "autores": "NASCIMENTO, M. ; MOTTA, C. L. R. ; CORREIA, A. ; SCHNEIDER, DANIEL",
+        "revista": "LECTURE NOTES IN COMPUTER SCIENCE (INTERNET)",
+        "volume": "1",
+        "numero": "",
+        "paginas": "153-162",
+        "issn": "1611-3349",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Designing for Hybrid Intelligence: A Taxonomy and Survey of Crowd-Machine Interaction",
+        "ano": 2023,
+        "autores": "Correia, António ; GROVER, ANDREA ; SCHNEIDER, DANIEL ; PIMENTEL, ANA PAULA ; CHAVES, RAMON ; DE ALMEIDA, MARCOS ANTONIO ; Fonseca, Benjamim",
+        "revista": "Applied Sciences-Basel",
+        "volume": "13",
+        "numero": "",
+        "paginas": "2198",
+        "issn": "2076-3417",
+        "doi": "http://dx.doi.org/10.3390/app13042198",
+        "qualis": ""
+      },
+      {
+        "titulo": "A hybrid human-AI tool for scientometric analysis",
+        "ano": 2023,
+        "autores": "Correia, António ; GROVER, ANDREA ; JAMEEL, SHOAIB ; SCHNEIDER, DANIEL ; ANTUNES, PEDRO ; Fonseca, Benjamim",
+        "revista": "ARTIFICIAL INTELLIGENCE REVIEW",
+        "volume": "56",
+        "numero": "",
+        "paginas": "1",
+        "issn": "0269-2821",
+        "doi": "http://dx.doi.org/10.1007/s10462-023-10548-7",
+        "qualis": ""
+      },
+      {
+        "titulo": "NLP-Crowdsourcing Hybrid Framework for Inter-Researcher Similarity Detection",
+        "ano": 2023,
+        "autores": "Correia, António ; GUIMARÃES, DIOGO ; Paredes, Hugo ; Fonseca, Benjamim ; PAULINO, DENNIS ; TRIGO, LUÍS ; BRAZDIL, PAVEL ; SCHNEIDER, DANIEL ; GROVER, ANDREA ; JAMEEL, SHOAIB",
+        "revista": "IEEE Transactions on Human-Machine Systems",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1-10",
+        "issn": "2168-2291",
+        "doi": "http://dx.doi.org/10.1109/THMS.2023.3319290",
+        "qualis": ""
+      },
+      {
+        "titulo": "Data science supporting a question classifier model",
+        "ano": 2022,
+        "autores": "JARDIM, RAFAEL ; DELGADO, CARLA ; SCHNEIDER, DANIEL",
+        "revista": "PROCEDIA COMPUTER SCIENCE",
+        "volume": "199",
+        "numero": "",
+        "paginas": "1237-1243",
+        "issn": "1877-0509",
+        "doi": "http://dx.doi.org/10.1016/j.procs.2022.01.157",
+        "qualis": ""
+      },
+      {
+        "titulo": "Knowledge-Oriented Models Based on Developer-Artifact and Developer-Developer Interactions",
+        "ano": 2020,
+        "autores": "LUCAS, EDSON M. ; OLIVEIRA, TOACY C. ; SCHNEIDER, DANIEL ; ALENCAR, PAULO S. C.",
+        "revista": "IEEE Access",
+        "volume": "8",
+        "numero": "",
+        "paginas": "218702-218719",
+        "issn": "2169-3536",
+        "doi": "http://dx.doi.org/10.1109/ACCESS.2020.3042429",
+        "qualis": ""
+      },
+      {
+        "titulo": "Mobile Device Detection through WiFi Probe Request Analysis",
+        "ano": 2019,
+        "autores": "OLIVEIRA, LUIZ ; SCHNEIDER, DANIEL ; DE SOUZA, JANO ; SHEN, WEIMING",
+        "revista": "IEEE Access",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1-1",
+        "issn": "2169-3536",
+        "doi": "http://dx.doi.org/10.1109/ACCESS.2019.2925406",
+        "qualis": ""
+      },
+      {
+        "titulo": "Crowdsourcing as a Tool for Urban Emergency Management: Lessons from the Literature and Typology",
+        "ano": 2019,
+        "autores": "CHAVES, RAMON ; SCHNEIDER, DANIEL ; Correia, António ; MOTTA, CLAUDIA L. R. ; BORGES, MARCOS R. S.",
+        "revista": "SENSORS",
+        "volume": "19",
+        "numero": "",
+        "paginas": "5235",
+        "issn": "1424-8220",
+        "doi": "http://dx.doi.org/10.3390/s19235235",
+        "qualis": ""
+      },
+      {
+        "titulo": "Crowdsourcing and massively collaborative science: a systematic literature review and mapping study",
+        "ano": 2018,
+        "autores": "CORREIA, ANTONIO ; SCHNEIDER, DANIEL ; Fonseca, Benjamim ; Paredes, Hugo",
+        "revista": "LECTURE NOTES IN COMPUTER SCIENCE (INTERNET)",
+        "volume": "1",
+        "numero": "",
+        "paginas": "133-154",
+        "issn": "1611-3349",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "SciCrowd: Towards a Hybrid, Crowd-Computing System for Supporting Research Groups in Academic Settings",
+        "ano": 2018,
+        "autores": "CORREIA, A. ; SCHNEIDER, DANIEL ; Paredes, Hugo ; Fonseca, Benjamim",
+        "revista": "LECTURE NOTES IN COMPUTER SCIENCE (INTERNET)",
+        "volume": "1",
+        "numero": "",
+        "paginas": "34-41",
+        "issn": "1611-3349",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Designing, building and evaluating a social news curation environment using the action design research methodology",
+        "ano": 2017,
+        "autores": "SCHNEIDER, DANIEL; OLIVEIRA, LUIZ FELIPE ; DE SOUZA, JANO",
+        "revista": "Cluster Computing-The Journal of Networks Software Tools and Applications",
+        "volume": "20",
+        "numero": "",
+        "paginas": "1-18",
+        "issn": "1386-7857",
+        "doi": "http://dx.doi.org/10.1007/s10586-017-0781-z",
+        "qualis": ""
+      },
+      {
+        "titulo": "Crowd sensing to monitor the waiting time of day-to-day services",
+        "ano": 2017,
+        "autores": "OLIVEIRA, L. ; SCHNEIDER, DANIEL ; DE SOUZA, J. M. ; RODRIGUES, S. A.",
+        "revista": "INTERNATIONAL JOURNAL OF COMPUTER SCIENCE: THEORY AND APPLICATION",
+        "volume": "2017",
+        "numero": "",
+        "paginas": "1",
+        "issn": "2336-0984",
+        "doi": "http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49",
+        "qualis": ""
+      },
+      {
+        "titulo": "Construindo um ambiente de curadoria para engajar o cidadão em histórias noticiosas: um caso da metodologia ADR",
+        "ano": 2016,
+        "autores": "SCHNEIDER, DANIEL; DE SOUZA, JANO",
+        "revista": "RISTI (PORTO)",
+        "volume": "2016",
+        "numero": "",
+        "paginas": "99-114",
+        "issn": "1646-9895",
+        "doi": "http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49",
+        "qualis": ""
+      },
+      {
+        "titulo": "CEJ ? An Environment for Flexible Definition and Execution of Scientific Publication Processes",
+        "ano": 2004,
+        "autores": "SCHNEIDER, DANIEL; DE SOUZA, JANO MOREIRA ; MEDEIROS, S. P. J. ; XEXEO, GERALDO",
+        "revista": "LECTURE NOTES IN COMPUTER SCIENCE (INTERNET)",
+        "volume": "3168",
+        "numero": "",
+        "paginas": "165",
+        "issn": "1611-3349",
+        "doi": "",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [],
+    "capitulos_livros": [
+      {
+        "titulo": "AI and Digital Nomads: Glimpsing the Future Human-Computer Interaction. Communications in Computer and Information Science. 1ed",
+        "ano": 2025,
+        "autores": "DE ALMEIDA, MARCOS ANTONIO ; Correia, António ; Barbosa, Carlos Eduardo ; DE SOUZA, JANO MOREIRA ; SCHNEIDER, DANIEL",
+        "titulo_livro": "",
+        "editora": "Springer Nature Switzerland",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "198-211"
+      },
+      {
+        "titulo": "Switching Off to Switch On: An Ontological Inquiry into the Many Facets of Digital Well-Being. Lecture Notes in Computer Science. 1ed",
+        "ano": 2024,
+        "autores": "Nascimento, Mariangela ; MOTTA, CLAUDIA ; Correia, António ; SCHNEIDER, DANIEL",
+        "titulo_livro": "",
+        "editora": "Springer Nature Switzerland",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "153-162"
+      },
+      {
+        "titulo": "Empirical Investigation of the Factors Influencing Researchers? Adoption of Crowdsourcing and Machine Learning",
+        "ano": 2020,
+        "autores": "CORREIA, A. ; SCHNEIDER, DANIEL ; JAMEEL, S. ; Paredes, Hugo ; Fonseca, Benjamim",
+        "titulo_livro": "",
+        "editora": "Springer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "1257-1270"
+      },
+      {
+        "titulo": "Hybrid Machine-Crowd Interaction for Handling Complexity: Steps Toward a Scaffolding Design Framework",
+        "ano": 2019,
+        "autores": "Correia, António ; JAMEEL, SHOAIB ; Paredes, Hugo ; Fonseca, Benjamim ; SCHNEIDER, DANIEL",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "149-161"
+      },
+      {
+        "titulo": "SciCrowd: Towards a Hybrid, Crowd-Computing System for Supporting Research Groups in Academic Settings. Lecture Notes in Computer Science. 1ed",
+        "ano": 2018,
+        "autores": "Correia, António ; SCHNEIDER, DANIEL ; Paredes, Hugo ; Fonseca, Benjamim",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "34-41"
+      },
+      {
+        "titulo": "Crowdsourcing and Massively Collaborative Science: A Systematic Literature Review and Mapping Study. Lecture Notes in Computer Science. 1ed",
+        "ano": 2018,
+        "autores": "Correia, António ; SCHNEIDER, DANIEL ; Fonseca, Benjamim ; Paredes, Hugo",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "133-154"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "Persuasive Smart Bin Technology for Sustainable Behavior: A Case Study of Recycling",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1109/CSCWD64889.2025.11033523",
+        "autores": "DA SILVA, EMILLY MARQUES ; SCHNEIDER, DANIEL ; MICELI, CLAUDIO ; Correia, António",
+        "evento": "2025 28th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "630",
+        "isbn": ""
+      },
+      {
+        "titulo": "FOMO as a Trigger to Embrace the Digital Nomad Lifestyle",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1109/cscwd64889.2025.11033267",
+        "autores": "DE ALMEIDA, MARCOS ANTONIO ; DE SOUZA NASCIMENTO, MARIANGELA GOMES ; Correia, António ; Barbosa, Carlos Eduardo ; DE SOUZA, JANO MOREIRA ; SCHNEIDER, DANIEL",
+        "evento": "2025 28th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "2177",
+        "isbn": ""
+      },
+      {
+        "titulo": "¿Is It Future or Is It Past?¿: From Self-contained Microtasks to AI-driven Collaborative Crowdsourcing",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1109/ichora65333.2025.11017036",
+        "autores": "SCHNEIDER, DANIEL; DE ALMEIDA, MARCOS ANTONIO ; CHAVES, RAMON ; Fonseca, Benjamim ; MOHSENI, HESAM ; Correia, António",
+        "evento": "2025 7th International Congress on HumanComputer Interaction",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "AI-mediated Collaborative Crowdsourcing for Social News Curation: The Case of Acropolis",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1145/3706370.3731644",
+        "autores": "SCHNEIDER, DANIEL; CHAVES, RAMON ; PIMENTEL, ANA PAULA ; DE ALMEIDA, MARCOS ANTONIO ; DE SOUZA, JANO MOREIRA ; Correia, António",
+        "evento": "IMX '25: ACM International Conference on Interactive Media Experiences",
+        "cidade": "",
+        "paginas": "395",
+        "isbn": ""
+      },
+      {
+        "titulo": "Attention-Capture Damaging Patterns in UI Design : In Search of a Socio-Technical Mitigation Strategy",
+        "ano": 2025,
+        "doi": "",
+        "autores": "GOMES, T. ; SCHNEIDER, DANIEL ; CORREIA, A.",
+        "evento": "Workshops at the International Conference on Intelligent User Interfaces (IUI) 2025",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Unveiling the Expanding Landscape of Attention-Capture Damaging Patterns",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5220/0013440100003929",
+        "autores": "GOMES, TALES ; Correia, António ; DE SOUZA, JANO ; SCHNEIDER, DANIEL",
+        "evento": "27th International Conference on Enterprise Information Systems",
+        "cidade": "",
+        "paginas": "622",
+        "isbn": ""
+      },
+      {
+        "titulo": "Collaborative Model for Developing Computing Skills in Basic Education",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5220/0013439500003932",
+        "autores": "SCHEFFEL, ERICA ; SCHNEIDER, DANIEL ; MOTTA, CLAUDIA",
+        "evento": "17th International Conference on Computer Supported Education",
+        "cidade": "",
+        "paginas": "942",
+        "isbn": ""
+      },
+      {
+        "titulo": "Cognitive Ethical Design and Evaluation of Productive Reinforcing Spiral Model to Mitigate the Challenge of Extreme Polarization",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1109/CSCWD64889.2025.11033464",
+        "autores": "CAMARGO PIMENTEL, ANA PAULA ; MOTTA, CLAUDIA ; Correia, António ; DE SOUZA, JANO MOREIRA ; SCHNEIDER, DANIEL",
+        "evento": "2025 28th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "2410",
+        "isbn": ""
+      },
+      {
+        "titulo": "Impacto do Uso Intensivo de Redes Sociais no Bem-Estar Digital de Indivíduos de Instituições Públicas",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbsc_estendido.2025.8656",
+        "autores": "VILLALBA, DOUGLAS ; DIAS, ANGÉLICA ; SCHNEIDER, DANIEL",
+        "evento": "Anais Estendidos do Simpósio Brasileiro de Sistemas Colaborativos",
+        "cidade": "",
+        "paginas": "58",
+        "isbn": ""
+      },
+      {
+        "titulo": "AI-augmented Collaboration in Crowdsourcing: Threats and Opportunities",
+        "ano": 2025,
+        "doi": "",
+        "autores": "CHAVES, RAMON ; SCHNEIDER, DANIEL ; SOUZA, J. ; Mohseni, Hesam ; CORREIA, A.",
+        "evento": "Fourth International Conference on Hybrid Human-Artificial Intelligence (HHAI 2025)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Between Likes and Silence: Activity and Passivity on Social Media and Their Impact on Mental Health",
+        "ano": 2025,
+        "doi": "",
+        "autores": "MARTINS, C. ; MOTTA, C. L. R. ; DE SOUZA, JANO MOREIRA ; SCHNEIDER, DANIEL",
+        "evento": "International Conference on Computer-Human Interaction Research and Applications (CHIRA)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Human-Centred LLMs in Personalized Healthcare: A Survey",
+        "ano": 2025,
+        "doi": "",
+        "autores": "SOUZA, G. P. ; MELO, G. ; SCHNEIDER, DANIEL",
+        "evento": "International Conference on Computer-Human Interaction Research and Applications (CHIRA)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Multi-Stakeholder Alignment in LLM-Powered Collaborative AI Systems: A Multi-Agent Framework for Intelligent Tutoring",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.48550/arXiv.2510.23245",
+        "autores": "UCHOA, ALEXANDRE ; OLIVEIRA, C. E. T. ; MOTTA, C. L. R. ; SCHNEIDER, DANIEL",
+        "evento": "International Conference on Computer-Human Interaction Research and Applications (CHIRA)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Designing for (Digital) Nomad-AI Interaction",
+        "ano": 2025,
+        "doi": "",
+        "autores": "SCHNEIDER, DANIEL; DE ALMEIDA, MARCOS ANTONIO ; NASCIMENTO, M. ; Correia, António ; DE SOUZA, JANO MOREIRA",
+        "evento": "International Conference on Computer-Human Interaction Research and Applications (CHIRA)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Inteligência Artificial como Ferramenta de Aprendizagem na Educação Básica: Relato de Experiência",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/eramiars.2025.16304",
+        "autores": "SCHEFFEL, ERICA ; VIDAL, J. ; FERREIRA, G. ; LACERDA, P. P. ; COUTINHO, N. ; TAVARES, B. ; SCHNEIDER, DANIEL ; MOTTA, C. L. R.",
+        "evento": "I Escola Regional de Aprendizado de Máquina e Inteligência Artificial da Região Sul (ERAMIA-RS 2025)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uncertainties and Emerging Uses of Human-Ai Medical Diagnosis in Collaborative Clinical Practice",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1109/ISMSIT67332.2025.11267990",
+        "autores": "Correia, António ; Fonseca, Benjamim ; SCHNEIDER, DANIEL ; CHAVES, RAMON ; KÄRKKÄINEN, TOMMI",
+        "evento": "2025 9th International Symposium on Multidisciplinary Studies and Innovative Technologies (ISMSIT)",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "Promoting Ethical, Sustainable, and Trustworthy Practices in Digital Media Platform Design",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1109/ISMSIT67332.2025.11267928",
+        "autores": "SCHNEIDER, DANIEL; GOMES, TALES ; DE JESUS, ELIZABETH MARIA FREIRE ; DE SOUZA, JANO MOREIRA ; Correia, António",
+        "evento": "2025 9th International Symposium on Multidisciplinary Studies and Innovative Technologies (ISMSIT)",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "Understanding the Factors Influencing Self-Managed Enterprises of Crowdworkers: A Comprehensive Review",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5220/0012703600003690",
+        "autores": "UCHOA, ALEXANDRE ; SCHNEIDER, DANIEL",
+        "evento": "26th International Conference on Enterprise Information Systems",
+        "cidade": "",
+        "paginas": "410",
+        "isbn": ""
+      },
+      {
+        "titulo": "Designing and Building a Low-Cost IoT Solution for Natural Disaster Monitoring and Mitigation: An Experience Report",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5220/0012703900003690",
+        "autores": "COSTA, ANSELMO ; MOTTA, CLAUDIA ; SCHNEIDER, DANIEL",
+        "evento": "26th International Conference on Enterprise Information Systems",
+        "cidade": "",
+        "paginas": "1005",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring Personal Knowledge Ecologies: Dealing with Digital Platform Asymmetries",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1109/CSCWD61410.2024.10580701",
+        "autores": "DE ALMEIDA, MARCOS ANTONIO ; DE SOUZA, JANO MOREIRA ; Correia, António ; SCHNEIDER, DANIEL",
+        "evento": "2024 27th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "1417",
+        "isbn": ""
+      },
+      {
+        "titulo": "And Justice for Art(ists): Metaphorical Design as a Method for Creating Culturally Diverse Human-AI Music Composition Experiences",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1109/HORA61326.2024.10550680",
+        "autores": "Correia, António ; SCHNEIDER, DANIEL ; Fonseca, Benjamim ; MOHSENI, HESAM ; KUJALA, TUOMO ; KÄRKKÄINEN, TOMMI",
+        "evento": "2024 International Congress on HumanComputer Interaction",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "Switching Off to Switch On: An Ontological Inquiry into the Many Facets of Digital Well-Being",
+        "ano": 2024,
+        "doi": "",
+        "autores": "NASCIMENTO, M. ; MOTTA, C. L. R. ; CORREIA, A. ; SCHNEIDER, DANIEL",
+        "evento": "International Conference on Human-Computer Interaction",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "?Do I Belong Here, There, or Elsewhere??: The Materiality and Intangible Benefits of Technology in Digital Nomads? Place-Belongingness",
+        "ano": 2024,
+        "doi": "",
+        "autores": "Mohseni, Hesam ; DE ALMEIDA, MARCOS ANTONIO ; SCHNEIDER, DANIEL ; CORREIA, A.",
+        "evento": "IEEE 8th International Symposium on Multidisciplinary Studies and Innovative Technologies",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Stigmergy in Crowdsourcing and Task Fingerprinting: Study on Behavioral Traces of Weather Experts in Interaction Logs",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1109/CSCWD57460.2023.10152765",
+        "autores": "PAULINO, DENNIS ; CORREIA, ANTONIO ; GUIMARÃES, DIOGO ; CHAVES, RAMON ; MELO, GLAUCIA ; SCHNEIDER, DANIEL ; BARROSO, JOÃO ; Paredes, Hugo",
+        "evento": "2023 26th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "1293",
+        "isbn": ""
+      },
+      {
+        "titulo": "Mapping Tokenomics Arrangements to Expand the Digital Nomad Ecosystem",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1109/cscwd57460.2023.10152859",
+        "autores": "DE ALMEIDA, MARCOS ANTONIO ; Correia, António ; DE SOUZA, JANO MOREIRA ; SCHNEIDER, DANIEL",
+        "evento": "2023 26th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "167",
+        "isbn": ""
+      },
+      {
+        "titulo": "Agenda of Solutions to Mitigate the Challenge of Polarization of Extreme Positions in Social Media Environments",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1109/cscwd57460.2023.10152674",
+        "autores": "PIMENTEL, ANA PAULA ; MOTTA, CLAUDIA ; Correia, António ; SCHNEIDER, DANIEL",
+        "evento": "2023 26th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "1944",
+        "isbn": ""
+      },
+      {
+        "titulo": "MetColab - Uma aplicação colaborativa Iot para gestão e controle de dados meteorológicos da Cidade de Macaé com apoio da Universidade, Rede Escolar Municipal e Defesa Civil",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.5753/sbsc_estendido.2023.229100",
+        "autores": "COSTA, ANSELMO P. R. ; MOTTA, CLAUDIA L. R. ; SCHNEIDER, DANIEL",
+        "evento": "Anais Estendidos do Simpósio Brasileiro de Sistemas Colaborativos",
+        "cidade": "",
+        "paginas": "26",
+        "isbn": ""
+      },
+      {
+        "titulo": "Os Benefícios de Ser Polarizado nas Redes Sociais: Há?",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.5753/sbsc_estendido.2023.229144",
+        "autores": "PIMENTEL, ANA PAULA ; DE OLIVEIRA, EDUARDO G. ; SCHNEIDER, DANIEL ; MOTTA, CLAUDIA",
+        "evento": "Anais Estendidos do Simpósio Brasileiro de Sistemas Colaborativos",
+        "cidade": "",
+        "paginas": "98",
+        "isbn": ""
+      },
+      {
+        "titulo": "Tensions in design and participation processes: An ethnographic approach to the design, building and evaluation of a collective intelligence model",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1109/cscwd57460.2023.10152565",
+        "autores": "CHAVES, RAMON ; MOTTA, CLAUDIA ; CORREIA, ANTONIO ; DE SOUZA, JANO ; SCHNEIDER, DANIEL",
+        "evento": "2023 26th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "462",
+        "isbn": ""
+      },
+      {
+        "titulo": "Investigating Author Research Relatedness through Crowdsourcing: A Replication Study on MTurk",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1109/CSCWD57460.2023.10152707",
+        "autores": "Correia, António ; PAULINO, DENNIS ; Paredes, Hugo ; GUIMARÃES, DIOGO ; SCHNEIDER, DANIEL ; Fonseca, Benjamim",
+        "evento": "2023 26th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "77",
+        "isbn": ""
+      },
+      {
+        "titulo": "Understanding the Support of IoT and Persuasive Technology for Smart Bin Design: A Scoping Review",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1109/CSCWD57460.2023.10152762",
+        "autores": "DA SILVA, EMILLY MARQUES ; Correia, António ; MICELI, CLAUDIO ; SCHNEIDER, DANIEL",
+        "evento": "2023 26th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "193",
+        "isbn": ""
+      },
+      {
+        "titulo": "A pipeline for AI-based quantitative studies of science enhanced by crowdsourced inferential modelling",
+        "ano": 2023,
+        "doi": "",
+        "autores": "CORREIA, A. ; KARKKAINEN, T. ; JAMEEL, S. ; SCHNEIDER, DANIEL ; ANTUNES, PEDRO ; Fonseca, Benjamim ; GROVER, ANDREA",
+        "evento": "23rd International Conference on Hybrid Intelligent Systems (HIS)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Post-Covid-19 Digital Nomadism: Beyond Work from (Almost) Anywhere",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1109/SMC53992.2023.10393872",
+        "autores": "DE ALMEIDA, MARCOS ANTONIO ; DE SOUZA, JANO MOREIRA ; Correia, António ; SCHNEIDER, DANIEL",
+        "evento": "2023 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "4605",
+        "isbn": ""
+      },
+      {
+        "titulo": "Ensino e Covid: fiscalize! Uma aplicação colaborativa para verificar o cumprimento dos protocolos de retomada das aulas presenciais em Macaé",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.5753/sbsc.2022.19469",
+        "autores": "SCHEFFEL, ERICA J. S. ; COSTA, ANSELMO P. R. ; XAVIER, MARCOS A. G. ; MOTTA, CLAUDIA L. R. ; SCHNEIDER, DANIEL",
+        "evento": "Simpósio Brasileiro de Sistemas Colaborativos",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "Crowd and Urban Storytelling: Evaluating a Collective Intelligence Model to Support Discussions about the City",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/cscwd54268.2022.9776217",
+        "autores": "CHAVES, RAMON ; MOTTA, CLAUDIA ; CORREIA, ANTONIO ; Paredes, Hugo ; CAETANO, BARBARA ; DE SOUZA, JANO MOREIRA ; SCHNEIDER, DANIEL",
+        "evento": "2022 IEEE 25th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "1473",
+        "isbn": ""
+      },
+      {
+        "titulo": "Digital Nomads during the COVID-19 Pandemic: Evidence from Narratives on Reddit discussions",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/CSCWD54268.2022.9776240",
+        "autores": "DE ALMEIDA, MARCOS ANTONIO ; CORREIA, ANTONIO ; DE SOUZA, JANO MOREIRA ; SCHNEIDER, DANIEL",
+        "evento": "2022 IEEE 25th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "1510",
+        "isbn": ""
+      },
+      {
+        "titulo": "Crowd Inspection of Compliance with Covid-19 Safety Protocols in Schools",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/cscwd54268.2022.9776219",
+        "autores": "SCHEFFEL, ERICA J. S. ; COSTA, ANSELMO P. R. ; XAVIER, MARCOS A. G. ; CARVALHO, PAULO V. R. ; MOTTA, CLAUDIA L. R. ; SCHNEIDER, DANIEL",
+        "evento": "2022 IEEE 25th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "1498",
+        "isbn": ""
+      },
+      {
+        "titulo": "Sistema de Recomendação em Grafos utilizando Influência Coletiva",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.5753/semish.2022.223031",
+        "autores": "PONCIANO, V. S. ; MOTTA, C. L. R. ; SCHNEIDER, D. S. ; QUEIRÓZ, A. B. ; OLIVEIRA, R. L.",
+        "evento": "Seminário Integrado de Software e Hardware",
+        "cidade": "",
+        "paginas": "200",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Role of Wannabes in the Digital Nomad Ecosystem in Times of Pandemic",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/smc53654.2022.9945599",
+        "autores": "ANTONIO DE ALMEIDA, MARCOS ; MOREIRA DE SOUZA, JANO ; CORREIA, ANTONIO ; SCHNEIDER, DANIEL",
+        "evento": "2022 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "3354",
+        "isbn": ""
+      },
+      {
+        "titulo": "Crowdsourcing Urban Narratives for a Post-Pandemic World",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/CSCWD49262.2021.9437759",
+        "autores": "CHAVES, RAMON ; SCHNEIDER, DANIEL ; MOTTA, CLAUDIA ; CORREIA, ANTONIO ; Paredes, Hugo ; CAETANO, BARBARA ; DE SOUZA, JANO MOREIRA",
+        "evento": "2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "894",
+        "isbn": ""
+      },
+      {
+        "titulo": "AuthCrowd: Author Name Disambiguation and Entity Matching using Crowdsourcing",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/CSCWD49262.2021.9437769",
+        "autores": "CORREIA, ANTONIO ; GUIMARAES, DIOGO ; PAULINO, DENNIS ; JAMEEL, SHOAIB ; SCHNEIDER, DANIEL ; Fonseca, Benjamim ; Paredes, Hugo",
+        "evento": "2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "150",
+        "isbn": ""
+      },
+      {
+        "titulo": "Scientometric Research Assessment of IEEE CSCWD Conference Proceedings: An Exploratory Analysis from 2001 to 2019",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/CSCWD49262.2021.9437679",
+        "autores": "CORREIA, ANTONIO ; PAULINO, DENNIS ; Paredes, Hugo ; Fonseca, Benjamim ; JAMEEL, SHOAIB ; SCHNEIDER, DANIEL ; DE SOUZA, JANO MOREIRA",
+        "evento": "2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "311",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Use of Social News Curation to Empower Citizens and Journalists: Findings of A Focus Group Study with Professional Curators",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/CSCWD49262.2021.9437856",
+        "autores": "SCHNEIDER, DANIEL; CORREIA, ANTONIO ; DE SOUZA, JANO MOREIRA",
+        "evento": "2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "1184",
+        "isbn": ""
+      },
+      {
+        "titulo": "COVID-19 as Opportunity to Test Digital Nomad Lifestyle",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/CSCWD49262.2021.9437685",
+        "autores": "DE ALMEIDA, MARCOS ANTONIO ; CORREIA, ANTONIO ; SCHNEIDER, DANIEL ; DE SOUZA, JANO MOREIRA",
+        "evento": "2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "1209",
+        "isbn": ""
+      },
+      {
+        "titulo": "Determinants and Predictors of Intentionality and Perceived Reliability in Human-AI Interaction as a Means for Innovative Scientific Discovery",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/BigData52589.2021.9671358",
+        "autores": "CORREIA, ANTONIO ; Fonseca, Benjamim ; Paredes, Hugo ; CHAVES, RAMON ; SCHNEIDER, DANIEL ; JAMEEL, SHOAIB",
+        "evento": "2021 IEEE International Conference on Big Data (Big Data)",
+        "cidade": "",
+        "paginas": "3681",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modelo Conceitual para Sistemas de Recomendação voltados a Governo Eletrônico com o uso do Cadastro Base do Cidadão",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.5753/wcge.2021.15990",
+        "autores": "MOISINHO, ALINE M. ; SILVA, EMILY G. M. DA ; SILVA JR, PAULO F. ; SCHNEIDER, DANIEL ; MOTTA, CLAUDIA L. R.",
+        "evento": "Workshop de Computação Aplicada em Governo Eletrônico",
+        "cidade": "",
+        "paginas": "215",
+        "isbn": ""
+      },
+      {
+        "titulo": "Maquete Ferroviária: O Exercício do Pensamento Computacional por meio da Robótica Educacional de Acesso Livre",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.5753/educomp_estendido.2021.14870",
+        "autores": "MENDES, ANDRÉ DE SOUZA ; DELGADO, CARLA AMOR DIVINO MOREIRA ; SCHNEIDER, DANIEL SERRÃO",
+        "evento": "Anais Estendidos do Simpósio Brasileiro de Educação em Computação",
+        "cidade": "",
+        "paginas": "49",
+        "isbn": ""
+      },
+      {
+        "titulo": "Theoretical Underpinnings and Practical Challenges of Crowdsourcing as a Mechanism for Academic Study",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.24251/HICSS.2020.568",
+        "autores": "Correia, António ; JAMEEL, SHOAIB ; SCHNEIDER, DANIEL ; Fonseca, Benjamim ; Paredes, Hugo",
+        "evento": "Hawaii International Conference on System Sciences",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Turning social news curation into microtask crowdsourcing: a vision and research agenda",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/SMC42975.2020.9283090",
+        "autores": "SCHNEIDER, DANIEL; CORREIA, ANTONIO ; CHAVES, RAMON ; PIMENTEL, ANA PAULA ; ANTELIO, MARCIO ; LUCAS, EDSON MELLO ; DE ALMEIDA, MARCOS ANTONIO ; OLIVEIRA, LUIZ ; DE SOUZA, JANO MOREIRA",
+        "evento": "2020 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "780",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Workflow-Based Methodological Framework for Hybrid Human-AI Enabled Scientometrics",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/BigData50022.2020.9378096",
+        "autores": "CORREIA, ANTONIO ; JAMEEL, SHOAIB ; SCHNEIDER, DANIEL ; Paredes, Hugo ; Fonseca, Benjamim",
+        "evento": "2020 IEEE International Conference on Big Data (Big Data)",
+        "cidade": "",
+        "paginas": "2876",
+        "isbn": ""
+      },
+      {
+        "titulo": "Evaluation of a GWAP for Social Recruitment and Measurement of Musical Talent",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/CSCWD.2019.8791868",
+        "autores": "GOMES, CARLOS ; SCHNEIDER, DANIEL ; DE SOUZA, JANO ; XEXEO, GERALDO ; OLIVEIRA, LUIZ",
+        "evento": "2019 IEEE 23rd International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "325",
+        "isbn": ""
+      },
+      {
+        "titulo": "Understanding Crowd Work in Online Crowdsourcing Platforms for Urban Planning: Systematic Review",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/CSCWD.2019.8791936",
+        "autores": "CHAVES, RAMON ; SCHNEIDER, DANIEL ; CORREIA, ANTONIO ; BORGES, MARCOS R. S. ; MOTTA, CLAUDIA",
+        "evento": "2019 IEEE 23rd International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "273",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring Social Validation on A Collaborative Curation Platform",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/CSCWD.2019.8791863",
+        "autores": "PIMENTEL, ANA PAULA ; SCHNEIDER, DANIEL ; OLIVEIRA, LUIZ ; DE SOUZA, JANO ; CORREIA, I ANTONIO ; MOTTA, CLAUDIA",
+        "evento": "2019 IEEE 23rd International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "140",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Effect of Scientific Collaboration on CSCW Research: A Scientometric Study",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/CSCWD.2019.8791855",
+        "autores": "CORREIA, ANTONIO ; JAMEEL, SHOAIB ; SCHNEIDER, DANIEL ; Fonseca, Benjamim ; Paredes, Hugo",
+        "evento": "2019 IEEE 23rd International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "129",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards Hybrid Crowd-AI Centered Systems: Developing an Integrated Framework from an Empirical Perspective",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/SMC.2019.8914075",
+        "autores": "CORREIA, ANTONIO ; Paredes, Hugo ; SCHNEIDER, DANIEL ; JAMEEL, SHOAIB ; Fonseca, Benjamim",
+        "evento": "2019 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "4013",
+        "isbn": ""
+      },
+      {
+        "titulo": "Development of a Crowd-Powered System Architecture for Knowledge Discovery in Scientific Domains",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/SMC.2019.8914637",
+        "autores": "CORREIA, ANTONIO ; Fonseca, Benjamim ; Paredes, Hugo ; SCHNEIDER, DANIEL ; JAMEEL, SHOAIB",
+        "evento": "2019 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "1372",
+        "isbn": ""
+      },
+      {
+        "titulo": "Sherlock: Capturing Probe Requests for Automatic Presence Detection",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2018.8465207",
+        "autores": "OLIVEIRA, LUIZ ; HENRIQUE, JOAO ; SCHNEIDER, DANIEL ; DE SOUZA, JANO ; RODRIQUES, SERGIO ; SHERR, WEIMING",
+        "evento": "2018 IEEE 22nd International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "848",
+        "isbn": ""
+      },
+      {
+        "titulo": "Evaluation of a Collaborative Curation Platform from the Perspective of Selective Exposure",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1109/smc.2018.00613",
+        "autores": "PIMENTEL, ANA PAULA ; SCHNEIDER, DANIEL ; DE SOUZA, JANO ; OLIVEIRA, LUIZ ; MOTTA, CLAUDIA",
+        "evento": "2018 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "3625",
+        "isbn": ""
+      },
+      {
+        "titulo": "SciCrowd: Towards a Hybrid, Crowd-Computing System for Supporting Research Groups in Academic Settings",
+        "ano": 2018,
+        "doi": "",
+        "autores": "CORREIA, A. ; SCHNEIDER, DANIEL ; Paredes, Hugo ; Fonseca, Benjamim",
+        "evento": "International Conference on Collaboration and Technology",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Crowdsourcing and massively collaborative science: a systematic literature review and mapping study",
+        "ano": 2018,
+        "doi": "",
+        "autores": "CORREIA, A. ; SCHNEIDER, DANIEL ; Fonseca, Benjamim ; Paredes, Hugo",
+        "evento": "24th International Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Automatic detection of waiting times using smartphones",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1109/smc.2017.8122597",
+        "autores": "OLIVEIRA, LUIZ ; SCHNEIDER, DANIEL ; OLIVEIRA, FILIPE ; RODRIGUES, SERGIO ; DE SOUZA, JANO",
+        "evento": "2017 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "170",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards an observatory for mobile participatory sensing applications",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2017.8066712",
+        "autores": "MELO, GLAUCIA ; OLIVEIRA, LUIZ ; SCHNEIDER, DANIEL ; DE SOUZA, JANO",
+        "evento": "2017 IEEE 21st International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "305",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards a framework for supporting community modeling in crowdsourcing systems",
+        "ano": 2017,
+        "doi": "",
+        "autores": "SILVA, V. ; SCHNEIDER, DANIEL ; OLIVEIRA, L. ; SOUZA, J.",
+        "evento": "2017 IEEE 21st International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Designing for monitoring the waiting time of day-to-day services",
+        "ano": 2016,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2016.7566039",
+        "autores": "OLIVEIRA, LUIZ FELIPE ; SCHNEIDER, DANIEL ; OLIVEIRA, FILIPE ; DE SOUZA, JANE MOREIRA ; RODRIGUES, SERGIO A.",
+        "evento": "2016 IEEE 20th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "492",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring asymmetric collaboration in social news curation",
+        "ano": 2016,
+        "doi": "http://dx.doi.org/10.1109/SMC.2016.7844983",
+        "autores": "SCHNEIDER, D.S.; DE SOUZA, JANO",
+        "evento": "2016 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Investigating social curation websites: A crowd computing perspective",
+        "ano": 2015,
+        "doi": "http://dx.doi.org/10.1109/CSCWD.2015.7230967",
+        "autores": "PADOA, CARLOS ; SCHNEIDER, DANIEL ; DE SOUZA, JANO MOREIRA ; MEDEIROS, SERGIO PALMA J.",
+        "evento": "2015 IEEE 19th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "253",
+        "isbn": ""
+      },
+      {
+        "titulo": "Leveraging the crowd collaboration to monitor the waiting time of day-to-day services",
+        "ano": 2015,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2015.7230942",
+        "autores": "OLIVEIRA, LUIZ FELIPE ; SCHNEIDER, DANIEL ; DE SOUZA, JANO MOREIRA ; RODRIGUES, SERGIO A.",
+        "evento": "2015 IEEE 19th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "109",
+        "isbn": ""
+      },
+      {
+        "titulo": "Engaging citizens with news stories through social curation",
+        "ano": 2015,
+        "doi": "http://dx.doi.org/10.1145/3148456.3148495",
+        "autores": "SCHNEIDER, DANIEL; DE SOUZA, JANO",
+        "evento": "the 14th Brazilian Symposium",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "A meta-model for crowdsourcing platforms in Data Collection and Participatory Sensing",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2014.6846883",
+        "autores": "MORAES, ANA LUIZA DALLORA ; FONSECA, FELIPE ; ESTEVES, MARIA GILDA P. ; SCHNEIDER, DANIEL ; DE SOUZA, JANO M.",
+        "evento": "2014 IEEE 18th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "429",
+        "isbn": ""
+      },
+      {
+        "titulo": "Investigating the collaborative support in CollabRDL: An analysis based on the 3C model",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2014.6846900",
+        "autores": "LUCAS, EDSON ; SCHNEIDER, DANIEL ; OLIVEIRA, TOACY ; DE SOUZA, JANO",
+        "evento": "2014 IEEE 18th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "529",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards a typology of social news apps from a Crowd Computing perspective",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1109/smc.2014.6974066",
+        "autores": "SCHNEIDER, DANIEL; DE SOUZA, JANO ; LUCAS, EDSON MELLO",
+        "evento": "2014 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "1134",
+        "isbn": ""
+      },
+      {
+        "titulo": "A role-playing-game approach to accomplishing daily tasks to improve health",
+        "ano": 2013,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2013.6580987",
+        "autores": "DA SILVA, JOAO PAULO SANTOS ; SCHNEIDER, DANIEL ; DE SOUZA, JANO ; DA SILVA, MARCIO ANTELIO",
+        "evento": "2013 IEEE 17th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "350",
+        "isbn": ""
+      },
+      {
+        "titulo": "Cassino musical: A game with a purpose for social recruitment and measurement of musical talent",
+        "ano": 2013,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2013.6581028",
+        "autores": "GOMES, CARLOS ; SCHNEIDER, DANIEL ; DE SOUZA, JANO ; XEXEO, GERALDO",
+        "evento": "2013 IEEE 17th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "593",
+        "isbn": ""
+      },
+      {
+        "titulo": "A survey of languages to represent collaboration as a means of designing CSCW facilities in RDL",
+        "ano": 2013,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2013.6580939",
+        "autores": "LUCAS, EDSON ; SCHNEIDER, DANIEL ; OLIVEIRA, TOACY ; DE SOUZA, JANO",
+        "evento": "2013 IEEE 17th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "55",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards a Framework for Crowdsourced Collection, Cleaning and Measurement of Digital Content",
+        "ano": 2013,
+        "doi": "http://dx.doi.org/10.1109/smc.2013.180",
+        "autores": "GOMES, CARLOS ; SCHNEIDER, DANIEL ; SOUZA, JANO DE ; XEXEO, GERALDO",
+        "evento": "2013 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "1032",
+        "isbn": ""
+      },
+      {
+        "titulo": "An approach to requirements categorization using Kano's model and crowds",
+        "ano": 2012,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2012.6221847",
+        "autores": "NASCIMENTO, PAULA ; AGUAS, RODRIGO ; SCHNEIDER, DANIEL ; DE SOUZA, JANO",
+        "evento": "2012 IEEE 16th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "387",
+        "isbn": ""
+      },
+      {
+        "titulo": "Strategic planning in semantic crowdware large groups decision",
+        "ano": 2012,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2012.6221887",
+        "autores": "MEDEIROS, SERGIO PALMA J. ; SCHNEIDER, DANIEL",
+        "evento": "2012 IEEE 16th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "649",
+        "isbn": ""
+      },
+      {
+        "titulo": "CSCWD: Five characters in search of crowds",
+        "ano": 2012,
+        "doi": "http://dx.doi.org/10.1109/cscwd.2012.6221885",
+        "autores": "SCHNEIDER, DANIEL; MORAES, KATIA ; DE SOUZA, JANO MOREIRA ; ESTEVES, MARIA GILDA P.",
+        "evento": "2012 IEEE 16th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+        "cidade": "",
+        "paginas": "634",
+        "isbn": ""
+      },
+      {
+        "titulo": "Crowdsourcing for music: Survey and taxonomy",
+        "ano": 2012,
+        "doi": "http://dx.doi.org/10.1109/icsmc.2012.6377831",
+        "autores": "GOMES, CARLOS ; SCHNEIDER, DANIEL ; MORAES, KATIA ; SOUZA, JANO DE",
+        "evento": "2012 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "832",
+        "isbn": ""
+      },
+      {
+        "titulo": "Qualitocracy: A data quality collaborative framework applied to citizen science",
+        "ano": 2012,
+        "doi": "http://dx.doi.org/10.1109/icsmc.2012.6377847",
+        "autores": "ANTELIO, MARCIO ; ESTEVES, MARIA GILDA P. ; SCHNEIDER, DANIEL ; SOUZA, JANO MOREIRA DE",
+        "evento": "2012 IEEE International Conference on Systems",
+        "cidade": "",
+        "paginas": "931",
+        "isbn": ""
+      },
+      {
+        "titulo": "Multidões: a nova onda do CSCW?",
+        "ano": 2011,
+        "doi": "",
+        "autores": "SCHNEIDER, D. S.; DE SOUZA, J. M. ; MORAES, K.",
+        "evento": "Simpósio Brasileiro de Sistemas Colaborativos",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "CONEWS: A Collaborative Approach to Online News Stories",
+        "ano": 2007,
+        "doi": "http://dx.doi.org/10.5220/0002395701010106",
+        "autores": "SCHNEIDER, D. S.; DE SOUZA, J. M. ; DE STEFANO, E.",
+        "evento": "ICEIS?07 - International Conference on Enterprise Information Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "DYNAFLOW: Agent-based dynamic workflow management for P2P Environments",
+        "ano": 2007,
+        "doi": "http://dx.doi.org/10.5220/0002361102750278",
+        "autores": "VIVACQUA, A. S. ; SCHNEIDER, D. S. ; E OUTROS",
+        "evento": "ICEIS?07 - International Conference on Enterprise Information Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Sistemas de Suporte à Decisão no contexto da Diretoria de Abastecimento da Marinha",
+        "ano": 2004,
+        "doi": "",
+        "autores": "SCHNEIDER, D. S.; CASTRO, G. ; MAXIMO, A.",
+        "evento": "IV Simpósio de Desenvolvimento e Manutenção de Software da Marinha",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Configurable electronic journal (CEJ) towards flexible scientific knowledge infrastructures",
+        "ano": 2004,
+        "doi": "http://dx.doi.org/10.1109/CACWD.2004.1349182",
+        "autores": "SCHNEIDER, D.S.; DE SOUZA, J.M. ; MEDEIROS, S.P.J. ; XEXEO, G.B.",
+        "evento": "8th International Conference on Computer Supported Cooperative Work in Design",
+        "cidade": "",
+        "paginas": "227",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [],
+    "resumos_congressos": [],
+    "artigos_aceitos": [
+      {
+        "titulo": "Driving the Emergence of Self-Managed Enterprises of Crowdworkers: a Survey and Review of Motivating Factors",
+        "ano": 2025,
+        "autores": "UCHOA, ALEXANDRE ; SCHNEIDER, DANIEL",
+        "revista": "LECTURE NOTES IN BUSINESS INFORMATION PROCESSING",
+        "issn": ""
+      }
+    ],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "Cognitive Ethical Design and Evaluation of Productive Reinforcing Spiral Model to Mitigate the Challenge of Extreme Polarization",
+        "ano": 2025,
+        "autores": "PIMENTEL, A. P. ; MOTTA, C. L. R. ; CORREIA, A. ; SOUZA, J. ; SCHNEIDER, DANIEL",
+        "evento": ""
+      },
+      {
+        "titulo": "Designing for (Digital) Nomad-AI Interaction",
+        "ano": 2025,
+        "autores": "SCHNEIDER, DANIEL; DE ALMEIDA, MARCOS ANTONIO ; Nascimento, Mariangela ; CORREIA, A. ; SOUZA, J.",
+        "evento": ""
+      },
+      {
+        "titulo": "Evaluation of a GWAP for Social Recruitment and Measurement of Musical Talent",
+        "ano": 2019,
+        "autores": "SCHNEIDER, DANIEL",
+        "evento": ""
+      },
+      {
+        "titulo": "Evaluation of a collaborative curation platform from the perspective of selective exposure",
+        "ano": 2018,
+        "autores": "PIMENTEL, A. P. ; SCHNEIDER, DANIEL ; SOUZA, J. ; OLIVEIRA, L. ; MOTTA, C.",
+        "evento": ""
+      },
+      {
+        "titulo": "Exploring asymmetric collaboration in social news curation",
+        "ano": 2016,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "Investigating Social Curation Websites: a Crowd Computing perspective",
+        "ano": 2015,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "Engaging citizens with news stories through social curation: A design research project",
+        "ano": 2015,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "Towards a typology of social news apps from a Crowd Computing perspective",
+        "ano": 2014,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "Cassino Musical: A game with a purpose for social recruitment and measurement of musical talent",
+        "ano": 2013,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "A survey of languages to represent collaboration as a means of designing CSCW facilities in RDL",
+        "ano": 2013,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "Towards a Framework for Crowdsourced Collection, Cleaning and Measurement of Digital Content",
+        "ano": 2013,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "CSCWD: Five Characters in Search of Crowds",
+        "ano": 2012,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "An Approach to Requirements Categorization using Kano's Model and Crowds",
+        "ano": 2012,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "Crowdsourcing for music: survey and taxonomy",
+        "ano": 2012,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "Multidões: a nova onda do CSCW?",
+        "ano": 2011,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "Configurable Electronic Journal (CEJ) - Towards Flexible Scientific Knowledge Infrastructures",
+        "ano": 2004,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      },
+      {
+        "titulo": "Sistemas de Suporte à Decisão no contexto da Diretoria de Abastecimento da Marinha",
+        "ano": 2004,
+        "autores": "SCHNEIDER, D. S",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [],
+    "outras_producoes": [
+      {
+        "titulo": "UMA ABORDAGEM DE COMPUTAÇÃO SOCIAL PARA A CONSTRUÇÃO DE HISTÓRIAS E TRAMAS NOTICIOSAS POR MEIO DA CURADORIA SOCIAL",
+        "ano": 2015,
+        "autores": "SCHNEIDER, D. S",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Um ambiente para a definição e execução de processos customizáveis de publicação científica",
+        "ano": 2004,
+        "autores": "SCHNEIDER, D. S",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Uma Proposta de Ferramenta de Gerência Cooperativa de Configuração de Software",
+        "ano": 2001,
+        "autores": "SCHNEIDER, D. S.; GABRIEL, C.B.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      }
+    ]
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [
+      {
+        "titulo": "S.. Acropolis",
+        "ano": 2015,
+        "autores": "SCHNEIDER, D",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "S.. Framework FormMutante",
+        "ano": 2005,
+        "autores": "SCHNEIDER, D",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "S.. CEJ technology",
+        "ano": 2004,
+        "autores": "SCHNEIDER, D",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "S.. CriaScript",
+        "ano": 2001,
+        "autores": "SCHNEIDER, D",
+        "instituicao": "",
+        "finalidade": ""
+      }
+    ],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [
+      {
+        "titulo": "Frameworks B2C e J2EE",
+        "ano": 2007,
+        "autores": "SCHNEIDER, D. S",
+        "tipo": "Demais tipos de produção técnica"
+      }
+    ],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Um arcabouço para tomada de decisão apoiada por IA com uso do histórico de tarefas e projetos",
+          "ano_inicio": 2023,
+          "orientando": "Alexandre Prestes Uchoa",
+          "tipo_trabalho": "",
+          "instituicao": "Tese (Doutorado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Um estudo sobre Digital Nudges no contexto da Polarização Induzida por Mídia Social",
+          "ano_inicio": 2024,
+          "orientando": "Wladimir Augusto Pereira das Neves",
+          "tipo_trabalho": "",
+          "instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "IA Generativa aplicada aos Sistemas de Healthcare",
+          "ano_inicio": 2024,
+          "orientando": "Giordano de Pinho Souza",
+          "tipo_trabalho": "",
+          "instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Entre likes e silêncio: atividade e passividade na mídia social e seu impacto no bem-estar",
+          "ano_inicio": 2024,
+          "orientando": "Cristiane de Oliveira Martins",
+          "tipo_trabalho": "",
+          "instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Agenda positiva da transformação digital: O desafio do bem-estar na era da hiperconectividade",
+          "ano_inicio": 2023,
+          "orientando": "Mariangela Nascimento",
+          "tipo_trabalho": "",
+          "instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um arcabouço para a prevenção da polarização afetiva",
+          "ano_inicio": 2022,
+          "orientando": "Renan Parreira Rosa",
+          "tipo_trabalho": "",
+          "instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Estratégia de Espiral de Reforço Produtivo para Mitigar o Desafio da Polarização Extremada",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Ana Paula Camargo Pimentel",
+          "tipo_trabalho": "",
+          "instituicao": "Tese (Doutorado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "PADR-L: Uma Abordagem para Co-criação de Soluções IoT para Mitigação de Desastres Naturais com Envolvimento da Comunidade Escolar e Sociedade",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Anselmo Pestana Ribeiro Costa",
+          "tipo_trabalho": "",
+          "instituicao": "Tese (Doutorado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Uma abordagem de Informática urbana para apoiar a reciclagem na escola",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Emilly Gabriela Marques da Silva Lopes",
+          "tipo_trabalho": "",
+          "instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "ROBÓTICA EDUCACIONAL DE ACESSO LIVRE PARA EVOLUÇÃO DO PENSAMENTO COMPUTACIONAL DE ADOLESCENTES: UMA MAQUETE FERROVIÁRIA PROGRAMADA A DISTÂNCIA COM O DB4K",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "ANDRÉ DE SOUZA MENDES",
+          "tipo_trabalho": "",
+          "instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "UM MODELO DE INTELIGÊNCIA COLETIVA PARA APOIAR DISCUSSÕES SOBRE A CIDADE",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Ramon Miranda Chaves",
+          "tipo_trabalho": "",
+          "instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento de um modelo classificador de questões para o cenário educacional brasileiro fundamentado em ciência de dados",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Rafael Ris-Ala José Jardim",
+          "tipo_trabalho": "",
+          "instituicao": "Dissertação (Mestrado em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Projetos Audiovisuais Colaborativos",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Carlos Eduardo Coelho Gomes",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "COPPE/Sistemas - Universidade Federal do Rio de Janeiro, COPPE, Brasil.",
+          "curso": ""
+        }
+      ],
+      "especializacao": [
+        {
+          "titulo": "Gestão do Conhecimento e Mineração de Dados no ambiente SAbM (Co-orientação)",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "OLIVEIRA, M",
+          "tipo_trabalho": "Monografia",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Gestão do Conhecimento e Mineração de Dados no ambiente SAbM (Co-orientação)",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "PESSOA, M",
+          "tipo_trabalho": "Monografia",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Gestão do Conhecimento e Mineração de Dados no ambiente SAbM (Co-orientação)",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "GARCIA, A",
+          "tipo_trabalho": "Monografia",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Gestão do Conhecimento e Mineração de Dados no ambiente SAbM (Co-orientação)",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "COSTA, G",
+          "tipo_trabalho": "Monografia",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "tcc": [
+        {
+          "titulo": "OBSERVATÓRIO ACADÊMICO: AVALIAÇÃO DE PLATAFORMAS ACADÊMICAS E PROPOSTA DE FERRAMENTA COMPLEMENTAR",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "DAIANE JÉSSICA SILVA RANGEL",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Federal Rural do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A inovação no mundo virtual das notícias",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "LOPES, J",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Estácio de Sá",
+          "curso": ""
+        },
+        {
+          "titulo": "A inovação no mundo virtual das notícias",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "SANTOS, B",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Estácio de Sá",
+          "curso": ""
+        },
+        {
+          "titulo": "A inovação no mundo virtual das notícias",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "BARROS, Y",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Estácio de Sá",
+          "curso": ""
+        },
+        {
+          "titulo": "SEI: Sistema de Ensino Integrado",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "MATTIOLI, A",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Estácio de Sá",
+          "curso": ""
+        },
+        {
+          "titulo": "Armazém do Rock",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "SIMONINI, L",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Estácio de Sá",
+          "curso": ""
+        },
+        {
+          "titulo": "Armazém do Rock",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "SIQUEIRA, D",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Estácio de Sá",
+          "curso": ""
+        },
+        {
+          "titulo": "Armazém do Rock",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "OLIVEIRA, W",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Estácio de Sá",
+          "curso": ""
+        },
+        {
+          "titulo": "SEI: Sistema de Ensino Integrado",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "VIEIRA, T",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Estácio de Sá",
+          "curso": ""
+        },
+        {
+          "titulo": "SEI: Sistema de Ensino Integrado",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "REDLIEN, V",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Estácio de Sá",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [
+        {
+          "titulo": "UM FRAMEWORK COLABORATIVO PARA A PUBLICAÇÃO DE NOTÍCIAS NA WEB",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "ASSUNÇÃO, M",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Estácio de Sá",
+          "curso": ""
+        }
+      ],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "Computer Supported Cooperative Work in Design (IEEE CSCWD 2019)",
+        "apresentacao": "Evaluation of a GWAP for Social Recruitment and Measurement of Musical Talent",
+        "ano": 2019,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Conference on Systems, Man and Cybernetics (IEEE SMC 2019)",
+        "apresentacao": "Towards hybrid crowd-AI centered systems: Developing an integrated framework from an empirical perspective",
+        "ano": 2019,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Conference on Systems, Man and Cybernetics (IEEE SMC 2019)",
+        "apresentacao": "Revisor de artigos completos",
+        "ano": 2019,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Semana de Integração Acadêmica da UFRJ (SIAC 2019)",
+        "apresentacao": "Membro da Comissão Organizadora, Coordenador de Sessão, Avaliador de Resumos e Avaliador de Sessão",
+        "ano": 2019,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Simpósio Brasileiro de Fatores Humanos em Sistemas Computacionais (IHC)",
+        "apresentacao": ".Membro do Comitê de Programa e Revisor de Artigos Completos",
+        "ano": 2019,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "VI Escola Regional de Sistemas de Informação ? RJ (ERSI-RJ 2019)",
+        "apresentacao": "Revisor de artigos completos e pôsters",
+        "ano": 2019,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Conference on Systems, Man and Cybernetics (IEEE SMC 2018)",
+        "apresentacao": "Evaluation of a collaborative curation platform from the perspective of selective exposure",
+        "ano": 2018,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Semana de Integração Acadêmica da UFRJ (SIAC 2018)",
+        "apresentacao": "Membro da Comissão Organizadora, Coordenador de Sessão, Avaliador de Resumos e Avaliador de Sessão",
+        "ano": 2018,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Simpósio Brasileiro de Fatores Humanos em Sistemas Computacionais (IHC)",
+        "apresentacao": ".Membro do Comitê de Programa e Revisor de Artigos Completos",
+        "ano": 2018,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IV Escola Regional de Sistemas de Informação ? RJ (ERSI-RJ 2017)",
+        "apresentacao": "Revisor de artigos completos e pôsters",
+        "ano": 2017,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Conference on Systems, Man and Cybernetics (IEEE SMC 2016)",
+        "apresentacao": "Exploring asymmetric collaboration in social news curation",
+        "ano": 2016,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Seminário de Pós Graduação - UFF",
+        "apresentacao": "Design, construção e avaliação de uma plataforma de curadoria social usando a metodologia ADR",
+        "ano": 2016,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Computer Supported Cooperative Work in Design (IEEE CSCWD 2015)",
+        "apresentacao": "Investigating Social Curation Websites: a Crowd Computing perspective",
+        "ano": 2015,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais (2015)",
+        "apresentacao": "Engaging citizens with news stories through social curation: A design research project",
+        "ano": 2015,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Conference on Systems, Man and Cybernetics (IEEE SMC 2014)",
+        "apresentacao": "Towards a typology of social news apps from a Crowd Computing perspective",
+        "ano": 2014,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IEEE CSCWD 2013 - Computer Supported Cooperative Work in Design",
+        "apresentacao": "Cassino Musical: A game with a purpose for social recruitment and measurement of musical talent",
+        "ano": 2013,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Conference on Systems, Man and Cybernetics (IEEE SMC 2013)",
+        "apresentacao": "Towards a Framework for Crowdsourced Collection, Cleaning and Measurement of Digital Content",
+        "ano": 2013,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IEEE CSCWD 2012 - Computer Supported Cooperative Work in Design",
+        "apresentacao": "CSCWD: Five Characters in Search of Crowds",
+        "ano": 2012,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IEEE SMC 2012 - Systems, Man and Cybernetics",
+        "apresentacao": "Crowdsourcing for Music: Survey and Taxonomy",
+        "ano": 2012,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "SBSC 2011 - Simpósio Brasileiro de Sistemas Colaborativos",
+        "apresentacao": "Multidões: a nova onda do CSCW?",
+        "ano": 2011,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Circuito de Informática UNESA - 2009",
+        "apresentacao": null,
+        "ano": 2009,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Circuito de Informática UNESA - 2008",
+        "apresentacao": null,
+        "ano": 2008,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Semana de Informática UNESA - 2007",
+        "apresentacao": null,
+        "ano": 2007,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Semana de Informática UNESA - 2006",
+        "apresentacao": null,
+        "ano": 2006,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Semana de Informática UNESA - 2005",
+        "apresentacao": null,
+        "ano": 2005,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IEEE CSCWD 2004 - Computer Supported Cooperative Work in Design",
+        "apresentacao": "Configurable Electronic Journal (CEJ) - Towards Flexible Scientific Knowledge Infrastructures",
+        "ano": 2004,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "SDMS 2004 - IV Simpósio de Desenvolvimento e Manutenção de Software da Marinha",
+        "apresentacao": "Sistemas de Suporte à Decisão no contexto da Diretoria de Abastecimento da Marinha",
+        "ano": 2004,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IEEE CSCWD 2002 - Computer Supported Cooperative Work in Design",
+        "apresentacao": null,
+        "ano": 2002,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "SBBD 2001 - Simpósio Brasileiro de Banco de Dados",
+        "apresentacao": null,
+        "ano": 2001,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "11a Escola de Computação",
+        "apresentacao": null,
+        "ano": 1998,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": []
+  },
+  "bancas": {
+    "mestrado": [],
+    "doutorado": [],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [
+      {
+        "descricao": "CAMPOS, M. L. M.; SCHNEIDER, D.S.; LOPES, G.; JARDIM, R.; VIVACQUA, A. S.. Participação em banca de CATHERINE DOS SANTOS TOSTES. Evolução das técnicas de linked open data para interoperabilidade de dados de microorganismos resistentes a antibióticos no tara oceans. Junho de 2019.. 2019. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2019,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "CATHERINE DOS SANTOS TOSTES",
+        "membros_banca": [
+          "CAMPOS, M. L. M.",
+          "SCHNEIDER, D.S.",
+          "LOPES, G.",
+          "JARDIM, R.",
+          "VIVACQUA, A. S."
+        ],
+        "titulo_trabalho": "Evolução das técnicas de linked open data para interoperabilidade de dados de microorganismos resistentes a antibióticos no tara oceans. Junho de 2019",
+        "curso": ". 2019. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Informática (PPGI))",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "CAMPOS, M. L. M.; LOPES, G.; SCHNEIDER, D.S.; VIVACQUA, A. S.; BORGES, MARCOS R. S.. Participação em banca de JEAN GABRIEL NSUEMA NGOMO. Uma abordagem para a melhoria da qualidade do DBPEDIA PT como hub de dados de pesquisa. Junho de 2019.. 2019. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2019,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "JEAN GABRIEL NSUEMA NGOMO",
+        "membros_banca": [
+          "CAMPOS, M. L. M.",
+          "LOPES, G.",
+          "SCHNEIDER, D.S.",
+          "VIVACQUA, A. S.",
+          "BORGES, MARCOS R. S."
+        ],
+        "titulo_trabalho": "Uma abordagem para a melhoria da qualidade do DBPEDIA PT como hub de dados de pesquisa. Junho de 2019",
+        "curso": ". 2019. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Informática (PPGI))",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "CAMPOS, M. L. M.; LOPES, G.; BORGES, MARCOS R. S.; SCHNEIDER, D.S.; VIVACQUA, A. S.. Participação em banca de CLAUDIO JESUS ROSA. Uma proposta de construção de ontologia para representação de processos anestésicos. Junho de 2019.. 2019. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2019,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "CLAUDIO JESUS ROSA",
+        "membros_banca": [
+          "CAMPOS, M. L. M.",
+          "LOPES, G.",
+          "BORGES, MARCOS R. S.",
+          "SCHNEIDER, D.S.",
+          "VIVACQUA, A. S."
+        ],
+        "titulo_trabalho": "Uma proposta de construção de ontologia para representação de processos anestésicos. Junho de 2019",
+        "curso": ". 2019. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Informática (PPGI))",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "CAMPOS, M. L. M.; LOPES, G.; VIVACQUA, A. S.; SCHNEIDER, D.S.. Participação em banca de BRUNO PORTES COSTA DE CASTRO. Enriquecimento semântico: uma abordagem aplicada às etiquetas em portais de dados abertos. Dezembro de 2017.. 2017. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2017,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "BRUNO PORTES COSTA DE CASTRO",
+        "membros_banca": [
+          "CAMPOS, M. L. M.",
+          "LOPES, G.",
+          "VIVACQUA, A. S.",
+          "SCHNEIDER, D.S."
+        ],
+        "titulo_trabalho": "Enriquecimento semântico: uma abordagem aplicada às etiquetas em portais de dados abertos. Dezembro de 2017",
+        "curso": ". 2017. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Informática (PPGI))",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "VIVACQUA, A. S.; SCHNEIDER, D.S.; CAMPOS, M. L. M.. Participação em banca de MARCELA MAYUMI MAURICIO YAGUI. Crowdsourcing com anotações semânticas para apoiar a curadoria e a geração de conteúdo no patrimônio cultural. Dezembro de 2017.. 2017. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Informática (PPGI)) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2017,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "MARCELA MAYUMI MAURICIO YAGUI",
+        "membros_banca": [
+          "VIVACQUA, A. S.",
+          "SCHNEIDER, D.S.",
+          "CAMPOS, M. L. M."
+        ],
+        "titulo_trabalho": "Crowdsourcing com anotações semânticas para apoiar a curadoria e a geração de conteúdo no patrimônio cultural. Dezembro de 2017",
+        "curso": ". 2017. Exame de qualificação (Mestrando em Programa de Pós-Graduação em Informática (PPGI))",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "SCHNEIDER, D. S.; DIAS, R.; BASTOS, V.. Participação em banca de YGOR BARROS, JUDSON LOPES, BRUNO SANTOS.A inovação no mundo virtual das notícias. 2008. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação) - Universidade Estácio de Sá.",
+        "ano": 2008,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "YGOR BARROS, JUDSON LOPES, BRUNO SANTOS",
+        "membros_banca": [
+          "SCHNEIDER, D. S.",
+          "DIAS, R.",
+          "BASTOS, V."
+        ],
+        "titulo_trabalho": "A inovação no mundo virtual das notícias",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)",
+        "universidade": "Universidade Estácio de Sá"
+      },
+      {
+        "descricao": "SCHNEIDER, D. S.; GARCIA, C. A.. Participação em banca de ALEXANDRE MATTIOLI, VALERIA REDLIEN, TAISSA VIEIRA.SEI: Sistema de Ensino Integrado. 2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação) - Universidade Estácio de Sá.",
+        "ano": 2006,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "ALEXANDRE MATTIOLI, VALERIA REDLIEN, TAISSA VIEIRA",
+        "membros_banca": [
+          "SCHNEIDER, D. S.",
+          "GARCIA, C. A."
+        ],
+        "titulo_trabalho": "SEI: Sistema de Ensino Integrado",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)",
+        "universidade": "Universidade Estácio de Sá"
+      },
+      {
+        "descricao": "SCHNEIDER, D. S.; GARCIA, C. A.. Participação em banca de Leonardo Simonini, David Siqueira, Wellington Oliveira.Armazém do Rock. 2006. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação) - Universidade Estácio de Sá.",
+        "ano": 2006,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Leonardo Simonini, David Siqueira, Wellington Oliveira",
+        "membros_banca": [
+          "SCHNEIDER, D. S.",
+          "GARCIA, C. A."
+        ],
+        "titulo_trabalho": "Armazém do Rock",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)",
+        "universidade": "Universidade Estácio de Sá"
+      },
+      {
+        "descricao": "GOMES, I,; COUTINHO, T.; FERNANDES, T.; SCHNEIDER, D. S.; CAMINHA, A.. Participação em banca de Ingrid Gomes, Thiago Coutinho e Thiago Fernandes.Sistema de comércio eletrônico com gerenciamento de conteúdo JAVA. 2005. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação) - Universidade Estácio de Sá.",
+        "ano": 2005,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Ingrid Gomes, Thiago Coutinho e Thiago Fernandes",
+        "membros_banca": [
+          "GOMES, I,",
+          "COUTINHO, T.",
+          "FERNANDES, T.",
+          "SCHNEIDER, D. S.",
+          "CAMINHA, A."
+        ],
+        "titulo_trabalho": "Sistema de comércio eletrônico com gerenciamento de conteúdo JAVA",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)",
+        "universidade": "Universidade Estácio de Sá"
+      }
+    ],
+    "outras": [
+      {
+        "descricao": "SCHNEIDER, D. S.; PEREIRA NETO, F. G.. Participação em banca de Monique Oliveira, M. Pessoa, Alexsandra Garcia, Gisele Costa. Gestão do Conhecimento e Mineração de Dados no ambiente SAbM. 2009. Monografia (Aperfeiçoamento/Especialização em Especialização em Banco de Dados) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2009,
+        "tipo": "Participação em banca",
+        "aluno": "Monique Oliveira, M",
+        "membros_banca": [
+          "SCHNEIDER, D. S.",
+          "PEREIRA NETO, F. G."
+        ],
+        "titulo_trabalho": "Pessoa, Alexsandra Garcia, Gisele Costa. Gestão do Conhecimento e Mineração de Dados no ambiente SAbM",
+        "curso": "Monografia (Aperfeiçoamento/Especialização em Especialização em Banco de Dados)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 21,
+    "total_livros": 0,
+    "total_capitulos": 6,
+    "total_trabalhos_congressos": 85,
+    "total_projetos_pesquisa": 8,
+    "total_projetos_extensao": 2,
+    "total_projetos_desenvolvimento": 3,
+    "total_orientacoes_concluidas": 8,
+    "total_orientacoes_andamento": 6
+  }
+}

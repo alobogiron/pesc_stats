@@ -1,0 +1,1944 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "1656881663114095",
+    "nome_completo": "Marco Serpa Molinaro",
+    "nome_citacoes": "MOLINARO, M. S.;MOLINARO, MARCO",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "Nível C",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática. Rua Marques de S. Vicente 225, PUC-Rio, Predio RDC Gávea 22453900 - Rio de Janeiro, RJ - Brasil - Caixa-postal: 38008 Telefone: (021) 31141243 Fax: (021) 31141236",
+    "atualizacao_cv": "16/03/2026",
+    "url": "http://lattes.cnpq.br/1656881663114095",
+    "texto_resumo": "Marco Molinaro é Professor Adjunto do Departamento de Informática da PUC-Rio, onde ingressou em 2015, tendo sido anteriormente professor nas universidade Georgia Tech e TU Delft (Holanda). Possui graduação em Engenharia de Computação pela PUC-RIo (2005), mestrado em informática também pela PUC-Rio (2016), e doutorado em Algorithms, Combinatorics, and Optimization pela Carnegie Mellon University (2013). Possui colaboração com universidades e laboratórios de pesquisa internacional de maior prestígio, como Carnegie Mellon University, Georgia Tech, Boston University, University of Wisconsin-Madison, University of Illinois Urbana-Champaign, Johns Hopkins University, University of Toronto, TU Berlin, University of Bonn, Technion, Tel-Aviv University, Google, e IBM. Atualmente se dedica à pesquisa em Teoria da Computação e Pesquisa Operacional, com ênfase em algoritmos online e programação inteira. . (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Algorithms, Combinatorics, and Optimization",
+      "nome_instituicao": "Carnegie Mellon University, CMU, Estados Unidos",
+      "ano_inicio": "2008",
+      "ano_conclusao": "2013",
+      "descricao": "Título: Understanding the Strength of General-Purpose Cutting Planes, Ano de obtenção: 2013. Orientador: Gerard Cornuejols."
+    },
+    {
+      "tipo": "Mestrado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "2006",
+      "ano_conclusao": "2008",
+      "descricao": "Título: Aproximações de fator constante para o problema de atribuição de hotlinks, Ano de Obtenção: 2008. Orientador: Eduardo Sany Laber. Bolsista do(a): Pontifícia Universidade Católica, PUC-RIO, Brasil. Palavras-chave: algoritmos aproximativos; otimização combinatória; teoria da computação. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação / Especialidade: Análise de Algoritmos e Complexidade de Computação. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação / Especialidade: Algorítmos Aproximativos. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação."
+    },
+    {
+      "tipo": "Graduação em Engenharia de Computação",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "2001",
+      "ano_conclusao": "2005",
+      "descricao": "Título: Sistema multi-agentes para gerenciamento de cadeia de suprimento. Orientador: Ruy Luiz Milidiú."
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Georgia Institute of Technology, GEORGIA TECH, Estados Unidos.",
+      "instituicao_nome": "Georgia Institute of Technology",
+      "instituicao_sigla": "GEORGIA TECH",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": "2013 - 2014",
+      "ano_inicio": "2013",
+      "ano_fim": "2014",
+      "vinculo": "Celetista",
+      "enquadramento": "Assistant Professor",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Georgia Institute of Technology, GEORGIA TECH, Estados Unidos",
+      "instituicao_nome": "Georgia Institute of Technology",
+      "instituicao_sigla": "GEORGIA TECH",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": "08/2013 - 06/2014",
+      "ano_inicio": "2013",
+      "ano_fim": "2014",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Georgia Institute of Technology, GEORGIA TECH, Estados Unidos",
+      "instituicao_nome": "Georgia Institute of Technology",
+      "instituicao_sigla": "GEORGIA TECH",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": "08/2013 - 06/2014",
+      "ano_inicio": "2013",
+      "ano_fim": "2014",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Georgia Institute of Technology, GEORGIA TECH, Estados Unidos",
+      "instituicao_nome": "Georgia Institute of Technology",
+      "instituicao_sigla": "GEORGIA TECH",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": "06/2013 - 06/2014",
+      "ano_inicio": "2013",
+      "ano_fim": "2014",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Industrial and Systems Engineering."
+      ]
+    },
+    {
+      "instituicao": "Delft University of Technology, TU DELFT, Holanda.",
+      "instituicao_nome": "Delft University of Technology",
+      "instituicao_sigla": "TU DELFT",
+      "instituicao_pais": "Holanda",
+      "periodo": "2014 - 2015",
+      "ano_inicio": "2014",
+      "ano_fim": "2015",
+      "vinculo": "Celetista",
+      "enquadramento": "Assistant Professor",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Delft University of Technology, TU DELFT, Holanda",
+      "instituicao_nome": "Delft University of Technology",
+      "instituicao_sigla": "TU DELFT",
+      "instituicao_pais": "Holanda",
+      "periodo": "06/2014 - 06/2015",
+      "ano_inicio": "2014",
+      "ano_fim": "2015",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, EWI."
+      ]
+    },
+    {
+      "instituicao": "Delft University of Technology, TU DELFT, Holanda",
+      "instituicao_nome": "Delft University of Technology",
+      "instituicao_sigla": "TU DELFT",
+      "instituicao_pais": "Holanda",
+      "periodo": "06/2014 - 06/2015",
+      "ano_inicio": "2014",
+      "ano_fim": "2015",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Ensino, MSc."
+      ]
+    },
+    {
+      "instituicao": "Delft University of Technology, TU DELFT, Holanda",
+      "instituicao_nome": "Delft University of Technology",
+      "instituicao_sigla": "TU DELFT",
+      "instituicao_pais": "Holanda",
+      "periodo": "06/2014 - 06/2015",
+      "ano_inicio": "2014",
+      "ano_fim": "2015",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica, PUC-RIO, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica",
+      "instituicao_sigla": "PUC-RIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "2020 - Atual",
+      "ano_inicio": "2020",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor Adjunto 2",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica, PUC-RIO, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica",
+      "instituicao_sigla": "PUC-RIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "2015 - 2020",
+      "ano_inicio": "2015",
+      "ano_fim": "2020",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor Adjunto 1",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica, PUC-RIO, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica",
+      "instituicao_sigla": "PUC-RIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "11/2015 - Atual",
+      "ano_inicio": "2015",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica, PUC-RIO, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica",
+      "instituicao_sigla": "PUC-RIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "11/2015 - Atual",
+      "ano_inicio": "2015",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica, PUC-RIO, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica",
+      "instituicao_sigla": "PUC-RIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "11/2015 - Atual",
+      "ano_inicio": "2015",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Microsoft Corporation, MC*, Estados Unidos.",
+      "instituicao_nome": "Microsoft Corporation",
+      "instituicao_sigla": "MC*",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": "2022 - 2022",
+      "ano_inicio": "2022",
+      "ano_fim": "2022",
+      "vinculo": "Professor Visitante",
+      "enquadramento": "Pesquisador",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Microsoft Corporation, MC*, Estados Unidos",
+      "instituicao_nome": "Microsoft Corporation",
+      "instituicao_sigla": "MC*",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Teoria da Computação",
+      "especialidade": "Análise de Algoritmos e Complexidade de Computação",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Análise de Algoritmos e Complexidade de Computação."
+    },
+    {
+      "grande_area": "Engenharias",
+      "area": "Engenharia de Produção",
+      "subarea": "Pesquisa Operacional",
+      "especialidade": "Programação Linear, Não-Linear, Mista e Dinâmica",
+      "descricao_completa": "Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Pesquisa Operacional/Especialidade: Programação Linear, Não-Linear, Mista e Dinâmica."
+    },
+    {
+      "grande_area": "Engenharias",
+      "area": "Engenharia de Produção",
+      "subarea": "Pesquisa Operacional",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Pesquisa Operacional."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Teoria da Computação",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Patrono das turmas de Ciência da Computação e Engenharia da Computação, PUC-Rio.",
+      "ano": 2025
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "algoritmos",
+      "objetivo": ""
+    },
+    {
+      "nome": "teoria da computação",
+      "objetivo": ""
+    },
+    {
+      "nome": "otimização",
+      "objetivo": ""
+    },
+    {
+      "nome": "programação inteira",
+      "objetivo": ""
+    },
+    {
+      "nome": "algoritmos",
+      "objetivo": ""
+    },
+    {
+      "nome": "teoria da computação",
+      "objetivo": ""
+    },
+    {
+      "nome": "otimização",
+      "objetivo": ""
+    },
+    {
+      "nome": "programação inteira",
+      "objetivo": ""
+    },
+    {
+      "nome": "algorithmos",
+      "objetivo": ""
+    },
+    {
+      "nome": "teoria da computação",
+      "objetivo": ""
+    },
+    {
+      "nome": "otimização",
+      "objetivo": ""
+    },
+    {
+      "nome": "programação inteira",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Non-monotonicity of Branching Rules with Respect to Linear Relaxations",
+        "ano": 2026,
+        "autores": "DEY, S. S. ; MOLINARO, MARCO ; SHAH, P.",
+        "revista": "INFORMS JOURNAL ON COMPUTING",
+        "volume": "38",
+        "numero": "",
+        "paginas": "53-66",
+        "issn": "1091-9856",
+        "doi": "http://dx.doi.org/10.1287/ijoc.2024.0709",
+        "qualis": ""
+      },
+      {
+        "titulo": "Information complexity of mixed-integer convex optimization",
+        "ano": 2024,
+        "autores": "BASU, AMITABH ; JIANG, HONGYI ; KERGER, PHILLIP ; MOLINARO, MARCO",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-024-02099-8",
+        "qualis": ""
+      },
+      {
+        "titulo": "Lipschitz Selectors May Not Yield Competitive Algorithms for Convex Body Chasing",
+        "ano": 2023,
+        "autores": "ARGUE, C. J. ; GUPTA, ANUPAM ; MOLINARO, MARCO",
+        "revista": "DISCRETE & COMPUTATIONAL GEOMETRY",
+        "volume": "70",
+        "numero": "",
+        "paginas": "773-789",
+        "issn": "0179-5376",
+        "doi": "http://dx.doi.org/10.1007/s00454-023-00491-3",
+        "qualis": ""
+      },
+      {
+        "titulo": "Time-constrained learning",
+        "ano": 2023,
+        "autores": "FREITAS, SERGIO ; LABER, EDUARDO ; LAZERA, PEDRO ; MOLINARO, MARCO",
+        "revista": "PATTERN RECOGNITION",
+        "volume": "142",
+        "numero": "",
+        "paginas": "109672",
+        "issn": "0031-3203",
+        "doi": "http://dx.doi.org/10.1016/j.patcog.2023.109672",
+        "qualis": ""
+      },
+      {
+        "titulo": "Branch-and-bound solves random binary IPs in poly(n)-time",
+        "ano": 2023,
+        "autores": "DEY, SANTANU S. ; DUBEY, YATHARTH ; MOLINARO, MARCO",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "200",
+        "numero": "",
+        "paginas": "569-587",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-022-01895-4",
+        "qualis": ""
+      },
+      {
+        "titulo": "A theoretical and computational analysis of full strong-branching",
+        "ano": 2023,
+        "autores": "DEY, SANTANU S. ; DUBEY, YATHARTH ; MOLINARO, MARCO ; SHAH, PRACHI",
+        "revista": "Mathematical Programming",
+        "volume": "305",
+        "numero": "",
+        "paginas": "303-336",
+        "issn": "1436-4646",
+        "doi": "http://dx.doi.org/10.1007/s10107-023-01977-x",
+        "qualis": ""
+      },
+      {
+        "titulo": "Lower bounds on the size of general branch-and-bound trees",
+        "ano": 2022,
+        "autores": "DEY, S. S. ; DUBEY, Y. ; MOLINARO, MARCO",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1-15",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-022-01781-z",
+        "qualis": ""
+      },
+      {
+        "titulo": "Solving sparse principal component analysis with global support",
+        "ano": 2022,
+        "autores": "DEY, S. S. ; MOLINARO, MARCO ; WANG, G.",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1-39",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-022-01857-w",
+        "qualis": ""
+      },
+      {
+        "titulo": "The benefits of cognitive style versatility for collaborative work.",
+        "ano": 2022,
+        "autores": "AGGARWAL, ISHANI ; SCHILPZAND, MARIEKE C. ; MARTINS, LUIS L. ; WOOLLEY, ANITA WILLIAMS ; MOLINARO, MARCO",
+        "revista": "Journal Of Applied Psychology",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1-25",
+        "issn": "1939-1854",
+        "doi": "http://dx.doi.org/10.1037/apl0001035",
+        "qualis": ""
+      },
+      {
+        "titulo": "Strong Convexity of Feasible Sets in Off-line and Online Optimization",
+        "ano": 2022,
+        "autores": "MOLINARO, MARCO",
+        "revista": "MATHEMATICS OF OPERATIONS RESEARCH (ONLINE)",
+        "volume": "48",
+        "numero": "",
+        "paginas": "1-26",
+        "issn": "1526-5471",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Sparse PSD approximation of the PSD cone",
+        "ano": 2022,
+        "autores": "BLEKHERMAN, GRIGORIY ; DEY, SANTANU S. ; MOLINARO, MARCO ; SUN, SHENGDING",
+        "revista": "Mathematical Programming",
+        "volume": "191",
+        "numero": "",
+        "paginas": "981-1004",
+        "issn": "1436-4646",
+        "doi": "http://dx.doi.org/10.1007/s10107-020-01578-y",
+        "qualis": ""
+      },
+      {
+        "titulo": "Lower Bounds on the Lattice-Free Rank for Packing and Covering Integer Programs",
+        "ano": 2019,
+        "autores": "BODUR, MERVE ; PIA, ALBERTO DEL ; DEY, SANTANU S. ; MOLINARO, MARCO",
+        "revista": "SIAM JOURNAL ON OPTIMIZATION",
+        "volume": "29",
+        "numero": "",
+        "paginas": "55-76",
+        "issn": "1052-6234",
+        "doi": "http://dx.doi.org/10.1137/17M1149985",
+        "qualis": ""
+      },
+      {
+        "titulo": "Minimal cut-generating functions are nearly extreme",
+        "ano": 2018,
+        "autores": "BASU, A. ; HILDEBRAND, ROBERT ; MOLINARO, MARCO",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "172",
+        "numero": "",
+        "paginas": "329-349",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-017-1153-4",
+        "qualis": ""
+      },
+      {
+        "titulo": "Aggregation-based cutting-planes for packing and covering integer programs",
+        "ano": 2018,
+        "autores": "BODUR, M. ; del PIA, A. ; DEY, S. S. ; MOLINARO, MARCO ; POKUTTA, S.",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "171",
+        "numero": "",
+        "paginas": "331-359",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-017-1192-x",
+        "qualis": ""
+      },
+      {
+        "titulo": "Improving the Randomization Step in Feasibility Pump",
+        "ano": 2018,
+        "autores": "DEY, SANTANU S. ; IROUME, ANDRES ; MOLINARO, MARCO ; SALVAGNIN, DOMENICO",
+        "revista": "SIAM JOURNAL ON OPTIMIZATION",
+        "volume": "28",
+        "numero": "",
+        "paginas": "355-378",
+        "issn": "1052-6234",
+        "doi": "http://dx.doi.org/10.1137/16M1095962",
+        "qualis": ""
+      },
+      {
+        "titulo": "Analysis of Sparse Cutting Planes for Sparse MILPs with Applications to Stochastic MILPs",
+        "ano": 2018,
+        "autores": "DEY, SANTANU S. ; MOLINARO, MARCO ; WANG, QIANYI",
+        "revista": "MATHEMATICS OF OPERATIONS RESEARCH",
+        "volume": "43",
+        "numero": "",
+        "paginas": "304-332",
+        "issn": "0364-765X",
+        "doi": "http://dx.doi.org/10.1287/moor.2017.0866",
+        "qualis": ""
+      },
+      {
+        "titulo": "Theoretical challenges towards cutting-plane selection",
+        "ano": 2018,
+        "autores": "DEY, SANTANU S. ; MOLINARO, MARCO",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "",
+        "numero": "",
+        "paginas": "237-266",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-018-1302-4",
+        "qualis": ""
+      },
+      {
+        "titulo": "Bounding the gap between the McCormick relaxation and the convex hull for bilinear functions",
+        "ano": 2017,
+        "autores": "BOLAND, NATASHIA ; DEY, SANTANU S. ; KALINOWSKI, THOMAS ; MOLINARO, MARCO ; RIGTERINK, FABIAN",
+        "revista": "Mathematical Programming",
+        "volume": "162",
+        "numero": "",
+        "paginas": "523-535",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-016-1031-5",
+        "qualis": ""
+      },
+      {
+        "titulo": "Mixed-integer quadratic programming is in NP",
+        "ano": 2017,
+        "autores": "PIA, ALBERTO DEL ; DEY, SANTANU S. ; MOLINARO, MARCO",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "162",
+        "numero": "",
+        "paginas": "225-240",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-016-1036-0",
+        "qualis": ""
+      },
+      {
+        "titulo": "Testing Lipschitz Functions on Hypergrid Domains",
+        "ano": 2016,
+        "autores": "AWASTHI, PRANJAL ; JHA, MADHAV ; MOLINARO, MARCO ; RASKHODNIKOVA, SOFYA",
+        "revista": "Algorithmica",
+        "volume": "74",
+        "numero": "",
+        "paginas": "1055-1081",
+        "issn": "0178-4617",
+        "doi": "http://dx.doi.org/10.1007/s00453-015-9984-y",
+        "qualis": ""
+      },
+      {
+        "titulo": "Capacitated Vehicle Routing with Nonuniform Speeds",
+        "ano": 2016,
+        "autores": "GØRTZ, INGE LI ; MOLINARO, MARCO ; NAGARAJAN, VISWANATH ; RAVI, R.",
+        "revista": "Mathematics of Operations Research (Online)",
+        "volume": "41",
+        "numero": "",
+        "paginas": "318-331",
+        "issn": "1526-5471",
+        "doi": "http://dx.doi.org/10.1287/moor.2015.0729",
+        "qualis": ""
+      },
+      {
+        "titulo": "How the Experts Algorithm Can Help Solve LPs Online",
+        "ano": 2016,
+        "autores": "GUPTA, ANUPAM ; MOLINARO, MARCO",
+        "revista": "MATHEMATICS OF OPERATIONS RESEARCH (ONLINE)",
+        "volume": "41",
+        "numero": "",
+        "paginas": "1404-1431",
+        "issn": "1526-5471",
+        "doi": "http://dx.doi.org/10.1287/moor.2016.0782",
+        "qualis": ""
+      },
+      {
+        "titulo": "On the relative strength of different generalizations of split cuts",
+        "ano": 2015,
+        "autores": "DASH, SANJEEB ; GÜNLÜK, OKTAY ; MOLINARO, MARCO",
+        "revista": "Discrete Optimization",
+        "volume": "16",
+        "numero": "",
+        "paginas": "36-50",
+        "issn": "1572-5286",
+        "doi": "http://dx.doi.org/10.1016/j.disopt.2014.12.003",
+        "qualis": ""
+      },
+      {
+        "titulo": "Characterization of the split closure via geometric lifting",
+        "ano": 2015,
+        "autores": "BASU, AMITABH ; MOLINARO, MARCO",
+        "revista": "European Journal of Operational Research",
+        "volume": "243",
+        "numero": "",
+        "paginas": "745-751",
+        "issn": "0377-2217",
+        "doi": "http://dx.doi.org/10.1016/j.ejor.2014.12.018",
+        "qualis": ""
+      },
+      {
+        "titulo": "Some lower bounds on sparse outer approximations of polytopes",
+        "ano": 2015,
+        "autores": "DEY, SANTANU S. ; IROUME, ANDRES ; MOLINARO, MARCO",
+        "revista": "Operations Research Letters",
+        "volume": "43",
+        "numero": "",
+        "paginas": "323-328",
+        "issn": "0167-6377",
+        "doi": "http://dx.doi.org/10.1016/j.orl.2015.03.007",
+        "qualis": ""
+      },
+      {
+        "titulo": "Limitations of Local Filters of Lipschitz and Monotone Functions",
+        "ano": 2015,
+        "autores": "AWASTHI, P. ; JHA, M. ; MOLINARO, M. S. ; RASKHODNIKOVA, S.",
+        "revista": "ACM Transactions on Computation Theory",
+        "volume": "7",
+        "numero": "",
+        "paginas": "1-16",
+        "issn": "1942-3454",
+        "doi": "http://dx.doi.org/10.1145/2692372.2692373",
+        "qualis": ""
+      },
+      {
+        "titulo": "Approximating polyhedra with sparse inequalities",
+        "ano": 2015,
+        "autores": "DEY, SANTANU S. ; MOLINARO, MARCO ; WANG, QIANYI",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "154",
+        "numero": "",
+        "paginas": "329-352",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-015-0925-y",
+        "qualis": ""
+      },
+      {
+        "titulo": "The Geometry of Online Packing Linear Programs",
+        "ano": 2014,
+        "autores": "MOLINARO, MARCO; RAVI, R.",
+        "revista": "MATHEMATICS OF OPERATIONS RESEARCH (ONLINE)",
+        "volume": "39",
+        "numero": "",
+        "paginas": "46-59",
+        "issn": "1526-5471",
+        "doi": "http://dx.doi.org/10.1287/moor.2013.0612",
+        "qualis": ""
+      },
+      {
+        "titulo": "Improved Approximation Algorithms for the Average-Case Tree Searching Problem",
+        "ano": 2014,
+        "autores": "CICALESE, FERDINANDO ; JACOBS, TOBIAS ; LABER, EDUARDO ; MOLINARO, MARCO",
+        "revista": "Algorithmica (New York. Internet)",
+        "volume": "68",
+        "numero": "",
+        "paginas": "1045-1074",
+        "issn": "1432-0541",
+        "doi": "http://dx.doi.org/10.1007/s00453-012-9715-6",
+        "qualis": ""
+      },
+      {
+        "titulo": "A 3-Slope Theorem for the infinite relaxation in the plane",
+        "ano": 2013,
+        "autores": "CORNUÉJOLS, GÉRARD ; MOLINARO, MARCO",
+        "revista": "Mathematical Programming",
+        "volume": "142",
+        "numero": "",
+        "paginas": "83-105",
+        "issn": "1436-4646",
+        "doi": "http://dx.doi.org/10.1007/s10107-012-0562-7",
+        "qualis": ""
+      },
+      {
+        "titulo": "Lifting Gomory cuts with bounded variables",
+        "ano": 2013,
+        "autores": "CORNUÉJOLS, GÉRARD ; KIS, TAMÁS ; MOLINARO, MARCO",
+        "revista": "Operations Research Letters",
+        "volume": "41",
+        "numero": "",
+        "paginas": "142-146",
+        "issn": "0167-6377",
+        "doi": "http://dx.doi.org/10.1016/j.orl.2012.12.002",
+        "qualis": ""
+      },
+      {
+        "titulo": "Cutting planes from two-term disjunctions",
+        "ano": 2013,
+        "autores": "BONAMI, PIERRE ; CONFORTI, MICHELE ; CORNUÉJOLS, GÉRARD ; MOLINARO, MARCO ; ZAMBELLI, GIACOMO",
+        "revista": "Operations Research Letters",
+        "volume": "41",
+        "numero": "",
+        "paginas": "442-444",
+        "issn": "0167-6377",
+        "doi": "http://dx.doi.org/10.1016/j.orl.2013.05.005",
+        "qualis": ""
+      },
+      {
+        "titulo": "A $(k+1)$-Slope Theorem for the $k$-Dimensional Infinite Group Relaxation",
+        "ano": 2013,
+        "autores": "BASU, AMITABH ; HILDEBRAND, ROBERT ; KÖPPE, MATTHIAS ; MOLINARO, MARCO",
+        "revista": "SIAM JOURNAL ON OPTIMIZATION",
+        "volume": "23",
+        "numero": "",
+        "paginas": "1021-1040",
+        "issn": "1052-6234",
+        "doi": "http://dx.doi.org/10.1137/110848608",
+        "qualis": ""
+      },
+      {
+        "titulo": "An Approximation Algorithm for Binary Searching inÂ Trees",
+        "ano": 2011,
+        "autores": "LABER, EDUARDO ; MOLINARO, MARCO",
+        "revista": "Algorithmica",
+        "volume": "59",
+        "numero": "",
+        "paginas": "601-620",
+        "issn": "0178-4617",
+        "doi": "http://dx.doi.org/10.1007/s00453-009-9325-0",
+        "qualis": ""
+      },
+      {
+        "titulo": "Improved approximations for the hotlink assignment problem",
+        "ano": 2011,
+        "autores": "LABER, EDUARDO ; MOLINARO, MARCO",
+        "revista": "ACM Transactions on Algorithms",
+        "volume": "7",
+        "numero": "",
+        "paginas": "1-34",
+        "issn": "1549-6325",
+        "doi": "http://dx.doi.org/10.1145/1978782.1978794",
+        "qualis": ""
+      },
+      {
+        "titulo": "On the complexity of searching in trees and partially ordered structures",
+        "ano": 2011,
+        "autores": "CICALESE, FERDINANDO ; JACOBS, TOBIAS ; LABER, EDUARDO ; MOLINARO, MARCO",
+        "revista": "Theoretical Computer Science",
+        "volume": "412",
+        "numero": "",
+        "paginas": "6879-6896",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/j.tcs.2011.08.042",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [],
+    "capitulos_livros": [],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "A Learning Perspective on Random-Order Covering Problems",
+        "ano": 2026,
+        "doi": "",
+        "autores": "GUPTA, A. ; MOLINARO, M. S. ; RUSSO, M.",
+        "evento": "SOSA",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Learning Packing and Covering from Samples",
+        "ano": 2026,
+        "doi": "",
+        "autores": "GUPTA, A. ; MOLINARO, M. S.",
+        "evento": "SODA",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Power of Migrations in Dynamic Bin Packing",
+        "ano": 2025,
+        "doi": "",
+        "autores": "MELLOU, K. ; MOLINARO, M. S. ; ZHOU, R.",
+        "evento": "SIGMETRICS",
+        "cidade": "",
+        "paginas": "1-28",
+        "isbn": ""
+      },
+      {
+        "titulo": "Kamino: efficient VM allocation at scale with latency-driven cache-aware scheduling",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5555/3767901.3767930",
+        "autores": "DOMINGO, D. ; BARBALHO, H. ; MOLINARO, M. S. ; LIU, K. ; PAN, A. ; DION, D. ; MOSCIBRODA, T. ; KANNAN, S. ; MENACHE, I.",
+        "evento": "OSDI",
+        "cidade": "",
+        "paginas": "519-535",
+        "isbn": ""
+      },
+      {
+        "titulo": "Integral Online Algorithms for Set Cover and Load Balancing with Convex Objectives",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1109/FOCS63196.2025.00073",
+        "autores": "KESSELHEIM, THOMAS ; MOLINARO, MARCO ; PATTON, KALEN ; SINGLA, SAHIL",
+        "evento": "2025 IEEE 66th Annual Symposium on Foundations of Computer Science (FOCS)",
+        "cidade": "",
+        "paginas": "1382",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Universal Transfer Theorem for Convex Optimization Algorithms Using Inexact First-order Oracles",
+        "ano": 2024,
+        "doi": "",
+        "autores": "BASU, A. ; JIANG, H. ; KERGER, P. ; MOLINARO, MARCO",
+        "evento": "ICML",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Supermodular Approximation of Norms and Applications",
+        "ano": 2024,
+        "doi": "",
+        "autores": "KESSELHEIM, T. ; MOLINARO, MARCO ; SINGLA, S.",
+        "evento": "STOC",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Power of Migrations in Dynamic Bin Packing",
+        "ano": 2025,
+        "doi": "",
+        "autores": "MELLOU, K. ; MOLINARO, MARCO ; ZHOU, R.",
+        "evento": "SIGMETRICS",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Online Demand Scheduling with Failovers",
+        "ano": 2023,
+        "doi": "",
+        "autores": "MELLOU, K. ; MOLINARO, MARCO ; ZHOU, R.",
+        "evento": "International Colloquium on Automata",
+        "cidade": "",
+        "paginas": "1-20",
+        "isbn": ""
+      },
+      {
+        "titulo": "Online and Bandit Algorithms Beyond lp norms",
+        "ano": 2023,
+        "doi": "",
+        "autores": "KESSELHEIM, T. ; MOLINARO, MARCO ; SINGLA, S.",
+        "evento": "Symposium on Discrete Algorithms (SODA)",
+        "cidade": "",
+        "paginas": "1-46",
+        "isbn": ""
+      },
+      {
+        "titulo": "Virtual Machine Allocation with Lifetime Predictions",
+        "ano": 2023,
+        "doi": "",
+        "autores": "BARBALHO, H. ; KOVALESKI, P. ; LI, B. ; MARSHALL, L. ; MOLINARO, MARCO ; PAN, A. ; CORTEZ, E. ; LEAO, M. ; PATWARI, H. ; TANG, Z. ; SANTOS, T. ; GONCALVES, L. ; DION, D. ; MOSCIBRODA, T. ; MENACHE, I.",
+        "evento": "Machine Learning and Systems (MLSys)",
+        "cidade": "",
+        "paginas": "1-13",
+        "isbn": ""
+      },
+      {
+        "titulo": "Information Complexity of Mixed-integer Convex Optimization",
+        "ano": 2023,
+        "doi": "",
+        "autores": "BASU, A. ; JIANG, H. ; KERGER, P. ; MOLINARO, MARCO",
+        "evento": "Conference on Integer Programming and Combinatorial Optimization (IPCO)",
+        "cidade": "",
+        "paginas": "1-13",
+        "isbn": ""
+      },
+      {
+        "titulo": "Robust Secretary and Prophet Algorithms for Packing Integer Programs",
+        "ano": 2022,
+        "doi": "",
+        "autores": "ARGUE, C. ; GUPTA, A. ; MOLINARO, MARCO ; SINGLA, S.",
+        "evento": "ACM-SIAM Symposium on Discrete Algorithms",
+        "cidade": "",
+        "paginas": "1273-1297",
+        "isbn": ""
+      },
+      {
+        "titulo": "Decision Trees with Short Explainable Rules",
+        "ano": 2022,
+        "doi": "",
+        "autores": "FEITOSA, V. ; Cicalese, Ferdinando ; LABER, E. S. ; Molinaro, Marco",
+        "evento": "Neural Information Processing Systems",
+        "cidade": "",
+        "paginas": "1-15",
+        "isbn": ""
+      },
+      {
+        "titulo": "Branch-and-Bound Solves Random Binary Packing IPs in Polytime",
+        "ano": 2021,
+        "doi": "",
+        "autores": "DEY, S. S. ; DUBEY, Y. ; MOLINARO, MARCO",
+        "evento": "ACM-SIAM Symposium on Discrete Algorithms",
+        "cidade": "",
+        "paginas": "579-591",
+        "isbn": ""
+      },
+      {
+        "titulo": "Robust Algorithms for Online Convex Problems via Primal-Dual",
+        "ano": 2021,
+        "doi": "",
+        "autores": "MOLINARO, MARCO",
+        "evento": "ACM-SIAM Symposium on Discrete Algorithms",
+        "cidade": "",
+        "paginas": "2078-2092",
+        "isbn": ""
+      },
+      {
+        "titulo": "Teaching with Limited Information on the Learner's Behaviour",
+        "ano": 2020,
+        "doi": "",
+        "autores": "Cicalese, Ferdinando ; FREITAS FILHO, F. S. ; LABER, E. S. ; MOLINARO, M.",
+        "evento": "International Conference on Machine Learning",
+        "cidade": "",
+        "paginas": "2016-2026",
+        "isbn": ""
+      },
+      {
+        "titulo": "Knapsack Secretary with Bursty Adversary",
+        "ano": 2020,
+        "doi": "",
+        "autores": "KESSELHEIM, T. ; MOLINARO, MARCO",
+        "evento": "ICALP",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "k-Servers with a Smile: Online Algorithms via Projections",
+        "ano": 2019,
+        "doi": "",
+        "autores": "BUCHBINDER, N. ; GUPTA, A. ; MOLINARO, MARCO ; NAOR, J.",
+        "evento": "SODA",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Stochastic lp Load Balancing and Moment Problems via the L-Function Method",
+        "ano": 2019,
+        "doi": "",
+        "autores": "MOLINARO, MARCO",
+        "evento": "SODA",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Maximizing Profit with Convex Costs in the Random-order Model",
+        "ano": 2018,
+        "doi": "",
+        "autores": "GUPTA, A. ; MOLINARO, MARCO ; MEHTA, R.",
+        "evento": "ICALP",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Binary Partitions with Approximate Minimum Impurity",
+        "ano": 2018,
+        "doi": "",
+        "autores": "LABER, E. S.; MOLINARO, M. ; DE A. MELLO PEREIRA, FELIPE",
+        "evento": "International Conference on Machine Learning",
+        "cidade": "",
+        "paginas": "286254-2862",
+        "isbn": ""
+      },
+      {
+        "titulo": "Online and Random-order Load Balancing Simultaneously",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1137/1.9781611974782.108",
+        "autores": "MOLINARO, MARCO",
+        "evento": "Proceedings of the TwentyEighth Annual ACMSIAM Symposium on Discrete Algorithms",
+        "cidade": "",
+        "paginas": "1638",
+        "isbn": ""
+      },
+      {
+        "titulo": "Minimal Cut-generating Functions are Nearly Extreme",
+        "ano": 2016,
+        "doi": "",
+        "autores": "BASU, A. ; HILDEBRAND, ROBERT ; MOLINARO, MARCO",
+        "evento": "IPCO",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Amplification of one-way information complexity via codes and noie sensitivity",
+        "ano": 2015,
+        "doi": "",
+        "autores": "MOLINARO, M. S.; WOODRUFF, D. P. ; YAROSLAVTSEV, G.",
+        "evento": "ICALP",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "How experts can solve LPs Online",
+        "ano": 2014,
+        "doi": "",
+        "autores": "GUPTA, A. ; MOLINARO, M. S.",
+        "evento": "ESA",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "How good are sparse cutting-planes?",
+        "ano": 2014,
+        "doi": "",
+        "autores": "DEY, S. S. ; MOLINARO, M. S. ; WANG, Q.",
+        "evento": "IPCO",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Beating the direct sum theorem in communication complexity with implications for sketching",
+        "ano": 2013,
+        "doi": "",
+        "autores": "MOLINARO, M. S.; WOODRUFF, D. P. ; YAROSLAVTSEV, G.",
+        "evento": "SODA",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Testing Lipschitz Functions on Hypergrid Domain",
+        "ano": 2012,
+        "doi": "",
+        "autores": "AWASTHI, P. ; JHA, M. ; MOLINARO, M. S. ; RASKHODNIKOVA, S.",
+        "evento": "APPROX",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Limitations of Local Filters of Lipschitz and Monotone Functions",
+        "ano": 2012,
+        "doi": "",
+        "autores": "AWASTHI, P. ; JHA, M. ; MOLINARO, M. S. ; RASKHODNIKOVA, S.",
+        "evento": "APPROX",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Geometry of Online Packing Linear Programs",
+        "ano": 2012,
+        "doi": "",
+        "autores": "MOLINARO, M. S.; RAVI, R.",
+        "evento": "ICALP",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Approximation Algorithms for Correlated Knapsacks and Non-martingale Bandits",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1109/FOCS.2011.48",
+        "autores": "GUPTA, ANUPAM ; KRISHNASWAMY, RAVISHANKAR ; MOLINARO, MARCO ; RAVI, R.",
+        "evento": "2011 IEEE 52nd Annual Symposium on Foundations of Computer Science (FOCS)",
+        "cidade": "",
+        "paginas": "827",
+        "isbn": ""
+      },
+      {
+        "titulo": "A probabilistic analysis of the strength of the split and triangle closures",
+        "ano": 2011,
+        "doi": "",
+        "autores": "BASU, A. ; CORNUEJOLS, G. ; MOLINARO, M. S.",
+        "evento": "IPCO",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Capacitated Vehicle Routing with non-uniform Speeds",
+        "ano": 2011,
+        "doi": "",
+        "autores": "GORTZ, I. L. ; MOLINARO, M. S. ; NAGARAJAN, V. ; RAVI, R.",
+        "evento": "IPCO",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the complexity of searching in trees: average-case minimization",
+        "ano": 2010,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-14165-2_45",
+        "autores": "JACOBS, T. ; CICALESE, F. ; LABER, E. S. ; MOLINARO, M. S.",
+        "evento": "ICALP 2010",
+        "cidade": "",
+        "paginas": "527-539",
+        "isbn": ""
+      },
+      {
+        "titulo": "On greedy algorithms for decision trees",
+        "ano": 2010,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-17514-5_18",
+        "autores": "Cicalese, Ferdinando ; JACOBS, T. ; LABER, E. S. ; MOLINARO, M.",
+        "evento": "Algorithms and Computation 21St International Symposium (ISAAC 2010)",
+        "cidade": "",
+        "paginas": "206-217",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Approximation Algorithm for Binary Searching in Trees",
+        "ano": 2008,
+        "doi": "",
+        "autores": "LABER, E. S. ; MOLINARO, M. S.",
+        "evento": "ICALP 2008",
+        "cidade": "",
+        "paginas": "459-471",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [
+      {
+        "titulo": "A Multi-Agent Architecture for a Dynamic Supply Chain Management",
+        "ano": 2006,
+        "autores": "SARDINHA, J. A. R. P. ; MOLINARO, M. S. ; PARANHOS, P. M. ; CUNHA, P. M. ; MILIDIU, R. L. ; LUCENA, C. J. P.",
+        "evento": "FLAIRS, 2006, Melbourne, FL. Proc. of 19th FLAIRS 2006",
+        "cidade": "",
+        "paginas": ""
+      }
+    ],
+    "resumos_congressos": [
+      {
+        "titulo": "LearnAgentsSCM - A multi-agent system for the TAC Supply Chain Management",
+        "ano": 2005,
+        "autores": "SARDINHA, J. A. R. P. ; PARANHOS, P. M. ; CUNHA, P. M. ; MOLINARO, M. S. ; MILIDIU, H. ; MILIDIU, R. L. ; LUCENA, C. J. P.",
+        "evento": "Poster Session at Trading Agent Competition 2005, Nineteenth International Joint Conference on Artificial Intelligence, 2005, Edinburgh. -",
+        "cidade": ""
+      },
+      {
+        "titulo": "LearnAgents 2005 - A multi-agent system for the TAC Classic",
+        "ano": 2005,
+        "autores": "SARDINHA, J. A. R. P. ; PARANHOS, P. M. ; CUNHA, P. M. ; MOLINARO, M. S. ; MILIDIU, H. ; MILIDIU, R. L. ; LUCENA, C. J. P.",
+        "evento": "Poster Session at Trading Agent Competition 2005, Nineteenth International Joint Conference on Artificial Intelligence, 2005, Edinburgh. -",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "Stochastic lp Load Balancing and Moment Problems via the L-Function Method",
+        "ano": 2019,
+        "autores": "MOLINARO, MARCO",
+        "evento": ""
+      },
+      {
+        "titulo": "k-Servers with a Smile: Online Algorithms via Projections",
+        "ano": 2019,
+        "autores": "BUCHBINDER, N. ; GUPTA, ANUPAM ; MOLINARO, MARCO ; NAOR, J.",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [],
+    "outras_producoes": [
+      {
+        "titulo": "A Multi-Agent Architecture for a Dynamic Supply Chain Management",
+        "ano": 2005,
+        "autores": "SARDINHA, Jose Alberto Rodrigues Pereira; MOLINARO, Marco S. ; PARANHOS, Patrick M. ; CUNHA, Pedro M ; MILIDIÚ, Ruy L. ; LUCENA, Carlos J. P.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      }
+    ]
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [
+      {
+        "titulo": "Online Advertiser-Centric Budget Allocation",
+        "ano": 2020,
+        "autores": "COUTINHO, E. C. ; MOLINARO, MARCO",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Online Packing LPs in the Mixed Model",
+        "ano": 2020,
+        "autores": "BEYDA, D. ; MOLINARO, MARCO",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Approximate born-again tree ensembles",
+        "ano": 2020,
+        "autores": "MOLINARO, MARCO; SUKNAIC, M.",
+        "tipo": "Demais tipos de produção técnica"
+      }
+    ],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Aprendizado com Restrição de Tempo: Problemas de Classificação",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Francisco Sergio de Freitas Filho",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica",
+          "curso": ""
+        },
+        {
+          "titulo": "NOVEL ANALYSIS OF THE BRANCH-AND-BOUND ALGORITHM FOR INTEGER PROGRAMMING",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Yatharth Dubey",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Georgia Institute of Technology",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Solving the Online Packing IP Under Some Adversarial Inputs",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "David Beyda",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Approximate born-again tree ensembles",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Matheus Suknaic",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Online Advertiser-Centric Budget Allocation",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "EDUARDO CESAR NOGUEIRA COUTINHO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Otimização Inversa via Online Learning",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Luisa Silveira Rosa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Iterative Methods for Robust Convex Optimization",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Thiago de Garcia Paula Sandes Milagres",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos para o problema de seleção online de portfolios",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Charles Kubudi Cordeiro",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Estudo de Algoritmos em uma Chess Engine",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Luiz Fernando",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Utilizando Machine Learning para predição de resultados da NBA",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Caio Melo",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo comparativo de algoritmos de sistemas de recomendação de filmes",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Pedro Chamberlain",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uso de Algoritmos Online e Programação Inteira Mista em Problemas de Pickup and Delivery",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Pedro Ferraz",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sistema de Recomendação de Jogos Eletrônicos",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "José Paulo de Almeida Diniz",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Geração de música usando machine learning",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Hugo Fabiano Alves Cunha",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Super-Resolução de Imagem Única: Um estudo comparativo",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Yan Martins Braz Gurevitz Cunha",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Modelos de previsão para jogos de futebol",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Felipe Gustavo Pereira Viberti",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Projeto de infraestrutura de fibra ótica para provedores de acesso",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Gerald Cohn",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos online e aplicacoes em mercados financeiros",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Matheus Henrique Prates",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Online Learning Algorithms: Methods and Applications",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Gerald van der Geuten",
+          "tipo_trabalho": "",
+          "instituicao": "Matematica aplicada) - Delft University of Technology",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [],
+    "organizacoes": [
+      {
+        "autores": "MOLINARO, MARCO. Annual ACM Symposium on Theory of Computing (STOC 2025). 2024. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "MOLINARO, MARCO. ACM-SIAM Symposium on Discrete Algorithms (SODA23). 2023. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "MOLINARO, MARCO. The 16th Latin American Theoretical Informatics Symposium. 2022. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "MOLINARO, MARCO. The 29th Annual European Symposium on Algorithms (ESA 2021). 2021. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "MOLINARO, M. S.. ACM-SIAM Symposium on Discrete Algorithms (SODA20). 2020. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "MOLINARO, MARCO. The 14th Latin American Theoretical Informatics Symposium. 2020. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "MOLINARO, MARCO. The 13th Latin American Theoretical Informatics Symposium. 2018. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "MOLINARO, M. S.. 13th Workshop on Approximation and Online Algorithms. 2015. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "MOLINARO, M. S.. The 11th Latin American Theoretical Informatics Symposium. 2014. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      }
+    ]
+  },
+  "bancas": {
+    "mestrado": [
+      {
+        "descricao": "LABER, EDUARDO; MOLINARO, MARCO; LOPES, H. C. V.. Participação em banca de Pedro Lazera Cardoso. Problemas de Regress~ao com Tempo Limitado. 2021. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2021,
+        "tipo": "Mestrado",
+        "aluno": "Pedro Lazera Cardoso",
+        "membros_banca": [
+          "LABER, EDUARDO",
+          "MOLINARO, MARCO",
+          "LOPES, H. C. V."
+        ],
+        "titulo_trabalho": "Problemas de Regress~ao com Tempo Limitado",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "VIDAL, T. V. G.; SUBRAMANIAN, A.; MOLINARO, MARCO; ARAGAO, M. V. S. P.. Participação em banca de Jordana Zerpini Mecler. A simple and effective hybrid genetic search for the job sequencing and tool switching problem. 2020. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2020,
+        "tipo": "Mestrado",
+        "aluno": "Jordana Zerpini Mecler",
+        "membros_banca": [
+          "VIDAL, T. V. G.",
+          "SUBRAMANIAN, A.",
+          "MOLINARO, MARCO",
+          "ARAGAO, M. V. S. P."
+        ],
+        "titulo_trabalho": "A simple and effective hybrid genetic search for the job sequencing and tool switching problem",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "LABER, EDUARDO; MOLINARO, MARCO; VIDAL, T. V. G.. Participação em banca de Lucas Murtinho. Theoretical and experimental results in information-theoretic clustering. 2020. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2020,
+        "tipo": "Mestrado",
+        "aluno": "Lucas Murtinho",
+        "membros_banca": [
+          "LABER, EDUARDO",
+          "MOLINARO, MARCO",
+          "VIDAL, T. V. G."
+        ],
+        "titulo_trabalho": "Theoretical and experimental results in information-theoretic clustering",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "COLCHER, S.; MILIDIU, R. L.; MOLINARO, MARCO. Participação em banca de André Davys Carvalho Melo de Oliveira. Um estudo de caso para previsão de preços de conjuntos de ações similares no mercado financeiro brasileiro. 2020. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2020,
+        "tipo": "Mestrado",
+        "aluno": "André Davys Carvalho Melo de Oliveira",
+        "membros_banca": [
+          "COLCHER, S.",
+          "MILIDIU, R. L.",
+          "MOLINARO, MARCO"
+        ],
+        "titulo_trabalho": "Um estudo de caso para previsão de preços de conjuntos de ações similares no mercado financeiro brasileiro",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "VIDAL, T. V. G.; LABER, EDUARDO; MOLINARO, MARCO; PINTO, R. M.. Participação em banca de João Pedro Teixeira Brandão. Parametric search for variants of nested resource allocation problems. 2019. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2019,
+        "tipo": "Mestrado",
+        "aluno": "João Pedro Teixeira Brandão",
+        "membros_banca": [
+          "VIDAL, T. V. G.",
+          "LABER, EDUARDO",
+          "MOLINARO, MARCO",
+          "PINTO, R. M."
+        ],
+        "titulo_trabalho": "Parametric search for variants of nested resource allocation problems",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "MILIDIU, R. L.; MOLINARO, MARCO; ALVIM, L. G. M.. Participação em banca de Miguel Mendes de Brito. Aprendizagem Profunda Aplicada ao Problema de Segmentação Textual em Português. 2019. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2019,
+        "tipo": "Mestrado",
+        "aluno": "Miguel Mendes de Brito",
+        "membros_banca": [
+          "MILIDIU, R. L.",
+          "MOLINARO, MARCO",
+          "ALVIM, L. G. M."
+        ],
+        "titulo_trabalho": "Aprendizagem Profunda Aplicada ao Problema de Segmentação Textual em Português",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "POGGI, M.; VIDAL, T. V. G.; MOLINARO, MARCO; VEIGA FILHO, A. L.; LOPES, H. C. V.. Participação em banca de Raphael Araujo Sampaio. A Study on Ellipsoidal Clustering. 2018. Dissertação (Mestrado em Ciência da Computação) - Pontifícia Universidade Católica.",
+        "ano": 2018,
+        "tipo": "Mestrado",
+        "aluno": "Raphael Araujo Sampaio",
+        "membros_banca": [
+          "POGGI, M.",
+          "VIDAL, T. V. G.",
+          "MOLINARO, MARCO",
+          "VEIGA FILHO, A. L.",
+          "LOPES, H. C. V."
+        ],
+        "titulo_trabalho": "A Study on Ellipsoidal Clustering",
+        "curso": "Dissertação (Mestrado em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica"
+      },
+      {
+        "descricao": "LABER, EDUARDO; LOPES, H. C. V.; MOLINARO, MARCO. Participação em banca de Felipe de Albuquerque Mello Pereira. A Framework for Generating Binary Splits in Decision Trees. 2018. Dissertação (Mestrado em Ciência da Computação) - Pontifícia Universidade Católica.",
+        "ano": 2018,
+        "tipo": "Mestrado",
+        "aluno": "Felipe de Albuquerque Mello Pereira",
+        "membros_banca": [
+          "LABER, EDUARDO",
+          "LOPES, H. C. V.",
+          "MOLINARO, MARCO"
+        ],
+        "titulo_trabalho": "A Framework for Generating Binary Splits in Decision Trees",
+        "curso": "Dissertação (Mestrado em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica"
+      },
+      {
+        "descricao": "MILIDIU, R.; HAEUSLER, E. H.; MOLINARO, MARCO. Participação em banca de Guilherme Augusto Schutz. A neural network for online portfolio selection with side information. 2018. Dissertação (Mestrado em Ciência da Computação) - Pontifícia Universidade Católica.",
+        "ano": 2018,
+        "tipo": "Mestrado",
+        "aluno": "Guilherme Augusto Schutz",
+        "membros_banca": [
+          "MILIDIU, R.",
+          "HAEUSLER, E. H.",
+          "MOLINARO, MARCO"
+        ],
+        "titulo_trabalho": "A neural network for online portfolio selection with side information",
+        "curso": "Dissertação (Mestrado em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica"
+      },
+      {
+        "descricao": "VIDAL, T. V. G.; ARAGAO, M. V. S. P.; MOLINARO, MARCO; PINTO, R. M.. Participação em banca de Daniel Lemes Gribel. Hybrid Genetic Algorithm for the Minimum Sum-of-Squares Clustering Problem. 2017. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2017,
+        "tipo": "Mestrado",
+        "aluno": "Daniel Lemes Gribel",
+        "membros_banca": [
+          "VIDAL, T. V. G.",
+          "ARAGAO, M. V. S. P.",
+          "MOLINARO, MARCO",
+          "PINTO, R. M."
+        ],
+        "titulo_trabalho": "Hybrid Genetic Algorithm for the Minimum Sum-of-Squares Clustering Problem",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "POGGI, M.; MARTINELLI, R.; MOLINARO, MARCO; UCHOA, E.. Participação em banca de Marcelo Malta Rodrigues Martins. Strong Lower Bounds for the CVRP via Column and Cut Generation. 2016. Dissertação (Mestrado em Ciência da Computação) - Pontifícia Universidade Católica.",
+        "ano": 2016,
+        "tipo": "Mestrado",
+        "aluno": "Marcelo Malta Rodrigues Martins",
+        "membros_banca": [
+          "POGGI, M.",
+          "MARTINELLI, R.",
+          "MOLINARO, MARCO",
+          "UCHOA, E."
+        ],
+        "titulo_trabalho": "Strong Lower Bounds for the CVRP via Column and Cut Generation",
+        "curso": "Dissertação (Mestrado em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica"
+      },
+      {
+        "descricao": "AARDAL, K.; KROON, L.; MOLINARO, M. S.. Participação em banca de Gert-Jaap Polinder. Resolving infeasibilities in the PESP model of the Dutch railway timetabling problem. 2015. Dissertação (Mestrado em MSc. Matematica Aplicada) - Delft University of Technology.",
+        "ano": 2015,
+        "tipo": "Mestrado",
+        "aluno": "Gert-Jaap Polinder",
+        "membros_banca": [
+          "AARDAL, K.",
+          "KROON, L.",
+          "MOLINARO, M. S."
+        ],
+        "titulo_trabalho": "Resolving infeasibilities in the PESP model of the Dutch railway timetabling problem",
+        "curso": "Dissertação (Mestrado em MSc. Matematica Aplicada)",
+        "universidade": "Delft University of Technology"
+      }
+    ],
+    "doutorado": [
+      {
+        "descricao": "LEE, O.; GRUBER, A. B. G.; MOLINARO, MARCO; XAVIER, E. C.; PEDROSA, L. L. C.. Participação em banca de Murilo Santos de Lima. Parking Permit and Network Leasing Problems. 2018. Tese (Doutorado em Ciência da Computação) - Universidade Estadual de Campinas.",
+        "ano": 2018,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Murilo Santos de Lima",
+        "membros_banca": [
+          "LEE, O.",
+          "GRUBER, A. B. G.",
+          "MOLINARO, MARCO",
+          "XAVIER, E. C.",
+          "PEDROSA, L. L. C."
+        ],
+        "titulo_trabalho": "Parking Permit and Network Leasing Problems",
+        "curso": "Tese (Doutorado em Ciência da Computação)",
+        "universidade": "Universidade Estadual de Campinas"
+      },
+      {
+        "descricao": "VIDAL, T. V. G.; LOPES, H. C. V.; MOLINARO, MARCO; FROTA, Y. A. M.; COELHO, I. M.. Participação em banca de Mayra Carvalho Albuquerque. Matheuristics for Variants of the Dominating Set Problem. 2018. Tese (Doutorado em Ciencia da Computacao) - Pontifícia Universidade Católica.",
+        "ano": 2018,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Mayra Carvalho Albuquerque",
+        "membros_banca": [
+          "VIDAL, T. V. G.",
+          "LOPES, H. C. V.",
+          "MOLINARO, MARCO",
+          "FROTA, Y. A. M.",
+          "COELHO, I. M."
+        ],
+        "titulo_trabalho": "Matheuristics for Variants of the Dominating Set Problem",
+        "curso": "Tese (Doutorado em Ciencia da Computacao)",
+        "universidade": "Pontifícia Universidade Católica"
+      },
+      {
+        "descricao": "ARAGAO, M. V. S. P.; FLACH, B. C.; VALLADAO, D. M.; MOLINARO, MARCO; AGUIAR, A. S.; MACULAN FILHO, N.; PESSOA, A. A.; CARDONHA, C. H.. Participação em banca de Carlos Raoni de Alencar Mendes. Effective Resource Allocation for Planning and Control Project Portfolios Under Uncertainty: A Robust Optimization Approach. 2017. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2017,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Carlos Raoni de Alencar Mendes",
+        "membros_banca": [
+          "ARAGAO, M. V. S. P.",
+          "FLACH, B. C.",
+          "VALLADAO, D. M.",
+          "MOLINARO, MARCO",
+          "AGUIAR, A. S.",
+          "MACULAN FILHO, N.",
+          "PESSOA, A. A.",
+          "CARDONHA, C. H."
+        ],
+        "titulo_trabalho": "Effective Resource Allocation for Planning and Control Project Portfolios Under Uncertainty: A Robust Optimization Approach",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "ARAGAO, M. V. S. P.; FLACH, B.; CARDONHA, C.; MOLINARO, MARCO; MACULAN FILHO, N.; PESSOA, A. A.; AGUIAR, A. S.; VALLADAO, D. M.. Participação em banca de Carlos Raoni de Alencar Mendes. Resource Allocation and Projects Under Uncertainty: A Robust Optimization Approach. 2017. Tese (Doutorado em Ciencia da Computacao) - Pontifícia Universidade Católica.",
+        "ano": 2017,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Carlos Raoni de Alencar Mendes",
+        "membros_banca": [
+          "ARAGAO, M. V. S. P.",
+          "FLACH, B.",
+          "CARDONHA, C.",
+          "MOLINARO, MARCO",
+          "MACULAN FILHO, N.",
+          "PESSOA, A. A.",
+          "AGUIAR, A. S.",
+          "VALLADAO, D. M."
+        ],
+        "titulo_trabalho": "Resource Allocation and Projects Under Uncertainty: A Robust Optimization Approach",
+        "curso": "Tese (Doutorado em Ciencia da Computacao)",
+        "universidade": "Pontifícia Universidade Católica"
+      },
+      {
+        "descricao": "DEY, S. S.; MOLINARO, MARCO; SUN, A.; TORIELLO, A.; GOLDSMAN, D.. Participação em banca de Andres Iroume. Sparsity in Integer Programming. 2016. Tese (Doutorado em PhD in Operations Research) - Georgia Institute of Technology.",
+        "ano": 2016,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Andres Iroume",
+        "membros_banca": [
+          "DEY, S. S.",
+          "MOLINARO, MARCO",
+          "SUN, A.",
+          "TORIELLO, A.",
+          "GOLDSMAN, D."
+        ],
+        "titulo_trabalho": "Sparsity in Integer Programming",
+        "curso": "Tese (Doutorado em PhD in Operations Research)",
+        "universidade": "Georgia Institute of Technology"
+      },
+      {
+        "descricao": "DEY, S. S.; MOLINARO, MARCO; NEMHAUSER, G.; AHMED, S.; SUN, A.. Participação em banca de Qianyi Wang. Theory and Computation of Sparse Cutting Planes. 2016. Tese (Doutorado em PhD in Operations Research) - Georgia Institute of Technology.",
+        "ano": 2016,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Qianyi Wang",
+        "membros_banca": [
+          "DEY, S. S.",
+          "MOLINARO, MARCO",
+          "NEMHAUSER, G.",
+          "AHMED, S.",
+          "SUN, A."
+        ],
+        "titulo_trabalho": "Theory and Computation of Sparse Cutting Planes",
+        "curso": "Tese (Doutorado em PhD in Operations Research)",
+        "universidade": "Georgia Institute of Technology"
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [
+      {
+        "descricao": "DEY, S. S.; MOLINARO, MARCO. Participação em banca de Guanyi Wang. APPROXIMATION ALGORITHMS FOR MIXED INTEGER NON-LINEAR OPTIMIZATION PROBLEMS. 2021. Exame de qualificação (Doutorando em PhD in Operations Research) - Georgia Institute of Technology.",
+        "ano": 2021,
+        "tipo": "Qualificação de Mestrado",
+        "aluno": "Guanyi Wang",
+        "membros_banca": [
+          "DEY, S. S.",
+          "MOLINARO, MARCO"
+        ],
+        "titulo_trabalho": "APPROXIMATION ALGORITHMS FOR MIXED INTEGER NON-LINEAR OPTIMIZATION PROBLEMS",
+        "curso": "Exame de qualificação (Doutorando em PhD in Operations Research)",
+        "universidade": "Georgia Institute of Technology"
+      },
+      {
+        "descricao": "SILVA, M. K. C.; GRUBER, A. B. G.; CARDONHA, C. H.; MOLINARO, MARCO. Participação em banca de VICTOR S. PORTELLA. ONLINE CONVEX OPTIMIZATION: ALGORITHMS, LEARNING, AND DUALITY. 2018. Exame de qualificação (Mestrando em Ciências da Computação) - Universidade de São Paulo.",
+        "ano": 2018,
+        "tipo": "Qualificação de Mestrado",
+        "aluno": "VICTOR S",
+        "membros_banca": [
+          "SILVA, M. K. C.",
+          "GRUBER, A. B. G.",
+          "CARDONHA, C. H.",
+          "MOLINARO, MARCO"
+        ],
+        "titulo_trabalho": "PORTELLA. ONLINE CONVEX OPTIMIZATION: ALGORITHMS, LEARNING, AND DUALITY",
+        "curso": "Exame de qualificação (Mestrando em Ciências da Computação)",
+        "universidade": "Universidade de São Paulo"
+      }
+    ],
+    "graduacao": [
+      {
+        "descricao": "GATTASS, M.; ANJOS, G. B.; MOLINARO, MARCO. Participação em banca de Matheus Kerber Venturelli.Classificação Semiautomática e Automática de Estruturas Porosas em Perfis de Imagem de Poços. 2021. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2021,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Matheus Kerber Venturelli",
+        "membros_banca": [
+          "GATTASS, M.",
+          "ANJOS, G. B.",
+          "MOLINARO, MARCO"
+        ],
+        "titulo_trabalho": "Classificação Semiautomática e Automática de Estruturas Porosas em Perfis de Imagem de Poços",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "LABER, EDUARDO; HAEUSLER, E. H.; MOLINARO, MARCO. Participação em banca de Miguel de Souza Corti.Métodos de Active Learning para algoritmos de classificação. 2021. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2021,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Miguel de Souza Corti",
+        "membros_banca": [
+          "LABER, EDUARDO",
+          "HAEUSLER, E. H.",
+          "MOLINARO, MARCO"
+        ],
+        "titulo_trabalho": "Métodos de Active Learning para algoritmos de classificação",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "ARAGAO, M. V. S. P.; LABER, EDUARDO; MOLINARO, MARCO. Participação em banca de Francisco Geiman Thiesen.Árvore geradora mínima em tempo esperado linear. 2020. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2020,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Francisco Geiman Thiesen.Árvore geradora mínima em tempo esperado linear",
+        "membros_banca": [
+          "ARAGAO, M. V. S. P.",
+          "LABER, EDUARDO",
+          "MOLINARO, MARCO"
+        ],
+        "titulo_trabalho": "",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "LABER, EDUARDO; MOLINARO, MARCO; VIDAL, T. V. G.. Participação em banca de Bruna Aleixo.Aprendizado de máquina para identificação de textos com mesmo significado. 2019. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2019,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Bruna Aleixo",
+        "membros_banca": [
+          "LABER, EDUARDO",
+          "MOLINARO, MARCO",
+          "VIDAL, T. V. G."
+        ],
+        "titulo_trabalho": "Aprendizado de máquina para identificação de textos com mesmo significado",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "MILIDIU, R.; HAEUSLER, E. H.; MOLINARO, MARCO. Participação em banca de Lucas Ribeiro Borges.Redes Neurais Convolucionais: Estimativa da idade real a partir de foto de rosto utilizando uma rede pré-treinada. 2018. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica.",
+        "ano": 2018,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Lucas Ribeiro Borges",
+        "membros_banca": [
+          "MILIDIU, R.",
+          "HAEUSLER, E. H.",
+          "MOLINARO, MARCO"
+        ],
+        "titulo_trabalho": "Redes Neurais Convolucionais: Estimativa da idade real a partir de foto de rosto utilizando uma rede pré-treinada",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica"
+      },
+      {
+        "descricao": "LABER, E. S.; RENTERIA, R.; MOLINARO, MARCO. Participação em banca de Henrique Bejgel.Aplicações de Aprendizado por Reforço na Modelagem do Jogador Ideal de Tetris. 2016. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica.",
+        "ano": 2016,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Henrique Bejgel",
+        "membros_banca": [
+          "LABER, E. S.",
+          "RENTERIA, R.",
+          "MOLINARO, MARCO"
+        ],
+        "titulo_trabalho": "Aplicações de Aprendizado por Reforço na Modelagem do Jogador Ideal de Tetris",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica"
+      }
+    ],
+    "outras": [
+      {
+        "descricao": "ARAGAO, M. V. S. P.; MOLINARO, MARCO; AGUIAR, A. S.; BORGES, T. T.. Participação em banca de Mauricio Raphael Waisblum Barg. Deep Reinforcement Learning for Voltage Control in Power Systems. 2021.",
+        "ano": 2021,
+        "tipo": "Participação em banca",
+        "aluno": "Mauricio Raphael Waisblum Barg",
+        "membros_banca": [
+          "ARAGAO, M. V. S. P.",
+          "MOLINARO, MARCO",
+          "AGUIAR, A. S.",
+          "BORGES, T. T."
+        ],
+        "titulo_trabalho": "Deep Reinforcement Learning for Voltage Control in Power Systems",
+        "curso": "",
+        "universidade": ""
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 36,
+    "total_livros": 0,
+    "total_capitulos": 0,
+    "total_trabalhos_congressos": 37,
+    "total_projetos_pesquisa": 0,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 0,
+    "total_orientacoes_concluidas": 8,
+    "total_orientacoes_andamento": 0
+  }
+}

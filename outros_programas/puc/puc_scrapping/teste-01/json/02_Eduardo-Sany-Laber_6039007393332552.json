@@ -1,0 +1,1986 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "6039007393332552",
+    "nome_completo": "Eduardo Sany Laber",
+    "nome_citacoes": "LABER, E. S.;Laber, Eduardo;Laber, Eduardo Sany;Laber, E;Laber, Eduardo S;LABER, EDUARDO S.;LABER",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "Nível 1D",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Marques de São Vicente 225, sala 518 Gavea 22453900 - Rio de Janeiro, RJ - Brasil - Caixa-postal: 38097 Telefone: (21) 31141500 Ramal: 4349 Fax: (21) 31141530",
+    "atualizacao_cv": "01/01/2026",
+    "url": "http://lattes.cnpq.br/6039007393332552",
+    "texto_resumo": "Possui graduação em Engenharia de Computação pela Pontifícia Universidade Católica do Rio de Janeiro (1996), mestrado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (1997) e doutorado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (2000). Atualmente é Professor Associado da Pontifícia Universidade Católica do Rio de Janeiro. Tem interesse e xperiência na área de Ciência da Computação, com ênfase em Aprendizado de Máquina, Ciência de Dados e Projeto e Análise de Algoritmos. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1997",
+      "ano_conclusao": "2000",
+      "descricao": "Título: Códigos de Prefixo: Algoritmos e Cotas, Ano de obtenção: 2000. Orientador: Ruy Luiz Milidiu. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil."
+    },
+    {
+      "tipo": "Mestrado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1996",
+      "ano_conclusao": "1997",
+      "descricao": "Título: Um algoritmo Lagrangeano para construção de códigos de prefixo com restrição de comprimento, Ano de Obtenção: 1997. Orientador: RUY LUIZ MILIDIÚ. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil."
+    },
+    {
+      "tipo": "Graduação em Engenharia de Computação",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1991",
+      "ano_conclusao": "1996",
+      "descricao": ""
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "PUC-Rio, PUC-RIO, Brasil.",
+      "instituicao_nome": "PUC-Rio",
+      "instituicao_sigla": "PUC-RIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "2001 - Atual",
+      "ano_inicio": "2001",
+      "ano_fim": "Atual",
+      "vinculo": "Professor",
+      "enquadramento": "Professor Associado III",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal do Rio de Janeiro, UFRJ, Brasil.",
+      "instituicao_nome": "Universidade Federal do Rio de Janeiro",
+      "instituicao_sigla": "UFRJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "1999 - 2001",
+      "ano_inicio": "1999",
+      "ano_fim": "2001",
+      "vinculo": "Bolsista",
+      "enquadramento": "PROFESSOR COLABORADOR",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Aprendizado de Máquina",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Aprendizado de Máquina."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Análise de Algoritmos e Complexidade de Computação",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Análise de Algoritmos e Complexidade de Computação."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Teoria dos Grafos",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria dos Grafos."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Espanhol",
+      "compreende": "Razoavelmente",
+      "fala": "Razoavelmente",
+      "le": "Bem",
+      "escreve": "Razoavelmente",
+      "proficiencia_completa": "Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente."
+    },
+    {
+      "nome": "Italiano",
+      "compreende": "Razoavelmente",
+      "fala": "Pouco",
+      "le": "Razoavelmente",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Top 10% Reviewer, International Conference on Machine Learning.",
+      "ano": 2021
+    }
+  ],
+  "linhas_de_pesquisa": [],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Decision trees with short explainable rules",
+        "ano": 2025,
+        "autores": "SOUZA, VICTOR F.C. ; Cicalese, Ferdinando ; Laber, Eduardo Sany ; Molinaro, Marco",
+        "revista": "THEORETICAL COMPUTER SCIENCE",
+        "volume": "1047",
+        "numero": "",
+        "paginas": "115344",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/j.tcs.2025.115344",
+        "qualis": ""
+      },
+      {
+        "titulo": "The computational complexity of some explainable clustering problems",
+        "ano": 2024,
+        "autores": "Laber, Eduardo Sany",
+        "revista": "INFORMATION PROCESSING LETTERS",
+        "volume": "184",
+        "numero": "",
+        "paginas": "106437",
+        "issn": "0020-0190",
+        "doi": "http://dx.doi.org/10.1016/j.ipl.2023.106437",
+        "qualis": ""
+      },
+      {
+        "titulo": "Extracting section structure from resumes in Brazilian Portuguese",
+        "ano": 2024,
+        "autores": "WERNER, MATHEUS ; Laber, Eduardo",
+        "revista": "EXPERT SYSTEMS WITH APPLICATIONS",
+        "volume": "242",
+        "numero": "",
+        "paginas": "122495",
+        "issn": "0957-4174",
+        "doi": "http://dx.doi.org/10.1016/j.eswa.2023.122495",
+        "qualis": ""
+      },
+      {
+        "titulo": "Shallow decision trees for explainable k -means clustering",
+        "ano": 2023,
+        "autores": "Laber, Eduardo; MURTINHO, LUCAS ; OLIVEIRA, FELIPE",
+        "revista": "PATTERN RECOGNITION",
+        "volume": "137",
+        "numero": "",
+        "paginas": "109239",
+        "issn": "0031-3203",
+        "doi": "http://dx.doi.org/10.1016/j.patcog.2022.109239",
+        "qualis": ""
+      },
+      {
+        "titulo": "Nearly tight bounds on the price of explainability for the k-center and the maximum-spacing clustering problems",
+        "ano": 2023,
+        "autores": "Laber, Eduardo Sany; SAADI MURTINHO, LUCAS",
+        "revista": "THEORETICAL COMPUTER SCIENCE",
+        "volume": "949",
+        "numero": "",
+        "paginas": "113744",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/j.tcs.2023.113744",
+        "qualis": ""
+      },
+      {
+        "titulo": "Time-constrained learning",
+        "ano": 2023,
+        "autores": "FREITAS, SERGIO ; Laber, Eduardo ; LAZERA, PEDRO ; Molinaro, Marco",
+        "revista": "PATTERN RECOGNITION",
+        "volume": "142",
+        "numero": "",
+        "paginas": "109672",
+        "issn": "0031-3203",
+        "doi": "http://dx.doi.org/10.1016/j.patcog.2023.109672",
+        "qualis": ""
+      },
+      {
+        "titulo": "Information Theoretical Clustering is Hard to Approximate",
+        "ano": 2020,
+        "autores": "Cicalese, Ferdinando ; LABER, EDUARDO S.",
+        "revista": "IEEE TRANSACTIONS ON INFORMATION THEORY",
+        "volume": "67",
+        "numero": "",
+        "paginas": "1-1",
+        "issn": "0018-9448",
+        "doi": "http://dx.doi.org/10.1109/tit.2020.3031629",
+        "qualis": ""
+      },
+      {
+        "titulo": "On the star decomposition of a graph: Hardness results and approximation for the max-min optimization problem",
+        "ano": 2020,
+        "autores": "Cicalese, Ferdinando ; Laber, Eduardo Sany",
+        "revista": "DISCRETE APPLIED MATHEMATICS",
+        "volume": "289",
+        "numero": "",
+        "paginas": "503-515",
+        "issn": "0166-218X",
+        "doi": "http://dx.doi.org/10.1016/j.dam.2020.07.014",
+        "qualis": ""
+      },
+      {
+        "titulo": "Minimization of Gini Impurity: NP-completeness and Approximation Algorithm via Connections with the k-means Problem",
+        "ano": 2019,
+        "autores": "Laber, Eduardo; MURTINHO, LUCAS",
+        "revista": "ELECTRONIC NOTES IN THEORETICAL COMPUTER SCIENCE",
+        "volume": "346",
+        "numero": "",
+        "paginas": "567-576",
+        "issn": "1571-0661",
+        "doi": "http://dx.doi.org/10.1016/j.entcs.2019.08.050",
+        "qualis": ""
+      },
+      {
+        "titulo": "Splitting criteria for classification problems with multi-valued attributes and large number of classes",
+        "ano": 2018,
+        "autores": "Laber, Eduardo Sany; DE A. MELLO PEREIRA, FELIPE",
+        "revista": "PATTERN RECOGNITION LETTERS",
+        "volume": "111",
+        "numero": "",
+        "paginas": "58-63",
+        "issn": "0167-8655",
+        "doi": "http://dx.doi.org/10.1016/j.patrec.2018.04.013",
+        "qualis": ""
+      },
+      {
+        "titulo": "LSHSIM: A Locality Sensitive Hashing Based Method for Multiple-Point Geostatistics",
+        "ano": 2017,
+        "autores": "MOURA, PEDRO ; Laber, Eduardo ; LOPES, HÉLIO ; MESEJO, DANIEL ; PAVANELLI, LUCAS ; JARDIM, JOÃO ; THIESEN, FRANCISCO ; PUJOL, GABRIEL",
+        "revista": "COMPUTERS & GEOSCIENCES",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1",
+        "issn": "0098-3004",
+        "doi": "http://dx.doi.org/10.1016/j.cageo.2017.06.013",
+        "qualis": ""
+      },
+      {
+        "titulo": "Decision tree classification with bounded number of errors",
+        "ano": 2017,
+        "autores": "SAETTLER, ALINE ; Laber, Eduardo ; DE A. MELLO PEREIRA, FELIPE",
+        "revista": "INFORMATION PROCESSING LETTERS",
+        "volume": "127",
+        "numero": "",
+        "paginas": "27-31",
+        "issn": "0020-0190",
+        "doi": "http://dx.doi.org/10.1016/j.ipl.2017.06.011",
+        "qualis": ""
+      },
+      {
+        "titulo": "Trading off Worst and Expected Cost in Decision Tree Problems",
+        "ano": 2016,
+        "autores": "SAETTLER, A. ; Cicalese, Ferdinando ; LABER, E. S.",
+        "revista": "ALGORITHMICA",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1-34",
+        "issn": "0178-4617",
+        "doi": "http://dx.doi.org/10.1007/s00453-016-0211-2",
+        "qualis": ""
+      },
+      {
+        "titulo": "Decision Trees for Function Evaluation: Simultaneous Optimization of Worst and Expected Cost",
+        "ano": 2016,
+        "autores": "Cicalese, Ferdinando ; Laber, Eduardo ; SAETTLER, ALINE",
+        "revista": "ALGORITHMICA",
+        "volume": "xxx",
+        "numero": "",
+        "paginas": "ALGO-D-14-00243",
+        "issn": "0178-4617",
+        "doi": "http://dx.doi.org/10.1007/s00453-016-0225-9",
+        "qualis": ""
+      },
+      {
+        "titulo": "Approximating decision trees with value dependent testing costs",
+        "ano": 2015,
+        "autores": "SAETTLER, ALINE ; Laber, Eduardo ; Cicalese, Ferdinando",
+        "revista": "Information Processing Letters (Print)",
+        "volume": "115",
+        "numero": "",
+        "paginas": "594-599",
+        "issn": "0020-0190",
+        "doi": "http://dx.doi.org/10.1016/j.ipl.2015.02.006",
+        "qualis": ""
+      },
+      {
+        "titulo": "Approximating the maximum consecutive subsums of a sequence",
+        "ano": 2014,
+        "autores": "Cicalese, Ferdinando ; Laber, Eduardo ; WEIMANN, OREN ; YUSTER, RAPHAEL",
+        "revista": "Theoretical Computer Science",
+        "volume": "525",
+        "numero": "",
+        "paginas": "130-137",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/j.tcs.2013.05.032",
+        "qualis": ""
+      },
+      {
+        "titulo": "The binary identification problem for weighted trees",
+        "ano": 2012,
+        "autores": "Cicalese, Ferdinando ; Jacobs, Tobias ; Laber, Eduardo ; VALENTIM, CAIO",
+        "revista": "Theoretical Computer Science",
+        "volume": "459",
+        "numero": "",
+        "paginas": "100-112",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/j.tcs.2012.06.023",
+        "qualis": ""
+      },
+      {
+        "titulo": "Improved Approximation Algorithms for the Average-Case Tree Searching Problem",
+        "ano": 2012,
+        "autores": "Cicalese, Ferdinando ; Jacobs, Tobias ; Laber, Eduardo ; Molinaro, Marco",
+        "revista": "Algorithmica",
+        "volume": "68",
+        "numero": "",
+        "paginas": "1045-1074",
+        "issn": "0178-4617",
+        "doi": "http://dx.doi.org/10.1007/s00453-012-9715-6",
+        "qualis": ""
+      },
+      {
+        "titulo": "Improved approximations for the hotlink assignment problem",
+        "ano": 2011,
+        "autores": "Laber, Eduardo; Molinaro, Marco",
+        "revista": "ACM Transactions on Algorithms",
+        "volume": "7",
+        "numero": "",
+        "paginas": "1-34",
+        "issn": "1549-6325",
+        "doi": "http://dx.doi.org/10.1145/1978782.1978794",
+        "qualis": ""
+      },
+      {
+        "titulo": "On the competitive ratio of evaluating priced functions",
+        "ano": 2011,
+        "autores": "Cicalese, Ferdinando ; Laber, Eduardo Sany",
+        "revista": "Journal of the Association for Computing Machinery",
+        "volume": "58",
+        "numero": "",
+        "paginas": "1-40",
+        "issn": "0004-5411",
+        "doi": "http://dx.doi.org/10.1145/1970392.1970393",
+        "qualis": ""
+      },
+      {
+        "titulo": "Competitive Boolean function evaluation: Beyond monotonicity, and the symmetric case",
+        "ano": 2011,
+        "autores": "Cicalese, Ferdinando ; Gagie, Travis ; Laber, Eduardo ; Milani?, Martin",
+        "revista": "Discrete Applied Mathematics",
+        "volume": "159",
+        "numero": "",
+        "paginas": "1070-1078",
+        "issn": "0166-218X",
+        "doi": "http://dx.doi.org/10.1016/j.dam.2010.05.016",
+        "qualis": ""
+      },
+      {
+        "titulo": "On the complexity of searching in trees and partially ordered structures",
+        "ano": 2011,
+        "autores": "Cicalese, Ferdinando ; Jacobs, Tobias ; Laber, Eduardo ; Molinaro, Marco",
+        "revista": "Theoretical Computer Science",
+        "volume": "412",
+        "numero": "",
+        "paginas": "6879-6896",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/j.tcs.2011.08.042",
+        "qualis": ""
+      },
+      {
+        "titulo": "An Approximation Algorithm for Binary Searching in Trees",
+        "ano": 2009,
+        "autores": "LABER, E. S.; MOLINARO, M.",
+        "revista": "Algorithmica",
+        "volume": "",
+        "numero": "",
+        "paginas": "1432-0541",
+        "issn": "0178-4617",
+        "doi": "http://dx.doi.org/10.1007/s00453-009-9325-0",
+        "qualis": ""
+      },
+      {
+        "titulo": "A randomized competitive algorithm for evaluating priced AND/OR trees",
+        "ano": 2008,
+        "autores": "LABER, E. S",
+        "revista": "Theoretical Computer Science",
+        "volume": "401",
+        "numero": "",
+        "paginas": "120-130",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/j.tcs.2008.03.033",
+        "qualis": ""
+      },
+      {
+        "titulo": "A note on the size of minimal covers",
+        "ano": 2007,
+        "autores": "LABER, E. S.; COSTA, V. ; HAEUSLER, H. ; NOGUEIRA, L. T.",
+        "revista": "Information Processing Letters (Print)",
+        "volume": "102",
+        "numero": "",
+        "paginas": "124-126",
+        "issn": "0020-0190",
+        "doi": "http://dx.doi.org/10.1016/j.ipl.2006.10.012",
+        "qualis": ""
+      },
+      {
+        "titulo": "Querying priced information in databases",
+        "ano": 2007,
+        "autores": "LABER, E. S.; FEDER, T. ; Renato Carmo ; Yoshiharu Kohayakawa ; MOTWANI, R. ; PANIGRAHY, R. ; THOMAS, D.",
+        "revista": "ACM Transactions on Algorithms",
+        "volume": "3",
+        "numero": "",
+        "paginas": "1",
+        "issn": "1549-6325",
+        "doi": "http://dx.doi.org/10.1145/1186810.1186819",
+        "qualis": ""
+      },
+      {
+        "titulo": "Reducing human interactions in Web directory searches",
+        "ano": 2007,
+        "autores": "LABER, E. S.; GERSTEL, O. ; KUTTEN, S. ; MATICHIN, R. ; PELEG, D. ; PESSOA, A. A. ; SOUZA, C.",
+        "revista": "ACM Transactions on Information Systems",
+        "volume": "25",
+        "numero": "",
+        "paginas": "20-es",
+        "issn": "1046-8188",
+        "doi": "http://dx.doi.org/10.1145/1281485.1281491",
+        "qualis": ""
+      },
+      {
+        "titulo": "Searching in random partially ordered sets",
+        "ano": 2004,
+        "autores": "LABER, E. S.; Renato Carmo ; Yoshiharu Kohayakawa ; Jair Donadelli",
+        "revista": "Theoretical Computer Science",
+        "volume": "321",
+        "numero": "",
+        "paginas": "41-57",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/j.tcs.2003.06.001",
+        "qualis": ""
+      },
+      {
+        "titulo": "On the hardness of the minimum height decision tree problem",
+        "ano": 2004,
+        "autores": "LABER, E. S.; NOGUEIRA, L. T.",
+        "revista": "Discrete Applied Mathematics",
+        "volume": "144",
+        "numero": "",
+        "paginas": "209-212",
+        "issn": "0166-218X",
+        "doi": "http://dx.doi.org/10.1016/j.dam.2004.06.002",
+        "qualis": ""
+      },
+      {
+        "titulo": "A note on multicolor bipartite Ramsey numbers for K_{2,n}",
+        "ano": 2003,
+        "autores": "LABER, E. S.; E. M. Carmelo",
+        "revista": "Ars Combinatoria",
+        "volume": "69",
+        "numero": "",
+        "paginas": "",
+        "issn": "0381-7032",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "The complexity of makespan minimization for pipeline transportation",
+        "ano": 2003,
+        "autores": "LABER, E. S.; PESSOA, A. A. ; MILIDIU, R. L.",
+        "revista": "Theoretical Computer Science",
+        "volume": "306",
+        "numero": "",
+        "paginas": "339-351",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/s0304-3975(03)00291-3",
+        "qualis": ""
+      },
+      {
+        "titulo": "A strategy for searching with different access costs",
+        "ano": 2002,
+        "autores": "LABER, E. S.; PESSOA, A. A. ; MILIDIU, R. L.",
+        "revista": "Theoretical Computer Science",
+        "volume": "287",
+        "numero": "",
+        "paginas": "571-584",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/s0304-3975(01)00262-6",
+        "qualis": ""
+      },
+      {
+        "titulo": "On Binary Searching with Nonuniform Costs",
+        "ano": 2002,
+        "autores": "LABER, E. S.; MILIDIU, R. L. ; PESSOA, A. A.",
+        "revista": "SIAM Journal on Computing (Print)",
+        "volume": "31",
+        "numero": "4",
+        "paginas": "1022",
+        "issn": "0097-5397",
+        "doi": "http://dx.doi.org/10.1137/s0097539700381991",
+        "qualis": ""
+      },
+      {
+        "titulo": "Improved bounds for asymmetric communication protocols",
+        "ano": 2002,
+        "autores": "LABER, E. S.; HOLANDA, L.",
+        "revista": "Information Processing Letters (Print)",
+        "volume": "83",
+        "numero": "4",
+        "paginas": "205-209",
+        "issn": "0020-0190",
+        "doi": "http://dx.doi.org/10.1016/s0020-0190(01)00332-5",
+        "qualis": ""
+      },
+      {
+        "titulo": "Bounding the Inefficiency of Length-Restricted Prefix Codes",
+        "ano": 2001,
+        "autores": "LABER, E. S.; MILIDIU, R. L.",
+        "revista": "Algorithmica (New York. Internet)",
+        "volume": "31",
+        "numero": "4",
+        "paginas": "513-529",
+        "issn": "1432-0541",
+        "doi": "http://dx.doi.org/10.1007/s00453-001-0060-4",
+        "qualis": ""
+      },
+      {
+        "titulo": "Three space-economical algorithms for calculating minimum-redundancy prefix codes",
+        "ano": 2001,
+        "autores": "LABER, E. S.; PESSOA, A. A. ; MILIDIÚ, R. L.",
+        "revista": "IEEE Transactions on Information Theory",
+        "volume": "47",
+        "numero": "6",
+        "paginas": "2185-2198",
+        "issn": "0018-9448",
+        "doi": "http://dx.doi.org/10.1109/18.945242",
+        "qualis": ""
+      },
+      {
+        "titulo": "The WARM-UP Algorithm: A Lagrangian Construction of Length Restricted Huffman Codes",
+        "ano": 2000,
+        "autores": "LABER, E. S.; MILIDIU, R. L.",
+        "revista": "SIAM Journal on Computing",
+        "volume": "30",
+        "numero": "5",
+        "paginas": "1405-1426",
+        "issn": "1095-7111",
+        "doi": "http://dx.doi.org/10.1137/S009753979731981X",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [],
+    "capitulos_livros": [],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "New Bounds on the Cohesion of Complete-link and Other Linkage Methods for Agglomerative Clustering",
+        "ano": 2024,
+        "doi": "",
+        "autores": "DASGUPTA, S. ; Laber, Eduardo S",
+        "evento": "International Conference on Machine Learning",
+        "cidade": "",
+        "paginas": "1-9",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the cohesion and separability of average-link for hierarchical agglomerative clustering",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.52202/079017-1544",
+        "autores": "BATISTA, MIGUEL ; Laber, Eduardo",
+        "evento": "Advances in Neural Information Processing Systems 37",
+        "cidade": "",
+        "paginas": "48710",
+        "isbn": ""
+      },
+      {
+        "titulo": "Optimization of Inter-group criteria for clustering with minimum size constraints",
+        "ano": 2023,
+        "doi": "",
+        "autores": "LABER, E. S.; MURTINHO, L.",
+        "evento": "Neural Information Processing Systems (Neurips)",
+        "cidade": "",
+        "paginas": "1-9",
+        "isbn": ""
+      },
+      {
+        "titulo": "Bete: A Brazilian Portuguese Dataset for Named Entity Recognition and Relation Extraction in the Diabetes Healthcare Domain",
+        "ano": 2023,
+        "doi": "",
+        "autores": "LABER, E. S",
+        "evento": "BRACIS",
+        "cidade": "",
+        "paginas": "256-267",
+        "isbn": ""
+      },
+      {
+        "titulo": "Decision Trees with Short Explainable Rules",
+        "ano": 2022,
+        "doi": "",
+        "autores": "FEITOSA, V. ; Cicalese, Ferdinando ; LABER, E. S. ; Molinaro, Marco",
+        "evento": "Neural Information Processing Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the price of explainability for some clustering problems",
+        "ano": 2021,
+        "doi": "",
+        "autores": "LABER, E. S.; SAADI, L. M.",
+        "evento": "International Conference on Machine Learning (ICML)",
+        "cidade": "",
+        "paginas": "5915-5925",
+        "isbn": ""
+      },
+      {
+        "titulo": "Speeding up Word Mover?s Distance and Its Variants via Properties of Distances Between Embeddings",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.3233/FAIA200346",
+        "autores": "LABER, E. S.; WERNER, M.",
+        "evento": "ECAI 2020",
+        "cidade": "",
+        "paginas": "2204-2211",
+        "isbn": ""
+      },
+      {
+        "titulo": "Teaching with Limited Information on the Learner?s Behaviour",
+        "ano": 2020,
+        "doi": "",
+        "autores": "Cicalese, Ferdinando ; FREITAS FILHO, F. S. ; LABER, E. S. ; MOLINARO, M.",
+        "evento": "International Conference on Machine Learning",
+        "cidade": "",
+        "paginas": "2016-2026",
+        "isbn": ""
+      },
+      {
+        "titulo": "New results on information theoretic clustering",
+        "ano": 2019,
+        "doi": "",
+        "autores": "Cicalese, Ferdinando ; LABER, E. S. ; SAADI, L. M.",
+        "evento": "International Conference on Machine Learning",
+        "cidade": "",
+        "paginas": "1242-1251",
+        "isbn": ""
+      },
+      {
+        "titulo": "Binary Partitions with Approximate Minimum Impurity",
+        "ano": 2018,
+        "doi": "",
+        "autores": "LABER, E. S.; MOLINARO, M. ; DE A. MELLO PEREIRA, FELIPE",
+        "evento": "International Conference on Machine Learning",
+        "cidade": "",
+        "paginas": "286254-2862",
+        "isbn": ""
+      },
+      {
+        "titulo": "On Compression Techniques for Computing Convolutions",
+        "ano": 2016,
+        "doi": "",
+        "autores": "LABER, E. S.; PAVANELLI, L. ; MOURA, P. N.",
+        "evento": "IEEE Data compression conference",
+        "cidade": "",
+        "paginas": "359-368",
+        "isbn": ""
+      },
+      {
+        "titulo": "Trading off Worst and Expected Cost in Decision Tree Problems",
+        "ano": 2015,
+        "doi": "",
+        "autores": "SAETTLER, A. ; CICALESE, F. ; Laber, Eduardo S",
+        "evento": "ISAAC 2015",
+        "cidade": "",
+        "paginas": "223-234",
+        "isbn": ""
+      },
+      {
+        "titulo": "Diagnosis determination: decision trees optimizing simultaneously worst and expected testing cost",
+        "ano": 2014,
+        "doi": "",
+        "autores": "CICALESE, F. ; LABER, E. S. ; SAETTLER, A.",
+        "evento": "International Conference on Machine Learnin",
+        "cidade": "",
+        "paginas": "414-422",
+        "isbn": ""
+      },
+      {
+        "titulo": "Indexes for Jumbled Pattern Matching in Strings, Trees and Graphs",
+        "ano": 2013,
+        "doi": "",
+        "autores": "Cicalese, Ferdinando ; LABER, E. S.",
+        "evento": "Spire 2013",
+        "cidade": "",
+        "paginas": "56-63",
+        "isbn": ""
+      },
+      {
+        "titulo": "Data Structures for Detecting Rare Variations in Time Series",
+        "ano": 2012,
+        "doi": "",
+        "autores": "SOTELO, D. ; VALENTIM, C. ; Laber, Eduardo",
+        "evento": "Procceedings of ECML PKDD 2012",
+        "cidade": "",
+        "paginas": "709-724",
+        "isbn": ""
+      },
+      {
+        "titulo": "Near Linear Time Construction of an Approximate Index for All Maximum Consecutive Sub-sums of a Sequence",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Laber, Eduardo Sany; CICALESE, F. ; WEIMANN, O. ; YUSTER, R.",
+        "evento": "Combinatorial Pattern Matching",
+        "cidade": "",
+        "paginas": "149-158",
+        "isbn": ""
+      },
+      {
+        "titulo": "Binary Identification Problems for Weighted Trees",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-22300-6",
+        "autores": "CICALESE, F. ; JACOBS, T. ; LABER, E. S. ; VALENTIM, C.",
+        "evento": "Algorithms and Data Structures Symposium - WADS (formerly Workshop on Algorithms and Data Structures)",
+        "cidade": "",
+        "paginas": "255-266",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Complexity of Searching in Trees: Average-Case Minimization",
+        "ano": 2010,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-14165-2_45",
+        "autores": "JACOBS, T. ; CICALESE, F. ; LABER, E. S. ; MOLINARO, M.",
+        "evento": "ICALP 2010",
+        "cidade": "",
+        "paginas": "527-539",
+        "isbn": ""
+      },
+      {
+        "titulo": "On Greedy Algorithms for Decision Trees",
+        "ano": 2010,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-17514-5_18",
+        "autores": "Cicalese, Ferdinando ; JACOBS, T. ; LABER, E. S. ; MOLINARO, M.",
+        "evento": "Algorithms and Computation 21St International Symposium (ISAAC 2010)",
+        "cidade": "",
+        "paginas": "206-217",
+        "isbn": ""
+      },
+      {
+        "titulo": "Function Evaluation Via Linear Programming in the Priced Information Model",
+        "ano": 2008,
+        "doi": "",
+        "autores": "CICALESE, F. ; LABER, E. S.",
+        "evento": "ICALP 2008:",
+        "cidade": "",
+        "paginas": "173-185",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Approximation Algorithm for Binary Searching in Trees",
+        "ano": 2008,
+        "doi": "",
+        "autores": "LABER, E. S.; MOLINARO, M.",
+        "evento": "ICALP 2008",
+        "cidade": "",
+        "paginas": "459-471",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Polite Policy for Revisiting Web Pages",
+        "ano": 2007,
+        "doi": "",
+        "autores": "SOUZA, C. ; LABER, E. S. ; VALENTIM, C. ; CARDOSO, E.",
+        "evento": "LA-WEB",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Competitive Ratio of Evaluating Priced Functions",
+        "ano": 2006,
+        "doi": "",
+        "autores": "LABER, E. S.; CICALESE, F.",
+        "evento": "SODA 2006",
+        "cidade": "",
+        "paginas": "944-954",
+        "isbn": ""
+      },
+      {
+        "titulo": "On behalf the seller and society: bicriteria mechanisms for unit-demand auctions",
+        "ano": 2006,
+        "doi": "",
+        "autores": "LABER, E. S.; MAS, M. ; BRONSTEIN, C.",
+        "evento": "LATIN 2006",
+        "cidade": "",
+        "paginas": "211-223",
+        "isbn": ""
+      },
+      {
+        "titulo": "A New Strategy for Querying Priced Information",
+        "ano": 2005,
+        "doi": "",
+        "autores": "LABER, E. S.; CICALESE, F.",
+        "evento": "ACM STOC (Symposium of Theory of Computing)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Optimal Algorithm for Querying Priced Information: Monotone Boolean Functions and Game Trees",
+        "ano": 2005,
+        "doi": "",
+        "autores": "LABER, E. S.; CICALESE, F.",
+        "evento": "European Symposium on Algorithms",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Querying Priced Information in Databases: the Conjuntive Case",
+        "ano": 2004,
+        "doi": "",
+        "autores": "LABER, E. S.; Yoshiharu Kohayakawa ; Renato Carmo",
+        "evento": "LATIN 2004",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Randomized Competitive Algorithm for Evaluating Priced AND/OR Trees",
+        "ano": 2004,
+        "doi": "",
+        "autores": "LABER, E. S",
+        "evento": "A Randomized Competitive Algorithm for Evaluating Priced AND/OR Trees",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Efficient Implementation of a Hotlink Assignment Algorithm for Web Sites",
+        "ano": 2004,
+        "doi": "",
+        "autores": "LABER, E. S.; PESSOA, A. A. ; SOUZA, C.",
+        "evento": "ALENEX 2004",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "\"Efficient Algorithms for the Hotlink Assignment Problem: the worst case search\"",
+        "ano": 2004,
+        "doi": "",
+        "autores": "LABER, E. S.; PESSOA, A. A. ; SOUZA, C.",
+        "evento": "ISAAC 2004: 15th Annual Symposium on Algorithms and Computation",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Cherry Picking: A semantic query processing strategy for the evaluation of expensive predicates",
+        "ano": 2003,
+        "doi": "",
+        "autores": "LABER, E. S.; VALDURIEZ, P. ; PORTO, F.",
+        "evento": "Simpósio Brasileiro de Banco de Dados",
+        "cidade": "",
+        "paginas": "356-370",
+        "isbn": ""
+      },
+      {
+        "titulo": "Pipeline Transportation of Petroleum Products with no Due Dates",
+        "ano": 2002,
+        "doi": "",
+        "autores": "LABER, E. S.; PESSOA, A. A. ; MILIDIU, R. L.",
+        "evento": "LATIN 2002",
+        "cidade": "",
+        "paginas": "248-262",
+        "isbn": ""
+      },
+      {
+        "titulo": "Searching in Random Partially Ordered Sets",
+        "ano": 2002,
+        "doi": "",
+        "autores": "LABER, E. S.; Yoshiharu Kohayakawa ; Renato Carmo ; Jair Donadelli",
+        "evento": "LATIN 2002",
+        "cidade": "",
+        "paginas": "278-292",
+        "isbn": ""
+      },
+      {
+        "titulo": "Randomized Approximation Algorithms for Query Optimization Problems on Two Processors",
+        "ano": 2002,
+        "doi": "",
+        "autores": "LABER, E. S.; R. Ravi ; Ojas Parekh",
+        "evento": "ESA 2002",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Complexity of Makespan Minimization for Pipeline Transportation of Petroleum",
+        "ano": 2002,
+        "doi": "",
+        "autores": "PESSOA, A. A. ; MILIDIU, R. L. ; LABER, E. S.",
+        "evento": "International Workshop on Approximation Algorithms for Combinatorial Optimization",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "On Binary Search with Non Uniform Costs",
+        "ano": 2001,
+        "doi": "",
+        "autores": "LABER, E. S.; PESSOA, A. A. ; MILIDIU, R. L.",
+        "evento": "SODA 2001",
+        "cidade": "",
+        "paginas": "855-865",
+        "isbn": ""
+      },
+      {
+        "titulo": "Linear Time Recognition of Optimal L-Restricted Prefix-Codes",
+        "ano": 2000,
+        "doi": "",
+        "autores": "LABER, E. S.; MILIDIU, R. L.",
+        "evento": "LATIN 2000",
+        "cidade": "",
+        "paginas": "227-236",
+        "isbn": ""
+      },
+      {
+        "titulo": "Two Space-Economical Algorithms For Calculating Minimum Redundancy Prefix Codes",
+        "ano": 1999,
+        "doi": "",
+        "autores": "MILIDIU, R. L. ; PESSOA, A. A. ; LABER, E. S.",
+        "evento": "IEEE Data Compression Conference (DCC99)",
+        "cidade": "",
+        "paginas": "267-276",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Work Efficient Parallel Algorithm For Constructing Huffman Codes",
+        "ano": 1999,
+        "doi": "",
+        "autores": "MILIDIU, R. L. ; LABER, E. S. ; PESSOA, A. A.",
+        "evento": "IEEE Data Compression Conference (DCC99)",
+        "cidade": "",
+        "paginas": "277-286",
+        "isbn": ""
+      },
+      {
+        "titulo": "Efficient Implementation Of The Warm-Up Algorithm For The Construction Of Length-Restricted Prefix Codes",
+        "ano": 1999,
+        "doi": "",
+        "autores": "MILIDIU, R. L. ; PESSOA, A. A. ; LABER, E. S.",
+        "evento": "ALENEX99",
+        "cidade": "",
+        "paginas": "1-17",
+        "isbn": ""
+      },
+      {
+        "titulo": "Strategies For Searching With Different Access Cost",
+        "ano": 1999,
+        "doi": "",
+        "autores": "LABER, E. S.; MILIDIU, R. L. ; PESSOA, A. A.",
+        "evento": "EUROPEAN SYMPOSIUM ON ALGORITHMS 99",
+        "cidade": "",
+        "paginas": "236-247",
+        "isbn": ""
+      },
+      {
+        "titulo": "Practical Constructions of L-Restricted Alphabetic Codes",
+        "ano": 1999,
+        "doi": "",
+        "autores": "LABER, E. S.; PESSOA, A. A. ; MILIDIU, R. L.",
+        "evento": "SPIRE",
+        "cidade": "",
+        "paginas": "115-119",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Fast and Space-Economical Algorithm for Calculating Minimum Redundancy Prefix Codes",
+        "ano": 1999,
+        "doi": "",
+        "autores": "MILIDIU, R. L. ; PESSOA, A. A. ; LABER, E. S.",
+        "evento": "SPIRE 99",
+        "cidade": "",
+        "paginas": "128-135",
+        "isbn": ""
+      },
+      {
+        "titulo": "Parallel Online Optimization of Petrochemical Processes",
+        "ano": 1999,
+        "doi": "",
+        "autores": "MILIDIU, R. L. ; LABER, E. S. ; LIPORACI, F. ; REY, P. A.",
+        "evento": "HMS",
+        "cidade": "",
+        "paginas": "215-218",
+        "isbn": ""
+      },
+      {
+        "titulo": "Petroleoum Products Scheduling in Pipelines",
+        "ano": 1999,
+        "doi": "",
+        "autores": "MILIDIU, R. L. ; LABER, E. S. ; PESSOA, A. A. ; REY, P. A.",
+        "evento": "HMS 99",
+        "cidade": "",
+        "paginas": "224-227",
+        "isbn": ""
+      },
+      {
+        "titulo": "In-Place Length-Restricted Prefix Coding",
+        "ano": 1998,
+        "doi": "",
+        "autores": "MILIDIU, R. L. ; LABER, E. S.",
+        "evento": "SPIRE 98",
+        "cidade": "",
+        "paginas": "50-59",
+        "isbn": ""
+      },
+      {
+        "titulo": "Practical Use Of The Warm-Up Algorithm On Length-Restricted Coding",
+        "ano": 1997,
+        "doi": "",
+        "autores": "MILIDIU, R. L. ; MILIDIU, A. A. P. E. S. L. R. L. ; LABER, E. S.",
+        "evento": "WSP 97",
+        "cidade": "",
+        "paginas": "80-94",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [
+      {
+        "titulo": "On lower bounds for the Maximum Consecutive Subsums Problem and the (min, +)-convolution",
+        "ano": 2014,
+        "autores": "LABER, E. S.; CICALESE, F. ; RONACALA, W.",
+        "evento": "International Symposium on Information Theory, 2014, Honolulu. Proceedings of the International Symposium on Information Theory",
+        "cidade": "",
+        "paginas": "1807-1811"
+      }
+    ],
+    "resumos_congressos": [
+      {
+        "titulo": "A fast and simple method for extracting relevant content from news webpages",
+        "ano": 2009,
+        "autores": "LABER, E. S.; SOUZA, C. ; RENTERIA, R. ; VALENTIM, C. ; CARDOSO, E.",
+        "evento": "ACM CIKM, 2009, Hong Kong. Proceedings of the 18th ACM Conference on Information and Knowledge Management, CIKM 2009",
+        "cidade": ""
+      },
+      {
+        "titulo": "'Merge Source Coding'",
+        "ano": 2009,
+        "autores": "AVILA, B. ; LABER, E. S.",
+        "evento": "2009 IEEE International Symposium on Information Theory, 2009, Seoul. Proceedings 2009 IEEE International Symposium on Information Theory",
+        "cidade": ""
+      },
+      {
+        "titulo": "Randomized Algorithms for Limited Supply Multi-item auctions",
+        "ano": 2005,
+        "autores": "LABER, E. S.; BRONSTEIN, C. ; MAS, M.",
+        "evento": "GRACO 2005, 2005, Rio de Janeiro. Eletronics Notes on Discrete Mathematics",
+        "cidade": ""
+      },
+      {
+        "titulo": "A Fast Decoding Method for Prefix Codes",
+        "ano": 2003,
+        "autores": "LABER, E. S.; MILIDIU, R. L. ; LEAO, L. ; DUARTE, J. C.",
+        "evento": "IEEE DCC (Data Compression Conference), 2003. Proceedings of IEEE Data Compression Conference",
+        "cidade": ""
+      },
+      {
+        "titulo": "On Asymmetric Communication Protocols",
+        "ano": 2001,
+        "autores": "LABER, E. S.; HOLANDA, L.",
+        "evento": "GRACO, 2001, Fortaleza. Eletronic Notes on DIscrete Mathematics",
+        "cidade": ""
+      },
+      {
+        "titulo": "Fast Searching in Trees",
+        "ano": 2001,
+        "autores": "LABER, E. S.; NOGUEIRA, L. T.",
+        "evento": "GRACO 2001, 2001, Fortaleza. Eletronic Notes on Discrete Mathematics",
+        "cidade": ""
+      },
+      {
+        "titulo": "On the Hardness of the Minimum Height Decision Tree Problem",
+        "ano": 2001,
+        "autores": "LABER, E. S.; NOGUEIRA, L. T.",
+        "evento": "COSSAC, 2001, Ischia. Proceedings of COSSAC",
+        "cidade": ""
+      },
+      {
+        "titulo": "Um algoritmo GRASP para o problema de transporte de derivados de petróleo em oleoduto",
+        "ano": 2001,
+        "autores": "LABER, E. S.; MILIDIU, R. L. ; PESSOA, A. A. ; Pablo Andre Rey",
+        "evento": "XXXIII Simpósio Brasileiro de Pesquisa Operacional, 2001, Campos de Jordão. Anais do XXXIII Simpósio Brasileiro de Pesquisa Operacional",
+        "cidade": ""
+      },
+      {
+        "titulo": "Transporting petroleum products in pipelines",
+        "ano": 2000,
+        "autores": "LABER, E. S.; MILIDIÚ, R. L. ; PESSOA, A. A.",
+        "evento": "International Symposium on Mathematical Programming, 2000, Georgia. ISMP 2000",
+        "cidade": ""
+      },
+      {
+        "titulo": "Improved Analysis Of The Fgk Algorithm",
+        "ano": 1999,
+        "autores": "MILIDIU, R. L. ; LABER, E. S. ; PESSOA, A. A.",
+        "evento": "IEEE Data Compression Conference (DCC99), 1999, SNOWBIRD. Proceedings of the IEEE Data Compression Conference. Snowbird, UTAH: IEEE",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [],
+    "textos_jornais": [],
+    "outras_producoes": []
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [
+      {
+        "titulo": "Dataset de descrição de Dados de Emprego",
+        "ano": 2020,
+        "autores": "SOUZA, D. E. ; LABER, E. S.",
+        "tipo": "Demais tipos de produção técnica"
+      }
+    ],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [
+        {
+          "titulo": "New Bounds for Hierarchical Agglomerative Clustering",
+          "ano_inicio": 2026,
+          "orientando": "Miguel Batista",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Edição Zero-Knowledge de Áudio Autêntico",
+          "ano_inicio": 2026,
+          "orientando": "Theo Caldas",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "EoH com Feedback",
+          "ano_inicio": 2026,
+          "orientando": "Michael Portella",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Clustering under constraints: explainability via decision trees and separability with minimum size",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Lucas Murtinho",
+          "tipo_trabalho": "Tese",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Aprendizado com Restrição de Tempo: Problemas de Classificação",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Francisco Sergio de Freitas Filho",
+          "tipo_trabalho": "Tese",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Extracting Section Structure from Resumes in Brazilian Portuguese",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Matheus Telles Werner",
+          "tipo_trabalho": "Tese",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Approximation Algorithms for Decision Trees",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Aline Saettler",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "LSHSIM: A Locality Sensitive Hashing Based Method for Multiple-Point Geostatistics",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Pedro Nuno de Souza Moura",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Compressão de Grafos Web",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Bruno Avila",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Políticas Eficientes para Revisitação de Páginas Web",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Criston Pereira Souza",
+          "tipo_trabalho": "Tese",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Dois problemas de busca",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Renato Carmo",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Universidade de São Paulo",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos de Busca e de Transporte em Dutos",
+          "ano_inicio": 2003,
+          "ano_conclusao": 2003,
+          "orientando": "Artur Alves Pessoa",
+          "tipo_trabalho": "Tese",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Árvores de Decisão com Regras Explicáveis",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Victor Feitosa de Carvalho Souza",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "An End-to-End Model for Joint Entity and Relation Extraction in Portuguese",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Lucas Pavanelli",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Limited Time Machine Teaching for Regression Problems",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Pedro Lazera Cardoso",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Theoretical and experimental results in information-theoretic clus- tering,",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Lucas Murtinho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Segmentação Semântica de Vagas de Emprego: Estudo Comparativo de Algoritmos Clássicos de Aprendizado de Máquina,",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "David Evandro",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "A fast and space-economical approach to Word Mover?s Distance",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Matheus Telles Werner",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Efficient ANNS for the Kullback-Leibler divergence via Inner Product Embeddings",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Daniel Mesejo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Framework for Generating Binary Splits in Decision Trees",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "FELIPE DE ALBUQUERQUE MELLO PEREIRA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Medidas de Similaridades entre Séries Temporais",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Jose Luiz Aguiar",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Decision Tree Learner for Cost-Sensitive Binary Classification",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Daniel Santos Marques",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Institutional ownership as a predictor of future security returns",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Raphael Rottgen",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma meta estratégia para aprendizado de ranking",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Daniel da Rosa Marques",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo de heurísticas para problemas de escalonamento em um ambiente com máquinas indisponíveis",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Bruno Leonardo Kmita",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "On the Simultaneous Minimization of Worst Testing Cost and Expected Testing Cost with Decision Trees",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Aline Medeiros Saettler",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "On the Lower Bound for the Maximum Consecutive Sub-Sums Problem",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "WILFREDO BARDALES RONCALLA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Aprendizado por reforço sobre o problema de revisitação de páginas web",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Eugenio Pacelli Junior",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Estruturas de Dados para Séries Temporais",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Caio Dias Valentim",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Efficient methods for information extraction in news webpages",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Eduardo Teixeira Cardoso",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "O Impacto de Atributos Estruturais na Identificação de Tabelas e",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Iam Jabour",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo experimental de técnicas para otimização de carteiras",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Thuener Armando da Silva",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos para Detecção de Conteúdo Relevante em Páginas Web",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Evelin Amorim",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um estudo sobre classificação de páginas Web",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Thoran Rodrigues",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos para execução de ordens no merccado financeiro",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Diego Cedrim",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Avaliação de Algoritmos Online para Seleção de Links Patrocinados",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Luiz Fernando de Albuquerque",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Improved Approximations for the K-hotlink assignment problem and for binary searching in trees",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "Marco Molinaro",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Reorganização e Compressão de Dados Sísmicos",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Flavia Medeiros dos Anjos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "O método de não local para para extração de ruídos",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Noam Shaham",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Um estudo sobre Leilões de Demanda Unitária",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "Marcelo Mas",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos para Otimização de Consultas",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Rodrigo Guarino",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos para Adição de Hotlinks",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Criston Souza",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Heurísticas para o Problema de Distribuição em Oleodutos",
+          "ano_inicio": 2002,
+          "ano_conclusao": 2002,
+          "orientando": "Viviane Braconi",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos e Novos Limites para Busca em Conjuntos Parcialmente Ordenados",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Leonardo Gomez Holanda",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [
+        {
+          "titulo": "Algoritmos para Busca Aproximada em Texto",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Eduardo David",
+          "tipo_trabalho": "",
+          "instituicao": "Iniciação Científica - PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos para Busca Aproximada em Texto",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Flavia Anjos",
+          "tipo_trabalho": "",
+          "instituicao": "Iniciação Científica - PUC-Rio",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos para problemas de Empacotamento",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Marcelo Mas",
+          "tipo_trabalho": "",
+          "instituicao": "Iniciação Científica - PUC-Rio",
+          "curso": ""
+        }
+      ],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [],
+    "organizacoes": [
+      {
+        "autores": "LABER, E. S.; BRONSTEIN, C. ; NOGUEIRA, L. T.",
+        "evento": "LATIN American Theoretical Informatics",
+        "ano": 2008,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      }
+    ]
+  },
+  "bancas": {
+    "mestrado": [
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Paulo de Tarso Gomide Castro Silva. A System for Stock Market Forecasting and Simulation. 2011. Dissertação (Mestrado em Mestrado em Informática) - PUC-Rio.",
+        "ano": 2011,
+        "tipo": "Mestrado",
+        "aluno": "Paulo de Tarso Gomide Castro Silva",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "A System for Stock Market Forecasting and Simulation",
+        "curso": "Dissertação (Mestrado em Mestrado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Pedro Nuno de Souza Moura. Integrando Metaeurísticas com Resolvedores MIP para o Capacitated Vehicle Routing Problem. 2011. Dissertação (Mestrado em Mestrado em Informática) - PUC-Rio.",
+        "ano": 2011,
+        "tipo": "Mestrado",
+        "aluno": "Pedro Nuno de Souza Moura",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Integrando Metaeurísticas com Resolvedores MIP para o Capacitated Vehicle Routing Problem",
+        "curso": "Dissertação (Mestrado em Mestrado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Daniel Amaral de Medeiros Rocha. Combinando Busca Local com MIP. 2009. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2009,
+        "tipo": "Mestrado",
+        "aluno": "Daniel Amaral de Medeiros Rocha",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Combinando Busca Local com MIP",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Andre Luis Vignatti. Aproximação e Compartilhamento de Custos em Projetos de Rede. 2006. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas.",
+        "ano": 2006,
+        "tipo": "Mestrado",
+        "aluno": "Andre Luis Vignatti",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Aproximação e Compartilhamento de Custos em Projetos de Rede",
+        "curso": "Dissertação (Mestrado em Ciência da Computação)",
+        "universidade": "Universidade Estadual de Campinas"
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Alexandre de Oliveira Stauffer. Novas Heurísticas para a operação de Redes Complexas. 2005. Dissertação (Mestrado em Engenharia de Sistemas e Computação) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2005,
+        "tipo": "Mestrado",
+        "aluno": "Alexandre de Oliveira Stauffer",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Novas Heurísticas para a operação de Redes Complexas",
+        "curso": "Dissertação (Mestrado em Engenharia de Sistemas e Computação)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Marcelo Ladeira Reis. Um Algoritmo para geraçãoi de colunas e cortes para o problema de roteamento de veículos. 2004. Dissertação (Mestrado em Mestrado em Informática) - PUC-Rio.",
+        "ano": 2004,
+        "tipo": "Mestrado",
+        "aluno": "Marcelo Ladeira Reis",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Um Algoritmo para geraçãoi de colunas e cortes para o problema de roteamento de veículos",
+        "curso": "Dissertação (Mestrado em Mestrado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.; MILIDIU, R. L.. Participação em banca de Lorenza Leão Oliveira Moreno. Códigos de Prefixo de Rápidda Decodificação. 2003. Dissertação (Mestrado em Mestrado em Informática) - PUC-Rio.",
+        "ano": 2003,
+        "tipo": "Mestrado",
+        "aluno": "Lorenza Leão Oliveira Moreno",
+        "membros_banca": [
+          "LABER, E. S.",
+          "MILIDIU, R. L."
+        ],
+        "titulo_trabalho": "Códigos de Prefixo de Rápidda Decodificação",
+        "curso": "Dissertação (Mestrado em Mestrado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.; MILIDIU, R. L.. Participação em banca de Julio Cesar Duarte. A Transformada de Burrows Wheeler e sua aplicação à compressão. 2003. Dissertação (Mestrado em Mestrado em Informática) - PUC-Rio.",
+        "ano": 2003,
+        "tipo": "Mestrado",
+        "aluno": "Julio Cesar Duarte",
+        "membros_banca": [
+          "LABER, E. S.",
+          "MILIDIU, R. L."
+        ],
+        "titulo_trabalho": "A Transformada de Burrows Wheeler e sua aplicação à compressão",
+        "curso": "Dissertação (Mestrado em Mestrado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Alexandre Altoé Pigatti. Modelos e Algoritmos para o Problema de Alocações Generalizada e Aplicações. 2003. Dissertação (Mestrado em Mestrado em Informática) - PUC-Rio.",
+        "ano": 2003,
+        "tipo": "Mestrado",
+        "aluno": "Alexandre Altoé Pigatti",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Modelos e Algoritmos para o Problema de Alocações Generalizada e Aplicações",
+        "curso": "Dissertação (Mestrado em Mestrado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Marcos Aurélio Citeli da Silva. Simulação de Escoamento de Água e Óleo em Meios Porosos. 2002. Dissertação (Mestrado em Mestrado em Informática) - PUC-Rio.",
+        "ano": 2002,
+        "tipo": "Mestrado",
+        "aluno": "Marcos Aurélio Citeli da Silva",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Simulação de Escoamento de Água e Óleo em Meios Porosos",
+        "curso": "Dissertação (Mestrado em Mestrado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.; MILIDIU, R. L.. Participação em banca de Jose Rodriguez Fernandes. O Algoritmo Homofônico Canônico para Cifragem e Compressão Simultâneas. 2001. Dissertação (Mestrado em Mestrado em Informática) - PUC-Rio.",
+        "ano": 2001,
+        "tipo": "Mestrado",
+        "aluno": "Jose Rodriguez Fernandes",
+        "membros_banca": [
+          "LABER, E. S.",
+          "MILIDIU, R. L."
+        ],
+        "titulo_trabalho": "O Algoritmo Homofônico Canônico para Cifragem e Compressão Simultâneas",
+        "curso": "Dissertação (Mestrado em Mestrado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.; MILIDIU, R. L.. Participação em banca de Carlos Eduardo dos Santos Baptista. Dificuldades na Quebra de Códigos de Prefixo. 2001. Dissertação (Mestrado em Mestrado em Informática) - PUC-Rio.",
+        "ano": 2001,
+        "tipo": "Mestrado",
+        "aluno": "Carlos Eduardo dos Santos Baptista",
+        "membros_banca": [
+          "LABER, E. S.",
+          "MILIDIU, R. L."
+        ],
+        "titulo_trabalho": "Dificuldades na Quebra de Códigos de Prefixo",
+        "curso": "Dissertação (Mestrado em Mestrado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Marília Dias Vieira Braga. Grafos de Seqüências de DNA. 2000. Dissertação (Mestrado em Mestrado em Informática) - Universidade de Campinas.",
+        "ano": 2000,
+        "tipo": "Mestrado",
+        "aluno": "Marília Dias Vieira Braga",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Grafos de Seqüências de DNA",
+        "curso": "Dissertação (Mestrado em Mestrado em Informática)",
+        "universidade": "Universidade de Campinas"
+      }
+    ],
+    "doutorado": [
+      {
+        "descricao": "LABER, E. S.. Participação em banca de JEFFERSON DE BARROS SANTOS. Systems for provability and countermodel generation in Minimal Implicational Logic. 2017. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2017,
+        "tipo": "Tese de Doutorado",
+        "aluno": "JEFFERSON DE BARROS SANTOS",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Systems for provability and countermodel generation in Minimal Implicational Logic",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de João Paulo de Freitas Araujo. Algoritmos ara acelerar a computação de árvores de cortes de Gomory e Hu. 2016. Tese (Doutorado em Engenharia de Produção) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2016,
+        "tipo": "Tese de Doutorado",
+        "aluno": "João Paulo de Freitas Araujo",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Algoritmos ara acelerar a computação de árvores de cortes de Gomory e Hu",
+        "curso": "Tese (Doutorado em Engenharia de Produção)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Diego Galindo Pecin. Exact Algorithms for the Capacited Vehicle routing Problem. 2014. Tese (Doutorado em Doutorado em Informática) - PUC-Rio.",
+        "ano": 2014,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Diego Galindo Pecin",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Exact Algorithms for the Capacited Vehicle routing Problem",
+        "curso": "Tese (Doutorado em Doutorado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de David Sotelo Pinheiro. On the Permutation Flow Shop Scheduling Problem. 2010. Tese (Doutorado em Doutorado em Informática) - PUC-Rio.",
+        "ano": 2010,
+        "tipo": "Tese de Doutorado",
+        "aluno": "David Sotelo Pinheiro",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "On the Permutation Flow Shop Scheduling Problem",
+        "curso": "Tese (Doutorado em Doutorado em Informática)",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Vinicius da Silva Almendra. Reduzindo Perdas pr Fraudes no Comércio Eletrônico através do uso de Recomendadores. 2008. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2008,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Vinicius da Silva Almendra",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Reduzindo Perdas pr Fraudes no Comércio Eletrônico através do uso de Recomendadores",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Guilherme Tavares de Assis. Uma Abordagem Baseada em Genêro para oleta temátia de páginas da Web. 2008. Tese (Doutorado em Ciências da Computação) - Universidade Federal de Minas Gerais.",
+        "ano": 2008,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Guilherme Tavares de Assis",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Uma Abordagem Baseada em Genêro para oleta temátia de páginas da Web",
+        "curso": "Tese (Doutorado em Ciências da Computação)",
+        "universidade": "Universidade Federal de Minas Gerais"
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Davi ROmero de Vasconselos. Lógica Modal de Primeira-Ordme para raciocinar sobre Jogos. 2007. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2007,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Davi ROmero de Vasconselos",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Lógica Modal de Primeira-Ordme para raciocinar sobre Jogos",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de LUIZ HENRIQUE GOMES. Análise e Modelagem de Comportamento dos Spammers e dos Usuários Legítimos em Redes de Email. 2006. Tese (Doutorado em Ciências da Computação) - Universidade Federal de Minas Gerais.",
+        "ano": 2006,
+        "tipo": "Tese de Doutorado",
+        "aluno": "LUIZ HENRIQUE GOMES",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Análise e Modelagem de Comportamento dos Spammers e dos Usuários Legítimos em Redes de Email",
+        "curso": "Tese (Doutorado em Ciências da Computação)",
+        "universidade": "Universidade Federal de Minas Gerais"
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Guilherme Pimentel Telles. Um Algoritmo quase-linear para árvores PQR e um esquema para clustering de sequências expressas de cana-de-açucar. 2002. Tese (Doutorado em Ciência da Computação) - Universidade Estadual de Campinas.",
+        "ano": 2002,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Guilherme Pimentel Telles",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Um Algoritmo quase-linear para árvores PQR e um esquema para clustering de sequências expressas de cana-de-açucar",
+        "curso": "Tese (Doutorado em Ciência da Computação)",
+        "universidade": "Universidade Estadual de Campinas"
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": [
+      {
+        "descricao": "LABER, E. S.; MILIDIU, R. L.. Participação em banca de Viviane Monteiro Braconi. Heurísticas Multifluxo para Roteamento de Produtos em Redes Dutoviárias. 2002.",
+        "ano": 2002,
+        "tipo": "Participação em banca",
+        "aluno": "Viviane Monteiro Braconi",
+        "membros_banca": [
+          "LABER, E. S.",
+          "MILIDIU, R. L."
+        ],
+        "titulo_trabalho": "Heurísticas Multifluxo para Roteamento de Produtos em Redes Dutoviárias",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Felipe Alves Louza. Algoritmos para Ordenação de Sufixos Aumentada. 2017 - Universidade de Campinas.",
+        "ano": 2017,
+        "tipo": "Participação em banca",
+        "aluno": "Felipe Alves Louza",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Algoritmos para Ordenação de Sufixos Aumentada",
+        "curso": "",
+        "universidade": "Universidade de Campinas"
+      },
+      {
+        "descricao": "LABER, E. S.. Participação em banca de Augusto Fernandez Vellozo. Alinhamento de seqüência com rearranjos. 2007 - Instituto de Matemática e Estatística.",
+        "ano": 2007,
+        "tipo": "Participação em banca",
+        "aluno": "Augusto Fernandez Vellozo",
+        "membros_banca": [
+          "LABER, E. S."
+        ],
+        "titulo_trabalho": "Alinhamento de seqüência com rearranjos",
+        "curso": "",
+        "universidade": "Instituto de Matemática e Estatística"
+      },
+      {
+        "descricao": "LABER, E. S.; KOBAYASHI, Y.. Participação em banca de Estela Maris Rodrigues. Algoritmos para comparação de árvores filogenéticas e o problema dos pontos de recombinação. 2003.",
+        "ano": 2003,
+        "tipo": "Participação em banca",
+        "aluno": "Estela Maris Rodrigues",
+        "membros_banca": [
+          "LABER, E. S.",
+          "KOBAYASHI, Y."
+        ],
+        "titulo_trabalho": "Algoritmos para comparação de árvores filogenéticas e o problema dos pontos de recombinação",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.; MOFFAT, A.. Participação em banca de Mike Liddell. Resticted Prefix Codes. 2003.",
+        "ano": 2003,
+        "tipo": "Participação em banca",
+        "aluno": "Mike Liddell",
+        "membros_banca": [
+          "LABER, E. S.",
+          "MOFFAT, A."
+        ],
+        "titulo_trabalho": "Resticted Prefix Codes",
+        "curso": "",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.. Professor Adjunto. 2010. Universidade de São Paulo.",
+        "ano": 2010,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade de São Paulo.",
+        "universidade": ""
+      },
+      {
+        "descricao": "LABER, E. S.. Professor Adjunto. 2009. Universidade Estadual de Campinas.",
+        "ano": 2009,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Estadual de Campinas.",
+        "universidade": ""
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 37,
+    "total_livros": 0,
+    "total_capitulos": 0,
+    "total_trabalhos_congressos": 47,
+    "total_projetos_pesquisa": 0,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 0,
+    "total_orientacoes_concluidas": 44,
+    "total_orientacoes_andamento": 3
+  }
+}

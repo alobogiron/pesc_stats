@@ -1,0 +1,4213 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "8249534204731109",
+    "nome_completo": "Bruno Feijo",
+    "nome_citacoes": "FEIJO, B.;Feij, Bruno;Feijó, Bruno;FEIJO, BRUNO;Feijó, B.",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente, 225 Gávea 22453-900 - Rio de Janeiro, RJ - Brasil Telefone: (021) 35271500 Ramal: 4308 Fax: (021) 35271530",
+    "atualizacao_cv": "31/08/2025",
+    "url": "http://lattes.cnpq.br/8249534204731109",
+    "texto_resumo": "Bruno Feijó é Professor Titular do Departamento de Informática na Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), onde ingressou em 1988. Ele tem PhD pela University of London/Imperial College e diploma de engenheiro pelo ITA (Instituto Tecnológico de Aeronáutica). No Brasil, ele é um dos pioneiros nas áreas interdisciplinares de computer-aided design (CAD), animação, efeitos visuais (VFX) e entretenimento digital. Ele também é um dos principais responsáveis pelo reconhecimento e disseminação do ensino e da pesquisa de jogos no Brasil, tendo influenciado clusters, políticas de inovação, profissionais e startups na área. Atualmente se dedica à pesquisa de jogos, gamificação e inteligência artificial. Ele é fundador e coordenador do ICAD/VisionLab (Laboratório de Pesquisa em Visualização, TV/Cinema Digital e Jogos) da PUC-Rio e um dos fundadores do SBGames (Brazilian Symposium on Computer Games and Digital Entertainment) e da CE de Jogos da Sociedade Brasileira de Computação (SBC). Ele foi pesquisador CNPq Nível 1 por 20 anos consecutivos (2001-2021). Ele foi o Diretor da Agência de Inovação da PUC-Rio - AGI (2022 - 2024). Na educação, ele têm contribuído para inovação tecnológica em multimídia, programação e jogos, integrando o ensino médio público com programas de pós-graduação. Atualmente tem se dedicado à criação do primeiro grupo de pesquisa no país em Narratologia Computacional, Storytelling Interativo e Data Storytelling. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Computer-Aided Design",
+      "nome_instituicao": "University of London, UL, Inglaterra",
+      "ano_inicio": "1984",
+      "ano_conclusao": "1988",
+      "descricao": "Título: Fundamental Steps Towards an Intelligent CAD System in Structural Steel, Ano de obtenção: 1988. Orientador: Patrick J Dowling. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Cad; Cad Inteligente; Lógica. Grande área: Ciências Exatas e da Terra Setores de atividade: Informática; Indústria Metal-Mecânica; Construção Civil."
+    },
+    {
+      "tipo": "Mestrado em Engenharia Civil",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1977",
+      "ano_conclusao": "1980",
+      "descricao": "Título: O METODO DOS ELEMENTOS COMPONENTES COM APLICACAO A ESTRUTURAS SUJEITAS A CARGAS MOVEIS E OUTRAS SOLICITACOES DINAMICAS, Ano de Obtenção: 1980. Orientador: JAYME MASON / FERNANDO VENACIO FILHO. Palavras-chave: Analise Dinamica; Analise Numerica; Metodo dos Elementos Componentes; Cad. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Cad. Setores de atividade: Informática."
+    },
+    {
+      "tipo": "Graduação em Engenharia Aeronáutica",
+      "nome_instituicao": "Instituto Tecnológico de Aeronáutica, ITA, Brasil",
+      "ano_inicio": "1971",
+      "ano_conclusao": "1975",
+      "descricao": ""
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Universidade do Estado do Rio de Janeiro, UERJ, Brasil.",
+      "instituicao_nome": "Universidade do Estado do Rio de Janeiro",
+      "instituicao_sigla": "UERJ",
+      "instituicao_pais": "Brasil",
+      "periodo": "1994 - 2009",
+      "ano_inicio": "1994",
+      "ano_fim": "2009",
+      "vinculo": "Servidor Público",
+      "enquadramento": "Professor Adjunto",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade do Estado do Rio de Janeiro, UERJ, Brasil",
+      "instituicao_nome": "Universidade do Estado do Rio de Janeiro",
+      "instituicao_sigla": "UERJ",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1988 - Atual",
+      "ano_inicio": "1988",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista formal",
+      "enquadramento": "Professor titular",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Reitoria."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "04/2019 - Atual",
+      "ano_inicio": "2019",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Centro Técnico Científico/Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/1989 - Atual",
+      "ano_inicio": "1989",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "10/1988 - Atual",
+      "ano_inicio": "1988",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "10/1988 - Atual",
+      "ano_inicio": "1988",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "10/1988 - Atual",
+      "ano_inicio": "1988",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Reitoria, Agência de Inovação da PUC-Rio."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "07/2020 - 07/2022",
+      "ano_inicio": "2020",
+      "ano_fim": "2022",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Centro Técnico Científico/Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2004 - 12/2006",
+      "ano_inicio": "2004",
+      "ano_fim": "2006",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2003 - 03/2005",
+      "ano_inicio": "2003",
+      "ano_fim": "2005",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/1992 - 12/2002",
+      "ano_inicio": "1992",
+      "ano_fim": "2002",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/2002 - 11/2002",
+      "ano_inicio": "2002",
+      "ano_fim": "2002",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "11/2000 - 11/2002",
+      "ano_inicio": "2000",
+      "ano_fim": "2002",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "11/2000 - 11/2001",
+      "ano_inicio": "2000",
+      "ano_fim": "2001",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "10/1997 - 10/2001",
+      "ano_inicio": "1997",
+      "ano_fim": "2001",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/1989 - 12/2000",
+      "ano_inicio": "1989",
+      "ano_fim": "2000",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "11/2000 - 11/2000",
+      "ano_inicio": "2000",
+      "ano_fim": "2000",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "11/2000 - 11/2000",
+      "ano_inicio": "2000",
+      "ano_fim": "2000",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/1997 - 12/1999",
+      "ano_inicio": "1997",
+      "ano_fim": "1999",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/1997 - 01/1998",
+      "ano_inicio": "1997",
+      "ano_fim": "1998",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/1993 - 03/1995",
+      "ano_inicio": "1993",
+      "ano_fim": "1995",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/1993 - 01/1995",
+      "ano_inicio": "1993",
+      "ano_fim": "1995",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/1989 - 12/1994",
+      "ano_inicio": "1989",
+      "ano_fim": "1994",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Vice-Reitoria Acadêmica, Centro Técnico Científico - CTC."
+      ]
+    },
+    {
+      "instituicao": "Imperial College Of Science Technology And Medicine, IMPERIAL COLLEGE, Inglaterra.",
+      "instituicao_nome": "Imperial College Of Science Technology And Medicine",
+      "instituicao_sigla": "IMPERIAL COLLEGE",
+      "instituicao_pais": "Inglaterra",
+      "periodo": "1984 - 1988",
+      "ano_inicio": "1984",
+      "ano_fim": "1988",
+      "vinculo": "Outro",
+      "enquadramento": "Research Assistant",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Imperial College Of Science Technology And Medicine, IMPERIAL COLLEGE, Inglaterra",
+      "instituicao_nome": "Imperial College Of Science Technology And Medicine",
+      "instituicao_sigla": "IMPERIAL COLLEGE",
+      "instituicao_pais": "Inglaterra",
+      "periodo": "12/1984 - 10/1988",
+      "ano_inicio": "1984",
+      "ano_fim": "1988",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Expert System Laboratory."
+      ]
+    },
+    {
+      "instituicao": "Control Data do Brasil, CONTROL DATA, Brasil.",
+      "instituicao_nome": "Control Data do Brasil",
+      "instituicao_sigla": "CONTROL DATA",
+      "instituicao_pais": "Brasil",
+      "periodo": "1978 - 1982",
+      "ano_inicio": "1978",
+      "ano_fim": "1982",
+      "vinculo": "Servidor público ou celetista",
+      "enquadramento": "Analista Senior",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Control Data do Brasil, CONTROL DATA, Brasil",
+      "instituicao_nome": "Control Data do Brasil",
+      "instituicao_sigla": "CONTROL DATA",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Professional Service Division."
+      ]
+    },
+    {
+      "instituicao": "Control Data do Brasil, CONTROL DATA, Brasil",
+      "instituicao_nome": "Control Data do Brasil",
+      "instituicao_sigla": "CONTROL DATA",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Promon Engenharia S A, PROMON, Brasil.",
+      "instituicao_nome": "Promon Engenharia S A",
+      "instituicao_sigla": "PROMON",
+      "instituicao_pais": "Brasil",
+      "periodo": "1982 - 1984",
+      "ano_inicio": "1982",
+      "ano_fim": "1984",
+      "vinculo": "Servidor público ou celetista",
+      "enquadramento": "Analista Senior",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Promon Engenharia S A, PROMON, Brasil",
+      "instituicao_nome": "Promon Engenharia S A",
+      "instituicao_sigla": "PROMON",
+      "instituicao_pais": "Brasil",
+      "periodo": "12/1982 - 12/1984",
+      "ano_inicio": "1982",
+      "ano_fim": "1984",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Projeto Nuclen."
+      ]
+    },
+    {
+      "instituicao": "Promon Engenharia S A, PROMON, Brasil",
+      "instituicao_nome": "Promon Engenharia S A",
+      "instituicao_sigla": "PROMON",
+      "instituicao_pais": "Brasil",
+      "periodo": "12/1982 - 12/1984",
+      "ano_inicio": "1982",
+      "ano_fim": "1984",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Projeto Nuclen."
+      ]
+    },
+    {
+      "instituicao": "J Mason Consultoria e Projetos Ltda, J.MASON, Brasil.",
+      "instituicao_nome": "J Mason Consultoria e Projetos Ltda",
+      "instituicao_sigla": "J.MASON",
+      "instituicao_pais": "Brasil",
+      "periodo": "1976 - 1978",
+      "ano_inicio": "1976",
+      "ano_fim": "1978",
+      "vinculo": "Servidor público ou celetista",
+      "enquadramento": "Engenheiro",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "J Mason Consultoria e Projetos Ltda, J",
+      "instituicao_nome": "J Mason Consultoria e Projetos Ltda",
+      "instituicao_sigla": "J",
+      "instituicao_pais": null,
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Tecnológico de Aeronáutica, ITA, Brasil.",
+      "instituicao_nome": "Instituto Tecnológico de Aeronáutica",
+      "instituicao_sigla": "ITA",
+      "instituicao_pais": "Brasil",
+      "periodo": "1974 - 1975",
+      "ano_inicio": "1974",
+      "ano_fim": "1975",
+      "vinculo": "Bolsista",
+      "enquadramento": "Assistente de Pesquisa",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Tecnológico de Aeronáutica, ITA, Brasil",
+      "instituicao_nome": "Instituto Tecnológico de Aeronáutica",
+      "instituicao_sigla": "ITA",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Geração de música para jogos integrada ao enredo",
+      "ano_inicio": "2021",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: A pesquisa de jogos é uma área multidisciplinar que envolve muito mais do que computação gráfica e técnicas de inteligência artificial. Em um jogo, temos manifestações visuais, narrativas e musicais entrelaçadas. Neste projeto, nos concentramos no lado musical dos jogos, que são uma das aplicações mais interativas da atualidade. Este projeto visa explorar os desafios científicos e técnicos da geração de música para jogos, usando técnicas de aprendizagem profunda. Em especial, o projeto pretende investigar a integração do enredo do jogo com a narrativa musical. Ele pretende apresentar uma visão crítica desta nova área, propor novas direções de pesquisa e desenvolver protótipos como provas de conceito.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) . Integrantes: Bruno Feijo - Coordenador / Jean-Pierre Briot - Integrante / FURTADO, ANTONIO L. - Integrante / Baffa, Augusto - Integrante / BICALHO, LUIS FERNANDO - Integrante / Gustavo Amaral Costa dos Santos - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Bruno Feijo",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Jean-Pierre Briot",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "FURTADO, ANTONIO L",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    },
+    {
+      "nome": "Visualização, Jogos e Storytelling",
+      "ano_inicio": "2018",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Este projeto tem por objetivo encontrar novos métodos e técnicas que integrem storytelling interativo com visualização em jogos, considerando aspectos interdisciplinares.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Doutorado: (1) . Integrantes: Bruno Feijo - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Bruno Feijo",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    },
+    {
+      "nome": "Renderização para Efeitos Especiais em TV",
+      "ano_inicio": "2012",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Renderização em HD para efeitos especiais usando processamento paralelo em GPU e Cloud Computing para TV. Simulação de cenários com multiplicação de objetos inteligentes e autônomos inseridos em pipeline de renderização.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) Doutorado: (1) . Integrantes: Bruno Feijo - Coordenador. Financiador(es): Rede Globo de Televisão - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Bruno Feijo",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Rede Globo de Televisão",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Métodos e Tecnologia para Ensino Médio Profissionalizante em Novas Mídias Digitais",
+      "ano_inicio": "2012",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Este projeto tem por objetivo propor novos métodos, técnicas e processos para o ensino médio profissionalizante em novas mídias digitais, focando em aplicações multimídia para TV Digital e jogos, e desenvolver tecnologias para objetos de aprendizagem. Ete projeto também tem o objetivo de levar o ambiente de inovação da universidade para dentro do ensino médio. Os experimentos são validados no NAVE-Rio (Núcleo Avançado em Educação) em associação com o Colégio Estadual José Leite Lopes.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) / Doutorado: (1) . Integrantes: Bruno Feijo - Coordenador / Mônica Maria Ferreira da Costa - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Bruno Feijo",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Mônica Maria Ferreira da Costa",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Composição e Veiculação de Conteúdo Interativo para TV Digital",
+      "ano_inicio": "2008",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Pesquisa sobre a geração e a veiculação de conteúdo para TV digital, baseadas nos conceitos de \"storytelling\" interativo, técnicas de games e processamento de imagens, compatíveis com o SBTVD-T, e contemplando o desenvolvimento de dois protótipos: [1] HDI (Histórias Digitais Interativas) para a composição dinâmica de histórias interativas, representadas por animações 3D; e [2] ECDI (Educação e Cultura Digitais Interativas) para apoio à educação à distância e difusão de conteúdo cultural.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (2) / Doutorado: (2) . Integrantes: Bruno Feijo - Coordenador / Angelo Ernani Maia Ciarlini - Integrante / Antonio Luz Furtado - Integrante / Simone Diniz J Barbosa - Integrante / Cesar Tadeu Pozzer - Integrante / Marco Antonio Casanova - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio financeiro. Número de produções C, T & A: 2"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Bruno Feijo",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Angelo Ernani Maia Ciarlini",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Antonio Luz Furtado",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Simone Diniz J Barbosa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Cesar Tadeu Pozzer",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Marco Antonio Casanova",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [
+    {
+      "nome": "Rede Brasileira de Visualização - Broadcast e Produção de Conteúdo Digital",
+      "ano_inicio": "2005",
+      "ano_conclusao": "2007",
+      "descricao": [
+        "Descrição: Pesquisa, desenvolvimento e inovação em visualização no setor de broadcast e produção de conteúdo digital, envolvendo games, TV/Cinema digital e simuladores, bem como a elaboração e implementação de modelo de P&D&I para a Rede Brasileira de Visualização alinhado com a Política Industrial, Tecnológica e de Comércio Exterior (PICTE) e o sistema SIBRATEC.. Situação: Concluído; Natureza: Desenvolvimento. Alunos envolvidos: Graduação: (5) / Mestrado profissional: (5) / Doutorado: (5) . Integrantes: Bruno Feijo - Coordenador / Antonio Luz Furtado - Integrante / Raul Q. Feitosa - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro. Número de produções C, T & A: 17"
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Bruno Feijo",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Antonio Luz Furtado",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Raul Q",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Financiadora de Estudos e Projetos",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    }
+  ],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Processamento Gráfico (Graphics)",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics)."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Entretenimento Digital",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Entretenimento Digital."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Jogos",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Jogos."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "efeitos especiais",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: efeitos especiais."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Animação Por Computador",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Animação Por Computador."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Realidade Virtual",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Realidade Virtual."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Espanhol",
+      "compreende": "Pouco",
+      "fala": "",
+      "le": "Pouco",
+      "escreve": "",
+      "proficiencia_completa": "Compreende Pouco, Lê Pouco."
+    },
+    {
+      "nome": "Francês",
+      "compreende": "",
+      "fala": "",
+      "le": "Pouco",
+      "escreve": "",
+      "proficiencia_completa": "Lê Pouco."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "ICEC 2024 Best Paper Award, IFIP.",
+      "ano": 2024
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "Animação por Computador",
+      "objetivo": ""
+    },
+    {
+      "nome": "Computação Gráfica",
+      "objetivo": ""
+    },
+    {
+      "nome": "Jogos e Entretenimento Digital",
+      "objetivo": ""
+    },
+    {
+      "nome": "Visualização e Simulação",
+      "objetivo": ""
+    },
+    {
+      "nome": "Aplicações em TV/Cinema Digital",
+      "objetivo": ""
+    },
+    {
+      "nome": "Storytelling e Narratologia Computacional",
+      "objetivo": ""
+    },
+    {
+      "nome": "CAD INTELIGENTE",
+      "objetivo": ""
+    },
+    {
+      "nome": "CAD",
+      "objetivo": ""
+    },
+    {
+      "nome": "Desenvolvimento em Sistema Operacional NOS",
+      "objetivo": ""
+    },
+    {
+      "nome": "Suporte e Desenvolvimento em CAD",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "An AI-powered approach to the semiotic reconstruction of narratives",
+        "ano": 2025,
+        "autores": "DE LIMA, EDIRLEI SOARES ; NEGGERS, MARGOT M.E. ; Feijó, Bruno ; Casanova, Marco A. ; FURTADO, ANTONIO L.",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "52",
+        "numero": "",
+        "paginas": "100810",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2024.100810",
+        "qualis": ""
+      },
+      {
+        "titulo": "Negative effects of gamification in education software: Systematic mapping and practitioner perceptions",
+        "ano": 2023,
+        "autores": "ALMEIDA, CLÁUVIN ; KALINOWSKI, MARCOS ; UCHÔA, ANDERSON ; Feijó, Bruno",
+        "revista": "INFORMATION AND SOFTWARE TECHNOLOGY",
+        "volume": "156",
+        "numero": "",
+        "paginas": "107142-107142:25",
+        "issn": "0950-5849",
+        "doi": "http://dx.doi.org/10.1016/j.infsof.2022.107142",
+        "qualis": ""
+      },
+      {
+        "titulo": "Managing the plot structure of character-based interactive narratives in games",
+        "ano": 2023,
+        "autores": "DE LIMA, EDIRLEI SOARES ; Feijó, Bruno ; FURTADO, ANTONIO L.",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "47",
+        "numero": "",
+        "paginas": "100590-100607",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2023.100590",
+        "qualis": ""
+      },
+      {
+        "titulo": "Procedural Generation of Branching Quests for Games",
+        "ano": 2022,
+        "autores": "Soares de Lima, Edirlei ; Feijó, Bruno ; FURTADO, ANTONIO L.",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "2022",
+        "numero": "",
+        "paginas": "100491",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2022.100491",
+        "qualis": ""
+      },
+      {
+        "titulo": "Adaptive storytelling based on personality and preference modeling",
+        "ano": 2020,
+        "autores": "DE LIMA, EDIRLEI SOARES ; Feijó, Bruno ; FURTADO, ANTONIO L.",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "34",
+        "numero": "",
+        "paginas": "100342-12",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2020.100342",
+        "qualis": ""
+      },
+      {
+        "titulo": "Pervasive virtuality in digital entertainment applications and its quality requirements",
+        "ano": 2018,
+        "autores": "Valente, Luis ; FEIJO, BRUNO ; Ribeiro, Alexandre ; Clua, Esteban",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "23",
+        "numero": "",
+        "paginas": "139-152",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2018.02.006",
+        "qualis": ""
+      },
+      {
+        "titulo": "Player behavior and personality modeling for interactive storytelling in games",
+        "ano": 2018,
+        "autores": "DE LIMA, EDIRLEI SOARES ; Feijó, Bruno ; FURTADO, ANTONIO L.",
+        "revista": "ENTERTAINMENT COMPUTING",
+        "volume": "28",
+        "numero": "",
+        "paginas": "32-48",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2018.08.003",
+        "qualis": ""
+      },
+      {
+        "titulo": "Persona",
+        "ano": 2018,
+        "autores": "BRAUN, ADRIANA ; QUEIROZ, ROSSANA ; LEE, WONSOOK ; FEIJO, BRUNO ; MUSSE, SORAIA RAUPP",
+        "revista": "COMPUTERS IN ENTERTAINMENT",
+        "volume": "16",
+        "numero": "",
+        "paginas": "1-19",
+        "issn": "1544-3574",
+        "doi": "http://dx.doi.org/10.1145/3236495",
+        "qualis": ""
+      },
+      {
+        "titulo": "A method to assess pervasive qualities in mobile games",
+        "ano": 2017,
+        "autores": "Valente, Luis ; Feijó, Bruno ; LEITE, JULIO CESAR SAMPAIO DO PRADO ; Clua, Esteban",
+        "revista": "Personal and Ubiquitous Computing",
+        "volume": "22",
+        "numero": "",
+        "paginas": "647-670",
+        "issn": "1617-4909",
+        "doi": "http://dx.doi.org/10.1007/s00779-017-1107-0",
+        "qualis": ""
+      },
+      {
+        "titulo": "Video-based interactive storytelling using real-time video compositing techniques",
+        "ano": 2017,
+        "autores": "DE LIMA, EDIRLEI SOARES ; Feijó, Bruno ; FURTADO, ANTONIO L.",
+        "revista": "MULTIMEDIA TOOLS AND APPLICATIONS (DORDRECHT. ONLINE)",
+        "volume": "77",
+        "numero": "",
+        "paginas": "2333-2357",
+        "issn": "1380-7501",
+        "doi": "http://dx.doi.org/10.1007/s11042-017-4423-5",
+        "qualis": ""
+      },
+      {
+        "titulo": "Storytelling variants based on semiotic relations",
+        "ano": 2016,
+        "autores": "DE LIMA, EDIRLEI SOARES ; Feijó, Bruno ; CASANOVA, MARCO ANTONIO ; FURTADO, ANTONIO L.",
+        "revista": "Entertainment Computing",
+        "volume": "17",
+        "numero": "",
+        "paginas": "31-44",
+        "issn": "1875-9521",
+        "doi": "http://dx.doi.org/10.1016/j.entcom.2016.08.003",
+        "qualis": ""
+      },
+      {
+        "titulo": "First steps towards Live-action Virtual Reality Games",
+        "ano": 2016,
+        "autores": "SILVA JUNIOR, A. R. ; CLUA, E. ; VALENTE, L. ; FEIJO, B.",
+        "revista": "SBC Journal on 3D Interactive Systems",
+        "volume": "7",
+        "numero": "",
+        "paginas": "3-16",
+        "issn": "2236-3297",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Mapping quality requirements for pervasive mobile games",
+        "ano": 2015,
+        "autores": "Valente, Luis ; Feijó, Bruno ; LEITE, JULIO CESAR SAMPAIO DO PRADO",
+        "revista": "Requirements Engineering (London. Print)",
+        "volume": "online",
+        "numero": "",
+        "paginas": "1-29",
+        "issn": "0947-3602",
+        "doi": "http://dx.doi.org/10.1007/s00766-015-0238-y",
+        "qualis": ""
+      },
+      {
+        "titulo": "Exploring Energy Management on GPUs in Game Architectures",
+        "ano": 2014,
+        "autores": "Zamith, Marcelo ; VALENTE, L. ; Joselli,M. ; SILVA JUNIOR, J. R. ; CLUA, E. ; FEIJO, B.",
+        "revista": "SBC Journal on 3D Interactive Systems",
+        "volume": "5",
+        "numero": "",
+        "paginas": "14-26",
+        "issn": "2236-3297",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Generation and Dramatization of Detective Stories",
+        "ano": 2014,
+        "autores": "Barbosa, Simone D. J. ; LIMA, E. S. ; Furtado, A.L. ; FEIJO, B.",
+        "revista": "SBC Journal on 3D Interactive Systems",
+        "volume": "5",
+        "numero": "",
+        "paginas": "39-52",
+        "issn": "2236-3297",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A cloud computing based framework for general 2D and 3D cellular automata simulation",
+        "ano": 2013,
+        "autores": "MARQUES, RODRIGO ; FEIJO, BRUNO ; BREITMAN, KARIN ; GOMES, THIEBERSON ; FERRACIOLI, LAERCIO ; LOPES, HÉLIO",
+        "revista": "Advances in Engineering Software (1992)",
+        "volume": "65",
+        "numero": "",
+        "paginas": "78-89",
+        "issn": "0965-9978",
+        "doi": "http://dx.doi.org/10.1016/j.advengsoft.2013.05.014",
+        "qualis": ""
+      },
+      {
+        "titulo": "Draw Your Own Story: Paper and Pencil Interactive Storytelling",
+        "ano": 2013,
+        "autores": "LIMA, EDIRLEI SOARES DE ; Feijó, Bruno ; BARBOSA, SIMONE D.J. ; FURTADO, ANTONIO L. ; CIARLINI, ANGELO E.M. ; Pozzer, Cesar T.",
+        "revista": "Entertainment Computing",
+        "volume": "2013",
+        "numero": "",
+        "paginas": "33-41",
+        "issn": "1875-9521",
+        "doi": "http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49",
+        "qualis": ""
+      },
+      {
+        "titulo": "Rendering Tubes from Discrete Curves Using Hardware Tessellation",
+        "ano": 2012,
+        "autores": "Nunes, Gustavo ; Valdetaro, Alexandre ; Raposo, Alberto ; Feijó, Bruno ; de Toledo, Rodrigo",
+        "revista": "Journal of Graphics Tools",
+        "volume": "16",
+        "numero": "",
+        "paginas": "123-143",
+        "issn": "2165-347X",
+        "doi": "http://dx.doi.org/10.1080/2165347X.2012.659610",
+        "qualis": ""
+      },
+      {
+        "titulo": "Modeling alternatives for fuzzy Markov chain-based classification of multitemporal remote sensing data",
+        "ano": 2011,
+        "autores": "Feitosa, Raul Queiroz ; da Costa, Gilson Alexandre Ostwald Pedro ; Mota, Guilherme Lúcio Abelha ; Feijó, Bruno",
+        "revista": "Pattern Recognition Letters",
+        "volume": "32",
+        "numero": "",
+        "paginas": "927-940",
+        "issn": "0167-8655",
+        "doi": "http://dx.doi.org/10.1016/j.patrec.2010.09.024",
+        "qualis": ""
+      },
+      {
+        "titulo": "An architecture with automatic load balancing for real-time simulation and visualization systems",
+        "ano": 2010,
+        "autores": "Joselli, Mark ; Zamith, Marcelo ; Clua, Esteban ; Leal-Toledo, Regina ; Montenegro, Anselmo ; Valente, Luis ; Feijó, Bruno ; Pagliosa, Paulo",
+        "revista": "Journal of Computational Interdisciplinary Sciences",
+        "volume": "1",
+        "numero": "",
+        "paginas": "207-224",
+        "issn": "1983-8409",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Visualization, Digital Content, and Simulation",
+        "ano": 2009,
+        "autores": "FEIJO, B",
+        "revista": "IEEE Multimedia",
+        "volume": "16",
+        "numero": "",
+        "paginas": "8-12",
+        "issn": "1070-986X",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Parallel culling and sorting based on adaptive static balancing",
+        "ano": 2009,
+        "autores": "MACHADO, L. E. ; FEIJO, B.",
+        "revista": "Computers in Entertainment : CIE",
+        "volume": "7",
+        "numero": "",
+        "paginas": "1-13",
+        "issn": "1544-3574",
+        "doi": "http://dx.doi.org/10.1145/1658866.1658878",
+        "qualis": ""
+      },
+      {
+        "titulo": "Turn off the graphics: designing non-visual interfaces for mobile phone games",
+        "ano": 2009,
+        "autores": "Valente, Luis ; Souza, Clarisse Sieckenius de ; FEIJO, B.",
+        "revista": "Journal of the Brazilian Computer Society (Impresso)",
+        "volume": "15",
+        "numero": "",
+        "paginas": "45-58",
+        "issn": "0104-6500",
+        "doi": "http://dx.doi.org/10.1590/S0104-65002009000100005",
+        "qualis": ""
+      },
+      {
+        "titulo": "A bidimensional data structure and spatial optimization for supermassive crowd simulation on GPU",
+        "ano": 2009,
+        "autores": "Passos, Erick Baptista ; Joselli, Mark ; Zamith, Marcelo ; Clua, Esteban Walter Gonzalez ; Montenegro, Anselmo ; Conci, Aura ; FEIJO, B.",
+        "revista": "Computers in Entertainment : CIE",
+        "volume": "7",
+        "numero": "",
+        "paginas": "1-15",
+        "issn": "1544-3574",
+        "doi": "http://dx.doi.org/10.1145/1658866.1658879",
+        "qualis": ""
+      },
+      {
+        "titulo": "An adaptative game loop architecture with automatic distribution of tasks between CPU and GPU",
+        "ano": 2009,
+        "autores": "Joselli, Mark ; Zamith, Marcelo ; Clua, Esteban ; Montenegro, Anselmo ; Leal-Toledo, Regina ; Conci, Aura ; Pagliosa, Paulo ; Valente, Luis ; FEIJO, B.",
+        "revista": "Computers in Entertainment : CIE",
+        "volume": "7",
+        "numero": "",
+        "paginas": "1-15",
+        "issn": "1544-3574",
+        "doi": "http://dx.doi.org/10.1145/1658866.1658869",
+        "qualis": ""
+      },
+      {
+        "titulo": "A game loop architecture for the GPU used as a math coprocessor in real-time applications",
+        "ano": 2008,
+        "autores": "Zamith, Marcelo P. M. ; Clua, Esteban W. G. ; Conci, Aura ; Montenegro, Anselmo ; Leal-Toledo, Regina C. P. ; Pagliosa, Paulo A. ; Valente, Luis ; FEIJO, B.",
+        "revista": "Computers in Entertainment : CIE",
+        "volume": "6",
+        "numero": "",
+        "paginas": "1-19",
+        "issn": "1544-3574",
+        "doi": "http://dx.doi.org/10.1145/1394021.1394035",
+        "qualis": ""
+      },
+      {
+        "titulo": "An overview on security in networked computer games",
+        "ano": 2004,
+        "autores": "KARLSSON, B. F. F. ; FEIJO, B.",
+        "revista": "Scientia (Unisinos)",
+        "volume": "15",
+        "numero": "2",
+        "paginas": "166-173",
+        "issn": "0104-1770",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Managing actions and movements of non-player characters in computer games",
+        "ano": 2004,
+        "autores": "POZZER,C.T. ; FEIJO, B. ; CIARLINI, A. E. M. ; FURTADO, A. L. ; DREUX, M.",
+        "revista": "Scientia (Unisinos)",
+        "volume": "15",
+        "numero": "2",
+        "paginas": "148-157",
+        "issn": "0104-1770",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Jogos de computador no Brasil - uma visão estratégica de desenvolvimento",
+        "ano": 2004,
+        "autores": "FEIJO, B.; BADARO, P.",
+        "revista": "Scientia (Unisinos)",
+        "volume": "15",
+        "numero": "2",
+        "paginas": "107-112",
+        "issn": "0104-1770",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Conceituando e resolvendo pragmaticamente os problemas mais críticos de um MMORPG",
+        "ano": 2004,
+        "autores": "BINDER, F. V. ; FEIJO, B.",
+        "revista": "Scientia (Unisinos)",
+        "volume": "15",
+        "numero": "2",
+        "paginas": "158-165",
+        "issn": "0104-1770",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Distributed object model for collaborative CAD environments based on design history",
+        "ano": 2003,
+        "autores": "BARBOSA, C. A. M. ; FEIJO, B. ; Dreux, M. ; Melo, R. ; Bento, J. ; SCHEER, S.",
+        "revista": "Advances in Engineering Software",
+        "volume": "34",
+        "numero": "10",
+        "paginas": "621-631",
+        "issn": "0965-9918",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "An object model for collaborative CAD environments",
+        "ano": 2003,
+        "autores": "BARBOSA, C. A. M. ; FEIJO, B. ; Dreux, M. ; Melo, R. ; Bento, J. ; SCHEER, S.",
+        "revista": "Journal of Integrated Design & Process Science",
+        "volume": "7",
+        "numero": "2",
+        "paginas": "",
+        "issn": "1092-0617",
+        "doi": "http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49",
+        "qualis": ""
+      },
+      {
+        "titulo": "An architecture for the design entity",
+        "ano": 2003,
+        "autores": "BARBOSA, C. A. M. ; Dreux, M. ; FEIJO, B.",
+        "revista": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+        "volume": "XXV",
+        "numero": "1",
+        "paginas": "15-22",
+        "issn": "1678-5878",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Goal-oriented dead reckoning for autonomous characters",
+        "ano": 2001,
+        "autores": "SZWARCMAN, D. M. ; FEIJO, B. ; COSTA, M. M. F.",
+        "revista": "Computers & Graphics",
+        "volume": "25",
+        "numero": "6",
+        "paginas": "999-1011",
+        "issn": "0097-8493",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Online algorithms supporting emergence in distributed CAD systems",
+        "ano": 2001,
+        "autores": "FEIJO, B.; GOMES, P. C. R. ; SCHEER, S. ; BENTO, J. P.",
+        "revista": "Advances in Engineering Software",
+        "volume": "32",
+        "numero": "10-11",
+        "paginas": "779-787",
+        "issn": "0965-9978",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Desenvolvimento de Jogos em Computadores e Celulares",
+        "ano": 2001,
+        "autores": "Battaiola, A.L. ; Domingues, R.G. ; FEIJO, B. ; SZWARCMAN, D. M. ; Clua, E.W.G. ; Kosovitz, L.E. ; Dreux, M. ; Pessoa, C.A. ; Ramalho, G.L.",
+        "revista": "Revista de Informática Teórica e Aplicada",
+        "volume": "VIII",
+        "numero": "2",
+        "paginas": "7-46",
+        "issn": "0103-4308",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Control centers evolve with agent technology",
+        "ano": 2000,
+        "autores": "AZEVEDO, G. P. ; FEIJO, B. ; COSTA, M.",
+        "revista": "IEEE Computer Applications in Power",
+        "volume": "13",
+        "numero": "3",
+        "paginas": "48-53",
+        "issn": "0895-0156",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Centros de Controle de Energia: passado, presente e futuro",
+        "ano": 2000,
+        "autores": "AZEVEDO, G. P. ; FEIJO, B. ; COSTA, M. M. F.",
+        "revista": "Eletricidade Moderna",
+        "volume": "XXVIII",
+        "numero": "312",
+        "paginas": "174-183",
+        "issn": "0100-2104",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Logic-Based Environment For Reactive Agents In Intelligent Cad Systems",
+        "ano": 1998,
+        "autores": "FEIJO, B.; BENTO, J",
+        "revista": "Advances in Engineering Software",
+        "volume": "29",
+        "numero": "10",
+        "paginas": "825-832",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "An agent-based paradigm for building intelligent CAD systems",
+        "ano": 1997,
+        "autores": "FEIJO, B.; BENTO, J",
+        "revista": "Artificial Intelligence in Engineering (Cessou em 2001. Cont. ISSN 1474-0346 Advanced Engineering Informatics)",
+        "volume": "11",
+        "numero": "3",
+        "paginas": "231-244",
+        "issn": "0954-1810",
+        "doi": "http://dx.doi.org/10.1016/S0954-1810(96)00045-3",
+        "qualis": ""
+      },
+      {
+        "titulo": "Engineering Design Knowledge Representation Based On Logic And Objects",
+        "ano": 1997,
+        "autores": "FEIJO, B.; BENTO, J. ; SMITH, D. L.",
+        "revista": "Computers & Structures",
+        "volume": "63",
+        "numero": "5",
+        "paginas": "1015-1032",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Enhancing The Human-Computer Interface Of Power System Applications",
+        "ano": 1996,
+        "autores": "FEIJO, B.; AZEVEDO, G. P. ; SOUZA, C. S.",
+        "revista": "IEEE Transactions on Power Systems",
+        "volume": "11",
+        "numero": "2",
+        "paginas": "646-653",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Agents With Emotions In Behavioral Animation",
+        "ano": 1996,
+        "autores": "FEIJO, B.; COSTA, M",
+        "revista": "Comput. & Graphics",
+        "volume": "20",
+        "numero": "3",
+        "paginas": "377-384",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Cad For Process Innovation In The Construction Industry",
+        "ano": 1996,
+        "autores": "FEIJO, B.; RODACKI, P. F. B. ; BENTO, J. P. ; SCHEER, S.",
+        "revista": "Structural Engineering and Mechanics",
+        "volume": "4",
+        "numero": "6",
+        "paginas": "717-729",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Hypertext Model For Steel Design Codes",
+        "ano": 1994,
+        "autores": "FEIJO, B.; KRAUSE, W. G. ; SMITH, D. L. ; DOWLING, P. J.",
+        "revista": "J. Construct. Steel Research",
+        "volume": "28",
+        "numero": "",
+        "paginas": "167-186",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "The Incorporation Of Steel Design Codes Into Design Automation Systems",
+        "ano": 1989,
+        "autores": "FEIJO, B.; DOWLING, P. J. ; SMITH, D. L.",
+        "revista": "IABSE REPORT",
+        "volume": "51",
+        "numero": "",
+        "paginas": "393-402",
+        "issn": "",
+        "doi": "http://dx.doi.org/10.5169/seals-44926",
+        "qualis": ""
+      },
+      {
+        "titulo": "Knowledge-Based Design Of Steel Portal Frames For Agricultural Buildings",
+        "ano": 1989,
+        "autores": "FEIJO, B.; BENTO, J. ; DOWLING, P. J.",
+        "revista": "IABSE REPORT",
+        "volume": "51",
+        "numero": "",
+        "paginas": "281-290",
+        "issn": "",
+        "doi": "http://dx.doi.org/10.5169/seals-44915",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [
+      {
+        "titulo": "Introdução à Ciência da Computação com Jogos. Rio de Janeiro: Elsevier Editora Ltda",
+        "ano": 2010,
+        "autores": "FEIJO, B.; CLUA, E. ; Silva, F.S.C.",
+        "editora": "Introdução à Ciência da Computação com Jogos. Rio de Janeiro: Elsevier Editora Ltda.",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "263"
+      }
+    ],
+    "capitulos_livros": [
+      {
+        "titulo": "A Pattern-Oriented AI-Powered Approach to Story Composition. Lecture Notes in Computer Science. 1ed.Cham",
+        "ano": 2025,
+        "autores": "LIMA, EDIRLEI SOARES DE ; NEGGERS, MARGOT M.E. ; Casanova, Marco A. ; Feijó, B. ; Furtado, A.L.",
+        "titulo_livro": "",
+        "editora": "Springer Nature Switzerland",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "135-150"
+      },
+      {
+        "titulo": "From News to Stories via an AI-Supported Retelling Process",
+        "ano": 2025,
+        "autores": "DE LIMA, EDIRLEI SOARES ; Casanova, Marco A. ; Feijó, Bruno ; FURTADO, ANTONIO L.",
+        "titulo_livro": "",
+        "editora": "Springer Nature Switzerland",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "334-348"
+      },
+      {
+        "titulo": "Semiotic Structuring in Movie Narrative Generation",
+        "ano": 2023,
+        "autores": "DE LIMA, EDIRLEI SOARES ; Casanova, Marco A. ; Feijó, Bruno ; FURTADO, ANTONIO L.",
+        "titulo_livro": "",
+        "editora": "Springer Nature Singapore",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "161-175"
+      },
+      {
+        "titulo": "Plot Composition by Mapping Situation Calculus Schemas into Petri Net Representation",
+        "ano": 2022,
+        "autores": "LIMA, E. S. ; Furtado, A.L. ; Feijó, B. ; CASANOVA, M. A.",
+        "titulo_livro": "",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "61-75"
+      },
+      {
+        "titulo": "Symbiotic Trackers¿ Ensemble with Trackers¿ Re-initialization for Face Tracking. Communications in Computer and Information Science. 1ed",
+        "ano": 2021,
+        "autores": "Ayma, Victor H. ; Happ, Patrick N. ; Feitosa, Raul Q. ; Costa, Gilson A. O. P. ; Feijó, Bruno",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "250-263"
+      },
+      {
+        "titulo": "Computational Narrative Blending Based on Planning",
+        "ano": 2021,
+        "autores": "LIMA, E. S. ; Feijó, B. ; Furtado, A.L.",
+        "titulo_livro": "",
+        "editora": "Springer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "289-303"
+      },
+      {
+        "titulo": "Artificial Intelligence in Human-Robot Interaction",
+        "ano": 2019,
+        "autores": "DE LIMA, EDIRLEI SOARES ; Feijó, Bruno",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "187-199"
+      },
+      {
+        "titulo": "The Concept of Pervasive Virtuality and Its Application in Digital Entertainment Systems. Lecture Notes in Computer Science. 1ed.Basel",
+        "ano": 2016,
+        "autores": "Valente, Luis ; Feijó, Bruno ; Ribeiro, Alexandre ; Clua, Esteban",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "187-198"
+      },
+      {
+        "titulo": "Storytelling Variants: The Case of Little Red Riding Hood",
+        "ano": 2015,
+        "autores": "DE LIMA, EDIRLEI SOARES ; FURTADO, ANTONIO L. ; Feijó, Bruno",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "286-300"
+      },
+      {
+        "titulo": "Adaptive Automated Storytelling Based on Audience Response",
+        "ano": 2015,
+        "autores": "Baffa, Augusto ; Poggi, Marcus ; Feijó, Bruno",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "45-58"
+      },
+      {
+        "titulo": "A Distributed Architecture for Simulation Environments Based on Game Engine Systems",
+        "ano": 2014,
+        "autores": "Joselli, Mark ; Zamith, Marcelo ; Valente, Luis ; Feijó, Bruno ; Leta, Fabiana R. ; Clua, Esteban",
+        "titulo_livro": "",
+        "editora": "Springer Berlin Heidelberg",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "41-61"
+      },
+      {
+        "titulo": "Non-branching Interactive Comics. Lecture Notes in Computer Science. 1ed.Boekelo",
+        "ano": 2013,
+        "autores": "Soares de Lima, Edirlei ; Feijó, Bruno ; FURTADO, ANTONIO L. ; Diniz Junqueira Barbosa, Simone ; Pozzer, Cesar T. ; Ciarlini, Angelo E. M.",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "230-245"
+      },
+      {
+        "titulo": "Social Interaction for Interactive Storytelling",
+        "ano": 2012,
+        "autores": "Lima, Edirlei Soares ; Feijó, Bruno ; Pozzer, Cesar T. ; Ciarlini, Angelo E. M. ; Barbosa, Simone D. J. ; FURTADO, ANTONIO L. ; Silva, Fabio A. Guilherme",
+        "titulo_livro": "",
+        "editora": "Springer Berlin Heidelberg",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "1-15"
+      },
+      {
+        "titulo": "Information-Gathering Events in Story Plots",
+        "ano": 2012,
+        "autores": "Silva, Fabio A. Guilherme ; FURTADO, ANTONIO L. ; Ciarlini, Angelo E. M. ; Pozzer, Cesar Tadeu ; Feijó, Bruno ; Lima, Edirlei Soares",
+        "titulo_livro": "",
+        "editora": "Springer Berlin Heidelberg",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "30-44"
+      },
+      {
+        "titulo": "Genetic Adaptation of Segmentation Parameters",
+        "ano": 2008,
+        "autores": "COSTA, G. A. O. P. ; FEITOSA, R. Q. ; CAZES, T. B. ; FEIJO, B.",
+        "titulo_livro": "",
+        "editora": "Spring Verlag",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "679-695"
+      },
+      {
+        "titulo": "Ajuste Automático de Parâmetros de Segmentação",
+        "ano": 2007,
+        "autores": "FEITOSA, R. Q. ; COSTA, G. A. O. P. ; CAZES, T. B. ; FEIJO, B.",
+        "titulo_livro": "",
+        "editora": "Oficina de Textos",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "129-144"
+      },
+      {
+        "titulo": "Visualização, Simulação e Games",
+        "ano": 2006,
+        "autores": "FEIJO, B.; PAGLIOSA, P. A. ; Clua, E.W.G.",
+        "titulo_livro": "",
+        "editora": "Editora PUC-Rio",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "127-186"
+      },
+      {
+        "titulo": "Agents with Emotions in Behavioral Animation",
+        "ano": 2001,
+        "autores": "COSTA, M. ; FEIJO, B.",
+        "titulo_livro": "",
+        "editora": "Pergamon",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "213-220"
+      },
+      {
+        "titulo": "Distributed Agents Supporting Event-Driven Design Processes",
+        "ano": 1998,
+        "autores": "FEIJO, B.; GOMES, P. C. R. ; BENTO, J. ; SCHEER, S. ; CERQUEIRA, R.",
+        "titulo_livro": "",
+        "editora": "Kluwer Academic",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "557-577"
+      },
+      {
+        "titulo": "Virtual Environments For Cad Systems",
+        "ano": 1998,
+        "autores": "FEIJO, B",
+        "titulo_livro": "",
+        "editora": "Springer-Verlag",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "183-200"
+      },
+      {
+        "titulo": "Agents With Emotions In Behavioral Animation",
+        "ano": 1997,
+        "autores": "COSTA, M. ; FEIJO, B.",
+        "titulo_livro": "",
+        "editora": "Editora Instituto UNIEMP",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "235-243"
+      },
+      {
+        "titulo": "Reactive Design Agents In Solid Modelling",
+        "ano": 1996,
+        "autores": "N. BENTO,J. FEIJÓ B. LEHTOLA ; FEIJO, B. ; SCHEER, S.",
+        "titulo_livro": "",
+        "editora": "Kluwer Academic",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "61-75"
+      },
+      {
+        "titulo": "Better Criteria For The Development Of Solid Modelling Software",
+        "ano": 1991,
+        "autores": "FISCHER, R. ; FEIJO, B. ; DREUX, M.",
+        "titulo_livro": "",
+        "editora": "COMPUT. MECH. PUBL.",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "353-362"
+      },
+      {
+        "titulo": "Intelligent Hypertext For Normative Knowledge In Engineering",
+        "ano": 1990,
+        "autores": "SCHWABE, D. ; FEIJO, B. ; KRAUSE, W. G.",
+        "titulo_livro": "",
+        "editora": "CAMBRIDGE UNIV. PRESS",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "123-136"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "Anemotion model for non-player characters inspired by neurotransmitters",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5753/sbgames.2024.241365",
+        "autores": "FERNANDES, PAULO DE TARSO ; Baffa, Augusto ; Feijó, Bruno",
+        "evento": "Simpósio Brasileiro de Jogos e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "547-562",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Dynamic Difficulty Adjustment Algorithm With Generic Player Behavior Classification Unity Plugin In Single Player Games",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1145/3631085.3631286",
+        "autores": "BICALHO, LUÍS FERNANDO ; Baffa, Augusto ; Feijó, Bruno",
+        "evento": "SBGames 2023: 22nd Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "76-85",
+        "isbn": ""
+      },
+      {
+        "titulo": "ChatGeppetto - an AI-powered Storyteller",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1145/3631085.3631302",
+        "autores": "DE LIMA, EDIRLEI SOARES ; Feijó, Bruno ; CASSANOVA, MARCO A. ; FURTADO, ANTONIO L.",
+        "evento": "SBGames 2023: 22nd Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "28-37",
+        "isbn": ""
+      },
+      {
+        "titulo": "An adaptive music generation architecture for games based on the deep learning Transformer model",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/sbgames56371.2022.9961081",
+        "autores": "AMARAL, GUSTAVO ; Baffa, Augusto ; BRIOT, JEAN-PIERRE ; FEIJO, BRUNO ; FURTADO, ANTONIO",
+        "evento": "2022 21st Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "1-6",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Character-based Model for Interactive Storytelling in Games",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/sbgames56371.2022.9961071",
+        "autores": "DE LIMA, EDIRLEI SOARES ; FEIJO, BRUNO ; FURTADO, ANTONIO L.",
+        "evento": "2022 21st Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "1-6",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Systematic Mapping of Negative Effects of Gamification in Education/Learning Systems",
+        "ano": 2021,
+        "doi": "",
+        "autores": "ALMEIDA, C. ; KALINOWSKI, M. ; Feijó, B.",
+        "evento": "Euromicro Conference on Software Engineering and Advanced Applications (SEAA)",
+        "cidade": "",
+        "paginas": "17-24",
+        "isbn": ""
+      },
+      {
+        "titulo": "Adaptive Branching Quests Based on Automated Planning and Story Arcs",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/SBGames54170.2021.00012",
+        "autores": "DE LIMA, EDIRLEI SOARES ; FEIJO, BRUNO ; FURTADO, ANTONIO L.",
+        "evento": "2021 20th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "9-18",
+        "isbn": ""
+      },
+      {
+        "titulo": "A transdisciplinary approach to computational narratology",
+        "ano": 2021,
+        "doi": "",
+        "autores": "FEIJO, B. ; DE LIMA, EDIRLEI SOARES ; FURTADO, A. L.",
+        "evento": "Brazilian Symposium on Computer Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Culture Model for Non-Player Characters' Behaviors in Role-Playing Games",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/sbgames51465.2020.00013",
+        "autores": "BICALHO, LUIS FERNANDO ; FEIJO, BRUNO ; Baffa, Augusto",
+        "evento": "2020 19th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "9-18",
+        "isbn": ""
+      },
+      {
+        "titulo": "Publicidade e tributação em jogos online",
+        "ano": 2020,
+        "doi": "",
+        "autores": "FEIJO, B.; Baffa, Augusto",
+        "evento": "SBGames 2020",
+        "cidade": "",
+        "paginas": "893-899",
+        "isbn": ""
+      },
+      {
+        "titulo": "Procedural Generation of Quests for Games Using Genetic Algorithms and Automated Planning",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/sbgames.2019.00028",
+        "autores": "Soares de Lima, Edirlei ; FEIJO, BRUNO ; FURTADO, ANTONIO L.",
+        "evento": "2019 18th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "144-153",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Game Analytics Model to Identify Player Profiles in Singleplayer Games",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/sbgames.2019.00013",
+        "autores": "BICALHO, LUIS FERNANDO ; Baffa, Augusto ; FEIJO, BRUNO",
+        "evento": "2019 18th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "11-20",
+        "isbn": ""
+      },
+      {
+        "titulo": "Personality and Preference Modeling for Adaptive Storytelling",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1109/SBGAMES.2018.00030",
+        "autores": "Soares de Lima, Edirlei ; FEIJO, BRUNO ; FURTADO, ANTONIO L. ; GOTTIN, VINICIUS M.",
+        "evento": "2018 17th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "187-197",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Fast Approach for Automatic Generation of Populated Maps with Seed and Difficulty Control",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1109/SBGames.2017.00010",
+        "autores": "SAMPAIO, PEDRO ; Baffa, Augusto ; FEIJO, BRUNO ; LANA, MAURICIO",
+        "evento": "2017 16th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "10-18",
+        "isbn": ""
+      },
+      {
+        "titulo": "Dealing with the Emotions of Non Player Characters",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1109/SBGames.2017.00017",
+        "autores": "Baffa, Augusto ; SAMPAIO, PEDRO ; FEIJO, BRUNO ; LANA, MAURICIO",
+        "evento": "2017 16th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "76-87",
+        "isbn": ""
+      },
+      {
+        "titulo": "Network Traversal as an Aid to Plot Analysis and Composition",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1109/SBGames.2017.00024",
+        "autores": "Soares de Lima, Edirlei ; M. GOTTIN, VINICIUS ; FEIJO, BRUNO ; L. FURTADO, ANTONIO",
+        "evento": "2017 16th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "144-154",
+        "isbn": ""
+      },
+      {
+        "titulo": "Player Behavior Modeling for Interactive Storytelling in Games",
+        "ano": 2016,
+        "doi": "",
+        "autores": "LIMA, E.S. ; FEIJÓ, BRUNO ; FURTADO, A. L.",
+        "evento": "XV Simpósio Brasileiro de Jogos e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards Reactive Failure-Recovery Gameplaying: The Fall and Rise of the Grail Hero",
+        "ano": 2016,
+        "doi": "",
+        "autores": "LIMA, E. S. ; FURTADO, A. L. ; FEIJÓ, BRUNO ; CASANOVA, MARCO A.",
+        "evento": "XV Simpósio Brasileiro de Jogos e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "262-271",
+        "isbn": ""
+      },
+      {
+        "titulo": "Game loop model properties and characteristics on multi-core CPU and GPU games",
+        "ano": 2016,
+        "doi": "",
+        "autores": "Zamith,M. ; VALENTE, L. ; FEIJO, B. ; CLUA, E.",
+        "evento": "SBGames 2016",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Types, Motifs and the Emergence of Variants",
+        "ano": 2015,
+        "doi": "",
+        "autores": "LIMA, E. S. ; Furtado, A.L. ; FEIJO, B.",
+        "evento": "XIV Simpósio Brasileiro de Jogos e Entretenimento Digital - SBGames 2015",
+        "cidade": "",
+        "paginas": "1-9",
+        "isbn": ""
+      },
+      {
+        "titulo": "An indoor navigation system for live-action virtual reality games",
+        "ano": 2015,
+        "doi": "",
+        "autores": "SILVA, A. R. ; CLUA, E. ; Valente, Luis ; FEIJO, B.",
+        "evento": "SBGAmes 2015",
+        "cidade": "",
+        "paginas": "84-93",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring parallel game architectures with tardiness policy",
+        "ano": 2015,
+        "doi": "",
+        "autores": "Zamith,M. ; VALENTE, L. ; FEIJO, B. ; Joselli, Mark ; CLUA, E.",
+        "evento": "SBGames 2015",
+        "cidade": "",
+        "paginas": "94-103",
+        "isbn": ""
+      },
+      {
+        "titulo": "Personality traits in plots with nondeterministic planning for interactive storytelling",
+        "ano": 2015,
+        "doi": "http://dx.doi.org/10.1109/cig.2015.7317957",
+        "autores": "GUILHERME DA SILVA, FABIO A. ; FEIJO, BRUNO",
+        "evento": "2015 IEEE Conference on Computational Intelligence and Games (CIG)",
+        "cidade": "",
+        "paginas": "83-90",
+        "isbn": ""
+      },
+      {
+        "titulo": "Extending use cases to support activity design in pervasive mobile games",
+        "ano": 2014,
+        "doi": "",
+        "autores": "VALENTE, L. ; FEIJO, B.",
+        "evento": "Brazilian Symposium on Computer Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "876-885",
+        "isbn": ""
+      },
+      {
+        "titulo": "Building Keyword-Indexed Virtual Libraries in a Logic Programming Environment",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1145/2664551.2664553",
+        "autores": "DE LIMA, EDIRLEI SOARES ; BARBOSA, SIMONE DINIZ JUNQUEIRA ; Feijó, Bruno ; FURTADO, ANTONIO LUZ",
+        "evento": "20th Brazilian Symposium on Multimedia and the Web (WebMedia 2014)",
+        "cidade": "",
+        "paginas": "75-82",
+        "isbn": ""
+      },
+      {
+        "titulo": "Hierarchical generation of dynamic and nondeterministic quests in games",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1145/2663806.2663833",
+        "autores": "Soares de Lima, Edirlei ; Feijó, Bruno ; FURTADO, ANTONIO L.",
+        "evento": "11th International Conference on Advances in Computer Entertainment Technology",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Real-time Object Tracking in High-Definition Video Using Frame Segmentation and Background Integral Images",
+        "ano": 2013,
+        "doi": "",
+        "autores": "MOREIRA, G. ; FEIJO, B. ; LOPES, H. ; FEITOSA, R. Q.",
+        "evento": "SIBGRAPI 2013 ? Conference on Graphics",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Evaluating dynamic difﬁculty adaptivity in shoot?em up games",
+        "ano": 2013,
+        "doi": "",
+        "autores": "ARAUJO, B. B. P. L. ; FEIJO, B.",
+        "evento": "SBGames 2013 - XII Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "229-238",
+        "isbn": ""
+      },
+      {
+        "titulo": "Early Cases of Bertillon, the Logic Programming Sleuth",
+        "ano": 2013,
+        "doi": "",
+        "autores": "BARBOSA, S. D. J. ; LIMA, E. S. ; Silva, F.A.G. ; Furtado, A.L. ; FEIJO, B.",
+        "evento": "SBGames 2013 - XII Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "7-16",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Model for Stream-based Interactive Storytelling as a New Form of Massive Digital Entertainment",
+        "ano": 2013,
+        "doi": "",
+        "autores": "Camanho, M.M. ; FEIJO, B. ; Furtado, A.L. ; POZZER, C. T. ; Ciarlini, A.E.M.",
+        "evento": "SBGames 2013 - XII Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "109-117",
+        "isbn": ""
+      },
+      {
+        "titulo": "Features and Checklists to Assist in Pervasive Mobile Game Development",
+        "ano": 2013,
+        "doi": "",
+        "autores": "VALENTE, L. ; FEIJO, B. ; LEITE, J. C. S. P.",
+        "evento": "SBGames 2013 - XII Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "90-99",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Game Architecture Based on Multiple GPUs With Energy Management",
+        "ano": 2013,
+        "doi": "",
+        "autores": "Zamith,M. ; VALENTE, L. ; Joselli,M. ; SILVA JUNIOR, J. ; CLUA, E. ; FEIJO, B.",
+        "evento": "SBGames 2013 - XII Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "54-63",
+        "isbn": ""
+      },
+      {
+        "titulo": "Automatic Video Editing for Video-Based Interactive Storytelling",
+        "ano": 2012,
+        "doi": "http://dx.doi.org/10.1109/ICME.2012.83",
+        "autores": "LIMA, EDIRLEI SOARES DE ; FEIJO, BRUNO ; FURTADO, ANTONIO L. ; CIARLINI, ANGELO ; POZZER, CESAR",
+        "evento": "2012 IEEE International Conference on Multimedia and Expo (ICME)",
+        "cidade": "",
+        "paginas": "806-811",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Multi-User Natural Language Interface for Interactive Storytelling in TV and Cinema",
+        "ano": 2012,
+        "doi": "",
+        "autores": "LIMA, E. S. ; FEIJO, B. ; Furtado, A.L. ; Ciarlini, A.E.M. ; POZZER, C. T. ; Silva, F.A.G.",
+        "evento": "Brazilian Symposium on Games and Digital Entertainment - SBGames",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Architecture for Mobile Games with Cloud Computing Module (Conference Best Paper Award)",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Joselli,M. ; SILVA JUNIOR, J. R. ; Valente, Luis ; CLUA, E. ; FEIJO, B. ; Leal-Toledo,R. ; SOLURI, E.",
+        "evento": "Brazilian Symposium on Games and Digital Entertainment - SBGames",
+        "cidade": "",
+        "paginas": "8-16",
+        "isbn": ""
+      },
+      {
+        "titulo": "Draw Your Own Story: Paper and Pencil Interactive Storytelling",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-24500-8_1",
+        "autores": "LIMA, E.S. ; FEIJÓ, Bruno ; FURTADO, A. L. ; BARBOSA, S. D. J. ; CIARLINI, A. E. M. ; POZZER, C.",
+        "evento": "Tenth International Conference on Entertainment Computing (ICEC)",
+        "cidade": "",
+        "paginas": "1-12",
+        "isbn": ""
+      },
+      {
+        "titulo": "A method to check the satisfaction of continuous-time constraints by nonlinear stories",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-25289-1_29",
+        "autores": "Araujo, E.T. ; Ciarlini, A.E.M. ; POZZER, C. T. ; FEIJO, B.",
+        "evento": "Fourth Int. Conf. on Interactive Digital Storytelling",
+        "cidade": "",
+        "paginas": "272-277",
+        "isbn": ""
+      },
+      {
+        "titulo": "Multimodal, Multi-user and Adaptive Interaction for Interactive Storytelling Applications",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1109/SBGAMES.2011.12",
+        "autores": "LIMA, EDIRLEI SOARES DE ; FEIJO, BRUNO ; BARBOSA, SIMONE ; SILVA, FABIO GUILHERME DA ; FURTADO, ANTONIO L. ; Ciarlini, Angelo E. M. ; Pozzer, Cesar T.",
+        "evento": "SBGames 2011",
+        "cidade": "",
+        "paginas": "206-214",
+        "isbn": ""
+      },
+      {
+        "titulo": "Supporting Characters in Interactive Storytelling",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1109/SBGAMES.2011.39",
+        "autores": "LIMBERGER, RAMON ; Pozzer, Cesar Tadeu ; FEIJO, BRUNO ; LIMA, EDIRLEI SOARES DE",
+        "evento": "",
+        "cidade": "",
+        "paginas": "241-249",
+        "isbn": ""
+      },
+      {
+        "titulo": "Analysis and Implementation of Local Subdivision Algorithms in the GPU",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1109/SBGAMES.2011.40",
+        "autores": "Nunes, Gustavo ; BRAGA, RODRIGO ; Valdetaro, Alexandre ; Raposo, Alberto ; FEIJO, BRUNO",
+        "evento": "2011 Brazilian Symposium on Games and Digital Entertainment (SBGAMES)",
+        "cidade": "",
+        "paginas": "101-113",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Distributed Architecture for Mobile Digital Games Based on Cloud Computing",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1109/SBGAMES.2011.13",
+        "autores": "Zamith, Marcelo ; Joselli, Mark ; Clua, Esteban Walter Gonzalez ; Montenegro, Anselmo ; LEAL-TOLEDO, REGINA CELIA P. ; Valente, Luis ; FEIJO, BRUNO",
+        "evento": "",
+        "cidade": "",
+        "paginas": "79-88",
+        "isbn": ""
+      },
+      {
+        "titulo": "LOD terrain rendering by local parallel processing on GPU",
+        "ano": 2010,
+        "doi": "http://dx.doi.org/10.1109/SBGAMES.2010.30",
+        "autores": "VALDETARO, A. ; NUNES, G. B. ; RAPOSO, A. ; FEIJO, B. ; TOLEDO, R.",
+        "evento": "IX Brazilian Symposium on Computer Games and Digital Entertainment (SBGames 2010)",
+        "cidade": "",
+        "paginas": "169-176",
+        "isbn": ""
+      },
+      {
+        "titulo": "Understanding Shader Model 5.0 and the New Graphics API - DirectX11",
+        "ano": 2010,
+        "doi": "",
+        "autores": "VALDETARO, A. ; NUNES, G. B. ; RAPOSO, A. ; FEIJO, B.",
+        "evento": "IX Brazilian Symposium on Computer Games and Digital Entertainment (SBGAmes 2010)",
+        "cidade": "",
+        "paginas": "1-18",
+        "isbn": ""
+      },
+      {
+        "titulo": "Director of Photography and Music Director for Interactive Storytelling",
+        "ano": 2010,
+        "doi": "http://dx.doi.org/10.1109/SBGAMES.2010.13",
+        "autores": "DE LIMA, EDIRLEI EVERSON SOARES ; Feijó, Bruno ; FURTADO, ANTONIO L. ; Pozzer, Cesar Tadeu ; CIARLINI, ANGELO E.M.",
+        "evento": "2010 Brazilian Symposium on Games and Digital Entertainment (SBGAMES)",
+        "cidade": "",
+        "paginas": "129-137",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Architecture with Automatic Load Balancing and Distribution for Digital Games",
+        "ano": 2010,
+        "doi": "http://dx.doi.org/10.1109/SBGAMES.2010.19",
+        "autores": "Joselli, Mark ; Zamith, Marcelo ; Clua, Esteban Walter Gonzalez ; Montenegro, Anselmo ; LEAL-TOLEDO, REGINA CELIA P. ; Valente, Luis ; Feijó, Bruno",
+        "evento": "2010 Brazilian Symposium on Games and Digital Entertainment (SBGAMES)",
+        "cidade": "",
+        "paginas": "59-70",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Model for Interactive TV Storytelling",
+        "ano": 2009,
+        "doi": "",
+        "autores": "CAMANHO, M. M. ; CIARLINI, A. E. M. ; FURTADO, A. L. ; POZZER,C.T. ; FEIJO, B.",
+        "evento": "SBGAMES 2009 - VIII Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "19-28",
+        "isbn": ""
+      },
+      {
+        "titulo": "Support Vector Machines for Cinematography Real-Time Camera Control in Storytelling Environments",
+        "ano": 2009,
+        "doi": "",
+        "autores": "LIMA, E. S. ; POZZER, C. T. ; FAVERA, E. ; Ciarlini, A.E.M. ; FEIJO, B. ; Furtado, A.L. ; DORNELLAS, M.",
+        "evento": "SBGAMES 2009 - VIII Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "176-184",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Neighborhood Grid Data Structure for Massive 3D Crowd Simulation on GPU",
+        "ano": 2009,
+        "doi": "",
+        "autores": "Joselli,M. ; Passos, E.B. ; Zamith,M. ; CLUA, E. ; Montenegro,A. ; FEIJO, B.",
+        "evento": "SBGAMES 2009 - VIII Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "29-36",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Game Loop Architecture with Automatic Distribution of Tasks and Load Balancing between Processors",
+        "ano": 2009,
+        "doi": "",
+        "autores": "Joselli,M. ; Zamith,M. ; VALENTE, L. ; CLUA, E. ; Montenegro,A. ; TOLEDO, R. ; FEIJO, B.",
+        "evento": "SBGAMES 2009 - VIII Brazilian Symposium on Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "5-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Virtual Cinematography Director for Interactive Storytelling",
+        "ano": 2009,
+        "doi": "",
+        "autores": "LIMA, E. S. ; POZZER, C. T. ; D'ORNELLAS, M. ; Ciarlini, A.E.M. ; FEIJO, B. ; Furtado, A.L.",
+        "evento": "5th Advances in Computer Entertainment Technology Conference - ACE 2009",
+        "cidade": "",
+        "paginas": "263-270",
+        "isbn": ""
+      },
+      {
+        "titulo": "Automatic Dynamic Task Distribution between CPU and GPU for Real-Time Systems",
+        "ano": 2008,
+        "doi": "http://dx.doi.org/10.1109/CSE.2008.38",
+        "autores": "Joselli,M. ; Zamith,M. ; Clua, E.W.G. ; Montenegro,A. ; CONCI, A. ; Leal-Toledo,R. ; VALENTE, L. ; FEIJO, B. ; d'Ornellas,M. ; POZZER, C. T.",
+        "evento": "11th International Conference on Computational Science and Engineering CSE 2008",
+        "cidade": "",
+        "paginas": "48-55",
+        "isbn": ""
+      },
+      {
+        "titulo": "Supermassive Crowd Simulation on GPU based on Emergent Behavior",
+        "ano": 2008,
+        "doi": "",
+        "autores": "Passos, E.B. ; Joselli,M. ; Zamith,M. ; Rocha, J. ; Clua, E.W.G. ; FEIJO, B.",
+        "evento": "SBGames 2008",
+        "cidade": "",
+        "paginas": "70-75",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Adaptative Game Loop Architecture with Automatic Distribution of Tasks between CPU and GPU",
+        "ano": 2008,
+        "doi": "",
+        "autores": "Joselli,M. ; Zamith,M. ; Clua, E.W.G. ; Montenegro,A. ; Leal-Toledo,R. ; CONCI, A. ; PAGLIOSA, P. A. ; VALENTE, L. ; FEIJO, B.",
+        "evento": "SBGames 2008",
+        "cidade": "",
+        "paginas": "115-120",
+        "isbn": ""
+      },
+      {
+        "titulo": "Procedural Animation with Genetic Algorithms and Physics Simulation",
+        "ano": 2008,
+        "doi": "",
+        "autores": "Luchini, P. ; FEIJO, B. ; PACHECO, M. A. C.",
+        "evento": "SBGames 2008",
+        "cidade": "",
+        "paginas": "1-5",
+        "isbn": ""
+      },
+      {
+        "titulo": "Parallel Culling and Sorting based on Adaptive Static Balancing",
+        "ano": 2008,
+        "doi": "",
+        "autores": "MACHADO, L. E. ; FEIJO, B.",
+        "evento": "SBGames 2008",
+        "cidade": "",
+        "paginas": "16-23",
+        "isbn": ""
+      },
+      {
+        "titulo": "Conciliating coherence and high responsiveness in interactive storytelling",
+        "ano": 2008,
+        "doi": "",
+        "autores": "CAMANHO, M. M. ; CIARLINI, A. E. M. ; FURTADO, A. L. ; POZZER,C.T. ; FEIJO, B.",
+        "evento": "3rd ACM International Conference on Digital Interactive Media in Entertainment and Arts - DIMEA 2008",
+        "cidade": "",
+        "paginas": "427-434",
+        "isbn": ""
+      },
+      {
+        "titulo": "Planning and Interaction Levels for TV Storytelling",
+        "ano": 2008,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; CAMANHO, M. M. ; DORIA, T.R. ; FURTADO, A. L. ; POZZER,C.T. ; FEIJO, B.",
+        "evento": "First Joint International Conference on Interactive Digital Storytelling - ICIDS 2008",
+        "cidade": "",
+        "paginas": "198-209",
+        "isbn": ""
+      },
+      {
+        "titulo": "Supporting agents in intelligent environments with protocol information",
+        "ano": 2008,
+        "doi": "",
+        "autores": "Felicissimo, C. ; Viterbo, J. ; VALENTE, L. ; Endler, M. ; Briot, J-P. ; LUCENA, C. J. P. ; FEIJO, B.",
+        "evento": "4th IET International Conference on Intelligent Environments - IE08",
+        "cidade": "",
+        "paginas": "1-7",
+        "isbn": ""
+      },
+      {
+        "titulo": "An exploratory study on non-visual mobile phone interfaces for games",
+        "ano": 2008,
+        "doi": "",
+        "autores": "VALENTE, L. ; SOUZA, C. S. ; FEIJO, B.",
+        "evento": "IHC 2008",
+        "cidade": "",
+        "paginas": "31-39",
+        "isbn": ""
+      },
+      {
+        "titulo": "Automatically Generating Eye Motions in Virtual Agents",
+        "ano": 2007,
+        "doi": "",
+        "autores": "RODRIGUES, P. S. L. ; Queiroz, R. ; Barros, L. ; MUSSE, S. R. ; VELHO, L. ; FEIJO, B.",
+        "evento": "IX Symposium on Virtual and Augmented Reality",
+        "cidade": "",
+        "paginas": "84-91",
+        "isbn": ""
+      },
+      {
+        "titulo": "Shot Segmentation Based on the Encoder Signature",
+        "ano": 2006,
+        "doi": "http://dx.doi.org/10.1109/mmmc.2006.1651318",
+        "autores": "NADER, C. ; FEIJO, B. ; SZWARCMAN, D. ; COSTA, M.",
+        "evento": "2006 12th International MultiMedia Modelling Conference",
+        "cidade": "",
+        "paginas": "177-184",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Computer-assisted Colorization Algorithm Based on Topological Difference",
+        "ano": 2006,
+        "doi": "",
+        "autores": "BEZERRA, H. M. A. ; FEIJO, B. ; VELHO, L.",
+        "evento": "Brazilian Symposium on Computer Graphics and Image Processing - SIBGRAPI",
+        "cidade": "",
+        "paginas": "71-77",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Architecture for Game State Management based on State Hierarchies",
+        "ano": 2006,
+        "doi": "",
+        "autores": "VALENTE, L. ; CONCI, A. ; FEIJO, B.",
+        "evento": "SBGames 2006",
+        "cidade": "",
+        "paginas": "1-7",
+        "isbn": ""
+      },
+      {
+        "titulo": "Applying a plan-recognition / plan-generation paradigm to interactive storytelling",
+        "ano": 2006,
+        "doi": "",
+        "autores": "KARLSSON, B. F. F. ; Ciarlini, A.E.M. ; FEIJO, B. ; Furtado, A.L.",
+        "evento": "AI Planning for Computer Games and Synthetic Characters",
+        "cidade": "",
+        "paginas": "31-41",
+        "isbn": ""
+      },
+      {
+        "titulo": "Improving the scene: extending LOGTELL to support a plan recognition/ plan generation paradigm",
+        "ano": 2006,
+        "doi": "",
+        "autores": "KARLSSON, B. F. F. ; POZZER, C. T. ; Ciarlini, A.E.M. ; Furtado, A.L. ; FEIJO, B.",
+        "evento": "SBGames 06 - V Brazilian Symposium on Computer Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Narrating stories in participatory games",
+        "ano": 2006,
+        "doi": "",
+        "autores": "RODRIGUES, P. S. L. ; FEIJO, B. ; VELHO, L. ; POZZER, C. T. ; Ciarlini, A.E.M. ; Furtado, A.L.",
+        "evento": "SBGames 06 - V Brazilian Symposium on Computer Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Selected Techniques to Improve Communication in Massively Multiplayer Games",
+        "ano": 2006,
+        "doi": "",
+        "autores": "MACHADO, L. E. ; FEIJO, B. ; Kosovitz, L.E.",
+        "evento": "SBGames 06 - V Brazilian Symposium on Computer Games and Digital Entertainement",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uso de Quadfields para Otimizar a Largura de Banda em Jogos Multi-Jogador",
+        "ano": 2006,
+        "doi": "",
+        "autores": "Kosovitz, L.E. ; ESPERANCA, C. ; FEIJO, B. ; Clua, E.W.G.",
+        "evento": "SBGames 06 - V Brazilian Symposium on Computer Games and Digital Entertainment",
+        "cidade": "",
+        "paginas": "1-7",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Logic-Based Tool for Interactive Generation and Dramatization of Stories",
+        "ano": 2005,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; POZZER,C.T. ; FURTADO, A. L. ; FEIJO, B.",
+        "evento": "ACM-SIGCHI International Conference on Advances in Computer Entertainment Technology",
+        "cidade": "",
+        "paginas": "133-140",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Image-Based Shading Pipeline for 2D Animation",
+        "ano": 2005,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI.2005.9",
+        "autores": "BEZERRA, H. ; FEIJO, B. ; VELHO, L.",
+        "evento": "",
+        "cidade": "",
+        "paginas": "307-314",
+        "isbn": ""
+      },
+      {
+        "titulo": "Real time game loop models for single-player computer games",
+        "ano": 2005,
+        "doi": "",
+        "autores": "VALENTE, L. ; CONCI, A. ; FEIJO, B.",
+        "evento": "SBGames/WJogos 2005",
+        "cidade": "",
+        "paginas": "89-99",
+        "isbn": ""
+      },
+      {
+        "titulo": "AI middleware as means for improving gameplay",
+        "ano": 2005,
+        "doi": "",
+        "autores": "KARLSSON, B. F. F. ; FEIJO, B.",
+        "evento": "ACE 2005",
+        "cidade": "",
+        "paginas": "442-446",
+        "isbn": ""
+      },
+      {
+        "titulo": "Kuaba ontology: design rationale representation and reuse in model-based designs",
+        "ano": 2005,
+        "doi": "",
+        "autores": "MEDEIROS, A. P. ; SCHWABE, D. ; FEIJO, B.",
+        "evento": "ER 2005",
+        "cidade": "",
+        "paginas": "241-255",
+        "isbn": ""
+      },
+      {
+        "titulo": "Apresentações Hipermídia Apoiadas por uma Ferramenta de Animação Facial",
+        "ano": 2004,
+        "doi": "",
+        "autores": "RODRIGUES, R. F. ; RODRIGUES, P. S. L. ; FEIJO, B. ; VELHO, L. ; SOARES, L. F. G.",
+        "evento": "XXXI SEMISH",
+        "cidade": "",
+        "paginas": "232-246",
+        "isbn": ""
+      },
+      {
+        "titulo": "Cross-Media and Elastic Time Adaptive Presentations: the Integration of a Talking Head Tool into a Hypermedia Formatter",
+        "ano": 2004,
+        "doi": "",
+        "autores": "RODRIGUES, R. F. ; RODRIGUES, P. S. L. ; FEIJO, B. ; VELHO, L. ; SOARES, L. F. G.",
+        "evento": "AH'2004",
+        "cidade": "",
+        "paginas": "215-224",
+        "isbn": ""
+      },
+      {
+        "titulo": "Software Shaders in Interactive Environments Using Relief Impostors",
+        "ano": 2004,
+        "doi": "",
+        "autores": "Clua, E.W.G. ; FEIJO, B. ; Dreux, M. ; FONSECA, F. M. A.",
+        "evento": "SIBGRAPI/SIACG 2004",
+        "cidade": "",
+        "paginas": "284-291",
+        "isbn": ""
+      },
+      {
+        "titulo": "Managing Actions and Movements of Non-Player Characters in Computer Games",
+        "ano": 2004,
+        "doi": "",
+        "autores": "POZZER, C. T. ; FEIJO, B. ; Ciarlini, A.E.M. ; Furtado, A.L.",
+        "evento": "SBGames Simpósio Brasileiro de Jogos de Computador e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "A real-time single-pass continuous LOD algorithm for regular height maps",
+        "ano": 2004,
+        "doi": "",
+        "autores": "POZZER, C. T. ; Dreux, M. ; FEIJO, B.",
+        "evento": "SBGames 2004",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Expressive Talking Heads: uma ferramenta de animação com fala e expressão facial sincronizadas para o desenvolvimento de aplicações interativas",
+        "ano": 2003,
+        "doi": "",
+        "autores": "RODRIGUES, P. S. L. ; FEIJO, B. ; VELHO, L.",
+        "evento": "WebMídia 2003",
+        "cidade": "",
+        "paginas": "135-150",
+        "isbn": ""
+      },
+      {
+        "titulo": "Utilização de nailboards para otimização em distribuição de rendering entre CPU e GPU",
+        "ano": 2003,
+        "doi": "",
+        "autores": "Clua, E.W.G. ; Dreux, M. ; FEIJO, B.",
+        "evento": "WJogos 2003",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "The impact of the new power system scenario on software for supervision and control",
+        "ano": 2002,
+        "doi": "",
+        "autores": "AZEVEDO, G. P. ; Borsato, A. ; Cardoso, A.S. ; FEIJO, B.",
+        "evento": "CIGRÉ 2002",
+        "cidade": "",
+        "paginas": "1-6",
+        "isbn": ""
+      },
+      {
+        "titulo": "An object model for collaborative CAD environments",
+        "ano": 2002,
+        "doi": "",
+        "autores": "BARBOSA, C. A. M. ; FEIJO, B. ; Dreux, M. ; Melo, R. ; Bento, J. ; SCHEER, S.",
+        "evento": "7th Int. Conf. on CSCW in Design",
+        "cidade": "",
+        "paginas": "179-184",
+        "isbn": ""
+      },
+      {
+        "titulo": "DIS-Java 3D para ambientes interativos distribuídos em rede",
+        "ano": 2002,
+        "doi": "",
+        "autores": "dos Reis, D.S. ; Eduardo, V. ; GOMES, P. C. R. ; FEIJO, B.",
+        "evento": "SVR 2002",
+        "cidade": "",
+        "paginas": "103-114",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Integrated Tool for Modelling, Generating and Exhibiting Narratives",
+        "ano": 2002,
+        "doi": "",
+        "autores": "CIARLINI, A. E. M. ; FEIJO, B. ; FURTADO, A. L.",
+        "evento": "AIS 2002",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma máquina de estados finitos para avaliação de desempenho em um grupo de discussão on-line",
+        "ano": 2002,
+        "doi": "",
+        "autores": "Silva, J.C.T. ; FEIJO, B.",
+        "evento": "SBIE 2002",
+        "cidade": "",
+        "paginas": "420-427",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Shading Model for Image-Based Rendering",
+        "ano": 2001,
+        "doi": "",
+        "autores": "Clua, E.W.G. ; Dreux, M. ; FEIJO, B.",
+        "evento": "SIBGRAPI 2001",
+        "cidade": "",
+        "paginas": "138-145",
+        "isbn": ""
+      },
+      {
+        "titulo": "A framework for networked reactive characters",
+        "ano": 2000,
+        "doi": "",
+        "autores": "SZWARCMAN, D. M. ; FEIJO, B. ; COSTA, M. M. F.",
+        "evento": "SIBGRAPI 2000",
+        "cidade": "",
+        "paginas": "203-210",
+        "isbn": ""
+      },
+      {
+        "titulo": "Online algorithms supporting emergence in distributed CAD systems",
+        "ano": 1999,
+        "doi": "",
+        "autores": "FEIJO, B.; GOMES, P. C. R. ; SCHEER, S. ; BENTO, J.",
+        "evento": "Novel AICIVIL-COMP99",
+        "cidade": "",
+        "paginas": "25-31",
+        "isbn": ""
+      },
+      {
+        "titulo": "An agent-based approach to EMS in open environments",
+        "ano": 1999,
+        "doi": "",
+        "autores": "AZEVEDO, G. P. ; FEIJO, B. ; COSTA, M.",
+        "evento": "Power Tech'99 Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Virtual prototyping in the construction industry",
+        "ano": 1999,
+        "doi": "",
+        "autores": "FEIJO, B.; SCHEER, S.",
+        "evento": "IABSE Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Reactivity And Pro-Activeness In Virtual Prototyping",
+        "ano": 1998,
+        "doi": "",
+        "autores": "FEIJO, B.; GOMES, P. C. R. ; CERQUEIRA, R. ; IERUSALIMSCHY, R.",
+        "evento": "2nd International Symposium on Tools and Methods for Concurrent Engineering",
+        "cidade": "",
+        "paginas": "242-253",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um Tratamento Para História de Design Em Sistemas de Cad",
+        "ano": 1997,
+        "doi": "",
+        "autores": "FEIJO, B.; BARBOSA, C. A. M. ; DREUX, M.",
+        "evento": "XVIII CILAMCE (1997)",
+        "cidade": "",
+        "paginas": "1925-1932",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Architecture For Concurrent Reactive Agents In Real-Time Animation",
+        "ano": 1996,
+        "doi": "",
+        "autores": "FEIJO, B.; COSTA, M.",
+        "evento": "IX SIBGRAPI (1996)",
+        "cidade": "",
+        "paginas": "281-288",
+        "isbn": ""
+      },
+      {
+        "titulo": "; A Logic-Based Environment For Reactive Agents In Intelligent Cad Systems",
+        "ano": 1996,
+        "doi": "",
+        "autores": "FEIJO, B.; BENTO, J",
+        "evento": "Information Representation and Delivery in Civil and Structural Engineering",
+        "cidade": "",
+        "paginas": "135-142",
+        "isbn": ""
+      },
+      {
+        "titulo": "Enhancing The Human-Computer Interface Of Power System Applications",
+        "ano": 1995,
+        "doi": "",
+        "autores": "FEIJO, B.; AZEVEDO, G. P. ; SOUZA, C. S.",
+        "evento": "1995 IEEE Power Industry Computer Applications Conference",
+        "cidade": "",
+        "paginas": "115-120",
+        "isbn": ""
+      },
+      {
+        "titulo": "Reactive Agents In Behavioural Animation",
+        "ano": 1995,
+        "doi": "",
+        "autores": "FEIJO, B.; COSTA, M. M. F. ; SCHWABE, D.",
+        "evento": "VIII SIBGRAPI (1995)",
+        "cidade": "",
+        "paginas": "159-165",
+        "isbn": ""
+      },
+      {
+        "titulo": "CAD for Process Innovation in the Construction Industry",
+        "ano": 1995,
+        "doi": "",
+        "autores": "FEIJO, B.; GOMES, P. C. R. ; Bento, J. ; SCHEER, S.",
+        "evento": "EPMESC V",
+        "cidade": "",
+        "paginas": "15-27",
+        "isbn": ""
+      },
+      {
+        "titulo": "C. R. ; Sistemas Integrados de Cad Na Indústria da Construção",
+        "ano": 1994,
+        "doi": "",
+        "autores": "FEIJO, B.; GOMES, P",
+        "evento": "2o. Simp. Bras. de Estruturas de Aço",
+        "cidade": "",
+        "paginas": "99-107",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma Proposta Para Manipulação de Objetos Em Modeladores de Sólidos",
+        "ano": 1994,
+        "doi": "",
+        "autores": "FEIJO, B.; LEHTOLA, N. ; BENTO, J. ; ANDRADE, S. A. L.",
+        "evento": "VII SIBGRAPI (1994)",
+        "cidade": "",
+        "paginas": "157-163",
+        "isbn": ""
+      },
+      {
+        "titulo": "Animacao Comportamental Baseada Em Logica",
+        "ano": 1993,
+        "doi": "",
+        "autores": "FEIJO, B",
+        "evento": "SIBGRAPI 93",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Cognicao e Percepcao 3d Em Modeladores de Solidos",
+        "ano": 1992,
+        "doi": "",
+        "autores": "FEIJO, B",
+        "evento": "SIBGRAPI 92",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma Bibliografia Anotada Sobre Sistemas de Inteligencia Artificial Em Engenharia de Estruturas",
+        "ano": 1987,
+        "doi": "",
+        "autores": "FEIJO, B",
+        "evento": "CONGRESSO SOBRE INFORMATICA NA INDUSTRIA DA CONSTRUCAO - LNEC.",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [
+      {
+        "titulo": "A real-time approach for volume rendering",
+        "ano": 2002,
+        "autores": "Clua, E.W.G. ; Dreux, M. ; FEIJO, B.",
+        "evento": "WJogos 2002, 2002, Fortaleza, CE. Proc. of the 1st Brazilian Workshop in Games and Digital Entertainment. Rio de Janeiro, RJ: ICAD/IGames",
+        "cidade": "",
+        "paginas": "1-4"
+      },
+      {
+        "titulo": "A shading approximation method for sprite objects",
+        "ano": 2002,
+        "autores": "Clua, E.W.G. ; Dreux, M. ; FEIJO, B.",
+        "evento": "WJogos 2002, 2002, Fortaleza, CE. Proc. of the 1st Brazilian Workshop in Games and Digital Entertainment. Rio de Janeiro, RJ: ICAD/IGames",
+        "cidade": "",
+        "paginas": "5-8"
+      },
+      {
+        "titulo": "Integrated CAD Systems and Process Reengineering in the Construction Industry",
+        "ano": 1995,
+        "autores": "FEIJO, B.; GOMES, P. C. R. ; CORSEUIL, E. T.",
+        "evento": "GUIDE/SHARE'95, 1995, Rio de Janeiro, RJ. GUIDE/SHARE'95. Rio de Janeiro: IBM",
+        "cidade": "",
+        "paginas": "1-4"
+      }
+    ],
+    "resumos_congressos": [
+      {
+        "titulo": "Real Time 360 Video Stitching and Streaming",
+        "ano": 2016,
+        "autores": "MARQUES, RODRIGO ; FEIJO, B. ; Bioni, P. ; Frensh, T. ; Monteiro, D.",
+        "evento": "SIGGRAPH 2016, 2016, Los Angeles. SIGGRAPH Poster",
+        "cidade": ""
+      },
+      {
+        "titulo": "Multiple Camera Mapping",
+        "ano": 2015,
+        "autores": "MARQUES, RODRIGO ; Bioni, P. ; FEIJO, B.",
+        "evento": "GTC 2015 - GPU Technology Conference, 2015, San Jose. GTC 2915 Posters",
+        "cidade": ""
+      },
+      {
+        "titulo": "Accelerated 4K Video Stitching for Digital Backlots",
+        "ano": 2013,
+        "autores": "MARQUES, RODRIGO ; Bioni, P. ; FEIJO, B.",
+        "evento": "GTC 2013 - GPU Technology Conference, 2013, San Jose. GTC 2013 Posters",
+        "cidade": ""
+      },
+      {
+        "titulo": "Real-time Mixed Water Simulation and Rendering Techniques for Visual Effects",
+        "ano": 2012,
+        "autores": "MARQUES, RODRIGO ; FEIJO, B. ; Bioni, P.",
+        "evento": "GTC 2012 - GPU Technology Conference, 2012, San Jose. GTC 2012 POsters",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [],
+    "textos_jornais": [],
+    "outras_producoes": [
+      {
+        "titulo": "Conceitos e Modelos para um Sistema Brasileiro de Produção de Conteúdo Digital. Rio de Janeiro: Dept. de Informática",
+        "ano": 2006,
+        "autores": "FEIJO, B.; BADARO, P.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      }
+    ]
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [],
+    "produtos_tecnologicos": [
+      {
+        "titulo": "Xlog - A Logic Programming Environment",
+        "ano": 1986,
+        "autores": "FEIJO, B",
+        "tipo": "Produto tecnológico",
+        "finalidade": ""
+      }
+    ],
+    "processos_tecnicas": [
+      {
+        "titulo": "Shape Arena - Jogo Experimental",
+        "ano": 2020,
+        "autores": "BICALHO, LUIS FERNANDO ; Lana, M. ; PEPE, P. R. ; BENTES, J. E. ; MENDES, T. M. G. ; Baffa, Augusto ; Feijó, B.",
+        "tipo": "Processo ou técnica"
+      },
+      {
+        "titulo": "SpookYard - Jogo Experimental",
+        "ano": 2017,
+        "autores": "BICALHO, LUIS FERNANDO ; Lana, M. ; PEPE, P. R. ; MALAVASI, L. ; Sampaio, P. ; BEZERRA, F. H. ; GOMES, P. A. M. ; GUARIGLIA, I. ; Baffa, Augusto ; Feijó, B.",
+        "tipo": "Processo ou técnica"
+      },
+      {
+        "titulo": "A Method To Extend Logic Programs Towards An Uncertainty Model",
+        "ano": 1987,
+        "autores": "FEIJO, B",
+        "tipo": "Processo ou técnica"
+      }
+    ],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [
+      {
+        "titulo": "Proposta para uma Política Pública no Setor de Conteúdo Audiovisual Digital",
+        "ano": 2013,
+        "autores": "FEIJO, B",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Media Technology",
+        "ano": 2012,
+        "autores": "FEIJO, B",
+        "tipo": "Demais tipos de produção técnica"
+      }
+    ],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Coherence in interactive narrative generation by generative AI",
+          "ano_inicio": 2023,
+          "orientando": "Luís Fernando Teixeira Bicalho",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A New Approach to Data Storytelling",
+          "ano_inicio": 2018,
+          "orientando": "Bruno Ferraz de Melo",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "First steps towards a model of scientific digital tourism for rainforest environments based on games",
+          "ano_inicio": 2023,
+          "orientando": "Lucas Cordeiro Marques",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Storytelling based on audience social interaction",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Augusto Cesar Espindola Baffa",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "An optimized photorealistic rendering method with statistic distribution and automatic rendering technique selection",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Rodrigo Marques Almeida da Siva",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Video-Based Interactive Storytelling",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Edirlei Everson Soares de Lima",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um método para detecção em tempo real de objetos em vídeos de alta definição",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Gustavo Costa Gomes Moreira",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A model for stream-based interactive storytelling",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Marcelo de Mello Camanho",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A methodology for conceptual design of pervasive mobile games",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Luis Paulo Santos Valente",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Parallel Algorithms for Multicore Game Engines",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Lucas Euzebio Machado",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Model and an Interactive System for Plot Composition and Adaptation, based on Plan Recognition and Plan Generation",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Börje Felipe Fernandes Karlsson",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Sistema de Geração de Expressões Faciais Dinâmicas em Animações Faciais 3D com Processamento de Fala",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Paula Salgado Lucena Rodrigues",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Sistema para Geração, Interação e Visualização 3D de Histórias para TV Interativa",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Cesar Tadeu Pozzer",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Impostores com relevo",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Esteban Walter Gonzalez Clua",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Otimização de Mensagens e Balanceamento de Jogos Multi-Jogador",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Lauro Eduardo Kozovits",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Modelo para Avaliação de Aprendizagem no Uso de Ferramentas Síncronas",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Jose Carlos Tavares da Silva",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Metodologia para o Desenvolvimento de Sistemas de Projeto Integrado para a Indústria da Construção Civil em Aço",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Luciano Falcão da Silva",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "O Desenvolvimento Integrado de Projetos no Setor de Arquitetura, Engenharia e Construção através de um Sistema Computacional",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Romir Soares de Souza Filho",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Aplicação para o Ensino de Integração de Projetos de Arquitetura e Estrutura de Edifícios",
+          "ano_inicio": 2003,
+          "ano_conclusao": 2003,
+          "orientando": "Roberto Machado Côrrea",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Universidade Federal do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Dead Reckoning Orientado a Metas para Personagens Reativos",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Dilza de Mattos Szwarcman",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Modelagem Dinâmica de Produto Baseada na História de Design",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Carlos Alberto Moreno Barbosa",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Prototipação Virtual Em Modelagem de Sólidos Distribuída",
+          "ano_inicio": 1999,
+          "ano_conclusao": 1999,
+          "orientando": "Paulo César Rodacki Gomes",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Agentes Reativos Para Centros de Controle de Energia Elétrica",
+          "ano_inicio": 1998,
+          "ano_conclusao": 1998,
+          "orientando": "Gilberto Pires de Azevedo",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Agentes Reativos Em Animação Comportamental",
+          "ano_inicio": 1997,
+          "ano_conclusao": 1997,
+          "orientando": "Mônica Maria Ferreira da Costa",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Analise Critica Sobre O Tratamento Cognitivo de Design Em Sistemasde Cad",
+          "ano_inicio": 1993,
+          "ano_conclusao": 1993,
+          "orientando": "S. Scheer",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Primeiros passos em direção à percepção de narrativas orientada a arquétipos",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Mauricio de Castro Lana",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Generic Plugin for Player Classification in Games",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Luís Fernando Teixeira Bicalho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Gamification guidelinesto prevent negative effects in digital education/learning systems",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Cláuvin Erlan José da Costa Curty de Almeida",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Jogo Multijogador Online para Identificação de Funções Executivas em Idosos",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Bruno Portella Tassara",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "HRTFs based 3D audio spatialization for real time systems",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Marcelo Politzer Couto",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A study on pervasive games based on the Internet of Mobile Things",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Pedro Igor Porfírio Sampaio",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um framework para game shows interativos de TV com realidade aumentada e segunda tela",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Antonio Nascimento Lutfi",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "An experiment on conceptual design of pervasive mobile games using quality requirements",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Felipe Baldino Moreira",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma ferramenta para o rastreamento de vídeos e imagens utilizando técnicas de esteganografia",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Jaisse Grela Escobar",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "D-Engine: a framework for the random execution of plans in agent-based models",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Waldecir Vicente Faria",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um método para simulação em massa de agentes para cenas de mar em produções para TV/Cinema",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Aarão Irving Manhães Marins",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um framework para simulacao de microbacias como serious game",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Guilherme Alves Lopes",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Reconhecimento de emoções através de imagens em tempo real com o uso de ASM e SVM",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Guilherme Carvalho Cunha",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um framework de jogos sérios para mercado de informações com aplicação em ética empresarial",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Khalid Fernandes Braga Salomão",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um estudo sobre adaptatividade dinâmica de dificuldade em jogos",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Bruno Baere Pederassi Lomba de Araújo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Projetos de jogos educativos 2D de aventura usando Lua",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Michele dos Santos Soares",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Explorando aplicações que usam a geração de vértices em GPU",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Gustavo Bastos Nunes",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Motion Synthesis for Non-Humanoid Virtual Characters",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Pedro Luchini de Moraes",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Extração de Primeiro Plano em Imagem HD com Fundos Variados",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Pablo Frias de Oliveira Bioni Gomes",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Simulação e Visualização de Oceano em Tempo Real Utilizando a GPU",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Rodrigo Marques Almeida da Silva",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Renderização de Pele Humana em Tempo Real para Jogos",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Guilherme Schirmer de Souza",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Visualização da Fronteira entre Fluidos Utilizando o Método SPH e o Algoritmo de Marching Cubes",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Thiago Valente Aguiar",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Composição de Imagens com Iluminação HDR através de um Aprimoramento da Técnica de Renderização Diferencial",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Gilberto Paiva de Medeiros Junior",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Reconhecedor de Objetos em Vídeos Digitais para Aplicações Interativas",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "Gustavo Costa Gomes Moreira",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Classificação e Segmentação de Áudio a partir de Fatores de Escala MPEG",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Fernando Rimola de Cruz Mano",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Renderização em Tempo Real Utilizando Mapas de Iluminação em Alta Precisão",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "Rodrigo Pereira Martins",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Proposta para Rendering Baseado em Imagens em Celulares",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "Francisco Eduardo Torres Cursino de Moura",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Colorização 3D para Animação 2D",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Hedlena Maria de Almeida Bezerra",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Segmentação de Vídeo no Domínio Comprimido Baseada na História da Compactação",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Cristina Nader Vasconcelos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Técnicas de Distribuição para Jogos Multijogador em Massa",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Lucas Euzébio Machado",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Middleware de Inteligência Artificial para Jogos Digitais",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Börje Felipe Fernandes Karlsson",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Comportamento em Grupo de Personangens do Tipo Black&White",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Felipe Gomes de Carvalho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Máquinas de Estados Hierárquicos em Jogos Eletrônicos",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Gillliard Lopes dos Santos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Texturas com Relevo Utilizando Iluminação por Pixel e Processamento Paralelo",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Francisco Mauro Alves Fonseca",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "IEngine ? Uma interface abstrata para motores de jogos 3D",
+          "ano_inicio": 2002,
+          "ano_conclusao": 2002,
+          "orientando": "Eduardo Ribeiro Poyart",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Técnicas Procedimentais de Texturização",
+          "ano_inicio": 1998,
+          "ano_conclusao": 1998,
+          "orientando": "Carolina de Lima Aguilar",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo da Viabilidade do Barramento de Geometria Em Ambientes de Cad Integrado",
+          "ano_inicio": 1997,
+          "ano_conclusao": 1997,
+          "orientando": "Juliana Gama Chaves",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sistemas Estruturais Padronizados para Construção de Edificações",
+          "ano_inicio": 1997,
+          "ano_conclusao": 1997,
+          "orientando": "Anna Karina B. Surkis",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Modelo de Cad Integrado Para Engenharia Concorrente Na Indústria da Construção",
+          "ano_inicio": 1996,
+          "ano_conclusao": 1996,
+          "orientando": "Eduardo Thadeu Corseuil",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo do Problema de Cad Integrado Na Indústria de Construção Civil",
+          "ano_inicio": 1994,
+          "ano_conclusao": 1994,
+          "orientando": "Paulo César Rodacki Gomes",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Modelo Para A Representação do Aspecto Evolutivo do Processo de Design",
+          "ano_inicio": 1994,
+          "ano_conclusao": 1994,
+          "orientando": "Carlos Alberto Moreno Barbosa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Fundamentos e Especificacoes de Um Ambiente Para Design Baseado Em Logica e Objetos",
+          "ano_inicio": 1993,
+          "ano_conclusao": 1993,
+          "orientando": "ANTONIO JOAO PRATES",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo de Viabilidade Para Um Sistema de Animacao Comportamental",
+          "ano_inicio": 1993,
+          "ano_conclusao": 1993,
+          "orientando": "M. M. F. Costa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "O Metodo dos Elementos Componentes Para A Animacao de Figuras Articuladas",
+          "ano_inicio": 1992,
+          "ano_conclusao": 1992,
+          "orientando": "FABIANA LETA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Tootsys: Uma Ferramenta Para Analise de Desempenho de Sistemas Multiprogramados, Multiprocessados e Fortemente Acoplados",
+          "ano_inicio": 1992,
+          "ano_conclusao": 1992,
+          "orientando": "PAULO HENRIQUE SCHINDLER",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Profundidade de Campo e Motion Blur No Metodo de Ray-Tracing Distribuido",
+          "ano_inicio": 1991,
+          "ano_conclusao": 1991,
+          "orientando": "DANIEL MAZZUCA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Genesys: Um Sistema Hibrido de Modelagem de Solidos",
+          "ano_inicio": 1991,
+          "ano_conclusao": 1991,
+          "orientando": "R. FISCHER",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Representacao de Conhecimento Normativo Em Engenharia Integrando Hipertexto Com Multiplos Paradigmas",
+          "ano_inicio": 1990,
+          "ano_conclusao": 1990,
+          "orientando": "W.G. KRAUSE",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Um Sistema Multiagentes para Estórias Interativas de Detetive",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Mauricio de Castro Lana",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Creating a 3D game with Unreal Engine based on audio gameplay",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Léopold Rouquet",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Ecole Spéciale Militaire de Saint-Cyr",
+          "curso": ""
+        },
+        {
+          "titulo": "Simulation and Optimization of Competitive Multi-Agent Pursuit-Evasion",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Pietro Ribeiro Pepe",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Culture Model for Non-Player Characters? Behaviors in Games",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Luís Fernando Teixeira Bicalho",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "Game and Interactivity in Computer Science Education",
+        "apresentacao": "SIGGRAPH 2006 - Educators Program - Panel",
+        "ano": 2006,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "A difusão Digital",
+        "apresentacao": "RIO INFO 2004",
+        "ano": 2004,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Seminario IETV",
+        "apresentacao": "Convergencia de Conteudo: da TV ao celular",
+        "ano": 2004,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": [
+      {
+        "autores": "FEIJO, B.; CLUA, E.",
+        "evento": "Chair of the Program Committee SBGames 2020",
+        "ano": 2021,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "CASTELO, A. ; FEIJO, B.",
+        "evento": "Chair of the Workshop of Industry Applications SIBGRAPI 2019",
+        "ano": 2019,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "FEIJO, B.. Steering Committee Member SBGames 2019. 2019. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "FEIJO, B.. General Chair SBGAMES 2009 - VIII Brazilian Symposium on Games and Digital Entertainment. 2009. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      }
+    ]
+  },
+  "bancas": {
+    "mestrado": [
+      {
+        "descricao": "FEIJO, B.; DREUX, M.; SPERANZA NETO, M.; SILVA, F. R.. Participação em banca de Ernandes Pereira de Oliveira. Ambiente Computacional para simulação e visualização da dinâmica de veículos. 2003. Dissertação (Mestrado em Engenharia Mecânica) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2003,
+        "tipo": "Mestrado",
+        "aluno": "Ernandes Pereira de Oliveira",
+        "membros_banca": [
+          "FEIJO, B.",
+          "DREUX, M.",
+          "SPERANZA NETO, M.",
+          "SILVA, F. R."
+        ],
+        "titulo_trabalho": "Ambiente Computacional para simulação e visualização da dinâmica de veículos",
+        "curso": "Dissertação (Mestrado em Engenharia Mecânica)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; OLIVEIRA, L. P. L.; MUSSE, S. R.. Participação em banca de Marta Becker Villamil. Simulação de grupos de humanos virtuais utilizando abordagens micro e macroscópicas. 2003. Dissertação (Mestrado em Computação Aplicada) - Universidade do Vale do Rio dos Sinos.",
+        "ano": 2003,
+        "tipo": "Mestrado",
+        "aluno": "Marta Becker Villamil",
+        "membros_banca": [
+          "FEIJO, B.",
+          "OLIVEIRA, L. P. L.",
+          "MUSSE, S. R."
+        ],
+        "titulo_trabalho": "Simulação de grupos de humanos virtuais utilizando abordagens micro e macroscópicas",
+        "curso": "Dissertação (Mestrado em Computação Aplicada)",
+        "universidade": "Universidade do Vale do Rio dos Sinos"
+      },
+      {
+        "descricao": "FEIJO, B.; MUSSE, S. R.. Participação em banca de Taciana Figueiredo Evers. Simulação de multidões de humanos virtuais baseada em memórias artificiais. 2003. Dissertação (Mestrado em Computação Aplicada) - Universidade do Vale do Rio dos Sinos.",
+        "ano": 2003,
+        "tipo": "Mestrado",
+        "aluno": "Taciana Figueiredo Evers",
+        "membros_banca": [
+          "FEIJO, B.",
+          "MUSSE, S. R."
+        ],
+        "titulo_trabalho": "Simulação de multidões de humanos virtuais baseada em memórias artificiais",
+        "curso": "Dissertação (Mestrado em Computação Aplicada)",
+        "universidade": "Universidade do Vale do Rio dos Sinos"
+      },
+      {
+        "descricao": "FEIJO, B.; LUCENA, C. J. P.; MILIDIU, R. L.. Participação em banca de Taciana Melcop L de Melo. Estratégia multi agente para leilões simultâneos de bens relacionados. 2003. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2003,
+        "tipo": "Mestrado",
+        "aluno": "Taciana Melcop L de Melo",
+        "membros_banca": [
+          "FEIJO, B.",
+          "LUCENA, C. J. P.",
+          "MILIDIU, R. L."
+        ],
+        "titulo_trabalho": "Estratégia multi agente para leilões simultâneos de bens relacionados",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.. Participação em banca de Giodana Borges de Holanda. Corpos interativos telepresentes e pos biológicos um segmento da arte tecnológica contemporânea. 2002. Dissertação (Mestrado em Artes e Design) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2002,
+        "tipo": "Mestrado",
+        "aluno": "Giodana Borges de Holanda",
+        "membros_banca": [
+          "FEIJO, B."
+        ],
+        "titulo_trabalho": "Corpos interativos telepresentes e pos biológicos um segmento da arte tecnológica contemporânea",
+        "curso": "Dissertação (Mestrado em Artes e Design)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.. Participação em banca de Jose Antonio Fernandes Macedo. Um estudo de SGBDs baseados em agentes. 2000. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2000,
+        "tipo": "Mestrado",
+        "aluno": "Jose Antonio Fernandes Macedo",
+        "membros_banca": [
+          "FEIJO, B."
+        ],
+        "titulo_trabalho": "Um estudo de SGBDs baseados em agentes",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; Melo, R.. Participação em banca de Diva de Souza e Silva. Uma arquitetura de sistemas de data warehouse usando Heros. 1999. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1999,
+        "tipo": "Mestrado",
+        "aluno": "Diva de Souza e Silva",
+        "membros_banca": [
+          "FEIJO, B.",
+          "Melo, R."
+        ],
+        "titulo_trabalho": "Uma arquitetura de sistemas de data warehouse usando Heros",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.. Participação em banca de Luiz Claudio da Silva Costa. Um estudo sobre o aauxílio computacional ao projeto de peças plásticas injetadas. 1999. Dissertação (Mestrado em Informática) - Coordenação de Pós Graduação em Engenharia.",
+        "ano": 1999,
+        "tipo": "Mestrado",
+        "aluno": "Luiz Claudio da Silva Costa",
+        "membros_banca": [
+          "FEIJO, B."
+        ],
+        "titulo_trabalho": "Um estudo sobre o aauxílio computacional ao projeto de peças plásticas injetadas",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Coordenação de Pós Graduação em Engenharia"
+      },
+      {
+        "descricao": "FEIJO, B.; DUARTE, O. C. M.. Participação em banca de Renata Cruz Teixeira. Uma plataforma escalável para sistemas distribuídos de realidade virutal. 1999. Dissertação (Mestrado em Informática) - Coordenação de Pós Graduação em Engenharia.",
+        "ano": 1999,
+        "tipo": "Mestrado",
+        "aluno": "Renata Cruz Teixeira",
+        "membros_banca": [
+          "FEIJO, B.",
+          "DUARTE, O. C. M."
+        ],
+        "titulo_trabalho": "Uma plataforma escalável para sistemas distribuídos de realidade virutal",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Coordenação de Pós Graduação em Engenharia"
+      },
+      {
+        "descricao": "FEIJO, B.; SCHEER, S.. Participação em banca de Sergio Scheer. Um estudo sobre ambientes virtuais de apoio ao ensino e aprendizagem de resistência dos materiais. 1999. Dissertação (Mestrado em Engenharia Mecânica) - Universidade Federal do Paraná.",
+        "ano": 1999,
+        "tipo": "Mestrado",
+        "aluno": "Sergio Scheer",
+        "membros_banca": [
+          "FEIJO, B.",
+          "SCHEER, S."
+        ],
+        "titulo_trabalho": "Um estudo sobre ambientes virtuais de apoio ao ensino e aprendizagem de resistência dos materiais",
+        "curso": "Dissertação (Mestrado em Engenharia Mecânica)",
+        "universidade": "Universidade Federal do Paraná"
+      },
+      {
+        "descricao": "FEIJO, B.; VELHO, L. C. P. R.. Participação em banca de Andre Machado de Mattos. Um novo sistema de panoramas visuais. 1998. Dissertação (Mestrado em Informática) - Instituto Nacional de Matemática Pura e Aplicada.",
+        "ano": 1998,
+        "tipo": "Mestrado",
+        "aluno": "Andre Machado de Mattos",
+        "membros_banca": [
+          "FEIJO, B.",
+          "VELHO, L. C. P. R."
+        ],
+        "titulo_trabalho": "Um novo sistema de panoramas visuais",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Instituto Nacional de Matemática Pura e Aplicada"
+      },
+      {
+        "descricao": "FEIJO, B.; Dreux, M.. Participação em banca de Ricardo Birtel Mendes de Freitas. Texturas aplicadas ao método da radiosidade. 1998. Dissertação (Mestrado em Engenharia Mecânica) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1998,
+        "tipo": "Mestrado",
+        "aluno": "Ricardo Birtel Mendes de Freitas",
+        "membros_banca": [
+          "FEIJO, B.",
+          "Dreux, M."
+        ],
+        "titulo_trabalho": "Texturas aplicadas ao método da radiosidade",
+        "curso": "Dissertação (Mestrado em Engenharia Mecânica)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; SANTOS, G. T.. Participação em banca de Gilson Vaz Sampaio. Modelagem e simulação de sistemas lineares dinâmicos. 1998. Dissertação (Mestrado em Matemática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1998,
+        "tipo": "Mestrado",
+        "aluno": "Gilson Vaz Sampaio",
+        "membros_banca": [
+          "FEIJO, B.",
+          "SANTOS, G. T."
+        ],
+        "titulo_trabalho": "Modelagem e simulação de sistemas lineares dinâmicos",
+        "curso": "Dissertação (Mestrado em Matemática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; GARCIA, A. C. B.. Participação em banca de Claudio Lourenço da Silva. SPAAD: uma extensão do modelo ADD aplicada ao projeto de layout espacial. 1998. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1998,
+        "tipo": "Mestrado",
+        "aluno": "Claudio Lourenço da Silva",
+        "membros_banca": [
+          "FEIJO, B.",
+          "GARCIA, A. C. B."
+        ],
+        "titulo_trabalho": "SPAAD: uma extensão do modelo ADD aplicada ao projeto de layout espacial",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; FUCKS, H.. Participação em banca de Marcelo Blois Ribeiro. CLEW Uma proposta de ambiente de aprendizado cooperativo para web. 1998. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1998,
+        "tipo": "Mestrado",
+        "aluno": "Marcelo Blois Ribeiro",
+        "membros_banca": [
+          "FEIJO, B.",
+          "FUCKS, H."
+        ],
+        "titulo_trabalho": "CLEW Uma proposta de ambiente de aprendizado cooperativo para web",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; GATTASS, M.; MARTHA, L. F.. Participação em banca de Lucia Teresa Shalcher da Fonseca. Uma arquitetura para a construção de ferramentas de manipulação para visualização interativa de dados volumétricos. 1997. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1997,
+        "tipo": "Mestrado",
+        "aluno": "Lucia Teresa Shalcher da Fonseca",
+        "membros_banca": [
+          "FEIJO, B.",
+          "GATTASS, M.",
+          "MARTHA, L. F."
+        ],
+        "titulo_trabalho": "Uma arquitetura para a construção de ferramentas de manipulação para visualização interativa de dados volumétricos",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "doutorado": [
+      {
+        "descricao": "FEIJO, B.; ROMANO, V. F.; NAVEIRO, R. M.; FORCELLINI, F. A.; CANABRAVA FILHO, J. S.; CAVALCANTI, M. C. B.. Participação em banca de Marcos Martins Borges. Proposta de um ambiente colaborativo de apoio aos processos de ensino/aprendizagem do projeto. 2004. Tese (Doutorado em Engenharia de Produção) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2004,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Marcos Martins Borges",
+        "membros_banca": [
+          "FEIJO, B.",
+          "ROMANO, V. F.",
+          "NAVEIRO, R. M.",
+          "FORCELLINI, F. A.",
+          "CANABRAVA FILHO, J. S.",
+          "CAVALCANTI, M. C. B."
+        ],
+        "titulo_trabalho": "Proposta de um ambiente colaborativo de apoio aos processos de ensino/aprendizagem do projeto",
+        "curso": "Tese (Doutorado em Engenharia de Produção)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; GATTASS, M.; SOUZA, C. S.; VELHO, L. C. P. R.; CELES FILHO, W.; BARBOSA, S. D. J.; MONAT, A. S.; PRATES, R. O.; TIEN, J. M. T. D.. Participação em banca de Marcelo medeiros Carneiro. Interfaces assistidas para deficientes visuais utilizando dispositivos reativos e transformadas de distância. 2003. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2003,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Marcelo medeiros Carneiro",
+        "membros_banca": [
+          "FEIJO, B.",
+          "GATTASS, M.",
+          "SOUZA, C. S.",
+          "VELHO, L. C. P. R.",
+          "CELES FILHO, W.",
+          "BARBOSA, S. D. J.",
+          "MONAT, A. S.",
+          "PRATES, R. O.",
+          "TIEN, J. M. T. D."
+        ],
+        "titulo_trabalho": "Interfaces assistidas para deficientes visuais utilizando dispositivos reativos e transformadas de distância",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; VELLASCO, M. M. B. R.; PACHECO, M. A. C.; SOUZA, F. J.; GOMIDE, F.; ZAVERUCHA, G.; EVSUKOFF, A.; BARBOSA, C. R. H.; TANSCHEIT, R.. Participação em banca de Karla Figueiredo. Novos modelos neuro-fuzzy hierarquicos com aprendizado por reforço para agentes inteligentes. 2003. Tese (Doutorado em Engeharia elétrica) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2003,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Karla Figueiredo",
+        "membros_banca": [
+          "FEIJO, B.",
+          "VELLASCO, M. M. B. R.",
+          "PACHECO, M. A. C.",
+          "SOUZA, F. J.",
+          "GOMIDE, F.",
+          "ZAVERUCHA, G.",
+          "EVSUKOFF, A.",
+          "BARBOSA, C. R. H.",
+          "TANSCHEIT, R."
+        ],
+        "titulo_trabalho": "Novos modelos neuro-fuzzy hierarquicos com aprendizado por reforço para agentes inteligentes",
+        "curso": "Tese (Doutorado em Engeharia elétrica)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.. Participação em banca de Luiz Eduardo Azambuja Sauerbronn. Geração Opticalflow por métodos estatísticos. 2002. Tese (Doutorado em Mecanica) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2002,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Luiz Eduardo Azambuja Sauerbronn",
+        "membros_banca": [
+          "FEIJO, B."
+        ],
+        "titulo_trabalho": "Geração Opticalflow por métodos estatísticos",
+        "curso": "Tese (Doutorado em Mecanica)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; BENTO, J.. Participação em banca de Jorge Filipe Marques Moniz Corte Real Andrade. Um modelo de sistemas inteligentes para apoio aos processos de concepção e decisão. 2000. Tese (Doutorado em Engenharia Civil) - Universidade Tecnica de Lisboa.",
+        "ano": 2000,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Jorge Filipe Marques Moniz Corte Real Andrade",
+        "membros_banca": [
+          "FEIJO, B.",
+          "BENTO, J."
+        ],
+        "titulo_trabalho": "Um modelo de sistemas inteligentes para apoio aos processos de concepção e decisão",
+        "curso": "Tese (Doutorado em Engenharia Civil)",
+        "universidade": "Universidade Tecnica de Lisboa"
+      },
+      {
+        "descricao": "FEIJO, B.; SANTOS, G. T.. Participação em banca de Dirce Uesu Pesco. Animação 4D de modelos geométricos em uma estrutura de dados volumétrica. 2000. Tese (Doutorado em Matemática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2000,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Dirce Uesu Pesco",
+        "membros_banca": [
+          "FEIJO, B.",
+          "SANTOS, G. T."
+        ],
+        "titulo_trabalho": "Animação 4D de modelos geométricos em uma estrutura de dados volumétrica",
+        "curso": "Tese (Doutorado em Matemática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; GATTASS, M.; CARVALHO, P. C. P.. Participação em banca de Ana Elisa Ferreira Schmidt. Visualização tridimensional combinada de dados volumétricos e modelos poligonais usnado o algoritmo shear warp. 2000. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2000,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Ana Elisa Ferreira Schmidt",
+        "membros_banca": [
+          "FEIJO, B.",
+          "GATTASS, M.",
+          "CARVALHO, P. C. P."
+        ],
+        "titulo_trabalho": "Visualização tridimensional combinada de dados volumétricos e modelos poligonais usnado o algoritmo shear warp",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.. Participação em banca de Isa haro Martins. Um instrumento de analise semiotica para linguagens visuais de interfaces. 1998. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1998,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Isa haro Martins",
+        "membros_banca": [
+          "FEIJO, B."
+        ],
+        "titulo_trabalho": "Um instrumento de analise semiotica para linguagens visuais de interfaces",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; SANTOS, G. T.. Participação em banca de Luiz Gustavo Nonato. Reconstrução volumétrica de objetos definidos por seções bidimensionais. 1998. Tese (Doutorado em Matemática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1998,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Luiz Gustavo Nonato",
+        "membros_banca": [
+          "FEIJO, B.",
+          "SANTOS, G. T."
+        ],
+        "titulo_trabalho": "Reconstrução volumétrica de objetos definidos por seções bidimensionais",
+        "curso": "Tese (Doutorado em Matemática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.; BLOCKLEY, D.. Participação em banca de Maria de Fatima Silva Marques Tavares Farinha. A prática reflexiva nos sistemas inteligentes de apoio ao projeto de edificios. 1997. Tese (Doutorado em Engenharia Civil) - Universidade Tecnica de Lisboa.",
+        "ano": 1997,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Maria de Fatima Silva Marques Tavares Farinha",
+        "membros_banca": [
+          "FEIJO, B.",
+          "BLOCKLEY, D."
+        ],
+        "titulo_trabalho": "A prática reflexiva nos sistemas inteligentes de apoio ao projeto de edificios",
+        "curso": "Tese (Doutorado em Engenharia Civil)",
+        "universidade": "Universidade Tecnica de Lisboa"
+      },
+      {
+        "descricao": "FEIJO, B.. Participação em banca de Sinesio Pesco. Estrutura volumétrica. 1997. Tese (Doutorado em Matemática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1997,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Sinesio Pesco",
+        "membros_banca": [
+          "FEIJO, B."
+        ],
+        "titulo_trabalho": "Estrutura volumétrica",
+        "curso": "Tese (Doutorado em Matemática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.. Participação em banca de Nick Lehtola. Inteligencia artificial aplicada. 1996. Tese (Doutorado em Engenharia Civil) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1996,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Nick Lehtola",
+        "membros_banca": [
+          "FEIJO, B."
+        ],
+        "titulo_trabalho": "Inteligencia artificial aplicada",
+        "curso": "Tese (Doutorado em Engenharia Civil)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "FEIJO, B.. Participação em banca de Divine Ndumu. Artificial Intelligence. 1993. Tese (Doutorado em Engenharia Civil) - Imperial College London.",
+        "ano": 1993,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Divine Ndumu",
+        "membros_banca": [
+          "FEIJO, B."
+        ],
+        "titulo_trabalho": "Artificial Intelligence",
+        "curso": "Tese (Doutorado em Engenharia Civil)",
+        "universidade": "Imperial College London"
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [
+      {
+        "descricao": "FEIJO, B.. concurso de prof. adjunto. 2002. Coordenação de Pós Graduação em Engenharia.",
+        "ano": 2002,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Coordenação de Pós Graduação em Engenharia.",
+        "universidade": ""
+      },
+      {
+        "descricao": "FEIJO, B.. concurso de prof. adjunto. 1995. Coordenação de Pós Graduação em Engenharia.",
+        "ano": 1995,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Coordenação de Pós Graduação em Engenharia.",
+        "universidade": ""
+      }
+    ],
+    "outras": [
+      {
+        "descricao": "FEIJO, B.. Parecerista do Guia do Estudantes Melhores Universidades 2006. 2006.",
+        "ano": 2006,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "2006.",
+        "universidade": ""
+      },
+      {
+        "descricao": "FEIJO, B.. Membro do Comitê de Avaliação CAPES em Ciência da Computação. 2001. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.",
+        "ano": 2001,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.",
+        "universidade": ""
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 47,
+    "total_livros": 1,
+    "total_capitulos": 24,
+    "total_trabalhos_congressos": 102,
+    "total_projetos_pesquisa": 5,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 1,
+    "total_orientacoes_concluidas": 70,
+    "total_orientacoes_andamento": 3
+  }
+}

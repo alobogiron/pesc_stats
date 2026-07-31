@@ -1,0 +1,2545 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "0427692772445368",
+    "nome_completo": "Roberto Ierusalimschy",
+    "nome_citacoes": "IERUSALIMSCHY, R.;Ierusalimschy, Roberto",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico Científico. Rua M. S. Vicente 225 Gavea 22451-900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4343 URL da Homepage: http://www.inf.puc-rio.br/~roberto",
+    "atualizacao_cv": "06/01/2025",
+    "url": "http://lattes.cnpq.br/0427692772445368",
+    "texto_resumo": "Roberto Ierusalimschy é Professor Titular do Departamento de Informática da PUC-Rio, onde trabalha na área de Linguagens de Programação. Roberto é também o principal projetista da linguagem de programação Lua. Em 2013, foi agraciado com o Prêmio do Mérito Científico da Sociedade Brasileira de Computação. Roberto é Conferencista Senior da SBC e membro do Grupo de Trabalho em Linguagens de Programação da IFIP (IFIP WG 2.16). (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1986",
+      "ano_conclusao": "1990",
+      "descricao": "Título: O=M : Uma Linguagem Orientada a Objetos para Desenvolvimento Rigoroso de Programas, Ano de obtenção: 1990. Orientador: Carlos José Pereira de Lucena. Palavras-chave: métodos formais. Grande área: Ciências Exatas e da Terra"
+    },
+    {
+      "tipo": "Mestrado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1983",
+      "ano_conclusao": "1985",
+      "descricao": "Título: Interface de Barra Microprogramada para a Rede Local REDEPUC, Ano de Obtenção: 1985. Orientador: Luiz Fernando Gomes Soares. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil."
+    },
+    {
+      "tipo": "Graduação",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1978",
+      "ano_conclusao": "1982",
+      "descricao": ""
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Stanford University, STANFORD, Estados Unidos.",
+      "instituicao_nome": "Stanford University",
+      "instituicao_sigla": "STANFORD",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": "2012 - 2012",
+      "ano_inicio": "2012",
+      "ano_fim": "2012",
+      "vinculo": "Professor vistante",
+      "enquadramento": "Contratado",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Stanford University, STANFORD, Estados Unidos",
+      "instituicao_nome": "Stanford University",
+      "instituicao_sigla": "STANFORD",
+      "instituicao_pais": "Estados Unidos",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1986 - Atual",
+      "ano_inicio": "1986",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor titular",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1986 - Atual",
+      "ano_inicio": "1986",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Pontifícia Universidade Católica do Rio de Janeiro."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1986 - Atual",
+      "ano_inicio": "1986",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Pontifícia Universidade Católica do Rio de Janeiro."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1986 - Atual",
+      "ano_inicio": "1986",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1986 - Atual",
+      "ano_inicio": "1986",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Projeto e Análise de Linguagens Dinâmicas",
+      "ano_inicio": "2006",
+      "ano_conclusao": "2009",
+      "descricao": [
+        "Descrição: Bolsa de produtividade em pesquisa nível 1D. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Roberto Ierusalimschy - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Roberto Ierusalimschy",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [
+    {
+      "nome": "Google Summer of Code 2017",
+      "ano_inicio": "2017",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Projeto de desenvolvimento de Software Livre patrocinado pela Google. O LabLua é uma \"mentoring organization\" acreditada pela Google desde 2014.. Situação: Em andamento; Natureza: Desenvolvimento. Alunos envolvidos: Graduação: (7) . Integrantes: Roberto Ierusalimschy - Coordenador / TOMÁS GUISASOLA GORHAM - Integrante / Ana Lucia de Moura - Integrante / Sergio Medeiros - Integrante / Francisco Sant'Anna - Integrante / André Murbach Maidl - Integrante / BRANCO, ADRIANO - Integrante / Bruno Silvestre - Integrante. Financiador(es): Pontifícia Universidade Católica do Rio de Janeiro - Bolsa."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Roberto Ierusalimschy",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "TOMÁS GUISASOLA GORHAM",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ana Lucia de Moura",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Sergio Medeiros",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Francisco Sant'Anna",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "André Murbach Maidl",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "BRANCO, ADRIANO",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Bruno Silvestre",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    },
+    {
+      "nome": "Google Summer of Code 2016",
+      "ano_inicio": "2016",
+      "ano_conclusao": "2016",
+      "descricao": [
+        "Descrição: Projeto de desenvolvimento de Software Livre patrocinado pela Google. O LabLua é uma \"mentoring organization\" acreditada pela Google desde 2014.. Situação: Concluído; Natureza: Desenvolvimento. Alunos envolvidos: Graduação: (8) . Integrantes: Roberto Ierusalimschy - Coordenador / TOMÁS GUISASOLA GORHAM - Integrante / Ana Lucia de Moura - Integrante / Fabio Mascarenhas - Integrante / Sergio Medeiros - Integrante / Francisco Sant'Anna - Integrante / André Murbach Maidl - Integrante / Muhammad, Hisham - Integrante. Financiador(es): Pontifícia Universidade Católica do Rio de Janeiro - Bolsa."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Roberto Ierusalimschy",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "TOMÁS GUISASOLA GORHAM",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ana Lucia de Moura",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Fabio Mascarenhas",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Sergio Medeiros",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Francisco Sant'Anna",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "André Murbach Maidl",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Muhammad, Hisham",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    },
+    {
+      "nome": "Google Summer of Code 2015",
+      "ano_inicio": "2015",
+      "ano_conclusao": "2015",
+      "descricao": [
+        "Descrição: Projeto de desenvolvimento de Software Livre patrocinado pela Google. O LabLua é uma \"mentoring organization\" acreditada pela Google desde 2014.. Situação: Concluído; Natureza: Desenvolvimento. Alunos envolvidos: Graduação: (7) . Integrantes: Roberto Ierusalimschy - Coordenador / NOEMI RODRIGUEZ - Integrante / TOMÁS GUISASOLA GORHAM - Integrante / Ana Lucia de Moura - Integrante / Fabio Mascarenhas - Integrante / Hisham Muhammad - Integrante / Francisco Sant'Anna - Integrante / André Murbach Maidl - Integrante. Financiador(es): Google Inc. - Bolsa."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Roberto Ierusalimschy",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "NOEMI RODRIGUEZ",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "TOMÁS GUISASOLA GORHAM",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ana Lucia de Moura",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Fabio Mascarenhas",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Hisham Muhammad",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Francisco Sant'Anna",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "André Murbach Maidl",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Google Inc",
+          "tipo_apoio": "Financiamento"
+        }
+      ]
+    },
+    {
+      "nome": "Google Summer of Code - LabLua",
+      "ano_inicio": "2014",
+      "ano_conclusao": "2014",
+      "descricao": [
+        "Descrição: O LabLua foi uma das organizações selecionadas pela Google para seu programa \"Google Summer of Code\" em 2014.. Situação: Concluído; Natureza: Desenvolvimento. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) / Doutorado: (2) . Integrantes: Roberto Ierusalimschy - Coordenador / RODRIGUEZ, NOEMI - Integrante. Financiador(es): Google Inc. - Bolsa."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Roberto Ierusalimschy",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "RODRIGUEZ, NOEMI",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Google Inc",
+          "tipo_apoio": "Financiamento"
+        }
+      ]
+    },
+    {
+      "nome": "Kepler Movel",
+      "ano_inicio": "2006",
+      "ano_conclusao": "2009",
+      "descricao": [
+        "Descrição: Desenvolver componentes para a plataforma Kepler para dar suporte a dispositivos móveis.. Situação: Em andamento; Natureza: Desenvolvimento. Alunos envolvidos: Doutorado: (2) . Integrantes: Roberto Ierusalimschy - Coordenador. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Roberto Ierusalimschy",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Financiadora de Estudos e Projetos",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    }
+  ],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Metodologia e Técnicas da Computação",
+      "especialidade": "Linguagens de Programação",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Pesquisador Homenageado, Comissão Especial de Linguagens de Programação - SBC.",
+      "ano": 2023
+    }
+  ],
+  "linhas_de_pesquisa": [],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "A surprisingly simple Lua compiler-Extended version",
+        "ano": 2022,
+        "autores": "GUALANDI, HUGO MUSSO ; Ierusalimschy, Roberto",
+        "revista": "JOURNAL OF COMPUTER LANGUAGES",
+        "volume": "?",
+        "numero": "",
+        "paginas": "101151",
+        "issn": "2590-1184",
+        "doi": "http://dx.doi.org/10.1016/j.cola.2022.101151",
+        "qualis": ""
+      },
+      {
+        "titulo": "Pallene: A companion language for Lua",
+        "ano": 2020,
+        "autores": "GUALANDI, HUGO MUSSO ; Ierusalimschy, Roberto",
+        "revista": "SCIENCE OF COMPUTER PROGRAMMING",
+        "volume": "189",
+        "numero": "",
+        "paginas": "102393",
+        "issn": "0167-6423",
+        "doi": "http://dx.doi.org/10.1016/j.scico.2020.102393",
+        "qualis": ""
+      },
+      {
+        "titulo": "Revisiting monitors",
+        "ano": 2020,
+        "autores": "SANTOS, R. A. M. ; RODRIGUEZ, NOEMI ; IERUSALIMSCHY, R.",
+        "revista": "SCIENCE OF COMPUTER PROGRAMMING",
+        "volume": "196",
+        "numero": "",
+        "paginas": "102491",
+        "issn": "0167-6423",
+        "doi": "http://dx.doi.org/10.1016/j.scico.2020.102491",
+        "qualis": ""
+      },
+      {
+        "titulo": "A memory-bounded, deterministic and terminating semantics for the synchronous programming language Céu",
+        "ano": 2019,
+        "autores": "LIMA, GUILHERME F. ; SANTOS, RODRIGO C.M. ; IERUSALIMSCHY, R. ; HAEUSLER, EDWARD H. ; Sant'Anna, Francisco",
+        "revista": "JOURNAL OF SYSTEMS ARCHITECTURE",
+        "volume": "97",
+        "numero": "",
+        "paginas": "239-257",
+        "issn": "1383-7621",
+        "doi": "http://dx.doi.org/10.1016/j.sysarc.2019.01.014",
+        "qualis": ""
+      },
+      {
+        "titulo": "A look at the design of Lua",
+        "ano": 2018,
+        "autores": "Ierusalimschy, Roberto; De Figueiredo, Luiz Henrique ; Celes, Waldemar",
+        "revista": "COMMUNICATIONS OF THE ACM",
+        "volume": "61",
+        "numero": "",
+        "paginas": "114-123",
+        "issn": "0001-0782",
+        "doi": "http://dx.doi.org/10.1145/3186277",
+        "qualis": ""
+      },
+      {
+        "titulo": "The Design and Implementation of the Synchronous Language C <scp>éU</scp>",
+        "ano": 2017,
+        "autores": "Sant'Anna, Francisco ; Ierusalimschy, Roberto ; RODRIGUEZ, NOEMI ; ROSSETTO, SILVANA ; BRANCO, ADRIANO",
+        "revista": "ACM Transactions on Embedded Computing Systems",
+        "volume": "16",
+        "numero": "",
+        "paginas": "1-26",
+        "issn": "1539-9087",
+        "doi": "http://dx.doi.org/10.1145/3035544",
+        "qualis": ""
+      },
+      {
+        "titulo": "First-Class Functions in an Imperative World",
+        "ano": 2017,
+        "autores": "IERUSALIMSCHY, R",
+        "revista": "JOURNAL OF UNIVERSAL COMPUTER SCIENCE",
+        "volume": "23",
+        "numero": "",
+        "paginas": "112-126",
+        "issn": "0948-695X",
+        "doi": "http://dx.doi.org/10.3217/jucs-023-01-0112",
+        "qualis": ""
+      },
+      {
+        "titulo": "A formalization of typed lua",
+        "ano": 2016,
+        "autores": "MAIDL, ANDRÉ MURBACH ; MASCARENHAS, F. ; IERUSALIMSCHY, R.",
+        "revista": "SIGPLAN Notices (Cessou em 1991. Cont. ISSN 1523-2867 ACM SIGPLAN Notices)",
+        "volume": "51",
+        "numero": "",
+        "paginas": "13-25",
+        "issn": "0362-1340",
+        "doi": "http://dx.doi.org/10.1145/2936313.2816709",
+        "qualis": ""
+      },
+      {
+        "titulo": "Error reporting in Parsing Expression Grammars",
+        "ano": 2016,
+        "autores": "MAIDL, ANDRÉ MURBACH ; MASCARENHAS, F. ; MEDEIROS, SÉRGIO ; IERUSALIMSCHY, R.",
+        "revista": "Science of Computer Programming (Print)",
+        "volume": "132",
+        "numero": "",
+        "paginas": "129-140",
+        "issn": "0167-6423",
+        "doi": "http://dx.doi.org/10.1016/j.scico.2016.08.004",
+        "qualis": ""
+      },
+      {
+        "titulo": "Terra",
+        "ano": 2015,
+        "autores": "BRANCO, ADRIANO ; SANT?ANNA, FRANCISCO ; Ierusalimschy, Roberto ; RODRIGUEZ, NOEMI ; ROSSETTO, SILVANA",
+        "revista": "ACM Transactions on Sensor Networks",
+        "volume": "11",
+        "numero": "",
+        "paginas": "1-27",
+        "issn": "1550-4859",
+        "doi": "http://dx.doi.org/10.1145/2811267",
+        "qualis": ""
+      },
+      {
+        "titulo": "On the relation between context-free grammars and parsing expression grammars",
+        "ano": 2014,
+        "autores": "Mascarenhas, Fabio ; MEDEIROS, SÉRGIO ; Ierusalimschy, Roberto",
+        "revista": "Science of Computer Programming (Print)",
+        "volume": "1",
+        "numero": "",
+        "paginas": "12",
+        "issn": "0167-6423",
+        "doi": "http://dx.doi.org/10.1016/j.scico.2014.01.012",
+        "qualis": ""
+      },
+      {
+        "titulo": "Left recursion in Parsing Expression Grammars",
+        "ano": 2014,
+        "autores": "MEDEIROS, SÉRGIO ; Mascarenhas, Fabio ; Ierusalimschy, Roberto",
+        "revista": "Science of Computer Programming (Print)",
+        "volume": "1",
+        "numero": "",
+        "paginas": "13",
+        "issn": "0167-6423",
+        "doi": "http://dx.doi.org/10.1016/j.scico.2014.01.013",
+        "qualis": ""
+      },
+      {
+        "titulo": "Scripting Multiple CPUs with Safe Data Sharing",
+        "ano": 2014,
+        "autores": "SKYRME, ALEXANDRE ; RODRIGUEZ, NOEMI ; Ierusalimschy, Roberto",
+        "revista": "IEEE Software",
+        "volume": "31",
+        "numero": "",
+        "paginas": "44-51",
+        "issn": "0740-7459",
+        "doi": "http://dx.doi.org/10.1109/ms.2014.102",
+        "qualis": ""
+      },
+      {
+        "titulo": "A survey of support for structured communication in concurrency control models",
+        "ano": 2013,
+        "autores": "SKYRME, ALEXANDRE ; RODRIGUEZ, NOEMI ; Ierusalimschy, Roberto",
+        "revista": "Journal of Parallel and Distributed Computing (Print)",
+        "volume": "74",
+        "numero": "",
+        "paginas": "2266-2285",
+        "issn": "0743-7315",
+        "doi": "http://dx.doi.org/10.1016/j.jpdc.2013.11.005",
+        "qualis": ""
+      },
+      {
+        "titulo": "From regexes to parsing expression grammars",
+        "ano": 2012,
+        "autores": "MASCARENHAS, F. ; MEDEIROS, SÉRGIO ; IERUSALIMSCHY, R.",
+        "revista": "Science of Computer Programming (Print)",
+        "volume": "79",
+        "numero": "",
+        "paginas": "2012.11.006",
+        "issn": "0167-6423",
+        "doi": "http://dx.doi.org/10.1016/j.scico.2012.11.006",
+        "qualis": ""
+      },
+      {
+        "titulo": "Passing a language through the eye of a needle",
+        "ano": 2011,
+        "autores": "IERUSALIMSCHY, Roberto ; De Figueiredo, Luiz Henrique ; Celes, Waldemar",
+        "revista": "Communications of the ACM",
+        "volume": "54",
+        "numero": "",
+        "paginas": "38-43",
+        "issn": "0001-0782",
+        "doi": "http://dx.doi.org/10.1145/1965724.1965739",
+        "qualis": ""
+      },
+      {
+        "titulo": "Revisiting coroutines",
+        "ano": 2009,
+        "autores": "MOURA, A. L. ; IERUSALIMSCHY, R.",
+        "revista": "ACM Transactions on Programming Languages and Systems",
+        "volume": "31",
+        "numero": "",
+        "paginas": "6.1-6.31",
+        "issn": "0164-0925",
+        "doi": "http://dx.doi.org/10.1145/1462166.1462167",
+        "qualis": ""
+      },
+      {
+        "titulo": "A text pattern-matching tool based on Parsing Expression Grammars",
+        "ano": 2009,
+        "autores": "Ierusalimschy, Roberto",
+        "revista": "SOFTWARE-PRACTICE & EXPERIENCE",
+        "volume": "39",
+        "numero": "",
+        "paginas": "221-258",
+        "issn": "0038-0644",
+        "doi": "http://dx.doi.org/10.1002/spe.892",
+        "qualis": ""
+      },
+      {
+        "titulo": "Programming with Multiple Paradigms in Lua",
+        "ano": 2009,
+        "autores": "IERUSALIMSCHY, R",
+        "revista": "Lecture Notes in Computer Science",
+        "volume": "5979",
+        "numero": "",
+        "paginas": "1-12",
+        "issn": "0302-9743",
+        "doi": "http://dx.doi.org/10.1007/978-3-642-11999-6_1",
+        "qualis": ""
+      },
+      {
+        "titulo": "C APIs in Extension and Extensible Languages",
+        "ano": 2007,
+        "autores": "MUHAMMAD, H. ; IERUSALIMSCHY, R.",
+        "revista": "Journal of Universal Computer Science",
+        "volume": "13",
+        "numero": "",
+        "paginas": "839-853",
+        "issn": "0948-695X",
+        "doi": "http://dx.doi.org/10.3217/jucs-013-06-0839",
+        "qualis": ""
+      },
+      {
+        "titulo": "The Implementation of Lua 5.0",
+        "ano": 2005,
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "revista": "Journal of Universal Computer Science",
+        "volume": "11",
+        "numero": "7",
+        "paginas": "1159-1176",
+        "issn": "0948-695X",
+        "doi": "http://dx.doi.org/10.3217/jucs-011-07-1159",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Formal Semantics for Finalizers",
+        "ano": 2005,
+        "autores": "LEAL, M. ; IERUSALIMSCHY, R.",
+        "revista": "Journal of Universal Computer Science",
+        "volume": "11",
+        "numero": "7",
+        "paginas": "1198-1214",
+        "issn": "0948-695X",
+        "doi": "http://dx.doi.org/10.3217/jucs-011-07-1198",
+        "qualis": ""
+      },
+      {
+        "titulo": "Running Lua Scripts on the CLR through Bytecode Translation",
+        "ano": 2005,
+        "autores": "MASCARENHAS, F. ; IERUSALIMSCHY, R.",
+        "revista": "Journal of Universal Computer Science",
+        "volume": "11",
+        "numero": "7",
+        "paginas": "1275-1290",
+        "issn": "0948-695X",
+        "doi": "http://dx.doi.org/10.3217/jucs-011-07-1275",
+        "qualis": ""
+      },
+      {
+        "titulo": "LuaInterface: Scripting the .NET CLR with Lua",
+        "ano": 2004,
+        "autores": "MASCARENHAS, F. ; IERUSALIMSCHY, R.",
+        "revista": "Journal of Universal Computer Science (Online)",
+        "volume": "10",
+        "numero": "7",
+        "paginas": "892-908",
+        "issn": "0948-6968",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Coroutines in Lua",
+        "ano": 2004,
+        "autores": "MOURA, A. L. ; RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "revista": "Journal of Universal Computer Science",
+        "volume": "10",
+        "numero": "7",
+        "paginas": "910-925",
+        "issn": "0948-695X",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "LuaTS - A Reactive Event-Driven Tuple Space",
+        "ano": 2003,
+        "autores": "LEAL, M. ; RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "revista": "Journal of Universal Computer Science (Online)",
+        "volume": "9",
+        "numero": "8",
+        "paginas": "730-744",
+        "issn": "0948-6968",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "ALua: Flexibility for Paralel Programming",
+        "ano": 2002,
+        "autores": "URURAHY, C. ; RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "revista": "Computer languages",
+        "volume": "28",
+        "numero": "2",
+        "paginas": "155-180",
+        "issn": "0096-0551",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Building flexible and extensible Web applications with Lua",
+        "ano": 1998,
+        "autores": "HESTER, A. ; BORGES, R. ; IERUSALIMSCHY, R.",
+        "revista": "Journal of Universal Computer Science",
+        "volume": "4",
+        "numero": "9",
+        "paginas": "748-762",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Lua - An Extensible Extension Language",
+        "ano": 1996,
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "revista": "Software, Practice & Experience",
+        "volume": "26",
+        "numero": "6",
+        "paginas": "635-652",
+        "issn": "0038-0644",
+        "doi": "http://dx.doi.org/10.1002/(SICI)1097-024X(199606)26:6<635::AID-SPE26>3.0.CO;2-P",
+        "qualis": ""
+      },
+      {
+        "titulo": "Side effect free functions in object-oriented languages",
+        "ano": 1995,
+        "autores": "IERUSALIMSCHY, R.; IERUSALIY, R. ; RODRIGUEZ, N.",
+        "revista": "Computer Languages",
+        "volume": "21",
+        "numero": "3",
+        "paginas": "129-146",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A formal specification for a hierarchy of collections",
+        "ano": 1993,
+        "autores": "IERUSALIMSCHY, R",
+        "revista": "Software Engineering Journal",
+        "volume": "8",
+        "numero": "4",
+        "paginas": "237-245",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Application Integration: Constructing composite applications from interactive components",
+        "ano": 1993,
+        "autores": "COWAN, D. ; STEPIEN, T. ; IERUSALIMSCHY, R. ; LUCENA, C.",
+        "revista": "SOFTWARE PRACTICE AND EXPERIENCE",
+        "volume": "23",
+        "numero": "3",
+        "paginas": "255-275",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A denotational approach for type-checking in object-oriented programming languages",
+        "ano": 1993,
+        "autores": "IERUSALIMSCHY, R",
+        "revista": "Computer Languages",
+        "volume": "19",
+        "numero": "1",
+        "paginas": "19-40",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Abstract data views",
+        "ano": 1993,
+        "autores": "COWAN, D. ; IERUSALIMSCHY, R. ; LUCENA, C. ; STEPIEN, T.",
+        "revista": "JOURNAL OF STRUCTURED PROGRAMMING",
+        "volume": "14",
+        "numero": "1",
+        "paginas": "1-13",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Types in School",
+        "ano": 1993,
+        "autores": "RODRIGUEZ, N. ; IERUSALIMSCHY, R. ; RANGEL, J. L.",
+        "revista": "Sigplan Notices",
+        "volume": "28",
+        "numero": "8",
+        "paginas": "",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [
+      {
+        "titulo": "Programming in Lua, Fourth Edition",
+        "ano": 2016,
+        "autores": "IERUSALIMSCHY, R",
+        "editora": "Rio de Janeiro: Lua.org",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "369"
+      },
+      {
+        "titulo": "Programming in Lua, Third Edition",
+        "ano": 2013,
+        "autores": "Ierusalimschy, Roberto",
+        "editora": "Rio de Janeiro: Lua.org",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "366"
+      },
+      {
+        "titulo": "Lua Programming Gems. Rio de Janeiro: Lua.org",
+        "ano": 2008,
+        "autores": "FIGUEIREDO, L. H. ; CELES, W. ; IERUSALIMSCHY, R.",
+        "editora": "Lua Programming Gems. Rio de Janeiro: Lua.org",
+        "cidade": "",
+        "isbn": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Programming in Lua, Second Edition",
+        "ano": 2006,
+        "autores": "IERUSALIMSCHY, R",
+        "editora": "Rio de Janeiro: Lua.org",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "326"
+      },
+      {
+        "titulo": "Lua 5.1 Reference Manual",
+        "ano": 2006,
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L. H. ; CELES, W.",
+        "editora": "Rio de Janeiro: Lua.org",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "112"
+      },
+      {
+        "titulo": "Programming in Lua. Rio de Janeiro: Lua.Org",
+        "ano": 2003,
+        "autores": "IERUSALIMSCHY, R",
+        "editora": "Programming in Lua. Rio de Janeiro: Lua.Org",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "288"
+      }
+    ],
+    "capitulos_livros": [
+      {
+        "titulo": "Preserving Lexical Scoping When Dynamically Embedding Languages",
+        "ano": 2015,
+        "autores": "Ribeiro, Félix ; Muhammad, Hisham ; Maidl, André Murbach ; Ierusalimschy, Roberto",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "31-43"
+      },
+      {
+        "titulo": "Interview: Lua",
+        "ano": 2012,
+        "autores": "IERUSALIMSCHY, R",
+        "titulo_livro": "",
+        "editora": "Addison-Wesley",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "274-275"
+      },
+      {
+        "titulo": "Interview about Lua",
+        "ano": 2009,
+        "autores": "FIGUEIREDO, L. H. ; IERUSALIMSCHY, R.",
+        "titulo_livro": "",
+        "editora": "O'Reilly Media, Inc.",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "161-176"
+      },
+      {
+        "titulo": "Uma Introdução à Programação em Lua",
+        "ano": 2009,
+        "autores": "IERUSALIMSCHY, R",
+        "titulo_livro": "",
+        "editora": "Editora PUC-Rio/SBC",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "113-152"
+      },
+      {
+        "titulo": "Lua Performance Tips",
+        "ano": 2008,
+        "autores": "IERUSALIMSCHY, R",
+        "titulo_livro": "",
+        "editora": "Lua.org",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "15-28"
+      },
+      {
+        "titulo": "Binding C/C++ Objects to Lua",
+        "ano": 2006,
+        "autores": "CELES, W. ; FIGUEIREDO, L. H. ; IERUSALIMSCHY, R.",
+        "titulo_livro": "",
+        "editora": "Charles River Media",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "341-356"
+      },
+      {
+        "titulo": "Programming Advanced Control Mechanisms with Lua Coroutines",
+        "ano": 2006,
+        "autores": "FIGUEIREDO, L. H. ; CELES, W. ; IERUSALIMSCHY, R.",
+        "titulo_livro": "",
+        "editora": "Charles River Media",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "357-370"
+      },
+      {
+        "titulo": "Automated Testing for a CORBA-Based Distributed System",
+        "ano": 2001,
+        "autores": "CERQUEIRA, R. F. G. ; IERUSALIMSCHY, R.",
+        "titulo_livro": "",
+        "editora": "Addison-Wesley",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "379-396"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "Compact Representations for Arrays in Lua",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1007/978-3-319-24012-1_3",
+        "autores": "IERUSALIMSCHY, R.; RODRIGUEZ, N.",
+        "evento": "28th Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Foreign Function Interface for Pallene",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1145/3561320.3561321",
+        "autores": "DE PAULA, GABRIEL COUTINHO ; Ierusalimschy, Roberto",
+        "evento": "SBLP 2022: XXVI Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "32-40",
+        "isbn": ""
+      },
+      {
+        "titulo": "EventManager ¿ a tool to help students analyse concurrent programs",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1145/3561320.3561324",
+        "autores": "ALEGRIA, ANNA LETICIA ; Ierusalimschy, Roberto ; RODRIGUEZ, NOEMI",
+        "evento": "SBLP 2022: XXVI Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "24-31",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Surprisingly Simple Lua Compiler",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1145/3475061.3475077",
+        "autores": "MUSSO GUALANDI, HUGO ; Ierusalimschy, Roberto",
+        "evento": "SBLP'21: 25th Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "Evaluating Optimizations for a High-Level Language",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1145/3475061.3475088",
+        "autores": "KAPLAN, LEONARDO ; Ierusalimschy, Roberto",
+        "evento": "SBLP'21: 25th Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "25",
+        "isbn": ""
+      },
+      {
+        "titulo": "Linux Network Scripting with Lua",
+        "ano": 2020,
+        "doi": "",
+        "autores": "VIEIRA NETO, L. ; NOGUEIRA, V. ; MOURA, A. L. ; IERUSALIMSCHY, R.",
+        "evento": "Netdev 0x14",
+        "cidade": "",
+        "paginas": "1-7",
+        "isbn": ""
+      },
+      {
+        "titulo": "Pallene",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3264637.3264640",
+        "autores": "GUALANDI, HUGO MUSSO ; Ierusalimschy, Roberto",
+        "evento": "the XXII Brazilian Symposium",
+        "cidade": "",
+        "paginas": "19-26",
+        "isbn": ""
+      },
+      {
+        "titulo": "Revisiting monitors",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3264637.3264647",
+        "autores": "SANTOS, RENAN ; RODRIGUEZ, NOEMI ; Ierusalimschy, Roberto",
+        "evento": "the XXII Brazilian Symposium",
+        "cidade": "",
+        "paginas": "75-82",
+        "isbn": ""
+      },
+      {
+        "titulo": "A memory-bounded, deterministic and terminating semantics for the synchronous programming language Céu",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3211332.3211334",
+        "autores": "SANTOS, RODRIGO C. M. ; LIMA, GUILHERME F. ; Sant'Anna, Francisco ; Ierusalimschy, Roberto ; HAEUSLER, EDWARD H.",
+        "evento": "the 19th ACM SIGPLAN/SIGBED International Conference",
+        "cidade": "",
+        "paginas": "1-18",
+        "isbn": ""
+      },
+      {
+        "titulo": "A formalization of typed lua",
+        "ano": 2015,
+        "doi": "http://dx.doi.org/10.1145/2816707.2816709",
+        "autores": "Maidl, André Murbach ; Mascarenhas, Fabio ; Ierusalimschy, Roberto",
+        "evento": "the 11th Symposium",
+        "cidade": "",
+        "paginas": "13-25",
+        "isbn": ""
+      },
+      {
+        "titulo": "Structured synchronous reactive programming with Cýu",
+        "ano": 2015,
+        "doi": "http://dx.doi.org/10.1145/2724525.2724571",
+        "autores": "SANT' ANNA, FRANCISCO ; Ierusalimschy, Roberto ; RODRIGUEZ, NOEMI",
+        "evento": "the 14th International Conference",
+        "cidade": "",
+        "paginas": "29-40",
+        "isbn": ""
+      },
+      {
+        "titulo": "Scriptable operating systems with Lua",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1145/2661088.2661096",
+        "autores": "VIEIRA NETO, LOURIVAL ; Ierusalimschy, Roberto ; DE MOURA, ANA LÚCIA ; BALMER, MARC",
+        "evento": "the 10th ACM Symposium",
+        "cidade": "",
+        "paginas": "2-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Typed Lua",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1145/2617548.2617553",
+        "autores": "Maidl, André Murbach ; Mascarenhas, Fabio ; Ierusalimschy, Roberto",
+        "evento": "the Workshop",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Reflection-Based Heterogeneous Migration of Computations",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1109/sbrc.2014.27",
+        "autores": "MILANES, ANOLAN ; RODRIGUEZ, NOEMI ; Ierusalimschy, Roberto",
+        "evento": "2014 Brazilian Symposium on Computer Networks and Distributed Systems (SBRC)",
+        "cidade": "",
+        "paginas": "223-230",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exception Handling for Error Reporting in Parsing Expression Grammars",
+        "ano": 2013,
+        "doi": "",
+        "autores": "MAIDL, A. M. ; Mascarenhas, Fabio ; Ierusalimschy, Roberto",
+        "evento": "17th Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "1-15",
+        "isbn": ""
+      },
+      {
+        "titulo": "LuaRocks - A Declarative adn Extensible Package Management System for Lua",
+        "ano": 2013,
+        "doi": "",
+        "autores": "MUHAMMAD, H. ; Mascarenhas, Fabio ; Ierusalimschy, Roberto",
+        "evento": "17th Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "16-30",
+        "isbn": ""
+      },
+      {
+        "titulo": "Safe system-level concurrency on resource-constrained nodes",
+        "ano": 2013,
+        "doi": "http://dx.doi.org/10.1145/2517351.2517360",
+        "autores": "Sant'Anna, Francisco ; RODRIGUEZ, NOEMI ; Ierusalimschy, Roberto ; LANDSIEDEL, OLAF ; TSIGAS, PHILIPPAS",
+        "evento": "the 11th ACM Conference",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "Left Recursion in Parsing Expression Grammars",
+        "ano": 2012,
+        "doi": "",
+        "autores": "MEDEIROS S, ; MASCARENHAS, F. ; IERUSALIMSCHY, R.",
+        "evento": "XVI Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "27-41",
+        "isbn": ""
+      },
+      {
+        "titulo": "From Regular Expressions to PEGs",
+        "ano": 2011,
+        "doi": "",
+        "autores": "MEDEIROS S, ; MASCARENHAS, F. ; Ierusalimschy, Roberto",
+        "evento": "XV Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Paring Expression Grammars for Strucutred Data",
+        "ano": 2011,
+        "doi": "",
+        "autores": "MASCARENHAS, F. ; MEDEIROS S, ; Ierusalimschy, Roberto",
+        "evento": "XV Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Converting regexes to Parsing Expression Grammars",
+        "ano": 2010,
+        "doi": "",
+        "autores": "Oikawa, Marcelo ; Ierusalimschy, Roberto ; MOURA, A. L.",
+        "evento": "XIV Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Programming with Multiple Paradigms in Lua",
+        "ano": 2009,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-11999-6_1",
+        "autores": "Ierusalimschy, Roberto",
+        "evento": "Functional and Constraint Logic Programming",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "LuaGravity, a Reactive Language based on Implicit Invocation",
+        "ano": 2009,
+        "doi": "",
+        "autores": "Sant'Anna, Francisco ; IERUSALIMSCHY, R.",
+        "evento": "Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "89-102",
+        "isbn": ""
+      },
+      {
+        "titulo": "Efficient Compilation of Lua for the CLR",
+        "ano": 2008,
+        "doi": "http://dx.doi.org/10.1145/1363686.1363743",
+        "autores": "MASCARENHAS, F. ; IERUSALIMSCHY, R.",
+        "evento": "SAC '08: 2008 ACM Symposium on Applied Computing",
+        "cidade": "",
+        "paginas": "217-221",
+        "isbn": ""
+      },
+      {
+        "titulo": "Eliminating Cycles in Weak Tables",
+        "ano": 2008,
+        "doi": "",
+        "autores": "BARROS, A. ; IERUSALIMSCHY, R.",
+        "evento": "XII Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "61-74",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring Lua for Concurrent Programming",
+        "ano": 2008,
+        "doi": "",
+        "autores": "SKYRME, A. ; RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "evento": "XII Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "117-128",
+        "isbn": ""
+      },
+      {
+        "titulo": "A parsing machine for PEGs",
+        "ano": 2008,
+        "doi": "http://dx.doi.org/10.1145/1408681.1408683",
+        "autores": "MEDEIROS S, ; IERUSALIMSCHY, R.",
+        "evento": "Dynamic languages Symposium",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Evolution of Lua",
+        "ano": 2007,
+        "doi": "http://dx.doi.org/10.1145/1238844.1238846",
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "evento": "Third ACM SIGPLAN Conference on History of Programming Languages",
+        "cidade": "",
+        "paginas": "2-1-2-26",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Implementation of Lua 5.0",
+        "ano": 2005,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "evento": "IX Brazilian Symposium on Programming Languages",
+        "cidade": "",
+        "paginas": "63-75",
+        "isbn": ""
+      },
+      {
+        "titulo": "Coroutines in Lua",
+        "ano": 2004,
+        "doi": "",
+        "autores": "MOURA, A. L. ; RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "evento": "VIII Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "LuaInterface: Scripting the .NET CLR with Lua",
+        "ano": 2004,
+        "doi": "",
+        "autores": "MASCARENHAS, F. ; IERUSALIMSCHY, R.",
+        "evento": "VIII Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Abstrações para o Desenvolvimento de Aplicações Distribuídas em Ambientes com Mobilidade",
+        "ano": 2004,
+        "doi": "",
+        "autores": "ROSSETO, S. ; IERUSALIMSCHY, R. ; RODRIGUEZ, N.",
+        "evento": "VIII Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "LuaTS --- Um Espaço de Tuplas Reativo Orientado a Eventos",
+        "ano": 2003,
+        "doi": "",
+        "autores": "LEAL, M. ; RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "evento": "VII Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "36-49",
+        "isbn": ""
+      },
+      {
+        "titulo": "Continuações em Lua",
+        "ano": 2002,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; LIMA, M. J.",
+        "evento": "VI Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Linguagem de programação Sloth",
+        "ano": 2002,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; NEHAB, D.",
+        "evento": "VI Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Event-Driven Programming for Distributed Multimedia Applications",
+        "ano": 2002,
+        "doi": "",
+        "autores": "PFEIFER, A. L. ; URURAHY, C. ; RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "evento": "XX Simpósio Brasileiro de Redes de Computadores",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Evolution of an Extension Language: A History of Lua",
+        "ano": 2001,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, Roberto ; FIGUEIREDO, Luiz Henrique de ; CELES, W.",
+        "evento": "V Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "B14-B28",
+        "isbn": ""
+      },
+      {
+        "titulo": "Remote Functions as First-Class Values in a Distributed Object System",
+        "ano": 2000,
+        "doi": "",
+        "autores": "LIMA, M. J. ; RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "evento": "IV Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "1-14",
+        "isbn": ""
+      },
+      {
+        "titulo": "Dynamic extension of CORBA servers",
+        "ano": 1999,
+        "doi": "",
+        "autores": "MARTINS, M. C. ; RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "evento": "Euro-Par'99 Parallel Processing",
+        "cidade": "",
+        "paginas": "1369-1376",
+        "isbn": ""
+      },
+      {
+        "titulo": "Dynamic component gluing across different componentware systems",
+        "ano": 1999,
+        "doi": "",
+        "autores": "CERQUEIRA, R. F. G. ; CASSINO, C. ; IERUSALIMSCHY, R.",
+        "evento": "DOA'99 --- International Symposium on Distributed Objects and Applications",
+        "cidade": "",
+        "paginas": "362-371",
+        "isbn": ""
+      },
+      {
+        "titulo": "Dynamic reconfiguration of CORBA-based applications",
+        "ano": 1999,
+        "doi": "",
+        "autores": "RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "evento": "SOFSEM'99: 26th Conference on Current Trends in Theory and Practice of Informatics",
+        "cidade": "",
+        "paginas": "95-111",
+        "isbn": ""
+      },
+      {
+        "titulo": "LuaJava --- Uma ferramenta de scripting para Java",
+        "ano": 1999,
+        "doi": "",
+        "autores": "CASSINO, C. R. S. P. ; IERUSALIMSCHY, R.",
+        "evento": "III Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "125-137",
+        "isbn": ""
+      },
+      {
+        "titulo": "Using reflexivity to interface with CORBA",
+        "ano": 1998,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; CERQUEIRA, R. ; RODRIGUEZ, N.",
+        "evento": "IEEE International Conference on Computer Languages",
+        "cidade": "",
+        "paginas": "39-46",
+        "isbn": ""
+      },
+      {
+        "titulo": "Dynamic configuration with CORBA components",
+        "ano": 1998,
+        "doi": "",
+        "autores": "RODRIGUEZ, N. ; IERUSALIMSCHY, R. ; CERQUEIRA, R.",
+        "evento": "4th International Conference on Configurable Distributed Systems",
+        "cidade": "",
+        "paginas": "27-34",
+        "isbn": ""
+      },
+      {
+        "titulo": "Reactivity and pro-activeness in virtual prototyping",
+        "ano": 1998,
+        "doi": "",
+        "autores": "FEIJO, B.; GOMES, P. C. R. ; CERQUEIRA, R. ; IERUSALIMSCHY, R.",
+        "evento": "2nd International Symposium on Tools and Methods for Concurrent Engineering",
+        "cidade": "",
+        "paginas": "242-253",
+        "isbn": ""
+      },
+      {
+        "titulo": "A new perspective for entry-level computer courses",
+        "ano": 1998,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R",
+        "evento": "International Conference on Engineering Education",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Building Flexible and Extensible Web Applications with Lua",
+        "ano": 1998,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; HESTER, A. ; BORGES, R. ; IERUSALIY, R.",
+        "evento": "WebNet 98---World Conference of the WWW",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "CGI-Lua: a multi-paradigmatic tool for creating dynamic WWW pages",
+        "ano": 1997,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; HESTER, A. ; BORGES, R. ; IERUSALIY, R.",
+        "evento": "XI Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Binding an interpreted language to CORBA",
+        "ano": 1997,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; CERQUEIRA, R. ; RODRIGUEZ, N. ; IERUSALIY, R.",
+        "evento": "II Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "23-36",
+        "isbn": ""
+      },
+      {
+        "titulo": "The use of interpreted languages for implementing parallel algorithms on distributed systems",
+        "ano": 1996,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; RODRIGUEZ, N. ; URURAHY, C. ; IERUSALIY, R. ; CERQUEIRA, R.",
+        "evento": "Euro-Par'96 Parallel Processing - Second International Euro-Par Conference",
+        "cidade": "",
+        "paginas": "597-600",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma avaliação das arquiteturas para interoperabilidade entre objetos",
+        "ano": 1996,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; CERQUEIRA, R. ; IERUSALIY, R.",
+        "evento": "X Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "371-386",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um sistema de depuração reflexivo para uma linguagem de extensão",
+        "ano": 1996,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; GORHAM, T. ; IERUSALIY, R.",
+        "evento": "I Simpósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "103-114",
+        "isbn": ""
+      },
+      {
+        "titulo": "Módulos em Linguagens orientadas a objetos",
+        "ano": 1996,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; BORGES, R. ; IERUSALISMCHY, R.",
+        "evento": "I Simósio Brasileiro de Linguagens de Programação",
+        "cidade": "",
+        "paginas": "103-114",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Systematic Development of Compilers: A Case Study",
+        "ano": 1996,
+        "doi": "",
+        "autores": "DUARTE, C. ; IERUSALIMSCHY, R.",
+        "evento": "CC'96 - International Conference on Compiler Construction",
+        "cidade": "",
+        "paginas": "49-56",
+        "isbn": ""
+      },
+      {
+        "titulo": "Tche: a visual environment for the Lua language",
+        "ano": 1995,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; CARREGAL, A. ; IERUSALIY, R.",
+        "evento": "VIII Simpósio Brasileiro de Computação Gráfica",
+        "cidade": "",
+        "paginas": "227-232",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exception handling in a strongly typed object-oriented language",
+        "ano": 1995,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; RODRIGUEZ, N. ; IERUSALIY, R. ; RANGEL, J. L.",
+        "evento": "IX Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "161-174",
+        "isbn": ""
+      },
+      {
+        "titulo": "Aplicando um método orientado a objetos para desenvolvimento de compiladores",
+        "ano": 1995,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; DUARTE, C. ; IERUSALIY, R.",
+        "evento": "XXI Conferência Latino-Americana de Informática",
+        "cidade": "",
+        "paginas": "743-754",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma experiência em programação distribuida dirigida por eventos",
+        "ano": 1995,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; CERQUEIRA, R. ; RODRIGUEZ, N. ; IERUSALIY, R.",
+        "evento": "XXI Conferência Latino-Americana de Informática",
+        "cidade": "",
+        "paginas": "225-236",
+        "isbn": ""
+      },
+      {
+        "titulo": "UAI - um framework para suporte a objetos visuais",
+        "ano": 1994,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; BORGES, R. ; CASSINO, C. ; CERQUEIRA, R. ; IERUSALIY, R.",
+        "evento": "VIII Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "79-89",
+        "isbn": ""
+      },
+      {
+        "titulo": "The design and implementation of a language for extending applications",
+        "ano": 1994,
+        "doi": "",
+        "autores": "FIGUEIREDO, L. H. ; IERUSALIMSCHY, R. ; CELES, W.",
+        "evento": "XXI SEMISH",
+        "cidade": "",
+        "paginas": "273-284",
+        "isbn": ""
+      },
+      {
+        "titulo": "Side effect free functions in object-oriented languages",
+        "ano": 1994,
+        "doi": "",
+        "autores": "IERUSALIMSCHY, R.; IERUSALIY, R. ; RODRIGUEZ, N.",
+        "evento": "XXI SEMISH",
+        "cidade": "",
+        "paginas": "301-316",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [],
+    "resumos_congressos": [
+      {
+        "titulo": "An Event-Driven System for Distributed Multimedia Applications",
+        "ano": 2002,
+        "autores": "PFEIFER, A. L. ; URURAHY, C. ; RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "evento": "International Workshop on Distributed Event-Based Systems, 2002, Viena. Proceedings of DEBS'02 --- International Workshop on Distributed Event-Based Systems (held in conjunction with IEEE ICDCS 2002)",
+        "cidade": ""
+      },
+      {
+        "titulo": "A Dynamic Integration Model for Componentware Systems",
+        "ano": 1999,
+        "autores": "CERQUEIRA, R. F. G. ; IERUSALIMSCHY, R. ; RODRIGUEZ, N.",
+        "evento": "OOPSLA'99 Doctoral Symposium, 1999, Denver, CO. OOPSLA'99 Doctoral Symposium (Proceedings Companion)",
+        "cidade": ""
+      },
+      {
+        "titulo": "Extensão Dinâmica de Agentes CORBA",
+        "ano": 1998,
+        "autores": "RODRIGUEZ, N. ; MARTINS, M. C. ; IERUSALIMSCHY, R.",
+        "evento": "XVI Simpósio Brasileiro de Redes de Computadores, 1998, Rio de Janeiro. Anais do XVI Simpósio Brasileiro de Redes de Computadores",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "Errâncias de um Software Brasileiro",
+        "ano": 2019,
+        "autores": "IERUSALIMSCHY, R",
+        "evento": ""
+      },
+      {
+        "titulo": "Errâncias de um Software Brasileiro",
+        "ano": 2018,
+        "autores": "IERUSALIMSCHY, R",
+        "evento": ""
+      },
+      {
+        "titulo": "Pallene: designing a statically typed language around Lua",
+        "ano": 2018,
+        "autores": "LIGNEUL, G. Q. ; IERUSALIMSCHY, R.",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [
+      {
+        "titulo": "Lua: An extensible embedded language. Dr",
+        "ano": 1996,
+        "autores": "FIGUEIREDO, Luiz Henrique de ; IERUSALIMSCHY, Roberto ; CELES, W.",
+        "jornal": "",
+        "cidade": "",
+        "data": "05 dez. 1996"
+      }
+    ],
+    "outras_producoes": [
+      {
+        "titulo": "prefácio para livro 'Le guide de Lua et ses applications', 2012. (Prefácio",
+        "ano": 2012,
+        "autores": "IERUSALIMSCHY, R",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "foreword for Game Development with Lua, 2005. (Prefácio",
+        "ano": 2005,
+        "autores": "IERUSALIMSCHY, R",
+        "tipo": "Demais tipos de produção bibliográfica"
+      }
+    ]
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [
+      {
+        "titulo": "H. . Lua versão 5.4",
+        "ano": 2020,
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "C. ; IERUSALIMSCHY, R. . Lua Optimizer",
+        "ano": 2020,
+        "autores": "PAULA, G",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "; IERUSALIMSCHY, R. . Luasm",
+        "ano": 2020,
+        "autores": "KAPLAN, L",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "H. ; CELES, W. . Lua 5.3.1",
+        "ano": 2015,
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "H. ; CELES, W. . Lua 5.3.2",
+        "ano": 2015,
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "LPeg 1.0",
+        "ano": 2015,
+        "autores": "IERUSALIMSCHY, R.",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Lua versão 5.3.0",
+        "ano": 2014,
+        "autores": "IERUSALIMSCHY, R.",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "LPEG",
+        "ano": 2007,
+        "autores": "IERUSALIMSCHY, R.",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "H. ; CELES, W. . Linguagem Lua 5.1",
+        "ano": 2006,
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "H. ; CELES, W. . Linguagem Lua 5.0",
+        "ano": 2003,
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Linguagem de Extensão Lua versão 4.0",
+        "ano": 2000,
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L. H. ; CELES, W.",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Linguagem de Extensão Lua versão 3.0",
+        "ano": 1997,
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L. H. ; CELES, W.",
+        "instituicao": "",
+        "finalidade": ""
+      }
+    ],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [
+      {
+        "titulo": "9th LASER Summer School on Software Engineering",
+        "ano": 2012,
+        "autores": "IERUSALIMSCHY, R",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "XXXI JORNADAS DE ATUALIZAÇÃO EM INFORMÁTICA DA SBC",
+        "ano": 2012,
+        "autores": "IERUSALIMSCHY, R",
+        "tipo": "Demais tipos de produção técnica"
+      }
+    ],
+    "entrevistas": [
+      {
+        "titulo": "Computação e Inovação",
+        "ano": 2012,
+        "autores": "IERUSALIMSCHY, R.; SOARES, L. F. G. ; ZIVIANI, N. ; PEIXOTO, E. ; SCHEER, S.",
+        "veiculo": ""
+      }
+    ]
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "The Pallene Programming Language",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Hugo Musso Gualandi",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Titan",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Hugo Musso gualandi",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Dataflow Semantics for End-User Programmable Applications",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "HISHAM HASHEM MUHAMMAD",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Typed Lua: An Optional Type System for Lua",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "André Murbach Maidl",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Safe Record Sharing in Dynamic Programming Languages",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Alexandre Rupert Arpini Skyrme",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Safe System-level Concurrency on Resource-Constrained Nodes with Céu",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Francisco Figueiredo Goytacaz Sant'anna",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Correspondência entre PEGs e Classes de Gramáticas Livres de Contexto",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Sérgio Queiroz de Medeiros",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Optimized Compilation of a Dynamic Language to a Managed Runtime Environment",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Fabio Mascarenhas de Queiroz",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Suporte de LInguagens de Programação para Migração Heterogênea de Computações",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "Anolan Yamilé Milanés Barrientos",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Finalizadores e Referências Fracas: Interagindo com o Coletor de Lixo",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "MARCUS AMORIM LEAL",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Revisitando Co-Rotinas",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Ana Lucia de Moura",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "ORFEO: Programação Distribuida Orientada a Eventos com Funções e Continuações como Valores de Primeira Classe",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Maria Júlia Dias de Lima",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Modelo de Composição Dinâmica entre Sistemas de Componentes de Software",
+          "ano_inicio": 2000,
+          "ano_conclusao": 2000,
+          "orientando": "RENATO FONTOURA DE GUSMAO CERQUEIRA",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Distribuição de Carga em Sistemas Web Controlada por Ferramentas de Construção de Páginas Dinâmicas",
+          "ano_inicio": 2000,
+          "ano_conclusao": 2000,
+          "orientando": "Carlos Roberto Serra Pinto Cassino",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "EventManager: Uma ferramenta de análise de programas concorrentes",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Anna Leticia Alegria de Oliveira",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Optimizing the Pallene Compiler",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Leonardo Krause Lipet Slipoi Kaplan",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Revisiting Monitors",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Renan Almeida De Miranda Santos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "The Implementation of Records in Pallene",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "GABRIEL DE QUADROS LIGNEUL",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Survey of Function Values in Imperative Programming Languages",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "LUIZ ROMARIO SANTANA RIOS",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Profiling Memory in Lua",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Pablo Martins Musa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Typing dynamic languages ? a review",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Hugo Musso Gualandi",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Lunatik: Scripting de Kernel de Sistema Operacional com Lua",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Lourival Pereira Vieira Neto",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Conversão de regexes para Parsing Expression Grammars",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Marcelo Oikawa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Synchronous Reactive Language based on Implicit Invocation",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Francisco Figueiredo Goytacaz Sant'Anna",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Implementando Finalizadores via Referências Fracas",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Alexandra Barreto Assad de Barros",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo sobre APIs de Linguagens de Script",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "Hisham Hashem Muhammad",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Integração entre a Linguagem Lua e o `Common Language Runtime'",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Fabio Mascarenhas",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Estudo sobre o Desenvolvimento Orientado a Serviços",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "João Coutinho Machado",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Implementação da Linguagem de Programação SLOTH",
+          "ano_inicio": 2002,
+          "ano_conclusao": 2002,
+          "orientando": "DIEGO FERNANDES NEHAB",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "O Modelo de I/O baseado em Streams Aplicado ao Desenvolvimento de Aplicações Gráficas Orientadas a Eventos",
+          "ano_inicio": 1999,
+          "ano_conclusao": 1999,
+          "orientando": "Marcela Ozorio Suarez",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Ferramenta CGILua em Múltiplas APIs com o Servidor HTTP",
+          "ano_inicio": 1999,
+          "ano_conclusao": 1999,
+          "orientando": "Anna Magdalena Hester",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Extensão Dinâmica de Agentes CORBA",
+          "ano_inicio": 1998,
+          "ano_conclusao": 1998,
+          "orientando": "Marco Aurélio Catunda Martins",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "TkVIX - Um Toolkit para Construção de Intefaces Gráficas em Lua",
+          "ano_inicio": 1997,
+          "ano_conclusao": 1997,
+          "orientando": "André Oliveira Costa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "VIX - Um Framework para Suporte a Objetos Visuais Interativos",
+          "ano_inicio": 1996,
+          "ano_conclusao": 1996,
+          "orientando": "André Luiz Clínio dos Santos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Ferramenta para Programação Literária Modular",
+          "ano_inicio": 1996,
+          "ano_conclusao": 1996,
+          "orientando": "Carlos Roberto Serra Pinto Cassino",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Implementação para a Linguagem School",
+          "ano_inicio": 1996,
+          "ano_conclusao": 1996,
+          "orientando": "Renato Ferreira Borges",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Estudo sobre Interoperabilidade entre Linguagens Orientadas a Objetos",
+          "ano_inicio": 1996,
+          "ano_conclusao": 1996,
+          "orientando": "RENATO FONTOURA DE GUSMAO CERQUEIRA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um sistema de depuração para a linguagem de extensão Lua",
+          "ano_inicio": 1996,
+          "ano_conclusao": 1996,
+          "orientando": "Tomás Guisasola Gorham",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Tche - um ambiente visual Lua",
+          "ano_inicio": 1995,
+          "ano_conclusao": 1995,
+          "orientando": "André Filipe Lessa Carregal",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "O desenvolvimento de um compilador Miranda usando um método orientado a objetos",
+          "ano_inicio": 1994,
+          "ano_conclusao": 1994,
+          "orientando": "Carlos Henrique Cabral Duarte",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Metodologias de Desenvolvimento de Software: Confronto entre suas metas e sua utilização em uma grande empresa",
+          "ano_inicio": 1994,
+          "ano_conclusao": 1994,
+          "orientando": "Sônia Souza de Carvalho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "A bidirectional programming interface between the Lua and Python scripting languages",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Guilherme Dantas de Oliveira",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Extrator de Tipos Dinâmico para Lua",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Felipe Vieira Côrtes",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Crowdkill: Beat-?em-up em Lua",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Marcelo Ramos Costa Santos. Mr",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Malu: Macros em Lua",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Guilherme de Campos Lima Berger",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "IFIP WG 2",
+        "apresentacao": "16 (Language design).An Alternative Formalization for References",
+        "ano": 2024,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "D-Conf",
+        "apresentacao": "Keynote",
+        "ano": 2022,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Lua in Moscow",
+        "apresentacao": "Why (and why not) Lua",
+        "ano": 2019,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "The 39th Annual Meeting of the TeX Users Group",
+        "apresentacao": "Reconhecimento pelo desenvolvimento de Lua",
+        "ano": 2018,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Keynote speaker na CurryOn Barcelona",
+        "apresentacao": "CurryOn Barcelona",
+        "ano": 2017,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Lua in Moscow",
+        "apresentacao": "Functions in Lua",
+        "ano": 2017,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IFIP WG 2",
+        "apresentacao": "16.Integers in Lua",
+        "ano": 2015,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "SNAPL 2015 - The 1st Summit oN Advances in Programming Languages",
+        "apresentacao": "(Sem apresentação; fui convidado para avaliar os trabalhos e participar das dusicussões)",
+        "ano": 2015,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IFIP WG 2",
+        "apresentacao": "16 (Language Design).DIY OO Systems",
+        "ano": 2014,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Scripting Languages and Frameworks: Analysis and Verification",
+        "apresentacao": "What About Lua?",
+        "ano": 2014,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IFIP WG 2",
+        "apresentacao": "8 (Functional Programming).An Overview of Lua",
+        "ano": 2013,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IFIP WG 2",
+        "apresentacao": "16 (Language Design).Small is Beautiful: the design of Lua",
+        "ano": 2012,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IFIP WG 2",
+        "apresentacao": "16 (Language Design).LPeg: an Alternative to regexs based on PEGs",
+        "ano": 2012,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "18th International Workshop on Functional and (Constraint) Logic Programming",
+        "apresentacao": "Programming with Multiple Paradigms in Lua",
+        "ano": 2009,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "23rd Annual ACM Symposium on Applied Computing",
+        "apresentacao": "Membro do Comitê de Programa",
+        "ano": 2008,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "ACM Dynamic Languages Symposium",
+        "apresentacao": "Membro do comitê de programa",
+        "ano": 2008,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Free Software Rio",
+        "apresentacao": "A Linguagem de Programação Lua",
+        "ano": 2008,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "TeX USers Group Conference",
+        "apresentacao": "About Lua/Lua and LuaTeX",
+        "ano": 2007,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Third International ACM SIGPLAN/SIGOPS Conference on Virtual Execution Environments",
+        "apresentacao": "Membro do Comitê de Programa",
+        "ano": 2007,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "14th International Conference on Compiler Construction (CC)",
+        "apresentacao": "Membro do Comitê de Programa",
+        "ano": 2005,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "ACM SIGPLAN Workshop on Interpreters, Virtual Machines, and Emulators",
+        "apresentacao": "Membro do Comitê de Programa",
+        "ano": 2003,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": [
+      {
+        "autores": "RODRIGUEZ, N. ; IERUSALIMSCHY, R.",
+        "evento": "Lua Workshop",
+        "ano": 2023,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "IERUSALIMSCHY, R.. Lua Workshop. 2022. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L. H.",
+        "evento": "Lua Workshop",
+        "ano": 2018,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L. H.",
+        "evento": "Lua Workshop",
+        "ano": 2017,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L. H.",
+        "evento": "Lua Workshop",
+        "ano": 2016,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "IERUSALIMSCHY, R.. Dynamic Language ymposium (DLS). 2016. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L. H.",
+        "evento": "Lua Workshop",
+        "ano": 2015,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L. H.",
+        "evento": "Lua Workshop",
+        "ano": 2014,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L. H.",
+        "evento": "Lua Workshop",
+        "ano": 2013,
+        "natureza": "Concerto",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "IERUSALIMSCHY, R.; FIGUEIREDO, L. H.",
+        "evento": "Lua Workshop",
+        "ano": 2012,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      }
+    ]
+  },
+  "bancas": {
+    "mestrado": [],
+    "doutorado": [
+      {
+        "descricao": "Roberto Bigonha; LORIO, V.; BIGONHA, M.; IERUSALIMSCHY, R.; QUINTAO, F.; MUSICANTE, M.. Participação em banca de LEONARDO VIEIRA DOS SANTOS REIS. ADAPTABLE PARSING EXPRESSION GRAMMARS. 2014. Tese (Doutorado em Ciências da Computação) - Universidade Federal de Minas Gerais.",
+        "ano": 2014,
+        "tipo": "Tese de Doutorado",
+        "aluno": "LEONARDO VIEIRA DOS SANTOS REIS",
+        "membros_banca": [
+          "Roberto Bigonha",
+          "LORIO, V.",
+          "BIGONHA, M.",
+          "IERUSALIMSCHY, R.",
+          "QUINTAO, F.",
+          "MUSICANTE, M."
+        ],
+        "titulo_trabalho": "ADAPTABLE PARSING EXPRESSION GRAMMARS",
+        "curso": "Tese (Doutorado em Ciências da Computação)",
+        "universidade": "Universidade Federal de Minas Gerais"
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": [
+      {
+        "descricao": "IERUSALIMSCHY, R.. Concurso Público para Professor Adjunto. 2015. Universidade do Estado do Rio de Janeiro.",
+        "ano": 2015,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade do Estado do Rio de Janeiro.",
+        "universidade": ""
+      },
+      {
+        "descricao": "IERUSALIMSCHY, R.. Concurso para Professor. 2014. Universidade Federal Fluminense.",
+        "ano": 2014,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Federal Fluminense.",
+        "universidade": ""
+      },
+      {
+        "descricao": "IERUSALIMSCHY, R.. Concurso de Ingresso na Carreira - Professor Doutor. 2010. Universidade de São Paulo.",
+        "ano": 2010,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade de São Paulo.",
+        "universidade": ""
+      },
+      {
+        "descricao": "Ierusalimschy, Roberto. Concurso para Professor Adjunto. 2009. Universidade Federal de Minas Gerais.",
+        "ano": 2009,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Federal de Minas Gerais.",
+        "universidade": ""
+      },
+      {
+        "descricao": "IERUSALIMSCHY, R.. concurso para Professor. 2005. Universidade Estadual de Campinas.",
+        "ano": 2005,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Estadual de Campinas.",
+        "universidade": ""
+      },
+      {
+        "descricao": "IERUSALIMSCHY, R.. concurso para Professor Adjunto. 2005. Universidade Federal Fluminense.",
+        "ano": 2005,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Federal Fluminense.",
+        "universidade": ""
+      },
+      {
+        "descricao": "IERUSALIMSCHY, R.. Concurso para Professor Doutor. 2004. Universidade de São Paulo.",
+        "ano": 2004,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade de São Paulo.",
+        "universidade": ""
+      },
+      {
+        "descricao": "IERUSALIMSCHY, R.. concurso para Professor Doutor. 2004. Universidade de São Paulo.",
+        "ano": 2004,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade de São Paulo.",
+        "universidade": ""
+      },
+      {
+        "descricao": "IERUSALIMSCHY, R.. Concurso para Livre-docência. 2008. Universidade Estadual de Campinas.",
+        "ano": 2008,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Estadual de Campinas.",
+        "universidade": ""
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 35,
+    "total_livros": 6,
+    "total_capitulos": 8,
+    "total_trabalhos_congressos": 61,
+    "total_projetos_pesquisa": 1,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 5,
+    "total_orientacoes_concluidas": 41,
+    "total_orientacoes_andamento": 0
+  }
+}

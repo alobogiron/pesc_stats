@@ -1,0 +1,2906 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "1104157433492666",
+    "nome_completo": "Sérgio Colcher",
+    "nome_citacoes": "COLCHER, S.;COLCHER, SÉRGIO;COLCHER, S?RGIO;COLCHER, SERGIO",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente 225, Departamento de Informática, Prédio do RDC, Sala 418 Gávea 22453900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4348 URL da Homepage: http://www.inf.puc-rio.br/~colcher",
+    "atualizacao_cv": "14/05/2026",
+    "url": "http://lattes.cnpq.br/1104157433492666",
+    "texto_resumo": "Sérgio Colcher é professor do quadro principal do Departamento de Informática (DI) da PUC-Rio desde 2001. Obteve os títulos de Engenheiro de Computação (1991), Mestre em Ciências em Informática (1993) e Doutor em Ciências em Informática (1999), todos pela PUC-Rio, além do Pós-Doutorado (2003) no ISIMA (Institute Supérieur D?Informatique et de Modelisation des Applications ? Université Blaise Pascal, Clermont Ferrand, França). Trabalhou no Centro Científico da IBM-Rio e na Divisão de Desenvolvimento de Hardware da COBRA (Computadores Brasileiros S/A). Foi também professor dos cursos de MBA em Gerência de Telecomunicação e MBA em e-Business da Fundação Getúlio Vargas. É autor do livro ?Redes de Computadores: das LANs, MANs e WANs às Redes ATM? (Ed. Campus/Elsevier 1995), livro indicado ao prêmio Jabuti em 1996, e do livro ?VoIP: Voz sobre IP? (Ed. Campus/Elsevier 2005). Em 2012 recebeu o prêmio Personalidade do Ano da Assespro-RJ (Associação Brasileira das Empresas Brasileiras de Tecnologia da Informação, Software e Internet), na categoria Destaque do Setor Acadêmico, prêmio instituído em 1997, com o propósito de reverenciar publicamente as personalidades que, no ano de sua concessão, tenham se destacado por sua contribuição ao segmento de Informática. O Prof. Colcher foi Coordenador Geral dos cursos de graduação do DI PUC-Rio e Coordenador da Graduação da Engenharia da Computação de 2008 a 2015. Atualmente é coordenador do Laboratório TeleMídia, Coordenador Geral do Núcleo BTGPactual/PUC-Rio de Inovação Tecnológica, Coordenador do Núcleo LEARN de pesquisa em Aprendizado de Máquina e Coordenador Acadêmico do Curso de Pós-Graduação em Redes de Computadores da PUC-Rio (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1993",
+      "ano_conclusao": "1999",
+      "descricao": "Título: Um Meta Modelo para Aplicações e Serviços de Comunicação Adaptáveis com Qualidade de Serviço O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 1999. Orientador: Luiz Fernando Gomes Soares. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Redes e Telecomunicações. Setores de atividade: Informática."
+    },
+    {
+      "tipo": "Mestrado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1991",
+      "ano_conclusao": "1993",
+      "descricao": "Título: Uma Arquitetura Aberta para Sistemas Hipermídia O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 1993. Orientador: Luiz Fernando Gomes Soares. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil."
+    },
+    {
+      "tipo": "Graduação em Engenharia de Computação",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1985",
+      "ano_conclusao": "1991",
+      "descricao": ""
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Fundação Getúlio",
+      "instituicao_nome": "Fundação Getúlio",
+      "instituicao_sigla": null,
+      "instituicao_pais": null,
+      "periodo": "1999 - 2001",
+      "ano_inicio": "1999",
+      "ano_fim": "2001",
+      "vinculo": "Professor Visitante",
+      "enquadramento": "Professor Visitante",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Getúlio Vargas, FGV, Brasil",
+      "instituicao_nome": "Fundação Getúlio Vargas",
+      "instituicao_sigla": "FGV",
+      "instituicao_pais": "Brasil",
+      "periodo": "04/2000 - 02/2001",
+      "ano_inicio": "2000",
+      "ano_fim": "2001",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Fundação Getúlio Vargas, FGV, Brasil",
+      "instituicao_nome": "Fundação Getúlio Vargas",
+      "instituicao_sigla": "FGV",
+      "instituicao_pais": "Brasil",
+      "periodo": "11/1999 - 02/2001",
+      "ano_inicio": "1999",
+      "ano_fim": "2001",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2001 - Atual",
+      "ano_inicio": "2001",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor Adjunto",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1998 - 2000",
+      "ano_inicio": "1998",
+      "ano_fim": "2000",
+      "vinculo": "Bolsista",
+      "enquadramento": "Professor em Cursos de Especialização",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2018 - Atual",
+      "ano_inicio": "2018",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2018 - Atual",
+      "ano_inicio": "2018",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "09/2010 - Atual",
+      "ano_inicio": "2010",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "06/2010 - Atual",
+      "ano_inicio": "2010",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2009 - Atual",
+      "ano_inicio": "2009",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Vice-Reitoria Acadêmica, Instituto de Mídias Digitais."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2001 - Atual",
+      "ano_inicio": "2001",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2001 - Atual",
+      "ano_inicio": "2001",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Projeto TV 3.0",
+      "ano_inicio": "2023",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Para o desenvolvimento da próxima geração de TV Digital Terrestre (Projeto \"TV 3.0\"), decidiu-se que o Fórum SBTVD publicaria uma Chamada de Propostas para qualquer organização interessada em enviar suas tecnologias candidatas propostas para qualquer um dos componentes ou subcomponentes do sistema. A resposta a esta chamada de propostas e#769; dividida em três fases. As respostas a#768; Fase 1 incluíam a identificação de cada tecnologia candidata proposta, pessoas de contato adequadas e o preenchimento do formulário de conformidade dos componentes ou subcomponentes apropriados, de acordo com a tecnologia candidata proposta. Na Fase 2, os proponentes forneceram equipamentos (hardware e/ou software) para permitir a avaliação e comparação das tecnologias candidatas. Os testes da Fase 2 foram objeto do Termo de Execução Descentralizada (TED) n 01/2021 do Ministério das Comunicações. Na Fase 3 dos trabalhos em codificação de aplicações, estão sendo desenvolvidas as adaptações e extensões necessárias ao DTV Play (perfil de receptor FSD_09 do middleware Ginga, conforme definido na Seção 9 da ABNT NBR 15606-1:2021), incluindo as propostas satisfatoriamente testadas na Fase 2 do Projeto TV 3.0 do Fórum SBTVD e considerando incluir partes das propostas submetidas apenas de forma documental (dependendo dos resultados de suas prototipações), e preenchendo eventuais lacunas em relação aos requisitos definidos no documento \"CfP Fase 2 / Teste e Avaliação: Projeto TV 3.0\" do Fórum SBTVD. Como resultado da atividade de pesquisa e desenvolvimento em codificação de aplicações, devem ser produzidos protótipos de módulos de middleware para o suporte aos casos de uso priorizados pelo Fórum SBTVD, um documento de especificação das APIs e comportamentos do middleware para suporte aos casos de uso, um documento de especificação das APIs harmonizado, um documento de especificação de assertivas de teste, um documento de especificação de casos de teste, aplicações de teste, uma ferramenta de autoria/criação com API aberta de integração e um ambiente de execução modular inicial integrado.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (3) Doutorado: (3) . Integrantes: Sérgio Colcher - Coordenador / Daniel de Sousa Moraes - Integrante / Alvaro Mario Guerra da Veiga - Integrante / BOARO, JOSÉ - Integrante / PEDRO THIAGO CUTRIN DOS SANTOS - Integrante / Yan Martins Braz Gurevitz Cunha - Integrante / COSTA, POLYANA - Integrante / Paulo Victor Borges Oliveira Lima - Integrante / Felippe Nagato - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Daniel de Sousa Moraes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alvaro Mario Guerra da Veiga",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "BOARO, JOSÉ",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "PEDRO THIAGO CUTRIN DOS SANTOS",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Yan Martins Braz Gurevitz Cunha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "COSTA, POLYANA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Paulo Victor Borges Oliveira Lima",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Felippe Nagato",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Trustworthy Ad Hoc Teamwork",
+      "ano_inicio": "2022",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: This project explores cutting-edge research on trustworthy ad hoc teamwork in human-robot collaborations. The key aim of this research work is to create novel algorithms for learning agents (e.g., softbots or robots), whereby agents can learn to engage in cooperative tasks without any pre-coordination protocols. In particular, the learning agent must effectively coordinate with other agents in order to complete an intended task, not relying on any predefined coordination strategy. The proposed research plan addresses precisely the problem of adhoc teamwork in settings closer to those of real-world scenarios with humans and robots, addressing the following central research question: How can a trustworthy robot learn to cooperate with unknown human teammates in complex domains, whereby the robot does not have any pre-coordination protocol and must learn to cooperate on the fly? We break down the research question above, considering the following sub-problems: 1. How can a trustworthy robot learn the cooperative task in the absence of a reward signal and without full observability of states and actions? How to tailor the ad hoc teamwork algorithms in order to increase a human?s trust in robots? 2. How can a multimodal human-robot interaction (e.g., speech recognition and synthesis, recognition of people and intentions, social robot expression) provide valuable information to facilitate the development of trust within ad hoc teamwork scenarios? 3. What factors may influence human-robot trust within ad hoc teamwork and how can the robot?s actions and intentions facilitate the development of trust?. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Sérgio Colcher - Coordenador / Julio Cesar Duarte - Integrante / ALBERTO SARDINHA - Integrante.",
+        "Descrição: The goal of the Trustworthy Ad Hoc Teamwork project is to create an autonomous agent that can collaborate efficiently and robustly with previously unknown teammates. To do so, the group of researchers will create new artificial intelligence teamwork algorithms and explore the issue of trust in human-robot interactions, addressing a vital question: How can a robot learn to cooperate on the fly with unknown human teammates in complex domains, and at the same time foster the development of a trusting relationship?. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) Doutorado: (4) . Integrantes: Jose Alberto Rodrigues Pereira Sardinha - Coordenador / PAIVA, ANA - Integrante / Francisco S. Melo - Integrante / Sérgio Colcher - Integrante / lEduardo Laber - Integrante. Financiador(es): Air Force Office of Scientific Research - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Julio Cesar Duarte",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "ALBERTO SARDINHA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Jose Alberto Rodrigues Pereira Sardinha",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "PAIVA, ANA",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Francisco S",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Air Force Office of Scientific Research",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Aprendizado de Máquina na Detecção de Cenas de Vídeo com Conteúdo Impróprio em Repositórios de Videos Educacionais",
+      "ano_inicio": "2019",
+      "ano_conclusao": "2021",
+      "descricao": [
+        "Descrição: A popularização de equipamentos de captura de vídeo, bem como de serviços para seu armazenamento e transmissão, possibilitou a produção de um enorme volume de dados em vídeo. Esse cenário apresenta um desafio no que concerne o controle do conteúdo que é carregado, armazenado e exibido nesses serviços. Serviços como o video@RNP, ICD e ITVRP, por exemplo, permitem a formação de redes de compartilhamento de vídeo qfocadas em conteúdo educacional e possuem sérias restrições a conteúdos considerados impróprios. A classificação desse grande volume de conteúdo de vídeo requer uma análise automática de forma eficiente e prática. Nesse escopo, este projeto visa a investigação de técnicas de Aprendizado de Máquina para a construção de uma ferramenta de detecção de cenas com conteúdo impróprio em repositórios de vídeos educacionais. Nesse contexto específico, entende-se como cenas impróprias aquelas que contenham conteúdos com inadequações extremas, como: violência de forte impacto (tortura, mutilação, desmembramento, gore); elogio ou apologia da violência; crueldade; crimes de ódio; aborto; pena de morte; eutanásia; pedofilia; sexo explícito; situações sexuais complexas/de forte impacto (incesto, sexo grupal, fetiches violentos e pornografia); Elogio ou apologia ao uso de drogas ilícitas.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Sérgio Colcher - Coordenador / Álan Livio Vasconcelos Guedes - Integrante / Antonio José Grandson Busson - Integrante / Gabriel Noronha Pereira dos Santos - Integrante / Daniel de Sousa Moraes - Integrante / DE FREITAS, PEDRO VINICIUS A. - Integrante. Financiador(es): Microsoft Corporation - Auxílio financeiro / Rede Nacional de Ensino e Pesquisa - Bolsa."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Álan Livio Vasconcelos Guedes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Antonio José Grandson Busson",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Gabriel Noronha Pereira dos Santos",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Daniel de Sousa Moraes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "DE FREITAS, PEDRO VINICIUS A",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Microsoft Corporation",
+          "tipo_apoio": "Auxílio financeiro"
+        },
+        {
+          "nome": "Rede Nacional de Ensino e Pesquisa",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    },
+    {
+      "nome": "Aprendizado de Máquina na Detecção de Perfis de Redes Sociais com Promoção de Dispositivos Eletrônicos para Fumar",
+      "ano_inicio": "2019",
+      "ano_conclusao": "2020",
+      "descricao": [
+        "Descrição: No Brasil, a importação, comercialização e publicidade de Dispositivos Eletrônicos para Fumar (DEFs) foi proibida desde 2009 pela ANVISA com a publicação da resolução RDC N°- 46 no Diário Oficial da União. No entanto, o marketing e a promoção desses produtos pela Internet são comuns. Apesar das redes sociais terem suas políticas e métodos para a detecção de conteúdo inadequado, ainda é bastante difícil acompanhar e regular anúncios sobre produtos proibidos como os DEFs. Neste escopo, este projeto tem como objetivo explorar métodos de Inteligência Artificial para construção de uma ferramenta base tecnológica para o auxílio no combate à divulgação, promoção ou venda de DEFs que, quando implementada, poderá fazer parte de um conjunto de artefatos que facilitarão o mapeamento de perfis de influenciadores digitais que promovem DEFs.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Sérgio Colcher - Coordenador / Álan L. V. Guedes - Integrante / Antonio José Grandson Busson - Integrante / Daniel de Sousa Moraes - Integrante. Financiador(es): Instituto Nacional de Câncer - Auxílio financeiro / Fundação Oswaldo Cruz - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Álan L",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Instituto Nacional de Câncer",
+          "tipo_apoio": "Auxílio financeiro"
+        },
+        {
+          "nome": "Fundação Oswaldo Cruz",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Aprendizado de Máquina na Geofísica",
+      "ano_inicio": "2018",
+      "ano_conclusao": "2021",
+      "descricao": [
+        "Descrição: O objetivo deste projeto é desenvolver pesquisas e ferramentas de Aprendizado de Máquina e Aprendizado Profundo na área de Geofísica, especificamente voltadas para a integração de rocha/perfil/sísmica, correlacionando diversos atributos sísmicos e informações de perfis de poços, tratando ainda da quantificação de incertezas. São propostos sistemas inteligentes de informação e dados para a tomada de decisão em projetos exploratórios com objetivo de fornecer suporte à interpretação de atributos sísmicos para a avaliação de prospectos e caracterização de reservatórios, assim como auxiliar na classificação automática da qualidade sísmica, que é algo importante para o processamento e gestão de dados sísmicos. Este projeto propicia a integração de know-how entre as áreas de Geofísica e Sistemas de Informação para aplicações nas competências de interesse para a Indústria de Petróleo e Gás. O conhecimento teórico da metodologia também fornece oportunidades de divulgação da tecnologia na forma de palestras, treinamentos e workshops. Entre os benefícios das ferramentas desenvolvidas tem-se (i) o suporte à interpretação de atributos sísmicos para avaliação de prospectos, e para a caracterização de reservatórios, (ii) análise de risco aplicada na interpretação quantitativa de atributos sísmicos (iii) classificação automática de qualidade sísmica, dando importante suporte para o processamento sísmico e gestão de dados.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (4) Doutorado: (2) . Integrantes: Sérgio Colcher - Coordenador / Antonio José Grandson Busson - Integrante / Ruy Luiz Milidiú - Integrante / Pedro Ferreira Alves Pinto - Integrante / Luis Felipe Müller de Oliveira Henriques - Integrante / JESUS, IVAN - Integrante / Eduardo Betine - Integrante / Mateus Cabral - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Antonio José Grandson Busson",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ruy Luiz Milidiú",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Pedro Ferreira Alves Pinto",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luis Felipe Müller de Oliveira Henriques",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "JESUS, IVAN",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Betine",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Mateus Cabral",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Aplicações e Infra-estrutura de Vídeo Interativo em Banda Larga",
+      "ano_inicio": "2002",
+      "ano_conclusao": "2008",
+      "descricao": [
+        "Descrição: Desenvolvimento de tecnologia para aplicações de vídeo interativo em banda larga, em especial TV interativa, e para o projeto e a gerência de redes de comunicação visando: 1. a apresentação sincronizada (no tempo e no espaço) de documentos hipermídia estruturados; 2. a construção de exibidores (formatadores) temporais, em particular, o desenvolvimento de aplicativos clientes de controle de exibição que poderão ser utilizados em set-top boxes; e 3. o desenvolvimento de plataformas, algoritmos e métodos para o planejamento e o projeto otimizado de redes de comunicação em banda larga com QOS.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (0) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Sérgio Colcher - Integrante / Luiz Fernando Gomes Soares - Coordenador / Rogério Ferreira Rodrigues - Integrante / Philippe Mahey - Integrante / Bruno Bachelet - Integrante. Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luiz Fernando Gomes Soares",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Rogério Ferreira Rodrigues",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Philippe Mahey",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Bruno Bachelet",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Engenharia de Redes e Serviços em Banda Larga",
+      "ano_inicio": "2002",
+      "ano_conclusao": "2004",
+      "descricao": [
+        "Descrição: rojeto conjunto do Departamento de Informática e do CETUC que visa o estudo integrado de vários pontos da especificação, projeto, implementação, gerenciamento, validação e dimensionamento de serviços de telecomunicações, subdividindo-se em: (i) Engenharia de Serviços de Telecomunicações, visando a definição do modelo de adaptação e de funções comuns à provisão de facilidades fim-a fim, como a provisão de QoS; (ii) Redes de Acesso em Banda Larga, visando estudo e desenvolvimento de algoritmos e software aplicativo para planejamento de sistemas híbridos de acesso e sistemas de rádio acesso ponto-multiponto em banda larga nas faixas de microondas e ondas milimétricas; (iii) Sistemas Hipermídia - para o suporte a aplicações com exigências rígidas de QoS fim-a-fim no tratamento de documentos hipermídia, tais como Telemedicina e TV interativa.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (0) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Sérgio Colcher - Integrante / Luiz Fernando Gomes Soares - Integrante / Antônio Tadeu Azevedo Gomes - Integrante / Luciana Lima - Integrante / Marcelo Ferreira Moreno - Integrante / Carlos de Salles Soatres Neto - Integrante / Marlene Sabino Pontes - Coordenador / Rogério Ferreira Rodrigues - Integrante. Financiador(es): Financiadora de Estudos e Projetos - Auxílio financeiro / Fundo Nacional de Telecomunicações - Auxílio financeiro. Número de produções C, T & A: 3"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luiz Fernando Gomes Soares",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Antônio Tadeu Azevedo Gomes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luciana Lima",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Marcelo Ferreira Moreno",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carlos de Salles Soatres Neto",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Marlene Sabino Pontes",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Rogério Ferreira Rodrigues",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Financiadora de Estudos e Projetos",
+          "tipo_apoio": "Auxílio financeiro"
+        },
+        {
+          "nome": "Fundo Nacional de Telecomunicações",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Engenharia de Serviços de Telecomunicações",
+      "ano_inicio": "2001",
+      "ano_conclusao": "2002",
+      "descricao": [
+        "Descrição: investigação dos aspectos de especificação, projeto, implementação e validação de serviços de telecomunicações e sua implantação sobre arquiteturas de rede existentes e futuras. A ênfase é a busca de modelos para a análise e comparação de mecanismos de adaptação e programação de serviços em redes de comunicação, fornecendo uma base para a representação de aspectos de qualidade de serviço (Quality of Service - QoS) e comunicação de grupo em serviços de comunicação. Coordenador: Sérgio Colcher Período: 2001 a 2002 Apoio: CNPq (Projeto Científico Tecnológico - Kit Enxoval Recém-Doutor - PROTEM/CC, processo individual no 68.0062/01-7). Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (0) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Sérgio Colcher - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 3"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "RaVEL",
+      "ano_inicio": "1995",
+      "ano_conclusao": "1999",
+      "descricao": [
+        "Descrição: Visava o desenvolvimento de pesquisas em Redes ATM. Apoiado pela Embratel (Experiência de Campo em Faixa Larga), IBM Brasil e Petrobras (projeto da rede ATM Petrobras), como parceiras industriais.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (0) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Sérgio Colcher - Integrante / Luiz Fernando Gomes Soares - Coordenador / Guido Lemos de Souza Filho - Integrante / Marcus Antônio A Rodrigues - Integrante / Antônio Tadeu Azevedo Gomes - Integrante / Débora Christina Muchaluat-Saade - Integrante / Oscar Thyago Mota - Integrante / Rogério Ferreira Rodrigues - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 3"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luiz Fernando Gomes Soares",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Guido Lemos de Souza Filho",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Marcus Antônio A Rodrigues",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Antônio Tadeu Azevedo Gomes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Débora Christina Muchaluat-Saade",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Oscar Thyago Mota",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Rogério Ferreira Rodrigues",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Projeto Hyperprop",
+      "ano_inicio": "1994",
+      "ano_conclusao": "1998",
+      "descricao": [
+        "Descrição: visa a elaboração um sistema aberto hipermídia distribuído capaz de fornecer facilidades hipermídia às suas diversas aplicações usuárias. Dentre as aplicações desenvolvidas foram escolhidas a videoconferência, a videotelefonia, o correio eletrônico multimídia, os ambientes para desenvolvimento de sistemas de instrução automatizados e os sistemas de informação histórico-culturais. Hoje, aplicações na área de educação a distância e documentos de vídeo para TV também fazem parte do universo de estudo. Coordenador Geral: L. F. G. Soares Período: desde 1994 Parceiros: PUC-Rio, UFRN (Departamento de Informática e Matemática Aplicada), a USP-SC (Instituto de Ciências Matemáticas e Sistemas de Computação) e a UTFSM (Departamento de Eletrônica) de Valparaíso - Chile, Instituto ISIMA da Université Blaise-Pascal e o LAAS/CNRS. Apoio: CNPq (PROTEM), CAPES/COFECUB. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (0) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Sérgio Colcher - Integrante / Luiz Fernando Gomes Soares - Coordenador / Marco Antônio Casanova - Integrante / Guido Lemos de Souza Filho - Integrante / Antônio Tadeu Azevedo Gomes - Integrante / Débora Christina Muchaluat-Saade - Integrante / Marcelo Ferreira Moreno - Integrante / Rogério Ferreira Rodrigues - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 3"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luiz Fernando Gomes Soares",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Marco Antônio Casanova",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Guido Lemos de Souza Filho",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Antônio Tadeu Azevedo Gomes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Débora Christina Muchaluat-Saade",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Marcelo Ferreira Moreno",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Rogério Ferreira Rodrigues",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [
+    {
+      "nome": "Software Demultiplexador TV 3.0",
+      "ano_inicio": "2023",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Este projeto tem por objetivo o levantamento das funcionalidades necessárias, o estudo, o projeto, o desenvolvimento e a implementação do software demultiplexador para a nova geração do Sistema Brasileiro de TV Digital Interativa, a partir das especificações técnicas contidas nos padrões ATSC 3.0 e seus módulos ROUTE/DASH, com as adaptações correspondentes apresentadas nos padrões definidos pelas normas brasileiras da TV 3.0.. Situação: Em andamento; Natureza: Desenvolvimento. Integrantes: Sérgio Colcher - Coordenador / Daniel de Sousa Moraes - Integrante / Alvaro Mario Guerra da Veiga - Integrante / Yan Martins Braz Gurevitz Cunha - Integrante / Paulo Victor Borges Oliveira Lima - Integrante / Felippe Nagato - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Daniel de Sousa Moraes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alvaro Mario Guerra da Veiga",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Yan Martins Braz Gurevitz Cunha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Paulo Victor Borges Oliveira Lima",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Felippe Nagato",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Merchant Reconciliation System (MRS) for Personal Financial Management (PFM)",
+      "ano_inicio": "2020",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: O objetivo deste trabalho é propor a construção do Classificador de Movimentações Financeiras capaz de produzir uma separação e identificação de tipos de movimentação financeiras que fornecerão uma ferramenta para o acompanhamento e gestão do fluxo financeiro categorizado para clientes do BTG Consumer Banking.. Situação: Em andamento; Natureza: Desenvolvimento. Integrantes: Sérgio Colcher - Coordenador / Pedro Vinícius Almeida de Freitas - Integrante / Daniel de Sousa Moraes - Integrante / BUSSON, ANTONIO J. G. - Integrante / Alvaro Mario Guerra da Veiga - Integrante / JESUS, IVAN - Integrante / Eduardo S. Vieira - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Pedro Vinícius Almeida de Freitas",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Daniel de Sousa Moraes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "BUSSON, ANTONIO J",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "BACEN Trender",
+      "ano_inicio": "2018",
+      "ano_conclusao": "2019",
+      "descricao": [
+        "Descrição: Sistema de avaliação do impacto da divulgação das atas do COPOM no comportamento da taxa de Juros usando técnicas de aprendizado de máquina/Deep Learning.. Situação: Concluído; Natureza: Desenvolvimento. Integrantes: Sérgio Colcher - Coordenador / Gabriel N. P. dos Santos - Integrante / Ruy Luiz Milidiú - Integrante / Pedro Vinícius Almeida de Freitas - Integrante / Paulo Renato Conceição Mendes - Integrante / JOÃO PAULO FORNY DE MELO - Integrante / Alvaro Mario Guerra da Veiga - Integrante / Miguel Mendes de Brito - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Gabriel N",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Voice surveillance",
+      "ano_inicio": "2018",
+      "ano_conclusao": "2019",
+      "descricao": [
+        "Descrição: Sistema baseado em técnicas de Linguística Computacional para Monitoramento de Informações Sensíveis em conversações de voz. Situação: Concluído; Natureza: Desenvolvimento. Integrantes: Sérgio Colcher - Coordenador / Ruy Luiz Milidiú - Integrante / Alvaro Mario Guerra da Veiga - Integrante / Luis Felipe Müller de Oliveira Henriques - Integrante / Maria Claudia de Freitas - Integrante / Matheus Moura Malta de Araújo - Integrante / Bruno Frederico Maciel Gutierrez - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Ruy Luiz Milidiú",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alvaro Mario Guerra da Veiga",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luis Felipe Müller de Oliveira Henriques",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Maria Claudia de Freitas",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Matheus Moura Malta de Araújo",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Bruno Frederico Maciel Gutierrez",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Plataforma AML (Anti Money Laundering)",
+      "ano_inicio": "2017",
+      "ano_conclusao": "2020",
+      "descricao": [
+        "Situação: Concluído; Natureza: Desenvolvimento. Integrantes: Sérgio Colcher - Coordenador / Simone D. J. Barbosa - Integrante / Ruy Luiz Milidiú - Integrante / DIEGO KATZ - Integrante / JOÃO PAULO FORNY DE MELO - Integrante / Alvaro Mario Guerra da Veiga - Integrante / Guilherme Sant?Anna Varela - Integrante / Gustavo Madeira Krieger - Integrante / Juliana Christina Carvalho de Araujo - Integrante / Lucas Ribeiro Borges - Integrante / Luis Felipe Müller de Oliveira Henriques - Integrante / Alysson Gomes de Sousa - Integrante / André Davys Carvalho Melo de Oliveira - Integrante / Dalai dos Santos Ribeiro - Integrante / Gabriel da Silva Siqueira - Integrante / Gabriela Bevilacqua Gutierrez - Integrante / Joyce Araujo dos Santos - Integrante / Mateus Martelleto Bressane Rezende - Integrante / Raul de Araújo Lima - Integrante / Vinicius Ferreira de Souza - Integrante / Sérgio Lifschitz - Integrante / Eduardo Maria Terra Morelli - Integrante / Rafael Pereira de Oliveira - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Simone D",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Digibot: Robot Advisor",
+      "ano_inicio": "2017",
+      "ano_conclusao": "2019",
+      "descricao": [
+        "Descrição: Desenvolvimento de u serviço de alocação de portfolios de investimento levando em conta informações de perfil, utilizando técnicas de otimização e aprendizado de máquina.. Situação: Concluído; Natureza: Desenvolvimento. Integrantes: Sérgio Colcher - Coordenador / Ruy Luiz Milidiú - Integrante / Pedro Ferreira Alves Pinto - Integrante / DIEGO KATZ - Integrante / JOÃO PAULO FORNY DE MELO - Integrante / Carlos Eduardo Rosar Kós Lassance - Integrante / Eduardo Henrique Costa Braga de Oliveira - Integrante / Guilherme Augusto Schütz - Integrante / Igor Leandro Vieira - Integrante / Marcos Bandeira de Mello Rubio - Integrante / Rafael dos Reis Silva - Integrante / Rafael Henrique Santos Rocha - Integrante / Alvaro Mario Guerra da Veiga - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Ruy Luiz Milidiú",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Pedro Ferreira Alves Pinto",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "DIEGO KATZ",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "JOÃO PAULO FORNY DE MELO",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carlos Eduardo Rosar Kós Lassance",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Henrique Costa Braga de Oliveira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Guilherme Augusto Schütz",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Igor Leandro Vieira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Marcos Bandeira de Mello Rubio",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Rafael dos Reis Silva",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Rafael Henrique Santos Rocha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alvaro Mario Guerra da Veiga",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Programa Integrado para Gestão e Regulação Social de Competências Profissionais",
+      "ano_inicio": "2011",
+      "ano_conclusao": "2013",
+      "descricao": [
+        "Descrição: Este trabalho propõe um ambiente no qual as informações que permitem a gestão da capacitação profissional estejam permanentemente a disposição daqueles que as produzem e consomem. Esse ambiente cria facilidades para uma correta avaliação e mensuração do capital intelectual e profissional, seja de forma individual, seja de forma coletiva, em corporações ou mesmo em instâncias responsáveis pela definição de políticas públicas.. Situação: Concluído; Natureza: Desenvolvimento. Integrantes: Sérgio Colcher - Coordenador."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "Laboratório de Redes de Alta Velocidade",
+      "ano_inicio": "2001",
+      "ano_conclusao": "2005",
+      "descricao": [
+        "Descrição: Testes de equipamentos e aplicações distribuídas de alta velocidade.. Situação: Concluído; Natureza: Desenvolvimento. Alunos envolvidos: Graduação: (0) / Especialização: (0) / Mestrado acadêmico: (0) / Mestrado profissional: (0) / Doutorado: (0) . Integrantes: Sérgio Colcher - Integrante / Luiz Fernando Gomes Soares - Coordenador. Financiador(es): Extreme Networks do Brasil - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Sérgio Colcher",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luiz Fernando Gomes Soares",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Extreme Networks do Brasil",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    }
+  ],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Sistemas de Computação",
+      "especialidade": "Redes e Telecomunicações",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Redes e Telecomunicações."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Sistemas de Computação",
+      "especialidade": "Teleinformática",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Teleinformática."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Sistemas de Computação",
+      "especialidade": "Sistemas Hipermídia",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Sistemas Hipermídia."
+    },
+    {
+      "grande_area": "Engenharias",
+      "area": "Engenharia Elétrica",
+      "subarea": "Telecomunicações",
+      "especialidade": "Sistemas de Telecomunicações",
+      "descricao_completa": "Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Telecomunicações/Especialidade: Sistemas de Telecomunicações."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Sistemas de Computação",
+      "especialidade": "Arquitetura de Sistemas de Computação",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Francês",
+      "compreende": "Bem",
+      "fala": "Pouco",
+      "le": "Bem",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Bem, Fala Pouco, Lê Bem, Escreve Pouco."
+    },
+    {
+      "nome": "Hebraico",
+      "compreende": "Razoavelmente",
+      "fala": "Razoavelmente",
+      "le": "Razoavelmente",
+      "escreve": "Razoavelmente",
+      "proficiencia_completa": "Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Concurso de Teses e Dissertações do XXVIII Simpósio Brasileiro de Sistemas Multimídia e Web (WebMedia), Sociedade Brasileira de Computação (SBC).",
+      "ano": 2022
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "Redes de Computadores",
+      "objetivo": ""
+    },
+    {
+      "nome": "Sistemas Multimídia e Hipermídia",
+      "objetivo": ""
+    },
+    {
+      "nome": "Aprendizado de Máquina",
+      "objetivo": ""
+    },
+    {
+      "nome": "Ciência de Dados",
+      "objetivo": ""
+    },
+    {
+      "nome": "Telecomunicações",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Enhancing TV APPs Authoring With LLM Agents",
+        "ano": 2026,
+        "autores": "BORGES, PAULO VICTOR ; MORAES, DANIEL DE S. ; BARBOSA, SIMONE D. J. ; COLCHER, SERGIO",
+        "revista": "IEEE TRANSACTIONS ON BROADCASTING",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1-11",
+        "issn": "0018-9316",
+        "doi": "http://dx.doi.org/10.1109/TBC.2026.3689310",
+        "qualis": ""
+      },
+      {
+        "titulo": "An Overview of the TV 3.0 Application Coding Layer Specification",
+        "ano": 2026,
+        "autores": "SANTOS, JOEL DOS ; SOUSA, LI-CHANG SHUEN CRISTINA SILVA ; NETO, CARLOS SOARES ; LEMOS, GUIDO ; COLCHER, SÉRGIO ; MORENO, MARCELO F. ; MUCHALUAT-SAADE, DÉBORA",
+        "revista": "IEEE TRANSACTIONS ON BROADCASTING",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1-15",
+        "issn": "0018-9316",
+        "doi": "http://dx.doi.org/10.1109/TBC.2026.3689351",
+        "qualis": ""
+      },
+      {
+        "titulo": "Topic Taxonomy Generation with LLMs for Enriched Transaction Tagging",
+        "ano": 2025,
+        "autores": "MORAES, DANIEL DE S. ; DA COSTA, POLYANA B. ; DOS SANTOS, PEDRO T. CUTRIM ; PINTO, IVAN DE J. P. ; COLCHER, SERGIO ; BUSSON, ANTONIO J. G. ; PINTO, MATHEUS A. S. ; ROCHA, RAFAEL H. ; GAIO, RENNAN ; TOURINHO, GABRIELA ; RABAIOLI, MARCOS ; FAVARO, DAVID",
+        "revista": "JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY (ONLINE)",
+        "volume": "31",
+        "numero": "",
+        "paginas": "1331-1341",
+        "issn": "1678-4804",
+        "doi": "http://dx.doi.org/10.5753/jbcs.2025.5470",
+        "qualis": ""
+      },
+      {
+        "titulo": "Action Segmentation Through Self-Supervised Video Features and Positional-Encoded Embeddings",
+        "ano": 2024,
+        "autores": "DE A. P. MARQUES, GUILHERME ; BUSSON, A. J. G. ; BOARO, J. M. C. ; GUEDES, ÁLAN LIVIO V. ; DUARTE, J. C. ; COLCHER, SÉRGIO",
+        "revista": "ACM Transactions on Multimedia Computing Communications and Applications",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1",
+        "issn": "1551-6857",
+        "doi": "http://dx.doi.org/10.1145/3649465",
+        "qualis": ""
+      },
+      {
+        "titulo": "HOTSPOT: An ad hoc teamwork platform for mixed human-robot teams",
+        "ano": 2024,
+        "autores": "RIBEIRO, JOÃO G. ; HENRIQUES, LUIS MÜLLER ; COLCHER, SÉRGIO ; DUARTE, JULIO CESAR ; MELO, FRANCISCO S. ; MILIDIÚ, RUY LUIZ ; SARDINHA, ALBERTO",
+        "revista": "PLoS One",
+        "volume": "19",
+        "numero": "",
+        "paginas": "e0305705-27",
+        "issn": "1932-6203",
+        "doi": "http://dx.doi.org/10.1371/journal.pone.0305705",
+        "qualis": ""
+      },
+      {
+        "titulo": "Learning Self-distilled Features for Facial Deepfake Detection Using Visual Foundation Models: General Results and Demographic Analysis",
+        "ano": 2024,
+        "autores": "CUNHA, Y. M. B. G. ; GOMES, B. R. ; BOARO, JOSÉ ; MORAES, D. S. ; BUSSON, ANTONIO J. G. ; DUARTE, JULIO CESAR ; COLCHER, SERGIO",
+        "revista": "Journal on Interactive Systems",
+        "volume": "15",
+        "numero": "",
+        "paginas": "682-694",
+        "issn": "2763-7719",
+        "doi": "http://dx.doi.org/10.5753/jis.2024.4120",
+        "qualis": ""
+      },
+      {
+        "titulo": "Noise-Robust Automatic Speech Recognition: A Case Study for Communication Interference",
+        "ano": 2024,
+        "autores": "DUARTE, JULIO CESAR ; COLCHER, SÉRGIO",
+        "revista": "Journal on Interactive Systems",
+        "volume": "15",
+        "numero": "",
+        "paginas": "670-681",
+        "issn": "2763-7719",
+        "doi": "http://dx.doi.org/10.5753/jis.2024.4267",
+        "qualis": ""
+      },
+      {
+        "titulo": "Future Vision of Interactive and Intelligent TV Systems using Edge AI",
+        "ano": 2020,
+        "autores": "GUEDES, ÁLAN ; BUSSON, ANTONIO ; NAVARRO, JOÃO PAULO ; COLCHER, SÉRGIO",
+        "revista": "SET INTERNATIONAL JOURNAL OF BROADCAST ENGINEERING",
+        "volume": "2020",
+        "numero": "",
+        "paginas": "51-55",
+        "issn": "2446-9246",
+        "doi": "http://dx.doi.org/10.18580/setijbe.2020.4",
+        "qualis": ""
+      },
+      {
+        "titulo": "QoSOS: An Adaptable Architecture for QoS Provisioning in Network Operating Systems",
+        "ano": 2003,
+        "autores": "MORENO, Marcelo Ferreira ; SOATRES NETO, Carlos de Salles ; GOMES, Antônio Tadeu Azevedo ; COLCHER, S. ; SOARES, Luiz Fernando Gomes",
+        "revista": "Journal of Communication and Information Systems (JCIS),",
+        "volume": "18",
+        "numero": "2",
+        "paginas": "118-131",
+        "issn": "1980-6604",
+        "doi": "http://www.scopus.com/scopus/inward/citedby.url?partnerID=bb5nvXTn&rel=R6.0.0&doi=null&md5=f8a2d9f8af7e0fb17f9968fbbee28b49",
+        "qualis": ""
+      },
+      {
+        "titulo": "An architecture for hypermedia systems using MHEG standard objects interchange",
+        "ano": 1993,
+        "autores": "SOARES, Luiz Fernando Gomes ; CASANOVA, Marco Antônio ; COLCHER, S.",
+        "revista": "Information Services & Use",
+        "volume": "13",
+        "numero": "2",
+        "paginas": "131-139",
+        "issn": "1875-8789",
+        "doi": "http://dx.doi.org/10.3233/ISU-1993-13208",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [
+      {
+        "titulo": "VoIP: Voz sobre IP",
+        "ano": 2005,
+        "autores": "COLCHER, S.; GOMES, Antônio Tadeu Azevedo ; SOUZA FILHO, Guido Lemos de ; SOARES, Luiz Fernando Gomes",
+        "editora": "Rio de Janeiro: Campus-Elesevier",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "300"
+      },
+      {
+        "titulo": "Redes de Computadores: Das LANs, MANs e WANs às Redes ATM",
+        "ano": 1995,
+        "autores": "SOARES, Luiz Fernando Gomes ; LEMOS, G. ; COLCHER, S.",
+        "editora": "Rio de Janeiro: Campus",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "705"
+      },
+      {
+        "titulo": "Redes de Computadores: Das LANs, MANs e WANs às Redes ATM",
+        "ano": 1994,
+        "autores": "SOARES, Luiz Fernando Gomes ; SOUZA FILHO, Guido Lemos de ; COLCHER, S.",
+        "editora": "Rio de Janeiro: Editora Campus Ltda.",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "500"
+      }
+    ],
+    "capitulos_livros": [
+      {
+        "titulo": "Embedding Deep Learning Models into Hypermedia Applications. Special Topics in Multimedia, IoT and Web Technologies. 1ed",
+        "ano": 2020,
+        "autores": "BUSSON, ANTONIO JOSÉ G. ; GUEDES, ÁLAN LIVIO V. ; COLCHER, SÉRGIO ; MILIDIÚ, RUY LUIZ ; HAEUSLER, Edward Hermann",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "91-111"
+      },
+      {
+        "titulo": "Toward Web Templates Support in Nested Context Language",
+        "ano": 2020,
+        "autores": "Xavier Leitão, Bruno ; GUEDES, ÁLAN L. V. ; COLCHER, SÉRGIO",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "16-30"
+      },
+      {
+        "titulo": "Stocks Clustering Based on Textual Embeddings for Price Forecasting. Lecture Notes in Computer Science. 1ed",
+        "ano": 2020,
+        "autores": "de Oliveira, André D. C. M. ; Pinto, Pedro F. A. ; COLCHER, SERGIO",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "665-678"
+      },
+      {
+        "titulo": "Projetos Atuais e Visão de Futuro do Laboratório TeleMídia/PUC-Rio em Videocolaboração",
+        "ano": 2017,
+        "autores": "COLCHER, S.; GUEDES, A. L. V. ; AZEVEDO, ROBERTO G. DE A. ; LIMA, G. A. F. ; SANTOS, R. C. M. ; BUSSON, ANTONIO JOS? G.",
+        "titulo_livro": "",
+        "editora": "Sociedade Brasileira de Computação",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "207-232"
+      },
+      {
+        "titulo": "Synchronization Abstractions and Separation of Concerns as Key Aspects to the Interoperability in IoT. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering. 1ed",
+        "ano": 2017,
+        "autores": "Moreno, Marcio Ferreira ; Cerqueira, Renato ; COLCHER, SÉRGIO",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "26-32"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "Modelo Conceitual de Serviço de Recomendações para TV 3.0",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2025.16811",
+        "autores": "POGGY, ARTHUR ; BORGES, PAULO VICTOR ; MORAES, DANIEL DE SOUSA ; COLCHER, SÉRGIO",
+        "evento": "Anais Estendidos do Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "259-264",
+        "isbn": ""
+      },
+      {
+        "titulo": "Evaluating Zero-shot Reasoning with Agentic LLMs for Smart Contract Vulnerability Detection",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2025.15858",
+        "autores": "TAVARES, EDUARDO SARDENBERG ; BUSSON, ANTONIO JOSÉ. G. ; COLCHER, SÉRGIO",
+        "evento": "Anais Estendidos do Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "306-310",
+        "isbn": ""
+      },
+      {
+        "titulo": "A DCT-Based Contrastive Approach for Learning Visual Representations",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/webmedia.2025.14963",
+        "autores": "MORAES, DANIEL DE SOUSA ; SANTOS, PEDRO CUTRIM DOS ; BUSSON, ANTONIO JOSÉ G. ; DUARTE, JULIO CESAR ; COLCHER, SÉRGIO",
+        "evento": "Proceedings of the Brazilian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "1-9",
+        "isbn": ""
+      },
+      {
+        "titulo": "Visual Foundation Model-Based Classification of Characters in Narrative Media",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/webmedia.2025.16139",
+        "autores": "CUNHA, YAN MARTINS B. GUREVITZ ; MORAES, DANIEL DE SOUSA ; BUSSON, ANTONIO JOSÉ GRANDSON ; DUARTE, JULIO CESAR ; COLCHER, SÉRGIO",
+        "evento": "Proceedings of the Brazilian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "473-481",
+        "isbn": ""
+      },
+      {
+        "titulo": "Experimenting with Planning and Reasoning in Ad Hoc Teamwork Environments with Large Language Models",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5220/0012472600003636",
+        "autores": "COSTA, POLYANA ; SANTOS, PEDRO ; BOARO, JOSÉ ; MORAES, DANIEL ; DUARTE, JÚLIO ; COLCHER, SERGIO",
+        "evento": "16th International Conference on Agents and Artificial Intelligence",
+        "cidade": "",
+        "paginas": "438-445",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Middleware Architecture for Enhancing Multimedia Flows with High-Level Semantic Information",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1145/3672406.3672407",
+        "autores": "CARVALHO BOARO, JOSE MATHEUS ; BEZERRA DA COSTA, POLYANA ; DE SOUSA MORAES, DANIEL ; CUTRIM DOS SANTOS, PEDRO THIAGO ; RIBEIRO, JOÃO G. ; DUARTE, JULIO CESAR ; SARDINHA, ALBERTO ; COLCHER, SÉRGIO",
+        "evento": "IMXw '24: Proceedings of the 2024 ACM International Conference on Interactive Media Experiences Workshops",
+        "cidade": "",
+        "paginas": "1-6",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Ensemble Approach to Facial Deepfake Detection Using Self-Supervised Features",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5753/webmedia.2024.243194",
+        "autores": "CUNHA, YAN MARTINS B. GUREVITZ ; BOARO, JOSÉ MATHEUS C. ; MORAES, DANIEL DE SOUSA ; SANTOS, PEDRO CUTRIM DOS ; COSTA, POLYANA BEZERRA DA ; BUSSON, ANTONIO JOSÉ GRANDSON ; DUARTE, JULIO CESAR ; COLCHER, SÉRGIO",
+        "evento": "Proceedings of the Brazilian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "37-44",
+        "isbn": ""
+      },
+      {
+        "titulo": "Tagging Enriched Bank Transactions Using LLM-Generated Topic Taxonomies",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5753/webmedia.2024.243267",
+        "autores": "MORAES, DANIEL DE S. ; COSTA, POLYANA B. DA ; SANTOS, PEDRO T. C. ; PINTO, IVAN DE J. P. ; COLCHER, SÉRGIO ; BUSSON, ANTONIO J. G. ; PINTO, MATHEUS A. S. ; ROCHA, RAFAEL H. ; GAIO, RENNAN ; TOURINHO, GABRIELA ; RABAIOLI, MARCOS ; FAVARO, DAVID",
+        "evento": "Proceedings of the Brazilian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "267-274",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring the Potential of TV 3.0: Applications and Impact on Content Delivery and Audience Engagement",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2024.244583",
+        "autores": "MORAES, DANIEL DE SOUSA ; BORGES, PAULO VICTOR ; COSTA, POLYANA BEZERRA DA ; GUREVITZ, YAN MARTINS B. ; SANTOS, PEDRO T. CUTRIM DOS ; BOARO, JOSÉ MATHEUS CARVALHO ; LADELE, ADEOYE SUNDAY ; COLCHER, SÉRGIO",
+        "evento": "Anais Estendidos do Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "267-272",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring Visual and Multimodal Interaction in NCL Authoring",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5753/webmedia.2024.243157",
+        "autores": "BORGES, PAULO VICTOR ; MORAES, DANIEL DE S. ; DOS SANTOS, JOEL ; MUCHALUAT-SAADE, DÉBORA C. ; COLCHER, SÉRGIO",
+        "evento": "Proceedings of the Brazilian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "153-161",
+        "isbn": ""
+      },
+      {
+        "titulo": "Hierarchical Classification of Financial Transactions Through Context-Fusion of Transformer-based Embeddings and Taxonomy-aware Attention Layer",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.5753/bwaif.2023.229322",
+        "autores": "BUSSON, ANTONIO J. G. ; ROCHA, RAFAEL ; GAIO, RENNAN ; MICELI, RAFAEL ; PEREIRA, IVAN ; MORAES, DANIEL DE S. ; COLCHER, SÉRGIO ; VEIGA, ALVARO ; RIZZI, BRUNO ; EVANGELISTA, FRANCISCO ; SANTOS, LEANDRO ; MARQUES, FELLIPE ; RABAIOLI, MARCOS ; FELDBERG, DIEGO ; MATTOS, DEBORA ; PASQUA, JOÃO ; DIAS, DIOGO",
+        "evento": "Brazilian Workshop on Artificial Intelligence in Finance",
+        "cidade": "",
+        "paginas": "13",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Challenges of Using Large Language Models for NCL Code Generation",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2023.236175",
+        "autores": "MORAES, D. S. ; COSTA, POLYANA B. ; BUSSON, ANTONIO J. G. ; BOARO, J. M. C. ; SOARES NETO, CARLOS DE SALLES ; COLCHER, S.",
+        "evento": "WORKSHOP FUTURO DA TV DIGITAL INTERATIVA",
+        "cidade": "",
+        "paginas": "151-156",
+        "isbn": ""
+      },
+      {
+        "titulo": "Realistic Facial Deep Fakes Detection Through Self-Supervised Features Generated by a Self-Distilled Vision Transformer",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1145/3617023.3617047",
+        "autores": "GOMES, BRUNO ROCHA ; BUSSON, ANTONIO J. G. ; BOARO, JOSÉ ; COLCHER, SÉRGIO",
+        "evento": "WebMedia '23: Brazilian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "177-183",
+        "isbn": ""
+      },
+      {
+        "titulo": "Unsupervised Method for Video Action Segmentation Through Spatio-Temporal and Positional-Encoded Embeddings",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1145/3524273.3528187",
+        "autores": "DE A. P. MARQUES, GUILHERME ; BUSSON, ANTONIO JOSÉ G. ; GUEDES, ÁLAN LÍVIO V. ; DUARTE, J. C. ; COLCHER, SÉRGIO",
+        "evento": "13th ACM Multimedia Systems Conference (MMSys 2022)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Cluster-Based Method for Action Segmentation Using Spatio-Temporal and Positional Encoded Embeddings",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1145/3470482.3479632",
+        "autores": "DE A. P. MARQUES, GUILHERME ; BUSSON, ANTONIO JOSÉ G. ; GUEDES, ÁLAN LÍVIO V. ; COLCHER, SÉRGIO",
+        "evento": "WebMedia '21: Brazilian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "181-187",
+        "isbn": ""
+      },
+      {
+        "titulo": "Quality Enhancement of Highly Degraded Music Using Deep Learning-Based Prediction Models for Lost Frequencies",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1145/3470482.3479635",
+        "autores": "SERRA, ARTHUR C. ; BUSSON, ANTONIO JOSÉ G. ; GUEDES, ÁLAN L. V. ; COLCHER, SÉRGIO",
+        "evento": "WebMedia '21: Brazilian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "205-211",
+        "isbn": ""
+      },
+      {
+        "titulo": "Should I See or Should I Go",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1145/3470482.3479639",
+        "autores": "SERRA, ARTHUR C. ; MENDES, PAULO RENATO C. ; DE FREITAS, PEDRO V. A. ; BUSSON, ANTONIO JOSÉ G. ; GUEDES, ÁLAN L. V. ; COLCHER, SÉRGIO",
+        "evento": "WebMedia '21: Brazilian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "229-236",
+        "isbn": ""
+      },
+      {
+        "titulo": "Automatic Generation of Learning Objects Using Text Summarizer Based on Deep Learning Models",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.5753/sbie.2021.217360",
+        "autores": "OLIVEIRA, L. M. R. ; BUSSON, ANTONIO J. G. ; SOATRES NETO, Carlos de Salles ; SANTOS, G. N. P. ; COLCHER, SERGIO",
+        "evento": "XXXII Simpósio Brasileiro de Informática na Educação (SBIE)",
+        "cidade": "",
+        "paginas": "728-736",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Authoring Model for Interactive 360 Videos",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/ICMEW46912.2020.9105958",
+        "autores": "MENDES, PAULO R. C. ; GUEDES, ALAN L. V. ; MORAES, DANIEL DE S. ; AZEVEDO, ROBERTO G. A. ; COLCHER, SERGIO",
+        "evento": "2020 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "Decoder-Side Quality Enhancement of JPEG Images Using Deep Learning-Based Prediction Models for Quantized DCT Coefficients",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1145/3428658.3430966",
+        "autores": "BUSSON, ANTONIO JOSÉ G. ; MENDES, PAULO RENATO C. ; DE S. MORAES, DANIEL ; DA VEIGA, ÁLVARO MÁRIO G. ; COLCHER, SÉRGIO ; GUEDES, ÁLAN LÍVIO V.",
+        "evento": "WebMedia '20: Brazillian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "129",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Cluster-Matching-Based Method for Video Face Recognition",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1145/3428658.3430967",
+        "autores": "MENDES, PAULO RENATO C. ; BUSSON, ANTONIO JOSÉ G. ; COLCHER, SÉRGIO ; SCHWABE, DANIEL ; GUEDES, ÁLAN LÍVIO V. ; LAUFER, CARLOS",
+        "evento": "WebMedia '20: Brazillian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "97-105",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Clustering-Based Method for Automatic Educational Video Recommendation Using Deep Face-Features of Lecturers",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/ism.2020.00034",
+        "autores": "MENDES, PAULO R. C. ; VIEIRA, EDUARDO S. ; GUEDES, ALAN L. V. ; BUSSON, ANTONIO J. G. ; COLCHER, SERGIO",
+        "evento": "2020 IEEE International Symposium on Multimedia (ISM)",
+        "cidade": "",
+        "paginas": "158-166",
+        "isbn": ""
+      },
+      {
+        "titulo": "Video Quality Enhancement Using Deep Learning-Based Prediction Models for Quantized DCT Coefficients in MPEG I-frames",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/ism.2020.00012",
+        "autores": "BUSSON, ANTONIO J.G. ; MENDES, PAULO R.C. ; MORAES, DANIEL DE S. ; DA VEIGA, ALVARO M. ; GUEDES, ALAN L. V. ; COLCHER, SERGIO",
+        "evento": "2020 IEEE International Symposium on Multimedia (ISM)",
+        "cidade": "",
+        "paginas": "29",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Deep Learning Approach to Detect Pornography Videos in Educational Repositories",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.5753/cbie.sbie.2020.1253",
+        "autores": "FREITAS, PEDRO V. A. DE ; BUSSON, ANTONIO J. G. ; GUEDES, ÁLAN L. V. ; COLCHER, SÉRGIO",
+        "evento": "Simpósio Brasileiro de Informática na Educaçã",
+        "cidade": "",
+        "paginas": "1253-1262",
+        "isbn": ""
+      },
+      {
+        "titulo": "SucupiraBot",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1145/3428658.3431752",
+        "autores": "PEREIRA, IVAN ; SOUSA, JÉSSICA ; COSTA, POLYANA B. ; BARBOSA, SIMONE D. J. ; COLCHER, SÉRGIO",
+        "evento": "WebMedia '20: Brazillian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "277",
+        "isbn": ""
+      },
+      {
+        "titulo": "ListeningTV: Accessible Video using Interactive Audio Descriptions",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2020.13065",
+        "autores": "VIEIRA, A. S. ; GUEDES, A. L. V. ; MORAES, D. S. ; MADEIRA, L. R. ; COLCHER, SERGIO ; NETO, CARLOS DE SALLES SOARES",
+        "evento": "XIX Workshop de Ferramentas e Aplicações (WFA 2020),",
+        "cidade": "",
+        "paginas": "71-74",
+        "isbn": ""
+      },
+      {
+        "titulo": "Relacionando Modelagem de Tópicos e Classificação de Sentimentos para Análise de Mensagens do Twitter Durante a Pandemia da COVID-19",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2020.13064",
+        "autores": "PINTO, M. A. S. ; JACOB JUNIOR, A. F. L. ; BUSSON, A. J. G. ; COLCHER, SÉRGIO",
+        "evento": "XVII Workshop de Trabalhos de Iniciação Científica (WTIC 2020)",
+        "cidade": "",
+        "paginas": "61-64",
+        "isbn": ""
+      },
+      {
+        "titulo": "ÁGATA: um chatbot para difusão de práticas para Educação Ambiental",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2020.13068",
+        "autores": "GOMES, B. R. ; JACOB JR, A. F. L. ; JESUS, IVAN ; COLCHER, S.",
+        "evento": "WORKSHOP DE FERRAMENTAS E APLICAÇÕES - SIMPÓSIO BRASILEIRO DE SISTEMAS MULTIMÍDIA E WEB (WEBMEDIA)",
+        "cidade": "",
+        "paginas": "85-89",
+        "isbn": ""
+      },
+      {
+        "titulo": "Declarative programming of TV applications using NCL",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1075/da.2020.guedes.tv-application",
+        "autores": "GUEDES, ÁLAN L.V. ; COLCHER, SERGIO",
+        "evento": "Declarative Amsterdam",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Subjective Evaluation of 360-degree Sensory Experiences",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/mmsp.2019.8901743",
+        "autores": "GUEDES, ALAN L. V. ; DE A. AZEVEDO, ROBERTO G. ; FROSSARD, PASCAL ; COLCHER, SERGIO ; JUNQUEIRA BARBOSA, SIMONE DINIZ",
+        "evento": "2019 IEEE 21st International Workshop on Multimedia Signal Processing (MMSP)",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "An ergonomic evaluation method using a mobile depth sensor and pose estimation",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1145/3323503.3349550",
+        "autores": "DE FREITAS, PEDRO VINICIUS A. ; MENDES, PAULO RENATO C. ; BUSSON, ANTONIO JOSÉ G. ; GUEDES, ÁLAN LIVIO V. ; SILVA, GIOVANNI LUCCA F. DA ; DE PAIVA, ANSELMO CARDOSO ; COLCHER, SÉRGIO",
+        "evento": "the 25th Brazillian Symposium",
+        "cidade": "",
+        "paginas": "445",
+        "isbn": ""
+      },
+      {
+        "titulo": "A baseline for NSFW video detection in e-learning environments",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1145/3323503.3360625",
+        "autores": "DE FREITAS, PEDRO V. A. ; SANTOS, GABRIEL N. P. DOS ; BUSSON, ANTONIO J. G. ; GUEDES, ÁLAN L. V. ; COLCHER, SÉRGIO",
+        "evento": "the 25th Brazillian Symposium",
+        "cidade": "",
+        "paginas": "357",
+        "isbn": ""
+      },
+      {
+        "titulo": "Using Deep Learning to Recognize People by Face and Voice",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2019.8143",
+        "autores": "SILVA, LUCAS GOMES DA ; GUEDES, ÁLAN L. V. ; COLCHER, SÉRGIO",
+        "evento": "XXV Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "83",
+        "isbn": ""
+      },
+      {
+        "titulo": "PVBR-Recog: A YOLOv3-based Brazilian Automatic License Plate Recognition Tool",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2019.8149",
+        "autores": "MILIDIÚ, RUY LUIZ ; BUSSON, ANTONIO JOSÉ G. ; COLCHER, SÉRGIO ; MELO, JOÃO P. FORNY DE ; PINTO, PEDRO FERREIRA ALVES",
+        "evento": "XXV Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "121",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Proposal of Educational Video Gamification as a Service",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2019.8153",
+        "autores": "COLCHER, SÉRGIO; GUEDES, ÁLAN L. V. ; MORAES, DANIEL DE SOUSA ; BUSSON, ANTONIO J. G. ; SOARES NETO, CARLOS DE SALLES",
+        "evento": "XXV Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "151",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modeling Multimodal-Multiuser Interactions in Declarative Multimedia Languages",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1145/3342558.3345400",
+        "autores": "GUEDES, ÁLAN L. V. ; DE A. AZEVEDO, ROBERTO G. ; COLCHER, SÉRGIO ; BARBOSA, SIMONE D. J.",
+        "evento": "the ACM Symposium",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "An introduction to data stream processing",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1145/3323503.3345028",
+        "autores": "RORIZ, MARCOS ; MAGALHÃES, FERNANDO B. V. ; GUEDES, ÁLAN L. V. ; COLCHER, SÉRGIO ; ENDLER, Markus",
+        "evento": "the 25th Brazillian Symposium",
+        "cidade": "",
+        "paginas": "11",
+        "isbn": ""
+      },
+      {
+        "titulo": "Deep learning methods for video understanding",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1145/3323503.3345029",
+        "autores": "SANTOS, GABRIEL N. P. DOS ; DE FREITAS, PEDRO V. A. ; BUSSON, ANTONIO JOSÉ G. ; GUEDES, ÁLAN L. V. ; MILIDIÚ, RUY ; COLCHER, SÉRGIO",
+        "evento": "the 25th Brazillian Symposium",
+        "cidade": "",
+        "paginas": "21",
+        "isbn": ""
+      },
+      {
+        "titulo": "H.761 Support of a DOM Level 4 Core specification in NCLua scripts",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2019.8170",
+        "autores": "GUEDES, ALAN L. V. ; COLCHER, SERGIO",
+        "evento": "XXV Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "209",
+        "isbn": ""
+      },
+      {
+        "titulo": "H.761 Support of a New concept Element and a New \"recognition\" Node-Event to Enable Deep Learning-based Analyses for Media-Nodes",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2019.8171",
+        "autores": "BUSSON, ANTÔNIO ; COLCHER, SERGIO ; GUEDES, ALAN L. V.",
+        "evento": "XXV Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "211",
+        "isbn": ""
+      },
+      {
+        "titulo": "H.761 Support of a News input Node and a New \"recognition\" Node-Event to Enable Multimodal User Interactions",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2019.8172",
+        "autores": "GUEDES, ALAN L. V. ; COLCHER, SERGIO",
+        "evento": "XXV Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "213",
+        "isbn": ""
+      },
+      {
+        "titulo": "H.761 Support of a new SigGen Media Type to Enable Inaudible Sound Data Communication",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2019.8173",
+        "autores": "GUEDES, ALAN L. V. ; COLCHER, SERGIO",
+        "evento": "XXV Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "215",
+        "isbn": ""
+      },
+      {
+        "titulo": "H.761 Support of a New Syntax to Refer NCL-Node-Properties Instead of the Current \"Take It From There\" Syntax",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2019.8174",
+        "autores": "GUEDES, ALAN L. V. ; COLCHER, SERGIO",
+        "evento": "XXV Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "217",
+        "isbn": ""
+      },
+      {
+        "titulo": "H.761 Support of an SVG Media Type",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.5753/webmedia_estendido.2019.8175",
+        "autores": "GUEDES, ALAN L. V. ; COLCHER, SERGIO",
+        "evento": "XXV Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "219",
+        "isbn": ""
+      },
+      {
+        "titulo": "A CNN-Based Tool to Index Emotion on Anime Character Stickers",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/ism46123.2019.00071",
+        "autores": "JESUS, IVAN ; CARDOSO, JESSICA ; BUSSON, ANTONIO JOSE G. ; GUEDES, ALAN LIVIO ; COLCHER, SERGIO ; MILIDIU, RUY LUIZ",
+        "evento": "2019 IEEE International Symposium on Multimedia (ISM)",
+        "cidade": "",
+        "paginas": "319",
+        "isbn": ""
+      },
+      {
+        "titulo": "VideoRecognition - Uma Proposta de Serviço para Reconhecimento de Elementos de Vídeo em Larga Escala",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.13140/RG.2.2.32903.24481",
+        "autores": "BUSSON, A. J. G. ; GUEDES, A. L. V. ; SANTOS, G. N. P. ; SOATRES NETO, Carlos de Salles ; MILIDIU, R. L. ; COLCHER, S.",
+        "evento": "XXIV Simpósio Brasileiro de Sistemas Multimídia e Web: V Workshop ?O Futuro da Videocolaboração? (WCT-Video 2018)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Dynamic Integration of Foreign-Language Parsers into an NCL Player",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3243082.3243095",
+        "autores": "DODSWORTH, JORGE P. ; DE MACÊDO TERÇAS, LUCAS ; GUEDES, ALAN L. V. ; LIMA, GUILHERME F. ; DE SALLES SOARES NETO, CARLOS ; COLCHER, SÉRGIO",
+        "evento": "the 24th Brazilian Symposium",
+        "cidade": "",
+        "paginas": "85",
+        "isbn": ""
+      },
+      {
+        "titulo": "Developing Deep Learning Models for Multimedia Applications in TensorFlow",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3243082.3264605",
+        "autores": "BUSSON, ANTONIO JOSÉ G. ; DE FIGUEIREDO, LUCAS CARACAS ; DOS SANTOS, GABRIEL N. P. ; DE B. DAMASCENO, ANDRÉ LUIZ ; COLCHER, SÉRGIO ; MILIDIÚ, RUY",
+        "evento": "the 24th Brazilian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "7",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Hypervideo Model for Learning Objects",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1145/3078714.3078739",
+        "autores": "BUSSON, ANTONIO JOS? G. ; DAMASCENO, ANDR? LUIZ DE B. ; AZEVEDO, ROBERTO G. DE A. ; NETO, CARLOS DE SALLES SOARES ; LIMA, THACYLA DE SOUSA ; COLCHER, S?RGIO",
+        "evento": "the 28th ACM Conference",
+        "cidade": "",
+        "paginas": "245",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Fábulas Model for Authoring Web-based Children's eBooks",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1145/3103010.3103016",
+        "autores": "PINTO, HEDVAN FERNANDES ; SOARES NETO, CARLOS DE SALLES ; COLCHER, SÉRGIO ; AZEVEDO, ROBERTO GERSON DE ALBUQUERQUE",
+        "evento": "the 2017 ACM Symposium",
+        "cidade": "",
+        "paginas": "19",
+        "isbn": ""
+      },
+      {
+        "titulo": "Converting NCL Documents to Smix and Fixing Their Semantics and Interpretation in the Process",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1145/3126858.3126876",
+        "autores": "LIMA, GUILHERME F. ; AZEVEDO, ROBERTO GERSON DE ALBUQUERQUE ; COLCHER, SÉRGIO ; HAEUSLER, Edward Hermann",
+        "evento": "23rd Brazillian Symposium on Multimedia and the Web",
+        "cidade": "",
+        "paginas": "109-116",
+        "isbn": ""
+      },
+      {
+        "titulo": "Supporting Dynamic Reconfiguration in Distributed Data Stream Systems",
+        "ano": 2016,
+        "doi": "",
+        "autores": "VASCONCELOS, R. O. ; Vasconcelos, I. ; ENDLER, MARKUS ; COLCHER, S.",
+        "evento": "XXXIV Brazilian Symposium on Computer Networks and Distributed Systems",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Middleware for Data-centric and Dynamic Distributed Complex Event Processing for IoT Real-time Analytics in the Cloud",
+        "ano": 2016,
+        "doi": "",
+        "autores": "BAPTISTA, Gustavo ; CARVALHO, F. ; COLCHER, S. ; Endler, M.",
+        "evento": "XXXIV Brazilian Symposium on Computer Networks and Distributed Systems (SBRC)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Energy-aware IoT Gateway, with Continuous Processing of Sensor Data",
+        "ano": 2016,
+        "doi": "",
+        "autores": "RIOS, L. E. T. ; ENDLER, MARKUS ; COLCHER, S.",
+        "evento": "XXXIV Brazilian Symposium on Computer Networks and Distributed Systems (SBRC)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Extending NCL to Support Multiuser and Multimodal Interactions",
+        "ano": 2016,
+        "doi": "http://dx.doi.org/10.1145/2976796.2976869",
+        "autores": "GUEDES, ÁLAN L.V. ; DE ALBUQUERQUE AZEVEDO, ROBERTO G. ; COLCHER, SÉRGIO ; BARBOSA, SIMONE D.J.",
+        "evento": "the 22nd Brazilian Symposium",
+        "cidade": "",
+        "paginas": "39",
+        "isbn": ""
+      },
+      {
+        "titulo": "Synchronization Abstractions and Separation of Concerns as Key Aspects to the Interoperability in IoT",
+        "ano": 2016,
+        "doi": "",
+        "autores": "MORENO, Márcio Ferreira ; CERQUEIRA, Renato Fontoura de Gusmão ; COLCHER, S.",
+        "evento": "2nd EAI International Conference on Interoperability in IoT",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Using NCL to Synchronize Media Objects, Sensors and Actuators",
+        "ano": 2016,
+        "doi": "",
+        "autores": "GUEDES, A. L. V. ; CUNHA, M. ; FUKS, H. ; COLCHER, S. ; BARBOSA, S. D. J.",
+        "evento": "1st International Workshop on Synchronism of Things",
+        "cidade": "",
+        "paginas": "184-189",
+        "isbn": ""
+      },
+      {
+        "titulo": "Adaptable Resource Management Based on the Virtual Resource Tree Model",
+        "ano": 2006,
+        "doi": "http://dx.doi.org/10.1109/icniconsmcl.2006.40",
+        "autores": "FERREIRA MORENO, M. ; COLCHER, S. ; SOARES, L.F.G.",
+        "evento": "International Conference on Networking",
+        "cidade": "",
+        "paginas": "27",
+        "isbn": ""
+      },
+      {
+        "titulo": "Meta-Gerência de Agentes Procuradores Usando SNMP",
+        "ano": 2006,
+        "doi": "",
+        "autores": "JANEIRO, Jordan ; SILVA, Anderson Oliveira da ; COLCHER, S.",
+        "evento": "XI Workshop de Gerência e Operação de Redes e Serviços (WGRS 2006)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Provisão de QoS Adaptável em Sistemas Operacionais: O Subsistema de Rede",
+        "ano": 2003,
+        "doi": "",
+        "autores": "MORENO, M. ; GOMES, Antônio Tadeu Azevedo ; COLCHER, S. ; SOARES, Luiz Fernando Gomes",
+        "evento": "XXI Simpósio Brasileiro de Redes de Computadores (SBRC'2003)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um Framework para Provisão de QoS em Redes Móveis Sem Fio",
+        "ano": 2003,
+        "doi": "",
+        "autores": "LIMA, L. ; GOMES, Antônio Tadeu Azevedo ; COLCHER, S. ; SOARES, Luiz Fernando Gomes",
+        "evento": "XXI Simpósio Brasileiro de Redes de Computadores (SBRC'2003)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modeling QoS provision on adaptable communication environments",
+        "ano": 2001,
+        "doi": "http://dx.doi.org/10.1109/ICC.2001.936878",
+        "autores": "GOMES, A.T.A. ; COLCHER, S. ; SOARES, L.F.G.",
+        "evento": "International Conference on Communications",
+        "cidade": "",
+        "paginas": "1221",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards a Descriptive Approach to Model Adaptable Communication Environments",
+        "ano": 2001,
+        "doi": "",
+        "autores": "GOMES, Antônio Tadeu Azevedo ; COLCHER, S. ; SOARES, Luiz Fernando Gomes",
+        "evento": "International Conference on Networking (ICN'2001)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Relações de Sincronização Espaço-Temporal Hipermídia Também Merecem Status de Primeira Classe",
+        "ano": 2001,
+        "doi": "",
+        "autores": "MUCHALUAT-SAADE, D. C. ; COLCHER, S. ; SOARES, Luiz Fernando Gomes",
+        "evento": "Simpósio Brasileiro de Sistemas Multimídia e Hipermídia (SBMIDIA)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma Arquitetura Adaptável para Provisão de QoS na Internet",
+        "ano": 2001,
+        "doi": "",
+        "autores": "MOTA, O. T. ; GOMES, Antônio Tadeu Azevedo ; COLCHER, S. ; SOARES, Luiz Fernando Gomes",
+        "evento": "XIX Simpósio Brasileiro de Redes de Computadores (SBRC'2001)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um Meta Modelo para Engenharia de Serviços de Telecomunicações",
+        "ano": 2000,
+        "doi": "",
+        "autores": "COLCHER, S.; GOMES, Antônio Tadeu Azevedo ; SOARES, Luiz Fernando Gomes",
+        "evento": "XVIII Simpósio Brasileiro de Redes de Computadores",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um Framework para a Provisão de Serviço Multicast em Ambientes Genéricos de Comunicação de Dados",
+        "ano": 1999,
+        "doi": "",
+        "autores": "RODRIGUES, M. A. A. ; COLCHER, S. ; SOARES, Luiz Fernando Gomes",
+        "evento": "XVII Simpósio Brasileiro de Redes de Computadores (SBRC'99)",
+        "cidade": "",
+        "paginas": "206-221",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um Framework para Provisão de QoS em Ambientes Genéricos de Processamento e Comunicação",
+        "ano": 1999,
+        "doi": "",
+        "autores": "COLCHER, S.; GOMES, Antônio Tadeu Azevedo ; SOARES, Luiz Fernando Gomes",
+        "evento": "XVII Simpósio Brasileiro de Redes de Computadores (SBRC'99)",
+        "cidade": "",
+        "paginas": "307-322",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modelo de Referência Unificado para Arquitetura de Protocolos e Programação de Aplicações Multimídia",
+        "ano": 1998,
+        "doi": "",
+        "autores": "COLCHER, S.; SOARES, Luiz Fernando Gomes",
+        "evento": "XVI Simpósio Brasileiro de Redes de Computadores (SBRC'98)",
+        "cidade": "",
+        "paginas": "631-650",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modelo de Objetos Baseado no CORBA para Sistemas Hipermídia Abertos com Garantias de Sincronização",
+        "ano": 1996,
+        "doi": "",
+        "autores": "COLCHER, S.; SOARES, Luiz Fernando Gomes ; CASANOVA, Marco Antônio ; SOUZA FILHO, Guido Lemos de",
+        "evento": "XIV Simpósio Brasileiro de Redes de Computadores (SBRC'96)",
+        "cidade": "",
+        "paginas": "18-37",
+        "isbn": ""
+      },
+      {
+        "titulo": "Arquitetura do Sistema HyperProp",
+        "ano": 1995,
+        "doi": "",
+        "autores": "COLCHER, S.; SOARES, Luiz Fernando Gomes",
+        "evento": "Workshop em Sistemas Hipermídia Distribuídos",
+        "cidade": "",
+        "paginas": "13-25",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Architecture For Hypermedia Systems Using MHEG Standard Objects Interchange",
+        "ano": 1993,
+        "doi": "",
+        "autores": "SOARES, Luiz Fernando Gomes ; CASANOVA, Marco Antônio ; COLCHER, S.",
+        "evento": "Workshop on Hypermedia and Hypertex Standards",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [
+      {
+        "titulo": "Spatio-temporal Localization of Actors in Video/360-Video and its Applications",
+        "ano": 2022,
+        "autores": "MENDES, PAULO ; COLCHER, SÉRGIO",
+        "evento": "Simpósio Brasileiro de Sistemas Multimídia e Web, 2022",
+        "cidade": "",
+        "paginas": "19"
+      }
+    ],
+    "resumos_congressos": [],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [],
+    "textos_jornais": [],
+    "outras_producoes": [
+      {
+        "titulo": "Programa integrado para gestão e regulação social de competências profissionais. Rio de Janeiro: Departamento de Informática - PUC-Rio",
+        "ano": 2013,
+        "autores": "COLCHER, S",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Aprimoramentos no RSVP para o Mobile IPv6. Rio: Departamento de Informática - PUC-Rio",
+        "ano": 2008,
+        "autores": "SILVA, Anderson Oliveira da ; SOARES, Luiz Fernando Gomes ; COLCHER, S.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Otimização do Handover na Camada de Rede (L3) utilizando o Media Independent Handover (MIH). Rio de Janeiro: Departamento de Informática - PUC-Rio",
+        "ano": 2008,
+        "autores": "SILVA, Anderson Oliveira da ; ENDLER, Markus ; COLCHER, S.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Evolução da Otimização do Handoff no Mobile IP. Rio de Janeiro: Departamento de Informática - PUC-Rio",
+        "ano": 2008,
+        "autores": "SILVA, Anderson Oliveira da ; COLCHER, S.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Adaptable Resource Management Based on the Virtual Resource Tree Model. Rio de Janeiro: Monografias em Ciência da Computação - Departamento de Informática",
+        "ano": 2006,
+        "autores": "MORENO, Marcelo Ferreira ; COLCHER, S. ; SOARES, Luiz Fernando Gomes",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Relações de Sincronização Espaço-Temporal Hipermídia Também Merecem Status de Primeira Classe. Rio de Janeiro: departamento de Informática",
+        "ano": 2001,
+        "autores": "MUCHALUAT-SAADE, D. C. ; COLCHER, S. ; SOARES, Luiz Fernando Gomes",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Modelo de Objetos Baseado no CORBA para Sistemas Hipermídia com Garantias de Sincronização. Rio de Janeiro: Departamento de Informática - PUC-Rio",
+        "ano": 1996,
+        "autores": "COLCHER, S.; SOARES, Luiz Fernando Gomes ; CASANOVA, Marco Antônio ; LEMOS, G.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      }
+    ]
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [
+      {
+        "titulo": "Rede Neural Convolucional para Classificação da Qualidade de Sismogramas",
+        "ano": 2020,
+        "autores": "BETINE, E. ; COLCHER, SÉRGIO",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "F. M. O. ; COLCHER, SERGIO . SeismoFlow",
+        "ano": 2020,
+        "autores": "HENRIQUES, L",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Rede Neural Convolucional para Segmentação Semântica de Imagens Sísmicas",
+        "ano": 2020,
+        "autores": "CABRAL, M. ; COLCHER, SÉRGIO",
+        "instituicao": "",
+        "finalidade": ""
+      }
+    ],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Geração Automática de Audiodescrições em Vídeos",
+          "ano_inicio": 2020,
+          "orientando": "DANIEL DE SOUZA MORAES",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Video Topic Modeling",
+          "ano_inicio": 2020,
+          "orientando": "POLYANA BEZERRA DA COSTA",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Aplicações de Redes Neurais Inversíveis na Geofísica",
+          "ano_inicio": 2018,
+          "orientando": "LUIS FELIPE MULLER DE OLIVEIRA HENRIQUES",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Deepfake Detection",
+          "ano_inicio": 2021,
+          "orientando": "BRUNO ROCHA GOMES",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Aplicando Machine Lerning na Detecção de conteúdo malicioso voltado a crianças",
+          "ano_inicio": 2021,
+          "orientando": "JOÃO PEDRO MORENO VALE",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sumarização automática de comentários em tópicos de redes sociais",
+          "ano_inicio": 2021,
+          "orientando": "MATHEUS ADLER SOARES PINTO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Superresolução de Imagens do Landsat",
+          "ano_inicio": 2021,
+          "orientando": "PEDRO THIAGO CUTRIN SANTOS",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "From character design to narrative role: Using deep learning to classify characters",
+          "ano_inicio": 2021,
+          "orientando": "YAN MARTINS BRAZ GUREVITZ CUNHA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Aplicando Machine Learning para a Detecção de Áreas de Garimpo Ilegal na Região Amazônica usando Imagens de Satélite",
+          "ano_inicio": 2021,
+          "orientando": "JOSÉ MATHEUS CARVALHO BOARO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "A SELF SUPERVISED METHOD FOR BLIND DENOISING OF SEISMIC SHOT GATHERS",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "ANTONIO JOSÉ GRANDSON BUSSON",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "GLOBAL MOBILITY ARCHITECTURE",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Anderson Oliveira da Silva",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Super Resolução de Imagens Sísmicas",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "PEDRO FERREIRA ALVES PINTO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "SENSITIVE CONTENT DETECTION IN VIDEO WITH DEEP LEARNING",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "PEDRO VINICIUS ALMEIDA DE FREITAS",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A CLUSTER-BASED METHOD FOR ACTION SEGMENTATION USING SPATIO-TEMPORAL AND POSITIONAL ENCODED EMBEDDINGS",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "GUILHERME DE AZEVEDO PEREIRA MARQUES",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Reconstrução de músicas altamente degradadas usando modelos de aprendizado profundo",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "ARTHUR DA COSTA SERRA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "SUMARIZAÇÃO AUTOMÁTICA DE MULTIPLAS AVALIAÇÕES UTILIZANDO AJUSTE FINO DE MODELOS DE LINGUAGEM TRANSFORMERS",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "LUCAS ROBERTO DA SILVA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Load Disaggregation in a Brazilian Industrial Dataset Using Invertible Networks and Variational Autoencoders",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "EDUARDO SANTORO MORGAN",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "REDES CONVOLUCIONAIS APLICADAS À SEGMENTAÇÃO SEMÂNTICA DE IMAGENS SÍSMICAS",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "MATEUS CABRAL TORRES",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "SPATIO-TEMPORAL LOCALIZATION OF ACTORS IN VIDEO/360-VIDEO AND ITS APPLICATIONS",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "PAULO RENATO CONCEICAO MENDES",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "CORPUS PARA O DOMÍNIO ACADÊMICO: MODELOS E APLICAÇÕES",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "IVAN DE JESUS PEREIRA PINTO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "AGRUPAMENTO DE AÇÕES POR EMBEDDINGS TEXTUAIS NA PREVISÃO DE PREÇOS",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "ANDRE DAVYS CARVALHO MELO DE OLIVEIRA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "RESOLUÇÃO DE CORREFERÊNCIA UTILIZANDO ÁRVORES LATENTES COM REPRESENTAÇÃO CONTEXTUAL",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "LEONARDO BARBOSA DE OLIVEIRA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "REDES CONVOLUCIONAIS APLICADAS À CLASSIFICAÇÃO DE RUÍDO SÍSMICO",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "EDUARDO BETINE BUCKER",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "REDUZINDO AS INTERAÇÕES PROFESSOR-ALUNO ENTRE DUAS REDES NEURAIS",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "GUSTAVO MADEIRA KRIEGER",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "ANOTAÇÃO PROFUNDA DE PAPÉIS SEMÂNTICOS PARA O PORTUGUÊS",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "GUILHERME SANT'ANNA VARELA",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "APRENDIZADO PROFUNDO APLICADO À SEGMENTAÇÃO DE TEXTO",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "MIGUEL MENDES DE BRITO",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Web Templates Support in NCL Player",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Bruno Xavier Leitão",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A implementação de um módulo HIP na ferramenta de simulação OMNeT++ para avaliação de desempenho de handoff",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "Maria Claudia Roenick",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Biblioteca para Criação de Máquinas Virtuais Baseadas em Processadores de Rede",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Telvio Martins de Mello",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "TRANSMISSÃO DE DADOS POR SONS INAUDÍVEIS POR SMART DEVICES A DISPOSITIVOS MÓVEIS",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "JOAO VICTOR GIRARD DE SENA NUNES",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "USANDO DEEP LEARNING PARA RECONHECER PESSOAS POR ROSTO E VOZ",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "LUCAS GOMES DA SILVA",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "RTP EM APRESENTAÇÕES NCL: CENÁRIOS E ALTERNATIVAS DE USO",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "CAROLINA DO NASCIMENTO FIGUEIRA",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Meta-gerência de agentes móveis usando SNMP.",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Jordan Janeiro",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sistema de Apoio à Pós-Graduação em Redes",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Marcelo Mendes",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "implementação de um sistema de autenticação multifator utilizando os conceitos de chave descartável (OTP) e chave fixa",
+          "ano_inicio": 2005,
+          "ano_conclusao": 2005,
+          "orientando": "Caetano Ferreira Daraujo",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "SGC Contento: Soluções para Sistemas Gerenciadores de Conteúdo",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Rafael Silva de Menezes",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [],
+    "organizacoes": [
+      {
+        "autores": "COLCHER, S.; DUARTE, J. C.",
+        "evento": "31° Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "ano": 2025,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "COLCHER, S.. 20a. Conferência Bienal da ITS. 2014. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      }
+    ]
+  },
+  "bancas": {
+    "mestrado": [
+      {
+        "descricao": "COLCHER, S.. Participação em banca de Maria Claudia Roenick. A implementação de um módulo HIP na ferramenta de simulação OMNeT++ para avaliação de desempenho de handoff. 2008. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2008,
+        "tipo": "Mestrado",
+        "aluno": "Maria Claudia Roenick",
+        "membros_banca": [
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "A implementação de um módulo HIP na ferramenta de simulação OMNeT++ para avaliação de desempenho de handoff",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "LUCENA, C. J. P.; COLCHER, S.. Participação em banca de Adolfo Guilherme Silva Correia. Uma Arquitetura Baseada em Agentes de Software para a Automação de Processos de Gerência de Falhas em Redes de Telecomunicações. 2007. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2007,
+        "tipo": "Mestrado",
+        "aluno": "Adolfo Guilherme Silva Correia",
+        "membros_banca": [
+          "LUCENA, C. J. P.",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Uma Arquitetura Baseada em Agentes de Software para a Automação de Processos de Gerência de Falhas em Redes de Telecomunicações",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOARES, Luiz Fernando Gomes; COLCHER, S.. Participação em banca de Suzana Mesquita de Borba Maranhão. Ajuste Elástico em Tempo de Exibição para Fluxos de Áudio Comprimido. 2006. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2006,
+        "tipo": "Mestrado",
+        "aluno": "Suzana Mesquita de Borba Maranhão",
+        "membros_banca": [
+          "SOARES, Luiz Fernando Gomes",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Ajuste Elástico em Tempo de Exibição para Fluxos de Áudio Comprimido",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOARES, Luiz Fernando Gomes; COLCHER, S.. Participação em banca de Márcio Ferreira Moreno. Um Middleware Declarativo para Sistemas de TV Digital Interativa. 2006. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2006,
+        "tipo": "Mestrado",
+        "aluno": "Márcio Ferreira Moreno",
+        "membros_banca": [
+          "SOARES, Luiz Fernando Gomes",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Um Middleware Declarativo para Sistemas de TV Digital Interativa",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "MAIA, Marco Antônio Grivet Mattoso; COLCHER, S.; SOUZA, Rodolfo Saboia Lima de. Participação em banca de Luciano da Silva Santos. Tolerância a Falhas dos Agentes de Mobilidade do Protocolo Móbile IP. 2005. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2005,
+        "tipo": "Mestrado",
+        "aluno": "Luciano da Silva Santos",
+        "membros_banca": [
+          "MAIA, Marco Antônio Grivet Mattoso",
+          "COLCHER, S.",
+          "SOUZA, Rodolfo Saboia Lima de"
+        ],
+        "titulo_trabalho": "Tolerância a Falhas dos Agentes de Mobilidade do Protocolo Móbile IP",
+        "curso": "Dissertação (Mestrado em Engenharia Elétrica)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "COLCHER, S.. Participação em banca de Bruno Oliveira Silvestre. Autenticação e Controle de Acesso Interinstitucional. 2005. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2005,
+        "tipo": "Mestrado",
+        "aluno": "Bruno Oliveira Silvestre",
+        "membros_banca": [
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Autenticação e Controle de Acesso Interinstitucional",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "COLCHER, S.. Participação em banca de Sérgio Alves Cavendish. Algoritmos de Ajuste Elastico pra Vídeo em Fluxos MPEG-2. 2005. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2005,
+        "tipo": "Mestrado",
+        "aluno": "Sérgio Alves Cavendish",
+        "membros_banca": [
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Algoritmos de Ajuste Elastico pra Vídeo em Fluxos MPEG-2",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "COLCHER, S.; SOARES, Luiz Fernando Gomes; RODRIGUEZ, Noemi; CERQUEIRA, Renato Fontoura de Gusmão. Participação em banca de Telvio Martins de Mello. Uma Biblioteca para Criação de Máquinas Virtuais Voltadas ao Processamento de Protocolos de Rede. 2004. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2004,
+        "tipo": "Mestrado",
+        "aluno": "Telvio Martins de Mello",
+        "membros_banca": [
+          "COLCHER, S.",
+          "SOARES, Luiz Fernando Gomes",
+          "RODRIGUEZ, Noemi",
+          "CERQUEIRA, Renato Fontoura de Gusmão"
+        ],
+        "titulo_trabalho": "Uma Biblioteca para Criação de Máquinas Virtuais Voltadas ao Processamento de Protocolos de Rede",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOARES, Luiz Fernando Gomes; HAEUSLER, Edward Hermann; COLCHER, S.. Participação em banca de Carlos de Salles Soares Netto. Descrição Arquitetural da Provisão de QoS em ambientes Genéricos de Processamento e Comunicação. 2003. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2003,
+        "tipo": "Mestrado",
+        "aluno": "Carlos de Salles Soares Netto",
+        "membros_banca": [
+          "SOARES, Luiz Fernando Gomes",
+          "HAEUSLER, Edward Hermann",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Descrição Arquitetural da Provisão de QoS em ambientes Genéricos de Processamento e Comunicação",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOARES, Luiz Fernando Gomes; CASANOVA, Marco Antônio; COLCHER, S.; RODRIGUES, Rogério Ferreira. Participação em banca de Claudia Silva Villa A. de N. Rolins. Um Framework para Gerência de Contexto Orientado a Sistemas Hipermídia. 2003. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2003,
+        "tipo": "Mestrado",
+        "aluno": "Claudia Silva Villa A",
+        "membros_banca": [
+          "SOARES, Luiz Fernando Gomes",
+          "CASANOVA, Marco Antônio",
+          "COLCHER, S.",
+          "RODRIGUES, Rogério Ferreira"
+        ],
+        "titulo_trabalho": "de N. Rolins. Um Framework para Gerência de Contexto Orientado a Sistemas Hipermídia",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "BRANDÃO, João Célio; MAIA, Marco A. Grivet Mattoso; SOARES, Luiz Fernando Gomes; COLCHER, S.. Participação em banca de Felipe Rodrigues Mathias. Avaliação de Desempenho de Mecanismos de Controle de Tráfego com Serviços Diferenciados. 2002. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2002,
+        "tipo": "Mestrado",
+        "aluno": "Felipe Rodrigues Mathias",
+        "membros_banca": [
+          "BRANDÃO, João Célio",
+          "MAIA, Marco A. Grivet Mattoso",
+          "SOARES, Luiz Fernando Gomes",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Avaliação de Desempenho de Mecanismos de Controle de Tráfego com Serviços Diferenciados",
+        "curso": "Dissertação (Mestrado em Engenharia Elétrica)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOARES, Luiz Fernando Gomes; COLCHER, S.; ENDLER, Markus. Participação em banca de Marcelo Ferreira Moreno. Um Framework para Provisão de QoS em Sistemas Operacionais. 2002. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2002,
+        "tipo": "Mestrado",
+        "aluno": "Marcelo Ferreira Moreno",
+        "membros_banca": [
+          "SOARES, Luiz Fernando Gomes",
+          "COLCHER, S.",
+          "ENDLER, Markus"
+        ],
+        "titulo_trabalho": "Um Framework para Provisão de QoS em Sistemas Operacionais",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOARES, Luiz Fernando Gomes; COLCHER, S.; ENDLER, Markus. Participação em banca de Luciana dos Santos Lima. Um Framework para Provisão de QoS em Redes Móveis sem Fio. 2002. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2002,
+        "tipo": "Mestrado",
+        "aluno": "Luciana dos Santos Lima",
+        "membros_banca": [
+          "SOARES, Luiz Fernando Gomes",
+          "COLCHER, S.",
+          "ENDLER, Markus"
+        ],
+        "titulo_trabalho": "Um Framework para Provisão de QoS em Redes Móveis sem Fio",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "ENDLER, Markus; COLCHER, S.; REZENDE, José Ferreira de. Participação em banca de Alexandre Mele. Um Framework para Simulação de Redes Móveis Ad Hoc. 2002. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2002,
+        "tipo": "Mestrado",
+        "aluno": "Alexandre Mele",
+        "membros_banca": [
+          "ENDLER, Markus",
+          "COLCHER, S.",
+          "REZENDE, José Ferreira de"
+        ],
+        "titulo_trabalho": "Um Framework para Simulação de Redes Móveis Ad Hoc",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOARES, Luiz Fernando Gomes; DUARTE, Otto Carlos Muniz B.; BRANDÃO, João Célio; COLCHER, S.. Participação em banca de Oscar Thyago José Duarte Dantas Lisbôa Mota. Uma Arquitetura Adaptável para Provisão de QoS na Internet. 2001. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2001,
+        "tipo": "Mestrado",
+        "aluno": "Oscar Thyago José Duarte Dantas Lisbôa Mota",
+        "membros_banca": [
+          "SOARES, Luiz Fernando Gomes",
+          "DUARTE, Otto Carlos Muniz B.",
+          "BRANDÃO, João Célio",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Uma Arquitetura Adaptável para Provisão de QoS na Internet",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOARES, Luiz Fernando Gomes; RODRIGUEZ, Noemi; COLCHER, S.. Participação em banca de Antônio Benedito C. Sampaio Junior. Especificação de um Protocolo de Comunicação Hipermídia com Qualidade de Serviço e Modularidade Funcional. 2001. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2001,
+        "tipo": "Mestrado",
+        "aluno": "Antônio Benedito C",
+        "membros_banca": [
+          "SOARES, Luiz Fernando Gomes",
+          "RODRIGUEZ, Noemi",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Sampaio Junior. Especificação de um Protocolo de Comunicação Hipermídia com Qualidade de Serviço e Modularidade Funcional",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "MORENO, Marcelo Ferreira; CASANOVA, Marco Antônio; COLCHER, S.. Participação em banca de Marcel Stanley Albuberque de Moura. Especificação de Relações Espaciais e Desenvolvimento de Ferramentas de Autoria e Visualização da Sincronização de Documentos Hipermídia. 2001. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2001,
+        "tipo": "Mestrado",
+        "aluno": "Marcel Stanley Albuberque de Moura",
+        "membros_banca": [
+          "MORENO, Marcelo Ferreira",
+          "CASANOVA, Marco Antônio",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Especificação de Relações Espaciais e Desenvolvimento de Ferramentas de Autoria e Visualização da Sincronização de Documentos Hipermídia",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "RODRIGUEZ, Noemi; CASANOVA, Marco Antônio; COLCHER, S.. Participação em banca de Ana Lúcia de Moura. Um Ambiente de Suporte à Adaptação Dinâmica de Aplicações Distribuídas. 2000. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2000,
+        "tipo": "Mestrado",
+        "aluno": "Ana Lúcia de Moura",
+        "membros_banca": [
+          "RODRIGUEZ, Noemi",
+          "CASANOVA, Marco Antônio",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Um Ambiente de Suporte à Adaptação Dinâmica de Aplicações Distribuídas",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "RODRIGUEZ, Noemi; IERUZALIMSCHY, Roberto; SOARES, Luiz Fernando Gomes; COLCHER, S.. Participação em banca de Tula Kraiser. Serviço de Tolerância a Falhas para o Ambiente CORBA. 2000. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2000,
+        "tipo": "Mestrado",
+        "aluno": "Tula Kraiser",
+        "membros_banca": [
+          "RODRIGUEZ, Noemi",
+          "IERUZALIMSCHY, Roberto",
+          "SOARES, Luiz Fernando Gomes",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Serviço de Tolerância a Falhas para o Ambiente CORBA",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "doutorado": [
+      {
+        "descricao": "CERQUEIRA, Renato Fontoura de Gusmão; COLCHER, S.. Participação em banca de Valéria Quadros dos Reis. Um estudo sobre reserva de recursos computacionais no nível do usuário. 2010. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2010,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Valéria Quadros dos Reis",
+        "membros_banca": [
+          "CERQUEIRA, Renato Fontoura de Gusmão",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Um estudo sobre reserva de recursos computacionais no nível do usuário",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "COLCHER, S.. Participação em banca de Anderson Oliveira da Silva. Global Mobility Architecture. 2009. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2009,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Anderson Oliveira da Silva",
+        "membros_banca": [
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Global Mobility Architecture",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOARES, Luiz Fernando Gomes; COLCHER, S.. Participação em banca de Marcelo Ferreira Moreno. Gerenciamento de recursos dirigido por modelos: Adaptabilidade e Interoperabilidade no suporte a QoS fim-a-fim. 2008. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2008,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Marcelo Ferreira Moreno",
+        "membros_banca": [
+          "SOARES, Luiz Fernando Gomes",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Gerenciamento de recursos dirigido por modelos: Adaptabilidade e Interoperabilidade no suporte a QoS fim-a-fim",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "ENDLER, Markus; SOARES, Luiz Fernando Gomes; COLCHER, S.. Participação em banca de Luciana dos Santos Lima. Um Protocolo para Descoberta e Seleção de Recursos em Grades Móveis Ad hoc. 2007. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2007,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Luciana dos Santos Lima",
+        "membros_banca": [
+          "ENDLER, Markus",
+          "SOARES, Luiz Fernando Gomes",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Um Protocolo para Descoberta e Seleção de Recursos em Grades Móveis Ad hoc",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "COLCHER, S.. Participação em banca de Antônio Tadeu Azevedo Gomes. LindaX: Uma linguagem de Descrição de Sistemas de Comunicação Adaptáveis. 2005. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2005,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Antônio Tadeu Azevedo Gomes",
+        "membros_banca": [
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "LindaX: Uma linguagem de Descrição de Sistemas de Comunicação Adaptáveis",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "STANTON, Micahel; RODRIGUEZ, Noemi; SOARES, Luiz Fernando Gomes; DUARTE, Otto Carlos Muniz B.; MAGALHÃES, Maurício; COLCHER, S.. Participação em banca de Antônio Jorge G. Abelém. Difusão Seletiva em Inter-redes IP Baseadas em Redes Ópticas. 2003. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2003,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Antônio Jorge G",
+        "membros_banca": [
+          "STANTON, Micahel",
+          "RODRIGUEZ, Noemi",
+          "SOARES, Luiz Fernando Gomes",
+          "DUARTE, Otto Carlos Muniz B.",
+          "MAGALHÃES, Maurício",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Abelém. Difusão Seletiva em Inter-redes IP Baseadas em Redes Ópticas",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SOARES, Luiz Fernando Gomes; COELHO, Rosângela Fernandes; STANTON, Micahel; ARAGÃO, Marcus Vinícius Poggi de; COLCHER, S.. Participação em banca de Marta Emília Barría Martiínez. Algoritmos para QoS em Redes de Computadores. 2001. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2001,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Marta Emília Barría Martiínez",
+        "membros_banca": [
+          "SOARES, Luiz Fernando Gomes",
+          "COELHO, Rosângela Fernandes",
+          "STANTON, Micahel",
+          "ARAGÃO, Marcus Vinícius Poggi de",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Algoritmos para QoS em Redes de Computadores",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": []
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 10,
+    "total_livros": 3,
+    "total_capitulos": 5,
+    "total_trabalhos_congressos": 72,
+    "total_projetos_pesquisa": 10,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 8,
+    "total_orientacoes_concluidas": 20,
+    "total_orientacoes_andamento": 9
+  }
+}

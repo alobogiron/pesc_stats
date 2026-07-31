@@ -1,0 +1,3029 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "3894389473532167",
+    "nome_completo": "Juliana Arriel",
+    "nome_citacoes": "PEREIRA, J. A.;PEREIRA, J.;Pereira, Juliana Alves;Pereira, Juliana;JULIANA, ALVES PEREIRA;Arriel, Juliana;ALVES PEREIRA, JULIANA",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Reitoria, Coordenação Central de Pós-Graduação. Avenida Padre Leonel Franca Gávea 22451000 - Rio de Janeiro, RJ - Brasil Telefone: (35) 997312243 URL da Homepage: http://www.inf.puc-rio.br/blog/professor/juliana-alves-pereira/",
+    "atualizacao_cv": "19/06/2026",
+    "url": "http://lattes.cnpq.br/3894389473532167",
+    "texto_resumo": "Juliana Alves Pereira (Juliana Arriel) é professora do Departamento de Informática da PUC-Rio (desde 2022). Realizou pós-doutorado na universidade de Rennes, Inria/IRISA (França). Possui doutorado em Engenharia de Software pela Otto-von-Guericke-Universität Magdeburg (OvGU) na Alemanha (2018). Juliana recebeu seu doutorado com distinção (summa cum laude) e um prêmio de melhor tese de doutorado da escola de Ciências da Computação Otto-von-Guericke-Universität Magdeburg em 2018 (Alemanha). Mestre em Ciência da Computação pela Universidade Federal de Minas Gerais (2015) e bacharel pela Universidade Federal de Lavras (2012). Juliana orienta pesquisas de doutorado, mestrado e iniciação científica na interação entre as áreas de Engenharia de Software e Inteligência Artificial. Sua missão é investigar soluções de Inteligência Artificial que auxiliam no gerenciamento, evolução e manutenção de sistemas de software. Nos últimos anos, Juliana tem servido em Comitês de Programa e Comitês de Organização das principais conferências internacionais de Engenharia de Software e áreas afins, tais como SANER, MSR, ICSME, ICPC, ICSE e ASE Demo, EASE, SPLC, SLE e várias outras. Pelo reconhecimento às suas contribuições para a Engenharia de Software internacionalmente, Juliana recebeu o prêmio de melhor Tese de doutorado (Dissertationspreis) pela OvGU em novembro de 2018, e participou do GI-Dissertationspreis 2018 organizado pela Sociedade Alemã de Informática e realizado no Schloss Dagstuhl. Vários de seus artigos receberam distinções nas principais conferências internacionais da sua área, tais como o ''Best Paper Award'' do SBES 2025, FSE 2024, SPLC 2021 e ICPE 2020. Em 2022, Juliana recebeu o prêmio de artigo mais influente do CBSoft pela Comissão Especial de Engenharia de Software (CEES) da Sociedade Brasileira de Computação (SBC), pelo artigo publicado no SBCARS, em reconhecimento ao seu impacto internacional e nacional para a Engenharia de Software nos últimos 10 anos. Juliana possui várias colaborações atualmente com grupos de pesquisa nacionais e internacionais. Atualmente, Juliana é coordenadora do AISE (Artificial Intelligence and Software Engineering Lab) e é colaboradora do Laboratório de Engenharia de Software (LES) da PUC-Rio, que possui reconhecida notoriedade nacional e internacional. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Engenharia de Software",
+      "nome_instituicao": "Otto-von-Guericke-Universität Magdeburg, UNI/Magdeburg, Alemanha",
+      "ano_inicio": "2015",
+      "ano_conclusao": "2018",
+      "descricao": "Título: Personalized Recommender Systems for Software Product Line Configurations, Ano de obtenção: 2018. Orientador: Gunter Saake. Coorientador: Myra Spiliopoulou. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Software Product Lines; Product-Line Configuration; Recommender Systems; Personalized Recommendations. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Engenharia de Software."
+    },
+    {
+      "tipo": "Mestrado em Ciências da Computação",
+      "nome_instituicao": "Universidade Federal de Minas Gerais, UFMG, Brasil",
+      "ano_inicio": "2012",
+      "ano_conclusao": "2014",
+      "descricao": "Título: Search-Based Product Configuration in Software Product Lines O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2014. Orientador: Eduardo Magno Lages Figueiredo. Coorientador: Thiago Ferreira de Noronha. Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de Minas Gerais, FAPEMIG, Brasil. Palavras-chave: Software Product Lines; Product Configuration; Combinatorial Optimization; Search-Based Software Engineering. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Engenharia de Software."
+    },
+    {
+      "tipo": "Graduação em Sistemas de Informação",
+      "nome_instituicao": "Universidade Federal de Lavras, UFLA, Brasil",
+      "ano_inicio": "2007",
+      "ano_conclusao": "2011",
+      "descricao": "Título: Um Ambiente de Apoio ao Processo de Ensino Aprendizagem de Banco de Dados. Orientador: Antônio Maria Pereira de Resende."
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Universidade Federal do Pará, UFPA, Brasil.",
+      "instituicao_nome": "Universidade Federal do Pará",
+      "instituicao_sigla": "UFPA",
+      "instituicao_pais": "Brasil",
+      "periodo": "2024 - Atual",
+      "ano_inicio": "2024",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2022 - Atual",
+      "ano_inicio": "2022",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "University of Rennes, Inria, CNRS, IRISA, UNI",
+      "instituicao_nome": "University of Rennes",
+      "instituicao_sigla": "Inria",
+      "instituicao_pais": "CNRS",
+      "periodo": "2018 - 2020",
+      "ano_inicio": "2018",
+      "ano_fim": "2020",
+      "vinculo": "Celetista",
+      "enquadramento": "Pesquisador",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "University of Rennes, Inria, CNRS, IRISA, UNIV RENNES, França",
+      "instituicao_nome": "University of Rennes",
+      "instituicao_sigla": "Inria",
+      "instituicao_pais": "CNRS",
+      "periodo": "2018 - 2020",
+      "ano_inicio": "2018",
+      "ano_fim": "2020",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, University of Rennes, Inria, CNRS, IRISA."
+      ]
+    },
+    {
+      "instituicao": "Otto-von-Guericke-Universität Magdeburg, UNI/Magdeburg, Alemanha.",
+      "instituicao_nome": "Otto-von-Guericke-Universität Magdeburg",
+      "instituicao_sigla": "UNI/Magdeburg",
+      "instituicao_pais": "Alemanha",
+      "periodo": "2015 - 2018",
+      "ano_inicio": "2015",
+      "ano_fim": "2018",
+      "vinculo": "Bolsista",
+      "enquadramento": "Pesquisador",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Otto-von-Guericke-Universität Magdeburg, UNI/Magdeburg, Alemanha",
+      "instituicao_nome": "Otto-von-Guericke-Universität Magdeburg",
+      "instituicao_sigla": "UNI/Magdeburg",
+      "instituicao_pais": "Alemanha",
+      "periodo": "2015 - 2018",
+      "ano_inicio": "2015",
+      "ano_fim": "2018",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, School of Computer Science."
+      ]
+    },
+    {
+      "instituicao": "Otto-von-Guericke-Universität Magdeburg, UNI/Magdeburg, Alemanha",
+      "instituicao_nome": "Otto-von-Guericke-Universität Magdeburg",
+      "instituicao_sigla": "UNI/Magdeburg",
+      "instituicao_pais": "Alemanha",
+      "periodo": "10/2016 - 02/2017",
+      "ano_inicio": "2016",
+      "ano_fim": "2017",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Otto-von-Guericke-Universität Magdeburg, UNI/Magdeburg, Alemanha",
+      "instituicao_nome": "Otto-von-Guericke-Universität Magdeburg",
+      "instituicao_sigla": "UNI/Magdeburg",
+      "instituicao_pais": "Alemanha",
+      "periodo": "10/2015 - 02/2016",
+      "ano_inicio": "2015",
+      "ano_fim": "2016",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal de Minas Gerais, UFMG, Brasil.",
+      "instituicao_nome": "Universidade Federal de Minas Gerais",
+      "instituicao_sigla": "UFMG",
+      "instituicao_pais": "Brasil",
+      "periodo": "2012 - 2014",
+      "ano_inicio": "2012",
+      "ano_fim": "2014",
+      "vinculo": "Bolsista",
+      "enquadramento": "Pesquisador",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal de Minas Gerais, UFMG, Brasil",
+      "instituicao_nome": "Universidade Federal de Minas Gerais",
+      "instituicao_sigla": "UFMG",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2012 - 04/2014",
+      "ano_inicio": "2012",
+      "ano_fim": "2014",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Instituto de Ciências Exatas, Departamento de Ciência da Computação."
+      ]
+    },
+    {
+      "instituicao": "Universidade Federal de Lavras, UFLA, Brasil.",
+      "instituicao_nome": "Universidade Federal de Lavras",
+      "instituicao_sigla": "UFLA",
+      "instituicao_pais": "Brasil",
+      "periodo": "2008 - 2011",
+      "ano_inicio": "2008",
+      "ano_fim": "2011",
+      "vinculo": "Bolsista",
+      "enquadramento": "Estágio",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal de Lavras, UFLA, Brasil",
+      "instituicao_nome": "Universidade Federal de Lavras",
+      "instituicao_sigla": "UFLA",
+      "instituicao_pais": "Brasil",
+      "periodo": "01/2010 - 12/2011",
+      "ano_inicio": "2010",
+      "ano_fim": "2011",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Federal de Lavras, UFLA, Brasil",
+      "instituicao_nome": "Universidade Federal de Lavras",
+      "instituicao_sigla": "UFLA",
+      "instituicao_pais": "Brasil",
+      "periodo": "07/2009 - 01/2010",
+      "ano_inicio": "2009",
+      "ano_fim": "2010",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Embraer S.A., EMBRAER, Brasil.",
+      "instituicao_nome": "Embraer S.A.",
+      "instituicao_sigla": "EMBRAER",
+      "instituicao_pais": "Brasil",
+      "periodo": "2013 - 2013",
+      "ano_inicio": "2013",
+      "ano_fim": "2013",
+      "vinculo": "Celetista",
+      "enquadramento": "Analista de Desenvolvimento do Produto",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Embraer S",
+      "instituicao_nome": "Embraer S",
+      "instituicao_sigla": null,
+      "instituicao_pais": null,
+      "periodo": "2013 - 2013",
+      "ano_inicio": "2013",
+      "ano_fim": "2013",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Devex Tecnologia e Sistemas S.A., DE",
+      "instituicao_nome": "Devex Tecnologia e Sistemas S.A.",
+      "instituicao_sigla": "DE",
+      "instituicao_pais": null,
+      "periodo": "2011 - 2012",
+      "ano_inicio": "2011",
+      "ano_fim": "2012",
+      "vinculo": "Celetista",
+      "enquadramento": "Analista de Sistemas",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Devex Tecnologia e Sistemas S",
+      "instituicao_nome": "Devex Tecnologia e Sistemas S",
+      "instituicao_sigla": null,
+      "instituicao_pais": null,
+      "periodo": "08/2011 - 02/2012",
+      "ano_inicio": "2011",
+      "ano_fim": "2012",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Devex Tecnologia e Sistemas S",
+      "instituicao_nome": "Devex Tecnologia e Sistemas S",
+      "instituicao_sigla": null,
+      "instituicao_pais": null,
+      "periodo": "01/2011 - 07/2011",
+      "ano_inicio": "2011",
+      "ano_fim": "2011",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Aptum Soluções em Software, APTUM, Brasil.",
+      "instituicao_nome": "Aptum Soluções em Software",
+      "instituicao_sigla": "APTUM",
+      "instituicao_pais": "Brasil",
+      "periodo": "2010 - 2010",
+      "ano_inicio": "2010",
+      "ano_fim": "2010",
+      "vinculo": "Bolsista",
+      "enquadramento": "Estagiário",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Aptum Soluções em Software, APTUM, Brasil",
+      "instituicao_nome": "Aptum Soluções em Software",
+      "instituicao_sigla": "APTUM",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2010 - 12/2010",
+      "ano_inicio": "2010",
+      "ano_fim": "2010",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "(CNPq/MCTI/FNDCT N 44/2024 - UNIVERSAL) LLM4IoT: Detecting and Fixing Device Interaction Failures with Large Language Models in IoT Software Systems",
+      "ano_inicio": "2025",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Internet of Things (IoT) has emerged as a paradigm where the software systems are no longer limited to computers but they also target to a great variety of different connected devices. Managing the internal and external quality of IoT software systems is essential to the evolution of their functionalities, saving computational and human resources. For instance, the growing need for developing IoT software systems demands better support for managing complexity related to sensor devices, such as humidity, temperature, proximity, and motion sensors. Sensor devices enable the generation of adaptable IoT software systems, but they also create new challenges in software development, maintenance, and testing tasks. For instance, interactions caused by devices, also named device interaction, may create serious threats and make IoT systems more susceptible to failures. The causes of device interaction failures may be harder to detect because they occur only in specific situations. On the other hand, Large Language Models (LLM), such as ChatGPT and GitHub Copilot, have been used to support various software development tasks, such as fault localization, program synthesis, and refactoring. However, there is very little empirical knowledge about the applicability of LLM to the development of IoT systems. Therefore, this project main goal is to investigate and support developers detecting and fixing device interaction failures in IoT software systems by using LLM. To achieve this goal, we propose a set of three empirical studies to quantitative and qualitative evaluate the use of LLM in the context of IoT systems. The first study intends to mine data from public software repositories to obtain quantitative information about the evolution of IoT software systems. In the second study, we plan to focus our research on static and dynamic analyses of IoT system source code to deeper investigate device interaction failures. In a third study, we plan to conduct questionnaires and interviews with developers and experts of IoT systems to better understand the use of LLM on detecting and fixing device interaction failures. Based on collected data, this project aims to propose a new automated method to detect device interaction failures in IoT systems with support of LLM.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Juliana Arriel - Integrante / Eduardo Figueiredo - Coordenador / Gustavo Andrade do Vale - Integrante / Fischer Jonatas Ferreira - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Figueiredo",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Gustavo Andrade do Vale",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Fischer Jonatas Ferreira",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Avaliação da Qualidade de Código de Teste Gerado por Inteligência Artificial em Aplicações para Dispositivos Móveis",
+      "ano_inicio": "2024",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Controlar a qualidade interna de sistemas de software é essencial à evolução de sua funcionalidade; em particular, ao desenvolvimento de sistemas para dispositivos móveis (aplicativos móveis) por causa da variabilidade na configuração de recursos, uma vez que eles podem ser (des)habilitados durante o funcionamento do aplicativo. Essa variabilidade permite alterar, personalizar ou configurar o comportamento do aplicativo para uso em contexto específico, criando desafios no desenvolvimento de testes desses aplicativos. Detectar as causas desses desafios costuma ser difícil, pois podem ocorrer apenas em configurações específicas da aplicação e prejudicar a experiência do usuário e degradar a reputação de um projeto.Tecnologias recentes de Inteligência Artificial (IA) impulsionaram o desenvolvimento de sistemas de software em vários aspectos. Por exemplo, ChatGPT e Copilot podem traduzir texto inteligível ao humano para código fonte desses sistemas em diferentes linguagens de programação. Contudo, há pouco conhecimento empírico sobre a qualidade do código de teste gerado por IA. No contexto de aplicativos móveis, essa qualidade é importante pois a quantidade de combinações de recursos torna o esforço de testes exaustivo e, geralmente, proibitivo.Assim, o objetivo é analisar quantitativa e qualitativamente anomalias em códigos de teste gerados por IA para aplicativos móveis em situações que ocorrem interação de recursos. Para atingir esse objetivo, será realizada uma revisão da literatura sobre qualidade do código de testes para aplicativos móveis. Em seguida, serão conduzidos dois estudos experimentais. No primeiro estudo, serão minerados dados de repositórios públicos de aplicativos móveis e definido um catálogo de anomalias em código de teste gerados por IA. No segundo estudo, pretende-se avaliar as refatorações de código de teste com IA para tratar tais anomalias. Assim, espera-se avançar na avaliação e na melhoria da qualidade de testes para aplicativos.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (5) . Integrantes: Juliana Arriel - Integrante / Eduardo Figueiredo - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Figueiredo",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "(CAPES-COFECUB) Aprendendo Variabilidade de Software a partir da Evolução do Software",
+      "ano_inicio": "2024",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: O projeto propõe uma abordagem para compreender a variabilidade de software por meio de sua análise evolutiva. A variabilidade de software refere-se à capacidade de customização de um sistema de software para atender a diferentes requisitos de uso. No entanto, compreender e gerenciar essa variabilidade é um desafio devido à sua natureza dinâmica e em constante evolução. Portanto, o projeto propõe uma abordagem inovadora baseada em aprendizado de máquina. Através da coleta e análise de dados evolutivos dos sistemas de software da Stone, busca-se identificar padrões e tendências que possam ajudar a compreender como a variabilidade se manifesta ao longo do tempo. O projeto envolve a adaptação de algoritmos e métodos existentes na literatura para análise da variabilidade. Nós temos como objetivo construir um sistema de recomendação que fornecerá insights e sugestões para auxiliar os desenvolvedores na tomada de decisões durante a manutenção e evolução do software. Além disso, o projeto inclui uma etapa de avaliação empírica, na qual serão realizados experimentos controlados para coletar dados quantitativos e qualitativos sobre as soluções propostas. Com esses experimentos, busca-se validar a eficácia das abordagens desenvolvidas e obter insights adicionais sobre a variabilidade de software. Outro componente essencial do projeto é a disseminação do conhecimento. O projeto produzirá soluções de código aberto e abordagens inovadoras de alto interesse para a indústria de software brasileira. Promovendo assim a manutenção e fortalecimento da representação brasileira na rede internacional de pesquisa em engenharia de software, e o avanço da ciência e tecnologia.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (5) / Doutorado: (2) . Integrantes: Juliana Arriel - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "(Stone) Machine Learning na Gestão de Custos de Software: Um Estudo em Sistemas Configuráveis da Stone",
+      "ano_inicio": "2024",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Este projeto de pesquisa tem como objetivo principal desenvolver um modelo de predição baseado em ML que estime os custos associados às diversas customizações possíveis em um software configurável. Pretende-se investigar quais técnicas de ML são mais eficazes para este propósito e como elas podem ser implementadas para auxiliar na decisão estratégica e na gestão financeira das organizações. Além disso, o projeto visa identificar padrões nos dados históricos de desenvolvimento que possam influenciar os custos de customização, permitindo previsões mais precisas e confiáveis. A implementação bem-sucedida deste projeto pode resultar em economias significativas para empresas, além de contribuir para a literatura científica com novas metodologias de previsão de custos em engenharia de software.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (1) / Doutorado: (2) . Integrantes: Juliana Arriel - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "EcoSustain: Ciência de Dados e Computação para o Meio Ambiente",
+      "ano_inicio": "2024",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Restaurar ecossistemas degradados nunca foi tão urgente quanto hoje. A Década da ONU da Restauração de Ecossistemas busca impedir, interromper e reverter a degradação de ecossistemas em todos os continentes e oceanos. Ela pode erradicar a pobreza, combater a mudança climática, e evitar extinções em massa. Os desafios ambientais atuais são de escala global e se relacionam a inúmeros problemas em várias áreas. Eles incluem desmatamento ilegal, reduções drásticas na biodiversidade em múltiplos biomas, poluição do ar, água e lençóis freáticos, aquecimento global, alta pegada energética, tratamento inadequado de resíduos, uso de combustíveis fósseis, uso abusivo de fertilizantes e pesticidas nocivos, epidemias, mortes ou perda de bens devido a desastres naturais como enchentes, ciclones tropicais, furacões, tufões, incêndios naturais e muitos outros. Graças aos significativos avanços na tecnologia de informação e comunicação (TIC), ciência de dados e inteligência artificial nas duas últimas décadas, há múltiplas oportunidades para utilizar esses conhecimentos e tecnologias em amplo benefício do meio ambiente. Por exemplo, redes de sensores sem fio, Internet das Coisas, redes aéreas de drones, sensores de alta capacidade, filtragem, interpretação e análise de dados podem ser usados para coletar e processar dados de sensores sobre recursos naturais, animais ou flora para monitorar sua pureza ou estado de saúde, automatizando processos de proteção e restauração. Além disso, pode-se usar ciência de dados e aprendizado de máquina para distinguir eventos naturais e anormais e obter previsões mais precisas para os resultados de medidas de restauração ou melhoria de ecossistemas. O projeto EcoSustain agrega um grupo interdisciplinar de pesquisadores altamente qualificados de algumas das melhores universidades brasileiras que partem de sua experiência com ciência da computação, engenharia de software, simulações, análise de dados, aprendizado de máquina, IoT, e ciências ambientais para investigar, modelar, e desenvolver soluções tecnológicas visando à criação de sistemas de software, protocolos de comunicações, serviços em rede, modelos de aprendizado de máquina etc. para monitorar a analisar ecossistemas e recursos naturais em tempo real, além de garantir a efetiva prevenção, previsão e redução dos processos de degradação ambiental causados por humanos e seu estilo de vida.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Juliana Arriel - Coordenador / Antônio Jorge Gomes Abelém - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Antônio Jorge Gomes Abelém",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Infracidades - Trilha Humanização em Engenharia de Software",
+      "ano_inicio": "2022",
+      "ano_conclusao": "2023",
+      "descricao": [
+        "Descrição: No mundo de hoje quase tudo envolve o uso de software, incluindo os vários domínios da Engenharia. O Estado do Rio de Janeiro é um dos maiores produtores de software no Brasil. O sucesso de sistemas de software é diretamente dependente da saúde mental dos engenheiros, em particular dos profissionais de engenheira de software. No entanto, pouco se estuda sobre as relações entre o desempenho do engenheiro de software, a qualidade do software produzido e os aspectos interpessoais, psicológicos e emocionais. Enquanto aspectos técnicos são vastamente estudados, o lado humano do engenheiro de software é pouco efetivamente compreendido e considerado nos trabalhos em equipe e nas plataformas de apoio a engenharia de software. O objetivo geral dessa linha é estudar e relativizar a importância de todos estes aspectos quanto a desempenho do engenheiro de software e a qualidade do software produzido. Os estudos darão ênfase a algumas atividades rotineiras do engenheiro de software, tais como (re)estruturação do projeto de software, resolução de bugs e resolução problemas não-funcionais associadas ao código-fonte, tais como robustez, desempenho e segurança. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (3) / Doutorado: (6) . Integrantes: Juliana Arriel - Integrante / Alessandro Fabricio Garcia - Integrante / Maria Vitoria de Lima Varejão - Integrante / Paulo Liborio - Integrante / Carlos José Pereira de Lucena - Coordenador / Luisa Cito - Integrante. Financiador(es): Governo do Estado do Rio de Janeiro - Auxílio financeiro.",
+        "Descrição: No mundo de hoje quase tudo envolve o uso de software, incluindo os vários domínios da Engenharia. O Estado do Rio de Janeiro é um dos maiores produtores de software no Brasil. O sucesso de sistemas de software é diretamente dependente da saúde mental dos engenheiros, em particular dos profissionais de engenheira de software. No entanto, pouco se estuda sobre as relações entre o desempenho do engenheiro de software, a qualidade do software produzido e os aspectos interpessoais, psicológicos e emocionais. Enquanto aspectos técnicos são vastamente estudados, o lado humano do engenheiro de software é pouco efetivamente compreendido e considerado nos trabalhos em equipe e nas plataformas de apoio a engenharia de software. O objetivo geral dessa linha é estudar e relativizar a importância de todos estes aspectos quanto a desempenho do engenheiro de software e a qualidade do software produzido. Os estudos darão ênfase a algumas atividades rotineiras do engenheiro de software, tais como (re)estruturação do projeto de software, resolução de bugs e resolução problemas não-funcionais associadas ao código-fonte, tais como robustez, desempenho e segurança.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (3) / Doutorado: (6) . Integrantes: Alessandro Fabricio Garcia - Integrante / Carlos José Pereira de Lucena - Coordenador. Financiador(es): Governo do Estado do Rio de Janeiro - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alessandro Fabricio Garcia",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Maria Vitoria de Lima Varejão",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Paulo Liborio",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carlos José Pereira de Lucena",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Luisa Cito",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Governo do Estado do Rio de Janeiro",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "MAssiSo - Modernização Assistida de Softwares Legados para Adoção de Tecnologias Disruptivas",
+      "ano_inicio": "2019",
+      "ano_conclusao": "2024",
+      "descricao": [
+        "Descrição: A cidade do Rio de Janeiro e responsável por concentrar uma parcela significativa do desenvolvimento de software, abrangendo cerca de 40 da produção nacional. Muitos desses softwares se tornam legados: fornecem funcionalidades essenciais para organizações, porem usam tecnologias comumente defasadas. Ha uma grande dificuldade em manter ou mesmo modernizar esses softwares, especialmente devido à degradação estrutural que afeta o código. No entanto, vários desses softwares são muito importantes para serem descartados. Para as organizações manterem-se competitivas nos cenários nacional e internacional, e crucial a modernização de softwares legados. A inclusão de novas tecnologias disruptivas, tais como microsserviços e Blockchain, ajuda a: (i) evitar a descontinuação de softwares legados essenciais, e (ii) oferecer várias outras oportunidades para as organizações. Para realizar tais modernizações, refatoração e a principal e mais desafiadora atividade, visto que o nível de degradação de código legado requer reestruturações complexas. O desenvolvedor ainda tem a necessidade de identificar quais refatorações serão mais adequadas para o sistema alvo, o que acaba se tornando uma tarefa dispendiosa e propensa a erros se feita manualmente. Estudos relacionados focam apenas na automatização de refatorações simples. As técnicas para incorporação de tecnologias disruptivas deveriam prover um apoio automatizado para várias etapas de refatorações complexas, considerando o contexto do sistema que esta sendo modernizado. Deste modo, o projeto MAssiSo visa: (i) realizar estudos com os sistemas legados da indústria fluminense, que estão passando pelo processo de modernização; (ii) propor e desenvolver um sistema recomendador que auxilie no processo de refatoração de código legado; (iii) investigar técnicas de otimização e recomendação que permitam a identificação, aplicação e reintegração de refatoração em código legado, (iv) avaliar o impacto na qualidade do software após a re-estruturação proposta pelo recomendador. MAssiSo tem um grupo de quatro pesquisadores, que possuem diferentes bolsas de produtividade, além de serem referências internacionais nas áreas de Engenharia de Software e Otimizacão. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (7) Doutorado: (6) . Integrantes: Juliana Arriel - Integrante / Alessandro Fabricio Garcia - Coordenador. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Auxílio financeiro.",
+        "Descrição: A cidade do Rio de Janeiro é responsável por concentrar uma parcela significativa do desenvolvimento de software abrangendo cerca de 40 da produção nacional.Muitos desses softwares se tornam legados: fornecem funcionalidades essenciais para organizações, porém usam tecnologias comumente defasadas. Há uma grande diculdadeem manter ou mesmo modernizar esses softwares, especialmente devido a degradação estrutural que afeta o código. No entanto, vários desses softwares são muito importantespara serem descartados. Para as organizações manterem-se competitivas nos cenáriosnacional e internacional, é crucial a modernização de softwares legados. A inclusão denovas tecnologias disruptivas, tais como microsserviços e Blockchain, ajuda a: (i) evitara descontinuação de softwares legados essenciais, e (ii) oferecer várias outras oportunidadespara as organizações. Para realizar tais modernizações, refatoração é a principale mais desafiadora atividade, visto que o nível de degradação de código legado requerreestruturações complexas. O desenvolvedor ainda tem a necessidade de identicar quaisrefatorações serão mais adequadas para o sistema alvo, o que acaba se tornando uma tarefadispendiosa e propensa a erros se feita manualmente. Estudos relacionados focam apenasna automatização de refatorações simples. As técnicas para incorporação de tecnologiasdisruptivas deveriam prover um apoio automatizado para várias etapas de refatoraçõescomplexas, considerando o contexto do sistema que está sendo modernizado. Deste modo,o projeto MAssiSo visa: (i) realizar estudos com os sistemas legados da indústria fluminense,que estã passando pelo processo de modernização; (ii) propor e desenvolverum sistema recomendador que auxilie no processo de refatoração de código legado; (iii)investigar técnicas de otimização e recomendação que permitam a identicação, aplicaçãoe reintegração de refatoração em código legado, (iv) avaliar o impacto na qualidade dosoftware após a re-estruturação proposta pelo recomendador. MAssiSo tem um grupode quatro pesquisadores, que possuem diferentes bolsas de produtividade, além de seremreferências internacionais nas áreas de Engenharia de Software e Otimizacão.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (7) Doutorado: (6) . Integrantes: Alessandro Fabricio Garcia - Coordenador / Leonardo Murta - Integrante / Marcos Kalinowski - Integrante / Thibaut Vidal - Integrante / Maria Vitoria de Lima Varejão - Integrante. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alessandro Fabricio Garcia",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Leonardo Murta",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Marcos Kalinowski",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Thibaut Vidal",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Maria Vitoria de Lima Varejão",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Sistema de Recomendação Personalizado Baseado em Características para a Configuração de Linha de Produtos",
+      "ano_inicio": "2015",
+      "ano_conclusao": "2018",
+      "descricao": [
+        "Descrição: No mercado competitivo de hoje, a produção em massa, deu lugar a personalização em massa. Na literatura de linhas de produto, personalização em massa de produtos é conhecido como configuração do produto. Usuários configuram produtos personalizados por consecutivamente selecionando características com base em suas necessidades individuais. No entanto, como a maioria das características são interdependentes, os usuários devem compreender o impacto de suas seleções graduais, a fim de tomar decisões válidas. Assim, especialmente quando se lida com grandes modelos de recursos, assistência especializada é necessária para guiar os usuários configurando produtos. Recentemente, sistemas de recomendação provaram ser um meio adequado para auxiliar os usuários na busca de informações e tomada de decisões. Neste projeto, pretendemos propor um sistema de recomendação de características avançado que forneça recomendações personalizadas para os usuários. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (3) . Integrantes: Juliana Arriel - Integrante / Gunter Saake - Coordenador / Sebastian Krieter - Integrante / Pawel Matuszyk - Integrante / Myra Spiliopoulou - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Gunter Saake",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Sebastian Krieter",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Pawel Matuszyk",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Myra Spiliopoulou",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Linha de Produtos de Software Linguagens e Ferramentas",
+      "ano_inicio": "2015",
+      "ano_conclusao": "2018",
+      "descricao": [
+        "Descrição: Neste projeto, nós nos concentramos na investigação e desenvolvimento de ferramentas e linguagens para linha de produtos de software. Nosso projeto se concentra em usabilidade, flexibilidade e complexidade das abordagens atuais. Ele inclui ferramentas como FeatureHouse, FeatureIDE, CIDE, FeatureC++. A pesquisa gira em torno de ideias de programação orientada a características e explora as fronteiras em direção a outros paradigmas de desenvolvimento, incluindo sistemas de tipo, refatorações, padrões de design, programação orientada a aspectos, programação generativa, arquiteturas baseadas em modelos, e arquiteturas orientadas a serviços. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (7) . Integrantes: Juliana Arriel - Integrante / Gunter Saake - Coordenador / Sebastian Krieter - Integrante / Fabian Benduhn - Integrante / Thomas Thum - Integrante / Wolfram Fenske - Integrante / Reimar Schroter - Integrante / Thomas Leich - Integrante / Jens Meinicke - Integrante / Mustafa Al-Hajjaji - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Gunter Saake",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Sebastian Krieter",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Fabian Benduhn",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Thomas Thum",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Wolfram Fenske",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Reimar Schroter",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Thomas Leich",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Jens Meinicke",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Mustafa Al-Hajjaji",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Evolução Segura de Famílias de Sistemas de Software: Métricas, Experimentos e Padrões de Desenvolvimento (CNPq Universal)",
+      "ano_inicio": "2014",
+      "ano_conclusao": "2016",
+      "descricao": [
+        "Descrição: O objetivo deste projeto é oferecer meios para avaliação empírica dos efeitos positivos e negativos de diferentes mecanismos de composição de uma família de sistemas na estabilidade e na robustez dos produtos de software. Ao fim deste projeto espera-se obter os seguintes resultados: (i) identificar, documentar e formalizar diferentes formas de manifestações de características em famílias de sistemas de software, (ii) obter um método empírico baseado em métricas para avaliação de técnicas de desenvolvimento usados em famílias de sistemas de software, e (iii) documentar o conhecimento em relação ao uso de mecanismos modernos de composição destas técnicas na forma de padrões de desenvolvimento. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (2) / Doutorado: (2) . Integrantes: Juliana Arriel - Integrante / Eduardo Figueiredo - Coordenador / Juliana Padilha - Integrante / Cláudio Sant?Anna - Integrante / Pedro Santos Neto - Integrante / Alexandre Martins Paiva - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Figueiredo",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Juliana Padilha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Cláudio Sant?Anna",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Pedro Santos Neto",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alexandre Martins Paiva",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Avaliação Sensível a Características de Técnicas para Desenvolvimento de Linha de Produtos de Software (FAPEMIG Universal)",
+      "ano_inicio": "2013",
+      "ano_conclusao": "2015",
+      "descricao": [
+        "Descrição: Algumas manifestações de características são consideradas indícios de problemas para a evolução de uma Linha de Produtos de Software (LPS) como, por exemplo, por levarem a um número excessivo de falhas e instabilidade dos produtos. Por outro lado, inúmeras técnicas de desenvolvimento têm sido propostas com o objetivo de separar as características que compõe uma LPS. Entretanto, pouco se sabe da real influência dos diferentes mecanismos presentes nestas técnicas nos atributos de qualidade da LPS, como estabilidade e robustez. Assim, o objetivo deste projeto é oferecer meios para avaliação empírica dos efeitos positivos e negativos de diferentes mecanismos de composição de uma LPS na estabilidade e na robustez dos produtos de software. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (3) / Mestrado acadêmico: (1) / Doutorado: (1) . Integrantes: Juliana Arriel - Integrante / Eduardo Figueiredo - Coordenador / Alessandro Fabricio Garcia - Integrante / Fabiano Cutigi Ferrari - Integrante / Diogo Santana - Integrante / Juliana Padilha - Integrante / Marina Montanari Barbosa - Integrante / Hayllander Blonski Santos - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro.",
+        "Descrição: O objetivo deste projeto é investigar a eficácia de métricas sensíveis a interesses para avaliação de técnicas de desenvolvimento de linhas de produtos de software.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Alessandro Fabricio Garcia - Integrante / Fabiano Ferrari - Integrante / Figueiredo, Eduardo - Coordenador. Financiador(es): Universidade Federal de Minas Gerais - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Figueiredo",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Alessandro Fabricio Garcia",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Fabiano Cutigi Ferrari",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Diogo Santana",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Juliana Padilha",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Marina Montanari Barbosa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Hayllander Blonski Santos",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Fabiano Ferrari",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Figueiredo, Eduardo",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação de Amparo à Pesquisa do Estado de Minas Gerais",
+          "tipo_apoio": "Auxílio financeiro"
+        },
+        {
+          "nome": "Universidade Federal de Minas Gerais",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Análise Quantitativa Orientada a Interesses de Sistemas Modulares e Confiáveis (FAPEMIG Universal)",
+      "ano_inicio": "2012",
+      "ano_conclusao": "2013",
+      "descricao": [
+        "Descrição: O objetivo deste projeto é oferecer meios para análise quantitativa orientada a interesses dos efeitos positivos e negativos de diferentes técnicas avançadas de modularização na confiabilidade de sistemas de software. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (2) . Integrantes: Juliana Arriel - Integrante / Heitor Costa - Integrante / Ramon Simões Abilio - Integrante / Eduardo Magno Lages Figueiredo - Coordenador / Nelio Alessandro Azevedo Cacho - Integrante. Financiador(es): Fundação de Amparo à Pesquisa do Estado de Minas Gerais - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Juliana Arriel",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Heitor Costa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ramon Simões Abilio",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Magno Lages Figueiredo",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Nelio Alessandro Azevedo Cacho",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação de Amparo à Pesquisa do Estado de Minas Gerais",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Engenharia de Software",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Engenharia de Software."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Inteligência Artificial",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Inteligência Artificial."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Espanhol",
+      "compreende": "Razoavelmente",
+      "fala": "Pouco",
+      "le": "Pouco",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Razoavelmente, Fala Pouco, Lê Pouco, Escreve Pouco."
+    },
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Alemão",
+      "compreende": "Pouco",
+      "fala": "Pouco",
+      "le": "Pouco",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco."
+    },
+    {
+      "nome": "Francês",
+      "compreende": "Pouco",
+      "fala": "Pouco",
+      "le": "Pouco",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Distinguished Paper Award, Brazilian Symposium on Software Engineering (SBES).",
+      "ano": 2025
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "Otimização Combinatória",
+      "objetivo": ""
+    },
+    {
+      "nome": "Engenharia de Software",
+      "objetivo": ""
+    },
+    {
+      "nome": "Sistemas de Recomendação",
+      "objetivo": ""
+    },
+    {
+      "nome": "Engenharia de Software",
+      "objetivo": ""
+    },
+    {
+      "nome": "Aprendizado de Máquina",
+      "objetivo": ""
+    },
+    {
+      "nome": "Engenharia de Software",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Leveraging large language models for sentiment analysis in GitHub pull request discussions",
+        "ano": 2026,
+        "autores": "COUTINHO, DANIEL ; BRAGA, BRENO ; CANUTO, THEO ; Pereira, Juliana Alves ; ASSUNÇÃO, WESLEY K. G. ; STEINMACHER, IGOR ; GEROSA, MARCO ; Garcia, Alessandro",
+        "revista": "EMPIRICAL SOFTWARE ENGINEERING",
+        "volume": "31",
+        "numero": "",
+        "paginas": "140-187",
+        "issn": "1382-3256",
+        "doi": "http://dx.doi.org/10.1007/s10664-026-10868-6",
+        "qualis": ""
+      },
+      {
+        "titulo": "Understanding developer well-being: measuring mental health and productivity in software teams",
+        "ano": 2026,
+        "autores": "ARRIEL, JOHNY ; CANUTO, THEO ; AZEVEDO, JÚLIA ; LIMA, MARIA VITORIA ; MANN, PAULO ; Garcia, Alessandro ; Pereira, Juliana Alves",
+        "revista": "EMPIRICAL SOFTWARE ENGINEERING",
+        "volume": "31",
+        "numero": "",
+        "paginas": "1-58",
+        "issn": "1382-3256",
+        "doi": "http://dx.doi.org/10.1007/s10664-026-10830-6",
+        "qualis": ""
+      },
+      {
+        "titulo": "Data Privacy in Software Practice: Brazilian Developers? Perspectives",
+        "ano": 2025,
+        "autores": "MATOS, ARYELY ; PATRÍCIO, MARIO ; NICOLAU, MARIA ISABEL ; CANEDO, EDNA DIAS ; Pereira, Juliana Alves ; UCHÔA, ANDERSON",
+        "revista": "JOURNAL OF INTERNET SERVICES AND APPLICATIONS",
+        "volume": "16",
+        "numero": "",
+        "paginas": "299-319",
+        "issn": "1869-0238",
+        "doi": "http://dx.doi.org/10.5753/jisa.2025.5302",
+        "qualis": ""
+      },
+      {
+        "titulo": "Understanding Developers? Discussions and Perceptions on Non-functional Requirements: The Case of the Spring Ecosystem",
+        "ano": 2024,
+        "autores": "OLIVEIRA, ANDERSON ; CORREIA, JOÃO ; ASSUNÇÃO, WESLEY K. G. ; Pereira, Juliana Alves ; DE MELLO, RAFAEL ; COUTINHO, DANIEL ; BARBOSA, CAIO ; LIBÓRIO, PAULO ; Garcia, Alessandro",
+        "revista": "Proceedings of the ACM on Software Engineering",
+        "volume": "1",
+        "numero": "",
+        "paginas": "517-538",
+        "issn": "2994-970X",
+        "doi": "http://dx.doi.org/10.1145/3643750",
+        "qualis": ""
+      },
+      {
+        "titulo": "An exploratory evaluation of code smell agglomerations",
+        "ano": 2024,
+        "autores": "SANTANA, AMANDA ; FIGUEIREDO, Eduardo ; ALVES PEREIRA, JULIANA ; Garcia, Alessandro",
+        "revista": "SOFTWARE QUALITY JOURNAL (ONLINE)",
+        "volume": "32",
+        "numero": "",
+        "paginas": "1375-1412",
+        "issn": "0963-9314",
+        "doi": "http://dx.doi.org/10.1007/s11219-024-09680-6",
+        "qualis": ""
+      },
+      {
+        "titulo": "On the Usefulness of Automatically Generated Microservice Architectures",
+        "ano": 2024,
+        "autores": "CARVALHO, LUIZ ; COLANZI, THELMA ELITA ; ASSUNÇÃO, WESLEY K. G. ; Garcia, Alessandro ; Pereira, Juliana Alves ; KALINOWSKI, MARCOS ; DE MELLO, RAFAEL MAIANI ; DE LIMA, MARIA JULIA ; LUCENA, CARLOS",
+        "revista": "Ieee Transactions On Software Engineering",
+        "volume": "50",
+        "numero": "",
+        "paginas": "651-667",
+        "issn": "2326-3881",
+        "doi": "http://dx.doi.org/10.1109/tse.2024.3361209",
+        "qualis": ""
+      },
+      {
+        "titulo": "Transfer Learning Across Variants and Versions: The Case of Linux Kernel Size",
+        "ano": 2022,
+        "autores": "MARTIN, HUGO ; ACHER, MATHIEU ; Pereira, Juliana Alves ; LESOIL, LUC ; JEZEQUEL, JEAN-MARC ; KHELLADI, DJAMEL EDDINE",
+        "revista": "Ieee Transactions On Software Engineering",
+        "volume": "48",
+        "numero": "",
+        "paginas": "4274-4290",
+        "issn": "1939-3520",
+        "doi": "http://dx.doi.org/10.1109/tse.2021.3116768",
+        "qualis": ""
+      },
+      {
+        "titulo": "Analysis of a many-objective optimization approach for identifying microservices from legacy systems",
+        "ano": 2022,
+        "autores": "ASSUNÇÃO, WESLEY K. G. ; COLANZI, THELMA ELITA ; CARVALHO, LUIZ ; Garcia, Alessandro ; Pereira, Juliana Alves ; DE LIMA, MARIA JULIA ; LUCENA, CARLOS",
+        "revista": "EMPIRICAL SOFTWARE ENGINEERING",
+        "volume": "27",
+        "numero": "",
+        "paginas": "1-31",
+        "issn": "1382-3256",
+        "doi": "http://dx.doi.org/10.1007/s10664-021-10049-7",
+        "qualis": ""
+      },
+      {
+        "titulo": "Learning software configuration spaces: A systematic literature review",
+        "ano": 2021,
+        "autores": "Pereira, Juliana Alves; ACHER, MATHIEU ; MARTIN, HUGO ; JÉZÉQUEL, JEAN-MARC ; BOTTERWECK, GOETZ ; VENTRESQUE, ANTHONY",
+        "revista": "JOURNAL OF SYSTEMS AND SOFTWARE",
+        "volume": "182",
+        "numero": "",
+        "paginas": "111044-111080",
+        "issn": "0164-1212",
+        "doi": "http://dx.doi.org/10.1016/j.jss.2021.111044",
+        "qualis": ""
+      },
+      {
+        "titulo": "A systematic literature review on the semi-automatic configuration of extended product lines",
+        "ano": 2018,
+        "autores": "OCHOA, LINA ; GONZÁLEZ-ROJAS, OSCAR ; JULIANA, ALVES PEREIRA ; CASTRO, HAROLD ; Saake, Gunter",
+        "revista": "JOURNAL OF SYSTEMS AND SOFTWARE",
+        "volume": "144",
+        "numero": "",
+        "paginas": "511-532",
+        "issn": "0164-1212",
+        "doi": "http://dx.doi.org/10.1016/j.jss.2018.07.054",
+        "qualis": ""
+      },
+      {
+        "titulo": "Personalized recommender systems for product-line configuration processes",
+        "ano": 2018,
+        "autores": "Pereira, Juliana Alves; Matuszyk, Pawel ; Krieter, Sebastian ; Spiliopoulou, Myra ; Saake, Gunter",
+        "revista": "COMPUTER LANGUAGES SYSTEMS & STRUCTURES",
+        "volume": "54",
+        "numero": "",
+        "paginas": "451-471",
+        "issn": "1477-8424",
+        "doi": "http://dx.doi.org/10.1016/j.cl.2018.01.003",
+        "qualis": ""
+      },
+      {
+        "titulo": "Heuristic and exact algorithms for product configuration in software product lines",
+        "ano": 2017,
+        "autores": "Pereira, Juliana Alves; MACIEL, LUCAS ; NORONHA, THIAGO F. ; Figueiredo, Eduardo",
+        "revista": "International Transactions in Operational Research",
+        "volume": "1",
+        "numero": "",
+        "paginas": "1-22",
+        "issn": "0969-6016",
+        "doi": "http://dx.doi.org/10.1111/itor.12414",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [],
+    "capitulos_livros": [
+      {
+        "titulo": "Machine Learning for Feature Constraints Discovery. Handbook of Re-Engineering Software Intensive Systems into Software Product Lines. 1ed",
+        "ano": 2023,
+        "autores": "MARTIN, HUGO ; TEMPLE, PAUL ; ACHER, MATHIEU ; Pereira, Juliana Alves ; JÉZÉQUEL, JEAN-MARC",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "175-196"
+      },
+      {
+        "titulo": "Lean R&D: An Agile Research and Development Approach for Digital Transformation. Lecture Notes in Computer Science. 1ed",
+        "ano": 2020,
+        "autores": "KALINOWSKI, MARCOS ; Lopes, Hélio ; Teixeira, Alex Furtado ; da Silva Cardoso, Gabriel ; Kuramoto, André ; Itagyba, Bruno ; Batista, Solon Tarso ; Pereira, Juliana Alves ; Silva, Thuener ; Warrak, Jorge Alam ; da Costa, Marcelo ; Fischer, Marinho ; Salgado, Cristiane ; Teixeira, Bianca ; Chueke, Jacques ; Ferreira, Bruna ; Lima, Rodrigo ; Villamizar, Hugo ; Brandão, André ; Barbosa, Simone ; et.al",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "106-124"
+      },
+      {
+        "titulo": "FeatureIDE: Scalable Product Configuration of Variable Systems. Lecture Notes in Computer Science. 1ed",
+        "ano": 2016,
+        "autores": "Pereira, Juliana Alves; Krieter, Sebastian ; Meinicke, Jens ; Schröter, Reimar ; Saake, Gunter ; Leich, Thomas",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "397-401"
+      },
+      {
+        "titulo": "Quantitative and Qualitative Empirical Analysis of Three Feature Modeling Tools. Communications in Computer and Information Science. 1ed",
+        "ano": 2016,
+        "autores": "Pereira, Juliana Alves; Constantino, Kattiana ; Figueiredo, Eduardo ; Saake, Gunter",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "66-88"
+      },
+      {
+        "titulo": "A Systematic Literature Review of Software Product Line Management Tools. Lecture Notes in Computer Science. 1ed",
+        "ano": 2014,
+        "autores": "Pereira, Juliana Alves; Constantino, Kattiana ; Figueiredo, Eduardo",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "73-89"
+      },
+      {
+        "titulo": "On the Effectiveness of Concern Metrics to Detect Code Smells: An Empirical Study. Lecture Notes in Computer Science. 1ed",
+        "ano": 2014,
+        "autores": "Padilha, Juliana ; Pereira, Juliana ; Figueiredo, Eduardo ; Almeida, Jussara ; Garcia, Alessandro ; Sant’",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "656-671"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "Unveiling the Impact of Sampling on Feature Selection for Performance Prediction in Configurable Systems",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1109/ICSR66718.2025.00012",
+        "autores": "BESSAL, JOÃO MARCELLO ; CAVALCANTI, MILLENA ; ACHER, MATHIEU ; ENDLER, MARKUS ; Pereira, Juliana Alves",
+        "evento": "2025 IEEE/ACM 22nd International Conference on Software and Systems Reuse (ICSR)",
+        "cidade": "",
+        "paginas": "55-66",
+        "isbn": ""
+      },
+      {
+        "titulo": "Linux Kernel Configurations at Scale: A Dataset for Performance and Evolution Analysis",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1145/3756681.3757004",
+        "autores": "BORGES, HERALDO ; ALVES PEREIRA, JULIANA ; EDDINE KHELLADI, DJAMEL ; ACHER, MATHIEU",
+        "evento": "EASE '25: Evaluation and Assessment in Software Engineering",
+        "cidade": "",
+        "paginas": "1066-1075",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Use of GPT to Reveal Common Questions in Developers? Discussions",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1109/compsac65507.2025.00226",
+        "autores": "RAMALHO, CAMILA T. ; Garcia, Alessandro ; Pereira, Juliana Alves ; ASSUNÇÃO, WESLEY K. G. ; COUTINHO, DANIEL ; BARBOSA, CAIO ; LUCENA, CARLOS ; ITO, RODRIGO",
+        "evento": "2025 IEEE 49th Annual Computers",
+        "cidade": "",
+        "paginas": "1677-1682",
+        "isbn": ""
+      },
+      {
+        "titulo": "PRemo: A Dataset of Emotions Found on Pull Request Discussions",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbes.2025.9936",
+        "autores": "COUTINHO, DANIEL ; Pereira, Juliana Alves ; NEVES, BRENO BRAGA ; CORREIA, JOÃO ; BARBOSA, CAIO ; ASSUNÇÃO, WESLEY K. G. ; STEINMACHER, IGOR ; GEROSA, MARCO ; BAFFA, AUGUSTO ; Garcia, Alessandro",
+        "evento": "Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "326-336",
+        "isbn": ""
+      },
+      {
+        "titulo": "Pain in a Safe Space: Mapping Emotions and Discourse in theWomenintech Subreddit",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbes.2025.11171",
+        "autores": "RIBAS, JESSICA ; CARNEIRO, JOANNE ; SOUSA, THEO ; AZEVEDO, JÚLIA ; JANUÁRIO, JAILMA ; UCHÔA, ANDERSON ; Pereira, Juliana Alves",
+        "evento": "Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "727-733",
+        "isbn": ""
+      },
+      {
+        "titulo": "Comparing LLMs and Proposing an ML-Based Approach for Search String Generation in Systematic Literature Reviews",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbes.2025.11612",
+        "autores": "MARASSI, DIOGO ADÁRIO ; Pereira, Juliana Alves ; FELIZARDO, KATIA ROMERO",
+        "evento": "Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "852-858",
+        "isbn": ""
+      },
+      {
+        "titulo": "Diversity Matters: Perceived Inclusion and Discrimination by Brazilian Tech Professionals",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbes.2025.9956",
+        "autores": "SOUSA, THEO ; AZEVEDO, JÚLIA ; RIBAS, JESSICA ; UCHÔA, ANDERSON ; ROCHA, LARISSA ; Pereira, Juliana Alves",
+        "evento": "Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "371-381",
+        "isbn": ""
+      },
+      {
+        "titulo": "404: Civility Not Found? Evaluating the Effectiveness of Small Language Models in Detecting Incivility in GitHub Conversations",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbes.2025.9933",
+        "autores": "PATRÍCIO, MÁRIO ; EUFRÁSIO, SILAS ; UCHÔA, ANDERSON ; ROCHA, LINCOLN S. ; COUTINHO, DANIEL ; Pereira, Juliana Alves ; PAIXÃO, MATHEUS ; Garcia, Alessandro",
+        "evento": "Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "304-314",
+        "isbn": ""
+      },
+      {
+        "titulo": "Toward Reliable Forward Snowballing in Systematic Literature Reviews: A Comparative Study and Framework Proposal",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbes.2025.11559",
+        "autores": "JANUÁRIO, JAILMA ; NICOLAU, MARIA ISABEL ; FELIZARDO, KATIA R. ; Pereira, Juliana Alves",
+        "evento": "Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "762-768",
+        "isbn": ""
+      },
+      {
+        "titulo": "Evaluating the Potential of Large Language Models in Security-Related Software Requirements Classification",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbes.2025.9935",
+        "autores": "MARTIN, MURILO ; COUTINHO, DANIEL ; UCHÔA, ANDERSON ; Pereira, Juliana Alves",
+        "evento": "Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "315-325",
+        "isbn": ""
+      },
+      {
+        "titulo": "Code Smell Classification in Python: Are Small Language Models Up to the Task?",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbes.2025.11046",
+        "autores": "OLIVEIRA, IGOR SOARES DE ; CARNEIRO, JOANNE ; RIBAS, JESSICA ; Pereira, Juliana Alves",
+        "evento": "Simpósio Brasileiro de Engenharia de Software",
+        "cidade": "",
+        "paginas": "699-705",
+        "isbn": ""
+      },
+      {
+        "titulo": "ImprovMLCQ: A Feature-Enriched Dataset for Advancing Code Smell Detection",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbcars.2025.13594",
+        "autores": "CARNEIRO, JOANNE ; RIBAS, JESSICA ; SANTANA, AMANDA ; Figueiredo, Eduardo ; Pereira, Juliana Alves",
+        "evento": "Simpósio Brasileiro de Componentes",
+        "cidade": "",
+        "paginas": "13-23",
+        "isbn": ""
+      },
+      {
+        "titulo": "Overcoming Obstacles: Challenges of Gender Inequality in Undergraduate ICT Programs",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.1109/geicse66911.2025.00006",
+        "autores": "SOUZA, ANGELICA PEREIRA ; UCHÔA, ANDERSON ; CANEDO, EDNA DIAS ; Pereira, Juliana Alves ; PEREIRA, CLAUDIA PINTO ; ROCHA, LARISSA",
+        "evento": "2025 IEEE/ACM Sixth Workshop on Gender Equality",
+        "cidade": "",
+        "paginas": "9-16",
+        "isbn": ""
+      },
+      {
+        "titulo": "RAISE: A Self-Hosted Platform for Mining and Managing Data from GitHub and Jira",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbcars.2025.14603",
+        "autores": "NEVES, BRENO ; COUTINHO, DANIEL ; SARDENBERG, EDUARDO ; ALESI, ARTHUR ; MACHADO, MARCELO ; ARRIEL, JOHNY ; CAVALVANTE, ANA LUÍSA ; CARVALHO, ROBBIE ; Pereira, Juliana Alves",
+        "evento": "Simpósio Brasileiro de Componentes",
+        "cidade": "",
+        "paginas": "112-122",
+        "isbn": ""
+      },
+      {
+        "titulo": "\"Looks Good To Me ;-)\": Assessing Sentiment Analysis Tools for Pull Request Discussions",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1145/3661167.3661189",
+        "autores": "COUTINHO, DANIEL ; CITO, LUISA ; LIMA, MARIA VITÓRIA ; ARANTES, BEATRIZ ; ALVES PEREIRA, JULIANA ; ARRIEL, JOHNY ; GODINHO, JOÃO ; MARTINS, VINICIUS ; LIBÓRIO, PAULO VÍTOR C. F. ; LEITE, LEONARDO ; Garcia, Alessandro ; ASSUNÇÃO, WESLEY K. G. ; STEINMACHER, IGOR ; BAFFA, AUGUSTO ; FONSECA, BALDOINO",
+        "evento": "EASE 2024: 28th International Conference on Evaluation and Assessment in Software Engineering",
+        "cidade": "",
+        "paginas": "211-221",
+        "isbn": ""
+      },
+      {
+        "titulo": "Mental Health and Productivity in Software Development: A Study with the Bravo Central Platform",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1145/3658271.3658331",
+        "autores": "LEME, NICOLAS PAES ; ARRIEL, JOHNY ; Garcia, Alessandro ; AZEVEDO, JÚLIA ; SOUSA, THEO ; BUENO, LUANA ; GODINHO, JOÃO ; Pereira, Juliana Alves",
+        "evento": "SBSI '24: XX Brazilian Symposium on Information Systems",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Effect of Feature Subset Selection on Samplings for Performance Prediction of Configurable Systems",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5753/sbsi_estendido.2024.238518",
+        "autores": "RODRIGUES, JOÃO MARCELLO BESSA ; Pereira, Juliana Alves",
+        "evento": "Anais Estendidos do Simpósio Brasileiro de Sistemas de Informação",
+        "cidade": "",
+        "paginas": "164-173",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Investigation of Exception Pull Request Characteristics: Exploring the Apache Ecosystem",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1109/SCAM63643.2024.00023",
+        "autores": "CORREIA, JOÃO ; COUTINHO, DANIEL ; Garcia, Alessandro ; DE MELLO, RAFAEL ; BARBOSA, CAIO ; OLIVEIRA, ANDERSON ; ASSUNÇÃO, WESLEY K. G. ; Pereira, Juliana Alves ; STEINMACHER, IGOR ; GEROSA, MARCO ; SOUZA, JAIRO ; ARRIEL, JOHNY",
+        "evento": "24th IEEE International Conference on Source Code Analysis and Manipulation (SCAM 2024)",
+        "cidade": "",
+        "paginas": "143-153",
+        "isbn": ""
+      },
+      {
+        "titulo": "Unraveling the Impact of Code Smell Agglomerations on Code Stability",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1109/ICSME58944.2024.00049",
+        "autores": "SANTANA, AMANDA ; FIGUEIREDO, Eduardo ; Pereira, Juliana Alves",
+        "evento": "2024 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+        "cidade": "",
+        "paginas": "461-473",
+        "isbn": ""
+      },
+      {
+        "titulo": "Eyes on Code Smells: Analyzing Developers? Responses During Code Snippet Analysis",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5753/sbes.2024.3431",
+        "autores": "MARTINS, VINÍCIUS ; RAMOS, PEDRO LOPES VERARDO ; NEVES, BRENO BRAGA ; LIMA, MARIA VITORIA ; ARRIEL, JOHNY ; GODINHO, JOÃO VICTOR ; RIBEIRO, JOANNE ; Garcia, Alessandro ; Pereira, Juliana Alves",
+        "evento": "XXXVIII Brazilian Symposium on Software Engineering",
+        "cidade": "",
+        "paginas": "302-312",
+        "isbn": ""
+      },
+      {
+        "titulo": "Explorando o Potencial e a Viabilidade de LLMs Open-Source na Análise de Sentimentos",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5753/cbsoft_estendido.2024.4106",
+        "autores": "NEVES, BRENO BRAGA ; SOUSA, THEO ; COUTINHO, DANIEL ; Garcia, Alessandro ; Pereira, Juliana Alves",
+        "evento": "Anais Estendidos do Congresso Brasileiro de Software: Teoria e Prática",
+        "cidade": "",
+        "paginas": "89-98",
+        "isbn": ""
+      },
+      {
+        "titulo": "¿I am always tired¿: Perceptions on Mental Health and Productivity Metrics",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.5753/cbsoft_estendido.2024.4105",
+        "autores": "AZEVEDO, JÚLIA ; SOUSA, THEO ; ARRIEL, JOHNY ; MANN, PAULO ; Garcia, Alessandro ; Pereira, Juliana Alves",
+        "evento": "Anais Estendidos do Congresso Brasileiro de Software: Teoria e Prática",
+        "cidade": "",
+        "paginas": "79-88",
+        "isbn": ""
+      },
+      {
+        "titulo": "Don?t Forget the Exception! : Considering Robustness Changes to Identify Design Problems",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1109/msr59073.2023.00064",
+        "autores": "OLIVEIRA, ANDERSON ; CORREIA, JOÃO ; SOUSA, LEONARDO ; ASSUNÇÃO, WESLEY K. G. ; COUTINHO, DANIEL ; Garcia, Alessandro ; OIZUMI, WILLIAN ; BARBOSA, CAIO ; UCHÔA, ANDERSON ; Pereira, Juliana Alves",
+        "evento": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+        "cidade": "",
+        "paginas": "417-429",
+        "isbn": ""
+      },
+      {
+        "titulo": "Analyzing a Semantics-Aware Bug Seeding Tools Efficacy: A qualitative study with the SemSeed tool",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1145/3613372.3613412",
+        "autores": "MARTINS, V. ; RAMALHO, C. ; MARQUES, L. ; PEREIRA, JULIANA ALVES ; Garcia, A.F. ; LUCENA, C. J. P. ; FEIJO, B. ; Furtado, A.",
+        "evento": "XXXVII Brazilian Symposium on Software Engineering (SBES'23)",
+        "cidade": "",
+        "paginas": "246-256",
+        "isbn": ""
+      },
+      {
+        "titulo": "Feature subset selection for learning huge configuration spaces",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1145/3546932.3546997",
+        "autores": "ACHER, MATHIEU ; MARTIN, HUGO ; LESOIL, LUC ; BLOUIN, ARNAUD ; JÉZÉQUEL, JEAN-MARC ; KHELLADI, DJAMEL EDDINE ; BARAIS, OLIVIER ; Pereira, Juliana Alves",
+        "evento": "SPLC '22: 26th ACM International Systems and Software Product Line Conference",
+        "cidade": "",
+        "paginas": "85-96",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Influential Interactive Factors on Degrees of Design Decay: A Multi-Project Study",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/saner53432.2022.00093",
+        "autores": "COUTINHO, DANIEL ; UCHOA, ANDERSON ; BARBOSA, CAIO ; SOARES, VINICIUS ; Garcia, Alessandro ; SCHOTS, MARCELO ; Pereira, Juliana ; ASSUNCAO, WESLEY K. G.",
+        "evento": "2022 IEEE International Conference on Software Analysis",
+        "cidade": "",
+        "paginas": "753-764",
+        "isbn": ""
+      },
+      {
+        "titulo": "Predicting Design Impactful Changes in Modern Code Review: A Large-Scale Empirical Study",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/msr52588.2021.00059",
+        "autores": "UCHOA, ANDERSON ; BARBOSA, CAIO ; COUTINHO, DANIEL ; OIZUMI, WILLIAN ; ASSUNCAO, WESLEY K. G. ; VERGILIO, SILVIA REGINA ; Pereira, Juliana Alves ; OLIVEIRA, ANDERSON ; Garcia, Alessandro",
+        "evento": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+        "cidade": "",
+        "paginas": "471-482",
+        "isbn": ""
+      },
+      {
+        "titulo": "Predicting Design Impactful Changes in Modern Code Review: A Large-Scale Empirical Study",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/msr52588.2021.00059",
+        "autores": "UCHOA, ANDERSON ; BARBOSA, CAIO ; COUTINHO, DANIEL ; OIZUMI, WILLIAN ; ASSUNCAO, WESLEY K. G. ; VERGILIO, SILVIA REGINA ; Pereira, Juliana Alves ; OLIVEIRA, ANDERSON ; Garcia, Alessandro",
+        "evento": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+        "cidade": "",
+        "paginas": "471-482",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Multi-Criteria Strategy for Redesigning Legacy Features as Microservices: An Industrial Case Study",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1109/saner50967.2021.00042",
+        "autores": "ASSUNCAO, WESLEY K. G. ; COLANZI, THELMA ELITA ; CARVALHO, LUIZ ; Pereira, Juliana Alves ; Garcia, Alessandro ; DE LIMA, MARIA JULIA ; LUCENA, CARLOS",
+        "evento": "2021 IEEE International Conference on Software Analysis",
+        "cidade": "",
+        "paginas": "377-387",
+        "isbn": ""
+      },
+      {
+        "titulo": "A comparison of performance specialization learning for configurable systems",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1145/3461001.3471155",
+        "autores": "MARTIN, HUGO ; ACHER, MATHIEU ; Pereira, Juliana Alves ; JÉZÉQUEL, JEAN-MARC",
+        "evento": "SPLC '21: 25th ACM International Systems and Software Product Line Conference",
+        "cidade": "",
+        "paginas": "46-57",
+        "isbn": ""
+      },
+      {
+        "titulo": "Sampling Effect on Performance Prediction of Configurable Systems: A Case Study",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1145/3358960.3379137",
+        "autores": "PEREIRA, J. A.; ACHER, MATHIEU ; MARTIN, HUGO ; JEZEQUEL, J.",
+        "evento": "Proceedings of the International Conference on Performance Engineering",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Brazilian Data Scientists: Revealing their Challenges and Practices on Machine Learning Model Development",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1145/3439961.3439971",
+        "autores": "CORREIA, JOÃO LUCAS ; Pereira, Juliana Alves ; MELLO, RAFAEL ; Garcia, Alessandro ; FONSECA, BALDOINO ; RIBEIRO, MÁRCIO ; GHEYI, ROHIT ; KALINOWSKI, MARCOS ; CERQUEIRA, RENATO ; TIENGO, WILLY",
+        "evento": "XXIII Brazilian Symposium on Software Quality (SBQS'20)",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Relation between Complexity, Explicitness, Effectiveness of Refactorings and Non-Functional Concerns",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1145/3422392.3422439",
+        "autores": "SOARES, VINÍCIUS ; OLIVEIRA, ANDERSON ; Pereira, Juliana Alves ; BIBANO, ANA CARLA ; Garcia, Alessandro ; FARAH, PAULO ROBERTO ; VERGILIO, SILVIA REGINA ; SCHOTS, MARCELO ; SILVA, CAIO ; COUTINHO, DANIEL ; OLIVEIRA, DANIEL ; UCHÔA, ANDERSON",
+        "evento": "XXXIV Brazilian Symposium on Software Engineering (SBES'20)",
+        "cidade": "",
+        "paginas": "788-797",
+        "isbn": ""
+      },
+      {
+        "titulo": "Machine learning and configurable systems",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1145/3382025.3414976",
+        "autores": "Pereira, Juliana Alves; MARTIN, HUGO ; TEMPLE, PAUL ; ACHER, MATHIEU",
+        "evento": "SPLC '20: 24th ACM International Systems and Software Product Line Conference",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Performance and Adoption of Search-Based Microservice Identification with toMicroservices",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/icsme46990.2020.00060",
+        "autores": "CARVALHO, LUIZ ; Garcia, Alessandro ; COLANZI, THELMA ELITA ; ASSUNCAO, WESLEY K. G. ; Pereira, Juliana Alves ; FONSECA, BALDOINO ; RIBEIRO, MARCIO ; DE LIMA, MARIA JULIA ; LUCENA, CARLOS",
+        "evento": "2020 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+        "cidade": "",
+        "paginas": "569-580",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards Lean R&D: An Agile Research and Development Approach for Digital Transformation",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/seaa51224.2020.00030",
+        "autores": "KALINOWSKI, MARCOS ; Batista, Solon Tarso ; LOPES, HELIO ; Barbosa, Simone ; Poggi, Marcus ; Silva, Thuener ; Villamizar, Hugo ; Chueke, Jacques ; Teixeira, Bianca ; Pereira, Juliana Alves ; Ferreira, Bruna ; Lima, Rodrigo ; da Silva Cardoso, Gabriel ; Teixeira, Alex Furtado ; Warrak, Jorge Alam ; Fischer, Marinho ; KURAMOTO, ANDRE ; Itagyba, Bruno ; Salgado, Cristiane ; Pelizaro, Carlos ; et.al",
+        "evento": "2020 46th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)",
+        "cidade": "",
+        "paginas": "132",
+        "isbn": ""
+      },
+      {
+        "titulo": "Machine learning and configurable systems",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1145/3336294.3342383",
+        "autores": "MARTIN, HUGO ; Pereira, Juliana Alves ; ACHER, MATHIEU ; TEMPLE, PAUL",
+        "evento": "the 23rd International Systems and Software Product Line Conference",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Context-Aware Recommender System for Extended Software Product Line Configurations",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3168365.3168373",
+        "autores": "Pereira, Juliana Alves; SCHULZE, SANDRO ; Krieter, Sebastian ; RIBEIRO, MÁRCIO ; Saake, Gunter",
+        "evento": "the 12th International Workshop",
+        "cidade": "",
+        "paginas": "97-104",
+        "isbn": ""
+      },
+      {
+        "titulo": "Visual guidance for product line configuration using recommendations and non-functional properties",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3167132.3167353",
+        "autores": "Pereira, Juliana Alves; MARTINEZ, JABIER ; GURUDU, HARI KUMAR ; Krieter, Sebastian ; Saake, Gunter",
+        "evento": "the 33rd Annual ACM Symposium",
+        "cidade": "",
+        "paginas": "2058-2065",
+        "isbn": ""
+      },
+      {
+        "titulo": "N-dimensional tensor factorization for self-configuration of software product lines at runtime",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3233027.3233039",
+        "autores": "Pereira, Juliana Alves; SCHULZE, SANDRO ; Figueiredo, Eduardo ; Saake, Gunter",
+        "evento": "Proceeedings of the 22nd International Conference",
+        "cidade": "",
+        "paginas": "87-97",
+        "isbn": ""
+      },
+      {
+        "titulo": "Heuristic and exact algorithms for product configuration in software product lines",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3233027.3236395",
+        "autores": "Pereira, Juliana Alves; MACIEL, LUCAS ; NORONHA, THIAGO F. ; Figueiredo, Eduardo",
+        "evento": "Proceeedings of the 22nd International Conference",
+        "cidade": "",
+        "paginas": "247",
+        "isbn": ""
+      },
+      {
+        "titulo": "Runtime Collaborative-Based Configuration of Software Product Lines",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1109/ICSE-C.2017.154",
+        "autores": "Pereira, Juliana Alves",
+        "evento": "2017 IEEE/ACM 39th International Conference on Software Engineering Companion (ICSEC)",
+        "cidade": "",
+        "paginas": "94-96",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Collaborative-Based Recommender System for Configuration of Extended Product Lines",
+        "ano": 2017,
+        "doi": "http://dx.doi.org/10.1109/ICSE-C.2017.36",
+        "autores": "Pereira, Juliana Alves",
+        "evento": "2017 IEEE/ACM 39th International Conference on Software Engineering Companion (ICSEC)",
+        "cidade": "",
+        "paginas": "445-448",
+        "isbn": ""
+      },
+      {
+        "titulo": "A feature-based personalized recommender system for product-line configuration",
+        "ano": 2016,
+        "doi": "http://dx.doi.org/10.1145/2993236.2993249",
+        "autores": "Pereira, Juliana Alves; Matuszyk, Pawel ; Krieter, Sebastian ; Spiliopoulou, Myra ; Saake, Gunter",
+        "evento": "the 2016 ACM SIGPLAN International Conference",
+        "cidade": "",
+        "paginas": "120-131",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Empirical Study of Two Software Product Line Tools",
+        "ano": 2016,
+        "doi": "http://dx.doi.org/10.5220/0005829801640171",
+        "autores": "Vasconcelos, Priscilla ; Pereira, Juliana Alves ; Padilha, Juliana ; Figueiredo, Eduardo ; Constantino, Kattiana",
+        "evento": "11th International Conference on Evaluation of Novel Software Approaches to Software Engineering",
+        "cidade": "",
+        "paginas": "164-171",
+        "isbn": ""
+      },
+      {
+        "titulo": "Identification and relationship between notation and tool for feature models with graphic representation",
+        "ano": 2016,
+        "doi": "http://dx.doi.org/10.1109/sccc.2016.7836024",
+        "autores": "VALE, GUSTAVO ; ABILIO, RAMON ; Pereira, Juliana ; Figueiredo, Eduardo ; AFONSO, PAULO ; COSTA, HEITOR",
+        "evento": "2016 35th International Conference of the Chilean Computer Science Society (SCCC)",
+        "cidade": "",
+        "paginas": "1-12",
+        "isbn": ""
+      },
+      {
+        "titulo": "SPLConfig: Product Configuration in Software Product Line",
+        "ano": 2014,
+        "doi": "",
+        "autores": "MACHADO, L. ; Pereira, Juliana Alves ; GARCIA, L. ; Figueiredo, E.",
+        "evento": "Conferência Brasileira de Software: Teoria e Prática (CBSoft)",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the evaluation of an open software engineering course",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1109/fie.2014.7044130",
+        "autores": "Figueiredo, Eduardo ; Pereira, Juliana Alves ; GARCIA, LUCAS ; LOURDES, LUCIANA",
+        "evento": "2014 IEEE Frontiers in Education Conference (FIE)",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Configuração de Produtos em Linha de Produtos de Software",
+        "ano": 2013,
+        "doi": "",
+        "autores": "Pereira, Juliana Alves; Figueiredo, E.",
+        "evento": "Workshop de Teses e Dissertações do CBSoft (WTDSoft)",
+        "cidade": "",
+        "paginas": "1-5",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modelo Computacional para Apoiar a Configuração de Produtos em Linha de Produtos de Software",
+        "ano": 2013,
+        "doi": "",
+        "autores": "Pereira, Juliana Alves; Figueiredo, E. ; NORONHA, T. F.",
+        "evento": "Workshop de Engenharia de Software Baseada em Busca (WESB)",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Proposta e Avaliação de Educação Aberta para Engenharia de Software",
+        "ano": 2013,
+        "doi": "",
+        "autores": "Pereira, Juliana Alves; GARCIA, L. ; Figueiredo, E.",
+        "evento": "Fórum de Educação em Engenharia de Software (FEES)",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Software Variability Management: An Exploratory Study with Two Feature Modeling Tools",
+        "ano": 2013,
+        "doi": "http://dx.doi.org/10.1109/SBCARS.2013.13",
+        "autores": "Pereira, Juliana Alves; SOUZA, C. G. ; Figueiredo, E. ; ABILIO, R. ; VALE, G. ; COSTA, H.",
+        "evento": "Simpósio Brasileiro de Componentes",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Estudo Exploratório para Avaliação de uma Ferramenta de Gerência de Projetos",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Pereira, Juliana Alves; Figueiredo, E.",
+        "evento": "Workshop Mineiro de Sistemas de Informação (WMSI)",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "O Impacto Percebido da Informática na Educação dos Alunos da 5ª a 8ª Séries de Escolas Públicas e Particulares da Cidade de Lavras-MG: Um Estudo em Escolas Selecionadas",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Pereira, Juliana Alves; LAZARO, A. S. ; ARRIEL, J. ; BARROS, M. ; VILLAS BOAS, J. ; GRUTZMANN, A.",
+        "evento": "Workshop Mineiro de Sistemas de Informação (WMSI)",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Interface de Comunicação em Sistemas de E-procurement: O Caso do Software Social Preço Público",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Pereira, Juliana Alves; RODRIGUES, A. F. ; JULIANI, D. ; JULIANI, J. ; BETTIO, R. W.",
+        "evento": "Workshop Mineiro de Sistemas de Informação (WMSI)",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma Análise dos Ambientes de Ensino de Banco de Dados",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Pereira, Juliana Alves; Antonio Maria Pereira de Resende",
+        "evento": "VIII Simpósio Brasileiro de Sistemas de Informação (SBSI 2012)",
+        "cidade": "",
+        "paginas": "755-766",
+        "isbn": ""
+      },
+      {
+        "titulo": "Linha de Produtos de Software - Conceitos e Ferramentas",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Pereira, Juliana Alves; Figueiredo, E. ; COSTA, H.",
+        "evento": "VII Escola Regional de Informática de Minas Gerais (ERI-MG)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [
+      {
+        "titulo": "Data Privacy in Software Practice: Brazilian Developers' Perspectives - Extended Abstract - CTDG-SI 2027",
+        "ano": 2026,
+        "autores": "MATOS, ARYELY ; UCHÔA, ANDERSON ; Pereira, Juliana Alves",
+        "evento": "Simpósio Brasileiro de Sistemas de Informação, 2026, Brasil",
+        "cidade": "",
+        "paginas": "58"
+      },
+      {
+        "titulo": "Unconscious Bias and Perceived Discrimination by Tech Professionals in Brazil",
+        "ano": 2025,
+        "autores": "CANUTO, THEO ; AZEVEDO, JÚLIA ; RIBAS, JESSICA ; UCHÔA, ANDERSON ; ROCHA, LARISSA ; Pereira, Juliana Alves",
+        "evento": "Anais Estendidos do Congresso Brasileiro de Software: Teoria e Prática, 2025, Brasil. Anais Estendidos do XVI Congresso Brasileiro de Software: Teoria e Prática (CBSoft 2025)",
+        "cidade": "",
+        "paginas": "54-55"
+      }
+    ],
+    "resumos_congressos": [],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [],
+    "textos_jornais": [],
+    "outras_producoes": [
+      {
+        "titulo": "Learning From Thousands of Build Failures of Linux Kernel Configurations",
+        "ano": 2019,
+        "autores": "ACHER, MATHIEU ; MARTIN, HUGO ; Pereira, Juliana Alves ; BLOUIN, A. ; KHELLADI, D. E. ; JEZEQUEL, J.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Learning Very Large Configuration Spaces: What Matters for Linux Kernel Sizes",
+        "ano": 2019,
+        "autores": "ACHER, MATHIEU ; MARTIN, HUGO ; Pereira, Juliana Alves ; BLOUIN, A. ; JÉZÉQUEL, JEAN-MARC ; KHELLADI, D. E. ; LESOIL, L. ; BARAIS, O.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Personalized Recommender Systems for Software Product Line Configurations",
+        "ano": 2018,
+        "autores": "Pereira, Juliana Alves",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Search-Based Product Configuration in Software Product Lines",
+        "ano": 2014,
+        "autores": "Pereira, Juliana Alves",
+        "tipo": "Demais tipos de produção bibliográfica"
+      }
+    ]
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [
+      {
+        "titulo": "PROFilE: Personalized RecOmmender Feature-based systEm",
+        "ano": 2018,
+        "autores": "PEREIRA, J. A",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "SPLConfig: Product Configuration in Software Product Line",
+        "ano": 2014,
+        "autores": "Pereira, Juliana Alves; MACHADO, L. ; GARCIA, L. ; Figueiredo, E.",
+        "instituicao": "",
+        "finalidade": ""
+      }
+    ],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [
+      {
+        "titulo": "Inteligência Artificial na Saúde",
+        "ano": 2024,
+        "autores": "Pereira, Juliana Alves; LUCENA, A. ; COSTA, A. D. ; DRUMMOND, D. D. B. ; WERNER JUNIOR, H. ; PELOSI FILHO, T. ; COUTINHO, W. F. ; BARBOSA, A. C. B.",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Machine Learning and Configurable Systems: A Gentle Introduction",
+        "ano": 2020,
+        "autores": "MARTIN, HUGO ; Pereira, Juliana Alves ; TEMPLE, PAUL ; ACHER, MATHIEU",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Machine Learning and Configurable Systems: A Gentle Introduction",
+        "ano": 2019,
+        "autores": "Pereira, Juliana Alves; MARTIN, HUGO ; TEMPLE, PAUL ; ACHER, MATHIEU",
+        "tipo": "Demais tipos de produção técnica"
+      }
+    ],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "AI-Assisted Refactoring of Sustainability Smells in Python Software Systems",
+          "ano_inicio": 2026,
+          "orientando": "Igor Oliveira Soares",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Industrial Studies of Mental Health and Software Productivity with(out) Artificial Intelligence",
+          "ano_inicio": 2026,
+          "orientando": "Johny Arriel",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "To Define",
+          "ano_inicio": 2026,
+          "orientando": "Rafael Cocchiarelli",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Learning Software Configuration Spaces",
+          "ano_inicio": 2024,
+          "orientando": "Jailma Januario",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Leveraging Artificial Intelligence for Classifying Python Specific Smells",
+          "ano_inicio": 2024,
+          "orientando": "Jessica Barbara da Silva Ribas",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "AI-Based Detection of Code Smells in Python Programs",
+          "ano_inicio": 2026,
+          "orientando": "Alexandre César Brandão",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Artificial Intelligence-Assisted Systematic Literature Reviews",
+          "ano_inicio": 2026,
+          "orientando": "Ricardo Ramalho de Lima Junior",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "An Ontology-Based Framework for Privacy-Aware Data Management Using Language Models",
+          "ano_inicio": 2026,
+          "orientando": "Simon Bernbeck",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "To Define",
+          "ano_inicio": 2026,
+          "orientando": "Thomas de Mello Oliva",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "An AI-Driven and Eye-Tracking-Based Approach to Investigating Code Smell Comprehension in Software Engineering",
+          "ano_inicio": 2026,
+          "orientando": "José Mario Oliveira Patrício",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Advancing Medical Interoperability through Software Engineering Practices",
+          "ano_inicio": 2025,
+          "orientando": "Pedro Lopes Verardo Ramos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "AI-Assisted Automatic Software Documentation Generation",
+          "ano_inicio": 2025,
+          "orientando": "Arthur Alesi",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Quantitative Assessment of an Improved Code Smell Dataset",
+          "ano_inicio": 2025,
+          "orientando": "Joanne Carneiro",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Evaluating Tool Support for Forward Snowballing in Software Engineering Systematic Literature Reviews",
+          "ano_inicio": 2025,
+          "orientando": "Alice Fico",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Simple Language is all you need: Exploring the use of Machine Learning to better understand court decisions",
+          "ano_inicio": 2023,
+          "orientando": "Paulo Vítor Campos Ferreira Libório",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [
+        {
+          "titulo": "Ferramenta para automatização da técnica de forward snowballing para SLRs - Snowmap",
+          "ano_inicio": 2026,
+          "orientando": "Julia Guimarães Simão",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uso da Plataforma RAISE na Mineração e Gerenciamento de Dados de GitHub e Jira para Apoio à Engenharia de Software Empírica",
+          "ano_inicio": 2026,
+          "orientando": "Gabriel Farias Azevedo",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento de uma ferramenta para snowballing em revisões sistemáticas da literatura",
+          "ano_inicio": 2026,
+          "orientando": "Maria Fernanda Piquet",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uso da plataforma RAISE para Mineração de Dados em Ecossistemas de Desenvolvimento de Software",
+          "ano_inicio": 2025,
+          "orientando": "Lucas Hufnagel Gromann de Araujo Góes",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Scylla: A Unified Tools for Code Smell Classification",
+          "ano_inicio": 2025,
+          "orientando": "Ana Beatriz Hübner Pedrosa",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "AnnotAISE: Plataforma Web para Rotulação Flexível e Customizável de Dados Voltada à Pesquisa",
+          "ano_inicio": 2025,
+          "orientando": "João Paulo Soares Lopes",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Investigação de Estratégias para Rotulação Colaborativa de Dados com Resolução Automatizada de Desacordos",
+          "ano_inicio": 2025,
+          "orientando": "Beatriz de Oliveira Ritter",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Interoperabilidade em Sistemas para Medicina: estudo e aprimoramento da visualização de dados médicos em aplicações web",
+          "ano_inicio": 2025,
+          "orientando": "Giovana Alves de Carvalho",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo Comparativo de Ferramentas de Suporte ao Forward Snowballing",
+          "ano_inicio": 2025,
+          "orientando": "Laíza Ágatha R Gomes",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Interfaces e Visualização de Métricas de Saúde Mental e Produtividade em Times Ágeis",
+          "ano_inicio": 2025,
+          "orientando": "Giovana Malaia Pinheiro",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uso de Aprendizado Profundo para o Gerenciamento de Sistemas Configuráveis",
+          "ano_inicio": 2024,
+          "orientando": "Lucas Lopes",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Diversity Matters: Perceived Inclusion and Discrimination by Brazilian Tech Professionals",
+          "ano_inicio": 2024,
+          "orientando": "Theo Canuto",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Análise das Tendências Atuais em Aprendizado de Máquina para Sistemas Configuráveis",
+          "ano_inicio": 2024,
+          "orientando": "Alexandre Vieira Scofield",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Saúde Mental e Produtividade em Equipes de Desenvolvimento de Software",
+          "ano_inicio": 2024,
+          "orientando": "Júlia Tadeu Neves de Azevedo",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [
+        {
+          "titulo": "",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Heraldo Borges",
+          "tipo_trabalho": "",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "doutorado": [
+        {
+          "titulo": "Reading Between the Lines: Understanding the Dynamics of Affect Analysis in Developer Discussions",
+          "ano_inicio": 2026,
+          "ano_conclusao": 2026,
+          "orientando": "Daniel José Barbosa Coutinho",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Unveiling Design Problems Identification: Combining Multiple Symptoms",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Anderson José Silva de Oliveira",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "CBLXKit: Framework to Develop Web Tools that Enhance the Experience of Using the Challenge Based Learning",
+          "ano_inicio": 2026,
+          "ano_conclusao": 2026,
+          "orientando": "Júlio Necyk Cavalvanti Maia",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "The Potential of Large Language Models for Classifying Code Smells in Python: Focus on Traditional Smells",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Igor Oliveira Soares",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Eye-Tracking the Impact of Code Smells on Developer Comprehension",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Vinícius Souza Martins",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Understanding Developer Well-Being: Measuring Mental Health and Productivity in Software Teams",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Johny Arriel",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Learning to Predict Performance in Configurable Systems: A Semantic, Heuristic and Interpretable Feature-Selection Study",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "João Marcello Bessa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "An Empirical User Study over the Benefices of Recommender System to Support the Product Line Configuration Process in FeatureIDE",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Surabhi Gayathri",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Otto-von-Guericke-Universität Magdeburg",
+          "curso": ""
+        },
+        {
+          "titulo": "Advanced Configurator View for Extended Product Lines",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Hari kumar Gurudu",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Otto-von-Guericke-Universität Magdeburg",
+          "curso": ""
+        },
+        {
+          "titulo": "Automated Analysis of Feature Models: A Survey on the Evaluation Process",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Mohamad Almansour",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Otto-von-Guericke-Universität Magdeburg",
+          "curso": ""
+        },
+        {
+          "titulo": "Personalized Recommender System for Extended Product Line Configuration",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Sree Ramanujam",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Otto-von-Guericke-Universität Magdeburg",
+          "curso": ""
+        },
+        {
+          "titulo": "An Order-Based Recommender System for Product-Line Configuration",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Vinod Byakod",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Otto-von-Guericke-Universität Magdeburg",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Mining Knowledge from Articles: A Framework for LLM-Assisted Systematic Literature Reviews",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Pedro Lopes Verardo Ramos",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Saúde Mental em Equipes Ágeis: Análise de Voz em Reuniões de Projeto de Software",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Felipe Frighetto Gonzalez",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Grandes Modelos de Linguagem na Engenharia de Software: Uma Revisão da Literatura Usando Forward Snowballing",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Matheus Sampaio Moreira",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Detecção de Code Smells em Sistemas Python com Aprendizado de Máquina",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Alexandre César Brandão",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Intelligent Mapping of Public Health Policies",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Thomas de Mello Oliva",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Evaluating the Potential of Large Language Models in Security-Related Software Requirements Classification",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Murilo de Sá Martin",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "API para Suporte em Análise e Gestão de Títulos Públicos",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Fernando Silva de Castro Lobo",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Effect of Feature Subset Selection on Samplings for Performance Prediction of Configurable Systems",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "João Marcello Bessa",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Learning to Classify Non-Functional Requirements",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Paulo Vitor Liborio",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [
+        {
+          "titulo": "Estudo do Impacto da Revisão de Código na Qualidade do Software",
+          "ano_inicio": 2026,
+          "ano_conclusao": 2026,
+          "orientando": "Gabriel Santana",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento de uma API para Mineração de Repositórios de Software",
+          "ano_inicio": 2026,
+          "ano_conclusao": 2026,
+          "orientando": "Breno Braga Neves",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uso de Inteligência Artificial para Automatização de Revisões",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Diogo Marassi",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Preservando a Privacidade na Ciência Aberta: Estratégias de Anonimização para Dados Sensíveis",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Maria Isabel Soares Brandão Nicolau",
+          "tipo_trabalho": "",
+          "instituicao": "Iniciação Científica - Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Avaliação do Impacto das Ferramentas de Gerenciamento no Monitoramento de Projetos de Software",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Luiza Marcondes Paes Leme",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uso de LLM para Extração de Dados de Revisões Sistemática da Literatura",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Pedro Lopes",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Saúde Mental e Produtividade no Desenvolvimento de Software",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Maria Vitoria de Lima Varejão",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Machine Learning na Gestão de Custos de Software: Um Estudo em Sistemas Configuráveis",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Gabriel Martins Mendes",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Analyzing Developers' Physiological Responses During Code Snippet Analysis",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Maria Vitória de Lima Varejão",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Computação Quântica para o Aprendizado de Sistemas Configuráveis",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Guilherme Julião",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Learning Software Configuration Spaces",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Pedro Lopes",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Soluções Interpretáveis para Apoio a Manutenção e Evolução de Software",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Liege Fontenele",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Humanização e Equidade em Comunidades de Desenvolvimento de Software",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Simone Santos",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Reuso de Datasets na Predição de Code Smells",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Joanne Carneiro",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Developers? Physiological Responses During Software Development",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Breno Braga Neves",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estudo dos impactos da toxicidade em ambientes colaborativos de desenvolvimento de software",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Theo Canuto",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Explorando Métricas Fisiológicas no Desenvolvimento de Software",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "João Pedro Brandão",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Explorando Métricas Fisiológicas no Desenvolvimento de Software",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Luana Bueno",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Saúde Mental e Produtividade no Desenvolvimento de Software",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Julia Tadeu",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Learning Software Configuration Spaces",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Alexandre Vieira Scofield",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Learning to Classify Non-Functional Requirements",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Paulo Vitor Liborio",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Effect of Feature Subset Selection on Samplings for Performance Prediction of Configurable Systems",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "João Marcello Bessa",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Analyzing Developers' Physiological Responses During Code Snippet Analysis",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Ariane Moura Krettli",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sentiment Analysis in Software Development",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Luisa Cito",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sentiment Analysis in Software Development",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Beatriz Arantes",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Eyes on Code Smells: Analyzing Developers? Responses During Code Snippet Analysi",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "João Victor Godinho",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Apoio Ferramental para Gerência de Variabilidade de Software",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Lucas Machado de Oliveira",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Federal de Minas Gerais",
+          "curso": ""
+        },
+        {
+          "titulo": "Educação Aberta em Engenharia de Software",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Lucas Santos Garcia",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidade Federal de Minas Gerais",
+          "curso": ""
+        }
+      ],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "Brazilian Conference on Software: Theory and Practice (CBSoft 2023)",
+        "apresentacao": "Mentora LATAM School in Software Engineering (ACM SIGSOFT-sponsored)",
+        "ano": 2024,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Conference on Software Language Engineering (SLE 2024)",
+        "apresentacao": "Organization: Opening, Awards, Session Chair, and Closing sessions",
+        "ano": 2024,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Conference on Software Maintenance and Evolution (ICSME 2024)",
+        "apresentacao": "Unraveling the Impact of Code Smell Agglomerations on Code Stability",
+        "ano": 2024,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Brazilian Conference on Software: Theory and Practice (CBSoft 2023)",
+        "apresentacao": "Mentora LATAM School in Software Engineering (ACM SIGSOFT-sponsored)",
+        "ano": 2023,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Brazilian Conference on Software: Theory and Practice (CBSoft 2022)",
+        "apresentacao": null,
+        "ano": 2022,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Ibero-American Conference on Software Engineering (CIbSE 2022)",
+        "apresentacao": null,
+        "ano": 2022,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Systems and Software Product Line Conference (SPLC 2021)",
+        "apresentacao": "A comparison of performance specialization learning for configurable systems",
+        "ano": 2021,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Systems and Software Product Line Conference (SPLC 2020)",
+        "apresentacao": "Machine Learning and Configurable Systems: A Gentle Introduction",
+        "ano": 2020,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Feature-Oriented Software Development Meeting (FOSD 2019)",
+        "apresentacao": "Machine Learning for Exploring Software Configuration Spaces: A Systematic Literature Review",
+        "ano": 2019,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "GI Dagstuhl Seminare: Dissertationspreis 2018 (GI 2019)",
+        "apresentacao": "Dissertation Award 2018 of the School of Computer Science, Personalisierte Recommender Systems für Software-Produktlinienkonfigurationen",
+        "ano": 2019,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Systems and Software Product Line Conference (SPLC 2019)",
+        "apresentacao": "Machine Learning and Configurable Systems: A Gentle Introduction",
+        "ano": 2019,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Systems and Software Product Line Conference (SPLC 2018)",
+        "apresentacao": "N-dimensional Tensor Factorization for Self-Configuration of Software Product Lines at Runtime",
+        "ano": 2018,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Symposium On Applied Computing (SAC 2018)",
+        "apresentacao": "Visual Guidance for Product Line Configuration Using Recommendations and Non-Functional Properties",
+        "ano": 2018,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Feature-Oriented Software Development Meeting (FOSD 2017)",
+        "apresentacao": "A Collaborative-Based Recommender System for Configuration of Extended Product Lines",
+        "ano": 2017,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Conference on Software Engineering (ICSE 2017)",
+        "apresentacao": "A collaborative-based recommender system for configuration of extended product lines",
+        "ano": 2017,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "ACM SIGPLAN Conference on Systems, Programming, Languages and Applications: Software for Humanity (SPLASH 2016)",
+        "apresentacao": "A Feature-Based Personalized Recommender System for Product-Line Configuration",
+        "ano": 2016,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Databases and Software Engineering Workshop (DBSE)",
+        "apresentacao": "Personalized Recommendations for Product-Line Configuration",
+        "ano": 2016,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Feature-Oriented Software Development Meeting (FOSD)",
+        "apresentacao": "Efficient Product-Line Configuration Using Personalized Recommendations",
+        "ano": 2016,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE)",
+        "apresentacao": "An Empirical Study of Two Software Product Line Tools",
+        "ano": 2016,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Databases and Software Engineering Workshop (DBSE)",
+        "apresentacao": "Automating the Product Configuration in Software Product Lines",
+        "ano": 2015,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Seminar for PhD Scholars from Brazil",
+        "apresentacao": "A Feature Recommender System for Product Configuration in Software Product Lines",
+        "ano": 2015,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Congresso Brasileiro de Software (CBSoft)",
+        "apresentacao": "SPLConfig: Product Configuration in Software Product Line",
+        "ano": 2014,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Congresso Brasileiro de Software (CBSoft)",
+        "apresentacao": "Software Variability Management: An Exploratory Study with Two Feature Modeling Tools",
+        "ano": 2013,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "I Workshop Mineiro de Sistemas de Informação (WMSI)",
+        "apresentacao": "Estudo Exploratório para Avaliação de uma Ferramenta de Gerência de Projetos",
+        "ano": 2012,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "VII Escola Regional de Informática de Minas Gerais (ERI-MG)",
+        "apresentacao": "Linha de Produtos de Software: Conceitos e Ferramentas",
+        "ano": 2012,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "VIII Simpósio Brasileiro de Sistemas de Informação (SBSI)",
+        "apresentacao": "Uma Análise dos Ambientes de Ensino de Banco de Dados",
+        "ano": 2012,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "I Workshop do Grupo de Pesquisa em Engenharia de Software (WPqES)",
+        "apresentacao": "Um Modelo de Ferramenta para Apoio ao Aprendizado de Banco de Dados",
+        "ano": 2011,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "XVI Maratona de Programação (SBC)",
+        "apresentacao": "Maratona de Programação",
+        "ano": 2011,
+        "tipo_evento": "Olimpíada",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "XXIV Congresso de Iniciação Científica da UFLA (CIUFLA)",
+        "apresentacao": "Arquitetura de Software e Padrões de Projeto: Uma Visão Aplicada Baseando-se no Software Social Preço Público",
+        "ano": 2011,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IV Semana Acadêmica da UFLA",
+        "apresentacao": null,
+        "ano": 2010,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "VIII Encontro Regional de Administração (ERA)",
+        "apresentacao": null,
+        "ano": 2010,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "V Semana do Livro e da Biblioteca da UFLA",
+        "apresentacao": null,
+        "ano": 2010,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "XXIII Congresso de Iniciação Científica da UFLA (CIUFLA), Reunião Regional da SBPC",
+        "apresentacao": "O Uso Percebido da Informática na Educação",
+        "ano": 2010,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "III Semana Acadêmica da UFLA",
+        "apresentacao": null,
+        "ano": 2009,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Semana de Computação 2008 (SECOM08)",
+        "apresentacao": null,
+        "ano": 2008,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "IV Simpósio Mineiro de Sistemas de Informação (SMSI)",
+        "apresentacao": null,
+        "ano": 2007,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": [
+      {
+        "autores": "PEREIRA, J. A.. SBCARS Program Chair. 2026. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "Pereira, Juliana Alves. SPLC Publicity Chair. 2025. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "Pereira, Juliana Alves. EASE Publicity Chair. 2025. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "Pereira, Juliana Alves. SANER Publicity & Social Media Chair. 2025. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "Pereira, Juliana Alves. VEM Program Chair. 2025. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "Pereira, Juliana Alves. VaMoS Program Chair. 2025. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "Pereira, Juliana Alves. ICSME Journal First Chair. 2025. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "PEREIRA, J. A.. SLE Pragram Chair. 2024. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "PEREIRA, J. A.. SPLC Workshop Chair. 2024. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "JULIANA, ALVES PEREIRA. SLE AE Chair. 2022. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "PEREIRA, J. A.. SPLC Student Voluntee Chair. 2019. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "PEREIRA, J. A.. Student Volunteer at ICSE. 2017. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "PEREIRA, J. A.; Chen, Xiao",
+        "evento": "DBSE 2016: Databases and Software Engineering Workshop",
+        "ano": 2016,
+        "natureza": "Outro",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "PEREIRA, J. A.. Student volunteer at SPLASH. 2016. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "PEREIRA, J. A.. Ada Lovelace Meet & Greet. 2015. (Outro).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      }
+    ]
+  },
+  "bancas": {
+    "mestrado": [
+      {
+        "descricao": "COLCHER, S.; Pereira, Juliana Alves; SOARES NETO, C. S.; SAADE, D. C. M.. Participação em banca de Paulo Victor Borges Oliveira Lima. Enhancing NCL Authoring through Visual Interfaces and Generative AI Agents. 2025. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2025,
+        "tipo": "Mestrado",
+        "aluno": "Paulo Victor Borges Oliveira Lima",
+        "membros_banca": [
+          "COLCHER, S.",
+          "Pereira, Juliana Alves",
+          "SOARES NETO, C. S.",
+          "SAADE, D. C. M."
+        ],
+        "titulo_trabalho": "Enhancing NCL Authoring through Visual Interfaces and Generative AI Agents",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "DELGADO, K. V.; Pereira, Juliana Alves; NOYA, R. C.. Participação em banca de Diego Santana Sarafim. Abordagem baseada em aprendizado de máquina para detecção de code smells em JavaScript. 2024. Dissertação (Mestrado em Ciências da Computação) - Universidade de São Paulo.",
+        "ano": 2024,
+        "tipo": "Mestrado",
+        "aluno": "Diego Santana Sarafim",
+        "membros_banca": [
+          "DELGADO, K. V.",
+          "Pereira, Juliana Alves",
+          "NOYA, R. C."
+        ],
+        "titulo_trabalho": "Abordagem baseada em aprendizado de máquina para detecção de code smells em JavaScript",
+        "curso": "Dissertação (Mestrado em Ciências da Computação)",
+        "universidade": "Universidade de São Paulo"
+      },
+      {
+        "descricao": "AMARAL, A. M. M. M.; Pereira, Juliana Alves; COLANZI, T. E.. Participação em banca de Cláudia Tupan Rosa. Estratégia de ponderação de soluções para otimização interativa de projeto de arquitetura de linha de produto de software. 2023. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Maringá.",
+        "ano": 2023,
+        "tipo": "Mestrado",
+        "aluno": "Cláudia Tupan Rosa",
+        "membros_banca": [
+          "AMARAL, A. M. M. M.",
+          "Pereira, Juliana Alves",
+          "COLANZI, T. E."
+        ],
+        "titulo_trabalho": "Estratégia de ponderação de soluções para otimização interativa de projeto de arquitetura de linha de produto de software",
+        "curso": "Dissertação (Mestrado em Ciência da Computação)",
+        "universidade": "Universidade Estadual de Maringá"
+      },
+      {
+        "descricao": "Silva, Rogério de Carvalho; Pereira, Juliana Alves; VERGILIO, S. R.; SPINOSA, E. J.. Participação em banca de Rogério de Carvalho Silva. Machine Learning for Change-Prone Class Prediction: A History-Based Approach. 2022. Dissertação (Mestrado em Informática) - Universidade Federal do Paraná.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Rogério de Carvalho Silva",
+        "membros_banca": [
+          "Silva, Rogério de Carvalho",
+          "Pereira, Juliana Alves",
+          "VERGILIO, S. R.",
+          "SPINOSA, E. J."
+        ],
+        "titulo_trabalho": "Machine Learning for Change-Prone Class Prediction: A History-Based Approach",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Universidade Federal do Paraná"
+      },
+      {
+        "descricao": "LIFSCHITZ, S.; AMORIM, F. A. B.; MACHADO, J. C.; Pereira, Juliana Alves; HAEUSLER, E. H.. Participação em banca de Victor Augusto Lima Lins de Souza. TuningChef: uma abordagem para escolher as ações de sintonia fina de banco de dados com melhor custo-benefício. 2022. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2022,
+        "tipo": "Mestrado",
+        "aluno": "Victor Augusto Lima Lins de Souza",
+        "membros_banca": [
+          "LIFSCHITZ, S.",
+          "AMORIM, F. A. B.",
+          "MACHADO, J. C.",
+          "Pereira, Juliana Alves",
+          "HAEUSLER, E. H."
+        ],
+        "titulo_trabalho": "TuningChef: uma abordagem para escolher as ações de sintonia fina de banco de dados com melhor custo-benefício",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "doutorado": [
+      {
+        "descricao": "GARCIA, A.; ASSUNCAO, W. K. G.; ALVES PEREIRA, JULIANA; SARDINHA, J. A. R. P.; SANTOS NETO, B. F.; MELLO, R. M.. Participação em banca de Daniel Tenorio Martins de Oliveira. On the Identification and Analysis of Refactoring-related Modifications. 2024. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Daniel Tenorio Martins de Oliveira",
+        "membros_banca": [
+          "GARCIA, A.",
+          "ASSUNCAO, W. K. G.",
+          "ALVES PEREIRA, JULIANA",
+          "SARDINHA, J. A. R. P.",
+          "SANTOS NETO, B. F.",
+          "MELLO, R. M."
+        ],
+        "titulo_trabalho": "On the Identification and Analysis of Refactoring-related Modifications",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "GARCIA, A.; Pereira, Juliana Alves; SARDINHA, A.; LUCENA, C. J. P.. Participação em banca de Guilherme Nascimento Pate Santos. Metodologia Ágil para Desenvolvimento de Sistemas Inteligentes de Apoio à Decisão. 2024. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Guilherme Nascimento Pate Santos",
+        "membros_banca": [
+          "GARCIA, A.",
+          "Pereira, Juliana Alves",
+          "SARDINHA, A.",
+          "LUCENA, C. J. P."
+        ],
+        "titulo_trabalho": "Metodologia Ágil para Desenvolvimento de Sistemas Inteligentes de Apoio à Decisão",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "Figueiredo, Eduardo; SOUZA, M. R. A.; Pereira, Juliana Alves; VALENTE, M. T. O.; HORA, A. C.; FERREIRA, F. J.; KULESZA, U.. Participação em banca de Johnatan Alves de Oliveira. Identifying and Evaluating Hard Skills of Software Developers from SourceCode Analysis. 2023. Tese (Doutorado em Ciências da Computação) - Universidade Federal de Minas Gerais.",
+        "ano": 2023,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Johnatan Alves de Oliveira",
+        "membros_banca": [
+          "Figueiredo, Eduardo",
+          "SOUZA, M. R. A.",
+          "Pereira, Juliana Alves",
+          "VALENTE, M. T. O.",
+          "HORA, A. C.",
+          "FERREIRA, F. J.",
+          "KULESZA, U."
+        ],
+        "titulo_trabalho": "Identifying and Evaluating Hard Skills of Software Developers from SourceCode Analysis",
+        "curso": "Tese (Doutorado em Ciências da Computação)",
+        "universidade": "Universidade Federal de Minas Gerais"
+      },
+      {
+        "descricao": "GARCIA, A.; Pereira, Juliana Alves; COLANZI, T. E.; CAFEO, B. B. P.. Participação em banca de Willian Nalepa Oizumi. Identification and Refactoring of Design Problems in Software Systems. 2022. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2022,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Willian Nalepa Oizumi",
+        "membros_banca": [
+          "GARCIA, A.",
+          "Pereira, Juliana Alves",
+          "COLANZI, T. E.",
+          "CAFEO, B. B. P."
+        ],
+        "titulo_trabalho": "Identification and Refactoring of Design Problems in Software Systems",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [
+      {
+        "descricao": "AMARAL, A. M. M. M.; PEREIRA, J. A.; LOPES, T. E. C.; FELTRIM, V. D.; OIZUMI, W. N.. Participação em banca de Willian Marques Freire. Desenvolvimento de um framework para otimização interativa em engenharia de software. 2023. Exame de qualificação (Doutorando em Ciência da Computação) - Universidade Estadual de Maringá.",
+        "ano": 2023,
+        "tipo": "Qualificação de Mestrado",
+        "aluno": "Willian Marques Freire",
+        "membros_banca": [
+          "AMARAL, A. M. M. M.",
+          "PEREIRA, J. A.",
+          "LOPES, T. E. C.",
+          "FELTRIM, V. D.",
+          "OIZUMI, W. N."
+        ],
+        "titulo_trabalho": "Desenvolvimento de um framework para otimização interativa em engenharia de software",
+        "curso": "Exame de qualificação (Doutorando em Ciência da Computação)",
+        "universidade": "Universidade Estadual de Maringá"
+      },
+      {
+        "descricao": "GATTASS, M.; Pereira, Juliana Alves. Participação em banca de Augusto Ícaro Farias da Cunha. A Semi-Supervised Approach for Borehole Image Structures Segmentation and Dataset Creation. 2023. Exame de qualificação (Doutorando em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2023,
+        "tipo": "Qualificação de Mestrado",
+        "aluno": "Augusto Ícaro Farias da Cunha",
+        "membros_banca": [
+          "GATTASS, M.",
+          "Pereira, Juliana Alves"
+        ],
+        "titulo_trabalho": "A Semi-Supervised Approach for Borehole Image Structures Segmentation and Dataset Creation",
+        "curso": "Exame de qualificação (Doutorando em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "GARCIA, A.; ASSUNCAO, W. K. G.; Pereira, Juliana Alves. Participação em banca de Ana Carla Gomes Bibiano. On the Completeness of Composite Code Refactorings for Beneficial Smell Removal. 2022. Exame de qualificação (Doutorando em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2022,
+        "tipo": "Qualificação de Mestrado",
+        "aluno": "Ana Carla Gomes Bibiano",
+        "membros_banca": [
+          "GARCIA, A.",
+          "ASSUNCAO, W. K. G.",
+          "Pereira, Juliana Alves"
+        ],
+        "titulo_trabalho": "On the Completeness of Composite Code Refactorings for Beneficial Smell Removal",
+        "curso": "Exame de qualificação (Doutorando em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "COLCHER, S.; Pereira, Juliana Alves. Participação em banca de Paulo Victor Borges Oliveira Lima. Enhancing NCL Document Creation through Agent-Based Code Generation and Large Language Models. 2024. Exame de qualificação (Mestrando em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Qualificação de Mestrado",
+        "aluno": "Paulo Victor Borges Oliveira Lima",
+        "membros_banca": [
+          "COLCHER, S.",
+          "Pereira, Juliana Alves"
+        ],
+        "titulo_trabalho": "Enhancing NCL Document Creation through Agent-Based Code Generation and Large Language Models",
+        "curso": "Exame de qualificação (Mestrando em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "Figueiredo, E.; Pereira, Juliana Alves. Participação em banca de Amanda Damasceno Santana. Evaluating the Impact of Code Smell Agglomerations of Software Systems. 2024. Exame de qualificação (Mestrando em Ciências da Computação) - Universidade Federal de Minas Gerais.",
+        "ano": 2024,
+        "tipo": "Qualificação de Mestrado",
+        "aluno": "Amanda Damasceno Santana",
+        "membros_banca": [
+          "Figueiredo, E.",
+          "Pereira, Juliana Alves"
+        ],
+        "titulo_trabalho": "Evaluating the Impact of Code Smell Agglomerations of Software Systems",
+        "curso": "Exame de qualificação (Mestrando em Ciências da Computação)",
+        "universidade": "Universidade Federal de Minas Gerais"
+      },
+      {
+        "descricao": "MARKUS, E.; KALINOWISKI, M.; Pereira, Juliana Alves; COLCHER, S.. Participação em banca de Gabriel Araujo. Uma arquitetura de referência baseada em microsserviços para ML em contextos de aplicações IoT. 2022. Exame de qualificação (Mestrando em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2022,
+        "tipo": "Qualificação de Mestrado",
+        "aluno": "Gabriel Araujo",
+        "membros_banca": [
+          "MARKUS, E.",
+          "KALINOWISKI, M.",
+          "Pereira, Juliana Alves",
+          "COLCHER, S."
+        ],
+        "titulo_trabalho": "Uma arquitetura de referência baseada em microsserviços para ML em contextos de aplicações IoT",
+        "curso": "Exame de qualificação (Mestrando em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "graduacao": [
+      {
+        "descricao": "Garcia, Alessandro; Pereira, Juliana Alves; MATHIAS FILHO, I.. Participação em banca de Nicolas Paes Leme.Ferramenta de geração e gestão de métricas sobre saúde mental e produtividade no desenvolvimento de software: Um Estudo com a Plataforma Bravo Central. 2022. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2022,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Nicolas Paes Leme",
+        "membros_banca": [
+          "Garcia, Alessandro",
+          "Pereira, Juliana Alves",
+          "MATHIAS FILHO, I."
+        ],
+        "titulo_trabalho": "Ferramenta de geração e gestão de métricas sobre saúde mental e produtividade no desenvolvimento de software: Um Estudo com a Plataforma Bravo Central",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "outras": []
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 12,
+    "total_livros": 0,
+    "total_capitulos": 6,
+    "total_trabalhos_congressos": 57,
+    "total_projetos_pesquisa": 12,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 0,
+    "total_orientacoes_concluidas": 41,
+    "total_orientacoes_andamento": 29
+  }
+}

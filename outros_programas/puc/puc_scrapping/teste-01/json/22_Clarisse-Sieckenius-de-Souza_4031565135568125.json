@@ -1,0 +1,3421 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "4031565135568125",
+    "nome_completo": "Clarisse Sieckenius de Souza",
+    "nome_citacoes": "de SOUZA, C. S.;de Souza, Clarisse Sieckenius;Souza, Clarisse Sieckenius de;Souza, Clarisse Sieckenius;de Souza, Clarisse S.;Sieckenius de Souza, Clarisse;Sieckenius de Souza, C.;S. DE SOUZA, CLARISSE ;DE SOUZA, CLARISSE",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática. Av Marquês de São Vicente 225 Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4344 Fax: (21) 35271530 URL da Homepage: http://www.inf.puc-rio.br/~clarisse",
+    "atualizacao_cv": "07/01/2026",
+    "url": "http://lattes.cnpq.br/4031565135568125",
+    "texto_resumo": "Clarisse Sieckenius de Souza é Professora Emérita da PUC-Rio. Aposentou-se em janeiro de 2020 como Professora Titular do Departamento de Informática, onde atuou por mais de 30 anos nas áreas de Inteligência Artificial (Processamento de Linguagem Natural, Geração Automática de Textos e Sistemas de Explicação) e, principalmente, Interação Humano-Computador (IHC). Sua formação acadêmica foi toda realizada no Departamento de Letras da PUC-Rio, onde obteve os títulos de: Bacharel - Tradutor e Intérprete (1979); Mestre em Língua Portuguesa (1982); e Doutora em Linguística Aplicada, Linguística Computacional (1988). Complementarmente, realizou dois estágios de pós-doutorado, um na Universidade de Stanford, com Terry Winograd, e outro na Universidade de Maryland, com Jenny Preece, além de inúmeros outros estágios como pesquisadora visitante em universidades estrangeiras (por exemplo, a Universidade de Waterloo (CAN) e a Universidade de Indiana (EEUU)) e centros de pesquisa industrial (por exemplo, o Philips Research Labs de Sussex (GB) e o IBM Research de Almadén (EEUU) e do Rio de Janeiro (BR)).É na área de IHC onde se encontram suas principais contribuições em pesquisa, focadas no campo interdisciplinar da Semiótica Computacional. Em 1993, propôs o conceito de \"engenharia semiótica\" associado ao design de linguagens de interfaces para usuários. Em 1996 fundou o SERG Semiotic Engineering Research Group, do Departamento de Informática da PUC-Rio. Em cerca de uma década, o SERG tornou-se um centro de excelência em Semiótica Computacional, internacionalmente conhecido como a origem da primeira teoria semiótica da interação humano-computador. Clarisse é autora ou co-autora de quatro livros sobre Engenharia Semiótica: The Semiotic Engineering of Human-Computer Interaction (The MIT Press, 2005); Semiotic Engineering Methods for Scientific Research in HCI (Morgan Claypool, 2009); A Journey through Cultures (Springer, 2013); e Software Developers as Users (Springer, 2016).Através destas obras e de numerosos artigos publicados em capítulos de livros, periódicos ou anais de eventos científicos, Clarisse tornou-se uma referência entre seus pares nacionais e internacionais. Recebeu ao longo de sua carreira vários prêmios, entre os quais o ACM SIGCHI CHI Academy Award (2013), o IFIP HCI Pioneer Award (2014) e o Prêmio do Mérito Científico da SBC - Sociedade Brasileira de Computação, (2016). Em 2014, Clarisse foi escolhida para representar as mulheres cientistas da computação no baralho das 54 \"Notable Women in Computing\", escolhidas pela Universidade de Duke com a chancela do CRA-W / Anita Borg Institute.Ao longo de sua carreira, seus projetos foram apoiados pelo CNPq, FAPERJ, CAPES e AMD Foundation. Foi por duas vezes \"Cientista do Nosso Estado\", bolsa-prêmio concedida pela FAPERJ no Rio de Janeiro, e ao aposentar-se detinha uma Bolsa de Produtividade em Pesquisa do CNPq no nível 1B.Dentre seus principais serviços à comunidade científica brasileira estão o fato de ser uma das fundadoras da área de IHC no Brasil, a participação em Comitês Assessores da CAPES e do CNPq, e a atuação em inúmeros comitês de programa de eventos científicos nacionais. Em 2017 recebeu o Prêmio Carreira de Destaque da Comissão Especial de Interação Humano-Computador da SBC.Como Professora Emérita desde 2020, Clarisse tem atuado em um projeto interdisciplinar junto a colegas dos departamentos de Filosofia e História da PUC-Rio, em torno de ética e mediação algorítmica de processos sociais. Em 2024 direcionou sua pesquisa para o uso de tecnologia digital em processos de produção de conhecimento acadêmico. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Lingüística Aplicada",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1983",
+      "ano_conclusao": "1987",
+      "descricao": "Título: Gramáticas de Determinação: uma Ferramenta para o Processamento da Língua Portuguesa O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 1988. Orientador: Margarida Maria de Paula Basílio. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Lingüística Computacional; Processamento de Linguagem Natural; Compreensão de Linguagem Natural; Consulta em Linguagem Natural a Bases de Dados. Grande área: Lingüística, Letras e Artes Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação / Especialidade: Linguagem Formais e Autômatos. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Sistemas de Informação."
+    },
+    {
+      "tipo": "Mestrado em Língua Portuguesa",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1980",
+      "ano_conclusao": "1982",
+      "descricao": "Título: Fundamentos Teóricos Iniciais para o Ensino da Língua-Meta em Programas de Treinamento de Intérpretes Simultâneos., Ano de Obtenção: 1982. Orientador: Mariza do Nascimento Silva PimentaBueno. Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Treinamento de Intérpretes; Estruturas Sintáticas no Português do Brasil; Ténicas de Tradução Simultânea. Grande área: Lingüística, Letras e Artes"
+    },
+    {
+      "tipo": "Graduação em Tradutor Intérprete (Bacharelado)",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1975",
+      "ano_conclusao": "1979",
+      "descricao": ""
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2020 - Atual",
+      "ano_inicio": "2020",
+      "ano_fim": "Atual",
+      "vinculo": "Colaborador",
+      "enquadramento": "Professora Emerita",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1988 - 2020",
+      "ano_inicio": "1988",
+      "ano_fim": "2020",
+      "vinculo": "Celetista",
+      "enquadramento": "Professora Titular",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2021 - Atual",
+      "ano_inicio": "2021",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "08/2002 - Atual",
+      "ano_inicio": "2002",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "10/1988 - Atual",
+      "ano_inicio": "1988",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2002 - 2020",
+      "ano_inicio": "2002",
+      "ano_fim": "2020",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1992 - 2020",
+      "ano_inicio": "1992",
+      "ano_fim": "2020",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "09/2007 - 11/2009",
+      "ano_inicio": "2007",
+      "ano_fim": "2009",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "10/1988 - 08/2002",
+      "ano_inicio": "1988",
+      "ano_fim": "2002",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "IBM Research Brazil, IBM BRASIL, Brasil.",
+      "instituicao_nome": "IBM Research Brazil",
+      "instituicao_sigla": "IBM BRASIL",
+      "instituicao_pais": "Brasil",
+      "periodo": "2017 - 2018",
+      "ano_inicio": "2017",
+      "ano_fim": "2018",
+      "vinculo": "Celetista",
+      "enquadramento": "Senior Researcher",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "IBM Research Brazil, IBM BRASIL, Brasil",
+      "instituicao_nome": "IBM Research Brazil",
+      "instituicao_sigla": "IBM BRASIL",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "IBM Research Brazil, IBM BRASIL, Brasil",
+      "instituicao_nome": "IBM Research Brazil",
+      "instituicao_sigla": "IBM BRASIL",
+      "instituicao_pais": "Brasil",
+      "periodo": "07/2017 - 07/2018",
+      "ano_inicio": "2017",
+      "ano_fim": "2018",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Natural Resources Solutions."
+      ]
+    },
+    {
+      "instituicao": "Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil.",
+      "instituicao_nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+      "instituicao_sigla": "CNPq",
+      "instituicao_pais": "Brasil",
+      "periodo": "2009 - 2012",
+      "ano_inicio": "2009",
+      "ano_fim": "2012",
+      "vinculo": "Membro Titular do CA-CC",
+      "enquadramento": "Titular",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil.",
+      "instituicao_nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+      "instituicao_sigla": "CNPq",
+      "instituicao_pais": "Brasil",
+      "periodo": "2007 - 2009",
+      "ano_inicio": "2007",
+      "ano_fim": "2009",
+      "vinculo": "Membro Suplente do CA-CC",
+      "enquadramento": "Suplente",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil",
+      "instituicao_nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+      "instituicao_sigla": "CNPq",
+      "instituicao_pais": "Brasil",
+      "periodo": "07/2007 - Atual",
+      "ano_inicio": "2007",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Conselhos, Comissões e Consultoria, CNPq."
+      ]
+    },
+    {
+      "instituicao": "STRATEGIC ALLIANCE OF CATHOLIC RESEARCH UNI",
+      "instituicao_nome": "STRATEGIC ALLIANCE OF CATHOLIC RESEARCH UNI",
+      "instituicao_sigla": null,
+      "instituicao_pais": null,
+      "periodo": "2024 - Atual",
+      "ano_inicio": "2024",
+      "ano_fim": "Atual",
+      "vinculo": "Member of Working Group on AI",
+      "enquadramento": "Pesquisadora",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "STRATEGIC ALLIANCE OF CATHOLIC RESEARCH UNIVERSITIES, SACRU, Vaticano",
+      "instituicao_nome": "STRATEGIC ALLIANCE OF CATHOLIC RESEARCH UNIVERSITIES",
+      "instituicao_sigla": "SACRU",
+      "instituicao_pais": "Vaticano",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Tecnologias Digitais e Produção de Conhecimento",
+      "ano_inicio": "2024",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Este é um projeto individual de pesquisa, atualmente sem financiamento de qualquer ordem, focado no estudo das relações entre os processos e produtos da pesquisa científica, de um lado, e o uso de tecnologias digitais por parte dos pesquisadores, de outro. O objetivo do projeto é buscar os fundamentos para uma análise crítica dos novos tipos e modos e produção acadêmica, sobretudo à luz do progresso rápido e crescente adoção da Inteligência Artificial na pesquisa das mais diversas áreas de conhecimento.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (1) . Integrantes: Clarisse Sieckenius de Souza - Coordenador. Número de produções C, T & A: 6"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "Inscrição e Atribuição de Significados Humanos em Artefatos de Software",
+      "ano_inicio": "2018",
+      "ano_conclusao": "2022",
+      "descricao": [
+        "Descrição: Este projeto trata da revisão e alinhamento teórico-metodológicos da Engenharia Semiótica. Recentemente propusemos uma suíte de ferramentas conceituais e metodológicas qualitativas derivadas da Engenharia Semiótica. Sua finalidade é apoiar a investigação de como significados humanos são inscritos em software ao longo dos processos de desenvolvimento. A Suíte SigniFYI, nome dado a esta coleção, foi especificamente desenhada para sondar o fenômeno que nos interessa, em três contextos definidos: o de design e modelagem conceitual; o de programação; e o de uso. Adicionando à Suíte SigniFYI o já amplamente testado MAC ? Método de Avaliação de Comunicabilidade, o objetivo geral do projeto é consolidar nossa teoria e métodos associados como alternativas atraentes para a investigação de Interação Humano-Computador e Computação Centrada nos Humanos (Human-Centered Computing) no contexto da prática científica contemporânea. O objetivo compreende, por um lado, enquadrar a Suíte SigniFYI e o MAC em um método científico geral, ratificando o papel de teoria norteadora da Engenharia Semiótica. Por outro, ele compreende também a definição de um processo científico interpretativo que, se instanciado como um ferramenta informatizada de gerenciamento de pesquisa qualitativa, poderá facilitar a disseminação da Engenharia Semiótica no momento atual da ciência, fortemente determinada por instrumentos e modelos computacionais. Este projeto é apoiado por Bolsa de Produtividade em Pesquisa, Nível 1B. Situação: Concluído; Natureza: Pesquisa. Integrantes: Clarisse Sieckenius de Souza - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Coordenador"
+        }
+      ]
+    },
+    {
+      "nome": "Significação e Expressão em Linguagens de Interface e Programação para Usuários Finais: Fundamentos (Bolsa PQ 1B)",
+      "ano_inicio": "2014",
+      "ano_conclusao": "2018",
+      "descricao": [
+        "Descrição: O tema deste projeto de pesquisa é End User Development (EUD), com foco específico em como os usuários-desenvolvedores expressam intenções, conteúdos, valores e crenças através das linguagens que utilizam no processo de criação de software e comunicação social por este meio. Estas linguagens são caracteristicamente linguagens de programação para usuários finais e linguagens de interface. O interesse pelo tema, na perspectiva escolhida, vem da teoria semiótica que desenvolvemos ? a Engenharia Semiótica (EngSem). O objeto central de investigação desta teoria é o fenômeno de metacomunicação, um processo onde produtores de tecnologias e sistemas comunicam, implicita ou explicitamente, através de signos e interações de interface, quem são os usuários visados e também como, onde, quando, por que e para que tais usuários podem ou devem se comunicar com o sistema. Sendo o sistema não apenas a \"mensagem\" de seus criadores mas também os \"agentes\" que os representam durante a interação com seus usuários, ele se torna uma peça legítima e exemplar de comunicação social (de uma proposta tecnológica) através de software. A questão investigada neste projeto é a relação de significação entre elementos das linguagens de programação e de interface, que usuários-desenvolvedores utilizam em variados contextos de EUD para expressarem conteúdos, atitudes e intenções. Interessa-nos rastrear os significados que fazem parte de um processo de metacomunicação em três estágios: primeiro, a emissão (ou envio) da metacomunicação dos produtores de ambientes de EUD para os usuários-desenvolvedores a quem eles visam atender; segundo, a recepção (ou uso) desta metacomunicação por parte dos usuários-desenvolvedores, que se manifesta através da construção de software destinado a terceiros, software este que é ele próprio uma peça de metacomunicação emitida (ou enviada) pela sua interface específica; e terceiro, a recepção final desta mensagem de metacomunicação elaborada por usuários-desenvolvedores, que é interpretada e usada pelos usuários finais.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (1) . Integrantes: Clarisse Sieckenius de Souza - Coordenador / Renato Fontoura de Gusmão Cerqueira - Integrante / Juliana Soares Jansen Ferreira - Integrante / Luiz Marques Afonso - Integrante / Rafael Rossi de Mello Brandão - Integrante / Bruno Azevedo Chagas - Integrante / Hugo Fuks - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Renato Fontoura de Gusmão Cerqueira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Juliana Soares Jansen Ferreira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luiz Marques Afonso",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Rafael Rossi de Mello Brandão",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Bruno Azevedo Chagas",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Hugo Fuks",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    },
+    {
+      "nome": "Eu, software: Auto Representação, Comunicação de Ideias e Atitudes Codificadas em Software",
+      "ano_inicio": "2012",
+      "ano_conclusao": "2015",
+      "descricao": [
+        "Descrição: Esta pesquisa trata de como e em que medida, ao construir programas de computador, as pessoas representam o que são, comunicam o que pensam, expressam seus valores e atitudes. O tema remonta aos trabalhos de Turkle nos anos 1980, mas ganhou destaque com o livro The Media Equation, onde Reeves e Nass formularam e evidenciaram fenômenos de comunicação social através de telas tradicionais de interface. Daí originaram duas linhas significativas de investigação: o estudo de fenômenos de persuasão através de software, interessante para comércio e segurança online; e o estudo de etiqueta de interação, cada vez mais importante sobretudo diante do uso quase generalizado de redes sociais na Web. Ambas focam a manifestação de valores individuais ou coletivos que está implícita ou explícita em linhas de programação de software feita por profissionais. Uma terceira linha, focada na programação feita por usuários leigos, cresceu com movimento em prol do alfabetismo computacional como parte do letramento funcional do cidadão do século 21. Trata-se da expressão de ideias e narrativas pessoais através da programação de jogos e simulações, uma capacidade que se quer ensinar aos alunos do ensino fundamental. Com longa pesquisa teórica em Semiótica e Interação Humano-Computador, além de projetos em curso sobre linguagens de programação para usuários finais, tecnologias de mediação social e aspectos culturais do design de software, nosso objetivo é estudar signos de auto representação e auto expressão explícitas ou implícitas em programas de computador. Usando metodologia qualitativa, pretendemos: dar uma definição semiótica consistente do que são os signos auto representação e auto expressão em programas; identificar suas instâncias e condições de instanciação; examiná-los e tipificá-los sob a ótica de quem os produz e de quem os interpreta; e analisar seus efeitos em contextos de uso de software. Os resultados serão sistematizados e comunicados para a comunidade científica.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) / Doutorado: (3) . Integrantes: Clarisse Sieckenius de Souza - Coordenador / Luciana Cardoso de Castro Salgado - Integrante / Ingrid Teixeira Monteiro - Integrante / Alexander Repenning - Integrante / Eduardo Tiomno Tolmasquim - Integrante / Cleyton Slaviero - Integrante / João Antonio M. Dutra Bastos - Integrante / Hugo Roque Figueiredo - Integrante / Marcelle Pereira Mota - Integrante. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Bolsa."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Luciana Cardoso de Castro Salgado",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ingrid Teixeira Monteiro",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alexander Repenning",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Tiomno Tolmasquim",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Cleyton Slaviero",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "João Antonio M",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    },
+    {
+      "nome": "Scalable Game Design Brasil",
+      "ano_inicio": "2010",
+      "ano_conclusao": "2015",
+      "descricao": [
+        "Descrição: Projeto de ensino de raciocínio computacional para alunos do ensino fundamental, realizado em parceria com a Universidade do Colorado em Boulder, a Universidade Federal Fluminense e a AgentSheets, Inc. O projeto tem financiamento da FAPERJ para a sua coordenadora na UFF, Profa. Ana Cristina Bicharra Garcia.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Mestrado acadêmico: (1) / Doutorado: (3) . Integrantes: Clarisse Sieckenius de Souza - Coordenador / Ana Cristina Bicharra Garcia - Integrante / Luciana Cardoso de Castro Salgado - Integrante / Ingrid Teixeira Monteiro - Integrante / Alexander Repenning - Integrante / Eduardo Tiomno Tolmasquim - Integrante / Leonardo Serra Faria - Integrante / Juliana Soares Jansen Ferreira - Integrante / Cleyton Slaviero - Integrante / Carla Faria Leitão - Integrante / Marcelle Pereira Mota - Integrante. Número de produções C, T & A: 7"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Ana Cristina Bicharra Garcia",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luciana Cardoso de Castro Salgado",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ingrid Teixeira Monteiro",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alexander Repenning",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Eduardo Tiomno Tolmasquim",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Leonardo Serra Faria",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Juliana Soares Jansen Ferreira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Cleyton Slaviero",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carla Faria Leitão",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Marcelle Pereira Mota",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa fundamental em Interação Humano-Computador: em busca de conexões ontológicas com a Ciência da Computação",
+      "ano_inicio": "2009",
+      "ano_conclusao": "2013",
+      "descricao": [
+        "Descrição: Apesar de a área de Interação Humano-Computador (IHC) ter alcançado posição de destaque no cenário nacional e internacional da Computação, há uma preocupante falta de massa crítica em pesquisa na área e suas raízes multidisciplinares tornam complexa a sua inserção científica na área madrinha, a Ciência da Computação. Partindo da premissa de que a criação de massa crítica e a consolidação de uma inserção científica de IHC na Computação começa pela existência de resultados sólidos em pesquisa fundamental na área, este projeto se pauta nos resultados já alcançados pela proponente com a Engenharia Semiótica e tem por objetivo maior ampliar esta base teórica.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Clarisse Sieckenius de Souza - Coordenador. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Bolsa."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Coordenador"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    },
+    {
+      "nome": "Questões de IHC no desenvolvimento e uso de aplicações mixadas, automatizadas e customizadas da Web",
+      "ano_inicio": "2009",
+      "ano_conclusao": "2012",
+      "descricao": [
+        "Descrição: Este projeto se propõe a analisar a qualidade da experiência dos usuários nas atividades de criação, customização ou extensão de aplicações na Web utilizando ferramentas de mixagem (mashups) e programação para usuários finais tais como o Yahoo Pipes, o Chickenfoot, o CoScripter, o Greasemonkey, e assemelhados (denominados nesta proposta de XCTools).. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (3) . Integrantes: Clarisse Sieckenius de Souza - Coordenador / Edward Hermann Haeusler - Integrante / Jair Cavalcanti Leite - Integrante / Luis Fernando Gomes Soares - Integrante / Allen Cypher - Integrante / Carlos José Pereira de Lucena - Integrante / José Vasco Furtado - Integrante / Carla Faria Leitão - Integrante. Número de produções C, T & A: 3"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Edward Hermann Haeusler",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Jair Cavalcanti Leite",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luis Fernando Gomes Soares",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Allen Cypher",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carlos José Pereira de Lucena",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "José Vasco Furtado",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carla Faria Leitão",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Projeto ICDL-Brasil",
+      "ano_inicio": "2005",
+      "ano_conclusao": "2009",
+      "descricao": [
+        "Descrição: O ICDL-Brasil é um projeto de cooperação binacional entre a PUC-Rio (Brasil) e a Universidade de Maryland College-Park (Estados Unidos), apoiado pelo CNPq/NSF. Tem por objetivo traduzir e adaptar culturalmente a interface da Biblioteca Digital Internacional para Crianças (ICDL), com vistas a incentivar a leitura e a escrita junto a crianças brasileiras. Através deste incentivo, o projeto almeja contribuir para amenizar os efeitos dos altos índices de analfabetismo funcional existentes no Brasil. (Veja http://www.serg.inf.puc-rio.br/icdl-brasil). Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Especialização: (0) / Mestrado acadêmico: (1) / Mestrado profissional: (0) / Doutorado: (3) . Integrantes: Clarisse Sieckenius de Souza - Coordenador / Violeta de San Tiago Dantas Barbosa Quental - Integrante / Jenny Preece - Integrante / Silvia Amelia Bim - Integrante / Luciana Cardoso de Castro Salgado - Integrante / Ecivaldo Matos - Integrante / Andréia Libório Sampaio - Integrante / Robin Laffon - Integrante / Ben Bederson - Integrante / Allison Druin - Integrante / Ann Weeks - Integrante / Rosana Kohl Bines - Integrante / Carla Faria Leitão - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Cooperação. Número de produções C, T & A: 5"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Violeta de San Tiago Dantas Barbosa Quental",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Jenny Preece",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Silvia Amelia Bim",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luciana Cardoso de Castro Salgado",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ecivaldo Matos",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Andréia Libório Sampaio",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Robin Laffon",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ben Bederson",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Allison Druin",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ann Weeks",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Rosana Kohl Bines",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carla Faria Leitão",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Cooperação"
+        }
+      ]
+    },
+    {
+      "nome": "ORÉ - Organizar, Refletir, Evoluir",
+      "ano_inicio": "2002",
+      "ano_conclusao": "2004",
+      "descricao": [
+        "Descrição: Desenvolvimento de tecnologias de informação para apoiar o trabalho de voluntários sociais no Brasil. Relatórios técnicos e produção disponíveis em http://www.serg.inf.puc-rio.br/ore. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Graduação: (5) / Mestrado acadêmico: (2) . Integrantes: Clarisse Sieckenius de Souza - Coordenador / Raquel Oliveira Prates - Integrante / Violeta de San Tiago Dantas Barbosa Quental - Integrante / Ana Maria Nicolaci da Costa - Integrante / Maíra Greco de Paula - Integrante / Elton José da Silva - Integrante / Carla Faria Leitão - Integrante / Simone Diniz Junqueira Barbosa - Integrante / Milene Selbach Silveira - Integrante. Financiador(es): Pontifícia Universidade Católica do Rio de Janeiro - Auxílio financeiro / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa. Número de produções C, T & A: 16"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Raquel Oliveira Prates",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Violeta de San Tiago Dantas Barbosa Quental",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ana Maria Nicolaci da Costa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Maíra Greco de Paula",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Elton José da Silva",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Carla Faria Leitão",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Simone Diniz Junqueira Barbosa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Milene Selbach Silveira",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "tipo_apoio": "Auxílio financeiro"
+        },
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Bolsa"
+        }
+      ]
+    },
+    {
+      "nome": "Projeto LINX",
+      "ano_inicio": "1989",
+      "ano_conclusao": "1997",
+      "descricao": [
+        "Descrição: Interface em Linguagem Natural para Sistemas Baseados em Conhecimento (relatórios técnicos disponíveis em http://www.inf.puc-rio.br/~linx). Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (5) . Integrantes: Clarisse Sieckenius de Souza - Coordenador / Denise Aboim Sande e Oliveira - Integrante / Maria das Graças Volpe Nunes - Integrante / Donia Rosemary Scott - Integrante / Violeta de San Tiago Dantas Barbosa Quental - Integrante / Edward Hermann Haeusler - Integrante / Jair Cavalcanti Leite - Integrante / Laura Sánchez García - Integrante / Maria Carmelita Pádua Dias - Integrante / Lúcia Léa Gondar de Oliveira - Integrante. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 14"
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Denise Aboim Sande e Oliveira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Maria das Graças Volpe Nunes",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Donia Rosemary Scott",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Violeta de San Tiago Dantas Barbosa Quental",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Edward Hermann Haeusler",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Jair Cavalcanti Leite",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Laura Sánchez García",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Maria Carmelita Pádua Dias",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Lúcia Léa Gondar de Oliveira",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Semiótica Computacional",
+      "especialidade": "",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Semiótica Computacional."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Francês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Espanhol",
+      "compreende": "Bem",
+      "fala": "Razoavelmente",
+      "le": "Bem",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Best Paper Award - Melhor Artigo Completo / IHC'2018, SBC-CEIHC - Comissão Especial de Interação Humano-Computador da Sociedade Brasileira de Computação.",
+      "ano": 2018
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "Filosofia da Tecnologia e Retórica Digital",
+      "objetivo": "Contribuir com fundamentos radicalmente interdisciplinares para o estudo produção de conhecimento que utiliza tecnologias digitais em seus processos. Os vetores destes fundamentos são a Informática, a Filosofia, a Semiótica e a História.. Grande área: Ciências Exatas e da Terra Grande Área: Ciências Humanas / Área: Filosofia. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Semiótica Computacional. Palavras-chave: Filosofia da Tecnologia; Interdisciplinaridade; Retórica Digital; Semiótica."
+    },
+    {
+      "nome": "Interação Humano-Computador",
+      "objetivo": ""
+    },
+    {
+      "nome": "Semiótica Computacional",
+      "objetivo": ""
+    },
+    {
+      "nome": "End User Development",
+      "objetivo": ""
+    },
+    {
+      "nome": "Human-Centered Computing",
+      "objetivo": ""
+    },
+    {
+      "nome": "Engenharia Semiótica",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Using Model Cards for ethical reflection on machine learning models: an interview-based study",
+        "ano": 2024,
+        "autores": "NUNES, JOSÉ LUIZ ; BARBOSA, GABRIEL D. J. ; de Souza, Clarisse Sieckenius ; BARBOSA, SIMONE D. J.",
+        "revista": "Journal on Interactive Systems",
+        "volume": "15",
+        "numero": "",
+        "paginas": "1-19",
+        "issn": "2763-7719",
+        "doi": "http://dx.doi.org/10.5753/jis.2024.3444",
+        "qualis": ""
+      },
+      {
+        "titulo": "Designing Intelligent Agents in Normative Systems Toward Data Regulation Representation",
+        "ano": 2023,
+        "autores": "ALVES, PAULO HENRIQUE ; CORREIA, FERNANDO ; FRAJHOF, ISABELLA ; DE SOUZA, CLARISSE SIECKENIUS ; LOPES, HELIO",
+        "revista": "IEEE Access",
+        "volume": "10",
+        "numero": "",
+        "paginas": "51590-51605",
+        "issn": "2169-3536",
+        "doi": "http://dx.doi.org/10.1109/ACCESS.2023.3276294",
+        "qualis": ""
+      },
+      {
+        "titulo": "Resenha do livro Computational Semiotics de Jean-Guy Meunier",
+        "ano": 2023,
+        "autores": "Sieckenius de Souza, Clarisse",
+        "revista": "TECCOGS: REVISTA DIGITAL DE TECNOLOGIAS COGNITIVAS",
+        "volume": "1",
+        "numero": "",
+        "paginas": "151-158",
+        "issn": "1984-3585",
+        "doi": "http://dx.doi.org/10.23925/1984-3585.2022i26p151-158",
+        "qualis": ""
+      },
+      {
+        "titulo": "Towards to Transfer the Directives of Communicability to Software Projects: Qualitative Studies",
+        "ano": 2021,
+        "autores": "DAMIAN, ADRIANA LOPES ; DIAS CANEDO, EDNA ; Sieckenius de Souza, Clarisse ; CONTE, TAYANA",
+        "revista": "JOURNAL OF SOFTWARE ENGINEERING RESEARCH AND DEVELOPMENT",
+        "volume": "9",
+        "numero": "",
+        "paginas": "1-15",
+        "issn": "2195-1721",
+        "doi": "http://dx.doi.org/10.5753/jserd.2021.1942",
+        "qualis": ""
+      },
+      {
+        "titulo": "Visual Exploration of an Ensemble of Classifiers",
+        "ano": 2019,
+        "autores": "RIBEIRO, PAULA CECCON ; SCHARDONG, GUILHERME G. ; BARBOSA, SIMONE D.J. ; de Souza, Clarisse Sieckenius ; LOPES, HÉLIO",
+        "revista": "COMPUTERS & GRAPHICS-UK",
+        "volume": "85",
+        "numero": "",
+        "paginas": "23-41",
+        "issn": "0097-8493",
+        "doi": "http://dx.doi.org/10.1016/j.cag.2019.08.012",
+        "qualis": ""
+      },
+      {
+        "titulo": "Source Code Comprehension and Appropriation by Novice Programmers: Understanding Novice Programmers? Perception about Source Code Reuse",
+        "ano": 2019,
+        "autores": "MÜLLER, LUANA ; SELBACH SILVEIRA, MILENE ; S. DE SOUZA, CLARISSE",
+        "revista": "SBC JOURNAL ON 3D INTERACTIVE SYSTEMS",
+        "volume": "10",
+        "numero": "",
+        "paginas": "96-109",
+        "issn": "2236-3297",
+        "doi": "http://dx.doi.org/10.5753/jis.2019.556",
+        "qualis": ""
+      },
+      {
+        "titulo": "Signs of Appropriation: A Semiotic Account of Breakdowns with IoT Technology",
+        "ano": 2019,
+        "autores": "A. CHAGAS, BRUNO ; F. REDMILES, DAVID ; S. DE SOUZA, CLARISSE",
+        "revista": "SBC JOURNAL ON 3D INTERACTIVE SYSTEMS",
+        "volume": "10",
+        "numero": "",
+        "paginas": "3-19",
+        "issn": "2236-3297",
+        "doi": "http://dx.doi.org/10.5753/jis.2019.550",
+        "qualis": ""
+      },
+      {
+        "titulo": "A pragmatic turn in computer science",
+        "ano": 2018,
+        "autores": "de Souza, Clarisse Sieckenius",
+        "revista": "INTERACTIONS (NEW YORK, N.Y.)",
+        "volume": "25",
+        "numero": "",
+        "paginas": "20-21",
+        "issn": "1072-5520",
+        "doi": "http://dx.doi.org/10.1145/3200147",
+        "qualis": ""
+      },
+      {
+        "titulo": "O problema da explicação em Inteligência Artificial: considerações a partir da semiótica",
+        "ano": 2018,
+        "autores": "CARBONERA, J. L. ; GONCALVES, B. N. ; de SOUZA, C. S.",
+        "revista": "TECCOGS: REVISTA DIGITAL DE TECNOLOGIAS COGNITIVAS",
+        "volume": "17",
+        "numero": "",
+        "paginas": "59-75",
+        "issn": "1984-3585",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Signifying Software Engineering to Computational Thinking Learners with AgentSheets and PoliFacets",
+        "ano": 2017,
+        "autores": "MONTEIRO, INGRID TEIXEIRA ; DE CASTRO SALGADO, LUCIANA CARDOSO ; MOTA, MARCELLE PEREIRA ; SAMPAIO, ANDRÉIA LIBÓRIO ; de Souza, Clarisse Sieckenius",
+        "revista": "JOURNAL OF VISUAL LANGUAGES AND COMPUTING",
+        "volume": "40",
+        "numero": "",
+        "paginas": "91-112",
+        "issn": "1045-926X",
+        "doi": "http://dx.doi.org/10.1016/j.jvlc.2017.01.005",
+        "qualis": ""
+      },
+      {
+        "titulo": "Analyzing the Communicability of Configuration Decision Space Over Time in Collaborative Systems through a Case Study",
+        "ano": 2017,
+        "autores": "Prates, R.O. ; ROSSON, M. B. ; de SOUZA, C. S.",
+        "revista": "SBC JOURNAL ON 3D INTERACTIVE SYSTEMS",
+        "volume": "8",
+        "numero": "",
+        "paginas": "62-76",
+        "issn": "2236-3297",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Analyzing the Communicability of Configuration Decision Space Over Time in Collaborative Systems through a Case Study",
+        "ano": 2017,
+        "autores": "PRATES, R. O. ; ROSSON, M. B. ; de SOUZA, C. S.",
+        "revista": "SBC JOURNAL ON 3D INTERACTIVE SYSTEMS",
+        "volume": "8",
+        "numero": "",
+        "paginas": "62-76",
+        "issn": "2236-3297",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Why and how to investigate interaction design of software development tools",
+        "ano": 2015,
+        "autores": "Ferreira, J.S.J. ; de SOUZA, C. S. ; Cerqueira, R.F.G.",
+        "revista": "SBC Journal on 3D Interactive Systems",
+        "volume": "6",
+        "numero": "",
+        "paginas": "48-65",
+        "issn": "2236-3297",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Semiotic perspectives on interactive languages for life on the screen",
+        "ano": 2013,
+        "autores": "de SOUZA, C. S",
+        "revista": "Journal of Visual Languages and Computing",
+        "volume": "24",
+        "numero": "",
+        "paginas": "218-221",
+        "issn": "1045-926X",
+        "doi": "http://dx.doi.org/10.1016/j.jvlc.2013.03.002",
+        "qualis": ""
+      },
+      {
+        "titulo": "HCI community in Brazil---sweet 16!",
+        "ano": 2013,
+        "autores": "PRATES, R. O. ; BARBOSA, S. D. J. ; SILVEIRA, Milene Selbach ; SOUZA, Clarisse Sieckenius de ; BARANAUSKAS, M. C. C. ; MACIEL, C. ; FURTADO, E. ; ANACLETO, Junia Coutinho ; MELO, P. ; KUJALA, T.",
+        "revista": "Interactions (New York, N.Y.)",
+        "volume": "20",
+        "numero": "",
+        "paginas": "80-81",
+        "issn": "1072-5520",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "The semiotic turn",
+        "ano": 2012,
+        "autores": "de Souza, Clarisse Sieckenius",
+        "revista": "Journal of Visual Languages and Computing",
+        "volume": "23",
+        "numero": "",
+        "paginas": "116-119",
+        "issn": "1045-926X",
+        "doi": "http://dx.doi.org/10.1016/j.jvlc.2011.11.008",
+        "qualis": ""
+      },
+      {
+        "titulo": "TAL¿Template Authoring Language",
+        "ano": 2012,
+        "autores": "Soares Neto, C.S. ; Soares, L.F.G. ; Souza, Clarisse Sieckenius",
+        "revista": "Journal of The Brazilian Computer Society (Online)",
+        "volume": "18",
+        "numero": "",
+        "paginas": "185-199",
+        "issn": "1678-4804",
+        "doi": "http://dx.doi.org/10.1007/s13173-012-0073-7",
+        "qualis": ""
+      },
+      {
+        "titulo": "INTERACTING WITH PUBLIC POLICYAre HCI researchers an endangered species in Brazil?",
+        "ano": 2011,
+        "autores": "Barbosa, S.D.J. ; de Souza, Clarisse Sieckenius",
+        "revista": "Interactions (New York, N.Y.)",
+        "volume": "18",
+        "numero": "",
+        "paginas": "69-71",
+        "issn": "1072-5520",
+        "doi": "http://dx.doi.org/10.1145/1962438.1962454",
+        "qualis": ""
+      },
+      {
+        "titulo": "A qualitative human-centric evaluation of flexibility in middleware implementations",
+        "ano": 2011,
+        "autores": "Maia, R. ; Cerqueira, R.F.G. ; Souza, Clarisse Sieckenius ; Guisasola-Gorham, T.",
+        "revista": "Empirical Software Engineering",
+        "volume": "17",
+        "numero": "",
+        "paginas": "1-34",
+        "issn": "1382-3256",
+        "doi": "http://dx.doi.org/10.1007/s10664-011-9167-7",
+        "qualis": ""
+      },
+      {
+        "titulo": "The Nested Context Language reuse features",
+        "ano": 2010,
+        "autores": "Soares Neto, C.S. ; Soares, L.F.G. ; de SOUZA, C. S.",
+        "revista": "Journal of the Brazilian Computer Society (Impresso)",
+        "volume": "16",
+        "numero": "",
+        "paginas": "229-245",
+        "issn": "0104-6500",
+        "doi": "http://dx.doi.org/10.1007/s13173-010-0017-z",
+        "qualis": ""
+      },
+      {
+        "titulo": "Turn off the graphics: designing non-visual interfaces for mobile phone games",
+        "ano": 2009,
+        "autores": "Valente, Luis ; Souza, Clarisse Sieckenius de ; FEIJO, B.",
+        "revista": "Journal of the Brazilian Computer Society (Impresso)",
+        "volume": "15",
+        "numero": "",
+        "paginas": "45-58",
+        "issn": "0104-6500",
+        "doi": "http://dx.doi.org/10.1590/S0104-65002009000100005",
+        "qualis": ""
+      },
+      {
+        "titulo": "Can inspection methods generate valid new knowledge in HCI? The case of semiotic inspection",
+        "ano": 2009,
+        "autores": "de SOUZA, C. S.; Leitão, C.F. ; Prates, R.O. ; Bim, S.A. ; da Silva, E.J.",
+        "revista": "International Journal of Human-Computer Studies",
+        "volume": "68",
+        "numero": "",
+        "paginas": "22-40",
+        "issn": "1071-5819",
+        "doi": "http://dx.doi.org/10.1016/j.ijhcs.2009.08.006",
+        "qualis": ""
+      },
+      {
+        "titulo": "Missing links in the rhetoric of Activity Theory",
+        "ano": 2008,
+        "autores": "de SOUZA, C. S",
+        "revista": "Interacting with Computers",
+        "volume": "20",
+        "numero": "",
+        "paginas": "267-271",
+        "issn": "0953-5438",
+        "doi": "http://dx.doi.org/10.1016/j.intcom.2007.07.006",
+        "qualis": ""
+      },
+      {
+        "titulo": "A privacy service for location-based collaboration among mobile users",
+        "ano": 2008,
+        "autores": "Rodrigues, V.J.S. ; Endler, M. ; de SOUZA, C. S.",
+        "revista": "Journal of the Brazilian Computer Society",
+        "volume": "14",
+        "numero": "",
+        "paginas": "41-57",
+        "issn": "0104-6500",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Semiotic engineering: Bringing designers and users together at interaction time",
+        "ano": 2005,
+        "autores": "de SOUZA, C. S",
+        "revista": "Interacting with Computers",
+        "volume": "17",
+        "numero": "3",
+        "paginas": "317-341",
+        "issn": "0953-5438",
+        "doi": "http://dx.doi.org/10.1016/j.intcom.2005.01.007",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Framework for Analyzing and Understanding Online Communities",
+        "ano": 2004,
+        "autores": "de SOUZA, C. S.; Preece, J.",
+        "revista": "Interacting with Computers",
+        "volume": "16",
+        "numero": "3",
+        "paginas": "579-610",
+        "issn": "0953-5438",
+        "doi": "http://dx.doi.org/10.1016/j.intcom.2003.12.006",
+        "qualis": ""
+      },
+      {
+        "titulo": "Compulsory institutionalization: investigating the paradox of computer-supported informal social processes",
+        "ano": 2004,
+        "autores": "de SOUZA, C. S.; Nicolaci-da-Costa, A.M. ; da Silva, E.J. ; Prates, R.O.",
+        "revista": "Interacting with Computers",
+        "volume": "16",
+        "numero": "4",
+        "paginas": "635-656",
+        "issn": "0953-5438",
+        "doi": "http://dx.doi.org/10.1016/j.intcom.2004.07.003",
+        "qualis": ""
+      },
+      {
+        "titulo": "Designing online help systems for reflective users",
+        "ano": 2004,
+        "autores": "SILVEIRA, Milene Selbach ; BARBOSA, S. D. J. ; SOUZA, Clarisse Sieckenius de",
+        "revista": "JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY (IMPRESSO)",
+        "volume": "9",
+        "numero": "3",
+        "paginas": "25-38",
+        "issn": "0104-6500",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Adopting Information Technology as a First Step in Design: Lessons Learned from Working with Brazilian Social Volunteers",
+        "ano": 2003,
+        "autores": "de SOUZA, C. S.; Prates, R.O. ; Barbosa, S.D.J.",
+        "revista": "Interactions (New York)",
+        "volume": "10",
+        "numero": "2",
+        "paginas": "72-79",
+        "issn": "1072-5520",
+        "doi": "http://dx.doi.org/10.1145/637848.637865",
+        "qualis": ""
+      },
+      {
+        "titulo": "Inginiera Semiótica y Comunicabilidad de las Interfaces de Usuario",
+        "ano": 2002,
+        "autores": "de SOUZA, C. S",
+        "revista": "Novática",
+        "volume": "",
+        "numero": "156",
+        "paginas": "49-54",
+        "issn": "0211-2124",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Semiotic Engineering Principles for Evaluating End-User Programming Environments",
+        "ano": 2001,
+        "autores": "de Souza, C ; Barbosa, Simone D. J. ; SILVA, S. R. P.",
+        "revista": "Interacting with Computers",
+        "volume": "13",
+        "numero": "4",
+        "paginas": "467-495",
+        "issn": "0953-5438",
+        "doi": "http://dx.doi.org/10.1016/S0953-5438(00)00051-5",
+        "qualis": ""
+      },
+      {
+        "titulo": "Extending software through metaphors and metonymies",
+        "ano": 2001,
+        "autores": "BARBOSA, S. D. J.; SOUZA, Clarisse Sieckenius de",
+        "revista": "Knowledge-Based Systems",
+        "volume": "14",
+        "numero": "1-2",
+        "paginas": "15-27",
+        "issn": "0950-7051",
+        "doi": "http://dx.doi.org/10.1016/S0950-7051(00)00104-0",
+        "qualis": ""
+      },
+      {
+        "titulo": "Echoes of semiotically-based design in the development and testing of a workflow system",
+        "ano": 2001,
+        "autores": "SOUZA, Clarisse Sieckenius de ; CUNHA, C. K. V. ; PRATES, R. O. ; BARBOSA, S. D. J.",
+        "revista": "AVIS. Australian journal of information systems",
+        "volume": "8",
+        "numero": "2",
+        "paginas": "115-128",
+        "issn": "1039-7841",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Semiotic Engineering Approach to User Interface Design",
+        "ano": 2001,
+        "autores": "SOUZA, Clarisse Sieckenius de ; BARBOSA, S. D. J. ; PRATES, Raquel Oliveira",
+        "revista": "Knowledge-Based Systems",
+        "volume": "14",
+        "numero": "8",
+        "paginas": "461-465",
+        "issn": "0950-7051",
+        "doi": "http://dx.doi.org/10.1016/S0950-7051(01)00136-8",
+        "qualis": ""
+      },
+      {
+        "titulo": "Communicability Evaluation Method for User Interfaces",
+        "ano": 2000,
+        "autores": "Prates, R.O. ; de SOUZA, C. S. ; Barbosa, S.D.J.",
+        "revista": "Interactions (New York, N.Y.)",
+        "volume": "7",
+        "numero": "1",
+        "paginas": "33-38",
+        "issn": "1072-5520",
+        "doi": "http://dx.doi.org/10.1145/328595.328608",
+        "qualis": ""
+      },
+      {
+        "titulo": "Missing and Declining Affordances: Are these Appropriate Concepts?",
+        "ano": 2000,
+        "autores": "de SOUZA, C. S.; Prates, R.O. ; Carey, T.",
+        "revista": "Journal of the Brazilian Computer Society",
+        "volume": "7",
+        "numero": "1",
+        "paginas": "26-34",
+        "issn": "0104-6500",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "ADD+: Including rhetorical structures in active documents",
+        "ano": 1997,
+        "autores": "Garcia, A.C.B. ; de SOUZA, C. S.",
+        "revista": "Artificial Intelligence for Engineering Design, Analysis and Manufacturing",
+        "volume": "",
+        "numero": "11",
+        "paginas": "109-124",
+        "issn": "0890-0604",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Semiotic Framework for Multi-user Interfaces",
+        "ano": 1997,
+        "autores": "Prates, R.O. ; de SOUZA, C. S. ; Garcia, A.C.B.",
+        "revista": "SIGCHI Bulletin",
+        "volume": "29",
+        "numero": "2",
+        "paginas": "28-39",
+        "issn": "0736-6906",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Enhancing the Human-Computer Interface of Power System Applications",
+        "ano": 1996,
+        "autores": "Azevedo, G.P. ; de SOUZA, C. S. ; Feijó, B.",
+        "revista": "IEEE Transactions on Power Systems",
+        "volume": "11",
+        "numero": "2",
+        "paginas": "646-652",
+        "issn": "0885-8950",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "The Semiotic Engineering of User Interface Languages",
+        "ano": 1993,
+        "autores": "de SOUZA, C. S",
+        "revista": "International Journal of Man-Machine Studies",
+        "volume": "39",
+        "numero": "",
+        "paginas": "753-773",
+        "issn": "0020-7373",
+        "doi": "http://dx.doi.org/10.1006/imms.1993.1082",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [
+      {
+        "titulo": "Software Developers as Users. Semiotic Investigations on Human-Centered Software Development",
+        "ano": 2016,
+        "autores": "de Souza, Clarisse S.; Cerqueira, R.F.G. ; Afonso, L. M. ; Brandão, R.R.M. ; Ferreira, J.S.J.",
+        "editora": "Cham: Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "160"
+      },
+      {
+        "titulo": "A Journey through Cultures: Metaphors for Guiding the Design of Cross-Cultural Interactive Systems",
+        "ano": 2012,
+        "autores": "Salgado, L.C.C. ; Leitão, C.F. ; de SOUZA, C. S.",
+        "editora": "Londres: Springer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "136"
+      },
+      {
+        "titulo": "Semiotic Engineering Methods for Scientific Research in HCI",
+        "ano": 2009,
+        "autores": "de SOUZA, C. S.; Leitão, C.F.",
+        "editora": "San Francisco, California: Morgan & Claypool",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "122"
+      },
+      {
+        "titulo": "The semiotic engineering of human-computer interaction. Cambridge, Massachussets: The MIT Press",
+        "ano": 2005,
+        "autores": "de SOUZA, C. S",
+        "editora": "The semiotic engineering of human-computer interaction. Cambridge, Massachussets: The MIT Press",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "312"
+      }
+    ],
+    "capitulos_livros": [
+      {
+        "titulo": "Less Visible Risks of AI-based Technologies: the Civilizational Threat of Discursive and Epistemic Dysfunction",
+        "ano": 2025,
+        "autores": "Lyra, E. ; de Souza, Clarisse S.",
+        "titulo_livro": "",
+        "editora": "Vita e Pensiero",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "62-75"
+      },
+      {
+        "titulo": "(Org.). Lecture Notes in Computer Science. 1ed.Cham",
+        "ano": 2019,
+        "autores": "de Souza, Clarisse Sieckenius. A Contrastive Study of Pre- and Post-legislation Interaction Design for Communication and Action About Personal Data Protection in e-Commerce Websites. In: Lamas D., Loizides F., Nacke L., Petrie H., Winckler M., Zaphiris P",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "3-23"
+      },
+      {
+        "titulo": "Semiotics and Human-Computer Interaction",
+        "ano": 2017,
+        "autores": "de Souza, Clarisse Sieckenius",
+        "titulo_livro": "",
+        "editora": "John Wiley & Sons, Ltd",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "33-49"
+      },
+      {
+        "titulo": "Semiotic Engineering: A Cohering Theory to Connect EUD with HCI, CMC and More",
+        "ano": 2017,
+        "autores": "de Souza, Clarisse Sieckenius",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "269-305"
+      },
+      {
+        "titulo": "Semiotics and Human-Computer Interaction",
+        "ano": 2012,
+        "autores": "de SOUZA, C. S",
+        "titulo_livro": "",
+        "editora": "Interaction Design Foundation",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "1"
+      },
+      {
+        "titulo": "A semiotic framing for end-user development",
+        "ano": 2006,
+        "autores": "de SOUZA, C. S.; Barbosa, S.D.J.",
+        "titulo_livro": "",
+        "editora": "Springer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "401-426"
+      },
+      {
+        "titulo": "Da(s) subjetividade(s) na produção de tecnologia",
+        "ano": 2006,
+        "autores": "de SOUZA, C. S",
+        "titulo_livro": "",
+        "editora": "Editora da PUC-Rio",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "81-106"
+      },
+      {
+        "titulo": "Extensible software applications as semiotic engineering laboratories",
+        "ano": 2000,
+        "autores": "Barbosa, S.D.J. ; SILVA, S. R. P. ; de SOUZA, C. S.",
+        "titulo_livro": "",
+        "editora": "Legas Press",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "77-96"
+      },
+      {
+        "titulo": "Structured Argument Generation in a Logic-Based KB System",
+        "ano": 1999,
+        "autores": "Oliveira, D.A.S. ; de SOUZA, C. S. ; Haeusler, E.H.",
+        "titulo_livro": "",
+        "editora": "CSLI Publications",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "222-250"
+      },
+      {
+        "titulo": "Interação Humano-Computador: Perspectivas Cognitivas e Semióticas",
+        "ano": 1999,
+        "autores": "de SOUZA, C. S.; Leite, J.C. ; Prates, R.O. ; Barbosa, S.D.J.",
+        "titulo_livro": "",
+        "editora": "Edições EntreLugar",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "420-470"
+      },
+      {
+        "titulo": "Getting the Message Across in RST-Based Text Generation",
+        "ano": 1990,
+        "autores": "Scott, D.R. ; de SOUZA, C. S.",
+        "titulo_livro": "",
+        "editora": "Academic Press",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "43-73"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "Investigating the Extended Metacommunication Template: How a semiotic tool may encourage reflective ethical practice in the development of machine learning systems",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1145/3638067.3638070",
+        "autores": "BARBOSA, GABRIEL DINIZ JUNQUEIRA ; NUNES, JOSÉ LUIZ ; de Souza, Clarisse Sieckenius ; BARBOSA, SIMONE DINIZ JUNQUEIRA",
+        "evento": "IHC '23: XXII Brazilian Symposium on Human Factors in Computing Systems",
+        "cidade": "",
+        "paginas": "1-12",
+        "isbn": ""
+      },
+      {
+        "titulo": "Using model cards for ethical reflection",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1145/3554364.3559117",
+        "autores": "NUNES, JOSÉ LUIZ ; BARBOSA, GABRIEL D. J. ; de Souza, Clarisse Sieckenius ; LOPES, HELIO ; BARBOSA, SIMONE D. J.",
+        "evento": "IHC '22: XXI Brazilian Symposium on Human Factors in Computing Systems",
+        "cidade": "",
+        "paginas": "1-11",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Semiotics-based epistemic tool to reason about ethical issues in digital technology design and development",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1145/3442188.3445900",
+        "autores": "BARBOSA, SIMONE DINIZ JUNQUEIRA ; BARBOSA, GABRIEL DINIZ JUNQUEIRA ; Souza, Clarisse Sieckenius de ; LEITÃO, CARLA FARIA",
+        "evento": "FAccT '21: 2021 ACM Conference on Fairness",
+        "cidade": "",
+        "paginas": "363-375",
+        "isbn": ""
+      },
+      {
+        "titulo": "Directives of Communicability for Software Artifacts",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.1145/3493244.3493276",
+        "autores": "LOPES DAMIAN, ADRIANA ; Sieckenius de Souza, Clarisse ; CONTE, TAYANA",
+        "evento": "SBQS '21: XX Brazilian Symposium on Software Quality",
+        "cidade": "",
+        "paginas": "1-9",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring the Directives of Communicability for Improving the Quality of Software Artifacts",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1145/3439961.3439974",
+        "autores": "LOPES, ADRIANA ; CONTE, TAYANA ; Sieckenius de Souza, Clarisse",
+        "evento": "SBQS'20: 19th Brazilian Symposium on Software Quality",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "ComD2: Family of Techniques for Inspecting Defects in Models that Affect Team Communication",
+        "ano": 2018,
+        "doi": "",
+        "autores": "Lopes, A. ; CAMPOS, U. ; Conte, T. ; de Souza, Clarisse S.",
+        "evento": "SEKE 2018 - The 30th International Conference on Software Engineering & Knowledge Engineering",
+        "cidade": "",
+        "paginas": "298-303",
+        "isbn": ""
+      },
+      {
+        "titulo": "Observed Appropriation of IoT Technology",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3274192.3274225",
+        "autores": "CHAGAS, BRUNO A. ; REDMILES, DAVID F. ; de Souza, Clarisse S.",
+        "evento": "the 17th Brazilian Symposium",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Do I Know What My Code is \"Saying\"?",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1145/3274192.3274209",
+        "autores": "MÜLLER, LUANA ; SILVEIRA, MILENE SELBACH ; de Souza, Clarisse Sieckenius",
+        "evento": "the 17th Brazilian Symposium",
+        "cidade": "",
+        "paginas": "1-10",
+        "isbn": ""
+      },
+      {
+        "titulo": "Analisando a Comunicabilidade de Casos de Uso",
+        "ano": 2017,
+        "doi": "",
+        "autores": "Lopes, A. ; Conte, T. ; de SOUZA, C. S.",
+        "evento": "XVI Simpósio Brasileiro de Fatores Humanos em Sistemas Computacionais (IHC 2017)",
+        "cidade": "",
+        "paginas": "119-128",
+        "isbn": ""
+      },
+      {
+        "titulo": "Metacommunication Between Programmers Through an Application Programming Interface",
+        "ano": 2017,
+        "doi": "",
+        "autores": "BASTOS, J. A. M. D. ; Afonso, L. M. ; de SOUZA, C. S.",
+        "evento": "IEEE Symposium on Visual Languages and Human-Centric Computing (VL-HCC 2017)",
+        "cidade": "",
+        "paginas": "213-222",
+        "isbn": ""
+      },
+      {
+        "titulo": "Characterizing Intercultural Encounters in Human-Computer Interaction",
+        "ano": 2016,
+        "doi": "",
+        "autores": "Salgado, L.C.C. ; de Souza, Clarisse S. ; Ferreira, C.M.D. ; Leitão, C.F.",
+        "evento": "HCI International 2016",
+        "cidade": "",
+        "paginas": "108-119",
+        "isbn": ""
+      },
+      {
+        "titulo": "Analysis of Configuration Decision Space Over Time: The Google Inactive Manager Account Case",
+        "ano": 2016,
+        "doi": "",
+        "autores": "Prates, R.O. ; ROSSON, M. B. ; de SOUZA, C. S.",
+        "evento": "XV Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "My Program, My World: Insights from 1st -Person Reflective Programming in EUD Education",
+        "ano": 2015,
+        "doi": "",
+        "autores": "Monteiro, I.T. ; de SOUZA, C. S. ; Tolmasquim, E.T.",
+        "evento": "IS-EUD 2015",
+        "cidade": "",
+        "paginas": "76-91",
+        "isbn": ""
+      },
+      {
+        "titulo": "Os meus, os seus, os nossos: reuso de exemplo e a autoexpressão de alunos de programação",
+        "ano": 2015,
+        "doi": "",
+        "autores": "MULLER, L. ; Silveira, M.S. ; de SOUZA, C. S.",
+        "evento": "XIV Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais (IHC 2015)",
+        "cidade": "",
+        "paginas": "292-301",
+        "isbn": ""
+      },
+      {
+        "titulo": "Cultural Appropriation of Computational Thinking Acquisition Research: Seeding Fields of Diversity",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1145/2591708.2591729",
+        "autores": "de Souza, Clarisse S.; Salgado, L.C.C. ; Leitão, C.F. ; Serra, M.",
+        "evento": "ITiCSE'2014 19th Annual SIGCSE Conference on Innovation and Technology in Computer Science Education",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Alternative Design Perspective for Technology Supporting Youngsters with Autism",
+        "ano": 2014,
+        "doi": "http://dx.doi.org/10.1007/978-3-319-07527-3_26",
+        "autores": "Braz, Priscilla ; DAVID, V. F. ; RAPOSO, ALBERTO B. ; Barbosa, Simone Diniz Junqueira ; SOUZA, C. S.",
+        "evento": "HCI International 2014 - Augmented Cognition",
+        "cidade": "",
+        "paginas": "279-287",
+        "isbn": ""
+      },
+      {
+        "titulo": "Characterizing the tool-notation-people triplet in software modeling task",
+        "ano": 2014,
+        "doi": "",
+        "autores": "Ferreira, J.S.J. ; de SOUZA, C. S. ; Cerqueira, R.F.G.",
+        "evento": "XIII Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "31-40",
+        "isbn": ""
+      },
+      {
+        "titulo": "Avaliação da Metacomunicação da Cultura com Participação de Usuários de Sistemas Multiculturais",
+        "ano": 2014,
+        "doi": "",
+        "autores": "Ferreira, C.M.D. ; Salgado, L.C.C. ; de SOUZA, C. S.",
+        "evento": "XIII Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "61-70",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uso de Design Probes no Design de Tecnologias para Terapeutas de Crianças com Autismo",
+        "ano": 2014,
+        "doi": "",
+        "autores": "BRAZ, P. F. A. ; RAPOSO, ALBERTO B. ; SOUZA, C. S.",
+        "evento": "XIII Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "140-149",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma Infraestrutura de Captura & Acesso para Instrumentação de Avaliações Qualitativas de IHC",
+        "ano": 2014,
+        "doi": "",
+        "autores": "Brandão, R.R.M. ; de SOUZA, C. S. ; Cerqueira, R.F.G.",
+        "evento": "XIII Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "197-206",
+        "isbn": ""
+      },
+      {
+        "titulo": "Metacommunication and semiotic engineering: Insights from a study with mediated HCI",
+        "ano": 2013,
+        "doi": "",
+        "autores": "Monteiro, I.T. ; de SOUZA, C. S. ; Leitão, C.F.",
+        "evento": "HCI International 2013 - Design",
+        "cidade": "",
+        "paginas": "115-124",
+        "isbn": ""
+      },
+      {
+        "titulo": "Communicating ideas in computer-supported modeling tasks: A case study with BPMN",
+        "ano": 2013,
+        "doi": "",
+        "autores": "Ferreira, J.S.J. ; de SOUZA, C. S.",
+        "evento": "HCI International 2013 - Human-Computer Interaction. Human-Centred Design Approaches",
+        "cidade": "",
+        "paginas": "320-329",
+        "isbn": ""
+      },
+      {
+        "titulo": "Using Mediated Communication to Teach Vocational Concepts to Deaf Users",
+        "ano": 2013,
+        "doi": "",
+        "autores": "Monteiro, I.T. ; Alves, A. ; de SOUZA, C. S.",
+        "evento": "HCI International 2013 - Universal Access in Human-Computer Interaction. Applications and Services for Quality of Life",
+        "cidade": "",
+        "paginas": "213-222",
+        "isbn": ""
+      },
+      {
+        "titulo": "On signifying the complexity of inter-agent relations in agentsheets games and simulations",
+        "ano": 2013,
+        "doi": "http://dx.doi.org/10.1145/2507065.2507070",
+        "autores": "Mota, M.P. ; Monteiro, I.T. ; Ferreira, J.S.J. ; Slaviero, C. ; de Souza, Clarisse Sieckenius",
+        "evento": "the 31st ACM international conference",
+        "cidade": "",
+        "paginas": "133-142",
+        "isbn": ""
+      },
+      {
+        "titulo": "Going back and forth in metacommunication threads",
+        "ano": 2013,
+        "doi": "",
+        "autores": "Monteiro, I.T. ; Tolmasquim, E.T. ; de SOUZA, C. S.",
+        "evento": "IHC'2013 12th Brazilian Symposium on Human Factors in Computing Systems",
+        "cidade": "",
+        "paginas": "102-111",
+        "isbn": ""
+      },
+      {
+        "titulo": "Combining cognitive, semiotic and discourse analysis to explore the power of notations in visual programming",
+        "ano": 2012,
+        "doi": "http://dx.doi.org/10.1109/VLHCC.2012.6344492",
+        "autores": "Ferreira, J.S.J. ; de Souza, Clarisse S. ; Salgado, L.C.C. ; Slaviero, C. ; Leitão, C.F. ; Moreira, F.F.",
+        "evento": "",
+        "cidade": "",
+        "paginas": "101-108",
+        "isbn": ""
+      },
+      {
+        "titulo": "The representation of self in mediated interaction with computers",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Monteiro, I.T. ; de SOUZA, C. S.",
+        "evento": "Simposio Brasileiro sobre Fatores Humanos em Sistemas de Computação",
+        "cidade": "",
+        "paginas": "219-228",
+        "isbn": ""
+      },
+      {
+        "titulo": "Documentation comes to life in computational thinking acquisition with agentsheets",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Mota, M.P. ; Faria, L.S. ; de SOUZA, C. S.",
+        "evento": "Simpósi Brasileiro sobre Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "151-160",
+        "isbn": ""
+      },
+      {
+        "titulo": "Can the teaching of HCI contribute for the learning of computer science the case of semiotic engineering methods",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Bim, S.A. ; Leitão, C.F. ; de SOUZA, C. S.",
+        "evento": "Simposio Brasileiro sobre Fatores Humanos em Sistemas de Computação",
+        "cidade": "",
+        "paginas": "185-194",
+        "isbn": ""
+      },
+      {
+        "titulo": "Evaluating application programming interfaces as communication artefacts",
+        "ano": 2012,
+        "doi": "",
+        "autores": "Afonso, L. M. ; Cerqueira, R.F.G. ; de SOUZA, C. S.",
+        "evento": "The Psychology of Programming Interest Group Annual Conference",
+        "cidade": "",
+        "paginas": "151-162",
+        "isbn": ""
+      },
+      {
+        "titulo": "Embedded cultural features in the design of an accessibility agent for the Web",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-21672-5_33",
+        "autores": "Monteiro, I.T. ; de SOUZA, C. S.",
+        "evento": "HCI International / Universal Access in Human-Computer Interaction",
+        "cidade": "",
+        "paginas": "295-304",
+        "isbn": ""
+      },
+      {
+        "titulo": "Using Metaphors to Explore Cultural Perspectives in Cross-Cultural Design",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-21660-2_11",
+        "autores": "Salgado, L.C.C. ; de SOUZA, C. S. ; Leitão, C.F.",
+        "evento": "HCI International / Internationalization",
+        "cidade": "",
+        "paginas": "94-103",
+        "isbn": ""
+      },
+      {
+        "titulo": "Semiotic Traces of Computational Thinking Acquisition",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-21530-8_13",
+        "autores": "de SOUZA, C. S.; Garcia, A.C.B. ; Slaviero, C. ; Pinto, H. ; Repenning, A.",
+        "evento": "IS-EUD'2011",
+        "cidade": "",
+        "paginas": "155-170",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the epistemic nature of Cultural Viewpoint Metaphors",
+        "ano": 2011,
+        "doi": "",
+        "autores": "Salgado, L.C.C. ; de SOUZA, C. S. ; Leitão, C.F.",
+        "evento": "IHC+CLIHC 2011 X Simpósio Brasileiro de Fatores Humanos em Sistemas Computacionais e V conferência Latinoamericana de Interação Humano-Computador",
+        "cidade": "",
+        "paginas": "23-32",
+        "isbn": ""
+      },
+      {
+        "titulo": "Questões Científicas, Técnicas e Éticas do Desafio IV: Reflexões sobre um Assistente para a Navegação na Web",
+        "ano": 2010,
+        "doi": "",
+        "autores": "de SOUZA, C. S.; Monteiro, I.T. ; Intrator, C.",
+        "evento": "SEMISH 2010 - XXXVII Seminário Integrado de Software e Hardware",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "TAL - Linguagem para Autoria de Templates de Documentos Hipermídia",
+        "ano": 2010,
+        "doi": "",
+        "autores": "Soares Neto, C.S. ; Soares, L.F.G. ; de SOUZA, C. S.",
+        "evento": "Webmedia 2010 - XVI Simpósio Brasileiro de Sistemas Multimídia e Web",
+        "cidade": "",
+        "paginas": "147-154",
+        "isbn": ""
+      },
+      {
+        "titulo": "Negotiating System Changes with Designers and Users",
+        "ano": 2010,
+        "doi": "",
+        "autores": "de SOUZA, C. S.; Sampaio, A.L.",
+        "evento": "3rd MexIHC - Tercer Taller de Interacción Humano-Computadora",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Conceptual Metaphors for Designing Multi-Cultural Applications",
+        "ano": 2009,
+        "doi": "http://dx.doi.org/10.1109/LA-WEB.2009.17",
+        "autores": "Salgado, L.C.C. ; de SOUZA, C. S. ; Leitão, C.F.",
+        "evento": "CLIHC'2009 - The Computer of the Next Billion",
+        "cidade": "",
+        "paginas": "105-111",
+        "isbn": ""
+      },
+      {
+        "titulo": "Semiotic Engineering in Practice: Redesigning the CoScripter Interface",
+        "ano": 2008,
+        "doi": "",
+        "autores": "de SOUZA, C. S.; Cypher, A.",
+        "evento": "Advanced Visual Interfaces AVI 2008",
+        "cidade": "",
+        "paginas": "165-172",
+        "isbn": ""
+      },
+      {
+        "titulo": "Communicability in multicultural contexts: A study with the International Children?s Digital Library",
+        "ano": 2008,
+        "doi": "",
+        "autores": "de SOUZA, C. S.; Laffon, R. ; Leitão, C.F.",
+        "evento": "1st IFIP Human-Computer Interaction Symposium HCIS-2008",
+        "cidade": "",
+        "paginas": "129-142",
+        "isbn": ""
+      },
+      {
+        "titulo": "Usuários podem escrever especificações de sistemas? Um estudo empírico com uma linguagem de script",
+        "ano": 2008,
+        "doi": "",
+        "autores": "Sampaio, A.L. ; de SOUZA, C. S.",
+        "evento": "IHC 2008 - VIII Simpósio Brasileiro de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "224-233",
+        "isbn": ""
+      },
+      {
+        "titulo": "An exploratory study on non-visual mobile phone interfaces for games",
+        "ano": 2008,
+        "doi": "",
+        "autores": "Valente, L. ; de SOUZA, C. S. ; Feijó, B.",
+        "evento": "IHC 2008 - VIII Simpósio Brasileiro de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "31-39",
+        "isbn": ""
+      },
+      {
+        "titulo": "Linguagens Computacionais como Interfaces: Um Estudo com Nested Context Language",
+        "ano": 2008,
+        "doi": "",
+        "autores": "Soares Neto, C.S. ; de SOUZA, C. S. ; Soares, L.F.G.",
+        "evento": "IHC 2008 - Simpósio Brasileiro de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "166-175",
+        "isbn": ""
+      },
+      {
+        "titulo": "Face-to-Face Sociability Signs Made Explicit in CMC",
+        "ano": 2007,
+        "doi": "http://dx.doi.org/10.1007/978-3-540-74796-3_4",
+        "autores": "Leitão, C.F. ; de SOUZA, C. S. ; Barbosa, C.M.A.",
+        "evento": "Interact 2007 11th IFIP TC 13 International Conference",
+        "cidade": "",
+        "paginas": "5-18",
+        "isbn": ""
+      },
+      {
+        "titulo": "Identifying Potential Social Impact of Collaborative Systems at Design Time",
+        "ano": 2007,
+        "doi": "http://dx.doi.org/10.1007/978-3-540-74796-3_6",
+        "autores": "Barbosa, C.M.A. ; Prates, R.O. ; de SOUZA, C. S.",
+        "evento": "11th IFIP TC 13 International Conference",
+        "cidade": "",
+        "paginas": "31-47",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um serviço flexível para a configuração e manutenção da política de privacidade de usuários de aplicações LBS",
+        "ano": 2007,
+        "doi": "",
+        "autores": "Rodrigues, V.J.S. ; Endler, M. ; de SOUZA, C. S.",
+        "evento": "25o. Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "O uso de uma Biblioteca Digital Infantil como ferramenta de apoio ao ensino",
+        "ano": 2007,
+        "doi": "",
+        "autores": "Bim, S.A. ; Salgado, L.C.C. ; Sampaio, A.L. ; Quental, V.S.T.D.B. ; de SOUZA, C. S.",
+        "evento": "CLIHC'2007 - III Conferência Latino-Americana de Interação Humano-Computador (realizada como Workshop do IFIP 13 Interact'2007)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Customização de Aplicações: Um estudo de caso sobre o MS Word",
+        "ano": 2007,
+        "doi": "",
+        "autores": "Ferreira, J.S.J. ; de SOUZA, C. S.",
+        "evento": "CLIHC'2007 - III Conferência Latino-Americana de Interação Humano-Computador (realizada como Workshop do IFIP 13 Interact'2007)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "CommEST - Uma ferramenta de apoio ao método de Avaliação de Comunicabilidade",
+        "ano": 2007,
+        "doi": "",
+        "autores": "Salgado, L.C.C. ; de SOUZA, C. S.",
+        "evento": "CLIHC'2007 - III Conferência Latino-Americana de Interação Humano-Computador (realizada como Workshop do IFIP 13 Interact'2007)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Semiotic Engineering ? A new paradigm for designing interactive systems",
+        "ano": 2006,
+        "doi": "",
+        "autores": "de SOUZA, C. S",
+        "evento": "IFIP International Conference on \"The past and future of Information Systems: 1976-2006 and beyond\"",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modelo conceitual e requisitos de projeto de um serviço de privacidade para aplicações baseadas em localização",
+        "ano": 2006,
+        "doi": "",
+        "autores": "ENDLER, M.; SACRAMENTO, Vagner ; SOUZA, Clarisse S de",
+        "evento": "Simpósio Brasileiro de Segurança da Informação e Sistemas Computacionais (SBSeg 2006)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Semiotic Inspection Method",
+        "ano": 2006,
+        "doi": "",
+        "autores": "de SOUZA, C. S.; Leitão, C.F. ; Prates, R.O. ; da Silva, E.J.",
+        "evento": "VII Simpósio sobre Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Comparação entre os métodos de avaliação de base cognitiva e semiótica",
+        "ano": 2006,
+        "doi": "",
+        "autores": "Salgado, L.C.C. ; Bim, S.A. ; de SOUZA, C. S.",
+        "evento": "VII Simpósio sobre Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "MArq-G*: a semiotic engineering approach for supporting the design of multi-user applications",
+        "ano": 2005,
+        "doi": "",
+        "autores": "Barbosa, C.M.A. ; Prates, R.O. ; de SOUZA, C. S.",
+        "evento": "CLIHC2005 - Latin American Conference in Human-Computer Interaction",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Organização Conversacional: Inspeção das Representações na WikiPedia",
+        "ano": 2005,
+        "doi": "http://dx.doi.org/10.1145/1111360.1111384",
+        "autores": "PONTES, Adéle Malta ; SOUZA, Clarisse Sieckenius de ; BARBOSA, S. D. J.",
+        "evento": "CLIHC2005 - Latin American Conference in Human-Computer Interaction",
+        "cidade": "",
+        "paginas": "235-245",
+        "isbn": ""
+      },
+      {
+        "titulo": "Why Understanding Culture Is Important for Developing Effective Online Health Support: The Brazilian Context",
+        "ano": 2005,
+        "doi": "",
+        "autores": "Barbosa, C.M.A. ; de SOUZA, C. S. ; Leitão, C.F.",
+        "evento": "International Conference on Human-Computing Interaction (HCI International 2005)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Model-based design of online help systems",
+        "ano": 2004,
+        "doi": "",
+        "autores": "SILVEIRA, Milene Selbach ; BARBOSA, S. D. J. ; SOUZA, Clarisse Sieckenius de",
+        "evento": "Fifth International Conference on Computer-Aided Design of User Interfaces - CADUI 2004",
+        "cidade": "",
+        "paginas": "27-38",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um método de avaliação para interfaces baseadas em mapas",
+        "ano": 2004,
+        "doi": "",
+        "autores": "Seixas, M.L.A. ; de SOUZA, C. S.",
+        "evento": "VI Simpósio sobre Fatores Humanos em Sistemas Computacionais - IHC 2004",
+        "cidade": "",
+        "paginas": "159-170",
+        "isbn": ""
+      },
+      {
+        "titulo": "Estudo do impacto do design e das formas de uso sobre a recuperação de informações em fóruns de discussão online",
+        "ano": 2004,
+        "doi": "",
+        "autores": "LEITÃO, Carla Faria ; PONTES, Adéle Malta ; SOUZA, Clarisse Sieckenius de ; BARBOSA, S. D. J. ; QUENTAL, Violeta S T D B",
+        "evento": "VI Simpósio sobre Fatores Humanos em Sistemas Computacionais - IHC 2004",
+        "cidade": "",
+        "paginas": "19-26",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Semiotic Engineering Use of Models for Supporting Reflection-in-Action",
+        "ano": 2003,
+        "doi": "",
+        "autores": "BARBOSA, S. D. J.; SOUZA, Clarisse Sieckenius de ; PAULA, Maíra Greco de",
+        "evento": "HCII2003 - HCI International",
+        "cidade": "",
+        "paginas": "18-22",
+        "isbn": ""
+      },
+      {
+        "titulo": "Usability Challenges in Social Projects in Brazil: Lessons Learned about the Digital Divide",
+        "ano": 2003,
+        "doi": "",
+        "autores": "BARBOSA, S. D. J.; SOUZA, Clarisse Sieckenius de ; PRATES, R. O.",
+        "evento": "HCII2003 - HCI International",
+        "cidade": "",
+        "paginas": "569-573",
+        "isbn": ""
+      },
+      {
+        "titulo": "Approaching Online Self-Representation in a Community of Practice",
+        "ano": 2003,
+        "doi": "",
+        "autores": "Cunha, C.K.V. ; Ramey, J. ; de SOUZA, C. S.",
+        "evento": "HCII2003 - HCI International",
+        "cidade": "",
+        "paginas": "769-773",
+        "isbn": ""
+      },
+      {
+        "titulo": "What they want and what they get: A study of light-weight technologies for online communities",
+        "ano": 2003,
+        "doi": "",
+        "autores": "da Silva, E.J. ; de SOUZA, C. S. ; Prates, R.O. ; Nicolaci-da-Costa, A.M.",
+        "evento": "CLIHC2003 - Latin American Conference in Human-Computer Interaction",
+        "cidade": "",
+        "paginas": "135-146",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um Método da Engenharia Semiótica para a Construção de Sistemas de Ajuda Online",
+        "ano": 2003,
+        "doi": "",
+        "autores": "SILVEIRA, Milene Selbach ; SOUZA, Clarisse Sieckenius de ; BARBOSA, S. D. J.",
+        "evento": "CLIHC 2003 - Latin American Conference on Human-Computer Interaction",
+        "cidade": "",
+        "paginas": "167-177",
+        "isbn": ""
+      },
+      {
+        "titulo": "Design de Sistemas de Ajuda Online baseado em Modelos",
+        "ano": 2002,
+        "doi": "",
+        "autores": "SILVEIRA, Milene Selbach ; SOUZA, Clarisse Sieckenius de ; BARBOSA, S. D. J.",
+        "evento": "IHC2002 - V Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "117-128",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Definition of End-User Programming Languages for Extensible Applications",
+        "ano": 2002,
+        "doi": "",
+        "autores": "SILVA, S. R. P. ; de SOUZA, C. S.",
+        "evento": "IHC2002 - V Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "73-83",
+        "isbn": ""
+      },
+      {
+        "titulo": "Using the Underlying Discourse Unveiling Method to Understand Organizations of Social Volunteers",
+        "ano": 2002,
+        "doi": "",
+        "autores": "Barbosa, C.M.A. ; Prates, R.O. ; de SOUZA, C. S. ; Nicolaci-da-Costa, A.M.",
+        "evento": "IHC2002 - V Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "15-26",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modelo de Interação como Ponte entre o Modelo de Tarefas e a Especificação da Interface",
+        "ano": 2002,
+        "doi": "",
+        "autores": "BARBOSA, S. D. J.; SOUZA, Clarisse Sieckenius de ; PAULA, Maíra Greco de ; SILVEIRA, Milene Selbach",
+        "evento": "IHC2002 - V Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "27-39",
+        "isbn": ""
+      },
+      {
+        "titulo": "Analisando a Comunicação entre Usuários em Ambientes de Grupo",
+        "ano": 2001,
+        "doi": "",
+        "autores": "Barbosa, C.M.A. ; Prates, R.O. ; de SOUZA, C. S.",
+        "evento": "IHC2001 - IV Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "1-12",
+        "isbn": ""
+      },
+      {
+        "titulo": "Categorizing communicability evaluation breakdowns in groupware applications",
+        "ano": 2001,
+        "doi": "",
+        "autores": "Prates, R.O. ; de SOUZA, C. S. ; ASSIS, P. S.",
+        "evento": "CHI-SA'2001 Human-Computer Interaction in South Africa",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Analyzing HCI in Multiple Environments",
+        "ano": 2001,
+        "doi": "",
+        "autores": "Barbosa, S.D.J. ; de SOUZA, C. S. ; Dahis, G.",
+        "evento": "IHC2001 - IV Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Layering via Interjeições: possibilidades de detalhamento contextual e progressivo de informações de help",
+        "ano": 2001,
+        "doi": "",
+        "autores": "Silveira, M.S. ; Barbosa, S.D.J. ; de SOUZA, C. S.",
+        "evento": "IHC2001 - IV Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Semiotic considerations on direct concept manipulation as a distinct interface style for learnware",
+        "ano": 2001,
+        "doi": "",
+        "autores": "de SOUZA, C. S.; Sedig, K.",
+        "evento": "IHC2001 - IV Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Um modelo conceitual para programação por usuários finais",
+        "ano": 2001,
+        "doi": "",
+        "autores": "SILVA, S. R. P. ; de SOUZA, C. S.",
+        "evento": "IHC2001 - IV Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Augmenting the affordance of online help content",
+        "ano": 2001,
+        "doi": "",
+        "autores": "SILVEIRA, Milene Selbach ; BARBOSA, S. D. J. ; SOUZA, Clarisse Sieckenius de",
+        "evento": "Human-Computer Interaction",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Semiotic Engineering Contributions for Designing Online Help Systems",
+        "ano": 2001,
+        "doi": "http://dx.doi.org/10.1145/501516.501523",
+        "autores": "SILVEIRA, Milene Selbach ; SOUZA, Clarisse Sieckenius de ; BARBOSA, S. D. J.",
+        "evento": "SIGDOC 2001 - Special Interest Group for Documentation",
+        "cidade": "",
+        "paginas": "31-38",
+        "isbn": ""
+      },
+      {
+        "titulo": "Extending Software through Metaphors and Metonymies",
+        "ano": 2000,
+        "doi": "http://dx.doi.org/10.1145/325737.325756",
+        "autores": "BARBOSA, S. D. J.; SOUZA, Clarisse Sieckenius de",
+        "evento": "ACM International Conference on Intelligent User Interfaces",
+        "cidade": "",
+        "paginas": "13-20",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Case Study for Evaluating Interface Design Through Communicability",
+        "ano": 2000,
+        "doi": "http://dx.doi.org/10.1145/347642.347777",
+        "autores": "PRATES, R. O. ; BARBOSA, S. D. J. ; SOUZA, Clarisse Sieckenius de",
+        "evento": "DIS2000 : ACM Symposium on Designing Interactive Systems",
+        "cidade": "",
+        "paginas": "308-317",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Model for Extensible Web-Based Information-Intensive Task-Oriented Systems",
+        "ano": 2000,
+        "doi": "",
+        "autores": "Cunha, C.K.V. ; de SOUZA, C. S. ; Quental, V.S.T.D.B. ; Schwabe, D.",
+        "evento": "HCI 2000",
+        "cidade": "",
+        "paginas": "205-219",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Diagrammatic Tool for Representing User Interaction in UML",
+        "ano": 2000,
+        "doi": "",
+        "autores": "VILAIN, P. ; Schwabe, D. ; de SOUZA, C. S.",
+        "evento": "3rd International Conference on Unified Modeling Language - Advancing the Standard (UML2000)",
+        "cidade": "",
+        "paginas": "133-147",
+        "isbn": ""
+      },
+      {
+        "titulo": "Estendendo Software Utilizando Metáforas e Metonímias",
+        "ano": 2000,
+        "doi": "",
+        "autores": "BARBOSA, S. D. J.; SOUZA, Clarisse Sieckenius de",
+        "evento": "International Joint Conference Ibero American Conference on Artificial Intelligence",
+        "cidade": "",
+        "paginas": "353-361",
+        "isbn": ""
+      },
+      {
+        "titulo": "Modelo e Arquitetura de Sistemas de Help Online",
+        "ano": 2000,
+        "doi": "",
+        "autores": "SILVEIRA, Milene Selbach ; BARBOSA, S. D. J. ; SOUZA, Clarisse Sieckenius de",
+        "evento": "IHC2000 III Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "122-131",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Role of Designer-Generated Scenarios in Developing Web Applications: A Case Study",
+        "ano": 2000,
+        "doi": "",
+        "autores": "MONTEIRO, C. C. O. ; BARBOSA, S. D. J. ; SILVEIRA, Milene Selbach",
+        "evento": "IHC2000 - III Workshop de Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "132-141",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Rationale of Interface Semiotics for Multi-User Applications",
+        "ano": 1998,
+        "doi": "",
+        "autores": "Prates, R.O. ; de SOUZA, C. S.",
+        "evento": "Joint conference on the Science and Technology of Intelligent Systems ISIC/CIRA/ISAS'98",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards a Semiotic Environment for Supporting the Development of Multi-User Interfaces",
+        "ano": 1998,
+        "doi": "",
+        "autores": "Prates, R.O. ; de SOUZA, C. S.",
+        "evento": "Fourth International Worksop on Groupware - CRIWG'98",
+        "cidade": "",
+        "paginas": "53-57",
+        "isbn": ""
+      },
+      {
+        "titulo": "Supporting End-User Programming with Explanatory Discourse",
+        "ano": 1997,
+        "doi": "",
+        "autores": "de SOUZA, C. S",
+        "evento": "Intelligent Systems and Semiotics",
+        "cidade": "",
+        "paginas": "22-25",
+        "isbn": ""
+      },
+      {
+        "titulo": "Structured Argument Generation in Logic-Based Systems",
+        "ano": 1996,
+        "doi": "",
+        "autores": "de SOUZA, C. S.; Oliveira, D.A.S.",
+        "evento": "Second Conference on Information-Theoretic Approaches to Logic",
+        "cidade": "",
+        "paginas": "173-181",
+        "isbn": ""
+      },
+      {
+        "titulo": "Rhetorical Structures in the Delivery of Design Intent",
+        "ano": 1995,
+        "doi": "",
+        "autores": "Garcia, A.C.B. ; de SOUZA, C. S.",
+        "evento": "Second Congress on Computing in Civil Engineering",
+        "cidade": "",
+        "paginas": "1443-1452",
+        "isbn": ""
+      },
+      {
+        "titulo": "Enhancing the Human-Computer Interface of Power Systems Applications",
+        "ano": 1995,
+        "doi": "",
+        "autores": "de SOUZA, C. S.; Azevedo, G.P. ; Feijó, B.",
+        "evento": "1995 IEEE Power Industry Computer Applications Conference",
+        "cidade": "",
+        "paginas": "115-129",
+        "isbn": ""
+      },
+      {
+        "titulo": "Analytical Frameworks and Enhanced Modelling for Finite-Element Pre-Processors with Direct Manipulation Interfaces",
+        "ano": 1995,
+        "doi": "",
+        "autores": "Martins, I.H. ; de SOUZA, C. S. ; Gattass, M.",
+        "evento": "XXII SEMINÁRIO INTEGRADO DE SOFTWARE E HARDWARE E XXI CONFERENCIA LATINO AMERICANA DE INFORMÁTICA",
+        "cidade": "",
+        "paginas": "977-989",
+        "isbn": ""
+      },
+      {
+        "titulo": "Testing Predictions of SemioticEngineering in Human Computer Interaction",
+        "ano": 1994,
+        "doi": "",
+        "autores": "de SOUZA, C. S",
+        "evento": "Simpósio Brasileiro de Engenharia de Software - SBES'94",
+        "cidade": "",
+        "paginas": "51-62",
+        "isbn": ""
+      },
+      {
+        "titulo": "Lingüística Computacional Interativa para a Interface entre Usuários e Sistemas",
+        "ano": 1993,
+        "doi": "",
+        "autores": "de SOUZA, C. S",
+        "evento": "Encontro de Processamento de Língua Portuguesa Falada e Escrita",
+        "cidade": "",
+        "paginas": "115-122",
+        "isbn": ""
+      },
+      {
+        "titulo": "Geração de Malhas de Superfície no Espaço com Manipulação Direta",
+        "ano": 1993,
+        "doi": "",
+        "autores": "Coelho, L.C. ; Martha, L.F. ; de SOUZA, C. S. ; Gattass, M.",
+        "evento": "Congresso Ibero-Latino-Americano de Métodos Computacionais em Engenharia",
+        "cidade": "",
+        "paginas": "1275-1284",
+        "isbn": ""
+      },
+      {
+        "titulo": "Explanatory Text Planning in Logic Based Systems",
+        "ano": 1992,
+        "doi": "",
+        "autores": "de SOUZA, C. S.; Nunes, M.G.V.",
+        "evento": "International Conference on Computational Linguistics - COLING92",
+        "cidade": "",
+        "paginas": "742-748",
+        "isbn": ""
+      },
+      {
+        "titulo": "Enhancing Text Quality in Question-Answering Systems",
+        "ano": 1989,
+        "doi": "",
+        "autores": "de SOUZA, C. S.; Scott, D.R. ; Nunes, M.G.V.",
+        "evento": "Encontro Português de Inteligência Artificial",
+        "cidade": "",
+        "paginas": "222-233",
+        "isbn": ""
+      },
+      {
+        "titulo": "Gramáticas de Desterminação: Uma Proposta Metodológica",
+        "ano": 1988,
+        "doi": "",
+        "autores": "de SOUZA, C. S",
+        "evento": "Jornadas Arrgentinas de Informatica y Investigación Operativa - JAIIO88",
+        "cidade": "",
+        "paginas": "858-872",
+        "isbn": ""
+      },
+      {
+        "titulo": "Uma Linguagem Pseudo-Natural para Consultas a Bancos de Dados em Linguagem Natural",
+        "ano": 1987,
+        "doi": "",
+        "autores": "de SOUZA, C. S",
+        "evento": "Encontro Português de Inteligência Artificial",
+        "cidade": "",
+        "paginas": "16-20",
+        "isbn": ""
+      },
+      {
+        "titulo": "O Dilema da Linguagem Natural",
+        "ano": 1986,
+        "doi": "",
+        "autores": "de SOUZA, C. S",
+        "evento": "Encontro Português de Inteligência Artificial",
+        "cidade": "",
+        "paginas": "175-190",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [
+      {
+        "titulo": "Permissioned Blockchains: Towards Privacy Management and Data Regulation Compliance",
+        "ano": 2020,
+        "autores": "Alves, P. H. C. ; FRAJHOF, I. Z. ; CORREIRA, F. A. ; de Souza, Clarisse Sieckenius ; LOPES, HÉLIO",
+        "evento": "Jurix 2020 (33rd International Conference on Legal Knowledge and Information Systems​), 2020, Evento Virtual. Legal Knowledge and Information Systems. Berlin: IOS Press",
+        "cidade": "",
+        "paginas": "211-214"
+      },
+      {
+        "titulo": "Directives of communicability: towards better communication through software models",
+        "ano": 2019,
+        "autores": "Lopes, A. ; OLIVEIRA, E. ; Conte, T. ; de SOUZA, C. S.",
+        "evento": "12th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '19), 2019, Montréal, QC, Canada. Proceedings of the 12th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE '19). Piscataway, NJ, USA: IEEE",
+        "cidade": "",
+        "paginas": "45-48"
+      },
+      {
+        "titulo": "End-user Development for the Internet of Things",
+        "ano": 2017,
+        "autores": "CHAGAS, B. A. ; Redmiles, D. ; de SOUZA, C. S.",
+        "evento": "2017 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), 2017, Raleigh. Proceedings of the IEEE Symposium on Visual Languages and Human-Centric Computing (VL-HCC 2017). Piscataway: IEEE",
+        "cidade": "",
+        "paginas": "273-278"
+      },
+      {
+        "titulo": "Lessons Learned in the Design of Configurable Assistive Technology with Smart Devices",
+        "ano": 2015,
+        "autores": "CHAGAS, B. A. ; FUKS, H. ; de SOUZA, C. S.",
+        "evento": "IS-EUD 2015, 2015, Madrid. End User Development Lecture Notes in Computer Science. Heidelberg: Springer",
+        "cidade": "",
+        "paginas": "180-185"
+      },
+      {
+        "titulo": "Interaction Anticipation: Communicating Impacts of Groupware Configuration Settings to Users",
+        "ano": 2015,
+        "autores": "Prates, R.O. ; ROSSON, M. B. ; de SOUZA, C. S.",
+        "evento": "IS-EUD 2015, 2015, Madrid. End User Development Lecture Notes in Computer Science. Heidelberg: Springer",
+        "cidade": "",
+        "paginas": "192-197"
+      },
+      {
+        "titulo": "Making Decisions About Digital Legacy with Google?s Inactive Account Manager",
+        "ano": 2015,
+        "autores": "Prates, R.O. ; ROSSON, M. B. ; de SOUZA, C. S.",
+        "evento": "iNTERACT 2015, 2015, bAMBERG. Human-Computer Interaction ? INTERACT 2015 Lecture Notes in Computer Science. Heidelberg: Springer",
+        "cidade": "",
+        "paginas": "201-209"
+      },
+      {
+        "titulo": "A Vocabulary to Access Users' Cultural Perspectives in Human-Computer Interaction",
+        "ano": 2013,
+        "autores": "Ferreira, C.M.D. ; Salgado, L.C.C. ; de SOUZA, C. S.",
+        "evento": "Interact'2013 IFIP TC 13 Conference on Human-Computer Interaction, 2013, Cape Town. INTERACT 2013, Part IV LNCS 8120. London: Springer",
+        "cidade": "",
+        "paginas": "314-322"
+      },
+      {
+        "titulo": "Using Web scripts to improve accessibility",
+        "ano": 2008,
+        "autores": "Intrator, C. ; de SOUZA, C. S.",
+        "evento": "IHC 2008 - VIII Simpõsio Brasileiro de Fatores Humanos em Sistemas Computacionais, 2008, Porto Alegre. Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems. New York: ACM International Conference Proceeding Series",
+        "cidade": "",
+        "paginas": "292-295"
+      },
+      {
+        "titulo": "The online community framework's performance as an epistemic tool",
+        "ano": 2004,
+        "autores": "Barbosa, C.M.A. ; Leitão, C.F. ; de SOUZA, C. S. ; Preece, J.",
+        "evento": "VI Simpósio sobre Fatores Humanos em Sistemas Computacionais - IHC 2004, 2004, Curitiba. VI Simpósio sobre Fatores Humanos em Sistemas Computacionais - Mediando e Transformando o Cotidiano: Anais do Simpósio. Porto Alegre: SBC",
+        "cidade": "",
+        "paginas": "223-226"
+      },
+      {
+        "titulo": "Uma experiência de construção da ajuda online segundo o paradigma da engenharia semiótica",
+        "ano": 2004,
+        "autores": "Salgado, T.S.C.N. ; de SOUZA, C. S.",
+        "evento": "VI Simpósio sobre Fatores Humanos em Sistemas Computacionais - IHC 2004, 2004, Curitiba. VI Simpósio sobre Fatores Humanos em Sistemas Computacionais - Mediando e Transformando o Cotidiano: Anais do Simpósio. Porto Alegre: SBC",
+        "cidade": "",
+        "paginas": "231-234"
+      }
+    ],
+    "resumos_congressos": [
+      {
+        "titulo": "Directives of Communicability: Teaching Students How to Improve Communication Through Software Modeling",
+        "ano": 2019,
+        "autores": "Lopes, A. ; OLIVEIRA, E. ; Conte, T. ; de SOUZA, C. S.",
+        "evento": "2019 IEEE/ACM 41st International Conference on Software Engineering: Companion Proceedings (ICSECompanion), 2019, Montreal, QC, Canada. Proceedings of 2019 IEEE/ACM 41st International Conference on Software Engineering: Companion Proceedings (ICSECompanion). Piscataway, NJ, USA: IEEE",
+        "cidade": ""
+      },
+      {
+        "titulo": "Mediation and Meaning in HCI",
+        "ano": 2015,
+        "autores": "BØDKER, S. ; BERTELSEN, O. W. ; BANNON, L. ; de SOUZA, C. S. ; Barbosa, S.D.J. ; Prates, R.O.",
+        "evento": "INTERACT 2015, 2015, Bamberg. Human-Computer Interaction ? INTERACT 2015 Lecture Notes in Computer Science. Verlag: Springer",
+        "cidade": ""
+      },
+      {
+        "titulo": "What's SIGCHI's role in strengthening communities?",
+        "ano": 2002,
+        "autores": "Preece, J. ; RESNICK, Paul ; Schuler, D. ; de SOUZA, C. S.",
+        "evento": "Conference on Human Factors in Computing Systems, 2002, Minneapolis, Minnesota, USA. CHI '02 extended abstracts on Human factors in computing systems. New York: ACM Press",
+        "cidade": ""
+      },
+      {
+        "titulo": "Semiotic Engineering Approach to HCI",
+        "ano": 2001,
+        "autores": "de SOUZA, C. S.; Barbosa, S.D.J. ; Prates, R.O.",
+        "evento": "CHI2001 Anyone.Anywhere ACM Conference on Human Factors in Computing Systems, 2001, Seattle. Extended Abstracts of CHI2001. New York: ACM Press",
+        "cidade": ""
+      },
+      {
+        "titulo": "Semiotic Engineering and the Communicability of User Interfaces",
+        "ano": 2001,
+        "autores": "de SOUZA, C. S",
+        "evento": "Interacción 2001, 2001, Salamanca. Interacción 2001. Salamanca: Ediciones Universidad Salamanca",
+        "cidade": ""
+      },
+      {
+        "titulo": "Semiotic Approaches to User Interface Design",
+        "ano": 2000,
+        "autores": "de SOUZA, C. S.; Edmonds, E.A. ; Prates, R.O. ; Barbosa, S.D.J.",
+        "evento": "International ACM Conference on Human Factors in Computing - CHI2000, 2000, The Hague. Extended Abstracts of CHI2000. New York: ACM Press",
+        "cidade": ""
+      },
+      {
+        "titulo": "Consolidating a New HCI Community: The Brazilian Experience",
+        "ano": 1999,
+        "autores": "Prates, R.O. ; de SOUZA, C. S. ; Salles, J.P.",
+        "evento": "International ACM Conference on Human Factors in Computing - CHI99, 1999, Pittsburg. CHI99 Extended Abstracts. New York: ACM Press",
+        "cidade": ""
+      },
+      {
+        "titulo": "The Role of Explanation Systems in Multi-Agent Applications",
+        "ano": 1997,
+        "autores": "Cunha, C.K.V. ; de SOUZA, C. S.",
+        "evento": "International Conference on Human Computer Interaction - HCI97, 1997, San Francisco. Poster Session Proceedings of HCI97",
+        "cidade": ""
+      },
+      {
+        "titulo": "The Semiotic Engineering of concreteness and Abstractness:from User Interface Languages to End User Programming Languages",
+        "ano": 1996,
+        "autores": "de SOUZA, C. S",
+        "evento": "Dagstuhl Seminar on Informatics and Semiotics, 1996, Schloss Dagstuhl. Dagstuhl Report on Informatics and Semiotics. Dagstuhl: IFDI",
+        "cidade": ""
+      },
+      {
+        "titulo": "Human-Computer Interaction in Latin America (Editorial). Interacting With Computers, Amsterdam",
+        "ano": 2004,
+        "autores": "de SOUZA, C. S.; Barbosa, S.D.J.",
+        "evento": "",
+        "cidade": ""
+      },
+      {
+        "titulo": "Semiotic Approaches to User Interface Design: Editorial. Knowledge-Based Systems, Amsterdam",
+        "ano": 2001,
+        "autores": "de SOUZA, C. S",
+        "evento": "",
+        "cidade": ""
+      },
+      {
+        "titulo": "HCI in Brazil. Sigchi Bulletin, New York",
+        "ano": 2000,
+        "autores": "de SOUZA, C. S",
+        "evento": "",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "Reflexões sobre o design de tecnologias com IA para uso científico",
+        "ano": 2024,
+        "autores": "de Souza, Clarisse S",
+        "evento": ""
+      },
+      {
+        "titulo": "A Tecnologia e os Limites da Linguagem",
+        "ano": 2024,
+        "autores": "de Souza, Clarisse S",
+        "evento": ""
+      },
+      {
+        "titulo": "Reflexões sobre o design de tecnologias de IA para uso científico",
+        "ano": 2024,
+        "autores": "de Souza, Clarisse S",
+        "evento": ""
+      },
+      {
+        "titulo": "Filosofia da Tecnologia: Uma experiência docente na pós-graduação da PUC-Rio",
+        "ano": 2021,
+        "autores": "de Souza, Clarisse S",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [
+      {
+        "titulo": "Avanço da Inteligência Artificial revoluciona pesquisas acadêmicas mas gera imenso desafio ético para cientistas",
+        "ano": 2025,
+        "autores": "Souza, Clarisse Sieckenius",
+        "jornal": "",
+        "cidade": "",
+        "data": "06 mar. 2025"
+      }
+    ],
+    "outras_producoes": [
+      {
+        "titulo": "The Invisible Discipline in Academic Research",
+        "ano": 2024,
+        "autores": "de Souza, Clarisse S",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "ÉTICA NA INTELIGÊNCIA ARTIFICIAL. São Paulo: Ubu (co-edição PUC-Rio)",
+        "ano": 2024,
+        "autores": "de Souza, Clarisse S.; Lyra, E. ; Ferreira, M. ; Delgado, W.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Reflexões sobre Semiótica, Linguagem, Ontologia e Computação",
+        "ano": 2023,
+        "autores": "de Souza, Clarisse S",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "The Case for API Communicability Evaluation: Introducing API-SI with Examples from Keras. Ithaca, NY: arXiv.org e-prints, Cornell University",
+        "ano": 2018,
+        "autores": "Afonso, L. M. ; Bastos, J.A.M.D. ; de SOUZA, C. S. ; Cerqueira, R.F.G.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      },
+      {
+        "titulo": "Linguagem e lingüística : uma introdução. Rio de Janeiro: Zahar Editores",
+        "ano": 1982,
+        "autores": "Averbug, M. A. ; de Souza, Clarisse S.",
+        "tipo": "Demais tipos de produção bibliográfica"
+      }
+    ]
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [
+      {
+        "titulo": "RPA@PUC, Rede de Perfis Acadêmicos da PUC-Rio",
+        "ano": 1998,
+        "autores": "de SOUZA, C. S.; LEITÃO, M. F. ; Suárez, M. ; Ierusalimschy, R. ; Giosasola-Gorham, T.",
+        "instituicao": "",
+        "finalidade": ""
+      }
+    ],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [
+        {
+          "titulo": "",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Luciana Cardoso de Castro Salgado",
+          "tipo_trabalho": "",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Silvia Amelia Bim",
+          "tipo_trabalho": "",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Carla Faria Leitão",
+          "tipo_trabalho": "",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "doutorado": [
+        {
+          "titulo": "Avaliação da Regulamentação de Dados através do Design de Sistemas Multiagentes Normativos e Inteligentes",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Paulo Henrique Alves",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Metacomunicação e Apropriação no Design de Interação para a Internet das Coisas",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Bruno Azevedo Chagas",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma análise do espaço de problema de End User Development no domínio de tecnologias para terapeutas do Transtorno do Espectro do Autismo",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Priscilla Fonseca de Abreu Braz",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Abordagem Semióti ca para apoiar Programadores Iniciantes durante o Processo de Reúso e de Apropriação de Códigos-Fonte",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Luana Müller",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio Grande do Sul",
+          "curso": ""
+        },
+        {
+          "titulo": "Autoexpressão e engenharia semiótica do usuário-designer",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Ingrid Teixeira Monteiro",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Comunicação através de modelos no contexto do desenvolvimento de Software",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Juliana Jansen Ferreira",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Communicative Dimensions of Application Programming Interfaces (APIs)",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Luiz Marques Afonso",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Capture & Access technology to support documentation and tracking of qualitative research applied to HCI",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Rafael Rossi de Mello Brandão",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "PoliFacets: um modelo para orientar o design de metacomunicação de documentos ativos para apoiar o ensino e aprendizado de programação",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Marcelle Pereira Mota",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Cultural Viewpoint Metaphors to explore and communicate cultural perspectives in cross-cultural HCI design",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Luciana Cardoso de Castro Salgado",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Modelo para Descrever e Negociar Modificações em Sistemas Web [Aprovação condicionada à entrega de texto final revisado]",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Andréia Libório Sampaio",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Autoria de Documentos Hipermídia Orientada a Templates",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Carlos de Salles Soares Neto",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Obstáculos ao ensino dos métodos de avaliação da Engenharia Semiótica",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Silvia Amélia Bim",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Manas - Uma ferramenta epistêmica de apoio ao projeto de comunicação de sistemas colaborativas",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "Clarissa Maria de Almeida Barbosa",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Gerência de Privacidade para Aplicações Sensíveis ao Contexto em Redes Móveis",
+          "ano_inicio": 2006,
+          "ano_conclusao": 2006,
+          "orientando": "Vagner José do Sacramento Rodrigues",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um método de avaliação para interfaces baseadas em mapas",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Maria Lúcia Arraes Seixas",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Metacomunicação Designer-Usuário na Interação Humano-Computador: design e construção do sistema de ajuda",
+          "ano_inicio": 2002,
+          "ano_conclusao": 2002,
+          "orientando": "Milene Selbach Silveira",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Modelo Semiótico para Programação por Usuários Finais",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Sérgio Roberto Pereira da Silva",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um modelo semiótico dos processos comunicativos relacionados à atividade de extensão de aplicações por usuários finais",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Cecília Kremer Vieira da Cunha",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Abordagem Semiótica para a Representação de Conhecimento",
+          "ano_inicio": 1999,
+          "ano_conclusao": 1999,
+          "orientando": "Denise Aboim Sande e Oliveira",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Programação via Interface",
+          "ano_inicio": 1999,
+          "ano_conclusao": 1999,
+          "orientando": "Simone Diniz Junqueira Barbosa",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "DORPA: Uma Ontologia de Design que integra Requisitos, Processo e Artefatos",
+          "ano_inicio": 1999,
+          "ano_conclusao": 1999,
+          "orientando": "Flávio Miguel Varejão",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Engenharia Semiótica de Linguagens de Interfaces Multi-Usuário",
+          "ano_inicio": 1998,
+          "ano_conclusao": 1998,
+          "orientando": "Raquel Oliveira Prates",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Modelos e Formalismos para a Engenharia Semiótica de Interface de Usuário",
+          "ano_inicio": 1998,
+          "ano_conclusao": 1998,
+          "orientando": "Jair Cavalcanti Leite",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Instrumento de Análise Semiótica para Linguagens Visuais de Interfaces",
+          "ano_inicio": 1998,
+          "ano_conclusao": 1998,
+          "orientando": "Isa Haro Martins",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Modelo de Indexação Automática de Seqüências de Imagens baseado em uma Sintaxe Espacial 2D",
+          "ano_inicio": 1996,
+          "ano_conclusao": 1996,
+          "orientando": "Marisa Ortegoza da Cunha",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "LINX: Um Ambiente Integrado de Interface para Sistemas de Informação Baseados em Conhecimento",
+          "ano_inicio": 1995,
+          "ano_conclusao": 1995,
+          "orientando": "Laura Sánchez García",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Gramática para Compreensão e Geração Automática de Textos em Língua Portuguesa",
+          "ano_inicio": 1995,
+          "ano_conclusao": 1995,
+          "orientando": "Violeta Quental",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "O Léxico em Sistemas de Análise e Geração Automática de Textos em Língua Portuguesa",
+          "ano_inicio": 1994,
+          "ano_conclusao": 1994,
+          "orientando": "Maria Carmelita Pádua Dias",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Evaluating the Extended Metacommunication Template as an epistemic tool for the sociotechnical design of machine learning systems",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Gabriel Diniz Junqueira Barbosa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Evaluating approaches for developers? ethical reasoning and communication about Machine Learning models",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "José Luiz Nunes",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Apoio à transferência de conhecimento de raciocínio computacional de linguagens de programação visuais para linguagens de programação textuais",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "João Antonio Dutra M. Bastos",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "End-User Configuration in Assistive Technologies ? A case study with a severely physically impaired user",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Bruno Azevedo Chagas",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Avaliação da Metacomunicação intercultural na Interação Humano-Computador: um vocabulário para acessar as perspectivas culturais dos usuários",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Catia Maria Dias Ferreira",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Acessibilidade por diálogos de mediação: Desenvolvimento e Avaliação de um Assistente de Navegação para a Web",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Ingrid Teixeira Monteiro",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Using Scripts to Improve Web Accessibility",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Chantal Intrator",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Sobre a Engenharia Semiótica da interação com Sistemas de Monitoração",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Gustavo Soares Souza",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "CommEST - Uma Ferramenta de apoio ao método de Avaliação de Comunicabilidade",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Luciana Cardoso de Castro Salgado",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "MetaCom-G*: Especificação da Comunicação entre Membros de um Grupo",
+          "ano_inicio": 2002,
+          "ano_conclusao": 2002,
+          "orientando": "Clarissa Maria de Almeida Barbosa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Modelo para a Especificação de Cenários de Interação",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Gilda Dahis",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "GROUPLORE - Um Ambiente de apoio ao Compartilhamento de Conhecimentos",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Lúcia Aparecida Miceli",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejador de Respostas Explicativas Baseado em uma Biblioteca de Esquemas RST",
+          "ano_inicio": 1997,
+          "ano_conclusao": 1997,
+          "orientando": "Cecília Kremer Vieira da Cunha",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Uma Linguagem de Interação sobre Gráficos Comerciais",
+          "ano_inicio": 1995,
+          "ano_conclusao": 1995,
+          "orientando": "Wanda Maria dos Santos Teixeira",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Indexação Automática por Semântica Imprecisa: Construção de um Modelo",
+          "ano_inicio": 1992,
+          "ano_conclusao": 1992,
+          "orientando": "Patrícia Seefelder de Assis",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Interfaces cooperativas para sistemas de informação",
+          "ano_inicio": 1992,
+          "ano_conclusao": 1992,
+          "orientando": "Ricardo Caetano de Moraes",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Realizador para o Gerador Automático de Textos Descritivos GEMA",
+          "ano_inicio": 1991,
+          "ano_conclusao": 1991,
+          "orientando": "Lúcia Léa Gondar de Oliveira",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Á interação entre usuários e sistemas de computadores em linguagem natural orientada por menus",
+          "ano_inicio": 1991,
+          "ano_conclusao": 1991,
+          "orientando": "Jair Cavalcanti Leite",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Requisitos para a Integração do Discurso e Diálogo às Interfaces em Linguagem Natural",
+          "ano_inicio": 1990,
+          "ano_conclusao": 1990,
+          "orientando": "Laura Sánchez García",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Generalização das Gramáticas de Determinação para Consultas a Bases de Dados em Linguagem Natural",
+          "ano_inicio": 1990,
+          "ano_conclusao": 1990,
+          "orientando": "Eliane Bezerra Soares de Carvalho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "O perfil da comunicação homem-máquina para sistemas com base de conhecimento",
+          "ano_inicio": 1990,
+          "ano_conclusao": 1990,
+          "orientando": "Isa Haro Martins",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Projeto de Interação - Aplicativo de Agendamento de Serviços Veterinários e Histórico Clínico do Animal",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Leonardo Soares Giroto",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Craft Isle: A Aplicação dos Conceitos de Interação Humano­ Computador no Desenvolvimento de Jogos Eletrônicos",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Adriano Alves Ribeiro Gonçalves",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Confortabilidade no desenvolvimento de jogos por adolescentes",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Hugo Roque de Figueiredo",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Dados Dizem Um passeio pela computação",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Eduardo Tiomno Tolmasquim",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento do Exploratorium",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Leonardo Serra Faria",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [
+        {
+          "titulo": "EXPLORAÇÃO DE FACETAS DE SIGNIFICADO COMPUTACIONAL EM DIÁLOGOS DE MEDIAÇÃO COM O WNH",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Eduardo Tiomno Tolmasquim",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento e avaliação de novas ferramentas para o projeto ?Clique para a Computação",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Eduardo Tiomno Tolmasquim",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Linguagem de Programação Gestual para Ensino de Raciocínio Computacional",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Hugo Roque Figueiredo",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "8th International Conference on Formal Ontology in Information Systems (FOIS 2014)",
+        "apresentacao": "Is it time to talk about first-person meanings in computer programs?",
+        "ano": 2014,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "PALESTRANTE CONVIDADO - VIII Simpósio Brasileiro de Sistemas Colaborativos",
+        "apresentacao": "Computador como meio de expressão: novas falas na contemporaneidade",
+        "ano": 2011,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Program Co-Chair do IHC+CLIHC 2011 - X Simpósio Brasileiro de Fatores Humanos em Sistemas Computacionais e V Conferência Latinoamericana de Interação Humano-Computador",
+        "apresentacao": "Fala dos Program Co-Chairs na Abertura, Premiação e Encerramento do Evento",
+        "ano": 2011,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "KEYNOTE SPEAKER Approches sémiotiques au design (Colloque du 78ème Congrès de l'Association Francophone pour le Savaoir - ACFAS)",
+        "apresentacao": "Méthodes d?ingénierie sémiotique pour la recherche scientifique en interfaces homme-machine",
+        "ano": 2010,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "PALESTRANTE CONVIDADO - XXXVII SEMISH (Congresso da Sociedade Brasileira de Computação, 2010)",
+        "apresentacao": "iversidade Intelectual: Reflexões sobre um dos Grandes Desafios da Ciência da Computação no Brasil",
+        "ano": 2010,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "KEYNOTE SPEAKER 11th IFIP TC13 International Conference on Human-Computer Interaction (Interact 2007)",
+        "apresentacao": "KEYNOTE PRESENTATION - Getting your message across to your users",
+        "ano": 2007,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "KEYNOTE SPEAKER 9th International Conference on Organisational Semiotics (ICOS 2006)",
+        "apresentacao": "KEYNOTE PRESENTATION - The Semiotic Engineering of Human-Computer Interaction",
+        "ano": 2006,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "KEYNOTE SPEAKER 2nd Latin American Conference on Human-Computer Interaction (CLIHC2005)",
+        "apresentacao": "KEYNOTE PRESENTATION - Interaction for inclusion: Who should be included",
+        "ano": 2005,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "DOCTORAL CONSORTIUM EXAMINER CHI2003 Conference on Human Factors in Computing Systems",
+        "apresentacao": "ACM CHI2003 - Doctoral Consortium",
+        "ano": 2003,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "INVITED SPEAKER Webshop2002 (University of Maryland College Park)",
+        "apresentacao": "A semiotic engineering approach to designing groupware",
+        "ano": 2002,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "KEYNOTE SPEAKER Congreso Internacional Interacción Persona-Ordenador - AIPO (interaccción 2001)",
+        "apresentacao": "KEYNOTE PRESENTATION - Semiotic Engineering and the Communicability of User Interfaces",
+        "ano": 2001,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "CO-ORGANIZER Semiotic Approaches to User Interface Design",
+        "apresentacao": "ACM CHI2000 Workshop on Semiotic Approaches to User Interface Design (Organizadora)",
+        "ano": 2000,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": [
+      {
+        "autores": "de SOUZA, C. S.. Coordenadora de Programa do SEMISH - XXXVI Seminário Integrado de Software e Hardware. 2009. (Congresso).",
+        "evento": "",
+        "ano": 0,
+        "natureza": "",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "de SOUZA, C. S.; LEVIALDI, S.",
+        "evento": "Panels Co-Chair of Interact 2007 - XI International IFIP Conference on Human-Computer Interaction",
+        "ano": 2006,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "de SOUZA, C. S.; Sánchez, A.",
+        "evento": "General Co-Chair of CLIHC2003 - Latin American Conference on Human-Computer Interaction",
+        "ano": 2003,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      }
+    ]
+  },
+  "bancas": {
+    "mestrado": [],
+    "doutorado": [],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": [
+      {
+        "descricao": "Torreão. J.R.A.; Stolfi, Jorge; SONG, Siang W.; Garcia, A.C.B.; de SOUZA, C. S.. Comissão Examidora do Concurso Público para a Carreira de Professor Adjunto para a área de conhecimento Visão Computacional e Interfaces. 2009. Universidade Federal Fluminense.",
+        "ano": 2009,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Federal Fluminense.",
+        "universidade": ""
+      },
+      {
+        "descricao": "Kowaltowski, T.; Casanova, M.A.; de SOUZA, C. S.; Traina Jr., C.; Martins, E.. Concurso para Provimento de Cargo de Professor Doutor. 2009. Universidade Estadual de Campinas.",
+        "ano": 2009,
+        "tipo": "Participação em banca",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Estadual de Campinas.",
+        "universidade": ""
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 40,
+    "total_livros": 4,
+    "total_capitulos": 11,
+    "total_trabalhos_congressos": 98,
+    "total_projetos_pesquisa": 10,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 0,
+    "total_orientacoes_concluidas": 56,
+    "total_orientacoes_andamento": 0
+  }
+}

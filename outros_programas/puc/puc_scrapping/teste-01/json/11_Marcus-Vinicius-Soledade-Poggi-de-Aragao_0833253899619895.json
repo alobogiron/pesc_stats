@@ -1,0 +1,2344 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "0833253899619895",
+    "nome_completo": "Marcus Vinicius Soledade Poggi de Aragao",
+    "nome_citacoes": "POGGI DE ARAGAO, M.;Poggi de Aragão, Marcus V.S.;Poggi de AragÃ£o, Marcus;Poggi, Marcus;Aragao, M. P. d.;de Aragão, Marcus Poggi;Aragão, Marcus Poggi;Poggi de Aragão, Marcus V. S.",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "Nível 1D (***",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente 225 Gávea 22451-900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4339 Fax: (21) 35271530 URL da Homepage: http://www.inf.puc-rio.br/~poggi",
+    "atualizacao_cv": "10/06/2025",
+    "url": "http://lattes.cnpq.br/0833253899619895",
+    "texto_resumo": "Possui graduação em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro(1983), mestrado em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro(1988) e doutorado em Matemática Aplicada pela Ecole Polytechnique de Montreal(1993). Atualmente é Professor Associado da Pontifícia Universidade Católica do Rio de Janeiro, Revisor de periódico da EUROPEAN JOURNAL OF OPERATIONAL RESEARCH, Revisor de periódico da MATHEMATICAL PROGRAMMING, Revisor de periódico da COMPUTERS & OPERATIONS RESEARCH, Revisor de periódico da DISCRETE APPLIED MATHEMATICS, Revisor de periódico da OPERATIONS RESEARCH, Revisor de periódico da DISCRETE MATHEMATICS, Revisor de periódico da TRANSPORTATION SCIENCE, Revisor de periódico da 4OR-A Quarterly Journal of Operations Research e Membro de corpo editorial da TRANSPORTATION SCIENCE. Tem experiência na área de Ciência da Computação, com ênfase em Teoria da Computação. (Texto gerado automaticamente pela aplicação CVLattes)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Matemática Aplicada",
+      "nome_instituicao": "Ecole Polytechnique de Montreal, EPM, Canadá",
+      "ano_inicio": "1988",
+      "ano_conclusao": "1993",
+      "descricao": "Título: Modèles et Algorithmes pour la Logique Probabiliste, Ano de obtenção: 1993. Orientador: Brigitte Jaumard. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil."
+    },
+    {
+      "tipo": "Mestrado em Engenharia Elétrica",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1985",
+      "ano_conclusao": "1988",
+      "descricao": "Título: Programação Hiperbólica em Variáveis 0-1 e Otimização de Consultas a Bancos de Dados Bibliográficos O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 1988. Orientador: Celso da Cruz Carneiro Ribeiro. Grande área: Ciências Exatas e da Terra"
+    },
+    {
+      "tipo": "Graduação em Engenharia Elétrica",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "1978",
+      "ano_conclusao": "1983",
+      "descricao": ""
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2001 - Atual",
+      "ano_inicio": "2001",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor Associado",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "1996 - 2001",
+      "ano_inicio": "1996",
+      "ano_fim": "2001",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor Assistente",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "10/2011 - 12/2013",
+      "ano_inicio": "2011",
+      "ano_fim": "2013",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Centro Técnico-Científico, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Universidade Estadual de Campinas, UNICAMP, Brasil.",
+      "instituicao_nome": "Universidade Estadual de Campinas",
+      "instituicao_sigla": "UNICAMP",
+      "instituicao_pais": "Brasil",
+      "periodo": "1993 - 1996",
+      "ano_inicio": "1993",
+      "ano_fim": "1996",
+      "vinculo": "Servidor público ou celetista",
+      "enquadramento": "PROFESSOR ASSISTENTE",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Estadual de Campinas, UNICAMP, Brasil",
+      "instituicao_nome": "Universidade Estadual de Campinas",
+      "instituicao_sigla": "UNICAMP",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Direção e administração, Instituto de Matemática Estatística e Ciência da Computação, Departamento de Ciência da Computação."
+      ]
+    },
+    {
+      "instituicao": "Universidade Estadual de Campinas, UNICAMP, Brasil",
+      "instituicao_nome": "Universidade Estadual de Campinas",
+      "instituicao_sigla": "UNICAMP",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Instituto de Matemática Estatística e Ciência da Computação, Departamento de Ciência da Computação."
+      ]
+    },
+    {
+      "instituicao": "Universidade Estadual de Campinas, UNICAMP, Brasil",
+      "instituicao_nome": "Universidade Estadual de Campinas",
+      "instituicao_sigla": "UNICAMP",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidade Estadual de Campinas, UNICAMP, Brasil",
+      "instituicao_nome": "Universidade Estadual de Campinas",
+      "instituicao_sigla": "UNICAMP",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Collège Miltaire Royal de Saint Jean, CMR, Canadá.",
+      "instituicao_nome": "Collège Miltaire Royal de Saint Jean",
+      "instituicao_sigla": "CMR",
+      "instituicao_pais": "Canadá",
+      "periodo": "1992 - 1993",
+      "ano_inicio": "1992",
+      "ano_fim": "1993",
+      "vinculo": "Colaborador",
+      "enquadramento": "PESQUISADOR",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Collège Miltaire Royal de Saint Jean, CMR, Canadá",
+      "instituicao_nome": "Collège Miltaire Royal de Saint Jean",
+      "instituicao_sigla": "CMR",
+      "instituicao_pais": "Canadá",
+      "periodo": "09/1992 - 02/1993",
+      "ano_inicio": "1992",
+      "ano_fim": "1993",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Departement Des Mathématiques."
+      ]
+    },
+    {
+      "instituicao": "Collège Miltaire Royal de Saint Jean, CMR, Canadá",
+      "instituicao_nome": "Collège Miltaire Royal de Saint Jean",
+      "instituicao_sigla": "CMR",
+      "instituicao_pais": "Canadá",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Centro de Análise de Sistemas Navais Marinha do Brasil, CASNA",
+      "instituicao_nome": "Centro de Análise de Sistemas Navais Marinha do Brasil",
+      "instituicao_sigla": "CASNA",
+      "instituicao_pais": null,
+      "periodo": "1983 - 1988",
+      "ano_inicio": "1983",
+      "ano_fim": "1988",
+      "vinculo": "Servidor público ou celetista",
+      "enquadramento": "ANALISTA",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Centro de Análise de Sistemas Navais Marinha do Brasil, CASNAV, Brasil",
+      "instituicao_nome": "Centro de Análise de Sistemas Navais Marinha do Brasil",
+      "instituicao_sigla": "CASNAV",
+      "instituicao_pais": "Brasil",
+      "periodo": "05/1983 - 08/1988",
+      "ano_inicio": "1983",
+      "ano_fim": "1988",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Centro de Análise de Sistemas Navais Marinha do Brasil."
+      ]
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Desenvolvimento de um Pacote de Branch-and-Price: Algoritmos e Código",
+      "ano_inicio": "2013",
+      "ano_conclusao": "2017",
+      "descricao": [
+        "Descrição: O projeto aqui descrito tem a visão de que o conhecimento atual sobre os algoritmos de BCP pode ser reunido e evoluido para gerar resolvedores cuja utilização poderá ser ampla por parte dos profissionais e pesquisadores cujos interesses envolvem a resolução de problemas de otimização. Com isso, aumentando o alcance da modelagem com problemas de programação inteira e mista (MIPs). Nesse ponto, são importantes, além de novos resultados teóricos, implementações estáveis e eficientes. As demandas do projeto em termos de fomento abrangem recursos para estes dois fins.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (3) . Integrantes: Marcus Vinicius Soledade Poggi de Aragao - Coordenador / Eduardo Uchoa Barboza - Integrante / Artur Pessoa - Integrante / Haroldo Gambini Santos - Integrante. Financiador(es): Associação dos Servidores do CNPq - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Marcus Vinicius Soledade Poggi de Aragao",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Eduardo Uchoa Barboza",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Artur Pessoa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Haroldo Gambini Santos",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Associação dos Servidores do CNPq",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Synergies for Ameliorations and Mastering of Branch=Price-and-Cut based Algorithms",
+      "ano_inicio": "2013",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: O ponto central do projeto são estudos e desenvolvimentos de algoritmos de Branch­Cut­andPrice Algoritmos de Branch­Cut­and­Price (BCP) representam na atualidade uma abordagem capaz de prover alternativas eficientes para a resolução de problemas de programação inteira e mista com características especiais. Nestes problemas especiais os algoritmos de BCP demonstram uma capacidade de resolução significativamente superior a dos pacotes comerciais consistentemente avaliados como os mais eficientes. Entre esses problemas com características especiais estão os problemas de roteamento de veículos, uma classe de problemas que inclui muitos dos problemas centrais em uma logística verde. Desde a mobilidade urbana até o consumo de combustíveis nas companhias aéreas. Os algoritmos de BCP permitem ainda a resolução de formulações como MIPs destes problemas que utilizam variáveis estendidas, i.e. que especificam ainda mais o que representam.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (3) . Integrantes: Marcus Vinicius Soledade Poggi de Aragao - Coordenador / Eduardo Uchoa - Integrante / Artur Pessoa - Integrante / François Vanderbeck - Integrante / Ruslan Sadykov - Integrante. Financiador(es): FAPERJ - Cooperação."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Marcus Vinicius Soledade Poggi de Aragao",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Eduardo Uchoa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Artur Pessoa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "François Vanderbeck",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Ruslan Sadykov",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "FAPERJ",
+          "tipo_apoio": "Cooperação"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [],
+  "areas_de_atuacao": [
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Ciência da Computação",
+      "subarea": "Teoria da Computação",
+      "especialidade": "Análise de Algoritmos e Complexidade de Computação",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Análise de Algoritmos e Complexidade de Computação."
+    },
+    {
+      "grande_area": "Ciências Exatas e da Terra",
+      "area": "Matemática",
+      "subarea": "Matemática Aplicada",
+      "especialidade": "Matemática Discreta e Combinatória",
+      "descricao_completa": "Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada/Especialidade: Matemática Discreta e Combinatória."
+    },
+    {
+      "grande_area": "Engenharias",
+      "area": "Engenharia de Produção",
+      "subarea": "Pesquisa Operacional",
+      "especialidade": "Programação Linear, Não-Linear, Mista e Dinâmica",
+      "descricao_completa": "Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Pesquisa Operacional/Especialidade: Programação Linear, Não-Linear, Mista e Dinâmica."
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Espanhol",
+      "compreende": "Razoavelmente",
+      "fala": "Razoavelmente",
+      "le": "Razoavelmente",
+      "escreve": "Pouco",
+      "proficiencia_completa": "Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco."
+    },
+    {
+      "nome": "Francês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Best Paper in 2017 in the journal Mathematical Programming Computation (MPC), Mathematical Programming Society.",
+      "ano": 2018
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "Otimização Combinatória",
+      "objetivo": ""
+    },
+    {
+      "nome": "Programação Matemática",
+      "objetivo": ""
+    },
+    {
+      "nome": "Lógica Probabilística",
+      "objetivo": ""
+    },
+    {
+      "nome": "Sistemas de Apoio à Decisão",
+      "objetivo": ""
+    },
+    {
+      "nome": "Programaçãp Matemática",
+      "objetivo": ""
+    },
+    {
+      "nome": "Otimização Combinatória",
+      "objetivo": ""
+    },
+    {
+      "nome": "Simulação de Sistemas",
+      "objetivo": ""
+    },
+    {
+      "nome": "Estatística, Previsão",
+      "objetivo": ""
+    },
+    {
+      "nome": "Criptografia",
+      "objetivo": ""
+    },
+    {
+      "nome": "Bancos de Dados",
+      "objetivo": ""
+    },
+    {
+      "nome": "Otimização Combinatória",
+      "objetivo": ""
+    },
+    {
+      "nome": "Complexidade de Algoritmos",
+      "objetivo": ""
+    },
+    {
+      "nome": "Metaheurísticas e Inteligência Computacional",
+      "objetivo": ""
+    },
+    {
+      "nome": "Combinatória Poliédrica",
+      "objetivo": ""
+    },
+    {
+      "nome": "Lógica Probabilística",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Regularization and optimization in model-based clustering",
+        "ano": 2024,
+        "autores": "SAMPAIO, RAPHAEL ARAUJO ; GARCIA, JOAQUIM DIAS ; Poggi, Marcus ; VIDAL, THIBAUT",
+        "revista": "PATTERN RECOGNITION",
+        "volume": "150",
+        "numero": "",
+        "paginas": "110310-110330",
+        "issn": "0031-3203",
+        "doi": "http://dx.doi.org/10.1016/j.patcog.2024.110310",
+        "qualis": ""
+      },
+      {
+        "titulo": "Vehicle Routing with Stochastic Demands and Partial Reoptimization",
+        "ano": 2022,
+        "autores": "FLORIO, ALEXANDRE M. ; FEILLET, DOMINIQUE ; Poggi, Marcus ; VIDAL, THIBAUT",
+        "revista": "TRANSPORTATION SCIENCE",
+        "volume": "56",
+        "numero": "",
+        "paginas": "1393-1408",
+        "issn": "0041-1655",
+        "doi": "http://dx.doi.org/10.1287/trsc.2022.1129",
+        "qualis": ""
+      },
+      {
+        "titulo": "Time-consistent risk-constrained dynamic portfolio optimization with transactional costs and time-dependent returns",
+        "ano": 2019,
+        "autores": "VALLADAO, D. M. ; SILVA, THUENER ; Poggi, Marcus",
+        "revista": "ANNALS OF OPERATIONS RESEARCH",
+        "volume": "282",
+        "numero": "",
+        "paginas": "379-405",
+        "issn": "0254-5330",
+        "doi": "http://dx.doi.org/10.1007/s10479-018-2991",
+        "qualis": ""
+      },
+      {
+        "titulo": "Two-Dimensional Phase Unwrapping via Balanced Spanning Forests",
+        "ano": 2019,
+        "autores": "HERSZTERG, IAN ; Poggi, Marcus ; VIDAL, THIBAUT",
+        "revista": "INFORMS JOURNAL ON COMPUTING",
+        "volume": "31",
+        "numero": "",
+        "paginas": "527-543",
+        "issn": "1091-9856",
+        "doi": "http://dx.doi.org/10.1287/ijoc.2018.0832",
+        "qualis": ""
+      },
+      {
+        "titulo": "The minimum distance superset problem: formulations and algorithms",
+        "ano": 2018,
+        "autores": "FONTOURA, LEONARDO ; MARTINELLI, RAFAEL ; Poggi, Marcus ; VIDAL, THIBAUT",
+        "revista": "JOURNAL OF GLOBAL OPTIMIZATION",
+        "volume": "72",
+        "numero": "",
+        "paginas": "27-53",
+        "issn": "0925-5001",
+        "doi": "http://dx.doi.org/10.1007/s10898-017-0579-9",
+        "qualis": ""
+      },
+      {
+        "titulo": "New benchmark instances for the Capacitated Vehicle Routing Problem",
+        "ano": 2017,
+        "autores": "UCHOA, Eduardo ; PECIN, DIEGO ; Pessoa, Artur ; Poggi, Marcus ; VIDAL, THIBAUT ; SUBRAMANIAN, ANAND",
+        "revista": "EUROPEAN JOURNAL OF OPERATIONAL RESEARCH",
+        "volume": "257",
+        "numero": "",
+        "paginas": "845-858",
+        "issn": "0377-2217",
+        "doi": "http://dx.doi.org/10.1016/j.ejor.2016.08.012",
+        "qualis": ""
+      },
+      {
+        "titulo": "Limited memory Rank-1 Cuts for vehicle routing problems",
+        "ano": 2017,
+        "autores": "PECIN, DIEGO ; Pessoa, Artur ; Poggi, Marcus ; UCHOA, Eduardo ; SANTOS, HAROLDO",
+        "revista": "OPERATIONS RESEARCH LETTERS",
+        "volume": "45",
+        "numero": "",
+        "paginas": "206-209",
+        "issn": "0167-6377",
+        "doi": "http://dx.doi.org/10.1016/j.orl.2017.02.006",
+        "qualis": ""
+      },
+      {
+        "titulo": "Improved branch-cut-and-price for capacitated vehicle routing",
+        "ano": 2017,
+        "autores": "PECIN, DIEGO ; Pessoa, Artur ; Poggi, Marcus ; UCHOA, Eduardo",
+        "revista": "MATHEMATICAL PROGRAMMING COMPUTATION",
+        "volume": "9",
+        "numero": "",
+        "paginas": "61-100",
+        "issn": "1867-2949",
+        "doi": "http://dx.doi.org/10.1007/s12532-016-0108-8",
+        "qualis": ""
+      },
+      {
+        "titulo": "A More Human-like Portfolio Optimization Approach",
+        "ano": 2016,
+        "autores": "SILVA, THUENER ; PINHEIRO, PLÁCIDO ROGÉRIO ; Poggi, Marcus",
+        "revista": "European Journal of Operational Research",
+        "volume": "256",
+        "numero": "",
+        "paginas": "252-260",
+        "issn": "0377-2217",
+        "doi": "http://dx.doi.org/10.1016/j.ejor.2016.06.018",
+        "qualis": ""
+      },
+      {
+        "titulo": "A Computational Study of Conflict Graphs and Aggressive Cut Separation in Integer Programming",
+        "ano": 2015,
+        "autores": "BRITO, SAMUEL SOUZA ; Santos, Haroldo G. ; POGGI DE ARAGAO, M.",
+        "revista": "ELECTRONIC NOTES IN DISCRETE MATHEMATICS",
+        "volume": "50",
+        "numero": "",
+        "paginas": "355-360",
+        "issn": "1571-0653",
+        "doi": "http://dx.doi.org/10.1016/j.endm.2015.07.059",
+        "qualis": ""
+      },
+      {
+        "titulo": "Efficient Elementary and Restricted Non-Elementary Route Pricing",
+        "ano": 2014,
+        "autores": "MARTINELLI, RAFAEL ; PECIN, DIEGO ; Poggi, Marcus",
+        "revista": "European Journal of Operational Research",
+        "volume": "239",
+        "numero": "",
+        "paginas": "102-111",
+        "issn": "0377-2217",
+        "doi": "http://dx.doi.org/10.1016/j.ejor.2014.05.005",
+        "qualis": ""
+      },
+      {
+        "titulo": "Improved boundsfor large scale capacitated arc routing problem",
+        "ano": 2013,
+        "autores": "Rafael Martinelli ; Poggi, Marcus ; SUBRAMANIAN, A.",
+        "revista": "Computers & Operations Research",
+        "volume": "40",
+        "numero": "",
+        "paginas": "2145-2160",
+        "issn": "0305-0548",
+        "doi": "http://dx.doi.org/10.1016/j.cor.2013.02.013",
+        "qualis": ""
+      },
+      {
+        "titulo": "Harvest planning in the Brazilian sugar cane industry via mixed integer programming",
+        "ano": 2013,
+        "autores": "JENA, SANJAY DOMINIK ; Poggi, Marcus",
+        "revista": "European Journal of Operational Research",
+        "volume": "230",
+        "numero": "",
+        "paginas": "374-385",
+        "issn": "0377-2217",
+        "doi": "http://dx.doi.org/10.1016/j.ejor.2013.04.011",
+        "qualis": ""
+      },
+      {
+        "titulo": "A linear time approximation algorithm for permutation flow shop scheduling",
+        "ano": 2012,
+        "autores": "Poggi, Marcus; Sotelo, David",
+        "revista": "THEORETICAL COMPUTER SCIENCE",
+        "volume": "416",
+        "numero": "",
+        "paginas": "87-94",
+        "issn": "0304-3975",
+        "doi": "http://dx.doi.org/10.1016/j.tcs.2011.10.013",
+        "qualis": ""
+      },
+      {
+        "titulo": "Cascading Knapsack Inequalities: reformulation ofÂ aÂ crude oil distribution problem",
+        "ano": 2011,
+        "autores": "Rocha, Roger ; Grossmann, Ignacio E. ; Poggi de Aragão, Marcus V. S.",
+        "revista": "Annals of Operation Research",
+        "volume": "NA",
+        "numero": "",
+        "paginas": "1-18",
+        "issn": "0254-5330",
+        "doi": "http://dx.doi.org/10.1007/s10479-011-0857-8",
+        "qualis": ""
+      },
+      {
+        "titulo": "Bounds for short covering codes and reactive tabu search",
+        "ano": 2010,
+        "autores": "Mendes, Carlos ; Monte Carmelo, Emerson L. ; Poggi, Marcus",
+        "revista": "Discrete Applied Mathematics",
+        "volume": "158",
+        "numero": "",
+        "paginas": "522-533",
+        "issn": "0166-218X",
+        "doi": "http://dx.doi.org/10.1016/j.dam.2009.11.006",
+        "qualis": ""
+      },
+      {
+        "titulo": "Optimizing Helicopter Transport of Oil Rig Crews at Petrobras",
+        "ano": 2010,
+        "autores": "Menezes, F. ; PORTO, O. ; REIS, M. L. ; Moreno, L. ; Aragao, M. P. d. ; UCHOA, E. ; Abeledo, H. ; Nascimento, N. C. d.",
+        "revista": "Interfaces (Providence)",
+        "volume": "40",
+        "numero": "",
+        "paginas": "408-416",
+        "issn": "0092-2102",
+        "doi": "http://dx.doi.org/10.1287/inte.1100.0517",
+        "qualis": ""
+      },
+      {
+        "titulo": "Improved lower bounds for the Split Delivery Vehicle Routing Problem",
+        "ano": 2010,
+        "autores": "Moreno, Lorenza ; de Aragão, Marcus Poggi ; UCHOA, Eduardo",
+        "revista": "Operations Research Letters",
+        "volume": "38",
+        "numero": "",
+        "paginas": "302-306",
+        "issn": "0167-6377",
+        "doi": "http://dx.doi.org/10.1016/j.orl.2010.04.008",
+        "qualis": ""
+      },
+      {
+        "titulo": "Exact algorithm over an arc-time-indexed formulation for parallel machine scheduling problems",
+        "ano": 2010,
+        "autores": "Pessoa, Artur ; UCHOA, Eduardo ; Aragão, Marcus Poggi ; Rodrigues, Rosiane",
+        "revista": "Mathematical Programming Computation",
+        "volume": "2",
+        "numero": "",
+        "paginas": "259-290",
+        "issn": "1867-2949",
+        "doi": "http://dx.doi.org/10.1007/s12532-010-0019-z",
+        "qualis": ""
+      },
+      {
+        "titulo": "A robust branch-cut-and-price algorithm for the heterogeneous fleet vehicle routing problem",
+        "ano": 2009,
+        "autores": "Pessoa, Artur ; UCHOA, Eduardo ; Poggi de AragÃ£o, Marcus",
+        "revista": "Networks (New York, N.Y. Print)",
+        "volume": "54",
+        "numero": "",
+        "paginas": "167-177",
+        "issn": "0028-3045",
+        "doi": "http://dx.doi.org/10.1002/net.20330",
+        "qualis": ""
+      },
+      {
+        "titulo": "Petroleum allocation at PETROBRAS: Mathematical model and a solution algorithm",
+        "ano": 2009,
+        "autores": "Rocha, Roger ; Grossmann, Ignacio E. ; POGGI DE ARAGAO, M.",
+        "revista": "Computers & Chemical Engineering",
+        "volume": "33",
+        "numero": "",
+        "paginas": "2123-2133",
+        "issn": "0098-1354",
+        "doi": "http://dx.doi.org/10.1016/j.compchemeng.2009.06.017",
+        "qualis": ""
+      },
+      {
+        "titulo": "Robust Branch-Cut-and-Price for the Capacitated Minimum Spanning Tree Problem over a Large Extended Formulation",
+        "ano": 2008,
+        "autores": "UCHOA, E. ; POGGI DE ARAGAO, M. ; FUKASAWA, R. ; LYSGARRD, J. ; PESSOA, A. ; ANDRADE, D.",
+        "revista": "Mathematical Programming",
+        "volume": "112",
+        "numero": "",
+        "paginas": "443-472",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-006-0043-y",
+        "qualis": ""
+      },
+      {
+        "titulo": "Solving capacitated arc routing problems using a transformation to the CVRP",
+        "ano": 2006,
+        "autores": "LONGO, H. J. ; POGGI DE ARAGAO, M. ; UCHOA, E.",
+        "revista": "Computers and Operations Research",
+        "volume": "33",
+        "numero": "",
+        "paginas": "1823-1837",
+        "issn": "0305-0548",
+        "doi": "http://dx.doi.org/10.1016/j.cor.2004.11.020",
+        "qualis": ""
+      },
+      {
+        "titulo": "Robust Branch-and-Cut-and-Price for the Capacitated Vehicle Routing Problem",
+        "ano": 2006,
+        "autores": "FUKASAWA, R. ; LONGO, H. J. ; LYSGARRD, J. ; POGGI DE ARAGAO, M. ; REIS, M. L. ; UCHOA, E. ; WERNECK, R. F.",
+        "revista": "Mathematical Programming",
+        "volume": "106",
+        "numero": "",
+        "paginas": "491-511",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/s10107-005-0644-x",
+        "qualis": ""
+      },
+      {
+        "titulo": "Preprocessing Steiner Problems from VLSI Layout",
+        "ano": 2002,
+        "autores": "UCHOA, Eduardo ; POGGI DE ARAGAO, M. ; RIBEIRO, C. C.",
+        "revista": "Networks (New York)",
+        "volume": "40",
+        "numero": "1",
+        "paginas": "38-50",
+        "issn": "0028-3045",
+        "doi": "http://dx.doi.org/10.1002/net.10035",
+        "qualis": ""
+      },
+      {
+        "titulo": "Vertex Disjoint Packing of Two Steiner Trees: Polyhedra and Branch and Cut",
+        "ano": 2001,
+        "autores": "POGGI DE ARAGAO, M.; UCHOA, E.",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "90",
+        "numero": "3",
+        "paginas": "537-557",
+        "issn": "0025-5610",
+        "doi": "http://dx.doi.org/10.1007/PL00011434",
+        "qualis": ""
+      },
+      {
+        "titulo": "Probabilistic satisfiability with imprecise probabilities",
+        "ano": 2000,
+        "autores": "HANSEN, P. ; JAUMARD, B. ; POGGI DE ARAGAO, M. ; CHAUNY, F. ; PERRON, S.",
+        "revista": "International Journal of Approximate Reasoning",
+        "volume": "24",
+        "numero": "",
+        "paginas": "171-189",
+        "issn": "0888-613X",
+        "doi": "http://dx.doi.org/10.1016/S0888-613X(00)00033-5",
+        "qualis": ""
+      },
+      {
+        "titulo": "The Gamma-Connected Assignment Problem",
+        "ano": 1999,
+        "autores": "POGGI DE ARAGAO, M.; BARBOZA, E. U.",
+        "revista": "European Journal of Operational Research",
+        "volume": "118",
+        "numero": "1",
+        "paginas": "127-138",
+        "issn": "0377-2217",
+        "doi": "http://dx.doi.org/10.1016/S0377-2217(98)00305-1",
+        "qualis": ""
+      },
+      {
+        "titulo": "Mixed-Integer Column Generation Algorithms And The Probabilistic Maximum Satisfiability Problem",
+        "ano": 1998,
+        "autores": "HANSEN, P. ; JAUMARD, B. ; POGGI DE ARAGAO, M.",
+        "revista": "European Journal of Operational Research",
+        "volume": "108",
+        "numero": "",
+        "paginas": "671-683",
+        "issn": "0377-2217",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Boole's Conditions Of Possible Experience And Reasoning Under Uncertainty",
+        "ano": 1995,
+        "autores": "HANSEN, P. ; JAUMARD, B. ; POGGI DE ARAGAO, M.",
+        "revista": "Discrete Applied Mathematics",
+        "volume": "60",
+        "numero": "",
+        "paginas": "181-193",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Local Optima Topology For The K-Coloring Problem",
+        "ano": 1994,
+        "autores": "HERTZ, A. ; JAUMARD, B. ; POGGI DE ARAGAO, M.",
+        "revista": "Discrete Applied Mathematics",
+        "volume": "49",
+        "numero": "",
+        "paginas": "257-280",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Un Algorithme de Programmation Lineaire Generalisee Pour Les Programmes Mixtes",
+        "ano": 1991,
+        "autores": "HANSEN, P. ; JAUMARD, B. ; POGGI DE ARAGAO, M. ; V, M.",
+        "revista": "COMPTES RENDUES DE L ACADEMIE DE SCIENCES DE PARIS",
+        "volume": "T 313",
+        "numero": "SERIE I",
+        "paginas": "557-560",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Column Generation Methods For Probabilistic Logic",
+        "ano": 1991,
+        "autores": "JAUMARD, B. ; HANSEN, P. ; POGGI DE ARAGAO, M.",
+        "revista": "ORSA - Journal on Computing",
+        "volume": "3",
+        "numero": "2",
+        "paginas": "135-148",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Hyperbolic  0-1 Programming And Queries Optimization In Information Retrieval",
+        "ano": 1991,
+        "autores": "HANSEN, P. ; POGGI DE ARAGAO, M. ; RIBEIRO, C. C.",
+        "revista": "MATHEMATICAL PROGRAMMING",
+        "volume": "52",
+        "numero": "2",
+        "paginas": "255-263",
+        "issn": "0025-5610",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Boolean Queries Optimization And The 0-1 Hyperbolic Sum Problem",
+        "ano": 1990,
+        "autores": "HANSEN, P. ; POGGI DE ARAGAO, M. ; V, M. ; RIBEIRO, C. C.",
+        "revista": "ANNALS OF MATHEMATICS AND ARTIFICIAL INTELLIGENCE",
+        "volume": "1",
+        "numero": "1",
+        "paginas": "97-109",
+        "issn": "",
+        "doi": "",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [],
+    "capitulos_livros": [
+      {
+        "titulo": "Binary Matrix Factorization Discretization. Lecture Notes in Computer Science. 1ed.Zurich",
+        "ano": 2023,
+        "autores": "Spyrides, Georges ; Poggi, Marcus ; Lopes, Hélio",
+        "titulo_livro": "",
+        "editora": "Springer Nature Switzerland",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "388-401"
+      },
+      {
+        "titulo": "An Efficient Matheuristic for the Inventory Routing Problem",
+        "ano": 2020,
+        "autores": "Diniz, Pedro ; MARTINELLI, RAFAEL ; Poggi, Marcus",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "273-285"
+      },
+      {
+        "titulo": "Lean R&D: An Agile Research and Development Approach for Digital Transformation. Lecture Notes in Computer Science. 21ed",
+        "ano": 2020,
+        "autores": "KALINOWSKI, MARCOS ; Lopes, Hélio ; TEIXEIRA, ALEX FURTADO ; DA SILVA CARDOSO, GABRIEL ; Kuramoto, André ; ITAGYBA, BRUNO ; BATISTA, SOLON TARSO ; PEREIRA, JULIANA ALVES ; SILVA, THUENER ; WARRAK, JORGE ALAM ; da Costa, Marcelo ; FISCHER, MARINHO ; SALGADO, CRISTIANE ; TEIXEIRA, BIANCA ; CHUEKE, JACQUES ; FERREIRA, BRUNA ; LIMA, RODRIGO ; VILLAMIZAR, HUGO ; Brandão, André ; POGGI DE ARAGAO, M. ; et.al",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "106-124"
+      },
+      {
+        "titulo": "Visual Filtering Tools and Analysis of Case Groups for Process Discovery. Lecture Notes in Business Information Processing. 1ed",
+        "ano": 2019,
+        "autores": "González, Sonia Fiol ; Schirmer, Luiz ; Campagnolo, Leonardo Quatrin ; Rodrigues, Ariane M. B. ; Schardong, Guilherme G. ; França, Rafael ; Lana, Mauricio ; Barbosa, Gabriel D. J. ; Barbosa, Simone D. J. ; Poggi, Marcus ; Lopes, Hélio",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "303-323"
+      },
+      {
+        "titulo": "New Exact Algorithms for the Capacitated Vehicle Routing Problem",
+        "ano": 2014,
+        "autores": "Poggi, Marcus; UCHOA, Eduardo",
+        "titulo_livro": "",
+        "editora": "MOS-SIAM",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "59-86"
+      },
+      {
+        "titulo": "A Mixed Integer Programming Approach for Sugar Cane Cultivation and Harvest Planning",
+        "ano": 2010,
+        "autores": "JENA, Sanjay ; Poggi de Aragão, Marcus V.S.",
+        "titulo_livro": "",
+        "editora": "IGI Global",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "144-174"
+      },
+      {
+        "titulo": "Robust branch-cut-and-price algorithms for vehicle routing problems",
+        "ano": 2008,
+        "autores": "PESSOA, A. ; POGGI DE ARAGAO, M. ; UCHOA, E.",
+        "titulo_livro": "",
+        "editora": "Springer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "297-325"
+      },
+      {
+        "titulo": "New benchmark instances for the Steiner problem in graphs",
+        "ano": 2003,
+        "autores": "ROSSETI, I. C. ; POGGI DE ARAGAO, M. ; RIBEIRO, C. ; UCHOA, E. ; WERNECK, R. F.",
+        "titulo_livro": "",
+        "editora": "Kluwer",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "601-614"
+      },
+      {
+        "titulo": "The Vehicle Routing Problem",
+        "ano": 2002,
+        "autores": "BEASLEY, J. E. ; LUCENA, A. ; POGGI DE ARAGAO, M.",
+        "titulo_livro": "",
+        "editora": "Oxford University Press",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "584-594"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "On the Automatic Generation of Knowledge Connections",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.5220/0011781100003467",
+        "autores": "FRAGA, FELIPE ; Poggi, Marcus ; CASANOVA, MARCO ; LEME, LUIZ",
+        "evento": "25th International Conference on Enterprise Information Systems",
+        "cidade": "",
+        "paginas": "43-54",
+        "isbn": ""
+      },
+      {
+        "titulo": "Conditional Reconstruction for Open-Set Semantic Segmentation",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/ICIP46576.2022.9897407",
+        "autores": "NUNES, IAN ; PEREIRA, MATHEUS B. ; OLIVEIRA, HUGO ; DOS SANTOS, JEFERSSON A. ; Poggi, Marcus",
+        "evento": "2022 IEEE International Conference on Image Processing (ICIP)",
+        "cidade": "",
+        "paginas": "946",
+        "isbn": ""
+      },
+      {
+        "titulo": "Deep Open-Set Segmentation in Visual Learning",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1109/SIBGRAPI55357.2022.9991794",
+        "autores": "NUNES, IAN M. ; Poggi, Marcus ; OLIVEIRA, HUGO ; PEREIRA, MATHEUS B. ; SANTOS, JEFERSSON A. DOS",
+        "evento": "2022 35th SIBGRAPI Conference on Graphics",
+        "cidade": "",
+        "paginas": "314",
+        "isbn": ""
+      },
+      {
+        "titulo": "Toward an Efficient Real-Time Anomaly Detection System for Cloud Datacenters",
+        "ano": 2020,
+        "doi": "",
+        "autores": "DIAS, R. ; MAURICIO, L. A. F. ; Poggi, Marcus",
+        "evento": "IFIP Networking Conference (Networking)",
+        "cidade": "",
+        "paginas": "529-533",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards Lean R&D: An Agile Research and Development Approach for Digital Transformation",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/seaa51224.2020.00030",
+        "autores": "KALINOWSKI, MARCOS ; BATISTA, SOLON TARSO ; LOPES, HELIO ; BARBOSA, SIMONE ; Poggi, Marcus ; SILVA, THUENER ; VILLAMIZAR, HUGO ; CHUEKE, JACQUES ; TEIXEIRA, BIANCA ; PEREIRA, JULIANA ALVES ; FERREIRA, BRUNA ; LIMA, RODRIGO ; DA SILVA CARDOSO, GABRIEL ; TEIXEIRA, ALEX FURTADO ; WARRAK, JORGE ALAM ; FISCHER, MARINHO ; KURAMOTO, ANDRE ; ITAGYBA, BRUNO ; SALGADO, CRISTIANE ; PELIZARO, CARLOS ; et.al",
+        "evento": "2020 46th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)",
+        "cidade": "",
+        "paginas": "132",
+        "isbn": ""
+      },
+      {
+        "titulo": "Towards a Technique for Extracting Relational Actors from Monolithic Applications",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.5753/sbbd2019",
+        "autores": "LAIGNER, R. ; LIFSCHITZ, S. ; KALINOWSKI, M. ; Poggi, Marcus ; SALLES, M. A. V.",
+        "evento": "XXXIV Simpósio Brasileiro de Banco de Dados",
+        "cidade": "",
+        "paginas": "133-144",
+        "isbn": ""
+      },
+      {
+        "titulo": "Adaptive Automated Storytelling Based on Audience Response",
+        "ano": 2015,
+        "doi": "",
+        "autores": "BAFFA, A. ; Poggi, Marcus ; FEIJO, B.",
+        "evento": "Entertainment Computing - ICEC 2015",
+        "cidade": "",
+        "paginas": "45-58",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Computational Study of Conflict Graphs and Aggressive Cut Separation in Integer Programming",
+        "ano": 2015,
+        "doi": "",
+        "autores": "Brito, S. S. ; Santos, H. G. ; Poggi, Marcus",
+        "evento": "LAGOS'15 ? VIII Latin-American Algorithms",
+        "cidade": "",
+        "paginas": "355-360",
+        "isbn": ""
+      },
+      {
+        "titulo": "Improved Branch-Cut-and-Price for Capacitated Vehicle Routing",
+        "ano": 2014,
+        "doi": "",
+        "autores": "Diego Pecin ; PESSOA, A. ; Poggi, Marcus ; UCHOA, Eduardo",
+        "evento": "Integer Programming and Combinatorial Optimization",
+        "cidade": "",
+        "paginas": "393-403",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Branch-Cut-and-Price Algorithm for the Capacitated Arc Routing Problem",
+        "ano": 2011,
+        "doi": "http://dx.doi.org/10.1007/978-3-642-20662-7_27",
+        "autores": "Rafael Martinelli ; Diego Pecin ; Poggi, Marcus ; LONGO, H. J.",
+        "evento": "SEA",
+        "cidade": "",
+        "paginas": "315-326",
+        "isbn": ""
+      },
+      {
+        "titulo": "The Team Orienteering Problem: Formulations and Branch-Cut and Price",
+        "ano": 2010,
+        "doi": "http://dx.doi.org/10.4230/OASIcs.ATMOS.2010.142",
+        "autores": "Poggi, Marcus; VIANA, Henrique ; UCHOA, E.",
+        "evento": "ATMOS'10 - 10th Workshop on Algorithmic Approaches for Transportation Modelling",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Robust Branch-Cut-and-Price Algorithm for the Heterogeneous Fleet Vehicle Routing Problem",
+        "ano": 2007,
+        "doi": "http://dx.doi.org/10.1007/978-3-540-72845-0_12",
+        "autores": "PESSOA, A. ; POGGI DE ARAGAO, M. ; UCHOA, E.",
+        "evento": "6th Workshop on Experimental Algorithms",
+        "cidade": "",
+        "paginas": "150-160",
+        "isbn": ""
+      },
+      {
+        "titulo": "Column Generation Based Heuristic for a Helicopter Routing Problem",
+        "ano": 2006,
+        "doi": "",
+        "autores": "Lorenza Moreno ; POGGI DE ARAGAO, M. ; UCHOA, Eduardo",
+        "evento": "Workshop on Experimental Algorithms - WEA 2006",
+        "cidade": "",
+        "paginas": "219-230",
+        "isbn": ""
+      },
+      {
+        "titulo": "Stabilized branch-and-cut-and-price for the generalized assignment problem",
+        "ano": 2005,
+        "doi": "",
+        "autores": "PIGATTI, Alexandre ; POGGI DE ARAGAO, M. ; UCHOA, Eduardo",
+        "evento": "GRACO 2005",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Robust Branch-and-Cut-and-Price for the Capacitated Vehicle Routing Problem",
+        "ano": 2004,
+        "doi": "http://dx.doi.org/10.1007/b97946",
+        "autores": "FUKASAWA, R. ; LYSGARRD, J. ; POGGI DE ARAGAO, M. ; REIS, M. L. ; WERNECK, R. F. ; UCHOA, E.",
+        "evento": "IPCO X- Tenth Conference on Integer Programming and Combinatorial Optimization",
+        "cidade": "",
+        "paginas": "1-15",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Hybrid Approach for Searching in the Semantic Web",
+        "ano": 2004,
+        "doi": "",
+        "autores": "ROCHA, C. B. ; SCHWABE, D. ; POGGI DE ARAGAO, M.",
+        "evento": "WWW2004 - Thirteenth International World Wide Web Conference",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Robust Branch-and-Cut-and-Price for the Capacitated Minimum Spanning Tree Problem",
+        "ano": 2003,
+        "doi": "",
+        "autores": "FUKASAWA, R. ; POGGI DE ARAGAO, M. ; PORTO, O. ; UCHOA, E.",
+        "evento": "International Network Optimization Conference - INOC 2003",
+        "cidade": "",
+        "paginas": "231-236",
+        "isbn": ""
+      },
+      {
+        "titulo": "Integer Program Reformulation for Robust Branch-and-Cut-and-Price Algorithms",
+        "ano": 2003,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M.; UCHOA, E.",
+        "evento": "Mathematical Program in Rio: A Conference in Honour of Nelson Maculan",
+        "cidade": "",
+        "paginas": "56-61",
+        "isbn": ""
+      },
+      {
+        "titulo": "On the Implementation of MST-based Heuristics for the Steiner Problem in Graphs",
+        "ano": 2002,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M.; WERNECK, R. F. F.",
+        "evento": "4th Workshop on Algorithm Engineering and Experiments - ALENEX'02",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Solving the Freight Car Flow Problem to Optimality",
+        "ano": 2002,
+        "doi": "",
+        "autores": "FUKASAWA, R. ; POGGI DE ARAGAO, M. ; PORTO, O. ; UCHOA, Eduardo",
+        "evento": "Algorithmic MeThods and Models for Optimization of Railways (ATMOS 2002)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Dual Heuristics on the Exact Solution of Large Steiner Problems",
+        "ano": 2001,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M.; UCHOA, E. ; WERNECK, R. F.",
+        "evento": "Brazilian Symposium on Graphs",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Two Approaches for Pay-per-Use Software Construction",
+        "ano": 2000,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M.; FERREIRA, L. ; DAHAB, R. ; MAGALHÃES, J. A. P.",
+        "evento": "Second International Workshop on Advanced Issues of E-Commerce and Web-Based Information Systems",
+        "cidade": "",
+        "paginas": "184-191",
+        "isbn": ""
+      },
+      {
+        "titulo": "Vertex-Disjoint Packing Of Two Steiner Trees: Polyhedra And Branch-And-Cut",
+        "ano": 1999,
+        "doi": "",
+        "autores": "BARBOZA, E. U. ; POGGI DE ARAGAO, M.",
+        "evento": "IPCO 99 - Seventh Conference on Integer Programming and Combinatorial Optimization",
+        "cidade": "",
+        "paginas": "439-452",
+        "isbn": ""
+      },
+      {
+        "titulo": "Probabilistic Satisfiability with Imprecise Probabilities",
+        "ano": 1999,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M.; HANSEN, P. ; JAUMARD, B. ; CHAUNY, F. ; PERRON, S.",
+        "evento": "1st International Symposium on Imprecise Probabilities and Their Applications",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Tabu Search And Strong Cutting Planes For The Flow Shop Scheduling Problem",
+        "ano": 1998,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M.; PALMEIRA, M. M.",
+        "evento": "IX CLAIO - Congreso Latino-Iberoamericano de Invertigación Operativa",
+        "cidade": "",
+        "paginas": "133.1-133.6",
+        "isbn": ""
+      },
+      {
+        "titulo": "Branch And Cut For The Vertex-Disjoint Packing Of Two Steiner Trees",
+        "ano": 1998,
+        "doi": "",
+        "autores": "UCHOA, Eduardo ; POGGI DE ARAGAO, M.",
+        "evento": "IX CLAIO - Congreso Latino-Iberoamericano de Investigación Operativa",
+        "cidade": "",
+        "paginas": "132.1-132.6",
+        "isbn": ""
+      },
+      {
+        "titulo": "The \"Gamma\"-Connected Assignment Problem",
+        "ano": 1996,
+        "doi": "",
+        "autores": "POGGI, M. V. ; POGGI DE ARAGAO, M.",
+        "evento": "Workshop Internacional em Problemas Combinatorios - Teoria",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Models And Algorithms For Probabilistic And Bayesian Logic",
+        "ano": 1995,
+        "doi": "",
+        "autores": "HANSEN, P. ; JAUMARD, B. ; POGGI DE ARAGAO, M. ; NGUETSE, G. D.",
+        "evento": "IJCAII 95 - International Joint Conferences on Artificial Intelligence",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Upper Bounds For Minimum Covering Codes By Tabu Search",
+        "ano": 1995,
+        "doi": "",
+        "autores": "CARMELLO, W. C. E. M. ; POGGI DE ARAGAO, M. ; SOUZA, C. C.",
+        "evento": "II Oficina Nacional de Problemas Combinatorios - Teoria Algoritmos e Aplicacoes (Procomb CNPq)",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "Combining Algebraic And Enumerative Methods To Solve Maximum Satifiability Problems",
+        "ano": 1994,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M",
+        "evento": "TIMS XXXII",
+        "cidade": "",
+        "paginas": "22-22",
+        "isbn": ""
+      },
+      {
+        "titulo": "Boole S Conditions Of Possible Experience And Reasoning Under Uncertainty",
+        "ano": 1992,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M",
+        "evento": "ARIDAM VII (RUTCOR)",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Mixed-Integer Column Generation Algorithms",
+        "ano": 1992,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M",
+        "evento": "OPTIMIZATION DAYS",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Mixed-Integer Column Generation Algorithms And The Probabilistic Maximum Satisfiability Problem",
+        "ano": 1992,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M",
+        "evento": "CONFERENCE ON INTEGER PROGRAMMING AND COMBINATORIAL OPTIMIZATION (IPCO II) -- COM ARBITRAGEM",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Mixed-Integer Column Generation Algorithms",
+        "ano": 1992,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M",
+        "evento": "TIMS-ORSA JOINT NATIONAL MEETING",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "A Primal Algorithm For Generalized Linear Programming For Mixed-Integer Programs",
+        "ano": 1991,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M",
+        "evento": "OPTIMIZATION DAYS",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "Column Generation Methods For Probabilistic Logic",
+        "ano": 1990,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M",
+        "evento": "CONFERENCE ON INTEGER PROGRAMMING AND COMBINATORIAL OPTIMIZATION (IPCO I) -- COM ARBITRAGEM.",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      },
+      {
+        "titulo": "An Application Of Simulated Annealing And Tabu-Search Heuristics To The Problem Of Maximizing The Of Hyperbolic Sum Terms On 0-1 Variables",
+        "ano": 1989,
+        "doi": "",
+        "autores": "POGGI DE ARAGAO, M",
+        "evento": "OPTIMIZATION DAYS",
+        "cidade": "",
+        "paginas": "0-0",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [
+      {
+        "titulo": "A Linear-time Approximation Algorithm for Permutation Flow Shop Scheduling Problem",
+        "ano": 2009,
+        "autores": "POGGI DE ARAGAO, M.; David Sotelo",
+        "evento": "Models and Algorithms for Planning and Scheduling Problems (MAPSP 2009), 2009, Kerkrade. Proceedings",
+        "cidade": "",
+        "paginas": ""
+      },
+      {
+        "titulo": "Integer Program Reformulation for Robust Branch-and-Cut-and-Price Algorithms",
+        "ano": 2003,
+        "autores": "POGGI DE ARAGAO, M.; UCHOA, Eduardo",
+        "evento": "Mathematical Programming in Rio: A Conference in Honour of Nelson Maculan, 2003, Búzios. In Proceedings of the Conference Mathematical Program in Rio: A Conference in Honour of Nelson Maculan. Rio de Janeiro: UFRJ",
+        "cidade": "",
+        "paginas": "56-61"
+      }
+    ],
+    "resumos_congressos": [
+      {
+        "titulo": "Robust Branch-and-Cut-and-Price for the Capacitated Vehicle Routing Problem",
+        "ano": 2003,
+        "autores": "POGGI DE ARAGAO, M.; REIS, M. L. ; FUKASAWA, R. ; UCHOA, E.",
+        "evento": "18th International Symposium on Mthematical Programming - ISMP 2003, 2003, Copenhagen. Proceedings",
+        "cidade": ""
+      },
+      {
+        "titulo": "New Benchmark Instances for the Steiner Problem in Graphs",
+        "ano": 2001,
+        "autores": "ROSSETI, I. C. ; POGGI DE ARAGAO, M. ; RIBEIRO, C. C. ; UCHOA, E. ; WERNECK, R. F.",
+        "evento": "4th Metaheuristics International Conference (MIC'2001), 2001, Porto. Proceedings",
+        "cidade": ""
+      },
+      {
+        "titulo": "Hybrid Local Search for the Steiner Problem in Graphs",
+        "ano": 2001,
+        "autores": "POGGI DE ARAGAO, M.; RIBEIRO, C. C. ; WERNECK, R. F. ; UCHOA, E.",
+        "evento": "4th Metaheuristics International Conference (MIC'2001), 2001, Porto. Proceedings",
+        "cidade": ""
+      },
+      {
+        "titulo": "Preprocessing Steiner problems from VLSI layout",
+        "ano": 2000,
+        "autores": "BARBOZA, E. U. ; POGGI DE ARAGAO, M. ; RIBEIRO, C. C.",
+        "evento": "ISMP 2000 - 17th International Symposium on Mathematical Programming, 2000, Atlanta. Proceedings. Atlanta: Georgia Institute of Technology",
+        "cidade": ""
+      },
+      {
+        "titulo": "Dual heuristics on the exact solution of large Steiner problems",
+        "ano": 2000,
+        "autores": "WERNECK, R. F. ; ANDRADE, D. ; POGGI DE ARAGAO, M. ; BARBOZA, E. U.",
+        "evento": "ISMP 2000 - 17th International Symposium on Mathematical Programming, 2000, Atlanta. Procedings. Atlanta: Georgia Institute of Technology",
+        "cidade": ""
+      },
+      {
+        "titulo": "A Lagrangian relaxation algorithm for the traveling deliveryman problem",
+        "ano": 2000,
+        "autores": "POGGI DE ARAGAO, M.; LUCENA, A. ; RESENDE, M.",
+        "evento": "ISMP 2000 - 17th International Symposium on Mathematical Programming, 2000, Atlanta. Proceedings. Atlanta: Georgia Institute of Technology",
+        "cidade": ""
+      },
+      {
+        "titulo": "The \"Gamma\"-Connected Assignment Problem",
+        "ano": 1997,
+        "autores": "POGGI, M. V. ; POGGI DE ARAGAO, M.",
+        "evento": "16th International Symposium on Mathematical Programming",
+        "cidade": ""
+      },
+      {
+        "titulo": "An Algebraic Enumerative Algorithm For Nonlinear 0-1 Programming",
+        "ano": 1997,
+        "autores": "POGGI DE ARAGAO, M.; PARREIRA, A. D.",
+        "evento": "16th International Symposium on Mathematical Programming",
+        "cidade": ""
+      },
+      {
+        "titulo": "V. ; A Separation Procedure For The Flow Shop Scheduling Problem",
+        "ano": 1996,
+        "autores": "POGGI DE ARAGAO, M.; POGGI, M",
+        "evento": "Workshop Internacional em Problemas Combinatorios (Projeto Procomb - CNPq)",
+        "cidade": ""
+      },
+      {
+        "titulo": "A Primal-Dual Asynchronous Teams For The Set Covering Problem",
+        "ano": 1996,
+        "autores": "LONGO, H. J. ; POGGI DE ARAGAO, M.",
+        "evento": "IFORS 96",
+        "cidade": ""
+      },
+      {
+        "titulo": "V. ; The Flow Shop Scheduing Problem: Strong Cutting Planes And Tabu Search",
+        "ano": 1996,
+        "autores": "POGGI DE ARAGAO, M.; POGGI, M",
+        "evento": "CO96 - Symposium on Combinatorial Optimization",
+        "cidade": ""
+      },
+      {
+        "titulo": "Times Assincronos Para O Scp",
+        "ano": 1995,
+        "autores": "LONGO, H. J. ; POGGI DE ARAGAO, M.",
+        "evento": "XXVII SBPO",
+        "cidade": ""
+      },
+      {
+        "titulo": "Modelo Para Analise de Desempenho de Metaheuristicas Baseadas Em Busca Tabu",
+        "ano": 1995,
+        "autores": "PUREZA, V. ; FRANCA, P. ; POGGI DE ARAGAO, M.",
+        "evento": "XXVII SBPO",
+        "cidade": ""
+      },
+      {
+        "titulo": "Combining Algebraic And Enumerative Algorithms For Maximization Of Nonlinear 0-1 Functions",
+        "ano": 1994,
+        "autores": "POGGI DE ARAGAO, M",
+        "evento": "Simpósio Brasileiro de Pesquisa Operacional XXVI SOBRAPO, 1994, Florianópolis. Anais do XXVI SBPO",
+        "cidade": ""
+      },
+      {
+        "titulo": "A Dynamic Programming Approach To The Scheduling Of Cf-18 Missions",
+        "ano": 1993,
+        "autores": "POGGI DE ARAGAO, M",
+        "evento": "TIMS-ORSA JOINT NATIONAL MEETING, 1993. CHICAGO, IL",
+        "cidade": ""
+      }
+    ],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "Exact Algorithms for Weighted Tardiness Scheduling Problems",
+        "ano": 2008,
+        "autores": "PESSOA, A. ; POGGI DE ARAGAO, M. ; UCHOA, E.",
+        "evento": ""
+      },
+      {
+        "titulo": "Solving Tactical Less-than-Truckload Transportation Planning Problems",
+        "ano": 2008,
+        "autores": "CUNHA, P. ; REIS, M. L. ; POGGI DE ARAGAO, M.",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [],
+    "outras_producoes": []
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [
+      {
+        "titulo": "Industrial Cargo Routing and Scheduling Problem (ICRSP)",
+        "ano": 2020,
+        "autores": "ROSA, L. ; Poggi, Marcus",
+        "instituicao": "",
+        "finalidade": ""
+      },
+      {
+        "titulo": "Rotulador de imagens usando superpixels",
+        "ano": 2020,
+        "autores": "NUNES, I. M. ; Poggi, Marcus",
+        "instituicao": "",
+        "finalidade": ""
+      }
+    ],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [
+      {
+        "titulo": "Técnicas de previsões de séries temporais",
+        "ano": 2020,
+        "autores": "ESCUDERO, C. V. ; POGGI DE ARAGAO, M.",
+        "tipo": "Demais tipos de produção técnica"
+      },
+      {
+        "titulo": "Multiobjective Quasi-L0 Seismic Inversion",
+        "ano": 2020,
+        "autores": "SOUZA, M. G. ; POGGI DE ARAGAO, M.",
+        "tipo": "Demais tipos de produção técnica"
+      }
+    ],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Geração de Cortes e Colunas para Problemas de Roteamento de Veículos com Sincronização",
+          "ano_inicio": 2013,
+          "orientando": "Fabian Arturo Castilla Penaranda",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Algoritmo Básico Híbrido para Programação Binária Não Linear Irrestrita,",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Luisa Silveira Rosa",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Binary Matrix Factorization Post- processing and Applications",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Georges Miranda Spyrides",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Open-set semantic segmentation for remote sensing images",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Ian Monteiro Nunes",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Proposal of a new Stream Cipher Based o Collision resistant Hash Functions",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Marcio Ricardo Rosemberg",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Effective Resource Allocation for Planning and Control Project Portfolios Under Uncertainty: A Robust Approach",
+          "ano_inicio": 2017,
+          "ano_conclusao": 2017,
+          "orientando": "Carlos Raoni de Alencar Mendes",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Optimization under uncertainty for asset allocation",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Thuener Armando da Silva",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Exact Algorithms for the Capacitated Vehicle Routing Problem",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Diego Galindo Pecin",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Exact Algorithms for Arc and Node Routing Problems",
+          "ano_inicio": 2012,
+          "ano_conclusao": 2012,
+          "orientando": "Rafael Martinelli Pinto",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Francisco Henrique de Freitas Viana",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Modelos e Algoritmos para o Team Orienteering Problem",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "On the Permutation Flow Shop Scheduling Problem",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "David Sotelo Pinheiro da Silva",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Petroleum Supply Planning: Models, Reformulations and Algorithms",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Roger Rocha",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Otimização Estocástica com Incertezas Endógenas: uma Aplicação em Logística Humanitária",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Bruno da Costa Flach",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "On Routing Problems with Splittable Demands",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "Lorenza Leão de Oliveira Moreno",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Técnicas para programação inteira e aplicações em problemas de roteamento de veiculos",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Humberto Jose Longo",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos para Problemas de Steiner com Aplicações em Projeto de Circuitos VLSI",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Eduardo Uchoa Barboza",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Im- proved Hybrid Genetic Search for the Inventory Routing Problem",
+          "ano_inicio": 2023,
+          "ano_conclusao": 2023,
+          "orientando": "Bruno Guimarães de Castro",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "On Automatic Generation of Knowledge Connections",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Felipe Poggi de Aragao Fraga",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmo Price-and-cut com 3 srcs e numeração de colunas para o problema de alocação generalizada",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Rafael Azevedo Moscoso Silva Cruz",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Deep Reinforcement Learning for Voltage Control in power systems",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Mauricio Raphael Waisblum Barg",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Detecção de logotipos em real-time",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Claudio Vieira Escudero",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Resistance of tree ensemble leaves as features to ex- treme overfitting",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Alexandre Werneck Andreza",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "PUC-Rio (Desempenho Acadêmico)",
+          "curso": ""
+        },
+        {
+          "titulo": "A Study on Neura Networks for Poker Playing Agents",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Alexandre Marangoni Costa",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Branch-Cut-and-Price Approach for Process Discovery",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Georges Miranda Spyrides",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Detecção de anomalias nas métricas das monitorações de máquinas de um data center",
+          "ano_inicio": 2019,
+          "ano_conclusao": 2019,
+          "orientando": "Ricardo Souza Dias",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Serviços, Processos e Máquinas: Um estudo de metodologias para realocação de processos nas maquinas",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Rodrigo Mosconi de Gouveia",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Study on ellipsoidal clustering",
+          "ano_inicio": 2018,
+          "ano_conclusao": 2018,
+          "orientando": "Raphael Araujo Sampaio",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Strong Lower Bounds for the CVRP via Column and Cut Generation",
+          "ano_inicio": 2016,
+          "ano_conclusao": 2016,
+          "orientando": "Marcelo Malta Rodrigues Martins",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A MIP-Based Approach to Solve a Real-World School Timetabling Problem",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Nara Torres Moreira",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "2D Phase Unwrapping via Minimum Spanning Forest with Balance Constraints",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Ian Hodara Herzterg",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "On the Min Distance Superset Problem",
+          "ano_inicio": 2015,
+          "ano_conclusao": 2015,
+          "orientando": "Leonardo Lobo da Cunha Fontoura",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "SRAP - A New Authentication Protocol for Semantic Web Applications",
+          "ano_inicio": 2014,
+          "ano_conclusao": 2014,
+          "orientando": "Marcio Ricardo Rosenberg",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Vehicle Routing Problem with Time Windows and Exact Synchronization Constraints",
+          "ano_inicio": 2013,
+          "ano_conclusao": 2013,
+          "orientando": "Fabian Arturo Castilla Penaranda",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Integrando Metaeurísticas com Resolvedores MIP para o Capacitated Vehicle Routing Problem",
+          "ano_inicio": 2011,
+          "ano_conclusao": 2011,
+          "orientando": "Pedro Nuno de Souza Moura",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "An Improved Exact Method for the UBQP",
+          "ano_inicio": 2010,
+          "ano_conclusao": 2010,
+          "orientando": "Daniel Fleischman",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A Mixed Integer Programming approach for sugar cane cultivation and harvest planning",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Sanjay Dominik Jena",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos para Problemas de Programação de Horários de Cursos Pós-Matrícula",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Vitor Cavalcanti Dantas",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Algoritmos Primais e Duais para o Problema das p-Medianas",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Gleidson Fonseca Soares",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Combinando metaeurísticas com resolvedores MIP",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Daniel Amaral de Medeiros Rocha",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Códigos de Cobertura:Limites e Heurísticas",
+          "ano_inicio": 2009,
+          "ano_conclusao": 2009,
+          "orientando": "Carlos Raoni de Alencar Mendes",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Planejamento Tático no Transporte Rodoviário de Cargas Fracionadas: Modelos e Algoritmos",
+          "ano_inicio": 2008,
+          "ano_conclusao": 2008,
+          "orientando": "Pedro de Moura e Cunha",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Modelos e Algoritmos para Análise de Congestionamento e Determinação de Paradas na Logística Ferroviária",
+          "ano_inicio": 2007,
+          "ano_conclusao": 2007,
+          "orientando": "Rafael Martinelli Pinto",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Algoritmo de Geração de Colunas e Cortes para o Problema de Roteamento de Veículos",
+          "ano_inicio": 2004,
+          "ano_conclusao": 2004,
+          "orientando": "Marcelo Ladeira Reis",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Integração de Inferências Semânticas e Recuperação de Informações no Projeto e Implementação de Aplicações Hipermídia.",
+          "ano_inicio": 2003,
+          "ano_conclusao": 2003,
+          "orientando": "Cristiano Braz Rocha",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Modelos e Algoritmos para o Problema de Alocação Generalizada (PAG) e Aplicações",
+          "ano_inicio": 2003,
+          "ano_conclusao": 2003,
+          "orientando": "Alexandre Altoé Pigatti",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Modelo de Determinação de Preços para Leilões",
+          "ano_inicio": 2002,
+          "ano_conclusao": 2002,
+          "orientando": "Diogo Vieira Andrade",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Simulação do Escoamento de Água e Óleo em Meios Porosos",
+          "ano_inicio": 2002,
+          "ano_conclusao": 2002,
+          "orientando": "Marcos Aurélio Citeli da Silva",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Problema de Steiner em Grafos: Algoritmos Primais, Duais e Exatos.",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Renato Fonseca Furquim Werneck",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Um Modelo Hierárquico para Detecção de Regiões Promotoras em Sequências de DNA",
+          "ano_inicio": 2001,
+          "ano_conclusao": 2001,
+          "orientando": "Márcia Mártyres Bezerra",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Problemas de Classificao Com Restricoes de Conexidade Flexibilizadas: Uma Abordagem Combinatoria",
+          "ano_inicio": 1997,
+          "ano_conclusao": 1997,
+          "orientando": "Eduardo Uchoa Barboza",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Estadual de Campinas",
+          "curso": ""
+        },
+        {
+          "titulo": "Metaheuristicas Para O Problema de Segmentacao de Imagens",
+          "ano_inicio": 1997,
+          "ano_conclusao": 1997,
+          "orientando": "Maria do Socorro Alves Taumaturgo de Farias",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Estadual de Campinas",
+          "curso": ""
+        },
+        {
+          "titulo": "Metodos Algebrico Enumerativos Para O Problema de Maxima Satisfatibilidade",
+          "ano_inicio": 1995,
+          "ano_conclusao": 1995,
+          "orientando": "Anderson Delcio Parreira",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Estadual de Campinas",
+          "curso": ""
+        },
+        {
+          "titulo": "Aplicacao de A-Teams Ao Problema de Recobrimento",
+          "ano_inicio": 1995,
+          "ano_conclusao": 1995,
+          "orientando": "Humberto Jose Longo",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidade Estadual de Campinas",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [],
+      "iniciacao_cientifica": [],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "ISMP",
+        "apresentacao": "The Column Generation Improvement Heuristic (CGI) and its Consequences",
+        "ano": 2009,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "ROUTE 2009",
+        "apresentacao": "Fast lower bounds for the capacitated arc routing problem",
+        "ano": 2009,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Column Generation",
+        "apresentacao": "Extended Formulations for The Scheduling Problem: Column Generation",
+        "ano": 2008,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "INFORMS",
+        "apresentacao": "Petrobras Optimizes Helicopter Transport of Personnel to Offshore Platforms",
+        "ano": 2008,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Matheuristics",
+        "apresentacao": "Basic Heuristic Semantic Techniques for Structured MIPS",
+        "ano": 2008,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Optimization Days/Journees d'Optimzation (JOPT) / CORS",
+        "apresentacao": "Exact Algorithms for Weighted Tardiness Scheduling Problems",
+        "ano": 2008,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Optimization Days/Journees d'Optimzation (JOPT)",
+        "apresentacao": "Cargo Railway Planning Models",
+        "ano": 2007,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Optimization Days/Journees d'Optimzation (JOPT)",
+        "apresentacao": "Routing with Branch-Cut-and-Price: Robust and Non-Robust Improvements",
+        "ano": 2007,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "ROUTE 2007",
+        "apresentacao": "Routing with Branch-cut-and-price: Robust and Non-robust improvements",
+        "ano": 2007,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Matheuristics",
+        "apresentacao": "Feasibility and Improvement in Mixed Integer Programming: A Case Study",
+        "ano": 2006,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "ROUTE 2005 - International workshop on vehicle routing and intermodal transportation",
+        "apresentacao": "Solving Routing Problems with Branch-Cut-and-Price",
+        "ano": 2005,
+        "tipo_evento": "Oficina",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Mathematical Programming in Rio: A Conference in Honour of Nelson Maculan",
+        "apresentacao": "Integer Programming Reformulation for Robust Branch-and-Cut-and-Price Algorithms",
+        "ano": 2003,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "First Seminar on Advanced Research in Electronic Business (EBR 2002)",
+        "apresentacao": "Keynote speaker,Palestra: Eletronic Business and Combinatorial Optimization, First Seminar on Advanced Research in Electronic Business (EBR 2002)",
+        "ano": 2002,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": [
+      {
+        "autores": "Poggi, Marcus; DÉSAULNIERS, G. ; UCHOA, Eduardo ; Rafael Martinelli ; DESROSIERS, J. ; LUBBECKE, M.",
+        "evento": "2016 International Workshop on Column Generation",
+        "ano": 2016,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      },
+      {
+        "autores": "LUCENA, A. ; M.H. Jardim ; POGGI DE ARAGAO, M. ; MARQUES, M. F. C.",
+        "evento": "Mathematical Programming in Rio: A Conference in Honour of Nelson Maculan",
+        "ano": 2003,
+        "natureza": "Congresso",
+        "tipo": "Organização de evento"
+      }
+    ]
+  },
+  "bancas": {
+    "mestrado": [],
+    "doutorado": [
+      {
+        "descricao": "POGGI DE ARAGAO, M.; Szwarcfiter, J.; Maculan, N.; Mateus, G.R.; Klein, S.. Participação em banca de Rosiane de Freitas Rodrigues. Caracterizações e Algoritmos para Problemas Clássicos de Escalonamento. 2009. Tese (Doutorado em Engenharia de Sistemas e Computação) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2009,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Rosiane de Freitas Rodrigues",
+        "membros_banca": [
+          "POGGI DE ARAGAO, M.",
+          "Szwarcfiter, J.",
+          "Maculan, N.",
+          "Mateus, G.R.",
+          "Klein, S."
+        ],
+        "titulo_trabalho": "Caracterizações e Algoritmos para Problemas Clássicos de Escalonamento",
+        "curso": "Tese (Doutorado em Engenharia de Sistemas e Computação)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "DÉSAULNIERS, G.; GAMACHE, M.; CORDEAU, J-F.; SOUMIS, F.; POGGI DE ARAGAO, M.. Participação em banca de Ève Lacasse-Guay. Affectation des Types d'avions aux vols avec contraintes de maintenance. 2009. Tese (Doutorado em Matemática Aplicada) - Ecole Polytechnique de Montreal.",
+        "ano": 2009,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Ève Lacasse-Guay",
+        "membros_banca": [
+          "DÉSAULNIERS, G.",
+          "GAMACHE, M.",
+          "CORDEAU, J-F.",
+          "SOUMIS, F.",
+          "POGGI DE ARAGAO, M."
+        ],
+        "titulo_trabalho": "Affectation des Types d'avions aux vols avec contraintes de maintenance",
+        "curso": "Tese (Doutorado em Matemática Aplicada)",
+        "universidade": "Ecole Polytechnique de Montreal"
+      },
+      {
+        "descricao": "Camponogara, E.; POGGI DE ARAGAO, M.; Campos, M.; Rico, J.M.; Moreno, U.. Participação em banca de Paulo Hiroaqui Ruiz Nakashima. Alocação de Gás de Elevação em Campos de Petróleo: Modelos e Algoritmos. 2007. Tese (Doutorado em Engenharia Elétrica) - Universidade Federal de Santa Catarina.",
+        "ano": 2007,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Paulo Hiroaqui Ruiz Nakashima",
+        "membros_banca": [
+          "Camponogara, E.",
+          "POGGI DE ARAGAO, M.",
+          "Campos, M.",
+          "Rico, J.M.",
+          "Moreno, U."
+        ],
+        "titulo_trabalho": "Alocação de Gás de Elevação em Campos de Petróleo: Modelos e Algoritmos",
+        "curso": "Tese (Doutorado em Engenharia Elétrica)",
+        "universidade": "Universidade Federal de Santa Catarina"
+      },
+      {
+        "descricao": "POGGI DE ARAGAO, M.. Participação em banca de Vinicius Gusmão Pereira de Sá. Dez algoritmos para o problema-sanduíche do conjunto homogêneo. 2006. Tese (Doutorado em Ciência da Informação) - Universidade Federal do Rio de Janeiro.",
+        "ano": 2006,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Vinicius Gusmão Pereira de Sá",
+        "membros_banca": [
+          "POGGI DE ARAGAO, M."
+        ],
+        "titulo_trabalho": "Dez algoritmos para o problema-sanduíche do conjunto homogêneo",
+        "curso": "Tese (Doutorado em Ciência da Informação)",
+        "universidade": "Universidade Federal do Rio de Janeiro"
+      },
+      {
+        "descricao": "Mateus, G.R.; SOUZA, C. C.; LUNA, H.P.; VASCONCELOS, J.A.; POGGI DE ARAGAO, M.. Participação em banca de Guilherme Bastos Alvarenga. Um Algoritmo Híbrido para os Problemas de Roteamento de Veículos Estático e Dinâmico com Janela de Tempo. 2005. Tese (Doutorado em Ciências da Computação) - Universidade Federal de Minas Gerais.",
+        "ano": 2005,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Guilherme Bastos Alvarenga",
+        "membros_banca": [
+          "Mateus, G.R.",
+          "SOUZA, C. C.",
+          "LUNA, H.P.",
+          "VASCONCELOS, J.A.",
+          "POGGI DE ARAGAO, M."
+        ],
+        "titulo_trabalho": "Um Algoritmo Híbrido para os Problemas de Roteamento de Veículos Estático e Dinâmico com Janela de Tempo",
+        "curso": "Tese (Doutorado em Ciências da Computação)",
+        "universidade": "Universidade Federal de Minas Gerais"
+      },
+      {
+        "descricao": "POGGI DE ARAGAO, M.; MARKENZON, L.. Concurso de Teses e Dissertações da Socidedade Brasileira de Computação (SBC). 2007. Instituto Militar de Engenharia.",
+        "ano": 2007,
+        "tipo": "Tese de Doutorado",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Instituto Militar de Engenharia.",
+        "universidade": ""
+      },
+      {
+        "descricao": "POGGI DE ARAGAO, M.. Concurso de Teses e Dissertações (CTD) da SBC. 2004. Universidade Federal da Bahia.",
+        "ano": 2004,
+        "tipo": "Tese de Doutorado",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Federal da Bahia.",
+        "universidade": ""
+      },
+      {
+        "descricao": "POGGI DE ARAGAO, M.. Concurso de Teses e Dissertações (CTD) da SBC. 2003. Universidade Estadual de Campinas.",
+        "ano": 2003,
+        "tipo": "Tese de Doutorado",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Universidade Estadual de Campinas.",
+        "universidade": ""
+      },
+      {
+        "descricao": "POGGI DE ARAGAO, M.. Concurso de Teses e Dissertações da Socidedade Brasileira de Computação (SBC). 1999. Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 1999,
+        "tipo": "Tese de Doutorado",
+        "aluno": "",
+        "membros_banca": [],
+        "titulo_trabalho": "",
+        "curso": "Pontifícia Universidade Católica do Rio de Janeiro.",
+        "universidade": ""
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [],
+    "outras": []
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 35,
+    "total_livros": 0,
+    "total_capitulos": 9,
+    "total_trabalhos_congressos": 37,
+    "total_projetos_pesquisa": 2,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 0,
+    "total_orientacoes_concluidas": 52,
+    "total_orientacoes_andamento": 1
+  }
+}

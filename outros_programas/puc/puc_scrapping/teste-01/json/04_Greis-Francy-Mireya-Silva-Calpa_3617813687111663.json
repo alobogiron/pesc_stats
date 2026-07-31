@@ -1,0 +1,1852 @@
+{
+  "informacoes_pessoais": {
+    "id_lattes": "3617813687111663",
+    "nome_completo": "Greis Francy Mireya Silva Calpa",
+    "nome_citacoes": "Silva, G. F. M.;Silva, Greis F. Mireya;Mireya Silva, Greis F.;Silva-Calpa, G. F. M.;SILVA-CALPA, GREIS F.M.;SILVA-CALPA, GREIS FRANCY M.;SILVA-CALPA, GREIS FRANCY MIREYA;SILVA-CALPA, GREIS;SILVA-CALPA, GREIS F. M.;SILVA-CALPA, GREIS F M",
+    "sexo": "Masculino",
+    "rotulo": "* Sem rótulo",
+    "periodo": "",
+    "bolsa_produtividade": "",
+    "endereco_profissional": "Pontifícia Universidade Católica do Rio de Janeiro, Instituto Tecgraf. Rua Marquês de São Vicente, 225 Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35204000 URL da Homepage: www.tecgraf.puc-rio.br",
+    "atualizacao_cv": "28/06/2026",
+    "url": "http://lattes.cnpq.br/3617813687111663",
+    "texto_resumo": "Professora no Departamento de Informática da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio). Coordenadora do Núcleo de Inovação em Tecnologias e Aplicações para a Saúde (NITAS) do DI/PUC-Rio. Possui graduação (Summa Cum Laude) em Licenciatura em Informática pela Universidad de Nariño - Colômbia (2009), com revalidação como Bacharel em Ciência da Computação pela Universidade Federal Fluminense (UFF), mestrado em Informática (2012) e doutorado em Ciências - Informática pela PUC-Rio (2016) com ênfase em Interação Humano-Computador (IHC). Durante o doutorado foi contemplada com bolsa FAPERJ - Nota 10. Realizou pós-doutorado no Laboratório Nacional de Computação Científica (LNCC) e no Departamento de Informática da PUC-Rio. Seus principais interesses de pesquisa incluem: sistemas interativos centrados no usuário, sistemas inteligentes aplicados à saúde e educação e, em geral, estudos envolvendo a interseção de IHC e Inteligência Artificial. (Texto informado pelo autor)"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "2012",
+      "ano_conclusao": "2016",
+      "descricao": "Título: Estratégias para suporte à colaboração em sistemas presenciais para pessoas com Transtorno do Espectro Autista O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de obtenção: 2016. Orientador: Alberto Barbosa Raposo. Bolsista do(a): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ, FAPERJ, Brasil. Palavras-chave: Autismo; Sistemas colaborativos; Colaboração presencial; Suporte à percepção. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Interação Humano Computador. Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Computer Supported Cooperative Work."
+    },
+    {
+      "tipo": "Mestrado em Informática",
+      "nome_instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "ano_inicio": "2010",
+      "ano_conclusao": "2012",
+      "descricao": "Título: PAR (Peço, Ajudo, Recebo): Um jogo colaborativo em mesa multi-toque para apoiar a interação social de usuários com autismo O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações. , Ano de Obtenção: 2012. Orientador: Alberto Barbosa Raposo. Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. Palavras-chave: Jogos colaborativos; Mesa multi-toque; Autismo. Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Interação Humano Computador."
+    },
+    {
+      "tipo": "Graduação em Licenciatura em Informática",
+      "nome_instituicao": "Universidad de Narino, U",
+      "ano_inicio": "2003",
+      "ano_conclusao": "2009",
+      "descricao": "NARINO, Colômbia. Título: Objeto Virtual de Aprendizaje para la concientización frente a los fenómenos naturales y antrópicos que se suscitan en el Departamento de Narino. Orientador: Luís Eduardo Paz."
+    }
+  ],
+  "atuacao_profissional": [
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2023 - Atual",
+      "ano_inicio": "2023",
+      "ano_fim": "Atual",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor Assistente",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "2017 - 2019",
+      "ano_inicio": "2017",
+      "ano_fim": "2019",
+      "vinculo": "Bolsista",
+      "enquadramento": "Pesquisador",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "08/2023 - Atual",
+      "ano_inicio": "2023",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "03/2023 - Atual",
+      "ano_inicio": "2023",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil",
+      "instituicao_nome": "Pontifícia Universidade Católica do Rio de Janeiro",
+      "instituicao_sigla": "PUC-Rio",
+      "instituicao_pais": "Brasil",
+      "periodo": "11/2017 - Atual",
+      "ano_inicio": "2017",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Departamento de Informática."
+      ]
+    },
+    {
+      "instituicao": "Instituto Tecgraf/PUC-Rio, TECGRAF/PUC-RIO, Brasil.",
+      "instituicao_nome": "Instituto Tecgraf/PUC-Rio",
+      "instituicao_sigla": "TECGRAF/PUC-RIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "2019 - 2023",
+      "ano_inicio": "2019",
+      "ano_fim": "2023",
+      "vinculo": "Celetista",
+      "enquadramento": "Consultor I do Instituto Tecgraf",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Tecgraf/PUC-Rio, TECGRAF/PUC-RIO, Brasil.",
+      "instituicao_nome": "Instituto Tecgraf/PUC-Rio",
+      "instituicao_sigla": "TECGRAF/PUC-RIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "2013 - 2014",
+      "ano_inicio": "2013",
+      "ano_fim": "2014",
+      "vinculo": "Bolsista",
+      "enquadramento": "Pesquisadora",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Instituto Tecgraf/PUC-Rio, TECGRAF/PUC-RIO, Brasil",
+      "instituicao_nome": "Instituto Tecgraf/PUC-Rio",
+      "instituicao_sigla": "TECGRAF/PUC-RIO",
+      "instituicao_pais": "Brasil",
+      "periodo": "12/2019 - Atual",
+      "ano_inicio": "2019",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Instituto Tecgraf/PUC_Rio."
+      ]
+    },
+    {
+      "instituicao": "Laboratório Nacional de Computação Científica, LNCC, Brasil.",
+      "instituicao_nome": "Laboratório Nacional de Computação Científica",
+      "instituicao_sigla": "LNCC",
+      "instituicao_pais": "Brasil",
+      "periodo": "2017 - 2017",
+      "ano_inicio": "2017",
+      "ano_fim": "2017",
+      "vinculo": "Bolsista",
+      "enquadramento": "Pesquisador",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Laboratório Nacional de Computação Científica, LNCC, Brasil",
+      "instituicao_nome": "Laboratório Nacional de Computação Científica",
+      "instituicao_sigla": "LNCC",
+      "instituicao_pais": "Brasil",
+      "periodo": "04/2017 - 10/2017",
+      "ano_inicio": "2017",
+      "ano_fim": "2017",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional",
+      "atividades": [
+        "Pesquisa e desenvolvimento, Laboratório de Ambientes Colaborativos e Multimídia Aplicada (ACiMA)."
+      ]
+    },
+    {
+      "instituicao": "Universidad de Narino, U.NARINO, Colômbia.",
+      "instituicao_nome": "Universidad de Narino",
+      "instituicao_sigla": "U.NARINO",
+      "instituicao_pais": "Colômbia",
+      "periodo": "2023 - Atual",
+      "ano_inicio": "2023",
+      "ano_fim": "Atual",
+      "vinculo": "Professor Visitante",
+      "enquadramento": "Professor pós-graduação",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidad de Narino, U.NARINO, Colômbia.",
+      "instituicao_nome": "Universidad de Narino",
+      "instituicao_sigla": "U.NARINO",
+      "instituicao_pais": "Colômbia",
+      "periodo": "2022 - 2022",
+      "ano_inicio": "2022",
+      "ano_fim": "2022",
+      "vinculo": "Professor Visitante",
+      "enquadramento": "Professor pós-graduação",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidad de Narino, U.NARINO, Colômbia.",
+      "instituicao_nome": "Universidad de Narino",
+      "instituicao_sigla": "U.NARINO",
+      "instituicao_pais": "Colômbia",
+      "periodo": "2021 - 2021",
+      "ano_inicio": "2021",
+      "ano_fim": "2021",
+      "vinculo": "Professor Visitante",
+      "enquadramento": "Professor pós-graduação",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidad de Narino, U.NARINO, Colômbia.",
+      "instituicao_nome": "Universidad de Narino",
+      "instituicao_sigla": "U.NARINO",
+      "instituicao_pais": "Colômbia",
+      "periodo": "2008 - 2008",
+      "ano_inicio": "2008",
+      "ano_fim": "2008",
+      "vinculo": "Estudante pesquisador",
+      "enquadramento": "Estudante pesquisador",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidad de Narino, U",
+      "instituicao_nome": "Universidad de Narino",
+      "instituicao_sigla": "U",
+      "instituicao_pais": null,
+      "periodo": "07/2023 - Atual",
+      "ano_inicio": "2023",
+      "ano_fim": "Atual",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidad de Narino, U",
+      "instituicao_nome": "Universidad de Narino",
+      "instituicao_sigla": "U",
+      "instituicao_pais": null,
+      "periodo": "08/2021 - 12/2022",
+      "ano_inicio": "2021",
+      "ano_fim": "2022",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidad de Narino, U",
+      "instituicao_nome": "Universidad de Narino",
+      "instituicao_sigla": "U",
+      "instituicao_pais": null,
+      "periodo": "02/2022 - 06/2022",
+      "ano_inicio": "2022",
+      "ano_fim": "2022",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidad del Cauca - Computadores para Educar, CPE, Colômbia.",
+      "instituicao_nome": "Universidad del Cauca - Computadores para Educar",
+      "instituicao_sigla": "CPE",
+      "instituicao_pais": "Colômbia",
+      "periodo": "2010 - 2010",
+      "ano_inicio": "2010",
+      "ano_fim": "2010",
+      "vinculo": "Celetista",
+      "enquadramento": "Professor",
+      "regime": "Dedicação exclusiva",
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Universidad del Cauca - Computadores para Educar, CPE, Colômbia",
+      "instituicao_nome": "Universidad del Cauca - Computadores para Educar",
+      "instituicao_sigla": "CPE",
+      "instituicao_pais": "Colômbia",
+      "periodo": null,
+      "ano_inicio": null,
+      "ano_fim": null,
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Observatorio",
+      "instituicao_nome": "Observatorio",
+      "instituicao_sigla": null,
+      "instituicao_pais": null,
+      "periodo": "2005 - 2009",
+      "ano_inicio": "2005",
+      "ano_fim": "2009",
+      "vinculo": "Estágio",
+      "enquadramento": "Análise dados primarios da atividade sísmica",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Alternativas Pedagógicas Ltda, AP, Colômbia.",
+      "instituicao_nome": "Alternativas Pedagógicas Ltda",
+      "instituicao_sigla": "AP",
+      "instituicao_pais": "Colômbia",
+      "periodo": "2007 - 2009",
+      "ano_inicio": "2007",
+      "ano_fim": "2009",
+      "vinculo": "Professor",
+      "enquadramento": "Professor de Matemáticas",
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    },
+    {
+      "instituicao": "Alternativas Pedagógicas Ltda, AP, Colômbia",
+      "instituicao_nome": "Alternativas Pedagógicas Ltda",
+      "instituicao_sigla": "AP",
+      "instituicao_pais": "Colômbia",
+      "periodo": "02/2007 - 05/2009",
+      "ano_inicio": "2007",
+      "ano_fim": "2009",
+      "vinculo": null,
+      "enquadramento": null,
+      "regime": null,
+      "cargo_funcao": null,
+      "tipo": "Atuação profissional"
+    }
+  ],
+  "projetos_pesquisa": [
+    {
+      "nome": "Sistemas de Interação Humano-IA: Impactos no Uso, Bem-Estar e Autonomia",
+      "ano_inicio": "2024",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: Este projeto investiga como as pessoas percebem, adotam e usam sistemas de IA generativa. Busca entender os desafios centrais da interação Humano-IA e os fatores que influenciam a aceitação dessas tecnologias; o impacto do uso desses sistemas no apoio emocional e no bem-estar de estudantes universitários; bem como os efeitos do uso frequente da ferramenta sobre sua autonomia intelectual. O projeto busca entender como esses elementos se influenciam mutuamente na experiência real de uso e, a partir disso, produzir guidelines de design que promovam interações mais responsáveis, eficazes e alinhadas às necessidades dos usuários.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Greis Francy Mireya Silva Calpa - Coordenador / Breno Lois - Integrante / Lívia Lutz - Integrante / Livian de Oliveira - Integrante / Erica Regnier - Integrante."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Greis Francy Mireya Silva Calpa",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Breno Lois",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Lívia Lutz",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Livian de Oliveira",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Erica Regnier",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Reabilitação através de ambientes virtuais",
+      "ano_inicio": "2017",
+      "ano_conclusao": "2017",
+      "descricao": [
+        "Descrição: Estudo e desenvolvimento de ambientes em realidad virtual para reabilitação, visando apoiar aos pacientes na melhora de processos cognitivos como a percepção, localização, atenção, concentração, memoria e raciocínio. Pretende-se que os ambientes sejam customizáveis conforme as funcionalidades e avanço dos pacientes, além de possuir características fortemente recomendadas na literatura, como a facilidade de interação, realismo da tarefa, interação com avatares e uso de dispositivos de feedback, para melhorar a sensação de imersão, presença e o efeito terapêutico em geral. Situação: Desativado; Natureza: Pesquisa. Integrantes: Greis Francy Mireya Silva Calpa - Integrante / Jauvane C. de Oliveira - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Greis Francy Mireya Silva Calpa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Jauvane C",
+          "papel": "Integrante"
+        }
+      ]
+    },
+    {
+      "nome": "Desenvolvimento de jogos computacionais tangíveis para pessoas com autismo",
+      "ano_inicio": "2013",
+      "ano_conclusao": "2015",
+      "descricao": [
+        "Descrição: Este projeto propõe o desenvolvimento de um jogo colaborativo para tecnologias multi-toque tangíveis (mesa multi-toque e tablets), visando promover a necessidade de interação e a intenção comunicativa de pessoas com autismo. Resultados anteriores da parceria PUC-Rio / Instituto Ann Sullivan destacam a importância de apresentar para os usuários um sistema em tecnología tangível, com atividades que requeiram uma mínima quantidade de tarefas colaborativas e incrementar essas tarefas à medida que os usuários vão avançando no jogo. O presente projeto pretende dar prosseguimento a essa parceria, com o desenvolvimento de um jogo mais elaborado, portável tanto para ambientes sofisticados (mesa multi-toque) quanto mais portável (tablets), além de incluir características customizáveis para adaptar o sistema às diferentes características dos usuários.. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (2) . Integrantes: Greis Francy Mireya Silva Calpa - Integrante / Maryse Suplino - Integrante / Priscilla Fonseca de Abreu Braz - Integrante / RAPOSO, ALBERTO - Coordenador / Clarisse Sieckenius de Souza - Integrante.",
+        "Descrição: Este projeto propõe o desenvolvimento de um jogo colaborativo para tecnologias multi-toque tangíveis que visam promover a necessidade de interação e a intenção comunicativa de pessoas com autismo. A característica altamente customizável do software desenvolvido permitirá sua adaptação às diferentes características dos usuários e aos aspectos visuais e sonoros, além de oferecer aos usuários um ambiente para eles trabalharem em seu próprio ritmo. Resultados anteriores da parceria PUC-Rio / Instituto Ann Sullivan destacaram a importância de apresentar para os usuários um sistema que requer uma mínima quantidade de tarefas colaborativas e incrementar essas tarefas à medida que os usuários vão avançando no jogo. O presente projeto pretende dar prosseguimento a essa parceria, com o desenvolvimento de um jogo mais elaborado, portável tanto para ambientes sofisticados (mesa multi-toque) quanto mais portáveis (tablets).. Situação: Concluído; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (2) . Integrantes: Alberto Barbosa Raposo - Coordenador / Clarisse Sieckenius de Souza - Integrante / Priscilla Fonseca de Abreu Braz - Integrante / Maryse Helena Felippe de Oliveira Suplino - Integrante / Greis Francy Mireya Silva Calpa - Integrante. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Auxílio financeiro."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Greis Francy Mireya Silva Calpa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Maryse Suplino",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Priscilla Fonseca de Abreu Braz",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "RAPOSO, ALBERTO",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Clarisse Sieckenius de Souza",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Alberto Barbosa Raposo",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "Maryse Helena Felippe de Oliveira Suplino",
+          "papel": "Integrante"
+        }
+      ],
+      "financiadores": [
+        {
+          "nome": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ",
+          "tipo_apoio": "Auxílio financeiro"
+        }
+      ]
+    },
+    {
+      "nome": "Análisis de las diferencias en el currículo del área de Tecnología e Informática en las Instituciones educativas de Pasto",
+      "ano_inicio": "2008",
+      "ano_conclusao": "2008",
+      "descricao": [
+        "Situação: Concluído; Natureza: Pesquisa. Integrantes: Greis Francy Mireya Silva Calpa - Integrante / Claudia Andrea Guzmán - Integrante / Nathaly Alexandra Caicedo - Integrante / Leydy Esneda Obando - Integrante / Luis Eduardo Paz - Coordenador."
+      ],
+      "tipo": "Projeto de pesquisa",
+      "integrantes": [
+        {
+          "nome": "Greis Francy Mireya Silva Calpa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Claudia Andrea Guzmán",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Nathaly Alexandra Caicedo",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Leydy Esneda Obando",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Luis Eduardo Paz",
+          "papel": "Coordenador"
+        }
+      ]
+    }
+  ],
+  "projetos_extensao": [],
+  "projetos_desenvolvimento": [
+    {
+      "nome": "Segurança em Operações Críticas de Mergulho",
+      "ano_inicio": "2019",
+      "ano_conclusao": "Atual",
+      "descricao": [
+        "Descrição: O projeto visa apoiar na segurança operacional em atividades de mergulho na industria de Óleo & Gás. Entre os diversos objetivos do projeto, será realizada a identificação do perfil fisiológico do mergulhador a partir da pesquisa e desenvolvimento de técnicas de Data Mining, bem como a aplicação de técnicas de Data Analytics para detecção automatizada em tempo real de alterações em padrões fisiológicos dos mergulhadores durante sua atividade.. Situação: Em andamento; Natureza: Desenvolvimento. Integrantes: Greis Francy Mireya Silva Calpa - Integrante / Barbosa Raposo, Alberto - Coordenador / CARVALHO, FELIPE - Integrante."
+      ],
+      "tipo": "Projeto de desenvolvimento",
+      "integrantes": [
+        {
+          "nome": "Greis Francy Mireya Silva Calpa",
+          "papel": "Integrante"
+        },
+        {
+          "nome": "Barbosa Raposo, Alberto",
+          "papel": "Coordenador"
+        },
+        {
+          "nome": "CARVALHO, FELIPE",
+          "papel": "Integrante"
+        }
+      ]
+    }
+  ],
+  "areas_de_atuacao": [],
+  "idiomas": [
+    {
+      "nome": "Espanhol",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Português",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    },
+    {
+      "nome": "Inglês",
+      "compreende": "Bem",
+      "fala": "Bem",
+      "le": "Bem",
+      "escreve": "Bem",
+      "proficiencia_completa": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "premios_titulos": [
+    {
+      "descricao": "Best Paper Award - Workshop of Undergraduate Works (SVR 2020), Sociedade Brasileira de Computação.",
+      "ano": 2020
+    }
+  ],
+  "linhas_de_pesquisa": [
+    {
+      "nome": "Realidade Virtual",
+      "objetivo": ""
+    },
+    {
+      "nome": "Interação Humano-Computador",
+      "objetivo": ""
+    },
+    {
+      "nome": "Interação Humano-Computador",
+      "objetivo": ""
+    },
+    {
+      "nome": "Interação Humano-IA",
+      "objetivo": ""
+    },
+    {
+      "nome": "Data Science",
+      "objetivo": ""
+    }
+  ],
+  "producao_bibliografica": {
+    "artigos_periodicos": [
+      {
+        "titulo": "Gamification Elements for Application in the Brazilian Navy Simulated Training Context",
+        "ano": 2026,
+        "autores": "Souza T. B. ; ALMEIDA, R. S. ; RAPOSO, A. B. ; SILVA-CALPA, GREIS FRANCY MIREYA",
+        "revista": "Journal on Interactive Systems",
+        "volume": "17",
+        "numero": "",
+        "paginas": "336-353",
+        "issn": "2763-7719",
+        "doi": "http://dx.doi.org/10.5753/jis.2026.7066",
+        "qualis": ""
+      },
+      {
+        "titulo": "Is virtual reality always better than 2D videos? A head-to-head randomized controlled trial for fear of flying with long-term follow-up",
+        "ano": 2025,
+        "autores": "MESQUITA, CÍNTIA ; VENTURA, PAULA ; DA SILVA, HERIKA CRISTINA ; LOBO, ISABELA ; PAIVA, JÉSSICA MEIRELLES ; MELANI, MARINA ; ARANTES, LARISSA ; RAPOSO, ALBERTO ; SILVA-CALPA, GREIS FRANCY MIREYA ; BERGER, WILLIAM",
+        "revista": "PSYCHIATRY RESEARCH",
+        "volume": "354",
+        "numero": "",
+        "paginas": "116784",
+        "issn": "0165-1781",
+        "doi": "http://dx.doi.org/10.1016/j.psychres.2025.116784",
+        "qualis": ""
+      },
+      {
+        "titulo": "Towards Automated Semantic Segmentation in Mammography Images for Enhanced Clinical Applications",
+        "ano": 2024,
+        "autores": "SIERRA-FRANCO, CESAR A. ; HURTADO, JAN ; DE A. THOMAZ, VICTOR ; da Cruz, Leonardo C. ; Silva, Santiago V. ; SILVA-CALPA, GREIS FRANCY M. ; RAPOSO, ALBERTO",
+        "revista": "Journal of Imaging Informatics in Medicine",
+        "volume": "2024",
+        "numero": "",
+        "paginas": "1-21",
+        "issn": "2948-2933",
+        "doi": "http://dx.doi.org/10.1007/s10278-024-01364-8",
+        "qualis": ""
+      },
+      {
+        "titulo": "Real-time data analysis in health monitoring systems: a comprehensive systematic literature review",
+        "ano": 2022,
+        "autores": "PAGANELLI, ANTONIO IYDA ; MONDÉJAR, ABEL GONZÁLEZ ; DA SILVA, ABNER CARDOSO ; SILVA-CALPA, GREIS ; TEIXEIRA, MATEUS F. ; CARVALHO, FELIPE ; RAPOSO, ALBERTO ; ENDLER, MARKUS",
+        "revista": "JOURNAL OF BIOMEDICAL INFORMATICS",
+        "volume": "127",
+        "numero": "",
+        "paginas": "104009",
+        "issn": "1532-0464",
+        "doi": "http://dx.doi.org/10.1016/j.jbi.2022.104009",
+        "qualis": ""
+      },
+      {
+        "titulo": "Collaboration Support in Co-located Collaborative Systems for Users with Autism Spectrum Disorders: A Systematic Literature Review",
+        "ano": 2021,
+        "autores": "SILVA-CALPA, GREIS FRANCY M. ; RAPOSO, ALBERTO B. ; ORTEGA, FRANCISCO R.",
+        "revista": "INTERNATIONAL JOURNAL OF HUMAN-COMPUTER INTERACTION",
+        "volume": "37",
+        "numero": "",
+        "paginas": "15-35",
+        "issn": "1044-7318",
+        "doi": "http://dx.doi.org/10.1080/10447318.2020.1801224",
+        "qualis": ""
+      },
+      {
+        "titulo": "Exploring Non-conventional Sensorimotor Devices in a Virtual Bicycle Simulator",
+        "ano": 2020,
+        "autores": "ALMEIDA, RAPHAEL DE SOUZA E ; OLIVEIRA, RENATO CHERULLO DE ; RADETIC, DANIEL ; SILVA-CALPA, GREIS FRANCY M. ; Raposo, Alberto Barbosa",
+        "revista": "SBC JOURNAL ON 3D INTERACTIVE SYSTEMS",
+        "volume": "11",
+        "numero": "",
+        "paginas": "45-56",
+        "issn": "2236-3297",
+        "doi": "http://dx.doi.org/10.5753/jis.2020.756",
+        "qualis": ""
+      },
+      {
+        "titulo": "End-user adaptable technologies for rehabilitation: a systematic literature review",
+        "ano": 2020,
+        "autores": "Palomares-Pecho, Jessica M. ; SILVA-CALPA, GREIS FRANCY M. ; RAPOSO, ALBERTO B.",
+        "revista": "UNIVERSAL ACCESS IN THE INFORMATION SOCIETY (INTERNET)",
+        "volume": "20",
+        "numero": "",
+        "paginas": "299-319",
+        "issn": "1615-5297",
+        "doi": "http://dx.doi.org/10.1007/s10209-020-00720-z",
+        "qualis": ""
+      },
+      {
+        "titulo": "A 3D-printable instrument to improve force vector measurement in CPR training",
+        "ano": 2018,
+        "autores": "Silva, G. F. M.; TEIXEIRA, C. C. ; OLIVEIRA, J. C. ; SHIRMOHAMMADI, S.",
+        "revista": "IEEE INSTRUMENTATION & MEASUREMENT MAGAZINE",
+        "volume": "21",
+        "numero": "",
+        "paginas": "25-33",
+        "issn": "1094-6969",
+        "doi": "http://dx.doi.org/10.1109/MIM.2018.8278806",
+        "qualis": ""
+      },
+      {
+        "titulo": "Cultural viewpoint metaphors guiding the collaborative strategies design of a multitouch tabletop game for people with autism",
+        "ano": 2014,
+        "autores": "Silva, Greis F. Mireya; SALGADO, L. C. C. ; SUPLINO, M. ; RAPOSO, ALBERTO",
+        "revista": "Themes in Science and Technology Education",
+        "volume": "7",
+        "numero": "",
+        "paginas": "83-98",
+        "issn": "1792-8788",
+        "doi": "",
+        "qualis": ""
+      },
+      {
+        "titulo": "Exploring Collaboration Patterns in a Multitouch Game to Encourage Social Interaction and Collaboration Among Users with Autism Spectrum Disorder",
+        "ano": 2014,
+        "autores": "Mireya Silva, Greis F.; RAPOSO, ALBERTO ; SUPLINO, MARYSE",
+        "revista": "Computer Supported Cooperative Work (CSCW)",
+        "volume": "24",
+        "numero": "",
+        "paginas": "149-175",
+        "issn": "1573-7551",
+        "doi": "http://dx.doi.org/10.1007/s10606-014-9214-1",
+        "qualis": ""
+      },
+      {
+        "titulo": "PAR: A Collaborative Game for Multitouch Tabletop to Support Social Interaction of Users with Autism",
+        "ano": 2014,
+        "autores": "SILVA, GREIS F. MIREYA ; Raposo, Alberto ; SUPLINO, MARYSE",
+        "revista": "PROCEDIA COMPUTER SCIENCE",
+        "volume": "27",
+        "numero": "",
+        "paginas": "84-93",
+        "issn": "1877-0509",
+        "doi": "http://dx.doi.org/10.1016/j.procs.2014.02.011",
+        "qualis": ""
+      }
+    ],
+    "livros_publicados": [],
+    "capitulos_livros": [
+      {
+        "titulo": "A Data-Centric Approach for Pectoral Muscle Deep Learning Segmentation Enhancements in Mammography Images. A Data-Centric Approach for Pectoral Muscle Deep Learning Segmentation Enhancements in Mammography Images. 1ed",
+        "ano": 2023,
+        "autores": "Silva, Santiago V. ; SIERRA-FRANCO, CESAR A. ; HURTADO, JAN ; da Cruz, Leonardo C. ; Thomaz, Victor de A. ; SILVA-CALPA, GREIS FRANCY M. ; RAPOSO, ALBERTO B.",
+        "titulo_livro": "",
+        "editora": "",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "56-67"
+      },
+      {
+        "titulo": "Identificação de requisitos para o design de um aplicativo móvel de realidade aumentada para o aprendizado do patrimônio histórico regional. Perspectivas da Educação: História e Atualidades - Volume 7. 1ed.Formiga-MG",
+        "ano": 2022,
+        "autores": "ZAMBRANO, L. M. ; SILVA-CALPA, GREIS FRANCY MIREYA ; ROMO, J. L.",
+        "titulo_livro": "",
+        "editora": "Uniesmero",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "1-217"
+      },
+      {
+        "titulo": "End-User Programming Architecture for Physical Movement Assessment: An Interactive Machine Learning Approach. Lecture Notes in Computer Science. 1ed",
+        "ano": 2020,
+        "autores": "Palomares-Pecho, Jessica M. ; SILVA-CALPA, GREIS FRANCY M. ; Sierra-Franco, César A. ; Barbosa Raposo, Alberto",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "335-348"
+      },
+      {
+        "titulo": "A Self-adaptive Serious Game for Eye-Hand Coordination Training. Lecture Notes in Computer Science. 1ed",
+        "ano": 2020,
+        "autores": "Cardia da Cruz, Leonardo ; Sierra-Franco, César A. ; SILVA-CALPA, GREIS FRANCY M. ; Barbosa Raposo, Alberto",
+        "titulo_livro": "",
+        "editora": "Springer International Publishing",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "385-397"
+      },
+      {
+        "titulo": "Picture Manager como apoyo para la edición de imágenes",
+        "ano": 2011,
+        "autores": "Silva, Greis F. Mireya; Hernández, Marcela",
+        "titulo_livro": "",
+        "editora": "Universidad del Cauca",
+        "cidade": "",
+        "isbn": "",
+        "paginas": "66-77"
+      }
+    ],
+    "trabalhos_completos_congressos": [
+      {
+        "titulo": "A Study on mHealth Adherence for Bipolar Disorder: A Case Study with the BraPolar2 Application",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5220/0013308600003911",
+        "autores": "MONDÉJAR, ABEL ; RÉGNIER, LUIZA ; SILVA-CALPA, GREIS ; MOGRABI, DANIEL",
+        "evento": "18th International Conference on Health Informatics",
+        "cidade": "",
+        "paginas": "813",
+        "isbn": ""
+      },
+      {
+        "titulo": "Impacto de la Robótica Educativa en el Desarrollo de Nociones Espaciales en Niños de Edades Tempranas",
+        "ano": 2025,
+        "doi": "http://dx.doi.org/10.5753/sbie.2025.12661",
+        "autores": "CORDOBA, M. M. ; LEYTON, S. J. G. ; OJEDA, D. J. L. ; SILVA-CALPA, GREIS F. M.",
+        "evento": "XXXVI Simpósio Brasileiro de Informática na Educação",
+        "cidade": "",
+        "paginas": "785-796",
+        "isbn": ""
+      },
+      {
+        "titulo": "The challenge of stress induction in serious games, considering gameplay",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1145/3691573.3691598",
+        "autores": "GONÇALVES, THIAGO DA SILVA ; SILVA-CALPA, GREIS FRANCY M. ; PORCINO, THIAGO MALHEIROS ; E ALMEIDA, RAPHAEL DE SOUZA ; Raposo, Alberto Barbosa",
+        "evento": "SVR '24: Proceedings of the 26th Symposium on Virtual and Augmented Reality",
+        "cidade": "",
+        "paginas": "177-184",
+        "isbn": ""
+      },
+      {
+        "titulo": "Redesign of an m-Health Application for Individuals with Bipolar Disorder: A Strategy for User Adherence and Effective Data Collection",
+        "ano": 2024,
+        "doi": "http://dx.doi.org/10.1109/segah61285.2024.10639601",
+        "autores": "MONDÉJAR, ABEL GONZÁLEZ ; SILVA-CALPA, GREIS FRANCY M. ; RAPOSO, ALBERTO BARBOSA ; MOGRABI, DANIEL C.",
+        "evento": "2024 IEEE 12th International Conference on Serious Games and Applications for Health (SeGAH)",
+        "cidade": "",
+        "paginas": "1-9",
+        "isbn": ""
+      },
+      {
+        "titulo": "Fuzzy-Based Modeling with Semi-Automatic Rule Learning for Eye-Tracking Data Analysis: A Case Study on Raven's Progressive Matrices",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.1109/segah57547.2023.10253809",
+        "autores": "DA SILVA, ABNER CARDOSO ; DE MESQUITA, CÍNTIA MACHADO ; SILVA-CALPA, GREIS ; SIERRA-FRANCO, CESAR A. ; Barbosa Raposo, Alberto",
+        "evento": "2023 IEEE 11th International Conference on Serious Games and Applications for Health (SeGAH)",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Aprimorando a experiência do usuário em um jogo de Realidade Virtual para pessoas com comprometimento nos membros superiores",
+        "ano": 2023,
+        "doi": "http://dx.doi.org/10.5753/sbgames_estendido.2023.234096",
+        "autores": "CASTRO, BARBARA SABRINA HERRERA MONJE DE ; RAPOSO, ALBERTO BARBOSA ; SILVA-CALPA, GREIS F. M.",
+        "evento": "Anais Estendidos do Simpósio Brasileiro de Jogos e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "1343-1348",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring User-Interaction Techniques by Using a Strength Feedback Measurement Device to Encourage Strength Movements of People with Hand Impairments",
+        "ano": 2022,
+        "doi": "http://dx.doi.org/10.1145/3604479.3604512",
+        "autores": "CHAVES, ANTONIO V ; SILVA-CALPA, GREIS F M ; RAPOSO, ALBERTO B",
+        "evento": "SVR 2022: 24th Symposium on Virtual and Augmented Reality",
+        "cidade": "",
+        "paginas": "62-68",
+        "isbn": ""
+      },
+      {
+        "titulo": "Enabling Autonomous Medical Image Data Annotation: A human-in-the-loop Reinforcement Learning Approach",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.15439/2021F86",
+        "autores": "CRUZ, LEONARDO DA ; SIERRA-FRANCO, CÉSAR ; SILVA-CALPA, GREIS ; RAPOSO, ALBERTO",
+        "evento": "16th Conference on Computer Science and Intelligence Systems",
+        "cidade": "",
+        "paginas": "271-279",
+        "isbn": ""
+      },
+      {
+        "titulo": "Identificando requerimientos para el diseño de un aplicativo móvil de Realidad Aumentada para el aprendizaje del patrimonio histórico regional",
+        "ano": 2021,
+        "doi": "http://dx.doi.org/10.5753/sbie.2021.218132",
+        "autores": "ZAMBRANO, L. M. ; SILVA-CALPA, GREIS FRANCY M. ; ROMO, J. L.",
+        "evento": "XXXII SIMPÓSIO BRASILEIRO DE INFORMÁTICA NA EDUCAÇÃO",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "An m-Health Application for Remote Monitoring of People with Bipolar Disorder through Digital Phenotyping and Smartphone Dependency",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/cbms49503.2020.00080",
+        "autores": "GONZALEZ MONDEJAR, ABEL ; SILVA-CALPA, GREIS FRANCY MIREYA ; Barbosa Raposo, Alberto ; MOGRABI, DANIEL C.",
+        "evento": "2020 IEEE 33rd International Symposium on ComputerBased Medical Systems (CBMS)",
+        "cidade": "",
+        "paginas": "388",
+        "isbn": ""
+      },
+      {
+        "titulo": "Topological and tactical study of terrains modeled into a synthetic training environment as a military educational resource",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/svr51698.2020.00018",
+        "autores": "DE SOUZA E ALMEIDA, RAPHAEL ; SILVA-CALPA, GREIS FRANCY M. ; DE MENEZES VILLARMOSA, ALEXANDRE ; RAPOSO, ALBERTO BARBOSA",
+        "evento": "2020 22nd Symposium on Virtual and Augmented Reality (SVR)",
+        "cidade": "",
+        "paginas": "10-19",
+        "isbn": ""
+      },
+      {
+        "titulo": "Eye-tracking Data Analysis for Visual Exploration Assessment and Decision Making Interpretation in Virtual Reality Environments",
+        "ano": 2020,
+        "doi": "http://dx.doi.org/10.1109/svr51698.2020.00022",
+        "autores": "CARDOSO DA SILVA, ABNER ; SIERRA-FRANCO, CESAR A. ; SILVA-CALPA, GREIS FRANCY M. ; CARVALHO, FELIPE ; RAPOSO, ALBERTO BARBOSA",
+        "evento": "2020 22nd Symposium on Virtual and Augmented Reality (SVR)",
+        "cidade": "",
+        "paginas": "39-46",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring Direct User-Interaction Techniques in a Virtual Reality Game for People with Hand Impairments",
+        "ano": 2020,
+        "doi": "",
+        "autores": "MEIRELES, P. S. ; SILVA-CALPA, GREIS FRANCY M. ; RAPOSO, A. B.",
+        "evento": "Simpósio Brasileiro de Jogos e Entretenimento Digital",
+        "cidade": "",
+        "paginas": "953-959",
+        "isbn": ""
+      },
+      {
+        "titulo": "BraPolar: an M-Health Application for Remote Monitoring of People with Bipolar Disorder",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/SeGAH.2019.8882469",
+        "autores": "MONDEJAR, ABEL GONZALEZ ; SILVA-CALPA, GREIS FRANCY M. ; RAPOSO, ALBERTO BARBOSA ; MOGRABI, DANIEL C.",
+        "evento": "2019 IEEE 7th International Conference on Serious Games and Applications for Health (SeGAH)",
+        "cidade": "",
+        "paginas": "1-8",
+        "isbn": ""
+      },
+      {
+        "titulo": "Exploring motor and sensory devices in a bicycle simulator",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/SVR.2019.00048",
+        "autores": "DE SOUZA E ALMEIDA, RAPHAEL ; CHERULLO, RENATO ; RADETIC, DANIEL ; FRANCY M. SILVA-CALPA, GREIS ; BARBOSA RAPOSO, ALBERTO",
+        "evento": "2019 21st Symposium on Virtual and Augmented Reality (SVR)",
+        "cidade": "",
+        "paginas": "232-241",
+        "isbn": ""
+      },
+      {
+        "titulo": "Evaluation of physical-motor status of people with reduced mobility using motion capture with Microsoft Kinect",
+        "ano": 2019,
+        "doi": "http://dx.doi.org/10.1109/SBGames.2019.00023",
+        "autores": "DIAZ CENTENO, ALEJANDRO ; SILVA-CALPA, GREIS FRANCY M. ; Raposo, Alberto Barbosa",
+        "evento": "2019 18th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)",
+        "cidade": "",
+        "paginas": "98-105",
+        "isbn": ""
+      },
+      {
+        "titulo": "CoASD: A tabletop game to support the collaborative work of users with autism spectrum disorder",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1109/segah.2018.8401358",
+        "autores": "SILVA-CALPA, GREIS FRANCY M. ; RAPOSO, ALBERTO B. ; SUPLINO, MARYSE",
+        "evento": "2018 IEEE 6th International Conference on Serious Games and Applications for Health (SeGAH)",
+        "cidade": "",
+        "paginas": "1",
+        "isbn": ""
+      },
+      {
+        "titulo": "Floating Hamster Ball: A Locomotion Method for Free Flight in Virtual Environments",
+        "ano": 2018,
+        "doi": "http://dx.doi.org/10.1109/SVR.2018.00036",
+        "autores": "HURTADO, JAN ; ALBUQUERQUE, EDUARDO ; RADETIC, DANIEL ; CHERULLO, RENATO ; SILVA-CALPA, GREIS FRANCY M. ; RAPOSO, ALBERTO",
+        "evento": "2018 20th Symposium on Virtual and Augmented Reality (SVR)",
+        "cidade": "",
+        "paginas": "183-191",
+        "isbn": ""
+      },
+      {
+        "titulo": "Identifying Awareness Requirements in Face-to-Face Collaborative Applications for Users with Autism Spectrum Disorders",
+        "ano": 2016,
+        "doi": "",
+        "autores": "SILVA, G. F. M. ; RAPOSO, A. B.",
+        "evento": "SBSC - 13º Simpósio Brasileiro de Sistemas Colaborativos",
+        "cidade": "",
+        "paginas": "1305-1318",
+        "isbn": ""
+      },
+      {
+        "titulo": "Estrategias de colaboración en interfaces multitáctiles para incentivar la interacción social entre jóvenes con autismo",
+        "ano": 2014,
+        "doi": "",
+        "autores": "Silva, Greis F. Mireya; RAPOSO, ALBERTO ; SUPLINO, M.",
+        "evento": "Interacción 2014 - XV International Conference on Human Computer Interaction",
+        "cidade": "",
+        "paginas": "90-97",
+        "isbn": ""
+      },
+      {
+        "titulo": "PAR (Peço, Ajudo, Recebo): Um jogo colaborativo em mesa multi-toque para apoiar a interação social de usuários com autismo",
+        "ano": 2013,
+        "doi": "",
+        "autores": "SILVA, G. F. M. ; Raposo, Alberto Barbosa",
+        "evento": "CSBC 2013 - CTD - XXVI Concurso de Teses e Dissertações 2013",
+        "cidade": "",
+        "paginas": "29-34",
+        "isbn": ""
+      },
+      {
+        "titulo": "Metáforas de Perspectivas Culturais na (re) definição de padrões de colaboração de um jogo de multi-toque para usuários com autismo",
+        "ano": 2013,
+        "doi": "",
+        "autores": "SILVA, G. F. M. ; SALGADO, L. C. C. ; RAPOSO, ALBERTO B.",
+        "evento": "IHC 2013 - XII Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais",
+        "cidade": "",
+        "paginas": "112-121",
+        "isbn": ""
+      },
+      {
+        "titulo": "ComFiM - Um Jogo Colaborativo para Estimular a Comunicação de Crianças com Autismo",
+        "ano": 2013,
+        "doi": "",
+        "autores": "RIBEIRO, P. C. ; BRAZ, P. F. A. ; SILVA, G. F. M. ; RAPOSO, ALBERTO B.",
+        "evento": "SBSC2013 - X Simpósio Brasileiro de Sistemas Colaborativos",
+        "cidade": "",
+        "paginas": "72-79",
+        "isbn": ""
+      },
+      {
+        "titulo": "Multitouch Games Based on Collaboration Patterns to Encourage Communication and Social Interaction in People with Autism",
+        "ano": 2013,
+        "doi": "",
+        "autores": "SILVA, G. F. M. ; RIBEIRO, P. C. ; RAPOSO, ALBERTO B.",
+        "evento": "Workshop: Collaboration meets Interactive Surfaces: Walls",
+        "cidade": "",
+        "paginas": "",
+        "isbn": ""
+      },
+      {
+        "titulo": "JOGOS COLABORATIVOS MULTITOQUE PARA INCENTIVAR A COMUNICAÇÃO E INTERAÇÃO SOCIAL ENTRE CRIANÇAS COM AUTISMO",
+        "ano": 2013,
+        "doi": "",
+        "autores": "SILVA, G. F. M. ; RIBEIRO, P. C. ; RAPOSO, ALBERTO B.",
+        "evento": "II FININC - Fórum Internacional de Inclusão - Discutindo Autismo e Deficiência Múltipla",
+        "cidade": "",
+        "paginas": "305-318",
+        "isbn": ""
+      }
+    ],
+    "resumos_expandidos": [
+      {
+        "titulo": "Avaliação de um jogo em Realidade Virtual para usuários com comprometimento nos membros superiores",
+        "ano": 2022,
+        "autores": "CASTRO, BARBARA SABRINA HERRERA MONJE DE ; SILVA-CALPA, GREIS F. M. ; RAPOSO, ALBERTO BARBOSA",
+        "evento": "Anais Estendidos do Simpósio Brasileiro de Jogos e Entretenimento Digital, 2022",
+        "cidade": "",
+        "paginas": "1381-1385"
+      },
+      {
+        "titulo": "SIMAA: um simulador em realidade virtual para o adestramento de artilharia",
+        "ano": 2020,
+        "autores": "ANDRADE, A. ; SILVA-CALPA, GREIS FRANCY M. ; RAPOSO, A. B.",
+        "evento": "XXII SIMPÓSIO DE REALIDADE VIRTUAL E AUMENTADA - WORKSHOP DE TESES E DISSERTAÇÕES, 2020. ANAIS ESTENDIDOS DO XXII SIMPÓSIO DE REALIDADE VIRTUAL E AUMENTADA",
+        "cidade": "",
+        "paginas": "13-14"
+      },
+      {
+        "titulo": "Memorabilia: aplicativo de realidade aumentada para suporte a pessoas com transtornos neurocognitivos",
+        "ano": 2020,
+        "autores": "ALVES, ANDRÉ DE MELLO ; SILVA-CALPA, GREIS ; Raposo, Alberto Barbosa",
+        "evento": "Anais Estendidos do Simpósio de Realidade Virtual e Aumentada, 2020, Brasil. Anais Estendidos do Simpósio de Realidade Virtual e Aumentada (SVR Estendido 2020)",
+        "cidade": "",
+        "paginas": "49-53"
+      },
+      {
+        "titulo": "Collaborative Strategies in Multitouch Tabletop to Encourage Social Interaction in People with Autism",
+        "ano": 2014,
+        "autores": "SILVA, GREIS F. MIREYA ; Raposo, Alberto ; SUPLINO, MARYSE",
+        "evento": "the XV International Conference, 2014, Puerto de la Cruz. Proceedings of the XV International Conference on Human Computer Interaction - Interacción '14. New York: ACM Press",
+        "cidade": "",
+        "paginas": "1"
+      }
+    ],
+    "resumos_congressos": [],
+    "artigos_aceitos": [],
+    "apresentacoes_trabalhos": [
+      {
+        "titulo": "PAR (Peço, Ajudo, Recebo): Um jogo colaborativo em mesa multi-toque para apoiar a interação social de usuários com autismo",
+        "ano": 2013,
+        "autores": "Silva, G. F. M",
+        "evento": ""
+      },
+      {
+        "titulo": "Objeto Virtual de Aprendizaje para la concientización frente a los fenómenos naturales y antrópicos que se suscitan en el departamento de Nariño",
+        "ano": 2010,
+        "autores": "Silva, G. F. M.; Guzmán, C",
+        "evento": ""
+      }
+    ],
+    "textos_jornais": [],
+    "outras_producoes": []
+  },
+  "producao_tecnica": {
+    "softwares_com_patente": [],
+    "softwares_sem_patente": [
+      {
+        "titulo": "Objeto Virtual de Aprendizaje para la concientización frente a los fenómenos naturales o antrópicos que se suscitan en el departamento de Nariño",
+        "ano": 2010,
+        "autores": "Silva, G. F. M.; Guzmán, C",
+        "instituicao": "",
+        "finalidade": ""
+      }
+    ],
+    "produtos_tecnologicos": [],
+    "processos_tecnicas": [],
+    "trabalhos_tecnicos": [],
+    "outras_producoes_tecnicas": [
+      {
+        "titulo": "Objeto virtual de aprendizaje para la concientización frente a los fenómenos naturales y antrópicos que se suscitan en el departamento de Narino",
+        "ano": 2009,
+        "autores": "Silva-Calpa, G. F. M.; Guzmán, C",
+        "tipo": "Demais tipos de produção técnica"
+      }
+    ],
+    "entrevistas": []
+  },
+  "patentes_registros": {
+    "patentes": [],
+    "programas_computador": [],
+    "desenhos_industriais": []
+  },
+  "producao_artistica": [],
+  "orientacoes": {
+    "em_andamento": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "Affecting Computing with Assistive Technology for Elderly Care with Cognitive Diseases",
+          "ano_inicio": 2025,
+          "orientando": "Filza Javed",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Rastreamento simultâneo da atenção do olhar e dos movimentos corporais em ambientes de Realidade Virtual",
+          "ano_inicio": 2024,
+          "orientando": "Renato Cherullo",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Framework de análise de EEG para classificação de características de deficiência de fala e interpretabilidade percebida por especialistas",
+          "ano_inicio": 2025,
+          "orientando": "Maiara Marçal",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "A definir",
+          "ano_inicio": 2025,
+          "orientando": "Brenno Tavares de Carvalho",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "princípios éticos para orientar o design de sistemas interativos inteligentes com o propósito de favorecer a confiança do usuário durante a interação",
+          "ano_inicio": 2025,
+          "orientando": "Gabriel Mariquito",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Inconsistência em sistemas de recomendação e mecanismos de controle do usuário para correção de recomendações desalinhadas",
+          "ano_inicio": 2026,
+          "orientando": "Livian Essvein",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [
+        {
+          "titulo": "Análise do uso de ferramentas de IA generativa como apoio emocional na saúde mental de estudantes universitários",
+          "ano_inicio": 2026,
+          "orientando": "Fernanda Fukasawa",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Explicabilidade em modelos de EEG para fala imaginada e fala articulada",
+          "ano_inicio": 2026,
+          "orientando": "Lis Almeida",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Identificando princípios de design para sistemsa de Interação Humano-IA",
+          "ano_inicio": 2026,
+          "orientando": "Pamela Vieira",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Impacto do uso do ChatGPT na construção da autonomia intelectual de estudantes universitários",
+          "ano_inicio": 2025,
+          "orientando": "Livian Essvein",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "O impacto do uso de ferramentas de IA Generativas e sua capacidade de apoio emocional na saúde mental de estudantes universitários",
+          "ano_inicio": 2025,
+          "orientando": "Breno Lois",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Análise do uso de ferramentas de IA generativa como apoio emocional na saúde mental de estudantes universitários",
+          "ano_inicio": 2025,
+          "orientando": "Erica Regnier",
+          "tipo_trabalho": "Iniciação científica",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "outros": []
+    },
+    "concluidas": {
+      "pos_doutorado": [],
+      "doutorado": [
+        {
+          "titulo": "On the identification of Digital Phenotyping for Enhanced Bipolar Disorder Monitoring",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Abel González Mondejar",
+          "tipo_trabalho": "Tese",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "mestrado": [
+        {
+          "titulo": "Elementos de gamificação para aplicação em contexto de treinamento da Marinha do Brasil",
+          "ano_inicio": 2026,
+          "ano_conclusao": 2026,
+          "orientando": "Tamyres Bezerra",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Robótica para el fortalecimiento de nociones espaciales en niños de temprana edad",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Marcela Martínez",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Universidad de Narino",
+          "curso": ""
+        },
+        {
+          "titulo": "Uso de Dados de Eye-Tracking para Modelagem de Comportamento Visual em Sistemas Especialistas",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Abner Cardoso da Silva",
+          "tipo_trabalho": "Dissertação",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "especializacao": [],
+      "tcc": [
+        {
+          "titulo": "Construção de um sistema web baseado em aprendizado de máquina orientado à acessibilidade visual",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Arthur Saddy Mograbi",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "APLICACIÓN MÓVIL DE REALIDAD AUMENTADA COMO MEDIO DE CONTRIBUCIÓN PARA EL APRENDIZAJE DEL PATRIMONIO HISTÓRICO DE SAN JUAN DE PASTO",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "LIZETH M. ZAMBRANO",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidad de Narino",
+          "curso": ""
+        },
+        {
+          "titulo": "Ambiente virtual para apoio à reabilitação de pessoas com dificuldades físicas nos membros superiores",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Antônio Vasconsellos Chaves",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Interação adaptativa em um ambiente de realidade virtual para usuários com comprometimento nos membros superiores visando apoiar a sua reabilitação",
+          "ano_inicio": 2022,
+          "ano_conclusao": 2022,
+          "orientando": "Barbara Sabrina Herrera Monje de Castro",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Desenvolvimento de um Jogo Colaborativo para Pessoas com Transtorno do Espectro do Autismo (TEA)",
+          "ano_inicio": 2021,
+          "ano_conclusao": 2021,
+          "orientando": "Brenno Tavares de Carvalho",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        }
+      ],
+      "iniciacao_cientifica": [
+        {
+          "titulo": "Adoção de sistemas interativos baseados em inteligência artificial: desafios e criação de soluções centradas no humano",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Livia Lutz dos Santos",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "AI-based Interactive Systems: A Systematic Literature Review",
+          "ano_inicio": 2025,
+          "ano_conclusao": 2025,
+          "orientando": "Breno Lois",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estratégias de coleta de dados em aplicativos móveis para monitoramento da saúde de pacientes com transtorno bipolar",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Lívia Lutz",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Estratégias de coleta de dados em aplicativos móveis para monitoramento da saúde de pacientes com transtorno bipolar",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Ana Luiza Marques",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Avaliação de UX de aplicativo móvel para monitoramento de alterações no humor de pessoas com transtorno bipolar",
+          "ano_inicio": 2024,
+          "ano_conclusao": 2024,
+          "orientando": "Luiza Oliveira Regnier",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro",
+          "curso": ""
+        },
+        {
+          "titulo": "Realidad Aumentada como medio de apoyo al aprendizaje contextual",
+          "ano_inicio": 2020,
+          "ano_conclusao": 2020,
+          "orientando": "Lizeth Mercedes Zambrano",
+          "tipo_trabalho": "Trabalho de Conclusão de Curso",
+          "instituicao": "Universidad de Narino",
+          "curso": ""
+        }
+      ],
+      "outros": []
+    }
+  },
+  "eventos": {
+    "participacoes": [
+      {
+        "evento": "IV Encuentro de la Asociación de Científicos Españoles en Brasil (ACEBRA)",
+        "apresentacao": "Desafíos del uso de la IA generativa en actividades académicas",
+        "ano": 2026,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "SEMINARIO INTERNACIONAL DE INTELIGENCIA ARTIFICIAL Y VISION COMPUTING",
+        "apresentacao": "SISTEMAS COLABORATIVOS PARA INCENTIVAR LA INTERACCIÓN SOCIAL DE PERSONAS CON AUTISMO",
+        "ano": 2021,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "V Seminario Regional y II Internacional de Actualización en Prácticas Pedagógicas para la Educación en Informática",
+        "apresentacao": "Conversatorio sobre \"La educación en Informática del Siglo XXI\"",
+        "ano": 2020,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "2018 IEEE 6th International Conference on Serious Games and Applications for Health (SeGAH)",
+        "apresentacao": "CoASD: A tabletop game to support the collaborative work of users with autism spectrum disorder",
+        "ano": 2018,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Conferência Anual de Transtorno do Espectro Autista (Conatea)",
+        "apresentacao": "Aplicações computacionais colaborativas para incentivar a interação social entre usuários com autismo",
+        "ano": 2018,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "III seminario de actualización en prácticas pedagógicas para la educación en tecnología e informática",
+        "apresentacao": "Sistemas interactivos: tendencias tecnológicas y desafíos de diseño",
+        "ano": 2018,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "XVII Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais (IHC 2018)",
+        "apresentacao": "Membro do Comitê de Programa",
+        "ano": 2018,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Jornada de Capacitação Institucional PCI/LNCC",
+        "apresentacao": "Reabilitação através de ambientes virtuais",
+        "ano": 2017,
+        "tipo_evento": "Outra",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "INTERACCION'14",
+        "apresentacao": "XV International Conference on Human Computer Interaction. Estrategias de colaboración en interfaces multitáctiles para incentivar la interacción social entre jóvenes con autismo",
+        "ano": 2014,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "XIII Simpósio Brasileiro Sobre Fatores Humanos em Sistemas Computacionais (IHC 2014)",
+        "apresentacao": "Revisor adicional",
+        "ano": 2014,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "CTD - XXVI Concurso de Teses e Dissertações",
+        "apresentacao": "PAR (Peço, Ajudo, Recebo): Um jogo colaborativo em mesa multi-toque para apoiar a interação social de usuários com autismo",
+        "ano": 2013,
+        "tipo_evento": "Olimpíada",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "II FININC - Forúm Internacional de Inclusão",
+        "apresentacao": "JOGOS COLABORATIVOS MULTITOQUE PARA INCENTIVAR A COMUNICAÇÃO E INTERAÇÃO SOCIAL ENTRE CRIANÇAS COM AUTISMO",
+        "ano": 2013,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Prêmio XVI Mostra PUC: Inovações para uma vida melhor",
+        "apresentacao": "PAR (PeÇo, Ajudo, Recebo): Um jogo colaborativo em mesa multi-toque para apoiar a interção social de usuários com autismo",
+        "ano": 2013,
+        "tipo_evento": "Feira",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Workshop: Collaboration meets Interactive Surfaces: Walls, Tables, Tablets and Phones, co-located with ITS 2013",
+        "apresentacao": "Multitouch Games Based on Collaboration Patterns to Encourage Communication and Social Interaction in People with Autism",
+        "ano": 2013,
+        "tipo_evento": "Encontro",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Simpósio Brasileiro de Sistemas Colaborativos",
+        "apresentacao": null,
+        "ano": 2012,
+        "tipo_evento": "Simpósio",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Congreso Internacional de Informática Educativa y 10° Premio Colombiano de Informática Educativa - Ribie-Col",
+        "apresentacao": "Objeto Virtual de Aprendizaje para la concientización frente a los fenómenos naturales y antrópicos que se suscitan en el departamento de Nariño",
+        "ano": 2010,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Seminario de actualización",
+        "apresentacao": "Instalación y configuración inicial de Moodle",
+        "ano": 2010,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Seminario de actualización",
+        "apresentacao": "Soluciones a problemas frequentes en el mantenimiento de computadores",
+        "ano": 2010,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "II Congreso Colombiano de Computación",
+        "apresentacao": null,
+        "ano": 2007,
+        "tipo_evento": "Congresso",
+        "tipo": "Participação em evento"
+      },
+      {
+        "evento": "Tecnologia",
+        "apresentacao": "Net Microsoft",
+        "ano": 2005,
+        "tipo_evento": "Seminário",
+        "tipo": "Participação em evento"
+      }
+    ],
+    "organizacoes": []
+  },
+  "bancas": {
+    "mestrado": [
+      {
+        "descricao": "SILVA-CALPA, GREIS FRANCY MIREYA; RAPOSO, A. B.. Participação em banca de Bianca Moreira Cunha. Producing and Evaluating Visual Representations Toward Effective Explainable Artificial Intelligence. 2025. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2025,
+        "tipo": "Mestrado",
+        "aluno": "Bianca Moreira Cunha",
+        "membros_banca": [
+          "SILVA-CALPA, GREIS FRANCY MIREYA",
+          "RAPOSO, A. B."
+        ],
+        "titulo_trabalho": "Producing and Evaluating Visual Representations Toward Effective Explainable Artificial Intelligence",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SILVA-CALPA, GREIS FRANCY MIREYA; Gasparini, I; BARBOSA, S.. Participação em banca de Rodrigo Brito de Freitas Lima. Modernização de Sistemas Legados: Uma abordagem baseada em análise de logs, questionários e entrevistas. 2024. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Mestrado",
+        "aluno": "Rodrigo Brito de Freitas Lima",
+        "membros_banca": [
+          "SILVA-CALPA, GREIS FRANCY MIREYA",
+          "Gasparini, I",
+          "BARBOSA, S."
+        ],
+        "titulo_trabalho": "Modernização de Sistemas Legados: Uma abordagem baseada em análise de logs, questionários e entrevistas",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "BARBOSA, S.; Prates, R. O.; SILVA-CALPA, GREIS FRANCY MIREYA. Participação em banca de Caroline Loppi Guimaraes. Realigning MoLIC to the Interaction-as-Conversation Metaphor. 2023. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2023,
+        "tipo": "Mestrado",
+        "aluno": "Caroline Loppi Guimaraes",
+        "membros_banca": [
+          "BARBOSA, S.",
+          "Prates, R. O.",
+          "SILVA-CALPA, GREIS FRANCY MIREYA"
+        ],
+        "titulo_trabalho": "Realigning MoLIC to the Interaction-as-Conversation Metaphor",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "Branco, A; SILVA-CALPA, GREIS FRANCY MIREYA; RAPOSO, A. B.; BARBOSA, S.. Participação em banca de Marcelo Martins da Silva. VerS-tick: Dispositivo para auxiliar pessoas com Parkinson. 2023. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2023,
+        "tipo": "Mestrado",
+        "aluno": "Marcelo Martins da Silva",
+        "membros_banca": [
+          "Branco, A",
+          "SILVA-CALPA, GREIS FRANCY MIREYA",
+          "RAPOSO, A. B.",
+          "BARBOSA, S."
+        ],
+        "titulo_trabalho": "VerS-tick: Dispositivo para auxiliar pessoas com Parkinson",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "RAPOSO, A. B.; MOGRABI, D. C.; Silva-Calpa, G. F. M.; TREVISAN, D. G.. Participação em banca de Abel González Mondéjar. BraPolar: uma aplicação para o monitoramento remoto de pessoas com transtorno bipolar. 2019. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2019,
+        "tipo": "Mestrado",
+        "aluno": "Abel González Mondéjar",
+        "membros_banca": [
+          "RAPOSO, A. B.",
+          "MOGRABI, D. C.",
+          "Silva-Calpa, G. F. M.",
+          "TREVISAN, D. G."
+        ],
+        "titulo_trabalho": "BraPolar: uma aplicação para o monitoramento remoto de pessoas com transtorno bipolar",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "RAPOSO, A. B.; Marocolo, M.; Silva, G. F. M.. Participação em banca de Antonio Iyda Paganelli. Reliability of Wii Balance Board and Microsoft Kinect for capturing posturographic information during balance tests. 2018. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2018,
+        "tipo": "Mestrado",
+        "aluno": "Antonio Iyda Paganelli",
+        "membros_banca": [
+          "RAPOSO, A. B.",
+          "Marocolo, M.",
+          "Silva, G. F. M."
+        ],
+        "titulo_trabalho": "Reliability of Wii Balance Board and Microsoft Kinect for capturing posturographic information during balance tests",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "RAPOSO, A. B.; Feijo, B.; Silva-Calpa, G. F. M.. Participação em banca de Herminio Paucar C.. Uma ferramenta para a introdução à programação e pensamento computacional com motivação em realidade virtual. 2017. Dissertação (Mestrado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2017,
+        "tipo": "Mestrado",
+        "aluno": "Herminio Paucar C",
+        "membros_banca": [
+          "RAPOSO, A. B.",
+          "Feijo, B.",
+          "Silva-Calpa, G. F. M."
+        ],
+        "titulo_trabalho": "Uma ferramenta para a introdução à programação e pensamento computacional com motivação em realidade virtual",
+        "curso": "Dissertação (Mestrado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "doutorado": [
+      {
+        "descricao": "Milene Selbach Silveira; Gasparini, I; SILVA-CALPA, GREIS FRANCY MIREYA; RAPOSO, A. B.. Participação em banca de Bruna Moraes Ferreira. VIS-SeMa: Supporting Novices in Designing Data Visualizations. 2024. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2024,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Bruna Moraes Ferreira",
+        "membros_banca": [
+          "Milene Selbach Silveira",
+          "Gasparini, I",
+          "SILVA-CALPA, GREIS FRANCY MIREYA",
+          "RAPOSO, A. B."
+        ],
+        "titulo_trabalho": "VIS-SeMa: Supporting Novices in Designing Data Visualizations",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "Sardinha, J.; Neto, B.; SILVA-CALPA, GREIS FRANCY MIREYA; de Mello, R.. Participação em banca de Anderson Jose Silva de Oliveira. Unveiling Design Problems Identification: Combining Mul- tiple Symptoms. 2023. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2023,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Anderson Jose Silva de Oliveira",
+        "membros_banca": [
+          "Sardinha, J.",
+          "Neto, B.",
+          "SILVA-CALPA, GREIS FRANCY MIREYA",
+          "de Mello, R."
+        ],
+        "titulo_trabalho": "Unveiling Design Problems Identification: Combining Mul- tiple Symptoms",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "MARQUES, F. L. S. N.; TREVISAN, D. G.; LOPES, H. C. V.; SILVA-CALPA, GREIS FRANCY MIREYA. Participação em banca de Jessica Palomares Pecho. Uma abordagem baseada no aprendizado de máquina interativo para customização de tecnologias adaptáveis para reabilitação física. 2021. Tese (Doutorado em Informática) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2021,
+        "tipo": "Tese de Doutorado",
+        "aluno": "Jessica Palomares Pecho",
+        "membros_banca": [
+          "MARQUES, F. L. S. N.",
+          "TREVISAN, D. G.",
+          "LOPES, H. C. V.",
+          "SILVA-CALPA, GREIS FRANCY MIREYA"
+        ],
+        "titulo_trabalho": "Uma abordagem baseada no aprendizado de máquina interativo para customização de tecnologias adaptáveis para reabilitação física",
+        "curso": "Tese (Doutorado em Informática)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "qualificacao_doutorado": [],
+    "qualificacao_mestrado": [],
+    "graduacao": [
+      {
+        "descricao": "SILVA-CALPA, GREIS F.M.; Porcino, T.; RAPOSO, A. B.; Silva, V.. Participação em banca de Leonardo Monteiro Mastra Fontoura.Método para Geração Automática de Trilhas de Dança no Jogo Synth Riders Utilizando Oculus Quest 2 e. 2023. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2023,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Leonardo Monteiro Mastra Fontoura",
+        "membros_banca": [
+          "SILVA-CALPA, GREIS F.M.",
+          "Porcino, T.",
+          "RAPOSO, A. B.",
+          "Silva, V."
+        ],
+        "titulo_trabalho": "Método para Geração Automática de Trilhas de Dança no Jogo Synth Riders Utilizando Oculus Quest 2 e",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "BARBOSA, S.; Rodriguez N.; SILVA-CALPA, GREIS F.M.. Participação em banca de Rachel Elisa Szenberg.Montessoriano Inteligente para Crianças com Transtorno do Espectro Autista. 2023. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2023,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Rachel Elisa Szenberg",
+        "membros_banca": [
+          "BARBOSA, S.",
+          "Rodriguez N.",
+          "SILVA-CALPA, GREIS F.M."
+        ],
+        "titulo_trabalho": "Montessoriano Inteligente para Crianças com Transtorno do Espectro Autista",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SILVA-CALPA, GREIS FRANCY M.; BARBOSA, S.. Participação em banca de Alexandre Pizarro D. Abrahão Ferreira.Desenvolvimento de um jogo multijogador usando Realidade Aumentada para simular um carro de controle remoto. 2022. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2022,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Alexandre Pizarro D",
+        "membros_banca": [
+          "SILVA-CALPA, GREIS FRANCY M.",
+          "BARBOSA, S."
+        ],
+        "titulo_trabalho": "Abrahão Ferreira.Desenvolvimento de um jogo multijogador usando Realidade Aumentada para simular um carro de controle remoto",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SILVA-CALPA, GREIS FRANCY M.; RAPOSO, A. B.. Participação em banca de Emanuel Lima Umbelino.EVOLUMED: Desenvolvimento de uma ferramenta de suporte a profissionais de saúde na assistência ao paciente em UTIs. 2022. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2022,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Emanuel Lima Umbelino",
+        "membros_banca": [
+          "SILVA-CALPA, GREIS FRANCY M.",
+          "RAPOSO, A. B."
+        ],
+        "titulo_trabalho": "EVOLUMED: Desenvolvimento de uma ferramenta de suporte a profissionais de saúde na assistência ao paciente em UTIs",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SILVA-CALPA, GREIS FRANCY M.; RAPOSO, A. B.. Participação em banca de Gustavo Barros Marchesan.\"BoraMarcar\" - Um Aplicativo para Marcar Todo Tipo de Evento, de Reuniões a Festas. 2021. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2021,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Gustavo Barros Marchesan.\"BoraMarcar\" - Um Aplicativo para Marcar Todo Tipo de Evento, de Reuniões a Festas",
+        "membros_banca": [
+          "SILVA-CALPA, GREIS FRANCY M.",
+          "RAPOSO, A. B."
+        ],
+        "titulo_trabalho": "",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "SILVA-CALPA, GREIS FRANCY M.; BARBOSA, S.. Participação em banca de Ana Carolina Oliveira Coscarella.Análise sobre e-commerces de beleza utilizando conceitos de Interação Humano Computador. 2021. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2021,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Ana Carolina Oliveira Coscarella",
+        "membros_banca": [
+          "SILVA-CALPA, GREIS FRANCY M.",
+          "BARBOSA, S."
+        ],
+        "titulo_trabalho": "Análise sobre e-commerces de beleza utilizando conceitos de Interação Humano Computador",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "Silva-Calpa, G. F. M.; MOTTA, T.. Participação em banca de André Guimarães de Mello Alves.Aplicativo de realidade aumentada para suporte a pessoas com transtornos neurocognitivos. 2020. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2020,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "André Guimarães de Mello Alves",
+        "membros_banca": [
+          "Silva-Calpa, G. F. M.",
+          "MOTTA, T."
+        ],
+        "titulo_trabalho": "Aplicativo de realidade aumentada para suporte a pessoas com transtornos neurocognitivos",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "Silva-Calpa, G. F. M.; Cherullo, Renato. Participação em banca de Julia Maria Alves Lima dos Santos.Aplicativo para auxiliar crianças no desenvolvimento de habilidades espaciais. 2020. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2020,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Julia Maria Alves Lima dos Santos",
+        "membros_banca": [
+          "Silva-Calpa, G. F. M.",
+          "Cherullo, Renato"
+        ],
+        "titulo_trabalho": "Aplicativo para auxiliar crianças no desenvolvimento de habilidades espaciais",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "RAPOSO, A. B.; Silva-Calpa, G. F. M.; Dam, P; SOUZA, R.. Participação em banca de Juliana Dana Zilberberg.Avaliação de usabilidade de um simulador tático de batalha em tecnologia 3D para a Marinha do Brasil. 2019. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2019,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Juliana Dana Zilberberg",
+        "membros_banca": [
+          "RAPOSO, A. B.",
+          "Silva-Calpa, G. F. M.",
+          "Dam, P",
+          "SOUZA, R."
+        ],
+        "titulo_trabalho": "Avaliação de usabilidade de um simulador tático de batalha em tecnologia 3D para a Marinha do Brasil",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "BARBOSA, S.; RAPOSO, A. B.; Silva-Calpa, G. F. M.. Participação em banca de Luís Claudio Cantanhêde Martins.Organizador de samples para produção fonográfica. 2019. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2019,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Luís Claudio Cantanhêde Martins",
+        "membros_banca": [
+          "BARBOSA, S.",
+          "RAPOSO, A. B.",
+          "Silva-Calpa, G. F. M."
+        ],
+        "titulo_trabalho": "Organizador de samples para produção fonográfica",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "RAPOSO, A. B.; Silva-Calpa, G. F. M.; BARBOSA, S.. Participação em banca de Pedro Sousa Meireles.Ambiente Virtual para Apoio à Reabilitação de Pessoas com Dificuldades Físicas nos Membros Superiores. 2019. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2019,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Pedro Sousa Meireles",
+        "membros_banca": [
+          "RAPOSO, A. B.",
+          "Silva-Calpa, G. F. M.",
+          "BARBOSA, S."
+        ],
+        "titulo_trabalho": "Ambiente Virtual para Apoio à Reabilitação de Pessoas com Dificuldades Físicas nos Membros Superiores",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      },
+      {
+        "descricao": "RAPOSO, A. B.; Silva, G. F. M.; Feijo, B.. Participação em banca de Hugo Costa Machado.Desenvolvimento de um jogo de xadrez com realidade aumentada para android. 2018. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação) - Pontifícia Universidade Católica do Rio de Janeiro.",
+        "ano": 2018,
+        "tipo": "Trabalho de Conclusão de Curso de Graduação",
+        "aluno": "Hugo Costa Machado",
+        "membros_banca": [
+          "RAPOSO, A. B.",
+          "Silva, G. F. M.",
+          "Feijo, B."
+        ],
+        "titulo_trabalho": "Desenvolvimento de um jogo de xadrez com realidade aumentada para android",
+        "curso": "Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)",
+        "universidade": "Pontifícia Universidade Católica do Rio de Janeiro"
+      }
+    ],
+    "outras": [
+      {
+        "descricao": "SILVA-CALPA, GREIS FRANCY M.; BARBOSA, S.. Participação em banca de Karina Fernandes Tronkos.Utilizando uma abordagem centrada no usuário para o desenvolvimento de um produto digital sobre educação financeira para adolescentes. 2021.",
+        "ano": 2021,
+        "tipo": "Participação em banca",
+        "aluno": "Karina Fernandes Tronkos",
+        "membros_banca": [
+          "SILVA-CALPA, GREIS FRANCY M.",
+          "BARBOSA, S."
+        ],
+        "titulo_trabalho": "Utilizando uma abordagem centrada no usuário para o desenvolvimento de um produto digital sobre educação financeira para adolescentes",
+        "curso": "",
+        "universidade": ""
+      }
+    ]
+  },
+  "estatisticas": {
+    "total_artigos_periodicos": 11,
+    "total_livros": 0,
+    "total_capitulos": 5,
+    "total_trabalhos_congressos": 25,
+    "total_projetos_pesquisa": 4,
+    "total_projetos_extensao": 0,
+    "total_projetos_desenvolvimento": 1,
+    "total_orientacoes_concluidas": 10,
+    "total_orientacoes_andamento": 11
+  }
+}

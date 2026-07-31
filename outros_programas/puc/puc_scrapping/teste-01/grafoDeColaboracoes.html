@@ -1,0 +1,565 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>teste-01</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>teste-01</h2></div>
+    <h3>Grafo de colaborações</h3>
+    <p>
+      <a href="membros.html">
+        25 currículos Lattes
+      </a> geraram este grafo baseado em <em>Artigos completos publicados em periódicos, Livros publicados/organizados ou edições, Capítulos de livros publicados, Textos em jornais de notícias/revistas, Trabalhos completos publicados em anais de congressos, Resumos expandidos publicados em anais de congressos, Resumos publicados em anais de congressos, Artigos aceitos para publicação, Apresentações de trabalho, Demais tipos de produção bibliográfica, Programas de computador com registro, Programas de computador sem registro, Produtos tecnológicos, Processos ou técnicas, Trabalhos técnicos , Demais tipos de produção técnica, Entrevistas, mesas redondas, programas e comentários na mídia, Produções artísticas</em>.<br>
+      O tamanho do vértice é proporcional ao número de colaboradores. A espessura da aresta é proporcional ao número de colaborações.
+    </p>
+    
+    <style>
+      .viz-wrap { display:flex; gap:1rem; }
+      #info-pane {
+        flex:1; max-height: 1200px; overflow:auto;
+        border:1px solid #ddd; padding:0.75rem; background:#fafafa;
+      }
+      .toolbar {
+        display:flex; gap:0.5rem; align-items:center; margin-bottom:0.5rem; flex-wrap: wrap;
+      }
+      .toolbar input[type="text"] {
+        flex:1; min-width: 220px; padding:0.5rem; border:1px solid #ccc; border-radius:8px;
+      }
+      .toolbar button {
+        padding:0.5rem 0.75rem; border:1px solid #ccc; border-radius:8px; background:#fff; cursor:pointer;
+      }
+      .legend { display:flex; align-items:center; gap:.5rem; flex-wrap:wrap;
+        font: 14px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif; }
+      .legend .title { margin-right:.25rem; }
+      .legend .item { display:inline-flex; align-items:center; gap:.35rem; margin-right:.75rem; }
+      .legend .swatch { width:14px; height:14px; display:inline-block; border-radius:2px; border:1px solid rgba(0,0,0,.2); }
+    
+      #viz-container { flex:3; height: 70vh; min-height: 620px; border:1px solid #ccc; position:relative; }
+      @media (min-width: 1200px) { #viz-container { height: 1200px; } }
+      @media (max-height: 600px) { #viz-container { height: 60vh; } }
+    
+      .node { cursor:grab; }
+      .node:active { cursor:grabbing; }
+      .node.selected circle { stroke:#111; stroke-width:1px; }
+      .dimmed { opacity:0.15; }
+    
+      .label { font: 5px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif; pointer-events:none; }
+      .edge-label { font-size: 3px; line-height: 1; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif; fill:#555; }
+      .edge { stroke:#aaa; stroke-opacity:0.85; }
+      .edge.highlight { stroke:#333; }
+      .hidden { display:none !important; }
+    
+      /* Ellipsis + tooltip nas tabelas (aplicado quando Tabulator monta) */
+      #tabela-vertices .tabulator-cell,
+      #tabela-arestas  .tabulator-cell {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    </style>
+    
+    <div class="viz-wrap">
+      <div style="flex:3; display:flex; flex-direction:column;">
+        <div class="toolbar">
+          <div id="legend" class="legend">
+            <span class="title">As cores representam os seguintes rótulos:</span>
+          </div>
+          <button id="btnToggleLabels" title="Mostrar/ocultar rótulos (vértices e arestas)">Ocultar rótulos</button>
+          <input id="searchBox" type="text" placeholder="Buscar pesquisador (nome ou ID)..." />
+          <button id="btnSearch">Buscar</button>
+          <button id="btnClear">Limpar seleção</button>
+        </div>
+    
+        <div id="viz-container">
+          <svg id="viz" width="100%" height="100%"></svg>
+        </div>
+      </div>
+    
+      <div id="info-pane">
+        <h4>Informação do Pesquisador</h4>
+        <p>Clique em um nó (ou use a busca) para ver detalhes aqui.</p>
+      </div>
+    </div>
+    
+    <p>Você pode baixar o grafo em formato GEXF:
+      <a href="grafo_de_colaboracoes.gexf" download="grafo_de_colaboracoes.gexf">grafo_de_colaboracoes.gexf</a>
+    </p>
+    
+    <!-- D3 global (sem módulos) -->
+    <script src="js/d3.min.js"></script>
+    
+    <script>
+      // ======= dados =======
+      var graphData = {"directed": false, "multigraph": false, "graph": {}, "nodes": [{"label": "Alberto Barbosa Raposo", "url": "http://lattes.cnpq.br/4394162331037750", "publicacoesEmCoautoria": 96, "atualizacaoCV": "08/07/2026", "resumo": "Professor Associado e Diretor do Departamento de Informática da Pontifícia Universidade Católica do Rio de Janeiro e coordenador de projetos do Instituto Tecgraf de Desenvolvimento de Software Técnico-Científico da PUC-Rio. Doutor em Engenharia Elétrica/Engenharia de Computação pela Universidade Estadual de Campinas (2000). Tem experiência na área de Ciência da Computação, com ênfase em Realidade Virtual, atuando principalmente nos seguintes temas: realidade virtual e aumentada, computação gráfica, visão computacional, aprendizado de máquina e interação humano-computador. Já publicou mais de 240 artigos sobre estes assuntos e coordena projetos nessas áreas, que têm ou já obtiveram apoio da Petrobras, Repsol/Sinopec, General Electric, Embraer, CNPq, FINEP, FAPERJ e RNP. Editor do JIS - SBC Journal on Interactive Systems (2013-2019). Bolsista de Produtividade Desen. Tec. e Extensão Inovadora do CNPq - Nível 1C; Jovem Cientista (2009-2012) e Cientista do Nosso Estado (2023-2026) pela FAPERJ e NVIDIA Academic Partner. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Pontifícia Universidade Católica - PUC Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4338 Fax: (21) 35271530 URL da Homepage: http://www.tecgraf.puc-rio.br/~abraposo", "artigosPeriodicos": 61, "artigosEventos": 209, "capitulosDeLivros": 19, "livros": 3, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 10, "x": 0.0153011422924502, "y": 0.2347162408404104, "size": 11, "id": 0}, {"label": "Alessandro Fabricio Garcia", "url": "http://lattes.cnpq.br/0807511237795775", "publicacoesEmCoautoria": 118, "atualizacaoCV": "21/07/2026", "resumo": "Possui doutorado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio, 2004), mestrado em Ciência da Computação pela Unicamp (2000) e graduação em Ciência da Computação pela Universidade Estadual de Maringá (UEM, 1998). É Professor Associado do Departamento de Informática da PUC-Rio desde 2009. Antes disso, atuou como Professor Assistente na Lancaster University (Inglaterra), desde 2005.É professor bolsista produtividade nível A do CNPq. Possui um h-index de 55 e mais de 11.800 citações (fonte: Google Scholar), índices que estão entre os maiores de toda área de Computação no Brasil. Sua principal área de pesquisa na Computação é Engenharia de Software, com ênfase em manutenção e evolução de software, refatoração e reengenharia de software, design e arquitetura de software, rejuvenescimento de sistemas legados, aprendizado de máquina para engenharia de software, robustez de programas, e gestão informatizada da saúde. Ele atuou nos últimos anos no Corpo Editorial em três periódicos de alto impacto da sua área: Empirical Software Engineering Journal (desde 2019), IEEE Transactions on Software Engineering (2015-2020) e Journal of Systems and Software (desde 2014). De 2017 a 2021, fez parte do comitê diretivo da conferência FSE, uma das principais conferências internacionais de toda área da Engenharia de Software, bem como atuou como coordenador do Comitê de Programa desta conferência em 2018. Ele atua com frequência em vários comitês do ICSE (International Conference on Software Engineering), a principal conferência internacional da sua área, em particular: membro do ''Program Board'' (2017 e 2019), comitê organizador (várias edições, mais recentemente no ICSE 2021 e ICSE 2026) e no comitê de programa técnico (várias edições, sendo o ICSE 2026 o mais recente). Ele atuou como co-editor do journal JSERD da Sociedade Brasileira de Computação (SBC) ao longo de vários anos, desde 2012 até 2020. Ele atuou como coordenador do comitê de programa da IEEE International Conference on Software Architecture (ICSA 2020), realizada no Brasil. Ele tem sido convidado frequentemente nos últimos 15 anos para os Comitês de Programa e/ou Comitês de Organização de várias outras das principais conferências internacionais da área de Engenharia de Software, tais como ICSME, ICPC, ESEM, MSR, CSMR/SANER, SPLC, ISSRE, MODELS e Modularity/AOSD. Ele publicou mais de 200 artigos nos principaisveículos da sua área por mais de 25 anos. É bolsista PQ do CNPq nível A e Cientista do Nosso Estado (FAPERJ) por 3 períodos consecutivos (2016-2018, 2019-2022 e 2023-2025), depois de ser Jovem Cientista do Nosso Estado desde 2009. Ele já recebeu mais de 50 prêmios, distinções e reconhecimentos, tais como Melhor Dissertação de Mestrado de 2000 (Sociedade Brasileira de Computação), Melhor Pesquisador do Ano (Lancaster University, 2006), Membro Afiliado da Academia Brasileira de Ciências (ABC, 2009-2014), e vários prêmios de melhor artigo, em particular 3 ''ACM Distinguished Paper Awards'' no ICSE 2014, ICSE 2018 e FSE 2024. Foi pesquisador homenageado em 2018 pela Sociedade Brasileira de Computação (CEES) por ''Contribuições Relevantes para a Engenharia de Software no Brasil''. Foi coordenador de várias redes de excelência/cooperação, tais como 2 PROCADs (CAPES) e três redes de excelência (FAPERJ). Ele é coordenador acadêmico do Laboratório de Engenharia de Software (LES) da PUC-Rio, onde lidera o grupo de pesquisa Opus, possuindo várias parcerias com grupos de pesquisa internacionais nos EUA, Inglaterra, Canadá, Alemanha e Argentina. Seus projetos de pesquisa são financiados por agências de fomento -- CNPq, CAPES, FAPERJ e Newton Fund -- e por parceiros da indústria de software, tais como Petrobras e Minds@Work. Atuou em vários Comitês de Avaliação de Programas de Pós-Graduação (CAPES) e no Conselho (suplente) da SBC (2013-2015). (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informatica", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informatica. Rua Marques de Sao Vicente, 225 Gavea 22453900 - Rio de Janeiro, RJ - Brasil Telefone: (021) 35271500 Fax: (021) 35271530 URL da Homepage: http://www-di.inf.puc-rio.br/~afgarcia/", "artigosPeriodicos": 77, "artigosEventos": 287, "capitulosDeLivros": 19, "livros": 5, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 5, "x": -0.005031396006593618, "y": -0.1733166794631407, "size": 6, "id": 1}, {"label": "Eduardo Sany Laber", "url": "http://lattes.cnpq.br/6039007393332552", "publicacoesEmCoautoria": 11, "atualizacaoCV": "01/01/2026", "resumo": "Possui graduação em Engenharia de Computação pela Pontifícia Universidade Católica do Rio de Janeiro (1996), mestrado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (1997) e doutorado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (2000). Atualmente é Professor Associado da Pontifícia Universidade Católica do Rio de Janeiro. Tem interesse e xperiência na área de Ciência da Computação, com ênfase em Aprendizado de Máquina, Ciência de Dados e Projeto e Análise de Algoritmos. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Marques de São Vicente 225, sala 518 Gavea 22453900 - Rio de Janeiro, RJ - Brasil - Caixa-postal: 38097 Telefone: (21) 31141500 Ramal: 4349 Fax: (21) 31141530", "artigosPeriodicos": 37, "artigosEventos": 47, "capitulosDeLivros": 0, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 3, "x": -0.5442426131749706, "y": -0.44295886233808973, "size": 4, "id": 2}, {"label": "Edward Hermann Haeusler", "url": "http://lattes.cnpq.br/6075905438020841", "publicacoesEmCoautoria": 45, "atualizacaoCV": "02/07/2026", "resumo": "Possui graduação em Matemática pela Universidade de Brasília (1983), mestrado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (1986) e doutorado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (1990). Atualmente é professor associado da Pontifícia Universidade Católica do Rio de Janeiro. Tem experiência na área de Ciência da Computação, com ênfase em Computabilidade e Modelos de Computação, atuando principalmente nos seguintes temas: teoria da prova, proof theory, teoria das categorias, semântica formal e Lógica. Foi coordenador de Pós-Graduação do DI-PUC de 2010-2 a 2014-1. Esteve como coordenador do PPG-Informática da PUC-Rio desde Maio/2023 até Março/2024 e coordenador adjunto de Abril 2024 até Fev/2026, (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente, 225 Gávea 22453-900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35299385 Fax: (21) 35115645", "artigosPeriodicos": 83, "artigosEventos": 157, "capitulosDeLivros": 19, "livros": 14, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 8, "x": -0.2711100174390357, "y": -0.054316557577950744, "size": 9, "id": 3}, {"label": "Greis Francy Mireya Silva Calpa", "url": "http://lattes.cnpq.br/3617813687111663", "publicacoesEmCoautoria": 31, "atualizacaoCV": "28/06/2026", "resumo": "Professora no Departamento de Informática da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio). Coordenadora do Núcleo de Inovação em Tecnologias e Aplicações para a Saúde (NITAS) do DI/PUC-Rio. Possui graduação (Summa Cum Laude) em Licenciatura em Informática pela Universidad de Nariño - Colômbia (2009), com revalidação como Bacharel em Ciência da Computação pela Universidade Federal Fluminense (UFF), mestrado em Informática (2012) e doutorado em Ciências - Informática pela PUC-Rio (2016) com ênfase em Interação Humano-Computador (IHC). Durante o doutorado foi contemplada com bolsa FAPERJ - Nota 10. Realizou pós-doutorado no Laboratório Nacional de Computação Científica (LNCC) e no Departamento de Informática da PUC-Rio. Seus principais interesses de pesquisa incluem: sistemas interativos centrados no usuário, sistemas inteligentes aplicados à saúde e educação e, em geral, estudos envolvendo a interseção de IHC e Inteligência Artificial. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "[sem-grandeArea]", "nomePrimeiraArea": "[sem-area]", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Instituto Tecgraf", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Instituto Tecgraf. Rua Marquês de São Vicente, 225 Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35204000 URL da Homepage: www.tecgraf.puc-rio.br", "artigosPeriodicos": 11, "artigosEventos": 25, "capitulosDeLivros": 5, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 2, "x": 0.06440426340717727, "y": 0.4086963158459409, "size": 3, "id": 4}, {"label": "Helio Côrtes Vieira Lopes", "url": "http://lattes.cnpq.br/9199970180870105", "publicacoesEmCoautoria": 58, "atualizacaoCV": "04/02/2026", "resumo": "Hélio Lopes é professor associado do Departamento de Informática da PUC-Rio. Ele tem doutorado em matemática (1996), mestrado em informática (1992) e bacharelado em engenharia da computação (1990). Todos esses títulos foram obtidos na PUC-Rio. Sua pesquisa é principalmente nas áreas de ciência de dados e computação visual. Ele gosta de desenvolver e aplicar técnicas matemáticas e computacionais avançadas para resolver problemas do mundo real que tenham relevância em engenharia, ciência e indústria. É corordenador do ATD-LAB e da iniciativa ExACTa (experimentação Ágil - Co-criação - Transformação Digital) do departamento de Informática da PUC-Rio. Ele também é co-fundador da DATAMINT Sistemas e Serviços LTDA. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática. Pontifícia Universidade Católica - PUC Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4350 Fax: (21) 35271530 URL da Homepage: http://www.inf.puc-rio.br/~lopes", "artigosPeriodicos": 67, "artigosEventos": 102, "capitulosDeLivros": 9, "livros": 7, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 11, "x": 0.08361640669432553, "y": 0.012102233095294379, "size": 12, "id": 5}, {"label": "Jose Alberto Rodrigues Pereira Sardinha", "url": "http://lattes.cnpq.br/6620778250608191", "publicacoesEmCoautoria": 15, "atualizacaoCV": "26/05/2026", "resumo": "Possui graduação em Engenharia de Computação pela Pontifícia Universidade Católica do Rio de Janeiro(1997), especialização em Iag Master Em Finanças Corporativas pela Pontifícia Universidade Católica do Rio de Janeiro(1998), mestrado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro(2001), doutorado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro(2005), pós-doutorado pela Carnegie Mellon University(2008) e pós-doutorado pela Lancaster University(2010). Atualmente é Professor Adjunto da Pontifícia Universidade Católica do Rio de Janeiro e Coordenador do PPG em Informática da Pontifícia Universidade Católica do Rio de Janeiro. Tem experiência na área de Ciência da Computação, com ênfase em Inteligência Artificial. Atuando principalmente nos seguintes temas:Agentes de Software, Inteligência Artificial, machine learning e e-commerce. (Texto gerado automaticamente pela aplicação CVLattes)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática. Rua Marquês de São Vicente, 225 RDC, 4o Andar Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 URL da Homepage: http://www.inf.puc-rio.br", "artigosPeriodicos": 21, "artigosEventos": 61, "capitulosDeLivros": 12, "livros": 1, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 4, "x": -0.19026728327072956, "y": -0.28506032568079653, "size": 5, "id": 6}, {"label": "Juliana Arriel", "url": "http://lattes.cnpq.br/3894389473532167", "publicacoesEmCoautoria": 21, "atualizacaoCV": "19/06/2026", "resumo": "Juliana Alves Pereira (Juliana Arriel) é professora do Departamento de Informática da PUC-Rio (desde 2022). Realizou pós-doutorado na universidade de Rennes, Inria/IRISA (França). Possui doutorado em Engenharia de Software pela Otto-von-Guericke-Universität Magdeburg (OvGU) na Alemanha (2018). Juliana recebeu seu doutorado com distinção (summa cum laude) e um prêmio de melhor tese de doutorado da escola de Ciências da Computação Otto-von-Guericke-Universität Magdeburg em 2018 (Alemanha). Mestre em Ciência da Computação pela Universidade Federal de Minas Gerais (2015) e bacharel pela Universidade Federal de Lavras (2012). Juliana orienta pesquisas de doutorado, mestrado e iniciação científica na interação entre as áreas de Engenharia de Software e Inteligência Artificial. Sua missão é investigar soluções de Inteligência Artificial que auxiliam no gerenciamento, evolução e manutenção de sistemas de software. Nos últimos anos, Juliana tem servido em Comitês de Programa e Comitês de Organização das principais conferências internacionais de Engenharia de Software e áreas afins, tais como SANER, MSR, ICSME, ICPC, ICSE e ASE Demo, EASE, SPLC, SLE e várias outras. Pelo reconhecimento às suas contribuições para a Engenharia de Software internacionalmente, Juliana recebeu o prêmio de melhor Tese de doutorado (Dissertationspreis) pela OvGU em novembro de 2018, e participou do GI-Dissertationspreis 2018 organizado pela Sociedade Alemã de Informática e realizado no Schloss Dagstuhl. Vários de seus artigos receberam distinções nas principais conferências internacionais da sua área, tais como o ''Best Paper Award'' do SBES 2025, FSE 2024, SPLC 2021 e ICPE 2020. Em 2022, Juliana recebeu o prêmio de artigo mais influente do CBSoft pela Comissão Especial de Engenharia de Software (CEES) da Sociedade Brasileira de Computação (SBC), pelo artigo publicado no SBCARS, em reconhecimento ao seu impacto internacional e nacional para a Engenharia de Software nos últimos 10 anos. Juliana possui várias colaborações atualmente com grupos de pesquisa nacionais e internacionais. Atualmente, Juliana é coordenadora do AISE (Artificial Intelligence and Software Engineering Lab) e é colaboradora do Laboratório de Engenharia de Software (LES) da PUC-Rio, que possui reconhecida notoriedade nacional e internacional. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Reitoria, Coordenação Central de Pós-Graduação", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Reitoria, Coordenação Central de Pós-Graduação. Avenida Padre Leonel Franca Gávea 22451000 - Rio de Janeiro, RJ - Brasil Telefone: (35) 997312243 URL da Homepage: http://www.inf.puc-rio.br/blog/professor/juliana-alves-pereira/", "artigosPeriodicos": 12, "artigosEventos": 57, "capitulosDeLivros": 6, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 4, "x": 0.09631862811700234, "y": -0.3413933725330445, "size": 5, "id": 7}, {"label": "Marcelo Gattass", "url": "http://lattes.cnpq.br/7454736736043931", "publicacoesEmCoautoria": 49, "atualizacaoCV": "16/11/2025", "resumo": "Vice-Reitor de Desenvolvimento de Inovação da PUC-Rio. Graduado e mestre pela PUC-Rio em 1977 e Ph.D. pela Cornell University em 1982. Como empreendedor, foi fundador e diretor do Tecgraf/PUC-Rio por 36 anos, durante os quais participou e supervisionou centenas de contratos de desenvolvimento de produtos inovadores com diversas empresas, notadamente com a Petrobras. Como pesquisador do CNPq, foi bolsista 1A por mais de 20 anos, tendo concluído sua carreira como Pesquisador Sênior. Na CAPES, coordenou diversos projetos de cooperação nacionais e internacionais. Formou 32 doutores e mais de 70 mestres. Em reconhecimento ao seu trabalho, recebeu diversos prêmios, entre os quais o Prêmio Personalidade Inovação da ANP e a Grã-Cruz da Ordem Nacional do Mérito Científico do Ministério da Ciência e Tecnologia. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente, 225 Gávea 22453900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35204650 Fax: (21) 35204122 URL da Homepage: www.tecgraf.puc-rio.br/~mgattass", "artigosPeriodicos": 94, "artigosEventos": 126, "capitulosDeLivros": 3, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 8, "x": -0.03435016635376553, "y": 0.3068677548789737, "size": 9, "id": 8}, {"label": "Marco Serpa Molinaro", "url": "http://lattes.cnpq.br/1656881663114095", "publicacoesEmCoautoria": 12, "atualizacaoCV": "16/03/2026", "resumo": "Marco Molinaro é Professor Adjunto do Departamento de Informática da PUC-Rio, onde ingressou em 2015, tendo sido anteriormente professor nas universidade Georgia Tech e TU Delft (Holanda). Possui graduação em Engenharia de Computação pela PUC-RIo (2005), mestrado em informática também pela PUC-Rio (2016), e doutorado em Algorithms, Combinatorics, and Optimization pela Carnegie Mellon University (2013). Possui colaboração com universidades e laboratórios de pesquisa internacional de maior prestígio, como Carnegie Mellon University, Georgia Tech, Boston University, University of Wisconsin-Madison, University of Illinois Urbana-Champaign, Johns Hopkins University, University of Toronto, TU Berlin, University of Bonn, Technion, Tel-Aviv University, Google, e IBM. Atualmente se dedica à pesquisa em Teoria da Computação e Pesquisa Operacional, com ênfase em algoritmos online e programação inteira. . (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática. Rua Marques de S. Vicente 225, PUC-Rio, Predio RDC Gávea 22453900 - Rio de Janeiro, RJ - Brasil - Caixa-postal: 38008 Telefone: (021) 31141243 Fax: (021) 31141236", "artigosPeriodicos": 36, "artigosEventos": 37, "capitulosDeLivros": 0, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 3, "x": -0.4203004290239586, "y": -0.5268109128460351, "size": 4, "id": 9}, {"label": "Marcos Kalinowski", "url": "http://lattes.cnpq.br/1095304607841635", "publicacoesEmCoautoria": 42, "atualizacaoCV": "12/01/2026", "resumo": "Professor Associado do Departamento de Informática da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio). Orienta pesquisas de mestrado e doutorado nas áreas de Engenharia de Software e Engenharia de Inteligência Artificial (AI Engineering). Doutor e mestre em Engenharia de Software pela COPPE/UFRJ e graduado em Ciência da Computação pela UFRJ. Tem publicado regularmente nos principais periódicos e conferências de sua área (e.g., IEEE Transactions on Software Engineering, Journal of Systems and Software, Information and Software Technology, Empirical Software Engineering Journal, ACM TOSEM, IEEE Software, ICSE, VLDB, ASE, ESEM, RE). Tem destacada experiência acadêmica internacional, tendo atuado como Professor Visitante na University of Bari (Itália) e ministrado disciplinas como Professor Convidado em nível de doutorado na UCLM (Espanha). É membro da ISERN (International Software Engineering Research Network), a principal comunidade de pesquisa em Engenharia de Software Experimental. Participou de mais de 40 bancas de doutorado em instituições renomadas da América Latina, América do Norte e da Europa. Atua como Editor Associado dos periódicos Empirical Software Engineering, IEEE Software e Journal of Systems and Software. Frequentemente serve à comunidade internacional em tarefas de organização e coordenação científica de eventos (e.g., General Chair do ICSE 2026, Co-chair do ISERN 2024 e 2023, PC chair do ESEM 2021 e 2020). Participa do comitê diretivo (steering) do ICSE. Tem experiência atuando como membro de comitê de programa dos principais eventos internacionais e nacionais de sua área (e.g., ICSE, ICSE-SEIP, ESEM, EASE, EuroMicro SEAA, PROFES, CAIN, REFSQ, CIbSE, SBES, SBQS). Coordenou projetos de pesquisa captando recursos junto a editais de diferentes órgãos de fomento (e.g., CNPq Pq, CNPq Universal, FAPERJ CNE). Atua em diversas colaborações internacionais de pesquisa, com destaque para as colaborações com o Blekinge Institute of Technology (Suécia), University of Bari (Itália), Vienna University of Technology (Austria) e a Technische Universtät München (Alemanha). Mais informações podem ser encontradas em http://www.inf.puc-rio.br/~kalinowski (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática. Rua Marquês de São Vicente, 225 Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271510 Ramal: 4337 Fax: (21) 35271530 URL da Homepage: http://www-di.inf.puc-rio.br/~kalinowski/", "artigosPeriodicos": 38, "artigosEventos": 146, "capitulosDeLivros": 6, "livros": 15, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 10, "x": 0.11258100644835316, "y": -0.1285616824469159, "size": 11, "id": 10}, {"label": "Marcus Vinicius Soledade Poggi de Aragao", "url": "http://lattes.cnpq.br/0833253899619895", "publicacoesEmCoautoria": 10, "atualizacaoCV": "10/06/2025", "resumo": "Possui graduação em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro(1983), mestrado em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro(1988) e doutorado em Matemática Aplicada pela Ecole Polytechnique de Montreal(1993). Atualmente é Professor Associado da Pontifícia Universidade Católica do Rio de Janeiro, Revisor de periódico da EUROPEAN JOURNAL OF OPERATIONAL RESEARCH, Revisor de periódico da MATHEMATICAL PROGRAMMING, Revisor de periódico da COMPUTERS & OPERATIONS RESEARCH, Revisor de periódico da DISCRETE APPLIED MATHEMATICS, Revisor de periódico da OPERATIONS RESEARCH, Revisor de periódico da DISCRETE MATHEMATICS, Revisor de periódico da TRANSPORTATION SCIENCE, Revisor de periódico da 4OR-A Quarterly Journal of Operations Research e Membro de corpo editorial da TRANSPORTATION SCIENCE. Tem experiência na área de Ciência da Computação, com ênfase em Teoria da Computação. (Texto gerado automaticamente pela aplicação CVLattes)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente 225 Gávea 22451-900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4339 Fax: (21) 35271530 URL da Homepage: http://www.inf.puc-rio.br/~poggi", "artigosPeriodicos": 35, "artigosEventos": 37, "capitulosDeLivros": 9, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 7, "x": 0.40020428619020154, "y": -0.3785074960801516, "size": 8, "id": 11}, {"label": "Markus Endler", "url": "http://lattes.cnpq.br/6505039023842313", "publicacoesEmCoautoria": 29, "atualizacaoCV": "10/03/2026", "resumo": "Bacharel em Matemática e Mestre em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (1984 e 1987), obteve o título de Dr.rer.nat. em Informática da Technische Universität Berlim (1992), e o título de Professor livre-docente pela Universidade de São Paulo (2001). Atualmente é professor associado da Pontifícia Universidade Católica do Rio de Janeiro. Desde 2020.2 é também Diretor do Departamento de Informática da PUC-Rio. É editor acadêmico do periódico PeerJ Computer Science, membro da SBC, da ACM e do IFIP WG 6.1. É especialista em Middleware para Sistemas Distribuídos, com foco em: computação móvel e pervasiva, IoT, protocolos/algoritmos distribuídos para redes móveis, ciência de contexto, processamento de eventos complexos, e modelos para o desenvolvimento de aplicações da Internet das Coisas móveis. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informatica", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informatica. Rua Marquês de São Vicente 225 Gávea 22453900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4309 Fax: (21) 35271530 URL da Homepage: http://www.inf.puc-rio.br", "artigosPeriodicos": 42, "artigosEventos": 163, "capitulosDeLivros": 10, "livros": 4, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 12, "x": -0.1288036537208142, "y": 0.07813993410379423, "size": 13, "id": 12}, {"label": "Paulo Ivson Netto Santos", "url": "http://lattes.cnpq.br/3762142722427704", "publicacoesEmCoautoria": 10, "atualizacaoCV": "17/01/2026", "resumo": "Paulo Ivson é professor do Departamento de Informática da PUC-Rio e gerente de projetos no Instituto Tecgraf da PUC-Rio. Suas pesquisas envolvem as áreas de Inteligência Artificial e Computação Gráfica, com ênfase em técnicas de Aprendizado de Máquina, Aprendizado Profundo, Visão Computacional e Visualização 3D. Paulo Ivson é Doutor e Mestre em Informática, com foco em Computação Gráfica, tendo se graduado em Engenharia de Computação pela PUC-Rio. Atua há mais de 20 anos em projetos de Pesquisa, Desenvolvimento e Inovação com a indústria, atualmente focando em tecnologias inovadoras para gestão digital de ativos de engenharia, com base em conceitos de Indústria 4.0 e Building Information Modeling (BIM). (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro. Rua Marquês de São Vicente, 225 Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 URL da Homepage: http://www.inf.puc-rio.br/", "artigosPeriodicos": 15, "artigosEventos": 11, "capitulosDeLivros": 4, "livros": 1, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 4, "x": -0.026152094691538758, "y": 0.6350370475463621, "size": 5, "id": 13}, {"label": "Rafael Martinelli Pinto", "url": "http://lattes.cnpq.br/6823993478179598", "publicacoesEmCoautoria": 4, "atualizacaoCV": "03/06/2026", "resumo": "Rafael Martinelli possui mestrado e doutorado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio) e pós-doutorado pela École Polytechnique de Montréal, onde integrou o Groupe d'Études et de Recherche en Analyse des Décisions (GERAD). Atua nas áreas de otimização combinatória, programação matemática e projeto de algoritmos, com experiência no desenvolvimento de métodos exatos e heurísticos para problemas de otimização, incluindo branch-cut-and-price, meta-heurísticas e algoritmos híbridos. Coordena o laboratório Galgos - Algoritmos e Otimização, vinculado ao Departamento de Informática da PUC-Rio, dedicado ao desenvolvimento de métodos algorítmicos para problemas complexos de tomada de decisão. É também mantenedor do CVRPLib, uma das principais bibliotecas internacionais de instâncias para problemas de roteamento de veículos, responsável pela disponibilização de benchmarks, soluções de referência e organização de competições científicas. Mantém colaborações com a indústria no desenvolvimento de soluções para problemas de roteamento de veículos, alocação de recursos, escalonamento de tarefas e otimização sob incerteza. Atualmente é professor do Departamento de Informática da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), bolsista de produtividade em pesquisa PQ2 do CNPq. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Matemática", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Engenharia Industrial", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Engenharia Industrial. ​Rua Marquês de São Vicente, 225 Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35272174", "artigosPeriodicos": 25, "artigosEventos": 26, "capitulosDeLivros": 5, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 1, "x": 0.7, "y": -0.6579305511574705, "size": 2, "id": 14}, {"label": "Sérgio Colcher", "url": "http://lattes.cnpq.br/1104157433492666", "publicacoesEmCoautoria": 11, "atualizacaoCV": "14/05/2026", "resumo": "Sérgio Colcher é professor do quadro principal do Departamento de Informática (DI) da PUC-Rio desde 2001. Obteve os títulos de Engenheiro de Computação (1991), Mestre em Ciências em Informática (1993) e Doutor em Ciências em Informática (1999), todos pela PUC-Rio, além do Pós-Doutorado (2003) no ISIMA (Institute Supérieur D?Informatique et de Modelisation des Applications ? Université Blaise Pascal, Clermont Ferrand, França). Trabalhou no Centro Científico da IBM-Rio e na Divisão de Desenvolvimento de Hardware da COBRA (Computadores Brasileiros S/A). Foi também professor dos cursos de MBA em Gerência de Telecomunicação e MBA em e-Business da Fundação Getúlio Vargas. É autor do livro ?Redes de Computadores: das LANs, MANs e WANs às Redes ATM? (Ed. Campus/Elsevier 1995), livro indicado ao prêmio Jabuti em 1996, e do livro ?VoIP: Voz sobre IP? (Ed. Campus/Elsevier 2005). Em 2012 recebeu o prêmio Personalidade do Ano da Assespro-RJ (Associação Brasileira das Empresas Brasileiras de Tecnologia da Informação, Software e Internet), na categoria Destaque do Setor Acadêmico, prêmio instituído em 1997, com o propósito de reverenciar publicamente as personalidades que, no ano de sua concessão, tenham se destacado por sua contribuição ao segmento de Informática. O Prof. Colcher foi Coordenador Geral dos cursos de graduação do DI PUC-Rio e Coordenador da Graduação da Engenharia da Computação de 2008 a 2015. Atualmente é coordenador do Laboratório TeleMídia, Coordenador Geral do Núcleo BTGPactual/PUC-Rio de Inovação Tecnológica, Coordenador do Núcleo LEARN de pesquisa em Aprendizado de Máquina e Coordenador Acadêmico do Curso de Pós-Graduação em Redes de Computadores da PUC-Rio (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente 225, Departamento de Informática, Prédio do RDC, Sala 418 Gávea 22453900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4348 URL da Homepage: http://www.inf.puc-rio.br/~colcher", "artigosPeriodicos": 10, "artigosEventos": 72, "capitulosDeLivros": 5, "livros": 3, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 4, "x": -0.3588225869925485, "y": 0.053252264040221334, "size": 5, "id": 15}, {"label": "Sergio Lifschitz", "url": "http://lattes.cnpq.br/8164403687403639", "publicacoesEmCoautoria": 31, "atualizacaoCV": "08/04/2026", "resumo": "Professor Associado da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), vinculado ao Departamento de Informática. Doutor em Informática, especialização em Bancos de Dados e Redes, pela École Nationale Supérieure des Télécommunications (ENST/Télécom Paris), França. Mestre em Engenharia Elétrica, área de Sistemas e Geometria Computacional, e Engenheiro Eletricista, especialização em Sistemas, ambos pela PUC-Rio. Pesquisador nas grandes áreas de bancos de dados e bioinformática. Participa de projetos de desenvolvimento em áreas interdisciplinares de engenharia e ciência de dados. Administrativamente é membro do Núcleo Docente Estruturante (NDE) do Curso de Engenharia de Computação, Conselheiro do Núcleo Interdisciplinar de Meio-Ambiente (NIMA) e do Laboratório de Humanidades Digitais (DHLab), e também coordenador de convênios CAPES Brafitec. Coordenador do Laboratório de Pesquisa BioBD na área de bioinformática e um dos coordenadores do Laboratório TreeTech envolvendo PD em gestão de dados, IA e métodos formais. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente 225 Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4346 Fax: (21) 35271530 URL da Homepage: www.inf.puc-rio.br/~sergio", "artigosPeriodicos": 43, "artigosEventos": 132, "capitulosDeLivros": 12, "livros": 0, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 5, "x": -0.2001705015882696, "y": -0.17057869182292557, "size": 6, "id": 16}, {"label": "Simone Diniz Junqueira Barbosa", "url": "http://lattes.cnpq.br/9222024053983021", "publicacoesEmCoautoria": 108, "atualizacaoCV": "19/01/2026", "resumo": "Simone Diniz Junqueira Barbosa is Associate Professor at the Informatics Department of the Pontifical Catholic University of Rio de Janeiro (PUC-Rio), where she teaches, advises and conducts research in the field of Human-Computer Interaction (HCI). Level 1D researcher in CNPq (National Council for Scientific and Technological Development in Brazil), her current research interests involve: model-based interactive systems design; data science, information visualization, and visual analytics; digital storytelling; increasing the quality of use (e.g. usability, communicability, accessibility) of interactive systems in diverse domains, by means of adaptation, analogy-making mechanisms, and other artificial intelligence techniques. In 2010 she co-authored the HCI textbook 'Interação Humano-Computador', for the Brazilian Computer Society series, first published by Elsevier, now self-published.In 2019, Simone received the IFIP TC13 Pioneer Award, granted to those who have \"made outstanding contributions to the educational, theoretical, technical, commercial or professional aspects of analysis, design, construction, evaluation and use of interactive systems\". In 2020, she was awarded the \"Prêmio Carreira de Destaque em IHC\", granted by the Special Comission for Human-Computer Interaction of the Brazilian Computer Society (Comissão Especial de Interação Humano-Computador (CEIHC) da Sociedade Brasileira de Computação).From 2005-2009, Simone was the head of the Semiotic Engineering Research Group (SERG), and in 2010, she founded the IDEIAS lab. In 2019, IDEIAS and SERG have merged. Simone Barbosa has led research projects, funded by CNPq, FAPERJ, Microsoft Research, and Hewlett-Packard. She has also participated in several projects funded by governmental agencies and organizations, as well as private companies.She has served in technical program committees of several national and international conferences, e.g., program co-chair of the first Latin-American Conference on Human-Computer Interaction, CLIHC 2003; late-breaking results co-chair for ACM/SIGCHI's CHI 2005; general co-chair of IFIP TC 13's INTERACT 2007, held in Rio de Janeiro, Brazil; panels co-chair for CHI 2011; general co-chair of ACM/SIGCHI's EICS 2012, held in Copenhagen, Denmark; late-breaking results co-chair for EICS 2013; program co-chair for IHC 2013; tutorials co-chair for EICS 2014; full papers co-chair for INTERACT 2015; SIG meetings co-chair for CHI 2015 and CHI 2016; program chair for IS-EUD 2017; and demos chair for EICS 2017. In 2019, she was appointed as general co-chair of CHI 2022.She was the Brazilian Computer Society's representative in IFIP TC 13 from 2008 to 2013, when she became an expert member and later Vice-chair for Working Groups and Special Interest Groups. From 2013-2015 she was the chair of the Special Commission for HCI of the Brazilian Computer Society. In August 2019, she joined the CHI Steering Committee as a voting member.From October 2016 to September 2019, she was co-Editor-in-Chief of ACM Interactions Magazine. She was a member of several editorial boards: of the SBC Journal of Interactive Systems (2014-2019); of Interacting with Computers (2009-2020; formerly published by Elsevier, now by Oxford University Press); Springer's CCIS book series (2012-2020); and SBC's Journal of Software Engineering Research and Development (2016-2020; formerly published by Springer). In 2019, she was Associate Editor of the Journal of Computer Languages, by Elsevier, responsible for coordinating the Visual Languages and Computing Technology track. She is currently a member of the editorial boards of: IxDA (2011-present); and Springer's HCI book series (since 2012). (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente, 225 / 410 RDC Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4353 Fax: (21) 35271530", "artigosPeriodicos": 70, "artigosEventos": 169, "capitulosDeLivros": 11, "livros": 6, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 15, "x": 0.1348212575041268, "y": 0.0815676814846047, "size": 16, "id": 17}, {"label": "Waldemar Celes Filho", "url": "http://lattes.cnpq.br/6533801740375459", "publicacoesEmCoautoria": 25, "atualizacaoCV": "01/09/2025", "resumo": "Waldemar Celes Filho é professor associado do Departamento de Informática da PUC-Rio e pesquisador associado do Instituto Tecgraf/PUC-Rio. Concluiu o doutorado em Informática pela PUC-Rio em 1995. Possui mestrado em Engenharia Civil pela PUC-Rio (1990) e graduação em Engenharia Civil pela UFRJ (1986). Fez pós-doutorado no Programa de Computação Gráfica da Universidade Cornell (1995-1997). Tem desenvolvido pesquisas na área de Computação Gráfica, com especial interesse em Visualização Científica, Renderização em Tempo Real, Modelagem, Simulação Numérica e Visualização Distribuída. No Tecgraf/PUC-Rio, coordena o Grupo de Visualização e desenvolve projetos de PD&I em parceria com a indústria. É um dos autores da linguagem de programação Lua. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente, 255 Gávea 22453-900 - Rio de Janeiro, RJ - Brasil - Caixa-postal: 22453900 Telefone: (21) 31141500 Ramal: 4357 Fax: (21) 31141530 URL da Homepage: www.inf.puc-rio.br/~celes", "artigosPeriodicos": 33, "artigosEventos": 41, "capitulosDeLivros": 5, "livros": 4, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 6, "x": -0.16053247720158673, "y": 0.48883536458731186, "size": 7, "id": 18}, {"label": "Antonio Luz Furtado", "url": "http://lattes.cnpq.br/1621729459222873", "publicacoesEmCoautoria": 90, "atualizacaoCV": "03/02/2025", "resumo": "Sua formação acadêmica inclui graduação em Direito pela Universidade Federal do Rio de Janeiro (1957), graduação em Economia pela Universidade do Estado do Rio de Janeiro (1964), mestrado em Administração pela Fundação Getúlio Vargas (1962), mestrado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro (1969), e doutorado em Ciência da Computação pela University of Toronto (1974). Atualmente é professor emérito da Pontifícia Universidade Católica do Rio de Janeiro. Trabalha em ensino e pesquisa no campo de Ciência da Computação, nas áreas de Bancos de Dados, Sistemas de Informação, Entretenimento Digital e Programação em Lógica. Além disso, tem publicado trabalhos em Literatura Medieval, especialmente voltados para a pesquisa de fontes de textos Arturianos. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico. RUA MARQUÊS DE S. VICENTE 225 GAVEA 22453-900 - Rio de Janeiro, RJ - Brasil Telefone: (021) 2744449 Fax: (021) 5115645", "artigosPeriodicos": 59, "artigosEventos": 114, "capitulosDeLivros": 14, "livros": 11, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 3, "x": 0.36020915085865063, "y": 0.09268875388534405, "size": 4, "id": 19}, {"label": "Bruno Feijo", "url": "http://lattes.cnpq.br/8249534204731109", "publicacoesEmCoautoria": 50, "atualizacaoCV": "31/08/2025", "resumo": "Bruno Feijó é Professor Titular do Departamento de Informática na Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), onde ingressou em 1988. Ele tem PhD pela University of London/Imperial College e diploma de engenheiro pelo ITA (Instituto Tecnológico de Aeronáutica). No Brasil, ele é um dos pioneiros nas áreas interdisciplinares de computer-aided design (CAD), animação, efeitos visuais (VFX) e entretenimento digital. Ele também é um dos principais responsáveis pelo reconhecimento e disseminação do ensino e da pesquisa de jogos no Brasil, tendo influenciado clusters, políticas de inovação, profissionais e startups na área. Atualmente se dedica à pesquisa de jogos, gamificação e inteligência artificial. Ele é fundador e coordenador do ICAD/VisionLab (Laboratório de Pesquisa em Visualização, TV/Cinema Digital e Jogos) da PUC-Rio e um dos fundadores do SBGames (Brazilian Symposium on Computer Games and Digital Entertainment) e da CE de Jogos da Sociedade Brasileira de Computação (SBC). Ele foi pesquisador CNPq Nível 1 por 20 anos consecutivos (2001-2021). Ele foi o Diretor da Agência de Inovação da PUC-Rio - AGI (2022 - 2024). Na educação, ele têm contribuído para inovação tecnológica em multimídia, programação e jogos, integrando o ensino médio público com programas de pós-graduação. Atualmente tem se dedicado à criação do primeiro grupo de pesquisa no país em Narratologia Computacional, Storytelling Interativo e Data Storytelling. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente, 225 Gávea 22453-900 - Rio de Janeiro, RJ - Brasil Telefone: (021) 35271500 Ramal: 4308 Fax: (021) 35271530", "artigosPeriodicos": 47, "artigosEventos": 102, "capitulosDeLivros": 24, "livros": 1, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 10, "x": 0.24824945728640033, "y": 0.1301955748375584, "size": 11, "id": 20}, {"label": "Carlos José Pereira de Lucena", "url": "http://lattes.cnpq.br/2491891766759477", "publicacoesEmCoautoria": 151, "atualizacaoCV": "11/03/2026", "resumo": "Possui graduação em Economia e Matemática pela Pontifícia Universidade Católica do Rio de Janeiro (1965) , mestrado no Department of Computer Science Applied Analysis pela University of Waterloo (1969) , doutorado em Ciência da Computação pela University of California at Los Angeles (UCLA) (1974) e pós-doutorado pela IBM Research (1975) . Desde 1982 é professor titular da Pontifícia Universidade Católica do Rio de Janeiro. Ele é também professor adjunto da Universidade de Waterloo (Canadá) e pesquisador associado do Fraunhofer Institute FIRST em Berlim. É membro do corpo editorial de diversos periódicos internacionais: da Communications of the ACM, do periódico dos Anais da Academia Brasileira de Ciências, do Journal of Formal Aspects of Computing e do Journal of Agent-Oriented Software Engineering (IJAOSE). Tem experiência na área de Ciência da Computação , com ênfase em Métodos Formais, Engenharia de Software e Sistemas Multiagentes. Publicou mais de 700 trabalhos arbitrados nos principais veículos destas áreas. O professor é bolsista de produtividade em pesquisa do CNPq no nível 1A. Em sua carreira atuou na Pontifícia Universidade Católica do Rio de Janeiro como vice-reitor da Universidade, Decano do Centro Técnico e Científico e por várias vezes Diretor do Departamento Informática. Prof Lucena. foi premiado com a insígnia da Classe Grã-Cruz da Ordem do Mérito Científico da Presidência da República do Brasil, com a Medalha Carlos Chagas Filho de Mérito Científico, Diretoria e Conselho Superior da FAPERJ, com o Prêmio Álvaro Alberto de Ciências e Tecnologia do Ministério de Ciência e Tecnologia e com vários prêmios IBM Innovation Award, dentre muitos outros. O prof. Lucena é fellow da Fundação Guggenheim, fellow of TWAS (Academy of Sciences for the Developing World) e membro titular da Academia Brasileira de Ciências. Até junho de 2017, orientou 49 teses de doutorado e 121 dissertações de mestrado. Comtemplado com os prêmios: ACM Distinguished Scientist em 2009, ACM Fellow em 2013, Quadro de Membros Titulares, Academia Nacional de Engenharia (ANE) em 2016, Destaque na Formação de Recursos Humanos de Excelência em Engenharia de Software, Congresso Brasileiro de Software - Teoria e Prática (VII CBSoft) em 2016 e a medalha de Nobres Parcerias do Canadá em 2017. Desde 2010, Prof Lucena se tornou o presidente do Instituto Nacional de Ciências da Web (INCT). (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. Rua Marquês de São Vicente 225 Gávea 22451-900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 25406915 Ramal: 103 Fax: (21) 25115645", "artigosPeriodicos": 153, "artigosEventos": 508, "capitulosDeLivros": 59, "livros": 21, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 14, "x": -0.038749201354346084, "y": -0.05283819106695824, "size": 15, "id": 21}, {"label": "Clarisse Sieckenius de Souza", "url": "http://lattes.cnpq.br/4031565135568125", "publicacoesEmCoautoria": 38, "atualizacaoCV": "07/01/2026", "resumo": "Clarisse Sieckenius de Souza é Professora Emérita da PUC-Rio. Aposentou-se em janeiro de 2020 como Professora Titular do Departamento de Informática, onde atuou por mais de 30 anos nas áreas de Inteligência Artificial (Processamento de Linguagem Natural, Geração Automática de Textos e Sistemas de Explicação) e, principalmente, Interação Humano-Computador (IHC). Sua formação acadêmica foi toda realizada no Departamento de Letras da PUC-Rio, onde obteve os títulos de: Bacharel - Tradutor e Intérprete (1979); Mestre em Língua Portuguesa (1982); e Doutora em Linguística Aplicada, Linguística Computacional (1988). Complementarmente, realizou dois estágios de pós-doutorado, um na Universidade de Stanford, com Terry Winograd, e outro na Universidade de Maryland, com Jenny Preece, além de inúmeros outros estágios como pesquisadora visitante em universidades estrangeiras (por exemplo, a Universidade de Waterloo (CAN) e a Universidade de Indiana (EEUU)) e centros de pesquisa industrial (por exemplo, o Philips Research Labs de Sussex (GB) e o IBM Research de Almadén (EEUU) e do Rio de Janeiro (BR)).É na área de IHC onde se encontram suas principais contribuições em pesquisa, focadas no campo interdisciplinar da Semiótica Computacional. Em 1993, propôs o conceito de \"engenharia semiótica\" associado ao design de linguagens de interfaces para usuários. Em 1996 fundou o SERG Semiotic Engineering Research Group, do Departamento de Informática da PUC-Rio. Em cerca de uma década, o SERG tornou-se um centro de excelência em Semiótica Computacional, internacionalmente conhecido como a origem da primeira teoria semiótica da interação humano-computador. Clarisse é autora ou co-autora de quatro livros sobre Engenharia Semiótica: The Semiotic Engineering of Human-Computer Interaction (The MIT Press, 2005); Semiotic Engineering Methods for Scientific Research in HCI (Morgan Claypool, 2009); A Journey through Cultures (Springer, 2013); e Software Developers as Users (Springer, 2016).Através destas obras e de numerosos artigos publicados em capítulos de livros, periódicos ou anais de eventos científicos, Clarisse tornou-se uma referência entre seus pares nacionais e internacionais. Recebeu ao longo de sua carreira vários prêmios, entre os quais o ACM SIGCHI CHI Academy Award (2013), o IFIP HCI Pioneer Award (2014) e o Prêmio do Mérito Científico da SBC - Sociedade Brasileira de Computação, (2016). Em 2014, Clarisse foi escolhida para representar as mulheres cientistas da computação no baralho das 54 \"Notable Women in Computing\", escolhidas pela Universidade de Duke com a chancela do CRA-W / Anita Borg Institute.Ao longo de sua carreira, seus projetos foram apoiados pelo CNPq, FAPERJ, CAPES e AMD Foundation. Foi por duas vezes \"Cientista do Nosso Estado\", bolsa-prêmio concedida pela FAPERJ no Rio de Janeiro, e ao aposentar-se detinha uma Bolsa de Produtividade em Pesquisa do CNPq no nível 1B.Dentre seus principais serviços à comunidade científica brasileira estão o fato de ser uma das fundadoras da área de IHC no Brasil, a participação em Comitês Assessores da CAPES e do CNPq, e a atuação em inúmeros comitês de programa de eventos científicos nacionais. Em 2017 recebeu o Prêmio Carreira de Destaque da Comissão Especial de Interação Humano-Computador da SBC.Como Professora Emérita desde 2020, Clarisse tem atuado em um projeto interdisciplinar junto a colegas dos departamentos de Filosofia e História da PUC-Rio, em torno de ética e mediação algorítmica de processos sociais. Em 2024 direcionou sua pesquisa para o uso de tecnologia digital em processos de produção de conhecimento acadêmico. (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Departamento de Informática. Av Marquês de São Vicente 225 Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4344 Fax: (21) 35271530 URL da Homepage: http://www.inf.puc-rio.br/~clarisse", "artigosPeriodicos": 40, "artigosEventos": 98, "capitulosDeLivros": 11, "livros": 4, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 7, "x": 0.14907255572944045, "y": 0.2084215071281758, "size": 8, "id": 22}, {"label": "Marco Antonio Casanova", "url": "http://lattes.cnpq.br/0400232298849115", "publicacoesEmCoautoria": 63, "atualizacaoCV": "19/02/2026", "resumo": "Marco A. Casanova é Pesquisador do Instituto Tecgraf e colaborador do Programa de Pós-graduação em Informática da Pontifícia Universidade Católica do Rio de Janeiro - PUC-Rio. Formou-se em Engenharia Eletrônica pelo Instituto Militar de Engenharia (1974), e obteve o Mestrado em Ciências em Informática pela PUC-Rio (1976) e o Mestrado (1978) e Doutorado (1980) em Matemática Aplicada pela Harvard University. Foi Coordenador de Pós-Graduação (2005-2007), Diretor (2007-2011), e Professor Titular (2015-2025) do Departamento de Informática da PUC-Rio, e Coordenador Central de Planejamento e Avaliação da PUC-Rio (2012-2025). Sua pesquisa concentra-se em modelagem conceitual de bancos de dados, construção de sistemas de gerência de bancos de dados, e aplicacões de Large Language Models - LLMs. Pelo conjunto das contribuições, em julho de 2012, recebeu o Prêmio Mérito Científico da Sociedade Brasileira de Computação. Uniform Resource Identifiers para Marco Antonio Casanova Web page: http://www.inf.puc-rio.br/~casanova/ Google Scholar Public URL: http://scholar.google.com.br/citations?user=zWh25xcAAAAJ DBLP search: http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/c/Casanova:Marco_A=.html International Standard Name Identifier (ISO 27729): http://isni.org/isni/0000000117488848 Open Researcher Contributor ID (ORCID): http://orcid.org/0000-0003-0765-9636 Scopus Author Identifier: http://www.scopus.com/authid/detail.url?authorId=7102125708 Thomson Reuters ResearcherID: http://www.researcherid.com/rid/M-9054-2014> AuthorClaim: http://authorclaim.org/profile/pca1/ (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Reitoria, Instituto TecGraf", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Reitoria, Instituto TecGraf. Rua Marques de S. Vicente, 225 Gávea 22451900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35204000 URL da Homepage: http://www.inf.puc-rio.br/~casanova/", "artigosPeriodicos": 68, "artigosEventos": 273, "capitulosDeLivros": 21, "livros": 9, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 8, "x": 0.3138171203163282, "y": 0.13294302725986296, "size": 9, "id": 23}, {"label": "Roberto Ierusalimschy", "url": "http://lattes.cnpq.br/0427692772445368", "publicacoesEmCoautoria": 14, "atualizacaoCV": "06/01/2025", "resumo": "Roberto Ierusalimschy é Professor Titular do Departamento de Informática da PUC-Rio, onde trabalha na área de Linguagens de Programação. Roberto é também o principal projetista da linguagem de programação Lua. Em 2013, foi agraciado com o Prêmio do Mérito Científico da Sociedade Brasileira de Computação. Roberto é Conferencista Senior da SBC e membro do Grupo de Trabalho em Linguagens de Programação da IFIP (IFIP WG 2.16). (Texto informado pelo autor)", "rotulo": "* Sem rótulo", "periodo": "", "nomePrimeiraGrandeArea": "Ciências Exatas e da Terra", "nomePrimeiraArea": "Ciência da Computação", "instituicao": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico Científico", "enderecoProfissional": "Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico Científico. Rua M. S. Vicente 225 Gavea 22451-900 - Rio de Janeiro, RJ - Brasil Telefone: (21) 35271500 Ramal: 4343 URL da Homepage: http://www.inf.puc-rio.br/~roberto", "artigosPeriodicos": 35, "artigosEventos": 61, "capitulosDeLivros": 8, "livros": 6, "color": "#33a02c", "fontColor": "#ffffff", "viz": {"color": {"r": 51, "g": 160, "b": 44, "a": 1.0}}, "degree": 4, "x": -0.3000628540262997, "y": 0.34880962347962285, "size": 5, "id": 24}], "links": [{"weight": 31.0, "source": 0, "target": 4}, {"weight": 2.0, "source": 0, "target": 5}, {"weight": 32.0, "source": 0, "target": 8}, {"weight": 2.0, "source": 0, "target": 12}, {"weight": 3.0, "source": 0, "target": 13}, {"weight": 5.0, "source": 0, "target": 17}, {"weight": 1.0, "source": 0, "target": 18}, {"weight": 4.0, "source": 0, "target": 20}, {"weight": 21.0, "source": 0, "target": 21}, {"weight": 2.0, "source": 0, "target": 22}, {"weight": 5.0, "source": 1, "target": 6}, {"weight": 19.0, "source": 1, "target": 7}, {"weight": 11.0, "source": 1, "target": 10}, {"weight": 2.0, "source": 1, "target": 17}, {"weight": 93.0, "source": 1, "target": 21}, {"weight": 1.0, "source": 2, "target": 3}, {"weight": 1.0, "source": 2, "target": 5}, {"weight": 9.0, "source": 2, "target": 9}, {"weight": 1.0, "source": 3, "target": 10}, {"weight": 10.0, "source": 3, "target": 12}, {"weight": 2.0, "source": 3, "target": 15}, {"weight": 24.0, "source": 3, "target": 16}, {"weight": 4.0, "source": 3, "target": 21}, {"weight": 1.0, "source": 3, "target": 22}, {"weight": 2.0, "source": 3, "target": 24}, {"weight": 1.0, "source": 4, "target": 12}, {"weight": 4.0, "source": 5, "target": 8}, {"weight": 19.0, "source": 5, "target": 10}, {"weight": 1.0, "source": 5, "target": 11}, {"weight": 1.0, "source": 5, "target": 12}, {"weight": 32.0, "source": 5, "target": 17}, {"weight": 1.0, "source": 5, "target": 18}, {"weight": 2.0, "source": 5, "target": 20}, {"weight": 3.0, "source": 5, "target": 22}, {"weight": 3.0, "source": 5, "target": 23}, {"weight": 1.0, "source": 6, "target": 9}, {"weight": 2.0, "source": 6, "target": 15}, {"weight": 11.0, "source": 6, "target": 21}, {"weight": 3.0, "source": 7, "target": 10}, {"weight": 2.0, "source": 7, "target": 11}, {"weight": 3.0, "source": 7, "target": 21}, {"weight": 1.0, "source": 8, "target": 13}, {"weight": 1.0, "source": 8, "target": 17}, {"weight": 8.0, "source": 8, "target": 18}, {"weight": 4.0, "source": 8, "target": 21}, {"weight": 1.0, "source": 8, "target": 22}, {"weight": 2.0, "source": 8, "target": 23}, {"weight": 2.0, "source": 9, "target": 21}, {"weight": 2.0, "source": 10, "target": 11}, {"weight": 1.0, "source": 10, "target": 12}, {"weight": 4.0, "source": 10, "target": 16}, {"weight": 10.0, "source": 10, "target": 17}, {"weight": 2.0, "source": 10, "target": 20}, {"weight": 5.0, "source": 10, "target": 21}, {"weight": 4.0, "source": 11, "target": 14}, {"weight": 1.0, "source": 11, "target": 16}, {"weight": 1.0, "source": 11, "target": 17}, {"weight": 1.0, "source": 11, "target": 23}, {"weight": 4.0, "source": 12, "target": 15}, {"weight": 3.0, "source": 12, "target": 16}, {"weight": 2.0, "source": 12, "target": 17}, {"weight": 1.0, "source": 12, "target": 20}, {"weight": 3.0, "source": 12, "target": 21}, {"weight": 2.0, "source": 12, "target": 22}, {"weight": 2.0, "source": 12, "target": 23}, {"weight": 1.0, "source": 13, "target": 17}, {"weight": 6.0, "source": 13, "target": 18}, {"weight": 3.0, "source": 15, "target": 17}, {"weight": 1.0, "source": 16, "target": 21}, {"weight": 1.0, "source": 17, "target": 18}, {"weight": 19.0, "source": 17, "target": 19}, {"weight": 6.0, "source": 17, "target": 20}, {"weight": 14.0, "source": 17, "target": 21}, {"weight": 28.0, "source": 17, "target": 22}, {"weight": 12.0, "source": 17, "target": 23}, {"weight": 9.0, "source": 18, "target": 24}, {"weight": 36.0, "source": 19, "target": 20}, {"weight": 53.0, "source": 19, "target": 23}, {"weight": 1.0, "source": 20, "target": 21}, {"weight": 4.0, "source": 20, "target": 22}, {"weight": 2.0, "source": 20, "target": 23}, {"weight": 1.0, "source": 20, "target": 24}, {"weight": 1.0, "source": 21, "target": 23}, {"weight": 2.0, "source": 21, "target": 24}]};
+      var nodes = graphData.nodes.map(function(n,i){
+        return {
+          id: (n.id != null ? n.id : String(i)),
+          label: (n.label != null ? n.label : (n.id != null ? n.id : String(i))),
+          size: (n.size != null ? n.size : (4 + (n.degree || 0) * 0.6)),
+          color: (n.color != null ? n.color : "#1f77b4"),
+          instituicao: n.instituicao,
+          url: n.url,
+          atualizacaoCV: n.atualizacaoCV,
+          periodo: n.periodo,
+          rotulo: n.rotulo,
+          nomePrimeiraGrandeArea: n.nomePrimeiraGrandeArea,
+          nomePrimeiraArea: n.nomePrimeiraArea,
+          publicacoesEmCoautoria: n.publicacoesEmCoautoria,
+          degree: n.degree,
+          artigosPeriodicos: n.artigosPeriodicos,
+          artigosEventos: n.artigosEventos,
+          capitulosDeLivros: n.capitulosDeLivros,
+          livros: n.livros,
+          enderecoProfissional: n.enderecoProfissional
+        };
+      });
+      var links = graphData.links.map(function(e){
+        return { source:e.source, target:e.target, weight:(e.weight||1), color:(e.color||"#aaa") };
+      });
+    
+      // ======= dados para a TABELA (vértices) =======
+      window.__VERTEX_TABLE_DATA__ = nodes.map(function(n){
+        var m = (n.atualizacaoCV||"").toString().match(/(\d{2})\/(\d{2})\/(\d{4})/);
+        var ymd = m ? (parseInt(m[3])*10000 + parseInt(m[2]) * 100 + parseInt(m[1])) : 0;
+        return {
+          id: n.id,
+          nome: n.label,
+          instituicao: n.instituicao || "",
+          url: n.url || "",
+          atualizacao: n.atualizacaoCV || "",
+          atualizacao_num: ymd,
+          periodo: n.periodo || "",
+          rotulo: n.rotulo || "",
+          grande_area: n.nomePrimeiraGrandeArea || "",
+          area: n.nomePrimeiraArea || "",
+          publicacoesEmCoautoria: +n.publicacoesEmCoautoria || 0,
+          degree: +n.degree || 0,
+          artigosPeriodicos: +n.artigosPeriodicos || 0,
+          artigosEventos: +n.artigosEventos || 0,
+          capitulosDeLivros: +n.capitulosDeLivros || 0,
+          livros: +n.livros || 0,
+          enderecoProfissional: n.enderecoProfissional || ""
+        };
+      });
+    
+      // ======= TABELA (arestas) – pares de membros (únicos, peso >= 1) =======
+      (function buildEdgeTableData(){
+        var byId = new Map(nodes.map(function(n){ return [String(n.id), n]; }));
+        function normId(x){ return (typeof x === "object" && x !== null) ? String(x.id) : String(x); }
+    
+        // vizinhanças
+        var neigh = new Map();
+        nodes.forEach(function(n){ neigh.set(String(n.id), new Set()); });
+        links.forEach(function(e){
+          var s = normId(e.source), t = normId(e.target);
+          if (!neigh.has(s)) neigh.set(s, new Set());
+          if (!neigh.has(t)) neigh.set(t, new Set());
+          neigh.get(s).add(t); neigh.get(t).add(s);
+        });
+    
+        var seen = new Set();
+        var rows = [];
+        links.forEach(function(e){
+          var s = normId(e.source), t = normId(e.target);
+          var w = +e.weight || 0;
+          if (w < 1) return;
+          var a = s < t ? s : t, b = s < t ? t : s; // par único
+          var key = a + "||" + b;
+          if (seen.has(key)) return;
+          seen.add(key);
+    
+          var nA = byId.get(a), nB = byId.get(b);
+          if (!nA || !nB) return;
+    
+          // colaboradores em comum (interseção, excluindo o próprio par)
+          var neighA = new Set(neigh.get(a) || []);
+          var neighB = new Set(neigh.get(b) || []);
+          var comuns = 0;
+          neighA.forEach(function(x){
+            if (x === a || x === b) return;
+            if (neighB.has(x)) comuns += 1;
+          });
+    
+          rows.push({
+            aresta: [nA.label, nB.label].sort(function(x,y){ return String(x).localeCompare(String(y)); }).join(", "),
+            colabs:  w,
+            comuns:  comuns
+          });
+        });
+    
+        // ordena: colabs desc, comuns desc, aresta asc
+        rows.sort(function(r1, r2){
+          if (r2.colabs !== r1.colabs) return r2.colabs - r1.colabs;
+          if (r2.comuns !== r1.comuns) return r2.comuns - r1.comuns;
+          return r1.aresta.localeCompare(r2.aresta);
+        });
+    
+        window.__EDGE_TABLE_DATA__ = rows;
+      })();
+    
+      // ======= D3: simulação/zoom/legenda =======
+      var svg = d3.select("#viz"),
+          g = svg.append("g"),
+          zoom = d3.zoom().scaleExtent([0.2, 5]).on("zoom", function(ev){ g.attr("transform", ev.transform); });
+      svg.call(zoom);
+    
+      function getBox() { return document.getElementById("viz-container").getBoundingClientRect(); }
+      var box = getBox();
+      var width = box.width, height = box.height;
+    
+      var weights = links.map(function(d){ return +d.weight || 0; });
+      var minW = d3.min(weights), maxW = d3.max(weights);
+      var edgeWidth = d3.scaleLinear().domain([minW, maxW]).range([1.2, 10]).clamp(true);
+      var edgeOpacity = d3.scaleLinear().domain([minW, maxW]).range([0.56,0.79]).clamp(true);
+    
+      var degrees = nodes.map(function(d){ return +d.degree || 0; });
+      var minD = d3.min(degrees) || 0;
+      var maxD = d3.max(degrees) || 1;
+      var nodeRadius = d3.scaleSqrt().domain([minD, maxD]).range([6, 11]).clamp(true);
+      function R(d){ return nodeRadius(+d.degree || 0); }
+    
+      var edgeLayer = g.append("g").attr("class","edges");
+      var nodeLayer = g.append("g").attr("class","nodes");
+      var labelLayer = g.append("g").attr("class","labels");
+      var edgeLabelLayer = g.append("g").attr("class","edge-labels");
+    
+      var edge = edgeLayer.selectAll("path")
+        .data(links).join("path")
+        .attr("class","edge")
+        .attr("id", function(_,i){ return "e"+i; })
+        .attr("stroke", function(d){ return d.color; })
+        .attr("stroke-width", function(d){ return edgeWidth(+d.weight || 0); })
+        .attr("fill","none")
+        .attr("stroke-opacity", function(d){ return edgeOpacity(+d.weight || 0); });
+    
+      var edgeLabels = edgeLabelLayer.selectAll("text")
+        .data(links).join("text")
+        .attr("class","edge-label")
+        .append("textPath")
+        .attr("href", function(_,i){ return "#e"+i; })
+        .attr("startOffset","50%")
+        .attr("text-anchor","middle")
+        .text(function(d){ return d.weight ? String(d.weight) : ""; });
+    
+      var node = nodeLayer.selectAll("g.node")
+        .data(nodes, function(d){ return d.id; })
+        .join(function(enter){
+          var g = enter.append("g").attr("class","node");
+          g.append("circle")
+            .attr("r", function(d){ return R(d); })
+            .attr("fill", function(d){ return d.color; })
+            .attr("stroke", "#333")
+            .attr("stroke-width", 0.17);
+          return g;
+        });
+    
+      var labels = labelLayer.selectAll("text")
+        .data(nodes, function(d){ return d.id; })
+        .join("text")
+        .attr("class","label")
+        .attr("text-anchor","middle")
+        .attr("dy","-0.05em")
+        .text(function(d){ return d.label; });
+    
+      var centerForce = d3.forceCenter(width/2, height/2);
+      var sim = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(function(d){return d.id;}).distance(40).strength(0.6))
+        .force("charge", d3.forceManyBody().strength(-60))
+        .force("collide", d3.forceCollide().radius(function(d){ return R(d)+6; }).iterations(2))
+        .force("center", centerForce)
+        .on("tick", ticked)
+        .on("end", maybeFit);
+    
+      var fitted = false, fitTimeout = setTimeout(function(){ maybeFit(); }, 1000);
+    
+      function ticked(){
+        edge.attr("d", function(d){ return "M"+d.source.x+","+d.source.y+" L"+d.target.x+","+d.target.y; });
+        node.attr("transform", function(d){ return "translate("+d.x+", "+d.y+")"; });
+        labels.attr("x", function(d){ return d.x; }).attr("y", function(d){ return d.y; });
+      }
+    
+      function maybeFit(){
+        if (fitted) return;
+        fitted = true; clearTimeout(fitTimeout);
+        var xs = nodes.map(function(d){ return d.x; }), ys = nodes.map(function(d){ return d.y; });
+        var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+        var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+        var w = Math.max(1, maxX - minX), h = Math.max(1, maxY - minY);
+        var margin = 40;
+        var kx = (width  - margin*2) / w;
+        var ky = (height - margin*2) / h;
+        var scale = Math.max(0.2, Math.min(3, Math.min(kx, ky)));
+        var tx = (width  - scale*(minX + maxX)) / 2;
+        var ty = (height - scale*(minY + maxY)) / 2;
+        svg.transition().duration(600)
+          .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+      }
+    
+      node.call(d3.drag()
+        .on("start", function(ev, d){ if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+        .on("drag",  function(ev, d){ d.fx = ev.x; d.fy = ev.y; })
+        .on("end",   function(ev, d){ if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+      );
+    
+      var selectedId = null;
+      function neighborSet(id){
+        var nei = new Set([id]);
+        links.forEach(function(e){
+          var s = (typeof e.source === 'object') ? e.source.id : e.source;
+          var t = (typeof e.target === 'object') ? e.target.id : e.target;
+          if (s === id) nei.add(t);
+          if (t === id) nei.add(s);
+        });
+        return nei;
+      }
+    
+      function renderSelection(){
+        if (!selectedId){
+          node.classed("selected", false);
+          node.classed("dimmed", false);
+          labels.classed("dimmed", false);
+          edge.classed("highlight", false).classed("dimmed", false);
+          edgeLabels.classed("dimmed", false);
+          return;
+        }
+        var keep = neighborSet(selectedId);
+        node.classed("selected", function(d){ return d.id === selectedId; })
+            .classed("dimmed", function(d){ return !keep.has(d.id); });
+        labels.classed("dimmed", function(d){ return !keep.has(d.id); });
+        edge.classed("highlight", function(d){
+              var s = (typeof d.source === 'object') ? d.source.id : d.source;
+              var t = (typeof d.target === 'object') ? d.target.id : d.target;
+              return s === selectedId || t === selectedId;
+            })
+            .classed("dimmed", function(d){
+              var s = (typeof d.source === 'object') ? d.source.id : d.source;
+              var t = (typeof d.target === 'object') ? d.target.id : d.target;
+              return !(s === selectedId || t === selectedId);
+            });
+        edgeLabels.classed("dimmed", function(d){
+          var s = (typeof d.source === 'object') ? d.source.id : d.source;
+          var t = (typeof d.target === 'object') ? d.target.id : d.target;
+          return !(s === selectedId || t === selectedId);
+        });
+      }
+    
+      function fillInfo(d){
+        var pane = document.getElementById("info-pane");
+        var campos = {
+          "Nome": d.label,
+          "Instituição": d.instituicao,
+          "CV": d.url,
+          "Atualização do CV": d.atualizacaoCV,
+          "Período": d.periodo,
+          "Rótulo": d.rotulo,
+          "Primeira Grande Área": d.nomePrimeiraGrandeArea,
+          "Primeira Área": d.nomePrimeiraArea,
+          "Publicações em coautoria": d.publicacoesEmCoautoria,
+          "Número de colaboradores": d.degree,
+          "Artigos em periódicos": d.artigosPeriodicos,
+          "Artigos em eventos": d.artigosEventos,
+          "Capítulos de livro": d.capitulosDeLivros,
+          "Livros": d.livros,
+          "Endereço": d.enderecoProfissional
+        };
+        var html = "<h4>"+(d.label || d.id)+"</h4><ul>";
+        Object.keys(campos).forEach(function(k){
+          var v = campos[k];
+          if (v === undefined || v === null || v === "") return;
+          if (k === "CV"){
+            html += "<li><strong>"+k+":</strong> <a href=\""+v+"\" target=\"_blank\" rel=\"noopener\">"+v+"</a></li>";
+          } else {
+            html += "<li><strong>"+k+":</strong> "+v+"</li>";
+          }
+        });
+        html += "</ul>";
+        pane.innerHTML = html;
+      }
+    
+      function selectNodeById(id){
+        var d = nodes.find(function(n){ return n.id === id; });
+        if (!d) return;
+        selectedId = d.id; fillInfo(d); renderSelection();
+        var t = d3.zoomTransform(svg.node());
+        var scale = Math.max(1.2, t.k);
+        var x = width/2 - d.x * scale;
+        var y = height/2 - d.y * scale;
+        svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(x, y).scale(scale));
+      }
+      node.on("click", function(_, d){ selectNodeById(d.id); });
+    
+      function norm(s){ return (s||"").toString().normalize("NFD").replace(/\p{Diacritic}/gu,"").toLowerCase().trim(); }
+      function searchAndSelect(q){
+        var nq = norm(q); if (!nq) return;
+        var hit = nodes.find(function(n){ return norm(n.label) === nq || norm(n.id) === nq; });
+        if (!hit) hit = nodes.find(function(n){ return norm(n.label).indexOf(nq) >= 0; });
+        if (hit) selectNodeById(hit.id);
+      }
+      document.getElementById("btnSearch").addEventListener("click", function(){
+        searchAndSelect(document.getElementById("searchBox").value);
+      });
+      document.getElementById("searchBox").addEventListener("keydown", function(ev){
+        if (ev.key === "Enter") searchAndSelect(ev.target.value);
+      });
+      document.getElementById("btnClear").addEventListener("click", function(){
+        selectedId = null; renderSelection();
+        document.getElementById("info-pane").innerHTML =
+          "<h4>Informação do Pesquisador</h4><p>Clique em um nó (ou use a busca) para ver detalhes aqui.</p>";
+      });
+    
+      var labelsVisible = true;
+      var btnToggle = document.getElementById("btnToggleLabels");
+      function applyLabelsVisibility(){
+        labelLayer.classed("hidden", !labelsVisible);
+        d3.select(".edge-labels").classed("hidden", !labelsVisible);
+      }
+      btnToggle.addEventListener("click", function(){
+        labelsVisible = !labelsVisible;
+        btnToggle.textContent = labelsVisible ? "Ocultar rótulos" : "Mostrar rótulos";
+        applyLabelsVisibility();
+      });
+      applyLabelsVisibility();
+    
+      // legenda (cores por rótulo)
+      var byRotulo = d3.rollup(nodes, function(v){ return v[0].color; }, function(d){ return d.rotulo || "Sem rótulo"; });
+      var legendData = Array.from(byRotulo, function(entry){ return {rotulo: entry[0], color: entry[1]}; });
+      var legend = d3.select("#legend");
+      legend.selectAll("span.item")
+        .data(legendData)
+        .join("span")
+        .attr("class","item")
+        .html(function(d){ return '<span class="swatch" style="background:'+d.color+'"></span>'+d.rotulo; });
+    
+      // refit ao redimensionar
+      var ro = new ResizeObserver(function(){
+        var b = getBox();
+        width = b.width; height = b.height;
+        centerForce = d3.forceCenter(width/2, height/2);
+        sim.force("center", centerForce).alpha(0.05).restart();
+        fitted = false; maybeFit();
+      });
+      ro.observe(document.getElementById("viz-container"));
+    </script>
+    
+    <hr style="margin:1.25rem 0">
+    
+    <h3>Vértices</h3>
+    <p>Esta tabela lista todos os atributos usados para compor os vértices do grafo acima.</p>
+    <div class="sl-controls">
+      <button id="vert-csv">⬇️ CSV</button>
+      <button id="vert-xlsx">⬇️ XLSX</button>
+    </div>
+    <div id="tabela-vertices" class="sl-tabela"></div>
+    
+    <h3 style="margin-top:1.5rem;">Arestas (pares de membros)</h3>
+    <p>Veja quais pares de membros mais colaboram e quantos colaboradores em comum possuem.</p>
+    <div class="sl-controls">
+      <button id="edge-csv">⬇️ CSV</button>
+      <button id="edge-xlsx">⬇️ XLSX</button>
+    </div>
+    <div id="tabela-arestas" class="sl-tabela"></div>
+    
+    <!-- Tabulator -->
+    <link href="css/tabulator_site.min.css" rel="stylesheet" />
+    <link href="css/tabulator-scriplattes.css" rel="stylesheet" />
+    <script src="js/tabulator.min.js"></script>
+    <script src="js/xlsx.full.min.js"></script>
+    
+    <script>
+      // Dados vindos dos blocos anteriores
+      var DATA_VERT  = (window.__VERTEX_TABLE_DATA__ || []);
+      var DATA_EDGES = (window.__EDGE_TABLE_DATA__  || []);
+    
+      // Heurística de altura (evita rolagem infinita)
+      function heightFor(n){
+        if (n <= 12) return "auto";
+        if (n <= 60) return "40vh";
+        return "60vh";
+      }
+      var HEIGHT_VERT = heightFor(DATA_VERT.length);
+      var HEIGHT_EDG  = heightFor(DATA_EDGES.length);
+    
+      const LANG_PT = {
+        "pt-br": {
+          "pagination": {
+            "first":"«","first_title":"Primeira",
+            "last":"»","last_title":"Última",
+            "prev":"‹","prev_title":"Anterior",
+            "next":"›","next_title":"Próxima"
+          },
+          "headerFilters": { "default":"⎯ Filtrar ⎯" }
+        }
+      };
+    
+      // Ordenação por data BR via campo auxiliar yyyymmdd
+      function sortDateBR(a, b, aRow, bRow) {
+        var av = (aRow && aRow.getData && aRow.getData().atualizacao_num) || 0;
+        var bv = (bRow && bRow.getData && bRow.getData().atualizacao_num) || 0;
+        return av - bv;
+      }
+    
+      // Formatter de link com title (tooltip no <a>) — usado na coluna "Nome" dos vértices
+      function linkWithTitle(cell) {
+        const data = cell.getData();
+        const url = String(data.url || "#");
+        const label = String(cell.getValue() ?? "");
+        const a = document.createElement("a");
+        a.href = url; a.textContent = label; a.target = "_blank"; a.rel = "noopener"; a.title = label;
+        return a;
+      }
+    
+      // Helper para criar Tabulator com tooltips + ellipsis
+      function createTable(el, data, columns, initialSort, height){
+        const base = {
+          data,
+          layout: "fitColumns",
+          responsiveLayout: "collapse",
+          pagination: "local",
+          paginationSize: 50,
+          paginationSizeSelector: [10, 25, 50, 100, 200, 500],
+          movableColumns: true,
+          initialSort,
+          headerFilterLiveFilter: true,
+          columns,
+          locale: true, langs: LANG_PT, locale: "pt-br",
+          tooltips: true
+        };
+        if (height !== "auto") base.height = height;
+        return new Tabulator(el, base);
+      }
+    
+      // === VÉRTICES ===
+      (function(){
+        const columns = [
+          { title:"ID", field:"id", headerFilter:"input", tooltip:true },
+          { title:"Nome", field:"nome", formatter: linkWithTitle,
+            headerFilter:"input", widthGrow:2, tooltip:true },
+          { title:"Instituição", field:"instituicao", headerFilter:"input", tooltip:true },
+          { title:"Atualização CV", field:"atualizacao", headerFilter:"input", sorter: sortDateBR, tooltip:true },
+          { title:"Período", field:"periodo", headerFilter:"input", tooltip:true },
+          { title:"Rótulo", field:"rotulo", headerFilter:"input", tooltip:true },
+          { title:"Grande área", field:"grande_area", headerFilter:"input", tooltip:true },
+          { title:"Área", field:"area", headerFilter:"input", tooltip:true },
+          { title:"Publicações em coautoria", field:"publicacoesEmCoautoria", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Nº colaboradores (grau)", field:"degree", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Artigos em periódicos", field:"artigosPeriodicos", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Artigos em eventos", field:"artigosEventos", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Capítulos de livro", field:"capitulosDeLivros", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Livros", field:"livros", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Endereço", field:"enderecoProfissional", headerFilter:"input", widthGrow:2, tooltip:true }
+        ];
+        const sort = [{ column:"degree", dir:"desc" }];
+        const t = createTable("#tabela-vertices", DATA_VERT, columns, sort, HEIGHT_VERT);
+        document.getElementById("vert-csv").onclick  = () => t.download("csv",  "vertices_campos.csv", { bom:true });
+        document.getElementById("vert-xlsx").onclick = () => t.download("xlsx", "vertices_campos.xlsx", { sheetName:"Vértices" });
+      })();
+    
+      // === ARESTAS (coluna única "Aresta") ===
+      (function(){
+        const columns = [
+          { title:"Aresta", field:"aresta", headerFilter:"input", widthGrow:3, tooltip:true },
+          { title:"Número de colaborações", field:"colabs", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true },
+          { title:"Nº de colaboradores em comum", field:"comuns", hozAlign:"right", sorter:"number", headerFilter:"input", tooltip:true }
+        ];
+        const sort = [{ column:"colabs", dir:"desc" }, { column:"comuns", dir:"desc" }];
+        const t = createTable("#tabela-arestas", DATA_EDGES, columns, sort, HEIGHT_EDG);
+        document.getElementById("edge-csv").onclick  = () => t.download("csv",  "arestas_colaboracoes.csv", { bom:true });
+        document.getElementById("edge-xlsx").onclick = () => t.download("xlsx", "arestas_colaboracoes.xlsx", { sheetName:"Arestas" });
+      })();
+    </script>
+    <br><p><br>(*) Relatório criado com produções desde 1900 até 2027
+<br>Data de processamento: 22/07/2026 11:46:15<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V.2025.09</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>
