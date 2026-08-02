@@ -182,30 +182,97 @@ def listar_bases_comparacao_info():
         })
     return linhas
 
-# ==========================================
-# 3. MENU DE NAVEGAÇÃO INTERNO
-# ==========================================
-st.sidebar.title("Módulos do Sistema")
-st.sidebar.markdown("Selecione o painel analítico:")
+def _fmt_ts(iso_str):
+    """Timestamp ISO (UTC, gravado por jobs.now_iso) -> 'dd/mm/aaaa hh:mm' no
+    fuso local. Devolve a string original se não for um ISO reconhecível."""
+    if not iso_str:
+        return "—"
+    try:
+        return datetime.fromisoformat(iso_str).astimezone().strftime("%d/%m/%Y %H:%M")
+    except (TypeError, ValueError):
+        return str(iso_str)
 
+
+def linha_status(rotulo, status, container=st):
+    """Uma linha de status de job (extração/reprocessamento) em `container`."""
+    estado = status.get("state", "idle")
+    sufixo_cache = " (cache ignorado — rebaixou tudo)" if status.get("cache_limpo") else ""
+    if estado == "running":
+        container.caption(f"⏳ {rotulo}: em execução desde {_fmt_ts(status.get('started_at'))}{sufixo_cache}")
+    elif estado == "done":
+        container.caption(f"✅ {rotulo}: última execução OK em {_fmt_ts(status.get('finished_at'))}{sufixo_cache}")
+    elif estado == "error":
+        container.caption(f"❌ {rotulo}: falhou em {_fmt_ts(status.get('finished_at'))}")
+        with container.expander(f"Ver log de erro ({rotulo})"):
+            st.code(status.get("error", "(sem detalhes)"))
+    else:
+        container.caption(f"○ {rotulo}: nunca executado")
+
+
+# ==========================================
+# 3. ESTADO DOS JOBS (LIDO CEDO, SEM UI)
+# ==========================================
+# Os status são arquivos JSON pequenos em dados_brutos/status/. São lidos em
+# toda execução (não só na página Configurações) porque o rodapé da barra
+# lateral os resume e porque a conexão em cache precisa ser descartada assim
+# que um reprocessamento termina, esteja o usuário em qual página estiver.
+status_extract = jobs.read_status(jobs.EXTRACT_STATUS)
+status_process = jobs.read_status(jobs.PROCESS_STATUS)
+
+if status_process.get("state") == "done":
+    if st.session_state.get("_ultimo_process_done") != status_process.get("finished_at"):
+        st.session_state["_ultimo_process_done"] = status_process.get("finished_at")
+        get_db_connection.clear()
+        st.rerun()
+
+# ==========================================
+# 4. NAVEGAÇÃO (BARRA LATERAL ENXUTA)
+# ==========================================
+# A barra lateral guarda só o que é usado em praticamente toda página: a
+# navegação e o filtro global de fonte dos papers. Toda operação de manutenção
+# (extração de currículos, reprocessamento, cadastro/extração de bases de
+# comparação) foi movida para a página "Configurações"; a escolha da Base B
+# vive dentro da própria página "Comparativo entre Bases".
+PAGINA_COMPARATIVO = "Comparativo entre Bases"
+PAGINA_CONFIGURACOES = "Configurações"
+
+# Chave longa = identificador usado no restante do arquivo; valor = rótulo
+# curto exibido no menu (o título completo continua no topo de cada página).
+ROTULOS_PAGINAS = {
+    "Indicadores Institucionais": "Indicadores",
+    "Análise por Docente": "Por docente",
+    "Série Histórica da Produção": "Série histórica",
+    "Repositório Geral de Artigos": "Artigos",
+    "Avaliação Quadrienal Geral (A1-A8)": "Quadrienal A1–A8",
+    "Avaliação Quadrienal Restrita (A1-A4)": "Quadrienal A1–A4",
+    "Relatório de Credenciamento Consolidado": "Credenciamento",
+    "Panorama de Orientações Acadêmicas": "Orientações",
+    "Geração de Relatórios": "Relatórios",
+    PAGINA_COMPARATIVO: "Comparativo",
+    PAGINA_CONFIGURACOES: "⚙️ Configurações",
+}
+
+
+def ir_para_pagina(pagina):
+    """Callback de navegação. Trocar de página só é seguro dentro de um
+    `on_click`: alterar a chave de um widget já instanciado no meio da mesma
+    execução levantaria StreamlitAPIException."""
+    st.session_state["pagina_atual"] = pagina
+
+
+st.sidebar.markdown("### Produtividade Acadêmica")
 pagina_selecionada = st.sidebar.radio(
-    "",
-    ["Indicadores Institucionais", 
-     "Análise por Docente", 
-     "Série Histórica da Produção", 
-     "Repositório Geral de Artigos",
-     "Avaliação Quadrienal Geral (A1-A8)",
-     "Avaliação Quadrienal Restrita (A1-A4)",
-     "Relatório de Credenciamento Consolidado",
-     "Panorama de Orientações Acadêmicas",
-     "Geração de Relatórios",
-     "Comparativo entre Bases"]
+    "Navegação",
+    list(ROTULOS_PAGINAS),
+    format_func=lambda p: ROTULOS_PAGINAS[p],
+    key="pagina_atual",
+    label_visibility="collapsed",
 )
 
 st.sidebar.divider()
 
 # ==========================================
-# 3.0 FONTE DOS PAPERS (FILTRO GLOBAL)
+# 4.1 FONTE DOS PAPERS (FILTRO GLOBAL)
 # ==========================================
 # Alterna, em todas as visualizações que envolvem papers, entre a base
 # unificada (todas as fontes já deduplicadas) e apenas as publicações que
@@ -213,14 +280,14 @@ st.sidebar.divider()
 # `fontes LIKE '%LATTES%'` (a coluna `fontes` registra em quais bases cada
 # publicação foi encontrada). Vive na sidebar, com key própria, então o
 # valor escolhido persiste ao trocar de página.
-st.sidebar.subheader("Fonte dos Papers")
-fonte_papers_opcao = st.sidebar.radio(
-    "Considerar publicações de:",
+fonte_papers_opcao = st.sidebar.selectbox(
+    "Fonte dos papers",
     ["Base unificada (todas as fontes)", "Apenas cadastradas no Lattes"],
     key="fonte_papers",
     help="Aplica-se a todos os gráficos/indicadores de periódicos e conferências, "
          "inclusive o modo Comparativo. 'Apenas Lattes' considera somente publicações "
-         "cujo campo `fontes` contém LATTES."
+         "cujo campo `fontes` contém LATTES. Não se aplica à página de Relatórios, "
+         "em que cada relatório já define as fontes que examina."
 )
 apenas_lattes = fonte_papers_opcao == "Apenas cadastradas no Lattes"
 
@@ -274,235 +341,24 @@ if "filtro_ano_inicio" not in st.session_state:
 if "filtro_ano_fim" not in st.session_state:
     st.session_state["filtro_ano_fim"] = ANO_MAX
 
-st.sidebar.info("Plataforma integrada com indexadores bibliográficos Lattes, Scopus e Google Scholar.")
-
 # ==========================================
-# 2.1 ATUALIZAÇÃO DE DADOS (EXTRAÇÃO + REPROCESSAMENTO)
+# 4.2 RODAPÉ DA BARRA LATERAL (RESUMO DE ESTADO)
 # ==========================================
-# Dois jobs assíncronos e destacados do processo do Streamlit (sobrevivem a
-# fechar a aba): "Re-extrair currículos" roda o scriptLattes (repo externo,
-# ver run_extract.py) e encadeia automaticamente o reprocessamento; "Reprocessar
-# dados" só executa `analyse_organizado.ipynb` via papermill sobre os JSONs
-# já extraídos. Status em dados_brutos/status/*.json, lidos aqui via poll.
-
+# Duas linhas discretas: de onde vêm os dados e quando foram atualizados pela
+# última vez. O detalhe (botões, logs, bases de comparação) fica em Configurações.
 st.sidebar.divider()
-st.sidebar.subheader("Atualização de Dados")
-
-status_extract = jobs.read_status(jobs.EXTRACT_STATUS)
-status_process = jobs.read_status(jobs.PROCESS_STATUS)
-algum_job_rodando = status_extract.get("state") == "running" or status_process.get("state") == "running"
-extracao_global_rodando = jobs.existe_extracao_rodando()
-
-# Se o reprocessamento acabou de terminar com sucesso, a conexão em cache
-# ainda aponta para o arquivo antigo -- descarta para reabrir o DuckDB novo
-# na próxima query. Só faz isso uma vez por conclusão (rastreado na sessão).
+st.sidebar.caption(f"Base: `{CAMINHO_BASE_INSTITUCIONAL}`")
 if status_process.get("state") == "done":
-    if st.session_state.get("_ultimo_process_done") != status_process.get("finished_at"):
-        st.session_state["_ultimo_process_done"] = status_process.get("finished_at")
-        get_db_connection.clear()
-        st.rerun()
-
-col_extrair, col_reprocessar = st.sidebar.columns(2)
-
-ignorar_cache_extracao = st.sidebar.checkbox(
-    "Ignorar cache (rebaixar todos os currículos)",
-    value=False,
-    disabled=extracao_global_rodando,
-    help="Por padrão, 'Re-extrair' só busca quem ainda não foi baixado ou falhou -- "
-         "reaproveita o cache do scriptLattes, então não pega CVs atualizados de quem "
-         "já está no cache. Marque isto pra apagar o cache antes e rebaixar todo mundo "
-         "de novo (mais lento, mais requisições à Lattes -- maior risco de bloqueio).",
-)
-
-if col_extrair.button(
-    "Re-extrair currículos",
-    disabled=extracao_global_rodando,
-    help="Roda o scriptLattes (Selenium) contra a Lattes. Desabilitado enquanto "
-         "qualquer extração (principal ou de comparação) estiver em andamento.",
-    use_container_width=True,
-):
-    jobs.write_status(jobs.EXTRACT_STATUS, state="running", started_at=jobs.now_iso())
-    if ignorar_cache_extracao:
-        jobs.launch("run_extract.py", "--limpar-cache")
-    else:
-        jobs.launch("run_extract.py")
-    st.rerun()
-
-if col_reprocessar.button(
-    "Reprocessar dados",
-    disabled=algum_job_rodando,
-    help="Roda analyse_organizado.ipynb sobre os JSONs já extraídos, sem bater na Lattes.",
-    use_container_width=True,
-):
-    jobs.write_status(jobs.PROCESS_STATUS, state="running", started_at=jobs.now_iso())
-    jobs.launch("run_process.py")
-    st.rerun()
-
-def _linha_status(rotulo, status):
-    estado = status.get("state", "idle")
-    sufixo_cache = " (cache ignorado -- rebaixou tudo)" if status.get("cache_limpo") else ""
-    if estado == "running":
-        st.sidebar.caption(f"{rotulo}: em execução (desde {status.get('started_at', '?')}){sufixo_cache}")
-    elif estado == "done":
-        st.sidebar.caption(f"{rotulo}: última execução OK em {status.get('finished_at', '?')}{sufixo_cache}")
-    elif estado == "error":
-        st.sidebar.caption(f"{rotulo}: falhou em {status.get('finished_at', '?')}")
-        with st.sidebar.expander(f"Ver log de erro ({rotulo})"):
-            st.code(status.get("error", "(sem detalhes)"))
-    else:
-        st.sidebar.caption(f"{rotulo}: nunca executado")
-
-_linha_status("Extração", status_extract)
-_linha_status("Reprocessamento", status_process)
-
+    st.sidebar.caption(f"Dados processados em {_fmt_ts(status_process.get('finished_at'))}")
+elif status_process.get("state") == "error":
+    st.sidebar.caption("Último processamento falhou — ver Configurações")
+else:
+    st.sidebar.caption("Dados nunca reprocessados por aqui")
 if jobs.existe_algum_job_rodando():
-    time.sleep(2.5)
-    st.rerun()
+    st.sidebar.caption("⏳ Atualização em andamento (ver Configurações)")
 
 # ==========================================
-# 3.1 UPLOAD DA BASE DE COMPARAÇÃO (BASE B)
-# ==========================================
-# A base principal ("Base A") permanece fixa em pesquisadores.duckdb.
-# A "Base B" é opcional e só é solicitada quando o módulo Comparativo é usado,
-# mas o uploader vive na sidebar para ficar disponível e persistente
-# independentemente de qual página o usuário está visualizando.
-con_b = None
-nome_base_b = None
-
-if pagina_selecionada == "Comparativo entre Bases":
-    st.sidebar.divider()
-    st.sidebar.subheader("Bases de Comparação Geridas")
-
-    arquivo_lista = st.sidebar.file_uploader(
-        "Enviar lista (.list) de uma nova instituição/programa para comparar",
-        type=["list", "txt"],
-        help="Mesmo formato usado pelo scriptLattes: uma linha por pessoa, "
-             "'id_lattes,Nome Completo'. O banco gerado é nomeado a partir do "
-             "nome deste arquivo.",
-        key="upload_lista_comparacao",
-    )
-    if arquivo_lista is not None:
-        conteudo = arquivo_lista.getvalue().decode("utf-8", errors="replace")
-        linhas_validas = [l for l in conteudo.splitlines() if l.strip()]
-        if not linhas_validas or any("," not in l for l in linhas_validas):
-            st.sidebar.error(
-                "Arquivo inválido: cada linha não vazia precisa ter o formato "
-                "'id_lattes,Nome Completo' (mesmo formato do scriptLattes)."
-            )
-        else:
-            nome_comparacao = jobs.slugify(os.path.splitext(arquivo_lista.name)[0])
-            os.makedirs(jobs.COMPARACAO_LISTS_DIR, exist_ok=True)
-            destino_lista = os.path.join(jobs.COMPARACAO_LISTS_DIR, f"{nome_comparacao}.list")
-            with open(destino_lista, "w", encoding="utf-8") as f:
-                f.write(conteudo)
-            st.sidebar.success(f"Lista salva como '{nome_comparacao}' ({len(linhas_validas)} pessoa(s)).")
-
-    bases_comparacao = listar_bases_comparacao_info()
-
-    if not bases_comparacao:
-        st.sidebar.info("Nenhuma base de comparação cadastrada ainda -- envie uma lista acima.")
-    else:
-        st.sidebar.dataframe(
-            [{k: v for k, v in linha.items() if not k.startswith("_")} for linha in bases_comparacao],
-            hide_index=True,
-            use_container_width=True,
-        )
-
-        nomes_disponiveis = [linha["nome"] for linha in bases_comparacao]
-        nome_selecionado = st.sidebar.selectbox("Base de comparação para operar", nomes_disponiveis)
-        linha_selecionada = next(l for l in bases_comparacao if l["nome"] == nome_selecionado)
-
-        status_extract_comp = jobs.read_status(jobs.comparacao_extract_status(nome_selecionado))
-        status_process_comp = jobs.read_status(jobs.comparacao_process_status(nome_selecionado))
-        algum_job_comp_rodando = (
-            status_extract_comp.get("state") == "running" or status_process_comp.get("state") == "running"
-        )
-
-        col_extrair_comp, col_reprocessar_comp = st.sidebar.columns(2)
-
-        ignorar_cache_comp = st.sidebar.checkbox(
-            "Ignorar cache nesta base de comparação (rebaixar tudo)",
-            value=False,
-            disabled=algum_job_comp_rodando,
-            key="ignorar_cache_comparacao",
-        )
-
-        if col_extrair_comp.button(
-            "Re-extrair base de comparação",
-            disabled=jobs.existe_extracao_rodando() or algum_job_comp_rodando,
-            help="Roda o scriptLattes contra a lista desta base de comparação.",
-            use_container_width=True,
-            key="btn_extrair_comparacao",
-        ):
-            jobs.write_status(jobs.comparacao_extract_status(nome_selecionado), state="running", started_at=jobs.now_iso())
-            if ignorar_cache_comp:
-                jobs.launch("run_extract_comparacao.py", "--nome", nome_selecionado, "--limpar-cache")
-            else:
-                jobs.launch("run_extract_comparacao.py", "--nome", nome_selecionado)
-            st.rerun()
-
-        if col_reprocessar_comp.button(
-            "Reprocessar base de comparação",
-            disabled=algum_job_comp_rodando,
-            help="Roda analyse_organizado_comparação.ipynb sobre os JSONs já extraídos desta base.",
-            use_container_width=True,
-            key="btn_reprocessar_comparacao",
-        ):
-            jobs.write_status(jobs.comparacao_process_status(nome_selecionado), state="running", started_at=jobs.now_iso())
-            jobs.launch("run_process_comparacao.py", "--nome", nome_selecionado)
-            st.rerun()
-
-        _linha_status(f"Extração ({nome_selecionado})", status_extract_comp)
-        _linha_status(f"Reprocessamento ({nome_selecionado})", status_process_comp)
-
-        if algum_job_comp_rodando:
-            time.sleep(2.5)
-            st.rerun()
-
-    st.sidebar.divider()
-    st.sidebar.subheader("Base de Comparação (Base B)")
-
-    fonte_base_b = st.sidebar.radio(
-        "Fonte da Base B",
-        ["Base gerida pelo sistema", "Enviar arquivo .duckdb manualmente"],
-        horizontal=False,
-    )
-
-    if fonte_base_b == "Base gerida pelo sistema":
-        bases_com_duckdb = [l for l in bases_comparacao if l["_duckdb_existe"]] if bases_comparacao else []
-        if not bases_com_duckdb:
-            st.sidebar.info("Nenhuma base gerida com banco gerado ainda -- extraia e reprocesse uma acima.")
-        else:
-            nome_base_b_escolhida = st.sidebar.selectbox(
-                "Escolha a base gerida", [l["nome"] for l in bases_com_duckdb], key="select_base_b_gerida"
-            )
-            linha_escolhida = next(l for l in bases_com_duckdb if l["nome"] == nome_base_b_escolhida)
-            try:
-                mtime = os.path.getmtime(linha_escolhida["_duckdb_path"])
-                con_b = abrir_base_comparacao_gerida(linha_escolhida["_duckdb_path"], mtime)
-                nome_base_b = linha_escolhida["_duckdb_path"]
-                st.sidebar.success(f"Base B carregada: {nome_base_b}")
-            except Exception as e:
-                st.sidebar.error(f"Falha ao abrir a base gerida: {e}")
-                con_b = None
-    else:
-        arquivo_base_b = st.sidebar.file_uploader(
-            "Envie um segundo arquivo .duckdb (mesma arquitetura de tabelas)",
-            type=["duckdb", "db"],
-            help="O arquivo deve conter as mesmas tabelas da base institucional: "
-                 "tb_professores, tb_artigo_periodico, tb_artigo_conferencia e tb_orientacoes."
-        )
-        if arquivo_base_b is not None:
-            try:
-                con_b = carregar_base_comparacao(arquivo_base_b.getvalue(), arquivo_base_b.name)
-                nome_base_b = arquivo_base_b.name
-                st.sidebar.success(f"Base B carregada: {nome_base_b}")
-            except Exception as e:
-                st.sidebar.error(f"Falha ao abrir a base enviada: {e}")
-                con_b = None
-
-# ==========================================
-# 4. DESENVOLVIMENTO DOS MÓDULOS (DATAVIEWS)
+# 5. DESENVOLVIMENTO DOS MÓDULOS (DATAVIEWS)
 # ==========================================
 
 # ------------------------------------------
@@ -1083,9 +939,30 @@ elif pagina_selecionada == "Geração de Relatórios":
     RELATORIOS_DISPONIVEIS = [
         "Papers faltantes na base do Lattes (periódicos e conferências)",
         "Alunos do programa faltando no Lattes do orientador",
-        "Títulos dos alunos no Lattes de cada professor",
     ]
     relatorio_selecionado = st.selectbox("Selecione o relatório:", RELATORIOS_DISPONIVEIS)
+
+    # Mesmo filtro de período das páginas de visualização (estado compartilhado
+    # via renderizar_filtro_periodo): recorta o conteúdo dos relatórios e é
+    # impresso no cabeçalho do HTML gerado, para que o PDF diga a que janela se
+    # refere. Cada relatório aplica o intervalo à sua própria coluna de ano
+    # (ano de publicação nos papers; ano de ingresso nos alunos).
+    st.subheader("Filtro de Período")
+    rel_ano_inicio, rel_ano_fim = renderizar_filtro_periodo(ANO_MIN, ANO_MAX, "relatorios")
+    st.caption(
+        f"Os relatórios abaixo consideram apenas o intervalo {rel_ano_inicio}–{rel_ano_fim}. "
+        "O filtro 'Fonte dos papers' da barra lateral não se aplica aqui: cada relatório já "
+        "define, por definição, quais fontes examina."
+    )
+
+    def _pred_ano(coluna, incluir_sem_ano):
+        """Predicado SQL do recorte de período para `coluna` (sempre 2 parâmetros:
+        início e fim). Com `incluir_sem_ano`, registros sem ano informado entram
+        no relatório em vez de sumirem silenciosamente do recorte."""
+        if incluir_sem_ano:
+            return f"({coluna} BETWEEN ? AND ? OR {coluna} IS NULL)"
+        return f"({coluna} BETWEEN ? AND ?)"
+
     st.divider()
 
     # --- Utilitários de formatação/HTML compartilhados pelos relatórios ---
@@ -1155,21 +1032,50 @@ elif pagina_selecionada == "Geração de Relatórios":
             "das tabelas unificadas (linhas cujo `fontes` não contém `LATTES`)."
         )
 
+        # Publicações sem ano informado ficariam de fora de qualquer recorte de
+        # período. Como o objetivo do relatório é justamente não deixar passar
+        # pendência, oferecemos a opção de incluí-las -- mas só quando existem,
+        # para não poluir a tela à toa.
+        sem_ano_faltantes = con.execute(
+            """
+            SELECT
+                (SELECT COUNT(*) FROM tb_artigo_periodico
+                   WHERE ano_pub IS NULL AND fontes IS NOT NULL AND fontes NOT LIKE '%LATTES%')
+              + (SELECT COUNT(*) FROM tb_artigo_conferencia
+                   WHERE ano IS NULL AND fontes IS NOT NULL AND fontes NOT LIKE '%LATTES%')
+            """
+        ).fetchone()[0]
+
+        incluir_sem_ano_papers = False
+        if sem_ano_faltantes:
+            incluir_sem_ano_papers = st.checkbox(
+                f"Incluir também as {sem_ano_faltantes} publicação(ões) sem ano informado",
+                value=True,
+                key="incluir_sem_ano_papers",
+                help="Publicações sem ano não pertencem a nenhum intervalo; desmarque "
+                     "para restringir o relatório estritamente ao período selecionado.",
+            )
+
+        pred_p = _pred_ano("ano_pub", incluir_sem_ano_papers)
+        pred_c = _pred_ano("ano", incluir_sem_ano_papers)
+
         def _dados_faltantes(id_lattes):
             df_p = con.execute(
-                """
+                f"""
                 SELECT titulo_artigo, ano_pub, doi, fontes
                 FROM tb_artigo_periodico
                 WHERE id_lattes = ? AND fontes IS NOT NULL AND fontes NOT LIKE '%LATTES%'
+                  AND {pred_p}
                 ORDER BY ano_pub DESC NULLS LAST, titulo_artigo
-                """, [id_lattes]).df()
+                """, [id_lattes, rel_ano_inicio, rel_ano_fim]).df()
             df_c = con.execute(
-                """
+                f"""
                 SELECT titulo_artigo, titulo_evento_lattes, ano, doi, fontes
                 FROM tb_artigo_conferencia
                 WHERE id_lattes = ? AND fontes IS NOT NULL AND fontes NOT LIKE '%LATTES%'
+                  AND {pred_c}
                 ORDER BY ano DESC NULLS LAST, titulo_artigo
-                """, [id_lattes]).df()
+                """, [id_lattes, rel_ano_inicio, rel_ano_fim]).df()
             return df_p, df_c
 
         def _html_faltantes(nome, id_lattes, df_p, df_c):
@@ -1202,6 +1108,7 @@ elif pagina_selecionada == "Geração de Relatórios":
   <table class="meta">
     <tr><td><strong>Docente</strong></td><td>{html_lib.escape(str(nome))}</td></tr>
     <tr><td><strong>ID Lattes</strong></td><td>{html_lib.escape(str(id_lattes))}</td></tr>
+    <tr><td><strong>Período</strong></td><td>{rel_ano_inicio} a {rel_ano_fim}{' (inclui itens sem ano informado)' if incluir_sem_ano_papers else ''}</td></tr>
     <tr><td><strong>Gerado em</strong></td><td>{gerado_em}</td></tr>
   </table>
 </header>
@@ -1212,19 +1119,22 @@ localize cada publicação na base indicada na coluna "Rastreado em".</footer>
 <button class="noprint" onclick="window.print()">Imprimir / Salvar como PDF</button>
 </body></html>"""
 
-        # Contagem de pendências por docente (subconsultas correlacionadas)
+        # Contagem de pendências por docente (subconsultas correlacionadas),
+        # já recortada pelo período selecionado.
         df_profs = con.execute(
-            """
+            f"""
             SELECT p.id_lattes, p.nome_completo,
                 (SELECT COUNT(*) FROM tb_artigo_periodico ap
                    WHERE ap.id_lattes = p.id_lattes AND ap.fontes IS NOT NULL
-                     AND ap.fontes NOT LIKE '%LATTES%') AS falt_p,
+                     AND ap.fontes NOT LIKE '%LATTES%'
+                     AND {_pred_ano('ap.ano_pub', incluir_sem_ano_papers)}) AS falt_p,
                 (SELECT COUNT(*) FROM tb_artigo_conferencia ac
                    WHERE ac.id_lattes = p.id_lattes AND ac.fontes IS NOT NULL
-                     AND ac.fontes NOT LIKE '%LATTES%') AS falt_c
+                     AND ac.fontes NOT LIKE '%LATTES%'
+                     AND {_pred_ano('ac.ano', incluir_sem_ano_papers)}) AS falt_c
             FROM tb_professores p
             ORDER BY p.nome_completo
-            """
+            """, [rel_ano_inicio, rel_ano_fim, rel_ano_inicio, rel_ano_fim]
         ).df()
 
         mostrar_todos = st.checkbox("Mostrar também docentes sem pendências", value=False)
@@ -1263,7 +1173,10 @@ localize cada publicação na base indicada na coluna "Rastreado em".</footer>
                 )
 
         if not algum_exibido:
-            st.success("Nenhum docente possui papers faltantes no Lattes nesta base.")
+            st.success(
+                f"Nenhum docente possui papers faltantes no Lattes nesta base "
+                f"no período {rel_ano_inicio}–{rel_ano_fim}."
+            )
 
     elif relatorio_selecionado == "Alunos do programa faltando no Lattes do orientador":
         st.markdown(
@@ -1321,13 +1234,34 @@ localize cada publicação na base indicada na coluna "Rastreado em".</footer>
             def _fmt_confianca(valor):
                 return _ROTULOS_CONFIANCA.get(valor, _fmt_txt(valor))
 
+            # Aqui o recorte de período é pelo **ano de ingresso do aluno** no
+            # programa (única data disponível em tb_situacao_orientandos).
+            sem_ano_alunos = con.execute(
+                "SELECT COUNT(*) FROM tb_situacao_orientandos "
+                "WHERE ano_ingresso IS NULL AND encontrado_no_lattes = FALSE"
+            ).fetchone()[0]
+
+            incluir_sem_ano_alunos = False
+            if sem_ano_alunos:
+                incluir_sem_ano_alunos = st.checkbox(
+                    f"Incluir também os {sem_ano_alunos} aluno(s) sem ano de ingresso informado",
+                    value=True,
+                    key="incluir_sem_ano_alunos",
+                    help="Alunos sem ano de ingresso não pertencem a nenhum intervalo; desmarque "
+                         "para restringir o relatório estritamente ao período selecionado.",
+                )
+
+            pred_ingresso = _pred_ano("ano_ingresso", incluir_sem_ano_alunos)
+            pred_ingresso_s = _pred_ano("s.ano_ingresso", incluir_sem_ano_alunos)
+
             def _dados_alunos_faltantes(id_lattes):
                 return con.execute(
-                    """
+                    f"""
                     SELECT nome_aluno, nivel, ano_ingresso, nivel_confianca,
                         titulo_trabalho_aluno, ano_obtencao_aluno
                     FROM tb_situacao_orientandos
                     WHERE id_lattes_professor = ? AND encontrado_no_lattes = FALSE
+                      AND {pred_ingresso}
                     ORDER BY
                         CASE nivel_confianca
                             WHEN 'divergente' THEN 0
@@ -1336,7 +1270,7 @@ localize cada publicação na base indicada na coluna "Rastreado em".</footer>
                             ELSE 3
                         END,
                         ano_ingresso DESC NULLS LAST, nome_aluno
-                    """, [id_lattes]).df()
+                    """, [id_lattes, rel_ano_inicio, rel_ano_fim]).df()
 
             def _html_alunos_faltantes(nome, id_lattes, df_alunos_falt):
                 gerado_em = datetime.now().strftime("%d/%m/%Y %H:%M")
@@ -1365,6 +1299,7 @@ localize cada publicação na base indicada na coluna "Rastreado em".</footer>
   <table class="meta">
     <tr><td><strong>Orientador</strong></td><td>{html_lib.escape(str(nome))}</td></tr>
     <tr><td><strong>ID Lattes</strong></td><td>{html_lib.escape(str(id_lattes))}</td></tr>
+    <tr><td><strong>Período (ano de ingresso)</strong></td><td>{rel_ano_inicio} a {rel_ano_fim}{' (inclui alunos sem ano de ingresso)' if incluir_sem_ano_alunos else ''}</td></tr>
     <tr><td><strong>Gerado em</strong></td><td>{gerado_em}</td></tr>
   </table>
 </header>
@@ -1376,18 +1311,20 @@ inclua cada aluno na seção de Orientações do seu currículo Lattes.</footer>
 </body></html>"""
 
             df_profs_alunos = con.execute(
-                """
+                f"""
                 SELECT p.id_lattes, p.nome_completo,
                     (SELECT COUNT(*) FROM tb_situacao_orientandos s
                        WHERE s.id_lattes_professor = p.id_lattes
-                         AND s.encontrado_no_lattes = FALSE) AS falt_alunos,
+                         AND s.encontrado_no_lattes = FALSE
+                         AND {pred_ingresso_s}) AS falt_alunos,
                     (SELECT COUNT(*) FROM tb_situacao_orientandos s
                        WHERE s.id_lattes_professor = p.id_lattes
                          AND s.encontrado_no_lattes = FALSE
-                         AND s.nivel_confianca = 'divergente') AS div_alunos
+                         AND s.nivel_confianca = 'divergente'
+                         AND {pred_ingresso_s}) AS div_alunos
                 FROM tb_professores p
                 ORDER BY p.nome_completo
-                """
+                """, [rel_ano_inicio, rel_ano_fim, rel_ano_inicio, rel_ano_fim]
             ).df()
 
             mostrar_todos_alunos = st.checkbox(
@@ -1427,161 +1364,90 @@ inclua cada aluno na seção de Orientações do seu currículo Lattes.</footer>
                     )
 
             if not algum_exibido_alunos:
-                st.success("Nenhum orientador possui alunos faltantes no Lattes nesta base.")
-
-    elif relatorio_selecionado == "Títulos dos alunos no Lattes de cada professor":
-        st.markdown(
-            "Lista, para cada professor, o **histórico completo de títulos** (Mestrado/Doutorado, "
-            "concluído ou em andamento) de todo aluno que aparece como orientando no seu currículo "
-            "Lattes — inclusive títulos obtidos **com outros orientadores**, para dar visibilidade "
-            "à trajetória completa do aluno no programa. Fonte: tabela `tb_aluno_titulos`, gerada "
-            "pelo notebook `analyse_organizado.ipynb` (Seção 11.2.1) a partir do cruzamento entre "
-            "`tb_orientacoes` (de todos os professores) e o CSV de defesas do PESC; rode-o novamente "
-            "para atualizar este relatório."
-        )
-
-        tabela_titulos_ok = True
-        try:
-            con.execute("SELECT 1 FROM tb_aluno_titulos LIMIT 1")
-        except Exception:
-            tabela_titulos_ok = False
-
-        if not tabela_titulos_ok:
-            st.warning(
-                "A tabela `tb_aluno_titulos` não existe nesta base ainda. Rode a Seção 11.2.1 de "
-                "`analyse_organizado.ipynb` para gerá-la antes de usar este relatório."
-            )
-        else:
-            def _fmt_bool_sim_nao(valor):
-                try:
-                    if pd.isna(valor):
-                        return "—"
-                except (TypeError, ValueError):
-                    pass
-                return "Sim" if bool(valor) else "Não"
-
-            def _dados_titulos_professor(id_lattes_professor):
-                return con.execute(
-                    """
-                    WITH alunos_do_professor AS (
-                        SELECT DISTINCT id_lattes_aluno
-                        FROM tb_aluno_titulos
-                        WHERE id_lattes_professor = ? AND fonte = 'lattes_orientacoes'
-                    )
-                    SELECT
-                        a.nome_completo AS aluno,
-                        t.nivel,
-                        t.status,
-                        t.ano,
-                        COALESCE(
-                            p.nome_completo,
-                            CASE WHEN t.fonte = 'csv_defesas' THEN 'CSV de defesas (sem orientador)' END
-                        ) AS orientador,
-                        (t.id_lattes_professor = ?) AS deste_orientador
-                    FROM tb_aluno_titulos t
-                    JOIN tb_alunos a ON a.id_lattes = t.id_lattes_aluno
-                    LEFT JOIN tb_professores p ON p.id_lattes = t.id_lattes_professor
-                    WHERE t.id_lattes_aluno IN (SELECT id_lattes_aluno FROM alunos_do_professor)
-                    ORDER BY a.nome_completo, t.nivel, t.ano
-                    """, [id_lattes_professor, id_lattes_professor]).df()
-
-            def _html_titulos_professor(nome, id_lattes_professor, df_titulos):
-                gerado_em = datetime.now().strftime("%d/%m/%Y %H:%M")
-                col_titulos = [
-                    ("Aluno", "aluno", _fmt_txt), ("Nível", "nivel", _fmt_txt),
-                    ("Status", "status", _fmt_txt), ("Ano", "ano", _fmt_ano),
-                    ("Orientador", "orientador", _fmt_txt),
-                    ("Deste orientador?", "deste_orientador", _fmt_bool_sim_nao),
-                ]
-
-                corpo = (
-                    "<p class='vazio'>Nenhum aluno com título registrado.</p>"
-                    if df_titulos.empty else _tabela_html(df_titulos, col_titulos)
+                st.success(
+                    f"Nenhum orientador possui alunos faltantes no Lattes nesta base "
+                    f"com ingresso entre {rel_ano_inicio} e {rel_ano_fim}."
                 )
-                total_alunos_doc = df_titulos["aluno"].nunique() if not df_titulos.empty else 0
-
-                return f"""<!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="utf-8">
-<title>Títulos dos alunos no Lattes — {html_lib.escape(str(nome))}</title>
-<style>{_CSS_RELATORIO}</style></head>
-<body>
-<header>
-  <h1>Títulos dos alunos no Lattes de cada professor</h1>
-  <p class="sub">Histórico completo de títulos (nesta e em outras orientações) dos alunos que constam no currículo Lattes deste orientador.</p>
-  <table class="meta">
-    <tr><td><strong>Orientador</strong></td><td>{html_lib.escape(str(nome))}</td></tr>
-    <tr><td><strong>ID Lattes</strong></td><td>{html_lib.escape(str(id_lattes_professor))}</td></tr>
-    <tr><td><strong>Gerado em</strong></td><td>{gerado_em}</td></tr>
-  </table>
-</header>
-<h2>Alunos <span class="cont">({total_alunos_doc})</span></h2>
-{corpo}
-<footer>Sistema de Avaliação de Produtividade Acadêmica — "Deste orientador" indica que o vínculo consta no currículo Lattes deste professor; as demais linhas mostram outros títulos do mesmo aluno, obtidos com outro orientador ou registrados apenas na CSV de defesas.</footer>
-<button class="noprint" onclick="window.print()">Imprimir / Salvar como PDF</button>
-</body></html>"""
-
-            df_profs_titulos = con.execute(
-                """
-                SELECT p.id_lattes, p.nome_completo,
-                    (SELECT COUNT(DISTINCT t.id_lattes_aluno) FROM tb_aluno_titulos t
-                       WHERE t.id_lattes_professor = p.id_lattes AND t.fonte = 'lattes_orientacoes') AS total_alunos
-                FROM tb_professores p
-                ORDER BY p.nome_completo
-                """
-            ).df()
-
-            mostrar_todos_titulos = st.checkbox(
-                "Mostrar também orientadores sem alunos no Lattes", value=False, key="mostrar_todos_titulos"
-            )
-
-            st.markdown("#### Orientadores")
-            h1, h2, h3 = st.columns([5, 1, 2])
-            h1.markdown("**Orientador**")
-            h2.markdown("**Alunos no Lattes**")
-            h3.markdown("**Relatório**")
-
-            algum_exibido_titulos = False
-            for _, prof in df_profs_titulos.iterrows():
-                total_alunos = int(prof["total_alunos"])
-                if total_alunos == 0 and not mostrar_todos_titulos:
-                    continue
-                algum_exibido_titulos = True
-                c1, c2, c3 = st.columns([5, 1, 2])
-                c1.write(prof["nome_completo"])
-                c2.write(total_alunos)
-                if total_alunos == 0:
-                    c3.caption("Sem alunos no Lattes")
-                else:
-                    df_titulos_prof = _dados_titulos_professor(prof["id_lattes"])
-                    doc_html = _html_titulos_professor(prof["nome_completo"], prof["id_lattes"], df_titulos_prof)
-                    slug = re.sub(r"[^A-Za-z0-9]+", "_", str(prof["nome_completo"])).strip("_")
-                    c3.download_button(
-                        "Baixar HTML",
-                        data=doc_html.encode("utf-8"),
-                        file_name=f"titulos_alunos_{slug}.html",
-                        mime="text/html",
-                        key=f"dl_titulos_{prof['id_lattes']}",
-                    )
-
-            if not algum_exibido_titulos:
-                st.success("Nenhum orientador possui alunos no Lattes nesta base.")
 
 # ------------------------------------------
 # PÁGINA 9: COMPARATIVO ENTRE BASES
 # ------------------------------------------
-elif pagina_selecionada == "Comparativo entre Bases":
+elif pagina_selecionada == PAGINA_COMPARATIVO:
     st.title("Comparativo entre Bases")
     st.markdown(
         "Módulo de auditoria comparativa: contraste lado a lado entre a base institucional "
-        "vigente (**Base A**) e uma segunda base `.duckdb` de mesma arquitetura (**Base B**), "
-        "enviada pela barra lateral. As visualizações abaixo replicam os mesmos indicadores "
-        "e gráficos já disponíveis nos demais módulos do sistema, espelhados para as duas bases."
+        "vigente (**Base A**) e uma segunda base `.duckdb` de mesma arquitetura (**Base B**). "
+        "As visualizações abaixo replicam os mesmos indicadores e gráficos já disponíveis nos "
+        "demais módulos do sistema, espelhados para as duas bases."
     )
+
+    # --------------------------------------------------
+    # Escolha da Base B (antes vivia na barra lateral).
+    # O cadastro/extração das bases geridas fica em Configurações; aqui só se
+    # escolhe qual usar, ou se envia um .duckdb avulso.
+    # --------------------------------------------------
+    con_b = None
+    nome_base_b = None
+
+    bases_comparacao = listar_bases_comparacao_info()
+    bases_com_duckdb = [l for l in bases_comparacao if l["_duckdb_existe"]]
+
+    with st.expander("Base de Comparação (Base B)", expanded=True):
+        fonte_base_b = st.radio(
+            "Fonte da Base B",
+            ["Base gerida pelo sistema", "Enviar arquivo .duckdb manualmente"],
+            horizontal=True,
+            key="fonte_base_b",
+        )
+
+        if fonte_base_b == "Base gerida pelo sistema":
+            if not bases_com_duckdb:
+                st.info(
+                    "Nenhuma base gerida com banco gerado ainda. Cadastre a lista e rode "
+                    "extração + reprocessamento na página de Configurações."
+                )
+                st.button(
+                    "Abrir Configurações",
+                    on_click=ir_para_pagina,
+                    args=(PAGINA_CONFIGURACOES,),
+                    key="btn_ir_config_comparativo",
+                )
+            else:
+                nome_base_b_escolhida = st.selectbox(
+                    "Escolha a base gerida",
+                    [l["nome"] for l in bases_com_duckdb],
+                    key="select_base_b_gerida",
+                )
+                linha_escolhida = next(l for l in bases_com_duckdb if l["nome"] == nome_base_b_escolhida)
+                try:
+                    mtime = os.path.getmtime(linha_escolhida["_duckdb_path"])
+                    con_b = abrir_base_comparacao_gerida(linha_escolhida["_duckdb_path"], mtime)
+                    nome_base_b = linha_escolhida["_duckdb_path"]
+                    st.success(f"Base B carregada: {nome_base_b}")
+                except Exception as e:
+                    st.error(f"Falha ao abrir a base gerida: {e}")
+                    con_b = None
+        else:
+            arquivo_base_b = st.file_uploader(
+                "Envie um segundo arquivo .duckdb (mesma arquitetura de tabelas)",
+                type=["duckdb", "db"],
+                help="O arquivo deve conter as mesmas tabelas da base institucional: "
+                     "tb_professores, tb_artigo_periodico, tb_artigo_conferencia e tb_orientacoes.",
+                key="upload_base_b",
+            )
+            if arquivo_base_b is not None:
+                try:
+                    con_b = carregar_base_comparacao(arquivo_base_b.getvalue(), arquivo_base_b.name)
+                    nome_base_b = arquivo_base_b.name
+                    st.success(f"Base B carregada: {nome_base_b}")
+                except Exception as e:
+                    st.error(f"Falha ao abrir a base enviada: {e}")
+                    con_b = None
 
     if con_b is None:
         st.info(
-            "Envie um arquivo **.duckdb** na barra lateral (seção 'Base de Comparação') para "
-            "habilitar este módulo. O arquivo precisa conter as tabelas tb_professores, "
+            "Selecione uma base gerida ou envie um arquivo **.duckdb** acima para habilitar "
+            "este módulo. O arquivo precisa conter as tabelas tb_professores, "
             "tb_artigo_periodico, tb_artigo_conferencia e tb_orientacoes."
         )
     else:
@@ -2046,3 +1912,191 @@ elif pagina_selecionada == "Comparativo entre Bases":
                     st.bar_chart(df_overlay_nivel.set_index("Nível Acadêmico")[["Base A", "Base B"]], use_container_width=True)
             except Exception as e:
                 st.warning(f"Não foi possível comparar orientações: verifique se ambas as bases possuem a tabela tb_orientacoes. Detalhe: {e}")
+
+# ------------------------------------------
+# PÁGINA 10: CONFIGURAÇÕES (MANUTENÇÃO DE DADOS)
+# ------------------------------------------
+# Concentra tudo que antes lotava a barra lateral: os dois jobs assíncronos da
+# base institucional (extração via scriptLattes + reprocessamento do notebook)
+# e o ciclo de vida das bases de comparação. Os jobs são destacados do processo
+# do Streamlit (sobrevivem a fechar a aba) e reportam estado em
+# dados_brutos/status/*.json, lidos aqui por poll.
+elif pagina_selecionada == PAGINA_CONFIGURACOES:
+    st.title("Configurações")
+    st.markdown(
+        "Manutenção dos dados do sistema: atualização da base institucional e gestão das "
+        "bases de outras instituições usadas no módulo Comparativo. As páginas analíticas "
+        "leem sempre o último banco processado com sucesso."
+    )
+
+    aba_base, aba_comparacao = st.tabs(["Base institucional", "Bases de comparação"])
+
+    # ===== ABA 1: BASE INSTITUCIONAL =====
+    with aba_base:
+        st.subheader("Base institucional")
+        st.caption(f"Arquivo em uso: `{CAMINHO_BASE_INSTITUCIONAL}` (somente leitura)")
+
+        algum_job_rodando = (
+            status_extract.get("state") == "running" or status_process.get("state") == "running"
+        )
+        extracao_global_rodando = jobs.existe_extracao_rodando()
+
+        st.markdown("#### Atualização de dados")
+        st.markdown(
+            "- **Re-extrair currículos**: roda o scriptLattes (Selenium) contra a Plataforma "
+            "Lattes e, ao terminar, encadeia o reprocessamento automaticamente.\n"
+            "- **Reprocessar dados**: roda `analyse_organizado.ipynb` sobre os JSONs já "
+            "extraídos, sem bater na Lattes."
+        )
+
+        ignorar_cache_extracao = st.checkbox(
+            "Ignorar cache (rebaixar todos os currículos)",
+            value=False,
+            disabled=extracao_global_rodando,
+            key="ignorar_cache_extracao",
+            help="Por padrão, 'Re-extrair' só busca quem ainda não foi baixado ou falhou — "
+                 "reaproveita o cache do scriptLattes, então não pega CVs atualizados de quem "
+                 "já está no cache. Marque isto pra apagar o cache antes e rebaixar todo mundo "
+                 "de novo (mais lento, mais requisições à Lattes — maior risco de bloqueio).",
+        )
+
+        col_extrair, col_reprocessar = st.columns(2)
+
+        if col_extrair.button(
+            "Re-extrair currículos",
+            disabled=extracao_global_rodando,
+            help="Desabilitado enquanto qualquer extração (principal ou de comparação) "
+                 "estiver em andamento: todas compartilham o mesmo cache e chromedriver.",
+            use_container_width=True,
+            key="btn_extrair_principal",
+        ):
+            jobs.write_status(jobs.EXTRACT_STATUS, state="running", started_at=jobs.now_iso())
+            if ignorar_cache_extracao:
+                jobs.launch("run_extract.py", "--limpar-cache")
+            else:
+                jobs.launch("run_extract.py")
+            st.rerun()
+
+        if col_reprocessar.button(
+            "Reprocessar dados",
+            disabled=algum_job_rodando,
+            help="Roda analyse_organizado.ipynb sobre os JSONs já extraídos.",
+            use_container_width=True,
+            key="btn_reprocessar_principal",
+        ):
+            jobs.write_status(jobs.PROCESS_STATUS, state="running", started_at=jobs.now_iso())
+            jobs.launch("run_process.py")
+            st.rerun()
+
+        st.markdown("#### Situação dos jobs")
+        linha_status("Extração", status_extract)
+        linha_status("Reprocessamento", status_process)
+
+    # ===== ABA 2: BASES DE COMPARAÇÃO =====
+    with aba_comparacao:
+        st.subheader("Bases de comparação")
+        st.caption(
+            "Cada base é uma lista `.list` de pessoas de outra instituição/programa, extraída "
+            "e processada separadamente. A escolha de qual usar como Base B é feita na própria "
+            "página Comparativo."
+        )
+
+        arquivo_lista = st.file_uploader(
+            "Enviar lista (.list) de uma nova instituição/programa",
+            type=["list", "txt"],
+            help="Mesmo formato usado pelo scriptLattes: uma linha por pessoa, "
+                 "'id_lattes,Nome Completo'. O banco gerado é nomeado a partir do "
+                 "nome deste arquivo.",
+            key="upload_lista_comparacao",
+        )
+        if arquivo_lista is not None:
+            conteudo = arquivo_lista.getvalue().decode("utf-8", errors="replace")
+            linhas_validas = [l for l in conteudo.splitlines() if l.strip()]
+            if not linhas_validas or any("," not in l for l in linhas_validas):
+                st.error(
+                    "Arquivo inválido: cada linha não vazia precisa ter o formato "
+                    "'id_lattes,Nome Completo' (mesmo formato do scriptLattes)."
+                )
+            else:
+                nome_comparacao = jobs.slugify(os.path.splitext(arquivo_lista.name)[0])
+                os.makedirs(jobs.COMPARACAO_LISTS_DIR, exist_ok=True)
+                destino_lista = os.path.join(jobs.COMPARACAO_LISTS_DIR, f"{nome_comparacao}.list")
+                with open(destino_lista, "w", encoding="utf-8") as f:
+                    f.write(conteudo)
+                st.success(f"Lista salva como '{nome_comparacao}' ({len(linhas_validas)} pessoa(s)).")
+
+        bases_comparacao = listar_bases_comparacao_info()
+
+        if not bases_comparacao:
+            st.info("Nenhuma base de comparação cadastrada ainda — envie uma lista acima.")
+        else:
+            st.dataframe(
+                [
+                    {k: v for k, v in linha.items() if not k.startswith("_")}
+                    for linha in bases_comparacao
+                ],
+                hide_index=True,
+                use_container_width=True,
+            )
+
+            nome_selecionado = st.selectbox(
+                "Base de comparação para operar",
+                [linha["nome"] for linha in bases_comparacao],
+                key="select_base_comparacao_operar",
+            )
+
+            status_extract_comp = jobs.read_status(jobs.comparacao_extract_status(nome_selecionado))
+            status_process_comp = jobs.read_status(jobs.comparacao_process_status(nome_selecionado))
+            algum_job_comp_rodando = (
+                status_extract_comp.get("state") == "running"
+                or status_process_comp.get("state") == "running"
+            )
+
+            ignorar_cache_comp = st.checkbox(
+                "Ignorar cache nesta base de comparação (rebaixar tudo)",
+                value=False,
+                disabled=algum_job_comp_rodando,
+                key="ignorar_cache_comparacao",
+            )
+
+            col_extrair_comp, col_reprocessar_comp = st.columns(2)
+
+            if col_extrair_comp.button(
+                "Re-extrair base de comparação",
+                disabled=jobs.existe_extracao_rodando() or algum_job_comp_rodando,
+                help="Roda o scriptLattes contra a lista desta base de comparação.",
+                use_container_width=True,
+                key="btn_extrair_comparacao",
+            ):
+                jobs.write_status(
+                    jobs.comparacao_extract_status(nome_selecionado),
+                    state="running", started_at=jobs.now_iso(),
+                )
+                if ignorar_cache_comp:
+                    jobs.launch("run_extract_comparacao.py", "--nome", nome_selecionado, "--limpar-cache")
+                else:
+                    jobs.launch("run_extract_comparacao.py", "--nome", nome_selecionado)
+                st.rerun()
+
+            if col_reprocessar_comp.button(
+                "Reprocessar base de comparação",
+                disabled=algum_job_comp_rodando,
+                help="Roda analyse_organizado_comparação.ipynb sobre os JSONs já extraídos desta base.",
+                use_container_width=True,
+                key="btn_reprocessar_comparacao",
+            ):
+                jobs.write_status(
+                    jobs.comparacao_process_status(nome_selecionado),
+                    state="running", started_at=jobs.now_iso(),
+                )
+                jobs.launch("run_process_comparacao.py", "--nome", nome_selecionado)
+                st.rerun()
+
+            linha_status(f"Extração ({nome_selecionado})", status_extract_comp)
+            linha_status(f"Reprocessamento ({nome_selecionado})", status_process_comp)
+
+    # Poll só nesta página: enquanto algum job roda, recarrega pra atualizar os
+    # status. As demais páginas não precisam ficar recarregando sozinhas.
+    if jobs.existe_algum_job_rodando():
+        time.sleep(2.5)
+        st.rerun()

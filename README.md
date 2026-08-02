@@ -15,6 +15,15 @@ em `app.py`) — esse é o banco "de produção" de fato, apesar do nome. Se o
 arquivo não existir, rode um reprocessamento (veja abaixo) antes de abrir a
 página.
 
+### Navegação
+
+A barra lateral tem só a navegação, o filtro global "Fonte dos papers" e um
+resumo de duas linhas (banco em uso + data do último processamento). Toda
+operação de manutenção — extração de currículos, reprocessamento e gestão das
+bases de comparação — vive na página **⚙️ Configurações**, dividida em duas
+abas ("Base institucional" e "Bases de comparação"). A escolha de qual base
+usar como Base B é feita dentro da própria página "Comparativo entre Bases".
+
 ## Pipeline de dados
 
 Três etapas desacopladas — o Streamlit nunca executa scraping ou notebook no
@@ -71,7 +80,8 @@ eles não fazem parte do pipeline automatizado.
 `jobs.py` fornece os helpers compartilhados (lockfile, status em disco via
 JSON, `subprocess.Popen(start_new_session=True)`). Ambos os jobs sobrevivem a
 fechar a aba do navegador. Status e locks ficam em `dados_brutos/status/`;
-a UI faz poll (2.5s) enquanto algum job está `running`.
+a página Configurações faz poll (2.5s) enquanto algum job está `running` (as
+demais páginas não recarregam sozinhas).
 
 ## Bases de comparação
 
@@ -79,8 +89,8 @@ Além da base institucional (PESC/UFRJ), a página **"Comparativo entre
 Bases"** permite gerar e usar bases de outras instituições/programas para
 comparação, com o mesmo padrão de extração/reprocessamento assíncrono acima.
 
-**Onde colocar a lista:** envie o arquivo `.list` pelo próprio uploader da
-sidebar ("Bases de Comparação Geridas") — ele salva automaticamente em
+**Onde colocar a lista:** envie o arquivo `.list` pelo uploader em
+**Configurações → Bases de comparação** — ele salva automaticamente em
 `scriptlattes/exemplo/comparacao/<nome>.list`. Se preferir colocar o arquivo
 manualmente (sem passar pela UI), é só copiar pra essa mesma pasta com
 extensão `.list`. O formato é o mesmo do scriptLattes: uma linha por pessoa,
@@ -90,7 +100,7 @@ extensão `.list`. O formato é o mesmo do scriptLattes: uma linha por pessoa,
 base `puc_rio` (slug: minúsculo, sem acento/espaço). O banco gerado é
 `pesquisadores_comparacao_puc_rio.duckdb`, na raiz do projeto.
 
-Na sidebar, uma tabela lista todas as bases cadastradas com a data da última
+Nessa aba, uma tabela lista todas as bases cadastradas com a data da última
 extração e do último processamento. Escolha uma no seletor pra:
 - **Re-extrair base de comparação**: roda o scriptLattes só pra essa lista
   (`run_extract_comparacao.py --nome <nome>`), com o mesmo checkbox
@@ -100,9 +110,10 @@ extração e do último processamento. Escolha uma no seletor pra:
   extraídos (`run_process_comparacao.py --nome <nome>`), promovendo
   atomicamente pro `.duckdb` final.
 
-Depois de gerado, o banco pode ser usado como **Base B** direto pelo
-seletor "Base gerida pelo sistema" (alternativa ao upload manual de um
-`.duckdb` já existente, que continua disponível).
+Depois de gerado, o banco pode ser usado como **Base B** no topo da página
+"Comparativo entre Bases", pelo seletor "Base gerida pelo sistema"
+(alternativa ao upload manual de um `.duckdb` já existente, que continua
+disponível).
 
 **Recurso compartilhado:** todas as extrações (principal e de comparação)
 usam o mesmo `scriptlattes/cache/` e o mesmo Chrome/chromedriver, então só
