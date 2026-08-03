@@ -6,7 +6,7 @@ import sys
 import jobs
 
 NOTEBOOK_ENTRADA = "analyse_organizado_comparação.ipynb"
-RAW_COMPARACAO_DIR = "dados_brutos/raw_comparacao"
+RAW_COMPARACAO_DIR = jobs.RAW_COMPARACAO_DIR
 TIMEOUT_SECONDS = 2 * 60 * 60  # 2h
 
 

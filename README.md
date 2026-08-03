@@ -248,6 +248,12 @@ snapshot a "atual" (repontando o symlink `dados_brutos/raw/current`) se ambas
 as extrações terminarem com sucesso. Ao final, encadeia automaticamente o
 reprocessamento.
 
+**Atenção ao escopo da extração:** o JSON gerado para um docente depende de
+quem mais está na mesma população — o scriptLattes funde publicações
+semelhantes entre membros do grupo e mistura os metadados. Veja
+[Limitações conhecidas](#metadados-contaminados-entre-coautores-causa-raiz-no-scriptlattes)
+antes de comparar números entre duas extrações de listas diferentes.
+
 **Risco de bloqueio:** o scriptLattes usa Selenium contra o site da Lattes.
 Não há cooldown na UI (removido — travava até depois de extrações que
 falharam, o que não fazia sentido). Em compensação, `run_extract.py`
@@ -267,6 +273,10 @@ atomicamente (`os.replace`) para `pesquisadores_teste.duckdb`.
 `orcid_1.ipynb` e `scopus_2.ipynb` são protótipos supersedidos — a lógica de
 ambos já foi incorporada dentro de `analyse_organizado.ipynb` (seções 6-13);
 eles não fazem parte do pipeline automatizado.
+
+A regra de deduplicação **não** vive dentro dos notebooks: está em
+`dedup_publicacoes.py`, importado pelos dois (veja a seção
+[Deduplicação e qualidade dos DOIs](#deduplicação-e-qualidade-dos-dois)).
 
 ### Jobs assíncronos
 
@@ -308,12 +318,200 @@ Depois de gerado, o banco pode ser usado como **Base B** no topo da página
 (alternativa ao upload manual de um `.duckdb` já existente, que continua
 disponível).
 
+### Renomear e excluir
+
+No mesmo painel, o expander **"Renomear ou excluir a base ..."** faz as duas
+operações. Ambas ficam desabilitadas enquanto houver job em andamento naquela
+base — mexer nos arquivos no meio de uma extração deixaria artefatos órfãos —
+e a exclusão exige marcar uma caixa de confirmação, que lista antes todos os
+caminhos que serão apagados.
+
+Uma base não é só o `.list`: renomear ou excluir precisa tratar **todos** os
+artefatos que carregam o nome dela. `jobs.artefatos_comparacao(nome)` é a
+definição única desse conjunto — se for acrescentar um artefato novo por base,
+acrescente ali, senão renomear/excluir passam a deixar rastro:
+
+| Artefato | Caminho |
+|---|---|
+| Lista de pessoas | `scriptlattes/exemplo/comparacao/<nome>.list` |
+| Config do scriptLattes | `scriptlattes/exemplo/comparacao/<nome>.config` |
+| Saída do scriptLattes | `scriptlattes/exemplo/comparacao/<nome>_saida/` |
+| Snapshots extraídos | `dados_brutos/raw_comparacao/<nome>/` |
+| Banco gerado | `pesquisadores_comparacao_<nome>.duckdb` |
+| Status e locks dos jobs | `dados_brutos/status/comparacao_<nome>_*` |
+| Log do papermill | `dados_brutos/status/comparacao_<nome>_ultima_execucao.ipynb` |
+
+Duas decisões que valem registro:
+
+- **O `.config` é apagado na renomeação, não movido.** Ele embute o nome da
+  base em três linhas (nome do grupo, arquivo de entrada, diretório de saída) e
+  `run_extract_comparacao.gerar_config` o regera do zero a cada extração —
+  levá-lo adiante só criaria um arquivo apontando para caminhos inexistentes.
+- **Os status vão junto.** Se ficassem para trás, uma base futura que reusasse
+  o nome herdaria um `state=done` antigo e a UI anunciaria uma extração que
+  nunca aconteceu para ela.
+
+O nome novo passa pelo mesmo `jobs.slugify` do upload (minúsculo, sem acento
+nem espaço, sem caracteres que permitam path traversal), e a operação é
+recusada se o slug resultante já pertencer a outra base.
+
 **Recurso compartilhado:** todas as extrações (principal e de comparação)
 usam o mesmo `scriptlattes/cache/` e o mesmo Chrome/chromedriver, então só
 uma extração roda por vez — as demais ficam com o botão desabilitado
 enquanto isso.
 
+## Deduplicação e qualidade dos DOIs
+
+A regra que decide **"estas duas linhas são a mesma publicação?"** vive em
+`dedup_publicacoes.py`, na raiz. Os dois pipelines importam dela:
+`analyse_organizado.ipynb` (institucional, Lattes + ORCID + Scopus) e
+`analyse_organizado_comparação.ipynb` (comparação, só Lattes).
+
+**Por que um módulo e não uma cópia em cada notebook.** As duas bases existem
+para serem comparadas entre si. Enquanto cada uma tinha a sua própria cópia
+das funções, uma correção aplicada em só um dos lados fazia os números
+divergirem por causa do código — exatamente aquilo que a comparação deveria
+detectar como diferença de produção. Se você for mexer nessas funções, mexa
+**no módulo**; nunca reintroduza uma definição local num notebook.
+
+### As regras, em ordem de aplicação
+
+1. **`normalizar_doi`** — o campo `doi` do Lattes é texto livre, e com
+   frequência guarda outra coisa. A função repara o recuperável e recusa o
+   resto, devolvendo `<NA>` (a linha então casa só por título, nunca é
+   descartada):
+
+   | Entrada real encontrada na base | Resultado |
+   |---|---|
+   | `http://www.scopus.com/...&doi=10.1145/1530873.1530886&md5=...` | `10.1145/1530873.1530886` (extrai do parâmetro) |
+   | `http://www.scopus.com/...&doi=null&md5=...` | `<NA>` — a **mesma** string aparecia em 11 docentes |
+   | `http://dx.doi.org/http://dx.doi.org/10.1109/...` | desfaz o prefixo repetido em laço |
+   | `http://dx.doi.org/http://doi.ieeecomputersociety.org/10.1109/...` | idem, resolvedor alternativo |
+   | `http://www.geoinfo.info/.../s7p3.pdf` | `<NA>` — link de PDF não é DOI |
+   | `10.18420/ ecscw2024_ep13` | remove o espaço interno |
+
+   O porteiro final é `^10\.\d{4,9}/\S+$`.
+
+2. **`_neutralizar_dois_contestados`** — se **uma mesma fonte** usa o mesmo DOI
+   em dois títulos diferentes do mesmo docente, o DOI está errado em pelo menos
+   um deles e sai do casamento. O desempate é a corroboração: o título que
+   aparece com aquele DOI em outra fonte responde pelo DOI; os demais caem no
+   casamento por título.
+
+   > O teste é **dentro de uma fonte**, e isso é essencial. Fontes diferentes
+   > escrevem o mesmo título de formas diferentes (Lattes em português, Scopus
+   > em inglês) e casar essas variações é justamente o trabalho do DOI. Comparar
+   > títulos *entre* fontes marcaria como conflito o caso normal: partiria ao
+   > meio ~144 publicações corretamente unificadas e geraria ~146 avisos falsos
+   > de "esta publicação falta no seu Lattes".
+
+3. **`calcular_chave_dedup`** — agrupa por DOI ou por título (componentes
+   conexos), **sempre dentro de um único docente**. A chave carrega o
+   `id_lattes` como prefixo, então coautoria entre docentes do quadro nunca
+   funde ninguém. No máximo um título por docente pode reter um dado DOI — dois
+   grupos com o mesmo DOI receberiam a mesma chave e voltariam a se fundir.
+
+4. **`sanear_doi_gravado`** — apaga da coluna `doi` o que foi recusado e grava
+   o que sobrou na forma canônica (`10.1007/x`, não
+   `http://dx.doi.org/10.1007/X`). Devolve o relatório do que foi descartado.
+
+5. **`auditar_duplicatas`** — segunda passada conferindo o resultado. Roda em
+   toda execução e imprime `OK` ou `AVISO` na saída do notebook.
+
+### `tb_dois_descartados` e o relatório
+
+O que foi recusado vira a tabela **`tb_dois_descartados`** (nos dois bancos) e
+alimenta o relatório **"DOIs inconsistentes no currículo Lattes"** em
+*Geração de Relatórios* — um HTML imprimível por docente, com o valor exatamente
+como está no currículo, para que ele localize e corrija a entrada.
+
+Bancos gerados antes desta tabela existir continuam abrindo normalmente: a
+validação de arquitetura exige só quatro tabelas, e o relatório avisa que
+precisa de reprocessamento em vez de quebrar.
+
+## Limitações conhecidas
+
+Documentadas porque foram investigadas e medidas, e a decisão consciente foi
+**não corrigir agora** — o custo/benefício não fecha.
+
+### Metadados contaminados entre coautores (causa raiz, no scriptLattes)
+
+O JSON de um docente **não é função apenas do currículo dele**: depende de
+quais outros pesquisadores foram extraídos na mesma população.
+
+Em `scriptlattes/scriptLattes/producoesBibliograficas/trabalhoCompletoEmCongresso.py`
+(`compararCom`), quando dois membros do grupo têm títulos similares o
+scriptLattes funde os registros e, para cada campo (`doi`, `autores`, `titulo`,
+`nomeDoEvento`, `paginas`), mantém **a string mais longa** — não a correta. A
+fusão muta o objeto no lugar, e `grupo.py` (`gerarArquivosJSONIndividuais`)
+serializa esses mesmos objetos já mutados.
+
+Efeito medido, comparando o mesmo currículo processado em duas populações
+(PESC/UFRJ e uma lista do CEFET), mesma data de atualização do CV:
+
+- **43 de 104** registros de congresso com `doi`/`autores`/`evento`/`paginas`
+  diferentes entre as duas extrações;
+- **~5%** dos papers com **estrato Qualis diferente**, porque o `nomeDoEvento`
+  veio do currículo de um coautor.
+
+É o item com maior impacto real, porque `evento` alimenta o estrato, que
+alimenta as páginas de Avaliação Quadrienal e de Credenciamento. Corrigir exige
+separar a fusão de identidade (`idMembro.update()`, que alimenta o grafo de
+coautoria) da fusão de campos.
+
+> Medição feita sobre **um** docente com muitos coautores nas duas populações;
+> não é necessariamente a média do quadro.
+
+### Quatro publicações "quimera" que a regra não detecta
+
+Quando o DOI errado aparece em **um único título** do currículo do docente, não
+há contradição interna e a regra de `_neutralizar_dois_contestados` não tem como
+disparar — a forma do dado é idêntica à do caso legítimo (um título Lattes em
+português + um título Scopus em inglês, mesmo DOI).
+
+O resultado é uma linha que funde a publicação recente do Lattes com um registro
+externo antigo e sem relação:
+
+| Docente | Ano no Lattes | Ano na Scopus |
+|---|---|---|
+| Claudio Esperança | 2025 | 1997 |
+| Geraldo Bonorino Xexéo | 2025 | 2012 |
+| Rosa Maria Meri Leão | 2026 | 2013 |
+| Luidi Gelabert Simonetti | 2026 | 2015 |
+
+**Dano:** 4 publicações históricas (1997–2015) somem da base, e 4 linhas recentes
+alegam em `fontes` uma cobertura externa que não têm.
+
+**Por que não corrigimos:** são 4 linhas em 5.212 (0,08%), e as publicações
+perdidas são todas anteriores ao período que alimenta a avaliação vigente — o
+impacto é sobre registro histórico, não sobre pontuação. A publicação recente
+que aparece na linha é real e conta legitimamente; o que está errado é o rótulo
+de proveniência.
+
+**Se um dia for corrigir**, o sinal já está medido. A divergência de ano entre a
+linha do Lattes e a externa, em todas as publicações hoje fundidas, é bimodal
+com uma faixa vazia no meio:
+
+```
+congressos (n=1737)  gap 0: 1653 | 1: 78 | 2: 2 |·· vazio ··| 11: 1 | 13: 2 | 28: 1
+periódicos (n=1710)  gap 0: 1589 | 1: 102 | 2: 16 | 3: 2 |·· vazio ··| 9: 1
+```
+
+Mas **ano sozinho não serve**: o outlier de periódicos (gap 9) é o mesmo artigo
+com o ano divergente (um *dynamic survey* redatado), e uma regra por ano o
+partiria em dois. O critério correto é a **conjunção** — ligados *apenas* por
+DOI (títulos normalizados não batem) **e** anos divergindo ≥ 5. Assim pega os 4,
+com zero falso positivo.
+
 ## Estrutura de dados
+
+O banco institucional tem **13 tabelas**: 6 principais (`tb_professores`,
+`tb_alunos`, `tb_aluno_titulos`, `tb_orientacoes`, `tb_artigo_periodico`,
+`tb_artigo_conferencia`), 6 por fonte (`tb_artigo_{periodico,conferencia}_{lattes,orcid,scopus}`,
+com o dado pré-deduplicação) e `tb_dois_descartados`. Há ainda
+`tb_situacao_orientandos`, gravada em conexão própria na Seção 14. O banco de
+comparação tem 5 (`tb_professores`, `tb_artigo_periodico`,
+`tb_artigo_conferencia`, `tb_orientacoes`, `tb_dois_descartados`).
 
 ```
 dados_brutos/

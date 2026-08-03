@@ -2,6 +2,7 @@ import glob
 import json
 import os
 import re
+import shutil
 import sys
 import subprocess
 import unicodedata
@@ -15,6 +16,11 @@ PROCESS_LOCK = os.path.join(STATUS_DIR, "process.lock")
 
 COMPARACAO_LISTS_DIR = "scriptlattes/exemplo/comparacao"
 SCRIPTLATTES_CACHE_DIR = "scriptlattes/cache"
+# Snapshots extraídos das bases de comparação. Definido aqui (e não em cada
+# run_*_comparacao.py) porque renomear/excluir uma base precisa mexer nesta
+# pasta: se o caminho existisse em dois lugares, uma divergência silenciosa
+# faria a renomeação deixar o snapshot para trás.
+RAW_COMPARACAO_DIR = "dados_brutos/raw_comparacao"
 
 # Onde ficam os .duckdb gerados. Padrão "." = raiz do projeto, exatamente como
 # sempre foi. Existe para o caso de a imagem Docker rodar com o código embutido
@@ -88,12 +94,107 @@ def listar_nomes_comparacao():
     return [os.path.splitext(os.path.basename(c))[0] for c in caminhos]
 
 
+def artefatos_comparacao(nome):
+    """Todos os caminhos que pertencem a uma base de comparação.
+
+    Existe uma função só para isso porque renomear e excluir precisam tratar
+    exatamente o mesmo conjunto. Um artefato esquecido vira lixo órfão na
+    exclusão e, pior, é *herdado* por uma base futura que reuse o nome — um
+    `process_status.json` antigo com `state=done` faria a UI anunciar um
+    processamento que nunca aconteceu para aquela base."""
+    return {
+        "lista": os.path.join(COMPARACAO_LISTS_DIR, f"{nome}.list"),
+        "config": os.path.join(COMPARACAO_LISTS_DIR, f"{nome}.config"),
+        "saida_scriptlattes": os.path.join(COMPARACAO_LISTS_DIR, f"{nome}_saida"),
+        "raw": os.path.join(RAW_COMPARACAO_DIR, nome),
+        "duckdb": caminho_duckdb_comparacao(nome),
+        "extract_status": comparacao_extract_status(nome),
+        "process_status": comparacao_process_status(nome),
+        "extract_lock": comparacao_extract_lock(nome),
+        "process_lock": comparacao_process_lock(nome),
+        "log_notebook": os.path.join(STATUS_DIR, f"comparacao_{nome}_ultima_execucao.ipynb"),
+    }
+
+
+def comparacao_em_uso(nome):
+    """True enquanto algum job desta base está de fato em andamento.
+
+    Checa os lockfiles, não o campo `state`: a UI grava "running" no status
+    antes mesmo de o processo existir, e um status preso por um container que
+    morreu no meio travaria a base para sempre — o lockfile, esse, o
+    entrypoint limpa na subida."""
+    return os.path.exists(comparacao_extract_lock(nome)) or os.path.exists(
+        comparacao_process_lock(nome)
+    )
+
+
+def renomear_comparacao(nome_atual, novo_nome):
+    """Renomeia uma base de comparação movendo todos os seus artefatos.
+    Devolve o slug efetivamente usado.
+
+    O `.config` do scriptLattes é apagado em vez de movido: ele embute o nome
+    da base em três linhas (nome do grupo, arquivo de entrada, diretório de
+    saída) e é regerado do zero por `run_extract_comparacao.gerar_config` a
+    cada extração. Levá-lo para o nome novo só criaria um arquivo apontando
+    para caminhos que não existem mais.
+
+    Usa `shutil.move` (e não `os.replace`) porque o `.duckdb` pode estar em
+    outro sistema de arquivos: no modo "código embutido" documentado no README,
+    `PESC_DATA_DIR` aponta para um volume separado, e `os.replace` falharia
+    com EXDEV."""
+    novo = slugify(novo_nome)
+    if not novo:
+        raise ValueError("Nome inválido: não sobrou nada depois de normalizar.")
+    existentes = listar_nomes_comparacao()
+    if nome_atual not in existentes:
+        raise ValueError(f"A base '{nome_atual}' não existe.")
+    if novo == nome_atual:
+        raise ValueError(f"O nome normalizado ('{novo}') é igual ao atual.")
+    if novo in existentes:
+        raise ValueError(f"Já existe uma base chamada '{novo}'.")
+    if comparacao_em_uso(nome_atual):
+        raise ValueError(
+            "Há um job em andamento nesta base. Espere terminar antes de renomear."
+        )
+
+    origem = artefatos_comparacao(nome_atual)
+    destino = artefatos_comparacao(novo)
+
+    if os.path.exists(origem["config"]):
+        os.remove(origem["config"])  # regerado na próxima extração
+
+    for chave, caminho_origem in origem.items():
+        if chave == "config" or not os.path.lexists(caminho_origem):
+            continue
+        pasta_destino = os.path.dirname(os.path.abspath(destino[chave]))
+        os.makedirs(pasta_destino, exist_ok=True)
+        shutil.move(caminho_origem, destino[chave])
+    return novo
+
+
+def excluir_comparacao(nome):
+    """Apaga uma base de comparação e todos os seus artefatos, inclusive o
+    `.duckdb` já gerado e os snapshots extraídos. É irreversível — quem chama
+    deve confirmar com o usuário antes."""
+    if nome not in listar_nomes_comparacao():
+        raise ValueError(f"A base '{nome}' não existe.")
+    if comparacao_em_uso(nome):
+        raise ValueError(
+            "Há um job em andamento nesta base. Espere terminar antes de excluir."
+        )
+
+    for caminho in artefatos_comparacao(nome).values():
+        if os.path.isdir(caminho) and not os.path.islink(caminho):
+            shutil.rmtree(caminho, ignore_errors=True)
+        elif os.path.lexists(caminho):
+            os.remove(caminho)
+
+
 def limpar_cache_scriptlattes():
     """Apaga o cache de CVs já baixados do scriptLattes (compartilhado entre
     a extração principal e todas as de comparação) -- sem isso, quem já está
     no cache nunca é rebaixado, então CVs desatualizados de quem já foi
     extraído antes não são renovados."""
-    import shutil
     if os.path.isdir(SCRIPTLATTES_CACHE_DIR):
         shutil.rmtree(SCRIPTLATTES_CACHE_DIR)
     os.makedirs(SCRIPTLATTES_CACHE_DIR, exist_ok=True)

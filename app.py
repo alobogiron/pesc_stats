@@ -939,6 +939,7 @@ elif pagina_selecionada == "Geração de Relatórios":
     RELATORIOS_DISPONIVEIS = [
         "Papers faltantes na base do Lattes (periódicos e conferências)",
         "Alunos do programa faltando no Lattes do orientador",
+        "DOIs inconsistentes no currículo Lattes",
     ]
     relatorio_selecionado = st.selectbox("Selecione o relatório:", RELATORIOS_DISPONIVEIS)
 
@@ -1177,6 +1178,137 @@ localize cada publicação na base indicada na coluna "Rastreado em".</footer>
                 f"Nenhum docente possui papers faltantes no Lattes nesta base "
                 f"no período {rel_ano_inicio}–{rel_ano_fim}."
             )
+
+    elif relatorio_selecionado == "DOIs inconsistentes no currículo Lattes":
+        st.markdown(
+            "Lista, para cada docente, as publicações cujo **campo DOI do Lattes não pôde ser "
+            "usado** — para que ele corrija a entrada no próprio currículo. O campo é texto "
+            "livre, e o pipeline recusa o valor em dois casos (`analyse_organizado.ipynb`, "
+            "Seção 8.2.1):\n"
+            "- **não tem forma de DOI** — o campo guarda outra coisa, tipicamente o link do PDF "
+            "ou a URL *citado por* da Scopus;\n"
+            "- **o mesmo DOI aparece em mais de uma publicação** do docente na mesma fonte — está "
+            "errado em pelo menos uma delas, e mantê-lo faria duas publicações distintas "
+            "colapsarem numa só.\n\n"
+            "Nos dois casos a publicação **não é descartada**: ela passa a ser identificada pelo "
+            "título. O que a correção no Lattes recupera é a precisão do casamento com ORCID e "
+            "Scopus. A coluna *DOI registrado no Lattes* traz o valor exatamente como está no "
+            "currículo — é por ele que a entrada é localizada."
+        )
+
+        # Bases geradas antes desta seção existir não têm a tabela; o relatório
+        # avisa em vez de estourar (mesmo tratamento dado a tb_situacao_orientandos).
+        tabela_descartes_ok = True
+        try:
+            con.execute("SELECT 1 FROM tb_dois_descartados LIMIT 1")
+        except Exception:
+            tabela_descartes_ok = False
+
+        if not tabela_descartes_ok:
+            st.info(
+                "Esta base não possui a tabela `tb_dois_descartados` — ela passou a ser gerada "
+                "por `analyse_organizado.ipynb` (Seção 8.2.1). Rode o reprocessamento da base "
+                "para que o relatório fique disponível."
+            )
+        else:
+            # Registros sem ano entram sempre: são justamente inconsistências de
+            # preenchimento, e escondê-las por causa do recorte de período seria
+            # contraproducente num relatório de qualidade de dado.
+            pred_descarte = _pred_ano("d.ano", True)
+
+            def _dados_descartes(id_lattes):
+                return con.execute(
+                    f"""
+                    SELECT d.tipo, d.titulo_artigo, d.ano, d.doi_descartado, d.motivo
+                    FROM tb_dois_descartados d
+                    WHERE d.id_lattes = ? AND {pred_descarte}
+                    ORDER BY d.tipo, d.ano DESC NULLS LAST, d.titulo_artigo
+                    """, [id_lattes, rel_ano_inicio, rel_ano_fim]).df()
+
+            def _html_descartes(nome, id_lattes, df_d):
+                gerado_em = datetime.now().strftime("%d/%m/%Y %H:%M")
+                colunas = [
+                    ("Tipo", "tipo", _fmt_txt), ("Título", "titulo_artigo", _fmt_txt),
+                    ("Ano", "ano", _fmt_ano),
+                    ("DOI registrado no Lattes", "doi_descartado", _fmt_txt),
+                    ("Por que não foi usado", "motivo", _fmt_txt),
+                ]
+                corpo = (
+                    "<p class='vazio'>Nenhuma inconsistência encontrada.</p>"
+                    if df_d.empty else _tabela_html(df_d, colunas)
+                )
+                return f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>DOIs inconsistentes no Lattes — {html_lib.escape(str(nome))}</title>
+<style>{_CSS_RELATORIO}</style></head>
+<body>
+<header>
+  <h1>DOIs inconsistentes no currículo Lattes</h1>
+  <p class="sub">Publicações cujo campo DOI não pôde ser usado para identificar a publicação.</p>
+  <table class="meta">
+    <tr><td><strong>Docente</strong></td><td>{html_lib.escape(str(nome))}</td></tr>
+    <tr><td><strong>ID Lattes</strong></td><td>{html_lib.escape(str(id_lattes))}</td></tr>
+    <tr><td><strong>Período</strong></td><td>{rel_ano_inicio} a {rel_ano_fim} (inclui itens sem ano informado)</td></tr>
+    <tr><td><strong>Gerado em</strong></td><td>{gerado_em}</td></tr>
+  </table>
+</header>
+<h2>Inconsistências <span class='cont'>({len(df_d)})</span></h2>{corpo}
+<footer>Sistema de Avaliação de Produtividade Acadêmica — localize cada publicação no currículo
+Lattes pelo valor da coluna "DOI registrado no Lattes" e substitua-o pelo DOI correto (ou apague-o,
+se a publicação não tiver DOI).</footer>
+<button class="noprint" onclick="window.print()">Imprimir / Salvar como PDF</button>
+</body></html>"""
+
+            df_profs_doi = con.execute(
+                f"""
+                SELECT p.id_lattes, p.nome_completo,
+                    (SELECT COUNT(*) FROM tb_dois_descartados d
+                       WHERE d.id_lattes = p.id_lattes AND {pred_descarte}) AS descartes
+                FROM tb_professores p
+                ORDER BY p.nome_completo
+                """, [rel_ano_inicio, rel_ano_fim]
+            ).df()
+
+            total_descartes = int(df_profs_doi["descartes"].sum())
+            if total_descartes == 0:
+                st.success(
+                    "Nenhum DOI inconsistente nesta base: todo DOI preenchido identifica "
+                    "uma única publicação."
+                )
+            else:
+                st.caption(
+                    f"{total_descartes} inconsistência(s) em "
+                    f"{int((df_profs_doi['descartes'] > 0).sum())} docente(s)."
+                )
+                mostrar_todos_doi = st.checkbox(
+                    "Mostrar também docentes sem inconsistências", value=False, key="todos_doi")
+
+                st.markdown("#### Docentes")
+                h1, h2, h3 = st.columns([5, 1, 2])
+                h1.markdown("**Docente**")
+                h2.markdown("**Inconsistências**")
+                h3.markdown("**Relatório**")
+
+                for _, prof in df_profs_doi.iterrows():
+                    total = int(prof["descartes"])
+                    if total == 0 and not mostrar_todos_doi:
+                        continue
+                    c1, c2, c3 = st.columns([5, 1, 2])
+                    c1.write(prof["nome_completo"])
+                    c2.write(total)
+                    if total == 0:
+                        c3.caption("Sem inconsistências")
+                    else:
+                        df_d = _dados_descartes(prof["id_lattes"])
+                        doc_html = _html_descartes(prof["nome_completo"], prof["id_lattes"], df_d)
+                        slug = re.sub(r"[^A-Za-z0-9]+", "_", str(prof["nome_completo"])).strip("_")
+                        c3.download_button(
+                            "Baixar HTML",
+                            data=doc_html.encode("utf-8"),
+                            file_name=f"dois_inconsistentes_{slug}.html",
+                            mime="text/html",
+                            key=f"dl_doi_{prof['id_lattes']}",
+                        )
 
     elif relatorio_selecionado == "Alunos do programa faltando no Lattes do orientador":
         st.markdown(
@@ -2001,6 +2133,13 @@ elif pagina_selecionada == PAGINA_CONFIGURACOES:
             "página Comparativo."
         )
 
+        # Mensagem deixada por uma renomeação/exclusão que terminou com st.rerun().
+        nivel_msg, texto_msg = st.session_state.pop("_msg_bases_comparacao", (None, None))
+        if nivel_msg == "success":
+            st.success(texto_msg)
+        elif nivel_msg:
+            st.error(texto_msg)
+
         arquivo_lista = st.file_uploader(
             "Enviar lista (.list) de uma nova instituição/programa",
             type=["list", "txt"],
@@ -2094,6 +2233,105 @@ elif pagina_selecionada == PAGINA_CONFIGURACOES:
 
             linha_status(f"Extração ({nome_selecionado})", status_extract_comp)
             linha_status(f"Reprocessamento ({nome_selecionado})", status_process_comp)
+
+            # --- Renomear / excluir -------------------------------------------------
+            # Ficam num expander fechado porque excluir é irreversível e apaga
+            # também o .duckdb e os snapshots extraídos — não é operação para
+            # estar a um clique de distância dos botões de rotina.
+            base_travada = algum_job_comp_rodando or jobs.comparacao_em_uso(nome_selecionado)
+
+            with st.expander(f"Renomear ou excluir a base '{nome_selecionado}'"):
+                if base_travada:
+                    st.warning(
+                        "Há um job em andamento nesta base. Espere terminar — renomear ou "
+                        "excluir no meio da execução deixaria arquivos órfãos."
+                    )
+
+                artefatos = jobs.artefatos_comparacao(nome_selecionado)
+                presentes = {c: p for c, p in artefatos.items() if os.path.lexists(p)}
+
+                st.markdown("**Renomear**")
+                st.caption(
+                    "Move a lista, os snapshots extraídos, o banco gerado e os status. "
+                    "O nome é normalizado igual ao do upload (minúsculo, sem acento nem espaço)."
+                )
+                col_nome, col_btn = st.columns([3, 1])
+                novo_nome_base = col_nome.text_input(
+                    "Novo nome",
+                    value="",
+                    placeholder=nome_selecionado,
+                    label_visibility="collapsed",
+                    disabled=base_travada,
+                    key="input_novo_nome_comparacao",
+                )
+                if col_btn.button(
+                    "Renomear",
+                    disabled=base_travada or not novo_nome_base.strip(),
+                    use_container_width=True,
+                    key="btn_renomear_comparacao",
+                ):
+                    try:
+                        novo = jobs.renomear_comparacao(nome_selecionado, novo_nome_base)
+                    except ValueError as erro:
+                        st.error(str(erro))
+                    else:
+                        # A conexão da Base B é cacheada por (caminho, mtime): o
+                        # caminho antigo deixou de existir, então o cache precisa cair.
+                        abrir_base_comparacao_gerida.clear()
+                        for chave in (
+                            "select_base_comparacao_operar",
+                            "select_base_b_gerida",
+                            "input_novo_nome_comparacao",
+                            # sem limpar o uploader, o rerun re-salvaria o .list
+                            # e ressuscitaria a base com o nome antigo
+                            "upload_lista_comparacao",
+                        ):
+                            st.session_state.pop(chave, None)
+                        st.session_state["_msg_bases_comparacao"] = (
+                            "success", f"Base '{nome_selecionado}' renomeada para '{novo}'."
+                        )
+                        st.rerun()
+
+                st.divider()
+
+                st.markdown("**Excluir**")
+                st.caption(
+                    "Apaga a lista, os snapshots extraídos, o banco gerado e os status "
+                    "desta base. **Irreversível.**"
+                )
+                st.markdown(
+                    "Será apagado:\n"
+                    + "\n".join(f"- `{caminho}`" for caminho in sorted(presentes.values()))
+                )
+                confirmou_exclusao = st.checkbox(
+                    f"Confirmo que quero excluir a base '{nome_selecionado}' e todos os arquivos acima",
+                    value=False,
+                    disabled=base_travada,
+                    key="confirma_exclusao_comparacao",
+                )
+                if st.button(
+                    "Excluir base de comparação",
+                    disabled=base_travada or not confirmou_exclusao,
+                    type="primary",
+                    key="btn_excluir_comparacao",
+                ):
+                    try:
+                        jobs.excluir_comparacao(nome_selecionado)
+                    except ValueError as erro:
+                        st.error(str(erro))
+                    else:
+                        abrir_base_comparacao_gerida.clear()
+                        for chave in (
+                            "select_base_comparacao_operar",
+                            "select_base_b_gerida",
+                            "confirma_exclusao_comparacao",
+                            "upload_lista_comparacao",
+                        ):
+                            st.session_state.pop(chave, None)
+                        st.session_state["_msg_bases_comparacao"] = (
+                            "success", f"Base '{nome_selecionado}' excluída."
+                        )
+                        st.rerun()
 
     # Poll só nesta página: enquanto algum job roda, recarrega pra atualizar os
     # status. As demais páginas não precisam ficar recarregando sozinhas.

@@ -13,7 +13,7 @@ SCRIPTLATTES_TIMEOUT_SECONDS = 3 * 60 * 60  # 3h
 
 COMPARACAO_DIR_REL = "exemplo/comparacao"  # relativo a SCRIPTLATTES_DIR
 TEMPLATE_CONFIG = os.path.join(SCRIPTLATTES_DIR, "exemplo", "alunos_pesc.config")
-RAW_COMPARACAO_DIR = "dados_brutos/raw_comparacao"
+RAW_COMPARACAO_DIR = jobs.RAW_COMPARACAO_DIR
 
 
 def gerar_config(nome):
