@@ -6,8 +6,10 @@ import jobs
 
 NOTEBOOK_ENTRADA = "analyse_organizado.ipynb"
 NOTEBOOK_SAIDA_LOG = "dados_brutos/status/analyse_organizado_ultima_execucao.ipynb"
-DUCKDB_DESTINO_FINAL = "pesquisadores_teste.duckdb"
-DUCKDB_TMP = "pesquisadores_teste.duckdb.tmp"
+# Destino e temporário sempre no mesmo diretório (jobs.DATA_DIR): o os.replace
+# final precisa dos dois no mesmo sistema de arquivos pra ser atômico.
+DUCKDB_DESTINO_FINAL = jobs.caminho_duckdb_principal()
+DUCKDB_TMP = DUCKDB_DESTINO_FINAL + ".tmp"
 TIMEOUT_SECONDS = 2 * 60 * 60  # 2h
 
 

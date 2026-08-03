@@ -1,0 +1,30 @@
+# Contexto de build enxuto. Note que o docker-compose monta o projeto inteiro
+# em /app, então o que fica de fora daqui só afeta a imagem "solta"
+# (docker run sem bind mount).
+.git
+.gitignore
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Dados e artefatos pesados: entram por volume, não por camada de imagem.
+dados_brutos/
+*.duckdb
+*.duckdb.tmp
+old_dbs/
+scriptlattes/cache/
+scriptlattes/exemplo/alunos_pesc/
+scriptlattes/exemplo/professores_ufrj/
+scriptlattes/exemplo/comparacao/*_saida/
+
+# Binário pareado com o Chrome do host: dentro da imagem quem vale é o
+# chromedriver do sistema (CHROMEDRIVER_PATH).
+scriptlattes/chromedriver
+
+# Segredos nunca vão para a imagem: entram por env_file em runtime.
+.env
+
+.vscode/
+.gemini/
+.claude/

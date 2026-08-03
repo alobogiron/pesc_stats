@@ -16,6 +16,22 @@ PROCESS_LOCK = os.path.join(STATUS_DIR, "process.lock")
 COMPARACAO_LISTS_DIR = "scriptlattes/exemplo/comparacao"
 SCRIPTLATTES_CACHE_DIR = "scriptlattes/cache"
 
+# Onde ficam os .duckdb gerados. Padrão "." = raiz do projeto, exatamente como
+# sempre foi. Existe para o caso de a imagem Docker rodar com o código embutido
+# (sem bind mount do projeto): aí basta apontar PESC_DATA_DIR para um volume
+# e os bancos passam a ser gravados/lidos lá, sem editar código.
+DATA_DIR = os.environ.get("PESC_DATA_DIR", ".")
+
+
+def caminho_duckdb_principal():
+    """Banco institucional (Base A), gerado por run_process.py."""
+    return os.path.join(DATA_DIR, "pesquisadores_teste.duckdb")
+
+
+def caminho_duckdb_comparacao(nome):
+    """Banco de uma base de comparação, gerado por run_process_comparacao.py."""
+    return os.path.join(DATA_DIR, f"pesquisadores_comparacao_{nome}.duckdb")
+
 # Sinais conhecidos de bloqueio/rate-limit da Lattes (visto em ERR_CONNECTION_REFUSED
 # e no backoff de 5min já embutido em scriptlattes/scriptLattes/baixaLattes.py:baixaCVLattes).
 SINAIS_BLOQUEIO = [

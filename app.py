@@ -22,7 +22,7 @@ st.set_page_config(page_title="Sistema de Avaliação de Produtividade Acadêmic
 # `analyse_organizado.ipynb`. Precisa conter as colunas `fontes` (tabelas de
 # artigos) e `data_ingresso` (tb_professores), usadas pelo credenciamento e
 # pela geração de relatórios. Regenere o banco pelo notebook se ele não existir.
-CAMINHO_BASE_INSTITUCIONAL = 'pesquisadores_teste.duckdb'
+CAMINHO_BASE_INSTITUCIONAL = jobs.caminho_duckdb_principal()
 
 @st.cache_resource
 def get_db_connection():
@@ -170,7 +170,7 @@ def listar_bases_comparacao_info():
     for nome in jobs.listar_nomes_comparacao():
         status_extract = jobs.read_status(jobs.comparacao_extract_status(nome))
         status_process = jobs.read_status(jobs.comparacao_process_status(nome))
-        duckdb_path = f"pesquisadores_comparacao_{nome}.duckdb"
+        duckdb_path = jobs.caminho_duckdb_comparacao(nome)
         duckdb_existe = os.path.exists(duckdb_path)
         linhas.append({
             "nome": nome,

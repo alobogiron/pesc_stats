@@ -35,10 +35,30 @@ URL_LATTES_ID10 = 'http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id={0
 URL_LATTES_ID16 = 'http://lattes.cnpq.br/{0}'
 
 
+def resolver_chromedriver(padrao=None):
+    """[modificação local] Caminho do chromedriver a usar.
+
+    `CHROMEDRIVER_PATH` tem precedência -- é como a imagem Docker aponta para o
+    driver do sistema (pareado com o chromium do mesmo pacote Debian). Sem a
+    variável, mantém o comportamento antigo: `padrao` se informado, senão
+    ./chromedriver relativo ao diretório de trabalho.
+    """
+    do_ambiente = os.environ.get('CHROMEDRIVER_PATH')
+    if do_ambiente:
+        return do_ambiente
+    if padrao:
+        return padrao
+    nome = "chromedriver.exe" if platform.system() == 'Windows' else "chromedriver"
+    return os.path.abspath(nome)
+
+
 class LattesRobot:
     def __init__(self, driver_path, results_dir):
         #logging.getLogger('selenium').setLevel(logging.WARNING)
-        self.driver_path = driver_path
+        # [modificação local] resolve pelo ambiente antes de cair no argumento,
+        # senão a checagem em initialize() barraria a execução em container
+        # (onde não existe ./chromedriver) antes mesmo de create_driver rodar.
+        self.driver_path = resolver_chromedriver(driver_path)
         self.results_dir = results_dir
         self.driver = None
         #self.ua = UserAgent()
@@ -50,8 +70,13 @@ class LattesRobot:
 
     def initialize(self):
         if not os.path.exists(self.driver_path):
-            #logging.error('Invalid driver path: %s' % self.driver_path)
-            exit(1)
+            # [modificação local] antes era um exit(1) mudo, que terminava o
+            # processo sem dizer o motivo -- na UI virava "falhou" sem log.
+            raise RuntimeError(
+                f"chromedriver não encontrado em '{self.driver_path}'. "
+                "Rode 'make setup-chromedriver' (execução local) ou defina "
+                "CHROMEDRIVER_PATH apontando para o binário."
+            )
 
         if not os.path.exists(self.results_dir):
             os.makedirs(self.results_dir)
@@ -67,26 +92,55 @@ class LattesRobot:
     def create_driver(self):
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("start-maximized")
-        chrome_options.add_argument('--blink-settings=imagesEnabled=false') 
+        chrome_options.add_argument('--blink-settings=imagesEnabled=false')
         chrome_options.add_argument("headless")
+
+        # [modificação local] Flags extras vindas do ambiente, separadas por
+        # espaço. Dentro de container são obrigatórias (--no-sandbox, porque
+        # não há usuário privilegiado nem namespaces pro sandbox do Chrome, e
+        # --disable-dev-shm-usage, porque /dev/shm do Docker é pequeno demais e
+        # o Chrome estoura com "session not created"). Fora do container a
+        # variável não existe e nada muda.
+        for arg in os.environ.get('CHROME_EXTRA_ARGS', '').split():
+            chrome_options.add_argument(arg)
+
+        # [modificação local] Binário do navegador. O chromedriver procura o
+        # google-chrome nos caminhos padrão; na imagem Docker o navegador é o
+        # chromium do sistema, então o caminho vem explícito por CHROME_BIN.
+        chrome_binary = os.environ.get('CHROME_BIN')
+        if chrome_binary:
+            chrome_options.binary_location = chrome_binary
+
         chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
         chrome_options.add_experimental_option('useAutomationExtension', False)
         chrome_options.add_experimental_option('prefs', {'download.default_directory': self.results_dir})
- 
-        so = platform.system()
-        if so == 'Windows':
-            chrome_driver_path = os.path.abspath("chromedriver.exe")
-        elif so == 'Linux':
-            chrome_driver_path = os.path.abspath("chromedriver")
-        else:
-            print('Sistema Operacional não identificado')
-            
+
+        # [modificação local] CHROMEDRIVER_PATH tem precedência (na imagem
+        # Docker o driver vem do pacote do sistema, pareado com o chromium).
+        # Sem a variável, mantém o comportamento antigo: ./chromedriver
+        # relativo ao diretório de trabalho.
+        chrome_driver_path = resolver_chromedriver(self.driver_path)
+
+        if not os.path.exists(chrome_driver_path):
+            raise RuntimeError(
+                f"chromedriver não encontrado em '{chrome_driver_path}'. "
+                "Rode 'make setup-chromedriver' (execução local) ou defina "
+                "CHROMEDRIVER_PATH apontando para o binário."
+            )
+
         service = Service(chrome_driver_path)
- 
+
         try:
             self.driver = webdriver.Chrome(service=service, options=chrome_options)
         except Exception as e:
-            print(f"Erro ao inicializar o driver: {e}")
+            # [modificação local] Antes só imprimia e seguia, deixando
+            # self.driver indefinido -- o erro real só aparecia depois, como um
+            # AttributeError sem relação aparente. Falhar aqui faz a mensagem
+            # chegar inteira ao status do job exibido na UI.
+            raise RuntimeError(
+                f"Erro ao inicializar o Chrome/chromedriver "
+                f"(driver='{chrome_driver_path}', binário='{chrome_binary or 'padrão'}'): {e}"
+            ) from e
 
 
     def collect_html_cvs(self, start, end):
@@ -183,7 +237,10 @@ def __get_data(id_lattes, diretorio):
     #except KeyboardInterrupt:
     #    logging.info('Execution was interrupted')
     finally:
-        rob.driver.quit()
+        # [modificação local] se create_driver falhou, self.driver é None --
+        # chamar .quit() aqui trocaria o erro real por um AttributeError.
+        if rob.driver is not None:
+            rob.driver.quit()
 
 
 def baixaCVLattes(id_lattes, diretorio ):

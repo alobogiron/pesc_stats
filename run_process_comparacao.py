@@ -42,7 +42,7 @@ def main():
     started_at = jobs.now_iso()
     jobs.write_status(status_path, state="running", started_at=started_at)
 
-    duckdb_destino_final = f"pesquisadores_comparacao_{nome}.duckdb"
+    duckdb_destino_final = jobs.caminho_duckdb_comparacao(nome)
     tmp_path = os.path.abspath(f"{duckdb_destino_final}.tmp")
     notebook_saida_log = os.path.join("dados_brutos", "status", f"comparacao_{nome}_ultima_execucao.ipynb")
 

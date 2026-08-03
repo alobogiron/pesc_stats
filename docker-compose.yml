@@ -1,0 +1,41 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        # Dono dos arquivos criados pelo container no diretório montado.
+        # `UID=$(id -u) GID=$(id -g) docker compose build` casa com o seu usuário.
+        UID: "${UID:-1000}"
+        GID: "${GID:-1000}"
+    image: pesc-stats:latest
+    container_name: pesc-stats
+    ports:
+      # Porta do host configurável: `PESC_PORT=8600 docker compose up -d`
+      # (útil quando já existe um Streamlit rodando fora do container).
+      - "${PESC_PORT:-8501}:8501"
+    environment:
+      # Sem isso o container roda em UTC e as datas de extração/processamento
+      # aparecem 3h adiantadas na barra lateral e na página Configurações.
+      TZ: "${TZ:-America/Sao_Paulo}"
+    env_file:
+      # Chaves de ORCID/Scopus. Sem o arquivo o app sobe do mesmo jeito: o
+      # notebook degrada graciosamente (as seções dessas APIs rodam vazias).
+      - path: .env
+        required: false
+    volumes:
+      # O projeto inteiro montado em /app: é onde ficam, hoje, tanto o código
+      # quanto os dados (os .duckdb e as planilhas na raiz, dados_brutos/, a
+      # saída do scriptLattes). Assim tudo que o container gera fica no host e
+      # sobrevive a `docker compose down`.
+      #
+      # Para rodar com o código embutido na imagem (deploy sem o repositório),
+      # remova este mount e monte só os dados:
+      #   - ./dados_brutos:/app/dados_brutos
+      #   - dbs:/data     + environment: PESC_DATA_DIR=/data
+      - .:/app
+    # O Chrome usa memória compartilhada de verdade; o padrão de 64 MB do
+    # Docker faz o Selenium morrer com "session not created" em páginas
+    # grandes. A flag --disable-dev-shm-usage já cobre isso, mas com shm real
+    # a extração fica bem mais rápida.
+    shm_size: "1gb"
+    restart: unless-stopped
