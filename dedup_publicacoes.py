@@ -41,6 +41,22 @@ RE_PREFIXO_RESOLVEDOR = re.compile(
 )
 
 
+def _e_nulo(valor):
+    """`pd.isna` de um escalar devolve bool, mas de algo array-like devolve um
+    array — e usá-lo num `if` levanta ValueError.
+
+    Isso importa porque o campo `doi` das três fontes é texto livre vindo de
+    JSON/API: basta uma célula chegar como lista (um registro com dois
+    identificadores externos, por exemplo) para o `.map(normalizar_doi)`
+    estourar e abortar o reprocessamento inteiro. Aqui esse valor só deixa de
+    ser tratado como nulo e segue para a validação de formato, que o recusa.
+    Mesmo padrão defensivo dos formatadores de `app.py`."""
+    try:
+        return bool(pd.isna(valor))
+    except (TypeError, ValueError):
+        return False
+
+
 def normalizar_doi(doi):
     """Reduz um DOI à sua forma canônica para comparação EXATA: minúsculo, sem
     espaços, sem prefixo textual ("doi:") nem de resolvedor
@@ -58,7 +74,7 @@ def normalizar_doi(doi):
     professores). Tratada como DOI, ela funde publicações distintas do mesmo
     professor numa só.
     """
-    if pd.isna(doi):
+    if _e_nulo(doi):
         return pd.NA
     texto = str(doi).strip().lower()
 
@@ -87,7 +103,7 @@ def normalizar_titulo_dedup(titulo):
     Assim "Título: Algo Novo." (Lattes) e "TITULO ALGO NOVO" (Scopus) viram a
     mesma string. Retorna '' quando não há título — nesse caso a linha não
     participa do casamento por título."""
-    if pd.isna(titulo):
+    if _e_nulo(titulo):
         return ''
     texto = str(titulo).upper().strip()
     texto = unicodedata.normalize('NFKD', texto).encode('ascii', 'ignore').decode('ascii')
@@ -340,7 +356,7 @@ def sanear_doi_gravado(df, rotulo, coluna_ano):
             continue
         saneados.append(pd.NA)
         original = originais[posicao]
-        if pd.isna(original) or not str(original).strip():
+        if _e_nulo(original) or not str(original).strip():
             continue  # já era vazio: não há nada a relatar
         descartes.append({
             'tipo': rotulo,

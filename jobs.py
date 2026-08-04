@@ -94,6 +94,25 @@ def listar_nomes_comparacao():
     return [os.path.splitext(os.path.basename(c))[0] for c in caminhos]
 
 
+# O nome de uma base entra em vários arquivos derivados; o mais longo é
+# `comparacao_<nome>_ultima_execucao.ipynb`, que acrescenta 33 caracteres. Como
+# NAME_MAX costuma ser 255 bytes, um nome muito longo faria o sistema de
+# arquivos recusar a criação -- e, pior, recusar no *meio* de uma renomeação,
+# deixando a base partida entre dois nomes. Por isso o limite é conferido
+# antes de qualquer arquivo ser movido, e com folga sobre o mínimo necessário.
+MAX_NOME_COMPARACAO = 120
+
+
+def _validar_nome_comparacao(nome):
+    """Recusa nomes que o sistema de arquivos não aceitaria, como ValueError —
+    a UI já sabe mostrar ValueError; um OSError cru subiria como traceback."""
+    if len(nome) > MAX_NOME_COMPARACAO:
+        raise ValueError(
+            f"Nome longo demais ({len(nome)} caracteres). "
+            f"O limite é {MAX_NOME_COMPARACAO}."
+        )
+
+
 def artefatos_comparacao(nome):
     """Todos os caminhos que pertencem a uma base de comparação.
 
@@ -114,6 +133,38 @@ def artefatos_comparacao(nome):
         "process_lock": comparacao_process_lock(nome),
         "log_notebook": os.path.join(STATUS_DIR, f"comparacao_{nome}_ultima_execucao.ipynb"),
     }
+
+
+def salvar_lista_comparacao(nome_arquivo, conteudo, sobrescrever=False):
+    """Grava a lista `.list` de uma base de comparação a partir do nome do
+    arquivo enviado. Devolve `(slug, sobrescreveu)`.
+
+    O slug vem do nome do arquivo, então dois arquivos diferentes podem apontar
+    para a mesma base ("PUC-Rio.list" e "puc rio.list" viram ambos `puc_rio`).
+    Quando isso acontece a gravação é **recusada** a menos que
+    `sobrescrever=True`: trocar a lista por baixo dos panos deixaria o `.duckdb`
+    e os snapshots já extraídos descrevendo um conjunto de pessoas que não é
+    mais o da lista — a base passaria a mentir sobre si mesma até alguém
+    reextrair, sem nada na tela indicando isso."""
+    nome = slugify(os.path.splitext(os.path.basename(nome_arquivo))[0])
+    _validar_nome_comparacao(nome)
+    ja_existe = nome in listar_nomes_comparacao()
+    if ja_existe:
+        if comparacao_em_uso(nome):
+            raise ValueError(
+                f"A base '{nome}' tem um job em andamento. Espere terminar."
+            )
+        if not sobrescrever:
+            raise ValueError(
+                f"Já existe uma base chamada '{nome}'. Substituir a lista deixa o "
+                f"banco e os snapshots já extraídos descrevendo as pessoas antigas — "
+                f"confirme a substituição e reextraia depois."
+            )
+    os.makedirs(COMPARACAO_LISTS_DIR, exist_ok=True)
+    destino = os.path.join(COMPARACAO_LISTS_DIR, f"{nome}.list")
+    with open(destino, "w", encoding="utf-8") as f:
+        f.write(conteudo)
+    return nome, ja_existe
 
 
 def comparacao_em_uso(nome):
@@ -145,6 +196,7 @@ def renomear_comparacao(nome_atual, novo_nome):
     novo = slugify(novo_nome)
     if not novo:
         raise ValueError("Nome inválido: não sobrou nada depois de normalizar.")
+    _validar_nome_comparacao(novo)
     existentes = listar_nomes_comparacao()
     if nome_atual not in existentes:
         raise ValueError(f"A base '{nome_atual}' não existe.")

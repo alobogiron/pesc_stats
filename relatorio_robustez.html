@@ -1,0 +1,502 @@
+<title>Relatório de Robustez — PESC Stats</title>
+<style>
+  :root {
+    --ground:      #F6F7F9;
+    --panel:       #FFFFFF;
+    --rule:        #D8DCE4;
+    --ink:         #171B23;
+    --ink-soft:    #5A6376;
+    --ink-faint:   #8A93A6;
+    --accent:      #2F5D7C;
+    --accent-soft: #E6EDF3;
+    --pass:        #3F7048;
+    --pass-soft:   #E7F0E8;
+    --found:       #99610A;
+    --found-soft:  #FAF0DC;
+    --crit:        #97382C;
+    --crit-soft:   #FAE7E4;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+    --serif: ui-serif, Charter, "Bitstream Charter", Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #10141B; --panel: #171C25; --rule: #2A323F;
+      --ink: #E4E8EF; --ink-soft: #9AA4B6; --ink-faint: #6B7588;
+      --accent: #7FB0D0; --accent-soft: #1B2732;
+      --pass: #79B183; --pass-soft: #17251A;
+      --found: #D9A44F; --found-soft: #2A2113;
+      --crit: #D98A7C; --crit-soft: #2B1815;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #10141B; --panel: #171C25; --rule: #2A323F;
+    --ink: #E4E8EF; --ink-soft: #9AA4B6; --ink-faint: #6B7588;
+    --accent: #7FB0D0; --accent-soft: #1B2732;
+    --pass: #79B183; --pass-soft: #17251A;
+    --found: #D9A44F; --found-soft: #2A2113;
+    --crit: #D98A7C; --crit-soft: #2B1815;
+  }
+  :root[data-theme="light"] {
+    --ground: #F6F7F9; --panel: #FFFFFF; --rule: #D8DCE4;
+    --ink: #171B23; --ink-soft: #5A6376; --ink-faint: #8A93A6;
+    --accent: #2F5D7C; --accent-soft: #E6EDF3;
+    --pass: #3F7048; --pass-soft: #E7F0E8;
+    --found: #99610A; --found-soft: #FAF0DC;
+    --crit: #97382C; --crit-soft: #FAE7E4;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font-family: var(--serif); font-size: 17px; line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 940px; margin: 0 auto; padding: 0 24px 96px; }
+
+  /* ---- cabeçalho ---- */
+  header { padding: 64px 0 40px; border-bottom: 2px solid var(--ink); }
+  .eyebrow {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--accent); margin: 0 0 18px;
+  }
+  h1 {
+    font-family: var(--mono); font-weight: 700; font-size: clamp(30px, 5vw, 46px);
+    line-height: 1.08; letter-spacing: -.02em; margin: 0 0 16px;
+    text-wrap: balance;
+  }
+  .lede { font-size: 19px; color: var(--ink-soft); margin: 0; max-width: 62ch; }
+  .meta {
+    display: flex; flex-wrap: wrap; gap: 6px 28px; margin-top: 28px;
+    font-family: var(--mono); font-size: 12.5px; color: var(--ink-faint);
+  }
+  .meta b { color: var(--ink-soft); font-weight: 500; }
+
+  /* ---- painel de números ---- */
+  .painel {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1px; background: var(--rule); border: 1px solid var(--rule);
+    margin: 40px 0 8px;
+  }
+  .metrica { background: var(--panel); padding: 20px 18px; }
+  .metrica .n {
+    font-family: var(--mono); font-size: 34px; font-weight: 700;
+    line-height: 1; letter-spacing: -.02em; font-variant-numeric: tabular-nums;
+  }
+  .metrica .r {
+    font-family: var(--mono); font-size: 11px; letter-spacing: .11em;
+    text-transform: uppercase; color: var(--ink-faint); margin-top: 9px;
+  }
+  .metrica.ok .n    { color: var(--pass); }
+  .metrica.found .n { color: var(--found); }
+
+  /* ---- seções ---- */
+  section { margin-top: 60px; }
+  h2 {
+    font-family: var(--mono); font-size: 13px; letter-spacing: .15em;
+    text-transform: uppercase; color: var(--accent); font-weight: 700;
+    margin: 0 0 6px; padding-bottom: 12px; border-bottom: 1px solid var(--rule);
+  }
+  h2 + .sub { color: var(--ink-soft); margin: 14px 0 26px; max-width: 66ch; }
+  h3 {
+    font-family: var(--sans); font-size: 19px; font-weight: 650;
+    letter-spacing: -.01em; margin: 34px 0 10px; text-wrap: balance;
+  }
+  p { max-width: 68ch; }
+  code {
+    font-family: var(--mono); font-size: .87em;
+    background: var(--accent-soft); color: var(--ink);
+    padding: 1px 5px; border-radius: 3px;
+  }
+
+  /* ---- achados ---- */
+  .achado {
+    background: var(--panel); border: 1px solid var(--rule);
+    border-left: 4px solid var(--found); padding: 22px 24px; margin: 22px 0;
+  }
+  .achado.crit { border-left-color: var(--crit); }
+  .achado header { padding: 0; border: 0; }
+  .achado h3 { margin: 0 0 4px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+  .tag {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: .09em;
+    text-transform: uppercase; padding: 3px 9px; border-radius: 2px;
+    background: var(--found-soft); color: var(--found); font-weight: 600;
+  }
+  .tag.crit { background: var(--crit-soft); color: var(--crit); }
+  .tag.fix  { background: var(--pass-soft); color: var(--pass); }
+  .tag.neutro { background: var(--accent-soft); color: var(--accent); }
+  .campo { margin: 14px 0 0; }
+  .campo .rot {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--ink-faint); display: block;
+    margin-bottom: 4px;
+  }
+  .campo p { margin: 0; }
+
+  pre {
+    font-family: var(--mono); font-size: 12.5px; line-height: 1.55;
+    background: var(--ground); border: 1px solid var(--rule);
+    padding: 14px 16px; overflow-x: auto; margin: 12px 0 0;
+    color: var(--ink-soft);
+  }
+  @media (prefers-color-scheme: dark) { pre { background: #0C1017; } }
+  :root[data-theme="dark"] pre { background: #0C1017; }
+  :root[data-theme="light"] pre { background: var(--ground); }
+
+  /* ---- tabelas ---- */
+  .rolagem { overflow-x: auto; border: 1px solid var(--rule); margin: 20px 0; }
+  table { border-collapse: collapse; width: 100%; background: var(--panel); }
+  th, td {
+    text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--rule);
+    font-family: var(--sans); font-size: 14px; vertical-align: top;
+  }
+  th {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--ink-faint); font-weight: 600;
+    background: var(--ground); white-space: nowrap;
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.st { white-space: nowrap; font-family: var(--mono); font-size: 12px; }
+  td.st.p { color: var(--pass); }
+  td.num { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+  td.det { color: var(--ink-soft); font-size: 13px; }
+  caption {
+    caption-side: top; text-align: left; padding: 12px 14px;
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--ink-soft);
+    background: var(--ground); border-bottom: 1px solid var(--rule);
+  }
+
+  ul { max-width: 68ch; padding-left: 20px; }
+  li { margin: 7px 0; }
+  li::marker { color: var(--accent); }
+
+  footer {
+    margin-top: 72px; padding-top: 24px; border-top: 1px solid var(--rule);
+    font-family: var(--mono); font-size: 12px; color: var(--ink-faint);
+  }
+  @media (max-width: 620px) { body { font-size: 16px; } .wrap { padding: 0 16px 64px; } }
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Relatório de teste · PESC Stats</p>
+  <h1>Robustez sob entrada hostil</h1>
+  <p class="lede">
+    Suíte adversarial construída para <em>quebrar</em> o sistema, não para confirmar
+    o caminho feliz. 46 casos cobrindo path traversal, explosão combinatória,
+    estados de arquivo corrompidos, bases vazias e invariantes do resultado real.
+    Três defeitos encontrados e corrigidos.
+  </p>
+  <div class="meta">
+    <span><b>Data</b> 03/08/2026</span>
+    <span><b>Branch</b> dev_poison</span>
+    <span><b>Base</b> fac0802</span>
+    <span><b>Suíte</b> testes_robustez.py</span>
+  </div>
+</header>
+
+<div class="painel">
+  <div class="metrica"><div class="n">46</div><div class="r">Casos executados</div></div>
+  <div class="metrica ok"><div class="n">46</div><div class="r">Passando agora</div></div>
+  <div class="metrica found"><div class="n">3</div><div class="r">Defeitos achados</div></div>
+  <div class="metrica ok"><div class="n">3</div><div class="r">Corrigidos</div></div>
+  <div class="metrica"><div class="n">5</div><div class="r">Suítes</div></div>
+</div>
+
+<section>
+  <h2>Defeitos encontrados</h2>
+  <p class="sub">
+    Os três surgiram de casos que ninguém escreveria testando o caminho feliz.
+    Todos foram corrigidos e cada um ganhou um caso que trava a regressão.
+  </p>
+
+  <article class="achado crit">
+    <h3>1 · Uma célula malformada aborta o reprocessamento inteiro</h3>
+    <div class="tags">
+      <span class="tag crit">Severidade alta</span>
+      <span class="tag neutro">dedup_publicacoes.py</span>
+      <span class="tag fix">Corrigido</span>
+    </div>
+
+    <div class="campo"><span class="rot">Sintoma</span>
+      <p><code>normalizar_doi([])</code> e <code>normalizar_titulo_dedup([])</code>
+      levantavam <code>ValueError</code>. A causa é que <code>pd.isna</code> devolve
+      um <em>array</em> quando recebe algo array-like, e usá-lo num <code>if</code>
+      é ambíguo.</p>
+    </div>
+
+    <pre>ValueError: The truth value of an empty array is ambiguous.</pre>
+
+    <div class="campo"><span class="rot">Por que importa</span>
+      <p>O campo <code>doi</code> das três fontes é texto livre vindo de JSON e de
+      API. Basta <strong>uma</strong> célula chegar como lista — um registro com dois
+      identificadores externos — para o <code>.map(normalizar_doi)</code> estourar e
+      derrubar o notebook inteiro. Falha total a partir de um dado ruim, sem
+      degradação.</p>
+    </div>
+
+    <div class="campo"><span class="rot">Correção</span>
+      <p>Helper <code>_e_nulo()</code> que trata a exceção e devolve <code>False</code>:
+      o valor deixa de ser tratado como nulo e segue para a validação de formato,
+      que o recusa. É o mesmo padrão defensivo que <code>app.py</code> já usava nos
+      formatadores.</p>
+    </div>
+
+    <div class="campo"><span class="rot">Trava de regressão</span>
+      <p>Caso A/1 passa 15 tipos diferentes (<code>None</code>, <code>NaN</code>,
+      <code>bytes</code>, <code>list</code>, <code>dict</code>, <code>tuple</code>,
+      numéricos) por ambas as funções.</p>
+    </div>
+  </article>
+
+  <article class="achado">
+    <h3>2 · Upload sobrescreve uma base existente em silêncio</h3>
+    <div class="tags">
+      <span class="tag">Severidade alta</span>
+      <span class="tag neutro">app.py · jobs.py</span>
+      <span class="tag fix">Corrigido</span>
+    </div>
+
+    <div class="campo"><span class="rot">Sintoma</span>
+      <p>O nome da base vem do nome do arquivo enviado, normalizado. Arquivos
+      diferentes colidem no mesmo slug — <code>CEFET/RJ.list</code> e
+      <code>cefet rj.list</code> viram ambos <code>cefet_rj</code>. O uploader
+      gravava por cima sem qualquer aviso.</p>
+    </div>
+
+    <div class="campo"><span class="rot">Por que importa</span>
+      <p>Só a lista era trocada. O <code>.duckdb</code> e os snapshots já extraídos
+      continuavam descrevendo <em>as pessoas da lista anterior</em>. A base passava a
+      mentir sobre si mesma — nome e conteúdo divergentes — até alguém reextrair,
+      sem nada na tela indicando isso.</p>
+    </div>
+
+    <div class="campo"><span class="rot">Correção</span>
+      <p>A decisão saiu da UI para <code>jobs.salvar_lista_comparacao()</code>, onde
+      é testável: recusa por padrão, exige <code>sobrescrever=True</code>, e recusa
+      sempre que houver job em andamento. A tela avisa que o banco não é atualizado
+      e pede confirmação explícita.</p>
+    </div>
+  </article>
+
+  <article class="achado">
+    <h3>3 · Nome longo vaza <code>OSError</code> e pode partir a base em duas</h3>
+    <div class="tags">
+      <span class="tag">Severidade alta</span>
+      <span class="tag neutro">jobs.py</span>
+      <span class="tag fix">Corrigido</span>
+    </div>
+
+    <div class="campo"><span class="rot">Sintoma</span>
+      <p>Renomear para um nome de 300 caracteres estourava
+      <code>OSError: [Errno 36] File name too long</code>. A UI captura apenas
+      <code>ValueError</code>, então o erro subia como traceback na tela.</p>
+    </div>
+
+    <div class="campo"><span class="rot">O risco pior, embaixo</span>
+      <p>A renomeação move os dez artefatos <strong>um a um</strong>. Com um nome no
+      limite exato, os primeiros arquivos caberiam e os últimos não — o banco
+      chama-se <code>pesquisadores_comparacao_&lt;nome&gt;.duckdb</code>, 25 caracteres
+      a mais que a lista. A base ficaria <em>partida entre dois nomes</em>, metade
+      sob cada um, sem nada que a reconciliasse.</p>
+    </div>
+
+    <div class="campo"><span class="rot">Correção</span>
+      <p><code>_validar_nome_comparacao()</code> confere o comprimento
+      <strong>antes de mover qualquer arquivo</strong> e recusa como
+      <code>ValueError</code>. Limite de 120 caracteres, com folga sobre os 33 que o
+      artefato de nome mais longo acrescenta.</p>
+    </div>
+
+    <div class="campo"><span class="rot">Trava de regressão</span>
+      <p>Um caso confirma a recusa em três tamanhos; outro, marcado como crítico,
+      fotografa os dez artefatos antes e depois de uma recusa e exige que
+      <em>nenhum</em> tenha se movido.</p>
+    </div>
+  </article>
+</section>
+
+<section>
+  <h2>Um alarme falso que virou confirmação</h2>
+  <p>
+    Um caso acusou o sumiço da base <code>cefet_list</code>. A investigação mostrou
+    que ela havia sido renomeada para <code>cefet</code> — pelo próprio commit
+    <code>fac0802</code>, que o git registra como rename:
+  </p>
+  <pre>scriptlattes/exemplo/comparacao/{cefet_list.list =&gt; cefet.list}
+...duckdb =&gt; pesquisadores_comparacao_cefet.duckdb</pre>
+  <p>
+    Ou seja: a funcionalidade de renomear foi usada em produção e moveu todos os
+    artefatos de forma consistente. O defeito era do <em>teste</em>, que trazia o
+    nome fixo no código. Reescrito para fotografar as bases pré-existentes,
+    quaisquer que sejam, e conferir que seguem intactas ao final.
+  </p>
+</section>
+
+<section>
+  <h2>Matriz de execução</h2>
+  <p class="sub">
+    46 casos em 5 suítes. As colunas de resultado trazem o que cada caso mediu, não
+    apenas o veredito.
+  </p>
+
+  <div class="rolagem">
+    <table>
+      <caption>Suíte A · dedup_publicacoes — entradas patológicas</caption>
+      <thead><tr><th>Caso</th><th>Resultado</th><th>Medição</th></tr></thead>
+      <tbody>
+        <tr><td>Tipos inesperados não estouram</td><td class="st p">passou</td><td class="det">15 tipos aceitos</td></tr>
+        <tr><td>String gigante (ReDoS/backtracking)</td><td class="st p">passou</td><td class="det">20 mil prefixos em 0,15 s</td></tr>
+        <tr><td>Lixo longo sem prefixo válido</td><td class="st p">passou</td><td class="det">350 KB em 0,01 s</td></tr>
+        <tr><td>Título só de pontuação</td><td class="st p">passou</td><td class="det">vira string vazia</td></tr>
+        <tr><td>DataFrame vazio</td><td class="st p">passou</td><td class="det">Series vazia</td></tr>
+        <tr><td>Índice não único</td><td class="st p">passou</td><td class="det">atribuição funciona</td></tr>
+        <tr><td>Ausência da coluna <code>fonte</code></td><td class="st p">passou</td><td class="det">KeyError explícito</td></tr>
+        <tr><td>Linhas sem DOI e sem título</td><td class="st p">passou</td><td class="det">3 chaves distintas, não fundem</td></tr>
+        <tr><td>Coautoria entre docentes</td><td class="st p">passou</td><td class="det">cada um mantém sua linha</td></tr>
+        <tr><td>Dois grupos retendo o mesmo DOI</td><td class="st p">passou</td><td class="det">no máximo 1 grupo com DOI</td></tr>
+        <tr><td>20 mil publicações num docente</td><td class="st p">passou</td><td class="det">0,15 s</td></tr>
+        <tr><td>2 mil DOIs contestados (laço aninhado)</td><td class="st p">passou</td><td class="det">0,03 s</td></tr>
+        <tr><td>Saneamento preserva contagem</td><td class="st p">passou</td><td class="det">4 linhas, schema intacto</td></tr>
+        <tr><td>Coluna de ano inexistente</td><td class="st p">passou</td><td class="det">KeyError explícito</td></tr>
+        <tr><td>Coluna inteiramente nula</td><td class="st p">passou</td><td class="det">colapsa para 1 linha</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rolagem">
+    <table>
+      <caption>Suíte B · jobs — arquivos sob estados hostis</caption>
+      <thead><tr><th>Caso</th><th>Resultado</th><th>Medição</th></tr></thead>
+      <tbody>
+        <tr><td>Path traversal no nome novo</td><td class="st p">passou</td><td class="det">11 payloads contidos no sandbox</td></tr>
+        <tr><td>Exclusão com nome forjado</td><td class="st p">passou</td><td class="det">4 recusados; base legítima intacta</td></tr>
+        <tr><td>Nomes distintos, mesmo slug</td><td class="st p">passou</td><td class="det">colisão detectada</td></tr>
+        <tr><td>Emoji e só-símbolos</td><td class="st p">passou</td><td class="det">fallback colide e é recusado</td></tr>
+        <tr><td>Upload sobre base existente</td><td class="st p">passou</td><td class="det">recusa sem confirmação <em>(defeito 2)</em></td></tr>
+        <tr><td>Upload com job em andamento</td><td class="st p">passou</td><td class="det">recusado</td></tr>
+        <tr><td>Caminho no nome do arquivo</td><td class="st p">passou</td><td class="det"><code>../../../../tmp/evil.list</code> → <code>evil</code></td></tr>
+        <tr><td>Nome longo vira ValueError</td><td class="st p">passou</td><td class="det">3 tamanhos recusados <em>(defeito 3)</em></td></tr>
+        <tr><td>Recusa não parte a base</td><td class="st p">passou</td><td class="det">nenhum dos 10 artefatos se moveu</td></tr>
+        <tr><td>Symlink <code>current</code> quebrado</td><td class="st p">passou</td><td class="det">movido sem erro</td></tr>
+        <tr><td>Exclusão com symlink pendurado</td><td class="st p">passou</td><td class="det">alvo externo preservado</td></tr>
+        <tr><td>Diretório no lugar do banco</td><td class="st p">passou</td><td class="det">removido</td></tr>
+        <tr><td>Lock de processamento</td><td class="st p">passou</td><td class="det">renomeação recusada</td></tr>
+        <tr><td>Base cujo <code>.list</code> sumiu</td><td class="st p">passou</td><td class="det">recusa coerente</td></tr>
+        <tr><td>Cobertura de artefatos</td><td class="st p">passou</td><td class="det">10 artefatos, caminhos coerentes</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rolagem">
+    <table>
+      <caption>Suíte C · app — 11 páginas sob dados degenerados</caption>
+      <thead><tr><th>Caso</th><th>Resultado</th><th>Medição</th></tr></thead>
+      <tbody>
+        <tr><td>Base institucional completamente vazia</td><td class="st p">passou</td><td class="det">11 páginas, 0 registros, sem exceção</td></tr>
+        <tr><td>Docentes sem nenhuma publicação</td><td class="st p">passou</td><td class="det">31 docentes, 0 artigos, sem divisão por zero</td></tr>
+        <tr><td>Base B: arquivo aleatório</td><td class="st p">passou</td><td class="det">recusado com IOException</td></tr>
+        <tr><td>Base B: outra arquitetura</td><td class="st p">passou</td><td class="det">4 tabelas obrigatórias detectadas ausentes</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rolagem">
+    <table>
+      <caption>Suíte D · invariantes sobre o resultado real do pipeline</caption>
+      <thead><tr><th>Invariante</th><th>Resultado</th><th>Medição</th></tr></thead>
+      <tbody>
+        <tr><td>Nenhuma chave cruza docentes</td><td class="st p">passou</td><td class="det">coautoria interna não funde ninguém</td></tr>
+        <tr><td>DOI único por docente</td><td class="st p">passou</td><td class="det">nas duas tabelas</td></tr>
+        <tr><td>Título único por docente</td><td class="st p">passou</td><td class="det">nas duas tabelas</td></tr>
+        <tr><td>Coluna <code>fontes</code> nunca vazia</td><td class="st p">passou</td><td class="det">toda publicação declara origem</td></tr>
+        <tr><td>DOI gravado em forma canônica</td><td class="st p">passou</td><td class="det">nenhuma URL sobrou</td></tr>
+        <tr><td>Integridade referencial</td><td class="st p">passou</td><td class="det">4 tabelas filhas, 0 órfãs</td></tr>
+        <tr><td>Tabelas por fonte sem repetição</td><td class="st p">passou</td><td class="det">6 tabelas</td></tr>
+        <tr><td>Nada surge do nada na unificação</td><td class="st p">passou</td><td class="det">toda linha tem origem</td></tr>
+        <tr><td>Anos plausíveis</td><td class="st p">passou</td><td class="det">nenhum fora de 1950–2035</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rolagem">
+    <table>
+      <caption>Suíte E · UI real, dirigida por AppTest</caption>
+      <thead><tr><th>Caso</th><th>Resultado</th><th>Medição</th></tr></thead>
+      <tbody>
+        <tr><td>Renomear move todos os artefatos</td><td class="st p">passou</td><td class="det">lista, banco e snapshots; sem ressurreição</td></tr>
+        <tr><td>Excluir exige confirmação</td><td class="st p">passou</td><td class="det">botão nasce desabilitado; nada sobrou</td></tr>
+        <tr><td>Bases pré-existentes intactas</td><td class="st p">passou</td><td class="det">3 bases: cefet, puc, uff</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>Método</h2>
+
+  <h3>O que cada suíte procura</h3>
+  <ul>
+    <li><strong>A</strong> — funções puras sob entrada que nenhum usuário digitaria:
+      tipos errados, strings de centenas de quilobytes, DataFrames degenerados.
+      Casos de desempenho usam alarme por sinal, para caçar explosão combinatória
+      em vez de esperar indefinidamente.</li>
+    <li><strong>B</strong> — o sistema de arquivos como adversário: path traversal,
+      symlinks pendurados apontando para fora, diretório onde deveria haver arquivo,
+      nomes no limite do <code>NAME_MAX</code>. Roda inteira em sandbox temporário.</li>
+    <li><strong>C</strong> — as 11 páginas contra bases vazias, corrompidas e de
+      outra arquitetura. Bancos derivados do real, em <code>/tmp</code>.</li>
+    <li><strong>D</strong> — propriedades que o resultado <em>tem</em> de satisfazer,
+      verificadas contra o banco de verdade. Não simula: audita o que o pipeline
+      produziu.</li>
+    <li><strong>E</strong> — o fluxo da interface, clicando nos widgets reais via
+      <code>AppTest</code>. Única suíte que escreve no projeto; usa base descartável
+      com prefixo <code>zz_</code> e confere as pré-existentes ao final, sem nome
+      fixo no código.</li>
+  </ul>
+
+  <h3>Como rodar</h3>
+  <pre>python testes_robustez.py              # todas as suítes
+python testes_robustez.py A B          # só as escolhidas
+
+# banco de referência para C e D (padrão: pesquisadores_teste.duckdb)
+PESC_DUCKDB_REFERENCIA=/caminho/base.duckdb python testes_robustez.py</pre>
+
+  <h3>Regressão executada junto</h3>
+  <ul>
+    <li>Pipeline institucional ponta a ponta — <strong>zero variação</strong> nas 14 tabelas.</li>
+    <li>11 páginas do app — <strong>11/11</strong> sem exceção.</li>
+    <li>3 relatórios, em base nova e em base de arquitetura antiga — <strong>3/3</strong> nas duas.</li>
+    <li>Sintaxe verificada em 8 módulos.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>O que esta suíte não cobre</h2>
+  <p class="sub">Registrado porque um relatório que só lista sucessos não ajuda ninguém a decidir onde olhar depois.</p>
+  <ul>
+    <li><strong>Concorrência real.</strong> Os lockfiles são testados por presença, não
+      por corrida. Existe uma janela entre a checagem e o movimento dos arquivos
+      (TOCTOU) que só apareceria com dois processos disputando a mesma base.</li>
+    <li><strong>Rede.</strong> ORCID, Scopus e o scraping da Lattes não são
+      exercitados. Timeout, resposta parcial e bloqueio por rate-limit ficam fora.</li>
+    <li><strong>Volume.</strong> A base tem 31 docentes e 5.212 publicações. As
+      medições de desempenho usam dados sintéticos maiores, mas nada foi rodado
+      contra uma população de centenas de docentes.</li>
+    <li><strong>O caso do nome no limite exato.</strong> A renomeação parcial hoje é
+      impedida pela validação prévia, não por transação. Se um artefato futuro tiver
+      nome mais longo que os atuais, o limite precisa ser revisto junto.</li>
+    <li><strong>Navegador.</strong> <code>AppTest</code> executa o script do Streamlit,
+      não renderiza. Layout, foco de teclado e comportamento em telas estreitas não
+      são verificados aqui.</li>
+  </ul>
+</section>
+
+<footer>
+  46 casos · 5 suítes · 3 defeitos corrigidos · testes_robustez.py · 03/08/2026
+</footer>
+
+</div>

@@ -2158,11 +2158,44 @@ elif pagina_selecionada == PAGINA_CONFIGURACOES:
                 )
             else:
                 nome_comparacao = jobs.slugify(os.path.splitext(arquivo_lista.name)[0])
-                os.makedirs(jobs.COMPARACAO_LISTS_DIR, exist_ok=True)
-                destino_lista = os.path.join(jobs.COMPARACAO_LISTS_DIR, f"{nome_comparacao}.list")
-                with open(destino_lista, "w", encoding="utf-8") as f:
-                    f.write(conteudo)
-                st.success(f"Lista salva como '{nome_comparacao}' ({len(linhas_validas)} pessoa(s)).")
+                # O nome do arquivo vira o nome da base, então um envio pode
+                # cair em cima de uma base que já existe. Nesse caso exigimos
+                # confirmação: trocar só a lista deixaria o banco e os
+                # snapshots já extraídos descrevendo as pessoas antigas.
+                colide = nome_comparacao in jobs.listar_nomes_comparacao()
+                substituir = False
+                if colide:
+                    st.warning(
+                        f"Já existe a base **{nome_comparacao}**. Substituir a lista **não** "
+                        "atualiza o banco nem os snapshots já extraídos — eles continuarão "
+                        "descrevendo as pessoas da lista anterior até você reextrair."
+                    )
+                    substituir = st.checkbox(
+                        f"Substituir a lista da base '{nome_comparacao}'",
+                        value=False,
+                        key="confirma_substituir_lista_comparacao",
+                    )
+                if colide and not substituir:
+                    st.info("Envio não aplicado. Confirme acima, ou renomeie o arquivo "
+                            "para criar uma base nova.")
+                else:
+                    try:
+                        nome_comparacao, sobrescreveu = jobs.salvar_lista_comparacao(
+                            arquivo_lista.name, conteudo, sobrescrever=substituir)
+                    except ValueError as erro:
+                        st.error(str(erro))
+                    else:
+                        if sobrescreveu:
+                            st.success(
+                                f"Lista da base '{nome_comparacao}' substituída "
+                                f"({len(linhas_validas)} pessoa(s)). Reextraia para "
+                                "atualizar o banco."
+                            )
+                        else:
+                            st.success(
+                                f"Lista salva como '{nome_comparacao}' "
+                                f"({len(linhas_validas)} pessoa(s))."
+                            )
 
         bases_comparacao = listar_bases_comparacao_info()
 
