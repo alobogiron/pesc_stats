@@ -334,6 +334,254 @@ def sql_ingresso(alias_tabela, coluna_ano, conector="AND", aplicar=True):
     )
 
 
+def _serie_por_docente(valores):
+    """Converte para `pd.Series` de float a série com uma entrada por docente."""
+    return pd.Series(list(valores), dtype="float64")
+
+
+def stats_dispersao(valores):
+    """Média, desvio padrão e mediana de uma série com uma entrada por docente
+    cadastrado -- inclusive 0 para quem nada produziu no recorte.
+
+    Incluir os zeros é o que faz a média devolvida aqui ser exatamente o per
+    capita da convenção do app (soma ÷ docentes cadastrados): mediana e desvio
+    passam a descrever a mesma população que o divisor da média, e não um
+    subconjunto dela. Uma mediana 0,00 não é defeito do cálculo -- diz que mais
+    da metade do quadro não pontuou naquele recorte.
+
+    `ddof=0` (desvio populacional) porque o quadro de docentes é a população
+    inteira do programa, não uma amostra dela."""
+    serie = _serie_por_docente(valores)
+    if serie.empty:
+        return 0.0, 0.0, 0.0
+    return float(serie.mean()), float(serie.std(ddof=0)), float(serie.median())
+
+
+def _num_br(valor, casas=2, sinal=False):
+    """Número no formato brasileiro (vírgula decimal), como nas demais tabelas.
+    Com `sinal`, força o '+' nos positivos (usado nas colunas de diferença)."""
+    formato = f"{{:+.{casas}f}}" if sinal else f"{{:.{casas}f}}"
+    return formato.format(valor).replace(".", ",")
+
+
+LEGENDA_DISPERSAO = (
+    "Média (= o per capita: total ÷ docentes cadastrados), desvio padrão populacional "
+    "e mediana da série por docente, contando 0 para quem não produziu no recorte. "
+    "Desvio muito acima da média, ou mediana bem abaixo dela, indicam produção "
+    "concentrada em poucos docentes. Ver \"Como estes valores são calculados\" abaixo."
+)
+
+
+def renderizar_tabela_dispersao(linhas, casas=2, legenda=None, titulo=None,
+                                rotulo_delta="Δ Média"):
+    """Tabela com Total, Média (o per capita), Desvio Padrão e Mediana de cada
+    série por docente.
+
+    `linhas` é uma lista de `(rótulo, série)` ou `(rótulo, série, série de
+    referência)`; havendo referência, entra uma coluna `rotulo_delta` com a
+    diferença entre as médias (usada no Comparativo, para a Base B medir-se
+    contra a Base A). Cada série precisa ter uma entrada por docente cadastrado,
+    zeros inclusive (ver `stats_dispersao`).
+
+    A coluna Total é o somatório da série -- o número absoluto que dá escala à
+    média e que antes vivia no tooltip das métricas. Sai sem casas decimais
+    quando a série é de contagens (papers, orientações) e com a mesma precisão
+    das demais colunas quando é de scores fracionários."""
+    if titulo:
+        st.markdown(titulo)
+
+    tem_delta = any(len(linha) > 2 and linha[2] is not None for linha in linhas)
+    registros = []
+    for linha in linhas:
+        rotulo, valores = linha[0], linha[1]
+        referencia = linha[2] if len(linha) > 2 else None
+        serie = _serie_por_docente(valores)
+        media, desvio, mediana = stats_dispersao(serie)
+        total = float(serie.sum())
+        casas_total = 0 if float(total).is_integer() else casas
+
+        registro = {
+            "Indicador": rotulo,
+            "Total": _num_br(total, casas_total),
+            "Média": _num_br(media, casas),
+            "Desvio Padrão": _num_br(desvio, casas),
+            "Mediana": _num_br(mediana, casas),
+        }
+        if tem_delta:
+            registro[rotulo_delta] = (
+                "—" if referencia is None
+                else _num_br(media - stats_dispersao(referencia)[0], casas, sinal=True)
+            )
+        registros.append(registro)
+
+    st.dataframe(pd.DataFrame(registros), use_container_width=True, hide_index=True)
+    st.caption(legenda if legenda is not None else LEGENDA_DISPERSAO)
+
+
+def renderizar_explicacao_calculos(descricao_x, recorte=None, observacoes=(),
+                                   chave=None):
+    """Expansor com a memória de cálculo da tabela de dispersão: o que é a
+    série por docente, como saem as três estatísticas e como lê-las.
+
+    `descricao_x` completa a frase "x_i é ..." (o que cada docente contribui);
+    `recorte` descreve os filtros aplicados na página; `observacoes` são
+    ressalvas extras de interpretação."""
+    with st.expander("Como estes valores são calculados"):
+        st.markdown(
+            "**1. A série por docente.** Monta-se um vetor com **uma entrada por "
+            "docente cadastrado** ($n$ = total de linhas de `tb_professores`), em que "
+            f"$x_i$ é {descricao_x} "
+            "Docente sem produção no recorte entra com $x_i = 0$, em vez de ficar de "
+            "fora: as três estatísticas passam a descrever exatamente a mesma "
+            "população que o divisor do per capita."
+        )
+        st.markdown(
+            "**2. Média** — é o próprio índice per capita, apenas reescrito como média "
+            "da série:"
+        )
+        st.latex(r"\bar{x} \;=\; \frac{1}{n}\sum_{i=1}^{n} x_i \;=\; \frac{\text{total do programa}}{\text{docentes cadastrados}}")
+        st.markdown(
+            "**3. Desvio padrão populacional** — dispersão em torno da média, na mesma "
+            "unidade dela. Divide-se por $n$, e não por $n-1$, porque o quadro de "
+            "docentes é a população inteira do programa e não uma amostra sorteada dela:"
+        )
+        st.latex(r"\sigma \;=\; \sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(x_i - \bar{x}\right)^{2}}")
+        st.markdown(
+            "**4. Mediana** — valor que parte a série ordenada ao meio: metade dos "
+            "docentes fica abaixo dele, metade acima (com $n$ par, é a média dos dois "
+            "valores centrais). Diferente da média, não é puxada por casos extremos."
+        )
+        st.markdown(
+            "**Como ler.** Média e mediana próximas indicam produção distribuída de "
+            "forma homogênea pelo quadro. Mediana bem abaixo da média, ou desvio padrão "
+            "da ordem da média (ou maior), indicam o oposto: poucos docentes muito "
+            "produtivos puxam a média para cima, e ela deixa de representar o docente "
+            "típico — que é o que a mediana mostra. Mediana 0,00 significa que mais da "
+            "metade do quadro não pontuou no recorte."
+        )
+        if recorte:
+            st.markdown(f"**Recorte considerado.** {recorte}")
+        for observacao in observacoes:
+            st.markdown(f"**Observação.** {observacao}")
+
+
+OBS_DUPLA_CONTAGEM = (
+    "Um paper assinado por dois docentes do quadro entra uma vez para cada um deles, "
+    "e portanto é contado duas vezes no total. Isso é inerente à base — a chave de "
+    "deduplicação leva o `id_lattes` como prefixo, então a deduplicação nunca "
+    "atravessa professores — e vale igualmente para os demais indicadores agregados "
+    "do app."
+)
+
+
+def contar_papers_per_capita(conexao, ano_ini, ano_fim_, restrito=False):
+    """Conta os papers de cada docente do programa na janela, devolvendo uma
+    série por docente cadastrado para cada um dos seis indicadores. A média
+    dessa série é o per capita na convenção já usada pelo Comparativo entre
+    Bases (denominador = todo o quadro de `tb_professores`, sem recorte por
+    data de ingresso), e a mesma série sustenta o desvio padrão e a mediana
+    exibidos ao lado da média.
+
+    O `LEFT JOIN` a partir de `tb_professores` (em vez de um `COUNT(*)` solto
+    sobre as tabelas de artigos) é o que garante que docentes sem produção
+    entrem como 0 e que a contagem case com a tabela por docente exibida logo
+    acima nas páginas que chamam esta função.
+
+    Os recortes de janela, fonte e data de ingresso são exatamente os das
+    páginas que chamam esta função, para o per capita bater com a tabela
+    exibida logo acima. `restrito=True` limita aos estratos A1-A4 (percentil
+    >= 50 em periódicos), reproduzindo o corte da Quadrienal Restrita e o da
+    opção "Pontuação Restrita" do Credenciamento.
+
+    "Com discentes" usa `coautoria_aluno`, a coluna que
+    `coauthorship_detection.py` grava comparando a string de autores do artigo
+    com os nomes e formas de citação dos alunos. A comparação com TRUE também
+    resolve o caso de bases antigas em que a coluna ficou nula.
+
+    ATENÇÃO ao interpretar: um artigo coassinado por dois docentes do quadro
+    entra como duas linhas e é contado duas vezes. Isso é inerente à base --
+    `chave_dedup` leva o `id_lattes` como prefixo (ver `dedup_publicacoes.py`),
+    então a deduplicação nunca atravessa professores -- e é o mesmo
+    comportamento dos demais indicadores agregados do app.
+    """
+    restricao_p = " AND maior_percentil >= 50.0" if restrito else ""
+    restricao_c = " AND estrato IN ('A1', 'A2', 'A3', 'A4')" if restrito else ""
+
+    query_p = f"""
+        SELECT id_lattes,
+               COUNT(*) AS total_p,
+               COUNT(CASE WHEN coautoria_aluno = TRUE THEN 1 END) AS disc_p
+        FROM tb_artigo_periodico
+        WHERE ano_pub BETWEEN ? AND ?{restricao_p}{sql_fonte()}{sql_ingresso('tb_artigo_periodico', 'ano_pub')}
+        GROUP BY id_lattes
+    """
+    query_c = f"""
+        SELECT id_lattes,
+               COUNT(*) AS total_c,
+               COUNT(CASE WHEN coautoria_aluno = TRUE THEN 1 END) AS disc_c
+        FROM tb_artigo_conferencia
+        WHERE ano BETWEEN ? AND ?{restricao_c}{sql_fonte()}{sql_ingresso('tb_artigo_conferencia', 'ano')}
+        GROUP BY id_lattes
+    """
+
+    df = conexao.execute("SELECT id_lattes FROM tb_professores").df()
+    df = df.merge(conexao.execute(query_p, [ano_ini, ano_fim_]).df(), on="id_lattes", how="left")
+    df = df.merge(conexao.execute(query_c, [ano_ini, ano_fim_]).df(), on="id_lattes", how="left")
+    for coluna in ("total_p", "disc_p", "total_c", "disc_c"):
+        df[coluna] = df[coluna].fillna(0)
+
+    return {
+        "docentes": len(df),
+        "series": {
+            "conferencia": df["total_c"],
+            "periodico": df["total_p"],
+            "geral": df["total_c"] + df["total_p"],
+            "conferencia_discentes": df["disc_c"],
+            "periodico_discentes": df["disc_p"],
+            "geral_discentes": df["disc_c"] + df["disc_p"],
+        },
+    }
+
+
+def renderizar_papers_per_capita(conexao, ano_ini, ano_fim_, restrito=False, nota=""):
+    """Bloco dos seis índices per capita de papers: uma única tabela com total,
+    média (o per capita), desvio padrão e mediana da série por docente de cada
+    indicador, seguida da memória de cálculo. As métricas separadas que antes
+    exibiam só a média saíram -- a coluna Média da tabela é o mesmo número."""
+    indices = contar_papers_per_capita(conexao, ano_ini, ano_fim_, restrito)
+    docentes = indices["docentes"]
+    series = indices["series"]
+
+    st.markdown("#### Índices Per Capita (Papers ÷ Docentes Cadastrados)")
+
+    ROTULOS = {
+        "conferencia": "Papers de Conferência",
+        "periodico": "Papers de Periódicos",
+        "geral": "Papers Geral",
+        "conferencia_discentes": "Conferência c/ Discentes",
+        "periodico_discentes": "Periódicos c/ Discentes",
+        "geral_discentes": "Geral c/ Discentes",
+    }
+
+    renderizar_tabela_dispersao(
+        [(ROTULOS[chave], series[chave]) for chave in ROTULOS], casas=2,
+    )
+    renderizar_explicacao_calculos(
+        descricao_x="o número de papers daquele docente no recorte abaixo.",
+        recorte=(
+            f"Janela de {ano_ini} a {ano_fim_}; filtro de fonte da barra lateral; e a "
+            "produção anterior à data de ingresso do docente no programa fica de fora "
+            "(currículos Lattes trazem a vida acadêmica inteira). São os mesmos "
+            f"recortes da tabela por docente acima. O divisor é {docentes}, o total de "
+            "docentes cadastrados, sem recorte por data de ingresso. \"Com discentes\" "
+            "são os papers em que a detecção de coautoria encontrou ao menos um aluno "
+            "entre os autores."
+            + (f" {nota}" if nota else "")
+        ),
+        observacoes=[OBS_DUPLA_CONTAGEM],
+    )
+
+
 # Filtro de período compartilhado entre as páginas padrão: inicializado uma
 # única vez para que o intervalo escolhido persista ao alternar de dataview.
 if "filtro_ano_inicio" not in st.session_state:
@@ -385,13 +633,36 @@ if pagina_selecionada == "Indicadores Institucionais":
     total_conferencias = res_conferencias[0] if res_conferencias else 0
     total_producoes = total_periodicos + total_conferencias
     
-    col1, col2, col3 = st.columns(3)
+    # Mesma janela, fonte e recorte de ingresso das contagens acima, agora
+    # abertos por docente: a coluna Média da tabela abaixo é a antiga métrica
+    # "Média de Produções / Docente", que saiu daqui para não ficar repetida.
+    series_indicadores = contar_papers_per_capita(con, f_ano_inicio, f_ano_fim)["series"]
+
+    col1, col2 = st.columns(2)
     col1.metric("Docentes Cadastrados", total_docentes)
     col2.metric("Total de Produções Bibliográficas", total_producoes)
-    
-    media = round(total_producoes / total_docentes, 1) if total_docentes > 0 else 0
-    col3.metric("Média de Produções / Docente", media)
-    
+
+    st.markdown("##### Produção por Docente")
+    renderizar_tabela_dispersao(
+        [
+            ("Produções / Docente", series_indicadores["geral"]),
+            ("Periódicos / Docente", series_indicadores["periodico"]),
+            ("Conferências / Docente", series_indicadores["conferencia"]),
+        ],
+        casas=2,
+    )
+    renderizar_explicacao_calculos(
+        descricao_x="o número de produções bibliográficas daquele docente no recorte abaixo.",
+        recorte=(
+            f"Janela de {f_ano_inicio} a {f_ano_fim}; filtro de fonte da barra lateral; e a "
+            "produção anterior à data de ingresso do docente no programa fica de fora "
+            "(currículos Lattes trazem a vida acadêmica inteira). O divisor é "
+            f"{total_docentes}, o total de docentes cadastrados, sem recorte por data de "
+            "ingresso."
+        ),
+        observacoes=[OBS_DUPLA_CONTAGEM],
+    )
+
     st.markdown("---")
     st.subheader("Distribuição do Corpo Docente por Tipo de Veículo")
     col_p, col_c = st.columns(2)
@@ -609,6 +880,9 @@ elif pagina_selecionada == "Avaliação Quadrienal Geral (A1-A8)":
             st.markdown("#### Pontuação Total Atingida")
             st.bar_chart(df_ranking_c.set_index('Pesquisador')['Índice Final C.'], use_container_width=True)
 
+    st.markdown("---")
+    renderizar_papers_per_capita(con, ano_inicio, ano_fim, restrito=False)
+
 # ------------------------------------------
 # PÁGINA 6: AVALIAÇÃO QUADRIENAL RESTRITA (A1-A4)
 # ------------------------------------------
@@ -682,6 +956,12 @@ elif pagina_selecionada == "Avaliação Quadrienal Restrita (A1-A4)":
             st.bar_chart(df_ranking_restrito_c.set_index('Pesquisador')[['A1', 'A2', 'A3', 'A4']], use_container_width=True, stack=True)
             st.markdown("#### Pontuação Restrita Atingida")
             st.bar_chart(df_ranking_restrito_c.set_index('Pesquisador')['Índice Restrito C.'], use_container_width=True)
+
+    st.markdown("---")
+    renderizar_papers_per_capita(
+        con, ano_inicio, ano_fim, restrito=True,
+        nota="Contam apenas os papers nos estratos A1-A4, como no restante desta página.",
+    )
 
 # ------------------------------------------
 # PÁGINA 7: RELATÓRIO DE CREDENCIAMENTO CONSOLIDADO
@@ -808,6 +1088,13 @@ elif pagina_selecionada == "Relatório de Credenciamento Consolidado":
             )
     else:
         st.warning("Nenhum dado integrado foi localizado na janela temporal estipulada.")
+
+    st.markdown("---")
+    renderizar_papers_per_capita(
+        con, ano_inicio, ano_fim,
+        restrito=(filtro_tipo_avaliacao == "Pontuação Restrita (A1-A4)"),
+        nota=f"Acompanha o critério selecionado acima ({filtro_tipo_avaliacao}).",
+    )
 
 # ------------------------------------------
 # PÁGINA 8: PANORAMA DE ORIENTAÇÕES
@@ -1726,6 +2013,21 @@ elif pagina_selecionada == PAGINA_COMPARATIVO:
             res = conexao.execute(q, parametros).fetchone()
             return (res[0] or 0), (res[1] or 0), (res[2] or 0)
 
+        def comp_orientacoes_por_docente(conexao, ano_ini, ano_fim_, aplicar_ingresso=True):
+            """Orientações de cada docente cadastrado no mesmo recorte de
+            `comp_orientacoes`, com 0 para quem não orientou. É a série que
+            sustenta o desvio padrão e a mediana ao lado do per capita."""
+            condicao = "o.ano_inicio <= ? AND COALESCE(o.ano_conclusao, 2026) >= ?" + sql_ingresso(
+                'o', 'ano_inicio', aplicar=aplicar_ingresso
+            )
+            q = f"""
+                SELECT p.id_lattes, COUNT(o.id_orientacao) AS total
+                FROM tb_professores p
+                LEFT JOIN tb_orientacoes o ON p.id_lattes = o.id_lattes AND {condicao}
+                GROUP BY p.id_lattes
+            """
+            return conexao.execute(q, [ano_fim_, ano_ini]).df()["total"]
+
         def comp_orientacoes_por_nivel(conexao, ano_ini, ano_fim_, aplicar_ingresso=True):
             condicao = "ano_inicio <= ? AND COALESCE(ano_conclusao, 2026) >= ?" + sql_ingresso(
                 'tb_orientacoes', 'ano_inicio', aplicar=aplicar_ingresso
@@ -1959,26 +2261,54 @@ elif pagina_selecionada == PAGINA_COMPARATIVO:
             total_doc_a = len(df_quad_geral_a) or 1
             total_doc_b = len(df_quad_geral_b) or 1
 
-            percapita_livre_a = df_quad_geral_a["Score Total"].sum() / total_doc_a
-            percapita_livre_b = df_quad_geral_b["Score Total"].sum() / total_doc_b
-            percapita_restrito_a = df_quad_restrito_a["Score Total"].sum() / total_doc_a
-            percapita_restrito_b = df_quad_restrito_b["Score Total"].sum() / total_doc_b
-
+            # O per capita não é mais calculado aqui: é a coluna Média das tabelas
+            # abaixo, que o obtêm da mesma série por docente (`Score Total`, com
+            # uma linha por docente cadastrado) de que saem desvio e mediana.
             col_a, col_b = st.columns(2)
             with col_a:
                 st.markdown("##### Base A")
-                st.metric("Per Capita — Livre (A1-A8)", f"{percapita_livre_a:.3f}")
-                st.metric("Per Capita — Restrito (A1-A4)", f"{percapita_restrito_a:.3f}")
+                renderizar_tabela_dispersao(
+                    [
+                        ("Score Livre (A1-A8)", df_quad_geral_a["Score Total"]),
+                        ("Score Restrito (A1-A4)", df_quad_restrito_a["Score Total"]),
+                    ],
+                    casas=3,
+                )
             with col_b:
                 st.markdown(f"##### Base B ({nome_base_b})")
-                st.metric(
-                    "Per Capita — Livre (A1-A8)", f"{percapita_livre_b:.3f}",
-                    delta=round(percapita_livre_b - percapita_livre_a, 3)
+                # A terceira posição de cada linha é a série da Base A: gera a
+                # coluna de diferença que antes era o `delta` das métricas.
+                renderizar_tabela_dispersao(
+                    [
+                        ("Score Livre (A1-A8)", df_quad_geral_b["Score Total"], df_quad_geral_a["Score Total"]),
+                        ("Score Restrito (A1-A4)", df_quad_restrito_b["Score Total"], df_quad_restrito_a["Score Total"]),
+                    ],
+                    casas=3,
+                    rotulo_delta="Δ Média vs. A",
                 )
-                st.metric(
-                    "Per Capita — Restrito (A1-A4)", f"{percapita_restrito_b:.3f}",
-                    delta=round(percapita_restrito_b - percapita_restrito_a, 3)
-                )
+
+            renderizar_explicacao_calculos(
+                descricao_x=(
+                    "o score quadrienal daquele docente — a soma dos pesos por estrato "
+                    "(A1 = 1,000; A2 = 0,875; …; A8 = 0,125) de todos os seus artigos no "
+                    "recorte, periódicos e conferências juntos."
+                ),
+                recorte=(
+                    f"Janela de {comp_ano_inicio} a {comp_ano_fim} e filtro de fonte da barra "
+                    "lateral, aplicados igualmente às duas bases; a produção anterior à data "
+                    "de ingresso do docente fica de fora quando a base traz essa informação "
+                    "(a Base B pode não trazer). Os divisores são os quadros de cada base: "
+                    f"{total_doc_a} docentes na A e {total_doc_b} na B — daí as médias serem "
+                    "comparáveis mesmo com programas de tamanhos diferentes. Livre soma os "
+                    "oito estratos; Restrito, apenas A1-A4."
+                ),
+                observacoes=[
+                    "A coluna Δ Média vs. A é a diferença entre a média da Base B e a da "
+                    "Base A, em pontos de score por docente — o mesmo número que antes "
+                    "aparecia como variação sob a métrica da Base B.",
+                    OBS_DUPLA_CONTAGEM,
+                ],
+            )
 
         # ===== ABA 5: ORIENTAÇÕES ACADÊMICAS (lado a lado) =====
         with aba_orientacoes:
@@ -2002,19 +2332,42 @@ elif pagina_selecionada == PAGINA_COMPARATIVO:
                 st.markdown("#### Orientações Per Capita (÷ Docentes Cadastrados)")
                 total_doc_ori_a = con.execute("SELECT COUNT(*) FROM tb_professores").fetchone()[0] or 1
                 total_doc_ori_b = con_b.execute("SELECT COUNT(*) FROM tb_professores").fetchone()[0] or 1
-                percapita_ori_a = tot_a / total_doc_ori_a
-                percapita_ori_b = tot_b / total_doc_ori_b
+
+                serie_ori_a = comp_orientacoes_por_docente(con, comp_ano_inicio, comp_ano_fim, aplicar_ingresso=True)
+                serie_ori_b = comp_orientacoes_por_docente(con_b, comp_ano_inicio, comp_ano_fim, aplicar_ingresso=ingresso_b_ok)
 
                 col_a, col_b = st.columns(2)
                 with col_a:
                     st.markdown("##### Base A")
-                    st.metric("Orientações Per Capita", f"{percapita_ori_a:.2f}")
+                    renderizar_tabela_dispersao(
+                        [("Orientações / Docente", serie_ori_a)], casas=2
+                    )
                 with col_b:
                     st.markdown(f"##### Base B ({nome_base_b})")
-                    st.metric(
-                        "Orientações Per Capita", f"{percapita_ori_b:.2f}",
-                        delta=round(percapita_ori_b - percapita_ori_a, 2)
+                    renderizar_tabela_dispersao(
+                        [("Orientações / Docente", serie_ori_b, serie_ori_a)], casas=2,
+                        rotulo_delta="Δ Média vs. A",
                     )
+
+                renderizar_explicacao_calculos(
+                    descricao_x=(
+                        "o número de orientações daquele docente com vínculo ativo em algum "
+                        "momento da janela."
+                    ),
+                    recorte=(
+                        f"Orientações iniciadas até {comp_ano_fim} e concluídas a partir de "
+                        f"{comp_ano_inicio} (ou ainda em andamento) — o vínculo precisa apenas "
+                        "interceptar a janela, não caber inteiro nela. Os divisores são os "
+                        f"quadros de cada base: {total_doc_ori_a} docentes na A e "
+                        f"{total_doc_ori_b} na B."
+                    ),
+                    observacoes=[
+                        "A coluna Δ Média vs. A é a diferença entre a média da Base B e a da "
+                        "Base A, em orientações por docente.",
+                        "Uma coorientação registrada nos dois currículos conta para cada um "
+                        "dos orientadores do quadro.",
+                    ],
+                )
 
                 st.markdown("#### Distribuição por Nível Acadêmico — Comparativo")
                 df_nivel_a = comp_orientacoes_por_nivel(con, comp_ano_inicio, comp_ano_fim, aplicar_ingresso=True)

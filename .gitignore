@@ -15,3 +15,12 @@ scriptlattes/exemplo/professores_ufrj/
 # (regenerado a cada extração) e a saída bruta do scriptLattes, não.
 scriptlattes/exemplo/comparacao/*.config
 scriptlattes/exemplo/comparacao/*_saida/
+
+# Core dumps: quando o Streamlit morre, o kernel despeja a memória do processo
+# na raiz do projeto (arquivos de GB). São lixo de crash, nunca versionar --
+# um deles chegou a entrar num commit e travou o push (limite de 100 MB do GitHub).
+core.*
+
+# Backups automáticos da base gerados antes de reprocessar: ficam no disco para
+# eventual restauração, mas não no histórico.
+*.duckdb.bak*

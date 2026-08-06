@@ -514,7 +514,22 @@ class ParserLattes(HTMLParser):
             if self.salvarItem: # and self.achouArtigoEmPeriodico:
                 for name, value in attributes:
                     if name=='href' and 'doi' in value:
-                        self.doi = value
+                        # Duas âncoras do item casam o substring 'doi': a do DOI
+                        # de verdade, marcada com class 'icone-doi', e a URL
+                        # "citado por" da Scopus (class 'citacaoTip'), que traz
+                        # 'doi=' no query string. Sem distinguir as duas, a da
+                        # Scopus sobrescrevia o DOI real -- e quando ela vale
+                        # 'doi=null' virava lixo no campo.
+                        # O DOI declarado no currículo tem prioridade; a URL da
+                        # Scopus só entra como reserva, e mesmo assim apenas o
+                        # DOI que ela carrega no parâmetro, nunca a URL inteira.
+                        if 'icone-doi' in dict(attributes).get('class', ''):
+                            self.doi = value
+                        elif not self.doi:
+                            capturado = re.search(r'[?&]doi=([^&]+)', value)
+                            candidato = capturado.group(1) if capturado else ''
+                            if candidato.lower().startswith('10.'):
+                                self.doi = candidato
                         break
 
                     id = re.findall('http://lattes.cnpq.br/(\d{16})', value)
@@ -745,6 +760,15 @@ class ParserLattes(HTMLParser):
                                                                                self.relevante)
                                 self.listaOutroTipoDeProducaoBibliografica.append(iessimoItem)
 
+                            # self.doi é preenchido em handle_starttag assim que aparece
+                            # um <a href> com 'doi' dentro do item corrente. Só os tipos
+                            # que recebem self.doi no construtor o zeravam; livros,
+                            # capítulos, textos em jornal, apresentações e "outros" não,
+                            # e o valor sobrevivia até o próximo item que consome DOI --
+                            # tipicamente o primeiro trabalho em anais, que herdava o DOI
+                            # do último capítulo de livro. Zerar aqui fecha o item
+                            # bibliográfico para todos os tipos, inclusive os futuros.
+                            self.doi = ''
 
                         if self.achouProducaoTecnica:
                             if self.achouSoftwareComPatente:

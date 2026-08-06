@@ -429,6 +429,79 @@ Bancos gerados antes desta tabela existir continuam abrindo normalmente: a
 validação de arquitetura exige só quatro tabelas, e o relatório avisa que
 precisa de reprocessamento em vez de quebrar.
 
+## Índices per capita
+
+As páginas **Avaliação Quadrienal Geral (A1-A8)**, **Avaliação Quadrienal
+Restrita (A1-A4)** e **Relatório de Credenciamento Consolidado** fecham com um
+bloco de seis índices per capita de papers. O cálculo vive em `app.py`
+(`contar_papers_per_capita`, com `renderizar_papers_per_capita` cuidando da
+exibição), e segue a mesma convenção dos per capita que já existiam em
+*Comparativo entre Bases* — score quadrienal e orientações.
+
+A fórmula é sempre a mesma:
+
+```
+índice = papers do programa na janela ÷ COUNT(*) FROM tb_professores
+```
+
+**O divisor é o quadro inteiro** (`tb_professores`), sem recorte por data de
+ingresso e sem excluir quem não publicou no período — idêntico ao divisor dos
+índices do Comparativo. O número aparece na legenda do bloco, e cada métrica traz
+no tooltip o absoluto e o divisor que a geraram.
+
+### Os seis índices
+
+| Índice | Numerador |
+|---|---|
+| Papers de Conferência | linhas de `tb_artigo_conferencia` na janela |
+| Papers de Periódicos | linhas de `tb_artigo_periodico` na janela |
+| Papers Geral | soma dos dois acima |
+| Conferência c/ Discentes | idem, com `coautoria_aluno = TRUE` |
+| Periódicos c/ Discentes | idem, com `coautoria_aluno = TRUE` |
+| Geral c/ Discentes | soma dos dois acima |
+
+**"Com discentes"** se apoia em `coautoria_aluno`, a coluna booleana que
+`coauthorship_detection.py` (`is_student_coauthor`) grava nas duas tabelas de
+artigos comparando a string `autores` da publicação com os nomes completos e as
+formas de citação extraídos dos JSONs dos alunos. A comparação é feita
+explicitamente contra `TRUE`, então bancos antigos em que a coluna ficou nula
+contam como "sem discente" em vez de quebrar a consulta.
+
+### Recortes aplicados
+
+Os índices usam exatamente os mesmos filtros da tabela exibida logo acima, para
+que os dois números sempre fechem entre si:
+
+- **janela temporal** — o período escolhido no filtro da página;
+- **fonte dos papers** — o seletor global da barra lateral (`sql_fonte()`), então
+  alternar para "Apenas cadastradas no Lattes" muda os índices junto;
+- **data de ingresso** — `sql_ingresso()`, que descarta produção anterior à
+  entrada do docente no programa;
+- **estrato** — nas páginas restritas, só A1–A4 (`maior_percentil >= 50.0` em
+  periódicos, `estrato IN ('A1'..'A4')` em conferências). No Credenciamento esse
+  corte acompanha o rádio de critério de apuração, e a legenda do bloco diz qual
+  critério está valendo.
+
+Como consequência do recorte por estrato, o Credenciamento em "Pontuação
+Restrita" e a Quadrienal Restrita exibem os mesmos seis valores para a mesma
+janela — é a mesma pergunta feita duas vezes.
+
+### Coautoria interna infla o numerador
+
+> Um artigo coassinado por **dois docentes do quadro** entra como duas linhas e é
+> contado **duas vezes**. Não é um defeito do cálculo: é a regra 3 da seção
+> anterior — `calcular_chave_dedup` prefixa a chave com o `id_lattes`, de modo
+> que a deduplicação nunca atravessa docentes. Na base institucional inteira, 115
+> periódicos (contados por DOI normalizado) e 341 conferências (por título
+> normalizado) aparecem em mais de um docente.
+
+Isso é coerente com o resto do app — o score de credenciamento também credita
+cada coautor integralmente — mas **não** é a contagem que a CAPES chama de
+produção do programa, que consideraria a publicação distinta uma única vez.
+Trocar para a contagem distinta exigiria uma dedup entre docentes, e faria estes
+índices deixarem de ser comparáveis com os per capita do Comparativo. A decisão
+consciente foi manter a convenção existente.
+
 ## Limitações conhecidas
 
 Documentadas porque foram investigadas e medidas, e a decisão consciente foi
