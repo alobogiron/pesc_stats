@@ -418,16 +418,33 @@ detectar como diferença de produção. Se você for mexer nessas funções, mex
 5. **`auditar_duplicatas`** — segunda passada conferindo o resultado. Roda em
    toda execução e imprime `OK` ou `AVISO` na saída do notebook.
 
-### `tb_dois_descartados` e o relatório
+### `tb_dois_descartados` — só auditoria por SQL
 
-O que foi recusado vira a tabela **`tb_dois_descartados`** (nos dois bancos) e
-alimenta o relatório **"DOIs inconsistentes no currículo Lattes"** em
-*Geração de Relatórios* — um HTML imprimível por docente, com o valor exatamente
-como está no currículo, para que ele localize e corrija a entrada.
+O que foi recusado vira a tabela **`tb_dois_descartados`** (nos dois bancos), com
+o valor exatamente como está no currículo, o tipo, o ano, o título e o motivo da
+recusa. Ela continua sendo populada a cada reprocessamento, mas **nenhuma tela do
+app a lê**: é material de auditoria, consultado direto no DuckDB.
+
+```sql
+SELECT p.nome_completo, d.tipo, d.ano, d.doi_descartado, d.motivo
+FROM tb_dois_descartados d JOIN tb_professores p USING (id_lattes)
+ORDER BY p.nome_completo, d.ano;
+```
+
+Até 2026-08-07 havia em *Geração de Relatórios* um relatório
+**"DOIs inconsistentes no currículo Lattes"**, um HTML imprimível por docente
+para que ele localizasse e corrigisse a entrada. Foi removido depois que as
+correções no `parserLattes.py` (vazamento de `self.doi` entre itens e âncora
+*citado por* da Scopus) derrubaram os registros `não tem forma de DOI` da base
+institucional de 25 para 4 — 9 descartes no total, somando os 5 do outro motivo.
+O que restou são erros no currículo real — DOI de volume LNCS no lugar do DOI
+do capítulo, link de PDF colado no campo DOI — em 5 publicações de 2000 a 2007,
+antigas o bastante para não justificarem a manutenção da tela. Se o volume voltar
+a subir numa extração nova, a consulta acima mostra, e o relatório está no
+histórico do git.
 
 Bancos gerados antes desta tabela existir continuam abrindo normalmente: a
-validação de arquitetura exige só quatro tabelas, e o relatório avisa que
-precisa de reprocessamento em vez de quebrar.
+validação de arquitetura exige só quatro tabelas.
 
 ## Índices per capita
 

@@ -9,6 +9,9 @@ import html as html_lib
 from datetime import datetime
 
 import jobs
+# Normalizações canônicas de DOI e título -- a mesma regra exata que o pipeline
+# usa para deduplicar, reaproveitada pelo relatório de coautoria discente.
+import dedup_publicacoes as dp
 
 # ==========================================
 # 1. CONFIGURAÇÃO DA INTERFACE INSTITUCIONAL
@@ -1226,7 +1229,7 @@ elif pagina_selecionada == "Geração de Relatórios":
     RELATORIOS_DISPONIVEIS = [
         "Papers faltantes na base do Lattes (periódicos e conferências)",
         "Alunos do programa faltando no Lattes do orientador",
-        "DOIs inconsistentes no currículo Lattes",
+        "Papers com coautoria discente",
     ]
     relatorio_selecionado = st.selectbox("Selecione o relatório:", RELATORIOS_DISPONIVEIS)
 
@@ -1466,137 +1469,6 @@ localize cada publicação na base indicada na coluna "Rastreado em".</footer>
                 f"no período {rel_ano_inicio}–{rel_ano_fim}."
             )
 
-    elif relatorio_selecionado == "DOIs inconsistentes no currículo Lattes":
-        st.markdown(
-            "Lista, para cada docente, as publicações cujo **campo DOI do Lattes não pôde ser "
-            "usado** — para que ele corrija a entrada no próprio currículo. O campo é texto "
-            "livre, e o pipeline recusa o valor em dois casos (`analyse_organizado.ipynb`, "
-            "Seção 8.2.1):\n"
-            "- **não tem forma de DOI** — o campo guarda outra coisa, tipicamente o link do PDF "
-            "ou a URL *citado por* da Scopus;\n"
-            "- **o mesmo DOI aparece em mais de uma publicação** do docente na mesma fonte — está "
-            "errado em pelo menos uma delas, e mantê-lo faria duas publicações distintas "
-            "colapsarem numa só.\n\n"
-            "Nos dois casos a publicação **não é descartada**: ela passa a ser identificada pelo "
-            "título. O que a correção no Lattes recupera é a precisão do casamento com ORCID e "
-            "Scopus. A coluna *DOI registrado no Lattes* traz o valor exatamente como está no "
-            "currículo — é por ele que a entrada é localizada."
-        )
-
-        # Bases geradas antes desta seção existir não têm a tabela; o relatório
-        # avisa em vez de estourar (mesmo tratamento dado a tb_situacao_orientandos).
-        tabela_descartes_ok = True
-        try:
-            con.execute("SELECT 1 FROM tb_dois_descartados LIMIT 1")
-        except Exception:
-            tabela_descartes_ok = False
-
-        if not tabela_descartes_ok:
-            st.info(
-                "Esta base não possui a tabela `tb_dois_descartados` — ela passou a ser gerada "
-                "por `analyse_organizado.ipynb` (Seção 8.2.1). Rode o reprocessamento da base "
-                "para que o relatório fique disponível."
-            )
-        else:
-            # Registros sem ano entram sempre: são justamente inconsistências de
-            # preenchimento, e escondê-las por causa do recorte de período seria
-            # contraproducente num relatório de qualidade de dado.
-            pred_descarte = _pred_ano("d.ano", True)
-
-            def _dados_descartes(id_lattes):
-                return con.execute(
-                    f"""
-                    SELECT d.tipo, d.titulo_artigo, d.ano, d.doi_descartado, d.motivo
-                    FROM tb_dois_descartados d
-                    WHERE d.id_lattes = ? AND {pred_descarte}
-                    ORDER BY d.tipo, d.ano DESC NULLS LAST, d.titulo_artigo
-                    """, [id_lattes, rel_ano_inicio, rel_ano_fim]).df()
-
-            def _html_descartes(nome, id_lattes, df_d):
-                gerado_em = datetime.now().strftime("%d/%m/%Y %H:%M")
-                colunas = [
-                    ("Tipo", "tipo", _fmt_txt), ("Título", "titulo_artigo", _fmt_txt),
-                    ("Ano", "ano", _fmt_ano),
-                    ("DOI registrado no Lattes", "doi_descartado", _fmt_txt),
-                    ("Por que não foi usado", "motivo", _fmt_txt),
-                ]
-                corpo = (
-                    "<p class='vazio'>Nenhuma inconsistência encontrada.</p>"
-                    if df_d.empty else _tabela_html(df_d, colunas)
-                )
-                return f"""<!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="utf-8">
-<title>DOIs inconsistentes no Lattes — {html_lib.escape(str(nome))}</title>
-<style>{_CSS_RELATORIO}</style></head>
-<body>
-<header>
-  <h1>DOIs inconsistentes no currículo Lattes</h1>
-  <p class="sub">Publicações cujo campo DOI não pôde ser usado para identificar a publicação.</p>
-  <table class="meta">
-    <tr><td><strong>Docente</strong></td><td>{html_lib.escape(str(nome))}</td></tr>
-    <tr><td><strong>ID Lattes</strong></td><td>{html_lib.escape(str(id_lattes))}</td></tr>
-    <tr><td><strong>Período</strong></td><td>{rel_ano_inicio} a {rel_ano_fim} (inclui itens sem ano informado)</td></tr>
-    <tr><td><strong>Gerado em</strong></td><td>{gerado_em}</td></tr>
-  </table>
-</header>
-<h2>Inconsistências <span class='cont'>({len(df_d)})</span></h2>{corpo}
-<footer>Sistema de Avaliação de Produtividade Acadêmica — localize cada publicação no currículo
-Lattes pelo valor da coluna "DOI registrado no Lattes" e substitua-o pelo DOI correto (ou apague-o,
-se a publicação não tiver DOI).</footer>
-<button class="noprint" onclick="window.print()">Imprimir / Salvar como PDF</button>
-</body></html>"""
-
-            df_profs_doi = con.execute(
-                f"""
-                SELECT p.id_lattes, p.nome_completo,
-                    (SELECT COUNT(*) FROM tb_dois_descartados d
-                       WHERE d.id_lattes = p.id_lattes AND {pred_descarte}) AS descartes
-                FROM tb_professores p
-                ORDER BY p.nome_completo
-                """, [rel_ano_inicio, rel_ano_fim]
-            ).df()
-
-            total_descartes = int(df_profs_doi["descartes"].sum())
-            if total_descartes == 0:
-                st.success(
-                    "Nenhum DOI inconsistente nesta base: todo DOI preenchido identifica "
-                    "uma única publicação."
-                )
-            else:
-                st.caption(
-                    f"{total_descartes} inconsistência(s) em "
-                    f"{int((df_profs_doi['descartes'] > 0).sum())} docente(s)."
-                )
-                mostrar_todos_doi = st.checkbox(
-                    "Mostrar também docentes sem inconsistências", value=False, key="todos_doi")
-
-                st.markdown("#### Docentes")
-                h1, h2, h3 = st.columns([5, 1, 2])
-                h1.markdown("**Docente**")
-                h2.markdown("**Inconsistências**")
-                h3.markdown("**Relatório**")
-
-                for _, prof in df_profs_doi.iterrows():
-                    total = int(prof["descartes"])
-                    if total == 0 and not mostrar_todos_doi:
-                        continue
-                    c1, c2, c3 = st.columns([5, 1, 2])
-                    c1.write(prof["nome_completo"])
-                    c2.write(total)
-                    if total == 0:
-                        c3.caption("Sem inconsistências")
-                    else:
-                        df_d = _dados_descartes(prof["id_lattes"])
-                        doc_html = _html_descartes(prof["nome_completo"], prof["id_lattes"], df_d)
-                        slug = re.sub(r"[^A-Za-z0-9]+", "_", str(prof["nome_completo"])).strip("_")
-                        c3.download_button(
-                            "Baixar HTML",
-                            data=doc_html.encode("utf-8"),
-                            file_name=f"dois_inconsistentes_{slug}.html",
-                            mime="text/html",
-                            key=f"dl_doi_{prof['id_lattes']}",
-                        )
-
     elif relatorio_selecionado == "Alunos do programa faltando no Lattes do orientador":
         st.markdown(
             "Lista, para cada orientador, os alunos do programa (registro administrativo em "
@@ -1787,6 +1659,230 @@ inclua cada aluno na seção de Orientações do seu currículo Lattes.</footer>
                     f"Nenhum orientador possui alunos faltantes no Lattes nesta base "
                     f"com ingresso entre {rel_ano_inicio} e {rel_ano_fim}."
                 )
+
+    elif relatorio_selecionado == "Papers com coautoria discente":
+        st.markdown(
+            "Lista os papers do programa em que a detecção de coautoria encontrou **ao menos um "
+            "aluno entre os autores** (coluna `coautoria_aluno`, gravada por "
+            "`coauthorship_detection.py` comparando a string de autores com os nomes e formas de "
+            "citação dos alunos). Diferente dos demais relatórios, é um **documento único do "
+            "programa**, não um arquivo por docente."
+        )
+
+        MODO_POR_DOCENTE = "Uma linha por docente (o mesmo paper repete)"
+        MODO_POR_PAPER = "Uma linha por paper (sem nome de docente)"
+        modo_coautoria = st.radio(
+            "Papers assinados por mais de um docente do quadro:",
+            [MODO_POR_DOCENTE, MODO_POR_PAPER],
+            key="modo_coautoria",
+            help="A base guarda uma linha por docente: um paper coassinado por dois docentes do "
+                 "quadro aparece duas vezes. O modo por paper une essas linhas.",
+        )
+        por_paper = modo_coautoria == MODO_POR_PAPER
+
+        sem_ano_coautoria = con.execute(
+            """
+            SELECT (SELECT COUNT(*) FROM tb_artigo_periodico
+                      WHERE coautoria_aluno = TRUE AND ano_pub IS NULL)
+                 + (SELECT COUNT(*) FROM tb_artigo_conferencia
+                      WHERE coautoria_aluno = TRUE AND ano IS NULL)
+            """
+        ).fetchone()[0]
+
+        incluir_sem_ano_coautoria = False
+        if sem_ano_coautoria:
+            incluir_sem_ano_coautoria = st.checkbox(
+                f"Incluir também os {sem_ano_coautoria} paper(s) sem ano informado",
+                value=False,
+                key="incluir_sem_ano_coautoria",
+                help="Papers sem ano não pertencem a nenhum intervalo. No modo por paper eles "
+                     "só se unem a outros papers sem ano, já que o ano compõe a chave por título.",
+            )
+
+        df_coaut_p = con.execute(
+            f"""
+            SELECT pr.nome_completo AS docente, a.titulo_artigo, a.titulo_revista_lattes AS veiculo,
+                   a.ano_pub AS ano, a.doi
+            FROM tb_artigo_periodico a
+            JOIN tb_professores pr ON pr.id_lattes = a.id_lattes
+            WHERE a.coautoria_aluno = TRUE AND {_pred_ano('a.ano_pub', incluir_sem_ano_coautoria)}
+            ORDER BY a.ano_pub DESC NULLS LAST, a.titulo_artigo
+            """, [rel_ano_inicio, rel_ano_fim]
+        ).df()
+        df_coaut_c = con.execute(
+            f"""
+            SELECT pr.nome_completo AS docente, a.titulo_artigo, a.titulo_evento_lattes AS veiculo,
+                   a.ano AS ano, a.doi
+            FROM tb_artigo_conferencia a
+            JOIN tb_professores pr ON pr.id_lattes = a.id_lattes
+            WHERE a.coautoria_aluno = TRUE AND {_pred_ano('a.ano', incluir_sem_ano_coautoria)}
+            ORDER BY a.ano DESC NULLS LAST, a.titulo_artigo
+            """, [rel_ano_inicio, rel_ano_fim]
+        ).df()
+
+        linhas_por_docente = len(df_coaut_p) + len(df_coaut_c)
+
+        def _unir_papers_entre_docentes(df):
+            """Colapsa em uma linha as várias linhas do mesmo paper — uma por
+            docente do quadro que o assina.
+
+            Esta é a única deduplicação do sistema que **atravessa docentes**, e
+            existe só para exibição: a chave de deduplicação da base leva o
+            `id_lattes` como prefixo justamente para nunca fundir currículos
+            (ver `dedup_publicacoes.py`). Aqui a pergunta é outra — quantos
+            papers distintos o programa produziu com discentes —, então a fusão
+            é o que se quer.
+
+            O casamento é sempre EXATO, nunca por similaridade, e reaproveita as
+            duas normalizações canônicas do projeto: `normalizar_doi` (que já
+            devolve <NA> para o que não tem forma de DOI) e
+            `normalizar_titulo_dedup`. Duas linhas são o mesmo paper se têm o
+            mesmo DOI normalizado OU o mesmo título normalizado no mesmo ano; os
+            dois critérios são combinados por união (componentes conexos) porque
+            um mesmo paper costuma vir com DOI no registro de um docente e sem
+            DOI no de outro — sem a união, essas linhas não se encontrariam.
+
+            Fundir por DOI é seguro nesta coluna porque `sanear_doi_gravado` já
+            apagou dela os DOIs que uma fonte usa em mais de uma publicação do
+            mesmo docente; o que sobrou identifica publicação.
+            """
+            if df.empty:
+                return df.drop(columns=["docente"])
+
+            dois = df["doi"].map(dp.normalizar_doi).tolist()
+            titulos = df["titulo_artigo"].map(dp.normalizar_titulo_dedup).tolist()
+            anos = df["ano"].tolist()
+
+            pai = list(range(len(df)))
+
+            def raiz(x):
+                while pai[x] != x:
+                    pai[x] = pai[pai[x]]
+                    x = pai[x]
+                return x
+
+            def unir(a, b):
+                ra, rb = raiz(a), raiz(b)
+                if ra != rb:
+                    pai[rb] = ra
+
+            primeiro_doi, primeiro_titulo = {}, {}
+            for i in range(len(df)):
+                if not pd.isna(dois[i]):
+                    unir(primeiro_doi.setdefault(dois[i], i), i)
+                if titulos[i]:
+                    unir(primeiro_titulo.setdefault((titulos[i], anos[i]), i), i)
+
+            # Representante do grupo: a primeira linha que tem DOI (registro mais
+            # completo) ou, na falta de qualquer uma, a primeira do grupo.
+            representante = {}
+            for i in range(len(df)):
+                grupo = raiz(i)
+                atual = representante.get(grupo)
+                if atual is None or (pd.isna(dois[atual]) and not pd.isna(dois[i])):
+                    representante[grupo] = i
+
+            posicoes = sorted(representante.values())
+            return (
+                df.iloc[posicoes]
+                .drop(columns=["docente"])
+                .reset_index(drop=True)
+            )
+
+        if por_paper:
+            df_coaut_p = _unir_papers_entre_docentes(df_coaut_p)
+            df_coaut_c = _unir_papers_entre_docentes(df_coaut_c)
+
+        total_p, total_c = len(df_coaut_p), len(df_coaut_c)
+        total_geral = total_p + total_c
+
+        if total_geral == 0:
+            st.success(
+                f"Nenhum paper com coautoria discente no período {rel_ano_inicio}–{rel_ano_fim}."
+            )
+        else:
+            if por_paper:
+                st.caption(
+                    f"{total_geral} paper(s) distinto(s) — {total_p} em periódicos e {total_c} em "
+                    f"conferências. As {linhas_por_docente} linhas por docente foram unidas em "
+                    f"{total_geral}: {linhas_por_docente - total_geral} eram o mesmo paper "
+                    f"assinado por mais de um docente do quadro."
+                )
+            else:
+                st.caption(
+                    f"{total_geral} linha(s) — {total_p} em periódicos e {total_c} em conferências. "
+                    f"Um paper coassinado por dois docentes do quadro aparece duas vezes."
+                )
+
+            colunas_comuns = [
+                ("Ano", "ano", _fmt_ano), ("Título", "titulo_artigo", _fmt_txt),
+                ("Veículo", "veiculo", _fmt_txt), ("DOI", "doi", _fmt_txt),
+            ]
+            colunas_coaut = (
+                colunas_comuns if por_paper
+                else [("Docente", "docente", _fmt_txt)] + colunas_comuns
+            )
+
+            aba_p, aba_c = st.tabs([f"Periódicos ({total_p})", f"Conferências ({total_c})"])
+            with aba_p:
+                if df_coaut_p.empty:
+                    st.info("Nenhum periódico com coautoria discente no período.")
+                else:
+                    st.dataframe(df_coaut_p, use_container_width=True, hide_index=True)
+            with aba_c:
+                if df_coaut_c.empty:
+                    st.info("Nenhuma conferência com coautoria discente no período.")
+                else:
+                    st.dataframe(df_coaut_c, use_container_width=True, hide_index=True)
+
+            gerado_em_coaut = datetime.now().strftime("%d/%m/%Y %H:%M")
+            periodo_coaut = (
+                f"{rel_ano_inicio} a {rel_ano_fim}"
+                + (" (inclui itens sem ano informado)" if incluir_sem_ano_coautoria else "")
+            )
+
+            def _secao_coaut(titulo, df):
+                corpo = (
+                    "<p class='vazio'>Nenhum item no período.</p>"
+                    if df.empty else _tabela_html(df, colunas_coaut)
+                )
+                return f"<h2>{html_lib.escape(titulo)} <span class='cont'>({len(df)})</span></h2>{corpo}"
+
+            html_coautoria = f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Papers com coautoria discente — {rel_ano_inicio} a {rel_ano_fim}</title>
+<style>{_CSS_RELATORIO}</style></head>
+<body>
+<header>
+  <h1>Papers com coautoria discente</h1>
+  <p class="sub">Publicações do programa com ao menos um aluno entre os autores.</p>
+  <table class="meta">
+    <tr><td><strong>Período</strong></td><td>{periodo_coaut}</td></tr>
+    <tr><td><strong>Apresentação</strong></td><td>{html_lib.escape(modo_coautoria)}</td></tr>
+    <tr><td><strong>Total</strong></td><td>{total_geral} ({total_p} em periódicos, {total_c} em conferências)</td></tr>
+    <tr><td><strong>Gerado em</strong></td><td>{gerado_em_coaut}</td></tr>
+  </table>
+</header>
+{_secao_coaut("Periódicos", df_coaut_p)}
+{_secao_coaut("Conferências", df_coaut_c)}
+<footer>Sistema de Avaliação de Produtividade Acadêmica — {
+  'papers distintos, unidos por DOI ou por título e ano quando assinados por mais de um docente do quadro.'
+  if por_paper else
+  'uma linha por docente: papers assinados por mais de um docente do quadro aparecem repetidos.'
+}</footer>
+<button class="noprint" onclick="window.print()">Imprimir / Salvar como PDF</button>
+</body></html>"""
+
+            st.download_button(
+                "Baixar HTML",
+                data=html_coautoria.encode("utf-8"),
+                file_name=(
+                    f"coautoria_discente_{rel_ano_inicio}_{rel_ano_fim}"
+                    f"{'_por_paper' if por_paper else '_por_docente'}.html"
+                ),
+                mime="text/html",
+                key="dl_coautoria_discente",
+            )
 
 # ------------------------------------------
 # PÁGINA 9: COMPARATIVO ENTRE BASES
