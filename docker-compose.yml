@@ -38,4 +38,12 @@ services:
     # grandes. A flag --disable-dev-shm-usage já cobre isso, mas com shm real
     # a extração fica bem mais rápida.
     shm_size: "1gb"
+    ulimits:
+      # Sem isto, um processo que morre com SIGSEGV/SIGABRT (já aconteceu com o
+      # Streamlit em 04/08/2026) despeja a memória inteira num arquivo `core.*`
+      # — e como o projeto é montado em /app, o arquivo cai na raiz do
+      # repositório: 2,9 GB que entraram num commit e travaram o push, pelo
+      # limite de 100 MB do GitHub. O dump só serviria com os símbolos da
+      # imagem; a perda de diagnóstico é irrelevante perto do estrago.
+      core: 0
     restart: unless-stopped

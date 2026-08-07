@@ -88,6 +88,18 @@ O healthcheck bate em `/_stcore/health` a cada 30s — `docker compose ps` dizen
 `(healthy)` significa que o Streamlit está de fato respondendo, não só que o
 processo existe.
 
+> **Alterou o código?** Com o bind mount `.:/app` do compose, o Streamlit
+> recarrega sozinho — nada a fazer. Mas a cópia embutida na imagem continua
+> velha, e é ela que vale no modo de deploy sem o mount. Rode
+> `docker compose build && docker compose up -d` quando quiser que a imagem
+> reflita o repositório.
+
+O compose fixa `ulimits: core: 0`. Um processo que morre com SIGSEGV/SIGABRT
+gravaria um `core.<pid>` com a memória inteira em `/app`, ou seja, na raiz do
+repositório — aconteceu em 04/08/2026 com o Streamlit e rendeu um arquivo de
+2,9 GB que entrou num commit e travou o push (o GitHub recusa acima de 100 MB).
+O `.gitignore` cobre `core.*` como segunda linha de defesa.
+
 ### Rodar os jobs sem passar pela UI
 
 Útil para agendar em cron, depurar uma extração ou rodar um reprocessamento
