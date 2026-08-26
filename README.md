@@ -32,8 +32,9 @@ existir, rode um reprocessamento (veja abaixo) antes de abrir a página.
 
 ### Navegação
 
-A barra lateral tem só a navegação, o filtro global "Fonte dos papers" e um
-resumo de duas linhas (banco em uso + data do último processamento). Toda
+A barra lateral tem só a navegação, os dois filtros globais ("Fonte dos
+papers" e "Regime de contagem") e um resumo de duas linhas (banco em uso +
+data do último processamento). Toda
 operação de manutenção — extração de currículos, reprocessamento e gestão das
 bases de comparação — vive na página **⚙️ Configurações**, dividida em duas
 abas ("Base institucional" e "Bases de comparação"). A escolha de qual base
@@ -288,7 +289,9 @@ eles não fazem parte do pipeline automatizado.
 
 A regra de deduplicação **não** vive dentro dos notebooks: está em
 `dedup_publicacoes.py`, importado pelos dois (veja a seção
-[Deduplicação e qualidade dos DOIs](#deduplicação-e-qualidade-dos-dois)).
+[Deduplicação e qualidade dos DOIs](#deduplicação-e-qualidade-dos-dois)). Pelo
+mesmo motivo, a leitura dos anos de credenciamento está em `credenciamento.py`
+(veja [Regime de contagem](#regime-de-contagem-ingresso-x-vigência)).
 
 ### Jobs assíncronos
 
@@ -458,6 +461,77 @@ histórico do git.
 Bancos gerados antes desta tabela existir continuam abrindo normalmente: a
 validação de arquitetura exige só quatro tabelas.
 
+## Regime de contagem: ingresso x vigência
+
+Currículos Lattes trazem a vida acadêmica inteira do docente, mas a
+apresentação institucional só deve considerar o período em que ele fazia parte
+do programa. Existem duas regras para dizer quando a produção de um docente
+conta, e o seletor **"Regime de contagem"** da barra lateral escolhe entre elas
+em todas as páginas de uma vez:
+
+| Regime | Insumo | Predicado | Docente sem o dado |
+| --- | --- | --- | --- |
+| **Data de ingresso** (padrão) | `tb_professores.data_ingresso` | ano da publicação ≥ ano de ingresso | conta tudo (`COALESCE` faz o corte virar no-op) |
+| **Anos de credenciamento** | `tb_credenciamento_anos` | ano da publicação ∈ anos credenciados | **não conta nada** |
+
+A diferença entre as duas colunas da direita é o ponto de atenção: a data de
+ingresso é um piso e nada mais, então quem saiu do programa continua pontuando
+para sempre. A vigência é o conjunto exato de anos credenciados, o que dá conta
+de descredenciamento, recredenciamento posterior e lacunas no meio — mas, por
+ser exata, zera quem estiver faltando na planilha. Por isso a página
+"Credenciamento (vigência)" abre com a contagem de docentes sem vigência
+registrada.
+
+Tudo passa por `sql_recorte_docente()` em `app.py` — é o único lugar do app que
+decide qual das duas regras aplicar, e é o que garante que Indicadores,
+Quadrienais, Credenciamento, Orientações e Comparativo nunca discordem entre si.
+O padrão continua sendo a data de ingresso: **nenhum número muda sem que alguém
+troque o seletor.**
+
+### A página "Credenciamento (vigência)"
+
+Aditiva: a página "Credenciamento" original continua exatamente como era. A
+nova tem três blocos — a vigência de cada docente (com sinalização de quem tem
+lacunas), uma grade ano a ano, e o mesmo score consolidado calculado sob os
+**dois** regimes lado a lado, com a coluna Δ. Esse terceiro bloco é o que
+responde "o que muda se trocarmos a regra". Ele ignora o seletor da barra
+lateral de propósito, para que a comparação não dependa de qual regime está
+ativo.
+
+A página e o seletor só aparecem quando a base tem `tb_credenciamento_anos`
+carregada — bancos gerados antes da Seção 15 do notebook, e as bases de
+comparação, seguem com o menu de sempre.
+
+### De onde vêm os anos
+
+`dados_brutos/credenciamento_professores.csv`, uma linha por docente:
+
+```csv
+id_lattes,nome_referencia,anos_credenciamento
+1420784392366957,Marta Lima de Queirós Mattoso,2013;2014;2015;2016
+```
+
+O casamento com o cadastro é **sempre exato, pelo `id_lattes`** — a coluna
+`nome_referencia` existe só para leitura humana na hora de editar a planilha.
+`credenciamento.py` é a regra única que lê esse arquivo e escreve a tabela; a
+Seção 15 de `analyse_organizado.ipynb` o chama no reprocessamento completo, e a
+mesma CLI reaplica a tabela a um banco já pronto quando só o CSV mudou:
+
+```bash
+# reaplica só a vigência, sem repetir as ~2h do pipeline inteiro
+# (o app precisa estar parado: ele segura um lock de leitura sobre o .duckdb)
+python credenciamento.py --db pesquisadores_teste.duckdb
+```
+
+> ⚠️ **Os anos hoje são ALEATÓRIOS.** Enquanto o registro administrativo
+> oficial do programa não existir, o CSV é gerado por
+> `gerar_credenciamento_aleatorio.py` (semente fixa, então os valores não mudam
+> sozinhos entre execuções; `--seed`, `--piso` e `--teto` reembaralham). Nada
+> que sai do regime de vigência serve como número oficial até esse arquivo ser
+> substituído pelo registro real. Como `dados_brutos/` é git-ignorado, o CSV
+> não está no repositório — quem clonar o projeto roda o gerador (ou põe a
+> planilha real no lugar) antes de reprocessar.
+
 ## Índices per capita
 
 As páginas **Avaliação Quadrienal Geral (A1-A8)**, **Avaliação Quadrienal
@@ -473,8 +547,8 @@ A fórmula é sempre a mesma:
 índice = papers do programa na janela ÷ COUNT(*) FROM tb_professores
 ```
 
-**O divisor é o quadro inteiro** (`tb_professores`), sem recorte por data de
-ingresso e sem excluir quem não publicou no período — idêntico ao divisor dos
+**O divisor é o quadro inteiro** (`tb_professores`), sem nenhum recorte por
+docente e sem excluir quem não publicou no período — idêntico ao divisor dos
 índices do Comparativo. O número aparece na legenda do bloco, e cada métrica traz
 no tooltip o absoluto e o divisor que a geraram.
 
@@ -504,8 +578,10 @@ que os dois números sempre fechem entre si:
 - **janela temporal** — o período escolhido no filtro da página;
 - **fonte dos papers** — o seletor global da barra lateral (`sql_fonte()`), então
   alternar para "Apenas cadastradas no Lattes" muda os índices junto;
-- **data de ingresso** — `sql_ingresso()`, que descarta produção anterior à
-  entrada do docente no programa;
+- **regime de contagem** — `sql_recorte_docente()`, o seletor global da barra
+  lateral: descarta a produção anterior à entrada do docente no programa, ou a
+  de fora dos anos credenciados (veja
+  [Regime de contagem](#regime-de-contagem-ingresso-x-vigência));
 - **estrato** — nas páginas restritas, só A1–A4 (`maior_percentil >= 50.0` em
   periódicos, `estrato IN ('A1'..'A4')` em conferências). No Credenciamento esse
   corte acompanha o rádio de critério de apuração, e a legenda do bloco diz qual
@@ -607,11 +683,12 @@ com zero falso positivo.
 
 ## Estrutura de dados
 
-O banco institucional tem **13 tabelas**: 6 principais (`tb_professores`,
+O banco institucional tem **14 tabelas**: 6 principais (`tb_professores`,
 `tb_alunos`, `tb_aluno_titulos`, `tb_orientacoes`, `tb_artigo_periodico`,
 `tb_artigo_conferencia`), 6 por fonte (`tb_artigo_{periodico,conferencia}_{lattes,orcid,scopus}`,
 com o dado pré-deduplicação) e `tb_dois_descartados`. Há ainda
-`tb_situacao_orientandos`, gravada em conexão própria na Seção 14. O banco de
+`tb_situacao_orientandos` e `tb_credenciamento_anos`, gravadas em conexão
+própria nas Seções 14 e 15. O banco de
 comparação tem 5 (`tb_professores`, `tb_artigo_periodico`,
 `tb_artigo_conferencia`, `tb_orientacoes`, `tb_dois_descartados`).
 
@@ -625,6 +702,7 @@ dados_brutos/
   raw_comparacao/<nome>/<timestamp>/, .../current  # idem, por base de comparação
   status/                                        # status/lock dos jobs (inclui comparacao_<nome>_*)
   defesas/, lista_alunos_pesc.xlsx, alias_*.csv   # dados administrativos manuais
+  credenciamento_professores.csv                 # anos de credenciamento (hoje ALEATÓRIO — ver abaixo)
 ```
 
 `dados_brutos/` inteiro é git-ignorado — nada aí é versionado.
