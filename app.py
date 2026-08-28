@@ -31,18 +31,80 @@ st.set_page_config(page_title="Sistema de Avaliação de Produtividade Acadêmic
 # pela geração de relatórios. Regenere o banco pelo notebook se ele não existir.
 CAMINHO_BASE_INSTITUCIONAL = jobs.caminho_duckdb_principal()
 
-@st.cache_resource
-def get_db_connection():
+def assinatura_arquivo(caminho):
+    """(mtime_ns, inode) do arquivo — a identidade da versão publicada.
+
+    Serve de chave de cache da conexão. O `.duckdb` nunca é atualizado no
+    lugar: tanto `run_process.py` quanto o editor de credenciamento montam o
+    arquivo novo à parte e publicam com `os.replace`, o que troca o inode. Uma
+    conexão aberta antes disso continua lendo o arquivo antigo (o descritor
+    aponta para o inode substituído, que fica `(deleted)` no sistema), e o
+    `.clear()` do cache sozinho não garante a reabertura. Com a assinatura na
+    chave, a troca do arquivo muda a chave e a conexão é reaberta sozinha."""
     try:
-        return duckdb.connect(database=CAMINHO_BASE_INSTITUCIONAL, read_only=True)
+        st_info = os.stat(caminho)
+        return (st_info.st_mtime_ns, st_info.st_ino)
+    except OSError:
+        return (0, 0)
+
+
+@st.cache_resource
+def _registro_conexao_institucional():
+    """Caixa que guarda a última conexão entregue, para poder fechá-la quando o
+    arquivo do banco for republicado.
+
+    Precisa ser um recurso em cache, e não uma variável de módulo: o Streamlit
+    reexecuta o script inteiro a cada rerun, o que zeraria uma variável de
+    módulo e perderia justamente a referência que se quer fechar."""
+    return {"con": None}
+
+
+@st.cache_resource
+def _abrir_base_institucional(caminho, assinatura):
+    # Fechar a conexão anterior não é opcional: enquanto uma conexão daquele
+    # caminho continua viva, o DuckDB devolve a MESMA instância a qualquer
+    # `connect()` seguinte -- inclusive depois de o arquivo ter sido
+    # substituído por `os.replace`. Sem este fechamento, o app seguiria lendo o
+    # inode antigo (o que aparece como `(deleted)` nos descritores do
+    # processo), por mais que a conexão fosse "reaberta".
+    #
+    # Só se chega aqui quando a assinatura muda, ou seja, quando o arquivo foi
+    # republicado -- então a conexão anterior aponta para uma versão que não
+    # existe mais e ninguém deveria estar lendo.
+    registro = _registro_conexao_institucional()
+    anterior = registro.get("con")
+    if anterior is not None:
+        try:
+            anterior.close()
+        except Exception:
+            pass
+        registro["con"] = None
+
+    try:
+        conexao = duckdb.connect(database=caminho, read_only=True)
+        registro["con"] = conexao
+        return conexao
     except Exception as e:
         st.error(
             f"Falha na conexão com a base de dados institucional "
-            f"('{CAMINHO_BASE_INSTITUCIONAL}'): {e}. "
+            f"('{caminho}'): {e}. "
             "Verifique se o arquivo existe — ele é gerado ao executar o notebook "
             "`analyse_organizado.ipynb`."
         )
         st.stop()
+
+
+def get_db_connection():
+    """Conexão de leitura da base institucional, reaberta automaticamente
+    sempre que o arquivo for republicado (ver `assinatura_arquivo`)."""
+    return _abrir_base_institucional(
+        CAMINHO_BASE_INSTITUCIONAL, assinatura_arquivo(CAMINHO_BASE_INSTITUCIONAL)
+    )
+
+
+# Mantém `get_db_connection.clear()` funcionando nos pontos que descartam a
+# conexão explicitamente (fim de reprocessamento, gravação do credenciamento).
+get_db_connection.clear = _abrir_base_institucional.clear
 
 con = get_db_connection()
 
@@ -654,7 +716,27 @@ def contar_papers_per_capita(conexao, ano_ini, ano_fim_, restrito=False):
         GROUP BY id_lattes
     """
 
-    df = conexao.execute("SELECT id_lattes FROM tb_professores").df()
+    # Quem entra no divisor (e, portanto, na série que sustenta desvio e
+    # mediana). Sob o regime de ingresso é o quadro inteiro, como sempre foi.
+    # Sob vigência, é quem esteve credenciado em ao menos um ano da janela: um
+    # docente descredenciado durante todo o período não teve produção contada
+    # -- o `EXISTS` da vigência zera tudo dele --, então mantê-lo no divisor
+    # seria tratá-lo como alguém que estava lá e não produziu, rebaixando o per
+    # capita de todo mundo. A vigência parcial (credenciado em 2 dos 5 anos)
+    # continua pesando como um docente inteiro aqui; a leitura normalizada por
+    # ano fica na tabela anual, ao lado.
+    if regime_recorte == REGIME_VIGENCIA and tabela_tem_linhas(conexao, "tb_credenciamento_anos"):
+        query_docentes = """
+            SELECT p.id_lattes FROM tb_professores p
+            WHERE EXISTS (SELECT 1 FROM tb_credenciamento_anos c
+                          WHERE c.id_lattes = p.id_lattes AND c.ano BETWEEN ? AND ?)
+        """
+        df = conexao.execute(query_docentes, [ano_ini, ano_fim_]).df()
+        base_divisor = "credenciados"
+    else:
+        df = conexao.execute("SELECT id_lattes FROM tb_professores").df()
+        base_divisor = "cadastrados"
+
     df = df.merge(conexao.execute(query_p, [ano_ini, ano_fim_]).df(), on="id_lattes", how="left")
     df = df.merge(conexao.execute(query_c, [ano_ini, ano_fim_]).df(), on="id_lattes", how="left")
     for coluna in ("total_p", "disc_p", "total_c", "disc_c"):
@@ -662,6 +744,7 @@ def contar_papers_per_capita(conexao, ano_ini, ano_fim_, restrito=False):
 
     return {
         "docentes": len(df),
+        "base_divisor": base_divisor,
         "series": {
             "conferencia": df["total_c"],
             "periodico": df["total_p"],
@@ -673,6 +756,124 @@ def contar_papers_per_capita(conexao, ano_ini, ano_fim_, restrito=False):
     }
 
 
+def frase_divisor(docentes, base_divisor, ano_ini, ano_fim_):
+    """Descreve o divisor que a média usou de fato. Existe para que a memória
+    de cálculo nunca anuncie um divisor diferente do que produziu o número --
+    sob vigência ele deixa de ser o quadro inteiro."""
+    if base_divisor == "credenciados":
+        return (
+            f"O divisor é {docentes}, o número de docentes que estiveram credenciados em "
+            f"pelo menos um ano de {ano_ini} a {ano_fim_}. Quem não esteve credenciado em "
+            "nenhum ano da janela fica fora do divisor **e** da série: a vigência já zera "
+            "toda a produção dele no período, então mantê-lo aqui seria contá-lo como um "
+            "docente presente que nada produziu, rebaixando o per capita de todos os demais."
+        )
+    return (
+        f"O divisor é {docentes}, o total de docentes cadastrados, sem nenhum recorte por "
+        "docente."
+    )
+
+
+def contar_papers_por_ano(conexao, ano_ini, ano_fim_, restrito=False):
+    """Uma linha por ano da janela: papers contados naquele ano e quantos
+    docentes estavam credenciados nele. Só faz sentido sob o regime de
+    vigência, que é o único em que "docentes credenciados naquele ano" existe.
+
+    Anos sem ninguém credenciado são devolvidos com `docentes = 0` e tratados
+    pelo chamador -- não são raros: `ANO_MIN` vem dos dados (1974 nesta base) e
+    a planilha de credenciamento começa muito depois, então uma janela larga
+    tem dezenas de anos vazios, e dividir por eles seria uma divisão por zero.
+    """
+    restricao_p = " AND maior_percentil >= 50.0" if restrito else ""
+    restricao_c = " AND estrato IN ('A1', 'A2', 'A3', 'A4')" if restrito else ""
+
+    query = f"""
+        WITH anos AS (SELECT UNNEST(range(?, ? + 1)) AS ano),
+        credenciados AS (
+            SELECT ano, COUNT(DISTINCT id_lattes) AS docentes
+            FROM tb_credenciamento_anos WHERE ano BETWEEN ? AND ? GROUP BY ano
+        ),
+        papers AS (
+            SELECT ano_pub AS ano, COUNT(*) AS n
+            FROM tb_artigo_periodico
+            WHERE ano_pub BETWEEN ? AND ?{restricao_p}{sql_fonte()}
+                  {sql_recorte_docente('tb_artigo_periodico', 'ano_pub')}
+            GROUP BY ano_pub
+            UNION ALL
+            SELECT ano, COUNT(*) AS n
+            FROM tb_artigo_conferencia
+            WHERE ano BETWEEN ? AND ?{restricao_c}{sql_fonte()}
+                  {sql_recorte_docente('tb_artigo_conferencia', 'ano')}
+            GROUP BY ano
+        )
+        SELECT a.ano AS "Ano",
+               COALESCE((SELECT SUM(n) FROM papers WHERE papers.ano = a.ano), 0) AS "Papers",
+               COALESCE(c.docentes, 0) AS "Docentes Credenciados"
+        FROM anos a LEFT JOIN credenciados c ON c.ano = a.ano
+        ORDER BY a.ano
+    """
+    return conexao.execute(query, [ano_ini, ano_fim_] * 4).df()
+
+
+def renderizar_tabela_anual_vigencia(conexao, ano_ini, ano_fim_, restrito=False):
+    """Bloco "Por ano": papers e docentes credenciados em cada ano da janela,
+    fechando com a média das médias anuais.
+
+    É a leitura complementar à tabela de dispersão acima. Aquela responde
+    "quanto produziu o docente típico na janela inteira"; esta responde "como
+    foi o ano típico", e é a única das duas em que a vigência parcial pesa
+    menos -- um docente credenciado em 2 dos 5 anos entra em 2 linhas, não em
+    5."""
+    df_ano = contar_papers_por_ano(conexao, ano_ini, ano_fim_, restrito)
+
+    com_docentes = df_ano[df_ano["Docentes Credenciados"] > 0].copy()
+    if com_docentes.empty:
+        st.info(
+            f"Nenhum docente esteve credenciado entre {ano_ini} e {ano_fim_}, "
+            "então não há média anual para exibir nesta janela."
+        )
+        return
+
+    com_docentes["Papers / Docente"] = (
+        com_docentes["Papers"] / com_docentes["Docentes Credenciados"]
+    )
+    anos_vazios = len(df_ano) - len(com_docentes)
+
+    st.markdown("##### Por Ano")
+    st.dataframe(
+        com_docentes.style.format({
+            "Ano": "{:.0f}",
+            "Papers": "{:.0f}",
+            "Docentes Credenciados": "{:.0f}",
+            "Papers / Docente": lambda v: _num_br(v, 3),
+        }),
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    media_anual = float(com_docentes["Papers / Docente"].mean())
+    total_papers = int(com_docentes["Papers"].sum())
+    total_docente_anos = int(com_docentes["Docentes Credenciados"].sum())
+    razao_totais = total_papers / total_docente_anos if total_docente_anos else 0.0
+
+    st.markdown(
+        f"**Média das médias anuais: {_num_br(media_anual, 3)} papers por docente, por ano.** "
+        f"É a média simples da última coluna, sobre os {len(com_docentes)} ano(s) com pelo "
+        "menos um docente credenciado"
+        + (f" ({anos_vazios} ano(s) da janela sem ninguém credenciado ficaram de fora)." if anos_vazios else ".")
+    )
+    st.caption(
+        f"Cada ano pesa igual nessa média, independentemente de quantos docentes estavam "
+        f"credenciados nele. A leitura alternativa é a razão dos totais — {total_papers} papers "
+        f"÷ {total_docente_anos} docente-anos = {_num_br(razao_totais, 3)} —, em que cada "
+        "docente-ano pesa igual e, portanto, anos com mais docentes credenciados puxam mais. "
+        "As duas divergem quando o tamanho do corpo credenciado varia ao longo da janela: "
+        "anos magros costumam ter taxa por docente mais alta e, na média das médias, valem "
+        "tanto quanto os anos cheios. Atenção também ao último ano da janela, que costuma "
+        "estar incompleto na base e entra aqui como um ponto de peso inteiro."
+    )
+
+
 def renderizar_papers_per_capita(conexao, ano_ini, ano_fim_, restrito=False, nota=""):
     """Bloco dos seis índices per capita de papers: uma única tabela com total,
     média (o per capita), desvio padrão e mediana da série por docente de cada
@@ -680,9 +881,12 @@ def renderizar_papers_per_capita(conexao, ano_ini, ano_fim_, restrito=False, not
     exibiam só a média saíram -- a coluna Média da tabela é o mesmo número."""
     indices = contar_papers_per_capita(conexao, ano_ini, ano_fim_, restrito)
     docentes = indices["docentes"]
+    base_divisor = indices["base_divisor"]
     series = indices["series"]
 
-    st.markdown("#### Índices Per Capita (Papers ÷ Docentes Cadastrados)")
+    rotulo_divisor = ("Docentes Credenciados na Janela" if base_divisor == "credenciados"
+                      else "Docentes Cadastrados")
+    st.markdown(f"#### Índices Per Capita (Papers ÷ {rotulo_divisor})")
 
     ROTULOS = {
         "conferencia": "Papers de Conferência",
@@ -696,18 +900,32 @@ def renderizar_papers_per_capita(conexao, ano_ini, ano_fim_, restrito=False, not
     renderizar_tabela_dispersao(
         [(ROTULOS[chave], series[chave]) for chave in ROTULOS], casas=2,
     )
+
+    # Sob vigência, a leitura por ano vem logo abaixo: é a única das duas em
+    # que a vigência parcial pesa menos. Sob ingresso ela não existe -- não há
+    # "docentes credenciados naquele ano" para servir de divisor.
+    if base_divisor == "credenciados":
+        renderizar_tabela_anual_vigencia(conexao, ano_ini, ano_fim_, restrito)
+
     renderizar_explicacao_calculos(
         descricao_x="o número de papers daquele docente no recorte abaixo.",
         recorte=(
             f"Janela de {ano_ini} a {ano_fim_}; filtro de fonte da barra lateral; e "
             f"{frase_recorte_docente()}. São os mesmos "
-            f"recortes da tabela por docente acima. O divisor é {docentes}, o total de "
-            "docentes cadastrados, sem nenhum recorte por docente. \"Com discentes\" "
-            "são os papers em que a detecção de coautoria encontrou ao menos um aluno "
-            "entre os autores."
+            f"recortes da tabela por docente acima. "
+            + frase_divisor(docentes, base_divisor, ano_ini, ano_fim_)
+            + " \"Com discentes\" são os papers em que a detecção de coautoria encontrou "
+            "ao menos um aluno entre os autores."
             + (f" {nota}" if nota else "")
         ),
-        observacoes=[OBS_DUPLA_CONTAGEM],
+        observacoes=[OBS_DUPLA_CONTAGEM] + ([
+            "A tabela **Por Ano** responde uma pergunta diferente da tabela de dispersão. "
+            "Na dispersão, cada docente é uma observação e a vigência parcial não pesa: "
+            "quem esteve credenciado em 2 dos 5 anos entra como um docente inteiro. Na "
+            "tabela por ano ele entra em 2 linhas, não em 5 — por isso a média das médias "
+            "anuais (papers por docente **por ano**) não é a média da dispersão dividida "
+            "pelo tamanho da janela.",
+        ] if base_divisor == "credenciados" else []),
     )
 
 
@@ -863,14 +1081,23 @@ if pagina_selecionada == "Indicadores Institucionais":
     total_conferencias = res_conferencias[0] if res_conferencias else 0
     total_producoes = total_periodicos + total_conferencias
     
-    # Mesma janela, fonte e recorte de ingresso das contagens acima, agora
+    # Mesma janela, fonte e regime de contagem das métricas acima, agora
     # abertos por docente: a coluna Média da tabela abaixo é a antiga métrica
     # "Média de Produções / Docente", que saiu daqui para não ficar repetida.
-    series_indicadores = contar_papers_per_capita(con, f_ano_inicio, f_ano_fim)["series"]
+    indices_indicadores = contar_papers_per_capita(con, f_ano_inicio, f_ano_fim)
+    series_indicadores = indices_indicadores["series"]
 
     col1, col2 = st.columns(2)
     col1.metric("Docentes Cadastrados", total_docentes)
     col2.metric("Total de Produções Bibliográficas", total_producoes)
+    if indices_indicadores["base_divisor"] == "credenciados":
+        # O quadro cadastrado continua sendo 31; quem divide a média, sob
+        # vigência, é outro número. Dizer isso aqui evita que a métrica ao lado
+        # da tabela pareça o divisor dela.
+        col1.caption(
+            f"{indices_indicadores['docentes']} estiveram credenciados em algum ano de "
+            f"{f_ano_inicio} a {f_ano_fim} — é esse o divisor das médias abaixo."
+        )
 
     st.markdown("##### Produção por Docente")
     renderizar_tabela_dispersao(
@@ -885,9 +1112,11 @@ if pagina_selecionada == "Indicadores Institucionais":
         descricao_x="o número de produções bibliográficas daquele docente no recorte abaixo.",
         recorte=(
             f"Janela de {f_ano_inicio} a {f_ano_fim}; filtro de fonte da barra lateral; e "
-            f"{frase_recorte_docente()}. O divisor é "
-            f"{total_docentes}, o total de docentes cadastrados, sem nenhum recorte por "
-            "docente."
+            f"{frase_recorte_docente()}. "
+            + frase_divisor(
+                indices_indicadores["docentes"], indices_indicadores["base_divisor"],
+                f_ano_inicio, f_ano_fim,
+            )
         ),
         observacoes=[OBS_DUPLA_CONTAGEM],
     )
@@ -2916,7 +3145,21 @@ elif pagina_selecionada == PAGINA_CONFIGURACOES:
         "leem sempre o último banco processado com sucesso."
     )
 
-    aba_base, aba_comparacao = st.tabs(["Base institucional", "Bases de comparação"])
+    # Resultado da última gravação de credenciamento. Fica FORA das abas de
+    # propósito: `st.rerun()` devolve o `st.tabs` para a primeira aba, então uma
+    # mensagem renderizada dentro da aba de credenciamento ficaria escondida
+    # atrás de uma aba não selecionada -- e um erro de gravação passaria por
+    # "não aconteceu nada".
+    _resultado_cred = st.session_state.pop("_cred_resultado", None)
+    if _resultado_cred:
+        tipo, mensagens = _resultado_cred
+        (st.success if tipo == "ok" else st.error)(mensagens[0])
+        for extra in mensagens[1:]:
+            st.caption(extra)
+
+    aba_base, aba_credenciamento, aba_comparacao = st.tabs(
+        ["Base institucional", "Anos de credenciamento", "Bases de comparação"]
+    )
 
     # ===== ABA 1: BASE INSTITUCIONAL =====
     with aba_base:
@@ -2979,7 +3222,271 @@ elif pagina_selecionada == PAGINA_CONFIGURACOES:
         linha_status("Extração", status_extract)
         linha_status("Reprocessamento", status_process)
 
-    # ===== ABA 2: BASES DE COMPARAÇÃO =====
+    # ===== ABA 2: ANOS DE CREDENCIAMENTO =====
+    # Editor da vigência ano a ano. Grava SEMPRE no CSV
+    # (`credenciamento_professores.csv`) e só depois reaplica a tabela no banco:
+    # `run_process.py` regenera o `.duckdb` inteiro a partir do CSV, então uma
+    # edição que fosse só para o banco desapareceria, sem aviso, no próximo
+    # reprocessamento.
+    with aba_credenciamento:
+        st.subheader("Anos de credenciamento por docente")
+
+        st.markdown(
+            "Marque os anos em que cada docente esteve credenciado — são esses anos que "
+            "definem quando a produção dele conta, no regime \"Anos de credenciamento\" da "
+            "barra lateral. O primeiro ano disponível de cada docente é o seu ano de "
+            "ingresso no programa: antes disso ele não fazia parte do quadro."
+        )
+        st.caption(
+            f"Fonte da verdade: `{cred.CAMINHO_CSV_PADRAO}`. Salvar grava esse arquivo e, "
+            "em seguida, recarrega `tb_credenciamento_anos` no banco — nessa ordem, para "
+            "que um reprocessamento futuro reproduza exatamente o que foi editado aqui."
+        )
+
+        ANO_GRADE_FIM = max(ANO_MAX, datetime.now().year)
+
+        def _estado_credenciamento():
+            """Situação atual, por docente: cadastro (id, nome, ingresso) e o
+            conjunto de anos credenciados de cada um.
+
+            Lê do CSV, que é a fonte da verdade. Se ele ainda não existir, cai
+            para a tabela do banco -- assim uma vigência que veio de um
+            reprocessamento anterior não é apagada por uma primeira edição feita
+            antes de o CSV existir."""
+            docentes = con.execute(
+                "SELECT id_lattes, nome_completo, data_ingresso FROM tb_professores "
+                "ORDER BY nome_completo"
+            ).df()
+
+            anos_por_docente = {}
+            if os.path.exists(cred.CAMINHO_CSV_PADRAO):
+                ids = set(docentes["id_lattes"].astype(str))
+                df_csv, _, _ = cred.ler_csv_credenciamento(cred.CAMINHO_CSV_PADRAO, ids)
+                for id_lattes, grupo in df_csv.groupby("id_lattes"):
+                    anos_por_docente[id_lattes] = {int(a) for a in grupo["ano"]}
+            elif tem_tabela(con, "tb_credenciamento_anos"):
+                for id_lattes, ano in con.execute(
+                    "SELECT id_lattes, ano FROM tb_credenciamento_anos"
+                ).fetchall():
+                    anos_por_docente.setdefault(str(id_lattes), set()).add(int(ano))
+
+            return docentes, anos_por_docente
+
+        def _salvar_credenciamento(anos_por_docente, docentes, aviso_extra=None):
+            """Grava o CSV, reaplica a tabela e recarrega a página.
+
+            Nunca retorna: termina sempre em `st.rerun()`, com o resultado em
+            `st.session_state['_cred_resultado']`. É de propósito -- a gravação
+            fecha a conexão de leitura do app (o DuckDB não abre escrita
+            enquanto houver leitura sobre o mesmo arquivo), então seguir
+            renderizando a página com `con` morto daria erro. Recarregar
+            reabre a conexão do zero, tanto no caminho de sucesso quanto no de
+            falha.
+            """
+            mensagens = []
+            registros = [
+                {
+                    "id_lattes": linha.id_lattes,
+                    "nome_referencia": linha.nome_completo,
+                    "anos": sorted(anos_por_docente.get(linha.id_lattes, set())),
+                }
+                for linha in docentes.itertuples()
+            ]
+
+            try:
+                cred.escrever_csv_credenciamento(cred.CAMINHO_CSV_PADRAO, registros)
+            except OSError as erro:
+                st.session_state["_cred_resultado"] = (
+                    "erro", [f"Falha ao gravar `{cred.CAMINHO_CSV_PADRAO}`: {erro}",
+                             "Nada foi alterado no banco."]
+                )
+                st.rerun()
+
+            # Aplica numa cópia e troca no fim (`aplicar_em_duckdb_por_copia`).
+            # Escrever direto não funciona: este mesmo processo tem o banco
+            # aberto para leitura, e fechar a conexão em cache não basta --
+            # ela pode ter sido recriada, e a anterior segue viva segurando o
+            # lock. Pelo caminho da cópia o banco original só é tocado no
+            # `os.replace` final, então uma falha no meio não o corrompe.
+            try:
+                cred.aplicar_em_duckdb_por_copia(
+                    CAMINHO_BASE_INSTITUCIONAL, cred.CAMINHO_CSV_PADRAO
+                )
+            except Exception as erro:
+                st.session_state["_cred_resultado"] = ("erro", [
+                    f"O CSV foi gravado, mas `tb_credenciamento_anos` não pôde ser "
+                    f"recarregada no banco: {erro}",
+                    "O CSV e o banco ficaram fora de sincronia. Rode "
+                    f"`python credenciamento.py --db {CAMINHO_BASE_INSTITUCIONAL}` "
+                    "com o app parado para alinhá-los.",
+                ])
+                st.rerun()
+
+            # Só depois de a troca dar certo: descarta a conexão em cache, que
+            # ainda aponta para o arquivo substituído.
+            try:
+                con.close()
+            except Exception:
+                pass
+            get_db_connection.clear()
+
+            total = sum(len(v) for v in anos_por_docente.values())
+            mensagens.append(
+                f"Anos de credenciamento salvos: {total} par(es) (docente, ano) gravados em "
+                f"`{cred.CAMINHO_CSV_PADRAO}` e aplicados à base."
+            )
+            if aviso_extra:
+                mensagens.append(aviso_extra)
+            st.session_state["_cred_resultado"] = ("ok", mensagens)
+            # As caixas do detalhe por docente têm key própria; sem limpar, elas
+            # voltariam com o valor anterior à gravação em vez do recém-salvo.
+            for chave in [k for k in st.session_state if str(k).startswith("cred_ano_")]:
+                del st.session_state[chave]
+            st.rerun()
+
+        docentes_cred, anos_atuais = _estado_credenciamento()
+
+        if docentes_cred.empty:
+            st.warning("Nenhum docente cadastrado na base — nada para editar.")
+        else:
+            job_rodando = jobs.existe_algum_job_rodando()
+            if job_rodando:
+                st.warning(
+                    "Há um job em execução (extração ou reprocessamento). A edição fica "
+                    "bloqueada até ele terminar: os dois escrevem no mesmo banco."
+                )
+
+            # ---------- Grade geral ----------
+            st.markdown("#### Grade geral")
+            col_de, col_ate = st.columns(2)
+            grade_ini = int(col_de.number_input(
+                "Primeiro ano da grade", min_value=1950, max_value=ANO_GRADE_FIM,
+                value=max(2010, ANO_GRADE_FIM - 9), step=1, key="cred_grade_ini",
+            ))
+            grade_fim = int(col_ate.number_input(
+                "Último ano da grade", min_value=1950, max_value=ANO_GRADE_FIM,
+                value=ANO_GRADE_FIM, step=1, key="cred_grade_fim",
+            ))
+            if grade_ini > grade_fim:
+                grade_ini, grade_fim = grade_fim, grade_ini
+            anos_grade = list(range(grade_ini, grade_fim + 1))
+
+            st.caption(
+                f"A grade cobre {anos_grade[0]}–{anos_grade[-1]}. Anos fora dessa faixa não "
+                "são apagados ao salvar — ficam como estão. Marcações em anos anteriores ao "
+                "ingresso do docente são ignoradas, e a gravação avisa quais foram."
+            )
+
+            linhas_grade = []
+            for linha in docentes_cred.itertuples():
+                marcados = anos_atuais.get(linha.id_lattes, set())
+                registro = {
+                    "Docente": linha.nome_completo,
+                    "Ingresso": None if pd.isna(linha.data_ingresso) else int(linha.data_ingresso),
+                }
+                for ano in anos_grade:
+                    registro[str(ano)] = ano in marcados
+                linhas_grade.append(registro)
+            df_grade = pd.DataFrame(linhas_grade)
+
+            grade_editada = st.data_editor(
+                df_grade,
+                key="cred_grade_editor",
+                use_container_width=True,
+                hide_index=True,
+                disabled=["Docente", "Ingresso"],
+                column_config={
+                    "Docente": st.column_config.TextColumn("Docente", width="medium"),
+                    "Ingresso": st.column_config.NumberColumn(
+                        "Ingresso", format="%d", width="small",
+                        help="Ano de entrada no programa (`lista_pessoas.csv`). "
+                             "Anos anteriores a ele não podem ser credenciados.",
+                    ),
+                    **{
+                        str(ano): st.column_config.CheckboxColumn(str(ano), width="small")
+                        for ano in anos_grade
+                    },
+                },
+            )
+
+            if st.button("Salvar grade", type="primary", disabled=job_rodando,
+                         key="cred_salvar_grade"):
+                # Parte do estado atual e sobrescreve apenas os anos visíveis na
+                # grade; o que está fora da faixa exibida continua valendo.
+                novo = {k: set(v) for k, v in anos_atuais.items()}
+                ignorados = []
+                for pos, linha_orig in enumerate(docentes_cred.itertuples()):
+                    id_lattes = linha_orig.id_lattes
+                    ingresso = (None if pd.isna(linha_orig.data_ingresso)
+                                else int(linha_orig.data_ingresso))
+                    atual = novo.setdefault(id_lattes, set())
+                    for ano in anos_grade:
+                        marcado = bool(grade_editada.iloc[pos][str(ano)])
+                        if marcado and ingresso is not None and ano < ingresso:
+                            ignorados.append(f"{linha_orig.nome_completo} ({ano})")
+                            atual.discard(ano)
+                        elif marcado:
+                            atual.add(ano)
+                        else:
+                            atual.discard(ano)
+
+                aviso = None
+                if ignorados:
+                    aviso = ("Ignorados por serem anteriores ao ingresso do docente: "
+                             + "; ".join(ignorados))
+                _salvar_credenciamento(novo, docentes_cred, aviso)
+
+            # ---------- Detalhe por docente ----------
+            st.markdown("---")
+            st.markdown("#### Detalhe por docente")
+            st.caption(
+                "Mesma informação da grade, um docente por vez e começando no ano de "
+                "ingresso dele — sem risco de marcar a linha errada."
+            )
+
+            nomes = list(docentes_cred["nome_completo"])
+            escolhido = st.selectbox("Docente", nomes, key="cred_docente_detalhe")
+            linha_doc = docentes_cred[docentes_cred["nome_completo"] == escolhido].iloc[0]
+            id_escolhido = linha_doc["id_lattes"]
+            ingresso_doc = (
+                None if pd.isna(linha_doc["data_ingresso"]) else int(linha_doc["data_ingresso"])
+            )
+            marcados_doc = anos_atuais.get(id_escolhido, set())
+
+            if ingresso_doc is None:
+                inicio_doc = min(anos_grade[0], *(marcados_doc or {anos_grade[0]}))
+                st.caption(
+                    "Sem ano de ingresso em `lista_pessoas.csv` para este docente; a lista "
+                    f"abaixo começa em {inicio_doc}."
+                )
+            else:
+                inicio_doc = min(ingresso_doc, *(marcados_doc or {ingresso_doc}))
+                st.caption(
+                    f"Ingresso no programa: **{ingresso_doc}** · "
+                    f"**{len(marcados_doc)}** ano(s) credenciados hoje"
+                    + (f" ({min(marcados_doc)}–{max(marcados_doc)})." if marcados_doc else ".")
+                )
+            anos_doc = list(range(min(inicio_doc, ANO_GRADE_FIM), ANO_GRADE_FIM + 1))
+
+            with st.form(f"form_cred_{id_escolhido}"):
+                marcas = {}
+                colunas = st.columns(6)
+                for i, ano in enumerate(anos_doc):
+                    marcas[ano] = colunas[i % 6].checkbox(
+                        str(ano),
+                        value=(ano in marcados_doc),
+                        key=f"cred_ano_{id_escolhido}_{ano}",
+                    )
+                if st.form_submit_button("Salvar este docente", type="primary",
+                                         disabled=job_rodando):
+                    novo = {k: set(v) for k, v in anos_atuais.items()}
+                    # Anos anteriores ao início da lista não aparecem no
+                    # formulário; preserva-os em vez de apagá-los.
+                    preservados = {a for a in novo.get(id_escolhido, set()) if a < anos_doc[0]}
+                    novo[id_escolhido] = preservados | {a for a, v in marcas.items() if v}
+                    _salvar_credenciamento(novo, docentes_cred)
+
+    # ===== ABA 3: BASES DE COMPARAÇÃO =====
     with aba_comparacao:
         st.subheader("Bases de comparação")
         st.caption(

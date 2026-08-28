@@ -14,8 +14,10 @@ entre eles --
 
   * a Seção 15 de `analyse_organizado.ipynb`, no reprocessamento completo; e
   * a CLI aqui embaixo (`python credenciamento.py`), que aplica a tabela a um
-    `.duckdb` já pronto quando só o CSV mudou e não faz sentido pagar as ~2h
-    do pipeline inteiro.
+    `.duckdb` já pronto quando só o CSV mudou -- sem re-raspar Lattes nem
+    repetir as chamadas de ORCID/Scopus do pipeline completo; e
+  * o editor de anos na página Configurações do `app.py`, que grava o CSV por
+    aqui e em seguida reaplica a tabela.
 
 O casamento com o cadastro é **sempre exato, pelo `id_lattes`** -- a coluna
 `nome_referencia` do CSV existe só para leitura humana na hora de editar a
@@ -23,6 +25,9 @@ planilha à mão.
 """
 
 import argparse
+import csv
+import shutil
+import os
 
 import duckdb
 import pandas as pd
@@ -35,6 +40,11 @@ NOME_TABELA = "tb_credenciamento_anos"
 
 # Separador dos anos dentro da célula `anos_credenciamento` ("2019;2020;2023").
 SEPARADOR_ANOS = ";"
+
+# Colunas do CSV, na ordem. `id_lattes` é a chave real do casamento;
+# `nome_referencia` existe só para quem abrir a planilha à mão saber de quem é
+# a linha.
+CABECALHO_CSV = ["id_lattes", "nome_referencia", "anos_credenciamento"]
 
 DDL_TABELA = f"""
     CREATE TABLE IF NOT EXISTS {NOME_TABELA} (
@@ -120,6 +130,38 @@ def ler_csv_credenciamento(caminho_csv, ids_professores):
     return df, ids_desconhecidos, anos_invalidos
 
 
+def escrever_csv_credenciamento(caminho_csv, registros):
+    """Escreve o CSV de credenciamento — a contraparte de
+    `ler_csv_credenciamento`, para que o formato tenha uma definição só.
+
+    `registros` é um iterável de dicionários com `id_lattes`, `nome_referencia`
+    e `anos` (iterável de inteiros). Os anos saem ordenados e sem repetição;
+    docente sem nenhum ano vira linha com a célula vazia, e não linha ausente —
+    a diferença importa para quem edita a planilha à mão, que assim continua
+    vendo o quadro inteiro.
+
+    Grava primeiro num arquivo temporário ao lado do destino e só então faz
+    `os.replace`: se algo falhar no meio, o CSV anterior continua intacto em vez
+    de virar um arquivo truncado.
+    """
+    destino_dir = os.path.dirname(caminho_csv)
+    if destino_dir:
+        os.makedirs(destino_dir, exist_ok=True)
+
+    tmp = caminho_csv + ".tmp"
+    with open(tmp, "w", newline="", encoding="utf-8") as f:
+        escritor = csv.DictWriter(f, fieldnames=CABECALHO_CSV)
+        escritor.writeheader()
+        for registro in registros:
+            anos = sorted({int(a) for a in registro.get("anos") or []})
+            escritor.writerow({
+                "id_lattes": str(registro["id_lattes"]).strip(),
+                "nome_referencia": str(registro.get("nome_referencia") or "").strip(),
+                "anos_credenciamento": SEPARADOR_ANOS.join(str(a) for a in anos),
+            })
+    os.replace(tmp, caminho_csv)
+
+
 def formatar_avisos(ids_desconhecidos, anos_invalidos, caminho_csv=CAMINHO_CSV_PADRAO):
     """Traduz as anomalias devolvidas por `ler_csv_credenciamento` em linhas de
     texto. Existe para que notebook e CLI reclamem exatamente a mesma coisa."""
@@ -173,6 +215,47 @@ def aplicar_em_duckdb(caminho_duckdb, caminho_csv=CAMINHO_CSV_PADRAO):
         con.close()
 
     return resumo, formatar_avisos(ids_desconhecidos, anos_invalidos, caminho_csv)
+
+
+def aplicar_em_duckdb_por_copia(caminho_duckdb, caminho_csv=CAMINHO_CSV_PADRAO):
+    """Mesma coisa que `aplicar_em_duckdb`, mas sem disputar o lock do arquivo:
+    copia o banco, aplica na cópia e troca os dois atomicamente com
+    `os.replace`.
+
+    Existe porque o `app.py` precisa gravar enquanto ele próprio tem o banco
+    aberto para leitura, e o DuckDB não abre escrita nessas condições -- nem
+    depois de `con.close()`, já que a conexão em cache do Streamlit pode ter
+    sido recriada e a anterior continuar viva no processo. É o mesmo padrão
+    que `run_process.py` usa para publicar o resultado do notebook.
+
+    Efeito colateral bom: se qualquer etapa falhar, o banco original não é
+    tocado -- a troca só acontece depois de a cópia ficar pronta.
+
+    Quem estiver com o arquivo aberto continua lendo o conteúdo antigo (o
+    descritor aponta para o inode substituído) até reabrir a conexão; no app,
+    é o `get_db_connection.clear()` logo em seguida que garante isso.
+
+    Não é seguro rodar em paralelo com um reprocessamento: os dois publicam por
+    `os.replace` e um sobrescreveria o outro. O app bloqueia o botão enquanto
+    houver job em andamento.
+    """
+    tmp = caminho_duckdb + ".cred.tmp"
+    if os.path.exists(tmp):
+        os.remove(tmp)
+
+    shutil.copy2(caminho_duckdb, tmp)
+    try:
+        resumo, avisos = aplicar_em_duckdb(tmp, caminho_csv)
+        os.replace(tmp, caminho_duckdb)
+    except Exception:
+        if os.path.exists(tmp):
+            try:
+                os.remove(tmp)
+            except OSError:
+                pass
+        raise
+
+    return resumo, avisos
 
 
 def main():

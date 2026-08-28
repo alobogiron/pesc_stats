@@ -32,13 +32,16 @@ existir, rode um reprocessamento (veja abaixo) antes de abrir a página.
 
 ### Navegação
 
-A barra lateral tem só a navegação, os dois filtros globais ("Fonte dos
-papers" e "Regime de contagem") e um resumo de duas linhas (banco em uso +
-data do último processamento). Toda
-operação de manutenção — extração de currículos, reprocessamento e gestão das
-bases de comparação — vive na página **⚙️ Configurações**, dividida em duas
-abas ("Base institucional" e "Bases de comparação"). A escolha de qual base
-usar como Base B é feita dentro da própria página "Comparativo entre Bases".
+A barra lateral tem só a navegação, os dois filtros globais e um resumo de
+duas linhas (banco em uso + data do último processamento). Os filtros são
+"Fonte dos papers" (base unificada × apenas Lattes) e "Regime de contagem"
+(data de ingresso × anos de credenciamento, veja
+[Regime de contagem](#regime-de-contagem-ingresso-x-vigência)) — ambos valem
+para todas as páginas de uma vez. Toda operação de manutenção — extração de
+currículos, reprocessamento e gestão das bases de comparação — vive na página
+**⚙️ Configurações**, dividida em três abas ("Base institucional", "Anos de
+credenciamento" e "Bases de comparação"). A escolha de qual base usar como Base B é feita dentro da própria
+página "Comparativo entre Bases".
 
 ## Uso com Docker
 
@@ -283,6 +286,10 @@ O botão **"Reprocessar dados"** roda `run_process.py`, que executa
 temporário. Só se a execução terminar sem erro é que o resultado é promovido
 atomicamente (`os.replace`) para `pesquisadores_teste.duckdb`.
 
+Leva ~110s nos dados atuais (Scopus vindo do cache local do `pybliometrics`).
+O `TIMEOUT_SECONDS = 2h` de `run_process.py` é folga para um cache frio, não a
+duração esperada.
+
 `orcid_1.ipynb` e `scopus_2.ipynb` são protótipos supersedidos — a lógica de
 ambos já foi incorporada dentro de `analyse_organizado.ipynb` (seções 6-13);
 eles não fazem parte do pipeline automatizado.
@@ -513,14 +520,33 @@ id_lattes,nome_referencia,anos_credenciamento
 
 O casamento com o cadastro é **sempre exato, pelo `id_lattes`** — a coluna
 `nome_referencia` existe só para leitura humana na hora de editar a planilha.
-`credenciamento.py` é a regra única que lê esse arquivo e escreve a tabela; a
-Seção 15 de `analyse_organizado.ipynb` o chama no reprocessamento completo, e a
-mesma CLI reaplica a tabela a um banco já pronto quando só o CSV mudou:
+`credenciamento.py` é a regra única que lê esse arquivo e escreve a tabela. A
+Seção 15 de `analyse_organizado.ipynb` o chama no reprocessamento completo; e a
+mesma CLI reaplica só a vigência a um banco já pronto, quando o CSV mudou mas
+nada mais mudou — sem re-raspar Lattes nem repetir as chamadas de ORCID/Scopus.
+
+**O app precisa estar parado**: DuckDB não aceita conexão de escrita enquanto
+outra de leitura estiver aberta, e o Streamlit mantém a dele aberta o tempo
+todo. Com Docker, o ciclo completo é:
 
 ```bash
-# reaplica só a vigência, sem repetir as ~2h do pipeline inteiro
-# (o app precisa estar parado: ele segura um lock de leitura sobre o .duckdb)
-python credenciamento.py --db pesquisadores_teste.duckdb
+docker compose stop app
+venv/bin/python credenciamento.py --db pesquisadores_teste.duckdb
+docker compose start app
+```
+
+O comando do meio roda no host: o container está parado, então não dá para usar
+`docker compose exec`. Use o Python do venv (`venv/bin/python`), não o do
+sistema — `duckdb` e `pandas` só existem lá. Antes de escrever, vale um
+`cp pesquisadores_teste.duckdb pesquisadores_teste.duckdb.bak-$(date +%Y%m%d-%H%M%S)`:
+a operação é aditiva (`CREATE TABLE IF NOT EXISTS` + recarga só dessa tabela),
+mas backup de `.duckdb.bak*` é git-ignorado e custa nada.
+
+Para (re)gerar o CSV provisório:
+
+```bash
+venv/bin/python gerar_credenciamento_aleatorio.py            # seed padrão
+venv/bin/python gerar_credenciamento_aleatorio.py --seed 7   # outro sorteio
 ```
 
 > ⚠️ **Os anos hoje são ALEATÓRIOS.** Enquanto o registro administrativo
@@ -531,6 +557,117 @@ python credenciamento.py --db pesquisadores_teste.duckdb
 > substituído pelo registro real. Como `dados_brutos/` é git-ignorado, o CSV
 > não está no repositório — quem clonar o projeto roda o gerador (ou põe a
 > planilha real no lugar) antes de reprocessar.
+
+### Por que o CSV continua sendo a fonte, e não a tabela
+
+Pergunta natural, já que a tabela existe no banco: por que ainda passar por um
+arquivo? Porque `run_process.py` **não atualiza** o banco — ele cria um arquivo
+novo e vazio, roda o notebook inteiro dentro dele e só então troca pelo antigo.
+A `tb_credenciamento_anos` do arquivo novo nasce do que a Seção 15 lê, ou seja,
+do CSV. Uma edição que existisse só no banco desapareceria no reprocessamento
+seguinte, sem erro e sem aviso.
+
+O modelo mental é o mesmo dos JSONs do Lattes: o CSV é **insumo**, a tabela é
+**derivada**. Ninguém pergunta se ainda precisa dos JSONs porque o banco existe.
+
+Dá para inverter (a Seção 15 daria `ATTACH` no banco anterior e copiaria a
+tabela, usando o CSV só como semente), mas a decisão foi **manter o CSV como
+dono**, por três motivos:
+
+1. É o único dado **autorado** do sistema. Todo o resto do banco se reconstrói
+   dos JSONs, das planilhas e das APIs; o credenciamento não se reconstrói de
+   nada — se sumir, alguém redigita à mão.
+2. Este README manda regenerar o banco quando ele não existe. Com o banco como
+   dono, essa instrução — hoje inofensiva — passaria a destruir dados em
+   silêncio, e o mesmo valeria para um reprocessamento interrompido.
+3. Os `.duckdb` estão versionados, mas como blob binário: o commit informa
+   `Bin 14430208 -> 15478784 bytes` e nada mais. No CSV o diff mostra, em texto,
+   que fulano perdeu 2019. E o registro administrativo real, quando existir, vai
+   chegar como planilha — o CSV é o ponto de entrada natural.
+
+Na prática isso não custa trabalho dobrado: o editor da interface grava o CSV e
+recarrega a tabela num clique só.
+
+### Editar os anos pela interface
+
+**⚙️ Configurações → aba "Anos de credenciamento"** edita a vigência sem passar
+por planilha nem terminal. São duas visões da mesma informação:
+
+- **Grade geral** — uma linha por docente, uma coluna por ano, caixas de
+  marcação. A faixa de anos exibida é configurável; **anos fora da faixa não são
+  apagados ao salvar**, ficam como estão. Marcação em ano anterior ao ingresso
+  do docente é ignorada, e a gravação diz quais foram.
+- **Detalhe por docente** — um docente por vez, com os anos a partir do ingresso
+  dele. Estruturalmente impossível marcar ano anterior ao ingresso, e sem risco
+  de errar de linha.
+
+Salvar faz, nesta ordem: grava o CSV → fecha a conexão de leitura do app →
+recarrega `tb_credenciamento_anos` no banco → recarrega a página. **A ordem
+importa**: gravar só no banco pareceria funcionar, e a edição sumiria sem aviso
+no próximo `run_process.py`, que regenera tudo a partir do CSV.
+
+Duas consequências de como isso funciona:
+
+- O botão fica bloqueado enquanto houver extração ou reprocessamento em
+  andamento — os dois escrevem no mesmo banco.
+- Se outro processo tiver o `.duckdb` aberto (o app rodando também fora do
+  container, tipicamente), a gravação do CSV acontece e a do banco falha, com a
+  mensagem dizendo exatamente isso e sugerindo a CLI. O CSV e o banco ficam
+  momentaneamente fora de sincronia até você rodar `credenciamento.py`.
+- A coluna `nome_referencia` do CSV é reescrita com o `nome_completo` do Lattes
+  (a grafia do cadastro, com acentos), já que é a que o app tem em mãos. É
+  cosmética: o casamento nunca depende dela.
+
+### A conexão precisa ser fechada, não só descartada
+
+Armadilha que custou um bug real (28/08/2026), e que vale para qualquer código
+que reabra o banco: **o `.duckdb` nunca é atualizado no lugar.** Tanto
+`run_process.py` quanto o editor de credenciamento montam o arquivo novo à parte
+e publicam com `os.replace`, o que troca o inode. Uma conexão aberta antes disso
+continua lendo o arquivo antigo — que aparece como `(deleted)` em
+`/proc/<pid>/fd`.
+
+O detalhe não óbvio: **enquanto essa conexão continuar viva, reabrir não
+resolve.** O DuckDB devolve a mesma instância a qualquer `connect()` seguinte
+para o mesmo caminho, mesmo depois da troca do arquivo:
+
+```python
+viva  = duckdb.connect(p, read_only=True)   # o app
+# ... outro processo troca p por os.replace ...
+nova  = duckdb.connect(p, read_only=True)   # devolve a MESMA instância
+nova.execute(...)                           # ainda lê o arquivo antigo
+viva.close()
+depois = duckdb.connect(p, read_only=True)  # só agora abre o arquivo novo
+```
+
+Por isso `get_db_connection` faz as duas coisas: o cache é chaveado por
+`assinatura_arquivo()` (mtime + inode), que muda quando o arquivo é republicado
+e força a reabertura, **e** a conexão anterior é fechada antes de abrir a nova.
+A referência à conexão anterior mora num `@st.cache_resource` próprio
+(`_registro_conexao_institucional`), não numa variável de módulo: o Streamlit
+reexecuta o script a cada rerun e zeraria a variável, perdendo justamente a
+referência que precisa ser fechada.
+
+O mesmo idioma de chave por mtime já era usado em
+`abrir_base_comparacao_gerida`; a conexão principal é que tinha ficado de fora.
+
+### Como conferir que nada quebrou
+
+`t_app_tmp.py` é o smoke test do app (`streamlit.testing.v1.AppTest`): varre as
+12 páginas nos 2 regimes, 24 execuções, e imprime `ok`/`ERRO` por combinação.
+
+```bash
+venv/bin/python t_app_tmp.py                       # base institucional
+PESC_DATA_DIR=/caminho/com/outro/duckdb venv/bin/python t_app_tmp.py
+```
+
+Pode rodar com o app no ar: ele abre o `.duckdb` em modo leitura, e duas
+conexões de leitura convivem.
+
+> Ao comparar a saída de duas versões do app, compare **conjuntos de linhas
+> ordenados**, nunca o CSV linha a linha: o `ORDER BY` do DuckDB não é estável
+> entre empates, então a mesma versão difere de si mesma entre duas execuções
+> nas tabelas com valores repetidos (Quadrienais, Por Docente, Orientações).
 
 ## Índices per capita
 
@@ -547,10 +684,21 @@ A fórmula é sempre a mesma:
 índice = papers do programa na janela ÷ COUNT(*) FROM tb_professores
 ```
 
-**O divisor é o quadro inteiro** (`tb_professores`), sem nenhum recorte por
-docente e sem excluir quem não publicou no período — idêntico ao divisor dos
-índices do Comparativo. O número aparece na legenda do bloco, e cada métrica traz
-no tooltip o absoluto e o divisor que a geraram.
+**No regime de data de ingresso, o divisor é o quadro inteiro**
+(`tb_professores`), sem nenhum recorte por docente e sem excluir quem não
+publicou no período — idêntico ao divisor dos índices do Comparativo.
+
+**No regime de anos de credenciamento, o divisor é quem esteve credenciado em
+pelo menos um ano da janela.** Um docente descredenciado durante todo o período
+tem, por definição da regra, produção zerada no recorte; mantê-lo no divisor
+seria contá-lo como alguém presente que nada produziu, rebaixando o per capita
+de todos os demais. Ele sai do divisor **e** da série — assim média, desvio e
+mediana continuam descrevendo a mesma população. Na base atual, janela
+2023–2027, isso é 30 em vez de 31, e a média de "Papers Geral" vai de 17,68
+para 18,27.
+
+O divisor em vigor aparece no título do bloco e na memória de cálculo, sempre
+com o número que produziu a média exibida.
 
 ### Os seis índices
 
@@ -590,6 +738,34 @@ que os dois números sempre fechem entre si:
 Como consequência do recorte por estrato, o Credenciamento em "Pontuação
 Restrita" e a Quadrienal Restrita exibem os mesmos seis valores para a mesma
 janela — é a mesma pergunta feita duas vezes.
+
+### A tabela "Por Ano" (só no regime de vigência)
+
+Sob vigência, abaixo da tabela de dispersão entra uma segunda leitura: papers e
+docentes credenciados de cada ano da janela, fechando com a **média das médias
+anuais**. As duas respondem perguntas diferentes, e é por isso que convivem:
+
+| | unidade | o que uma vigência parcial faz |
+|---|---|---|
+| Dispersão | papers por docente, na janela toda | nada — credenciado em 2 dos 5 anos conta como um docente inteiro |
+| Por Ano | papers por docente, **por ano** | pesa menos — ele entra em 2 linhas, não em 5 |
+
+Por isso a média das médias anuais **não** é a média da dispersão dividida pelo
+tamanho da janela.
+
+Dois cuidados registrados na legenda do bloco:
+
+- **Anos sem ninguém credenciado saem da conta.** Não é hipótese remota: o
+  filtro de período aceita desde `ANO_MIN` (1974 nesta base) e a planilha de
+  credenciamento começa muito depois — numa janela 1974–2027 são 36 anos vazios,
+  e dividir por eles seria uma divisão por zero. O divisor é a quantidade de
+  anos com ao menos um credenciado, e o bloco diz quantos ficaram de fora.
+- **Cada ano pesa igual**, independentemente de quantos docentes estavam
+  credenciados nele. A leitura alternativa, exibida ao lado, é a razão dos
+  totais (papers ÷ docente-anos), em que cada docente-ano pesa igual. As duas
+  divergem quando o tamanho do corpo credenciado varia na janela: +1,6% numa
+  janela de 5 anos nesta base, +6,4% numa de 18. Vale lembrar também que o
+  último ano costuma estar incompleto e entra como um ponto de peso inteiro.
 
 ### Coautoria interna infla o numerador
 

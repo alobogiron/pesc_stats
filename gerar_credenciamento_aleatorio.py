@@ -19,8 +19,9 @@ Uso:
 
 import argparse
 import csv
-import os
 import random
+
+import credenciamento as cred
 
 ARQUIVO_LISTA_PESSOAS = "lista_pessoas.csv"
 ARQUIVO_SAIDA = "dados_brutos/credenciamento_professores.csv"
@@ -114,22 +115,14 @@ def main():
         linhas.append({
             "id_lattes": id_lattes,
             "nome_referencia": str(pessoa.get("nome_referencia", "")).strip(),
-            "anos_credenciamento": ";".join(str(a) for a in anos),
+            "anos": anos,
         })
 
-    destino_dir = os.path.dirname(args.saida)
-    if destino_dir:
-        os.makedirs(destino_dir, exist_ok=True)
+    # A escrita passa por `credenciamento.py`, dono do formato do arquivo, para
+    # que este gerador não seja um segundo lugar onde o layout do CSV é decidido.
+    cred.escrever_csv_credenciamento(args.saida, linhas)
 
-    with open(args.saida, "w", newline="", encoding="utf-8") as f:
-        escritor = csv.DictWriter(
-            f, fieldnames=["id_lattes", "nome_referencia", "anos_credenciamento"]
-        )
-        escritor.writeheader()
-        escritor.writerows(linhas)
-
-    total_anos = sum(len(l["anos_credenciamento"].split(";")) if l["anos_credenciamento"] else 0
-                     for l in linhas)
+    total_anos = sum(len(l["anos"]) for l in linhas)
     print(f"{args.saida}: {len(linhas)} docentes, {total_anos} anos de credenciamento "
           f"(seed={args.seed}, janela {args.piso}-{args.teto}).")
 
