@@ -202,8 +202,43 @@ Lembre de levar junto as planilhas de apoio que o notebook lê da raiz
 | Extração falha com `session not created` / Chrome morre | `/dev/shm` pequeno demais. O compose já define `shm_size: 1gb` e a imagem passa `--disable-dev-shm-usage`; se estiver rodando via `docker run` na mão, acrescente `--shm-size=1g`. |
 | `chromedriver não encontrado em '...'` | Só acontece fora do container (binário local ausente: `cd scriptlattes && make setup-chromedriver`). Dentro dele o caminho vem de `CHROMEDRIVER_PATH`. |
 | Botões de extração/reprocessamento desabilitados para sempre | Job órfão: o container morreu no meio. O entrypoint destrava sozinho no próximo `docker compose up`/`restart`. |
+| Extração/reprocessamento falha com erro de conexão no ORCID ou na Scopus | DNS do container apontando para um nameserver morto — o notebook resolve `pub.orcid.org` e `api.elsevier.com` para chamar as APIs. Acontece sempre que a máquina troca de rede com o container de pé (veja [DNS e troca de rede](#dns-e-troca-de-rede)). `docker compose restart app`. |
 | Datas da UI 3h adiantadas | `TZ` não chegou ao container. Confira com `docker compose exec app date`. |
 | Mudei o código e nada mudou | Streamlit só recarrega o script a cada interação; force com `docker compose restart app`. Se mexeu em dependências, é rebuild. |
+
+### DNS e troca de rede
+
+**Trocar de rede WiFi quebra o DNS dos containers que já estão de pé.** Sintoma:
+extração e reprocessamento falham com erro de conexão, mas `docker compose ps`
+diz `healthy` e a UI abre normalmente. Conserto: `docker compose restart app`.
+
+O `/etc/resolv.conf` do container aponta para `127.0.0.11`, o resolvedor
+embutido do Docker. Ele não resolve nada sozinho: encaminha para os nameservers
+que o `dockerd` leu do `/etc/resolv.conf` **do host no momento em que o
+container subiu** — e não relê esse arquivo depois. Quando o NetworkManager
+reescreve o `resolv.conf` (troca de WiFi, renovação de DHCP), o container
+continua consultando o nameserver antigo, que em outra rede não responde.
+
+O que despista é que **o container não perde a internet**: rota, NAT e
+forwarding continuam intactos, só a tradução de nomes para. Diagnóstico rápido,
+de dentro do container:
+
+```bash
+# resolvedor embutido — SERVFAIL aqui é o sintoma
+docker compose exec app python -c "import socket; print(socket.gethostbyname('api.elsevier.com'))"
+
+# alcança a internet? (1.1.1.1 responde 301 em HTTP)
+docker compose exec app curl -s -o /dev/null -w "%{http_code}\n" -m 5 http://1.1.1.1/
+```
+
+Se o primeiro falha e o segundo responde, é exatamente este caso. Não é
+iptables, NAT nem daemon — não adianta `systemctl restart docker`, e testar com
+`http://8.8.8.8/` engana (o DNS do Google não serve HTTP na porta 80, então dá
+`000` mesmo com a rede boa).
+
+Ocorreu em 08/09/2026: container iniciado em 28/08 continuava encaminhando DNS
+para o nameserver daquele dia, 11 dias depois de o `resolv.conf` do host ter
+sido reescrito.
 
 ### Por dentro da imagem
 
