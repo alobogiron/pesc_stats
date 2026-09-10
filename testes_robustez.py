@@ -253,6 +253,141 @@ def suite_a():
         assert r["fontes"].iloc[0] == "LATTES"
         return "colapsa para 1 linha, fontes='LATTES'"
 
+    # -------------------------------------------------------------------------
+    # alocacao_papers: a pontuação e a alocação ótima, sem Streamlit no caminho
+    # -------------------------------------------------------------------------
+    import itertools
+    import random
+
+    import alocacao_papers as ap
+
+    def _instancia(linhas):
+        """Atalho: dicionários -> DataFrame pontuado e agrupado."""
+        colunas = {c: None for c in ap.COLUNAS_ESPERADAS}
+        return ap.agrupar(ap.pontuar(pd.DataFrame([{**colunas, **linha} for linha in linhas])))
+
+    @caso("A", "pontuar reproduz a tabela de pesos do credenciamento", "alta")
+    def _():
+        df = ap.pontuar(pd.DataFrame([
+            {"maior_percentil": 90, "computation_area": True, "coautoria_aluno": True,
+             "citacoes": 10},
+            {"maior_percentil": 51, "computation_area": False, "coautoria_aluno": False,
+             "citacoes": None},
+            {"maior_percentil": None, "computation_area": None, "coautoria_aluno": None,
+             "citacoes": "lixo"},
+        ]))
+        assert abs(df["pontuacao"].iloc[0] - (1.0 * 1.25 * 1.5 + 0.10)) < 1e-9, df.iloc[0]
+        assert abs(df["pontuacao"].iloc[1] - 0.625) < 1e-9, df.iloc[1]
+        assert abs(df["pontuacao"].iloc[2] - 0.125) < 1e-9, df.iloc[2]
+        assert list(df["estrato"]) == ["A1", "A4", "A8"], list(df["estrato"])
+        return "A1 c/ bônus = 1,975; percentil nulo cai em A8; citação não numérica vira 0"
+
+    @caso("A", "pontuar com citações negativas e teto", "média")
+    def _():
+        df = ap.pontuar(pd.DataFrame([
+            {"maior_percentil": 90, "computation_area": False, "coautoria_aluno": False,
+             "citacoes": -5},
+            {"maior_percentil": 90, "computation_area": False, "coautoria_aluno": False,
+             "citacoes": 5000},
+        ]), teto_citacoes=100)
+        assert df["citacoes_consideradas"].tolist() == [0.0, 100.0], df["citacoes_consideradas"]
+        return "citação negativa vira 0; teto corta o outlier"
+
+    @caso("A", "alocação é o ótimo exato (conferido por força bruta)", "crítica")
+    def _():
+        rng = random.Random(20260910)
+        for _ in range(120):
+            docentes = [f"d{i}" for i in range(rng.randint(1, 4))]
+            linhas = []
+            for p in range(rng.randint(1, 5)):
+                for d in rng.sample(docentes, rng.randint(1, len(docentes))):
+                    linhas.append({
+                        "id_lattes": d, "docente": d, "titulo_artigo": f"T{p}", "ano": 2020,
+                        "doi": f"10.1/{p}" if rng.random() < 0.7 else None,
+                        "maior_percentil": rng.choice([None, 10, 55, 95]),
+                        "computation_area": rng.random() < 0.5,
+                        "coautoria_aluno": rng.random() < 0.5,
+                        "citacoes": rng.choice([None, 0, 3, 40]),
+                    })
+            df = _instancia(linhas)
+            cotas = {d: rng.randint(0, 3) for d in docentes}
+            resultado = ap.resolver(df, cotas)
+
+            grupos = sorted(df["grupo"].unique())
+            candidatos = {g: sorted(set(df[df["grupo"] == g]["id_lattes"])) for g in grupos}
+            melhor = 0.0
+            for combinacao in itertools.product(*[[None] + candidatos[g] for g in grupos]):
+                uso, total, viavel = {}, 0.0, True
+                for grupo, docente in zip(grupos, combinacao):
+                    if docente is None:
+                        continue
+                    uso[docente] = uso.get(docente, 0) + 1
+                    if uso[docente] > cotas.get(docente, 0):
+                        viavel = False
+                        break
+                    total += df[(df["grupo"] == grupo)
+                                & (df["id_lattes"] == docente)]["pontuacao"].max()
+                if viavel:
+                    melhor = max(melhor, total)
+            assert abs(melhor - resultado.total) < 1e-6, (melhor, resultado.total, cotas, linhas)
+        return "120 instâncias aleatórias: húngaro == força bruta"
+
+    @caso("A", "invariantes da alocação: paper único e cota como teto", "crítica")
+    def _():
+        linhas = [
+            {"id_lattes": "a", "docente": "A", "titulo_artigo": "Compartilhado", "ano": 2020,
+             "doi": "10.1/x", "maior_percentil": 95, "computation_area": True,
+             "coautoria_aluno": True, "citacoes": 3},
+            {"id_lattes": "b", "docente": "B", "titulo_artigo": "COMPARTILHADO!", "ano": 2020,
+             "doi": None, "maior_percentil": 10, "computation_area": False,
+             "coautoria_aluno": False, "citacoes": 0},
+        ]
+        df = _instancia(linhas)
+        assert df["grupo"].nunique() == 1, "título normalizado igual no mesmo ano não uniu"
+        resultado = ap.resolver(df, {"a": 5, "b": 5})
+        assert len(resultado.alocacao) == 1, resultado.alocacao
+        assert resultado.alocacao["id_lattes"].iloc[0] == "a", "foi para quem pontua menos"
+        assert list(resultado.por_docente["faltando"]) == [4, 5], resultado.por_docente
+        assert len(resultado.disputas) == 1, resultado.disputas
+        return "paper coassinado vai para um só; cota não preenchida vira 'faltando'"
+
+    @caso("A", "alocação com entradas degeneradas", "alta")
+    def _():
+        vazio = ap.agrupar(ap.pontuar(pd.DataFrame(columns=ap.COLUNAS_ESPERADAS)))
+        sem_papers = ap.resolver(vazio, {"x": 3}, nomes={"x": "Xis"})
+        assert sem_papers.total == 0.0
+        # Base sem nenhum paper ainda lista o docente pedido, com a cota inteira
+        # em aberto -- a página precisa dizer "faltaram 3", não sumir com ele.
+        assert list(sem_papers.por_docente["faltando"]) == [3], sem_papers.por_docente
+        assert list(sem_papers.por_docente["docente"]) == ["Xis"], sem_papers.por_docente
+        assert ap.resolver(vazio, {}).total == 0.0
+        assert ap.resolver(vazio, None).total == 0.0
+        df = _instancia([
+            {"id_lattes": "a", "docente": "A", "titulo_artigo": "T", "ano": 2020,
+             "doi": None, "maior_percentil": 95, "computation_area": False,
+             "coautoria_aluno": False, "citacoes": 1},
+        ])
+        assert ap.resolver(df, {"a": 0}).total == 0.0, "cota zero alocou algo"
+        assert ap.resolver(df, {"z": 9}).total == 0.0, "alocou paper de quem não o assina"
+        assert len(ap.resolver(df, {"a": 99}).alocacao) == 1, "duplicou o único paper"
+        return "df vazio, cota 0, docente sem papers e cota maior que o acervo"
+
+    @caso("A", "alocação não degenera com muitos pares", "média")
+    def _():
+        rng = random.Random(7)
+        linhas = [{
+            "id_lattes": f"d{i % 40}", "docente": f"D{i % 40}",
+            "titulo_artigo": f"T{i}", "ano": 2020, "doi": f"10.1/{i}",
+            "maior_percentil": rng.choice([None, 30, 60, 90]),
+            "computation_area": rng.random() < 0.5, "coautoria_aluno": rng.random() < 0.5,
+            "citacoes": rng.randint(0, 50),
+        } for i in range(4000)]
+        df = _instancia(linhas)
+        with Prazo(30):
+            resultado = ap.resolver(df, {f"d{i}": 20 for i in range(40)})
+        assert len(resultado.alocacao) == 40 * 20, len(resultado.alocacao)
+        return "4.000 pares x 800 vagas resolvidos em menos de 30s"
+
 
 # =============================================================================
 # SUÍTE B — jobs: renomear/excluir sob estados hostis
@@ -517,7 +652,8 @@ def suite_c():
     PAGINAS = ["Indicadores Institucionais", "Análise por Docente",
                "Série Histórica da Produção", "Repositório Geral de Artigos",
                "Avaliação Quadrienal Geral (A1-A8)", "Avaliação Quadrienal Restrita (A1-A4)",
-               "Relatório de Credenciamento Consolidado", "Panorama de Orientações Acadêmicas",
+               "Relatório de Credenciamento Consolidado", "Alocação Ótima de Papers",
+               "Panorama de Orientações Acadêmicas",
                "Geração de Relatórios", "Comparativo entre Bases", "Configurações"]
 
     def rodar_paginas(data_dir):
@@ -570,6 +706,32 @@ def suite_c():
             quebradas = rodar_paginas(d)
             assert not quebradas, f"páginas com exceção: {quebradas}"
             return "31 docentes, 0 publicações — nenhuma divisão por zero"
+
+        @caso("C", "filtro de período com intervalo invertido não quebra a página", "alta")
+        def _():
+            # Digitar um Ano de Fim menor que o Ano de Início levantava
+            # StreamlitAPIException em qualquer página: `renderizar_filtro_periodo`
+            # corrigia a inversão escrevendo em st.session_state DEPOIS de o widget
+            # de mesma chave existir. A correção passou a acontecer no on_change.
+            quebradas, sem_troca = [], []
+            for pagina, chave in [("Avaliação Quadrienal Geral (A1-A8)", "quadrienal_geral"),
+                                  ("Alocação Ótima de Papers", "alocacao"),
+                                  ("Análise por Docente", "docente")]:
+                at = AppTest.from_file(os.path.join(RAIZ, "app.py"), default_timeout=180)
+                at.session_state["pagina_atual"] = pagina
+                at.run()
+                at.number_input(key=f"{chave}_ano_inicio").set_value(2020).run()
+                at.number_input(key=f"{chave}_ano_fim").set_value(2010).run()
+                if at.exception:
+                    quebradas.append((pagina, str(at.exception[0].value)[:120]))
+                    continue
+                valores = (at.number_input(key=f"{chave}_ano_inicio").value,
+                           at.number_input(key=f"{chave}_ano_fim").value)
+                if valores != (2010, 2020):
+                    sem_troca.append((pagina, valores))
+            assert not quebradas, f"páginas com exceção: {quebradas}"
+            assert not sem_troca, f"páginas que não trocaram os anos: {sem_troca}"
+            return "3 páginas: intervalo invertido é trocado, com aviso e sem exceção"
 
         @caso("C", "Base B: arquivo aleatório é recusado com erro tratável", "alta")
         def _():

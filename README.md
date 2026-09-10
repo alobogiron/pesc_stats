@@ -431,6 +431,13 @@ divergirem por causa do código — exatamente aquilo que a comparação deveria
 detectar como diferença de produção. Se você for mexer nessas funções, mexa
 **no módulo**; nunca reintroduza uma definição local num notebook.
 
+O módulo também guarda a **exceção** a essa regra:
+`agrupar_papers_entre_docentes` e `escolher_representantes` agrupam o mesmo
+paper *entre* docentes, para as duas perguntas em que a unidade é o paper e não
+o par (professor, paper) — o relatório de coautoria discente na visão "uma
+linha por paper" e a página de [Alocação Ótima](#alocação-ótima-de-papers). O
+casamento lá também é exato, e pelas mesmas normalizações.
+
 ### As regras, em ordem de aplicação
 
 1. **`normalizar_doi`** — o campo `doi` do Lattes é texto livre, e com
@@ -818,6 +825,135 @@ Trocar para a contagem distinta exigiria uma dedup entre docentes, e faria estes
 índices deixarem de ser comparáveis com os per capita do Comparativo. A decisão
 consciente foi manter a convenção existente.
 
+## Alocação ótima de papers
+
+A página **Alocação Ótima de Papers** responde uma pergunta diferente da de
+todas as outras: elas medem *quanto o programa produziu*; esta decide *qual
+paper cada docente deve declarar* quando o formulário pede uma quantidade fixa
+de papers por docente. Só entram **artigos de periódico**.
+
+O que torna o problema não-trivial é a coautoria docente: um artigo assinado
+por dois docentes do quadro pode ser declarado por qualquer um dos dois, mas
+**só por um** — depois de usado, sai da mesa. Escolher o melhor paper de cada
+docente isoladamente, um de cada vez, não dá a melhor resposta do conjunto.
+
+A regra vive em `alocacao_papers.py` (nada de Streamlit lá dentro, para a
+suíte de robustez exercitá-la direto); a página só monta a consulta, colhe os
+parâmetros e exibe.
+
+### A pontuação
+
+Reaproveita a tabela de pesos do score de credenciamento
+(`montar_query_credenciamento`) e acrescenta o termo de citações:
+
+```
+pontuação = peso_qualis × 1,25^(computação) × 1,5^(coautoria discente)
+          + peso_citação × citações
+```
+
+`peso_qualis` vai de 1,000 (A1) a 0,125 (A8) conforme `maior_percentil`;
+periódico sem percentil casado cai em A8, como o `ELSE 0.125` da query de
+credenciamento. O termo de citações é **somado**, não multiplicado: os bônus de
+área e de coautoria discente não o amplificam. O peso por citação é editável na
+página, com 0,01 como padrão.
+
+A pontuação é do **par** (docente, paper), não do paper: `coautoria_aluno` e
+`maior_percentil` podem divergir entre as linhas de dois coautores do quadro
+(veja [Metadados contaminados](#metadados-contaminados-entre-coautores-causa-raiz-no-scriptlattes)).
+
+Três consequências que a página exibe junto do resultado, porque mudam a
+leitura:
+
+- **O termo de citações desloca o ranking.** Com 0,01, cerca de 87 citações
+  valem um A1 com os dois bônus. Na janela 2021–2024 desta base o paper mais
+  bem pontuado é um **A2 com discente e 234 citações (3,653)**, à frente de um
+  **A1 com discente (1,875)**. Em janelas longas o efeito é maior — há
+  periódico com mais de 2.000 citações —, e para isso existe o teto opcional de
+  citações por paper.
+- **Cobertura da Scopus é parcial.** Na janela 2021–2024, 70% dos pares
+  (docente, paper) elegíveis têm contagem de citação; os demais entram com
+  **zero**, não com "desconhecido". É um viés sistemático contra o que não está indexado, e a
+  página mostra a cobertura em vigor.
+- **No critério Restrito o corte é por exclusão, não por peso zero.** A5–A8
+  saem da mesa (`filtrar_restrito`, percentil >= 50, o mesmo corte da Quadrienal
+  Restrita). Com peso zero, um A8 muito citado ainda pontuaria pelo termo de
+  citações e poderia ser escolhido — exatamente o que o critério restrito
+  exclui.
+
+### Cada paper é um paper só
+
+Duas linhas de docentes diferentes são o mesmo artigo quando têm o **mesmo DOI
+normalizado** ou o **mesmo título normalizado no mesmo ano**, unidos por
+componentes conexos. É `dedup_publicacoes.agrupar_papers_entre_docentes`, a
+única comparação do sistema que atravessa docentes — a chave de deduplicação da
+base leva o `id_lattes` como prefixo justamente para nunca fundir currículos
+(veja [Deduplicação](#deduplicação-e-qualidade-dos-dois)). O casamento continua
+**exato**, sem nenhum limiar de similaridade.
+
+A mesma função serve o relatório "Papers com coautoria discente" na visão *uma
+linha por paper*. As duas perguntas são diferentes, mas precisam concordar
+sobre o que é "o mesmo paper" — por isso a regra é uma só, e não uma cópia em
+cada página.
+
+### A escolha é ótima, não heurística
+
+Formalmente: maximizar a soma das pontuações com duas restrições — cada docente
+recebe no máximo a sua cota, cada paper é usado no máximo uma vez. É um
+**problema de atribuição bipartida com cota** (b-matching / transporte), cuja
+matriz de restrições é totalmente unimodular: o ótimo é inteiro e sai em tempo
+polinomial. Não é NP-difícil, e não há heurística nem critério de parada a
+ajustar.
+
+`resolver` expande cada docente em `cota` vagas e chama o húngaro do SciPy
+(`scipy.optimize.linear_sum_assignment`, já no `requirements.txt`). Pares
+inelegíveis entram na matriz valendo zero, e os elegíveis valendo a pontuação
+mais um epsilon — assim o pareamento forçado nunca prefere uma célula
+inelegível, e as que sobram valem zero e são descartadas sem alterar o total.
+Cota maior do que o acervo do docente não infla a matriz: as vagas impossíveis
+são cortadas antes.
+
+Na base atual, janela 2021–2024, com os 31 docentes e cota 4:
+
+| | |
+|---|---|
+| pares (docente, paper) avaliados | 303 |
+| papers distintos | 282 |
+| papers disputados por 2+ docentes | 21 |
+| alocação completa (ótimo + guloso + fechamento) | ~20 ms |
+| pontuação ótima | 160,261 |
+| pontuação de uma alocação gulosa | 160,024 |
+
+A página exibe essa diferença como **ganho sobre a alocação gulosa** (aqui
+0,236). O guloso — cada docente pega os seus melhores papers ainda livres,
+começando por quem tem menos opções — chega perto porque poucos papers são
+disputados; o ótimo custa milissegundos, então não há motivo para abrir mão
+dele. A suíte de robustez confere o ótimo contra **força bruta** em 120
+instâncias aleatórias (suíte A).
+
+### Cota é teto, nunca meta
+
+Docente sem papers elegíveis suficientes fica com a cota incompleta, e o
+fechamento registra quantos faltaram e quantos papers ele poderia ter usado. A
+alocação nunca inventa paper nem toma emprestado de quem não o assina. Na
+janela acima, com cota 4, sobram 10 vagas em aberto — a maioria dos docentes
+tem menos de 4 periódicos em quatro anos sob o recorte em vigor.
+
+Um paper disputado também pode acabar **com ninguém**: acontece quando os dois
+candidatos têm papers melhores para pôr no lugar. A tabela de disputados mostra
+esse caso explicitamente.
+
+### De onde vêm as citações
+
+De `tb_artigo_periodico.citacoes_scopus`, que a Seção 8 do notebook propaga da
+tabela por fonte para a unificada (`unificar_com_dedup` toma o primeiro valor
+não nulo na ordem LATTES > SCOPUS > ORCID, e só a linha da Scopus tem citação).
+
+**Banco gerado antes dessa mudança não tem a coluna.** A página detecta isso
+(`tem_coluna`), avisa na tela e segue funcionando com **0 citação para todos os
+papers** — Qualis e coautoria discente continuam valendo. Um reprocessamento
+resolve: o `ALTER TABLE` idempotente da Seção 12 acrescenta a coluna aos bancos
+antigos, e a carga a preenche.
+
 ## Limitações conhecidas
 
 Documentadas porque foram investigadas e medidas, e a decisão consciente foi
@@ -899,7 +1035,11 @@ O banco institucional tem **14 tabelas**: 6 principais (`tb_professores`,
 `tb_artigo_conferencia`), 6 por fonte (`tb_artigo_{periodico,conferencia}_{lattes,orcid,scopus}`,
 com o dado pré-deduplicação) e `tb_dois_descartados`. Há ainda
 `tb_situacao_orientandos` e `tb_credenciamento_anos`, gravadas em conexão
-própria nas Seções 14 e 15. O banco de
+própria nas Seções 14 e 15. A coluna `citacoes_scopus` existe nas oito tabelas
+de artigos — nas seis por fonte para que as três fontes tenham o mesmo schema,
+e nas duas unificadas porque é de `tb_artigo_periodico` que a
+[Alocação Ótima](#alocação-ótima-de-papers) lê as citações; só as linhas vindas
+da Scopus têm valor, nem Lattes nem ORCID expõem contagem de citações. O banco de
 comparação tem 5 (`tb_professores`, `tb_artigo_periodico`,
 `tb_artigo_conferencia`, `tb_orientacoes`, `tb_dois_descartados`).
 

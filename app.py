@@ -16,6 +16,10 @@ import dedup_publicacoes as dp
 # para montar `tb_credenciamento_anos`); aqui só o caminho do CSV é consultado,
 # para que a página de vigência diga de onde os anos vieram.
 import credenciamento as cred
+# Regra única da pontuação e da alocação de papers entre docentes, usada só
+# pela página "Alocação Ótima de Papers". Fica em módulo para ser exercitada
+# pela suíte de robustez sem subir o Streamlit.
+import alocacao_papers as aloc
 
 # ==========================================
 # 1. CONFIGURAÇÃO DA INTERFACE INSTITUCIONAL
@@ -189,9 +193,16 @@ def renderizar_filtro_periodo(ano_min, ano_max, chave_pagina, titulo_extra=""):
     usa uma chave de widget própria (`chave_pagina`) e recorta (clampa) o
     valor herdado para os seus próprios limites válidos (ano_min/ano_max),
     já que páginas diferentes podem ter intervalos de dados diferentes (ex.:
-    a base de comparação enviada pelo usuário). Valida ao final que início
-    <= fim, corrigindo automaticamente -- nunca deixa passar um intervalo
+    a base de comparação enviada pelo usuário). Valida que início <= fim,
+    corrigindo automaticamente -- nunca deixa passar um intervalo
     invertido/negativo para as consultas.
+
+    A troca acontece num `on_change`, e não depois de os campos existirem:
+    escrever em `st.session_state[chave]` depois que o widget de mesma chave
+    foi instanciado levanta `StreamlitAPIException`, e era exatamente isso que
+    acontecia -- em qualquer página -- ao digitar um Ano de Fim menor que o Ano
+    de Início. Callback roda antes do script, quando a atribuição ainda é
+    permitida.
     """
     def _clamp(valor, padrao):
         if valor is None:
@@ -200,6 +211,17 @@ def renderizar_filtro_periodo(ano_min, ano_max, chave_pagina, titulo_extra=""):
 
     chave_inicio = f"{chave_pagina}_ano_inicio"
     chave_fim = f"{chave_pagina}_ano_fim"
+    chave_troca = f"{chave_pagina}_periodo_trocado"
+
+    def _trocar_se_invertido():
+        inicio = st.session_state.get(chave_inicio)
+        fim = st.session_state.get(chave_fim)
+        if inicio is None or fim is None or inicio <= fim:
+            return
+        st.session_state[chave_inicio], st.session_state[chave_fim] = fim, inicio
+        # Guarda o par original só para a mensagem: o aviso precisa dizer o que
+        # o usuário digitou, não o valor já corrigido que os campos exibem.
+        st.session_state[chave_troca] = (inicio, fim)
 
     if chave_inicio not in st.session_state:
         st.session_state[chave_inicio] = _clamp(
@@ -213,21 +235,33 @@ def renderizar_filtro_periodo(ano_min, ano_max, chave_pagina, titulo_extra=""):
     col1, col2 = st.columns(2)
     with col1:
         ano_inicio = st.number_input(
-            f"Ano de Início{titulo_extra}", min_value=ano_min, max_value=ano_max, key=chave_inicio
+            f"Ano de Início{titulo_extra}", min_value=ano_min, max_value=ano_max,
+            key=chave_inicio, on_change=_trocar_se_invertido,
         )
     with col2:
         ano_fim = st.number_input(
-            f"Ano de Fim{titulo_extra}", min_value=ano_min, max_value=ano_max, key=chave_fim
+            f"Ano de Fim{titulo_extra}", min_value=ano_min, max_value=ano_max,
+            key=chave_fim, on_change=_trocar_se_invertido,
+        )
+
+    digitado = st.session_state.pop(chave_troca, None)
+    if digitado:
+        st.error(
+            f"Ano de Início ({digitado[0]}) não pode ser maior que Ano de Fim "
+            f"({digitado[1]}); os valores foram trocados automaticamente."
         )
 
     if ano_inicio > ano_fim:
+        # Caminho defensivo: intervalo invertido que não veio de uma edição nos
+        # campos -- herdado de outra página com outros limites, por exemplo, em
+        # que o `_clamp` acima puxou só uma das pontas. O callback não roda
+        # nesse caso e os widgets já existem, então corrige-se apenas o valor
+        # que vai para as consultas.
         st.error(
             f"Ano de Início ({ano_inicio}) não pode ser maior que Ano de Fim ({ano_fim}); "
             "os valores foram trocados automaticamente."
         )
         ano_inicio, ano_fim = ano_fim, ano_inicio
-        st.session_state[chave_inicio] = ano_inicio
-        st.session_state[chave_fim] = ano_fim
 
     st.session_state["filtro_ano_inicio"] = ano_inicio
     st.session_state["filtro_ano_fim"] = ano_fim
@@ -349,6 +383,7 @@ if status_process.get("state") == "done":
 PAGINA_COMPARATIVO = "Comparativo entre Bases"
 PAGINA_CONFIGURACOES = "Configurações"
 PAGINA_VIGENCIA = "Credenciamento por Vigência"
+PAGINA_ALOCACAO = "Alocação Ótima de Papers"
 
 # Chave longa = identificador usado no restante do arquivo; valor = rótulo
 # curto exibido no menu (o título completo continua no topo de cada página).
@@ -364,6 +399,7 @@ ROTULOS_PAGINAS = {
     # `tb_credenciamento_anos` carregada -- bancos gerados antes da Seção 15 do
     # notebook continuam com exatamente o menu de sempre.
     **({PAGINA_VIGENCIA: "Credenciamento (vigência)"} if credenciamento_disponivel else {}),
+    PAGINA_ALOCACAO: "Alocação ótima",
     "Panorama de Orientações Acadêmicas": "Orientações",
     "Geração de Relatórios": "Relatórios",
     PAGINA_COMPARATIVO: "Comparativo",
@@ -1722,6 +1758,352 @@ elif pagina_selecionada == PAGINA_VIGENCIA:
     )
 
 # ------------------------------------------
+# PÁGINA 7.2: ALOCAÇÃO ÓTIMA DE PAPERS
+# ------------------------------------------
+# Página de decisão, e não de indicador: as demais respondem "quanto o programa
+# produziu"; esta responde "qual paper cada docente deve declarar" quando o
+# formulário pede uma quantidade fixa de papers por docente e um artigo
+# coassinado por dois docentes do quadro só pode ser usado por um deles.
+#
+# A regra -- pontuação e alocação -- vive em `alocacao_papers.py`. Aqui só se
+# monta a consulta, se colhem os parâmetros e se exibe o resultado, como nas
+# demais páginas em relação a `dedup_publicacoes.py` e `credenciamento.py`.
+elif pagina_selecionada == PAGINA_ALOCACAO:
+    st.title("Alocação Ótima de Papers")
+    st.markdown(
+        "Dados os docentes selecionados e quantos papers cada um precisa declarar, este "
+        "módulo decide **qual paper vai para qual docente** de modo a maximizar a pontuação "
+        "total do conjunto. Só entram **artigos publicados em periódicos**. Cada paper é "
+        "único: um artigo assinado por dois docentes do quadro pode ir para qualquer um dos "
+        "dois, mas depois de usado sai da mesa."
+    )
+
+    CRITERIO_GERAL = "Geral (A1-A8)"
+    CRITERIO_RESTRITO = "Restrita (A1-A4)"
+
+    # A coluna de citações só existe em bancos gerados a partir da versão do
+    # notebook que a propaga para a tabela unificada. Sem ela a página continua
+    # funcionando -- Qualis e coautoria discente não dependem dela --, mas todo
+    # paper entra com zero citação, e isso precisa estar dito na tela.
+    tem_citacoes = tem_coluna(con, "tb_artigo_periodico", "citacoes_scopus")
+    if not tem_citacoes:
+        st.warning(
+            "Este banco foi gerado antes de a coluna `citacoes_scopus` chegar a "
+            "`tb_artigo_periodico`: **todos os papers entram com 0 citação**. O Qualis e a "
+            "coautoria discente seguem valendo. Rode um reprocessamento para trazer as "
+            "citações da Scopus."
+        )
+        st.button(
+            "Abrir Configurações",
+            on_click=ir_para_pagina,
+            args=(PAGINA_CONFIGURACOES,),
+            key="btn_ir_config_alocacao",
+        )
+
+    st.subheader("Janela de Apuração")
+    ano_inicio, ano_fim = renderizar_filtro_periodo(ANO_MIN, ANO_MAX, "alocacao")
+    criterio = st.radio(
+        "Critério de apuração",
+        [CRITERIO_GERAL, CRITERIO_RESTRITO],
+        horizontal=True,
+        key="alocacao_criterio",
+        help="Geral considera os oito estratos. Restrita descarta o que está fora de "
+             "A1-A4 (percentil Scopus < 50), como nas páginas Quadrienal Restrita e "
+             "Credenciamento restrito — o descarte é por exclusão, não por peso zero, "
+             "senão um A8 muito citado ainda seria escolhido pelo termo de citações.",
+    )
+    restrito = criterio == CRITERIO_RESTRITO
+
+    df_docentes = con.execute(
+        "SELECT id_lattes, nome_completo FROM tb_professores ORDER BY nome_completo"
+    ).df()
+
+    if df_docentes.empty:
+        st.warning("Nenhum docente cadastrado nesta base — não há o que alocar.")
+    else:
+        nomes_por_id = dict(zip(df_docentes["id_lattes"], df_docentes["nome_completo"]))
+
+        st.subheader("Docentes e Cotas")
+        selecionados = st.multiselect(
+            "Docentes considerados",
+            options=list(nomes_por_id),
+            default=list(nomes_por_id),
+            format_func=lambda i: nomes_por_id.get(i, i),
+            key="alocacao_docentes",
+        )
+        cota_padrao = st.number_input(
+            "Papers por docente", min_value=0, max_value=200, value=4, step=1,
+            key="alocacao_cota_padrao",
+            help="Quantos papers cada docente precisa declarar. Vale para todos; a cota "
+                 "de cada um pode ser ajustada logo abaixo.",
+        )
+
+        cotas = {i: int(cota_padrao) for i in selecionados}
+        if selecionados:
+            with st.expander("Ajustar a cota docente a docente"):
+                st.caption(
+                    "A cota global acima preenche a coluna. Mexer nela aqui vale só para "
+                    "aquele docente — e trocar a cota global recompõe a tabela inteira."
+                )
+                grade_inicial = pd.DataFrame({
+                    "Docente": [nomes_por_id[i] for i in selecionados],
+                    "Cota": [int(cota_padrao)] * len(selecionados),
+                })
+                # A chave carrega a cota global e a seleção: `data_editor` guarda
+                # as edições por chave e ignoraria um novo valor-padrão, então
+                # mudar a cota global tem de produzir um widget novo.
+                grade_editada = st.data_editor(
+                    grade_inicial,
+                    hide_index=True,
+                    use_container_width=True,
+                    disabled=["Docente"],
+                    column_config={
+                        "Cota": st.column_config.NumberColumn(
+                            "Cota", min_value=0, max_value=200, step=1, format="%d"),
+                    },
+                    key=f"alocacao_grade_{cota_padrao}_{len(selecionados)}_"
+                        f"{abs(hash(tuple(sorted(selecionados)))) % 100000}",
+                )
+                cotas = {
+                    i: int(linha["Cota"]) if pd.notna(linha["Cota"]) else 0
+                    for i, (_, linha) in zip(selecionados, grade_editada.iterrows())
+                }
+
+        with st.expander("Modelo de pontuação"):
+            st.markdown(
+                "A pontuação de cada par (docente, paper) reaproveita a tabela de pesos do "
+                "score de credenciamento e acrescenta o termo de citações:"
+            )
+            st.latex(
+                r"\text{pontuação} = \underbrace{p_{\text{Qualis}} \times "
+                r"1{,}25^{\,\text{computação}} \times 1{,}5^{\,\text{discente}}}"
+                r"_{\text{como no Credenciamento}} \;+\; w_{\text{cit}} \times \text{citações}"
+            )
+            st.markdown(
+                f"$p_{{Qualis}}$ vale 1,000 (A1), 0,875 (A2), 0,750 (A3), 0,625 (A4), 0,500 "
+                f"(A5), 0,375 (A6), 0,250 (A7) e {aloc.PESO_SEM_PERCENTIL:.3f}".replace(".", ",")
+                + " (A8, e também o periódico sem percentil casado). O termo de citações é "
+                "**somado**, não multiplicado: os bônus de área e de coautoria discente não "
+                "o amplificam."
+            )
+            peso_citacao = st.number_input(
+                "Pontos por citação", min_value=0.0, max_value=1.0,
+                value=aloc.PESO_CITACAO_PADRAO, step=0.005, format="%.3f",
+                key="alocacao_peso_citacao",
+                help="Com 0,010, cerca de 87 citações valem um A1 com coautoria discente "
+                     "e bônus de computação. Em janelas longas o termo de citações domina "
+                     "o ranking; em uma janela quadrienal ele costuma só desempatar.",
+            )
+            usar_teto = st.checkbox(
+                "Limitar as citações contadas por paper", value=False,
+                key="alocacao_usar_teto",
+                help="Trava contra o outlier: nesta base há periódico com mais de 2.000 "
+                     "citações, que sozinho valeria mais de 20 pontos.",
+            )
+            teto_citacoes = st.number_input(
+                "Teto de citações por paper", min_value=1, max_value=10000, value=100, step=10,
+                key="alocacao_teto_citacoes",
+            ) if usar_teto else None
+
+        if not selecionados:
+            st.info("Selecione ao menos um docente para calcular a alocação.")
+        elif not any(cotas.values()):
+            st.info("Todas as cotas estão em zero — nada a alocar.")
+        else:
+            marcadores = ", ".join("?" for _ in selecionados)
+            expressao_citacoes = "a.citacoes_scopus" if tem_citacoes else "NULL"
+            query_pares = f"""
+                SELECT
+                    a.id_lattes,
+                    p.nome_completo AS docente,
+                    a.titulo_artigo,
+                    a.ano_pub AS ano,
+                    a.doi,
+                    COALESCE(NULLIF(a.titulo_revista_scopus, ''), a.titulo_revista_lattes) AS veiculo,
+                    a.maior_percentil,
+                    a.computation_area,
+                    a.coautoria_aluno,
+                    {expressao_citacoes} AS citacoes
+                FROM tb_artigo_periodico a
+                JOIN tb_professores p ON p.id_lattes = a.id_lattes
+                WHERE a.ano_pub BETWEEN ? AND ?
+                  AND a.id_lattes IN ({marcadores})
+                  {sql_fonte('a.fontes')}{sql_recorte_docente('a', 'ano_pub')}
+            """
+            df_pares = con.execute(query_pares, [ano_inicio, ano_fim, *selecionados]).df()
+
+            linhas_antes_do_corte = len(df_pares)
+            if restrito:
+                df_pares = aloc.filtrar_restrito(df_pares)
+
+            if df_pares.empty:
+                # Distinguir "não há paper nenhum na janela" de "havia, mas o
+                # critério restrito levou todos": o conserto é outro em cada caso.
+                if restrito and linhas_antes_do_corte:
+                    st.warning(
+                        f"Os {linhas_antes_do_corte} artigo(s) de periódico da janela estão "
+                        "todos fora de A1-A4 — nada sobrou para alocar no critério restrito."
+                    )
+                else:
+                    st.warning(
+                        "Nenhum artigo de periódico elegível na janela e nos filtros atuais. "
+                        "Confira o período e os dois filtros globais da barra lateral "
+                        "(fonte dos papers e regime de contagem)."
+                    )
+            else:
+                df_pontuado = aloc.pontuar(
+                    df_pares, peso_citacao=peso_citacao, teto_citacoes=teto_citacoes)
+                df_agrupado = aloc.agrupar(df_pontuado)
+                resultado = aloc.resolver(df_agrupado, cotas, nomes=nomes_por_id)
+
+                st.subheader("Resultado da Alocação")
+                total_faltando = int(resultado.por_docente["faltando"].sum())
+                col1, col2, col3, col4 = st.columns(4)
+                col1.metric("Pontuação total", _num_br(resultado.total, 3))
+                col2.metric("Papers alocados",
+                            f"{len(resultado.alocacao)} de {sum(cotas.values())}")
+                col3.metric("Cotas em aberto", total_faltando)
+                col4.metric("Ganho sobre a alocação gulosa",
+                            _num_br(resultado.ganho_sobre_guloso, 3))
+
+                if tem_citacoes:
+                    com_citacao = int(pd.to_numeric(
+                        df_pares["citacoes"], errors="coerce").notna().sum())
+                    st.caption(
+                        f"Cobertura de citações: {com_citacao} de {len(df_pares)} "
+                        f"({com_citacao / len(df_pares):.0%}) dos pares (docente, paper) "
+                        "elegíveis têm contagem vinda da Scopus — é por par que a "
+                        "pontuação é feita. Os demais entram com **zero citação**, "
+                        "não como \"desconhecido\" — é um viés conhecido contra o que não "
+                        "está indexado na Scopus."
+                    )
+                if total_faltando:
+                    st.info(
+                        f"{total_faltando} vaga(s) ficaram em aberto: os docentes abaixo com "
+                        "\"Faltando\" positivo não têm papers elegíveis suficientes na janela "
+                        "(ou os que tinham foram para um coautor). A coluna \"Elegíveis\" diz "
+                        "quantos papers distintos cada um poderia usar."
+                    )
+
+                st.markdown("#### Fechamento por Docente")
+                fechamento = pd.DataFrame({
+                    "Docente": resultado.por_docente["docente"],
+                    "Cota": resultado.por_docente["cota"],
+                    "Elegíveis": resultado.por_docente["elegiveis"],
+                    "Alocados": resultado.por_docente["alocados"],
+                    "Faltando": resultado.por_docente["faltando"],
+                    "Pontuação": resultado.por_docente["score"].round(3),
+                })
+                st.dataframe(fechamento, use_container_width=True, hide_index=True)
+
+                st.markdown("#### Papers Escolhidos")
+                candidatos_por_grupo = (
+                    df_agrupado.groupby("grupo")["docente"].apply(lambda s: sorted(set(s)))
+                )
+                detalhe = resultado.alocacao.sort_values(
+                    ["docente", "pontuacao"], ascending=[True, False])
+                escolhidos = pd.DataFrame({
+                    "Docente": detalhe["docente"],
+                    "Título": detalhe["titulo_artigo"],
+                    "Ano": detalhe["ano"],
+                    "Veículo": detalhe["veiculo"],
+                    "Estrato": detalhe["estrato"],
+                    "Percentil": detalhe["maior_percentil"],
+                    "Citações": detalhe["citacoes_consideradas"].astype(int),
+                    # `aloc.e_verdadeiro` e não `v is True`: o booleano que o
+                    # DuckDB devolve é `numpy.bool_`, para o qual `is True` é
+                    # falso -- a coluna sairia "não" em todas as linhas.
+                    "Discente": detalhe["coautoria_aluno"].map(
+                        lambda v: "sim" if aloc.e_verdadeiro(v) else "não"),
+                    "Computação": detalhe["computation_area"].map(
+                        lambda v: "sim" if aloc.e_verdadeiro(v) else "não"),
+                    "Pontuação": detalhe["pontuacao"].round(3),
+                    "Também podia ir para": [
+                        ", ".join(d for d in candidatos_por_grupo.get(grupo, []) if d != docente)
+                        for grupo, docente in zip(detalhe["grupo"], detalhe["docente"])
+                    ],
+                    "DOI": detalhe["doi"],
+                })
+                st.dataframe(escolhidos, use_container_width=True, hide_index=True)
+                st.download_button(
+                    "Baixar a alocação (CSV)",
+                    data=escolhidos.to_csv(index=False).encode("utf-8-sig"),
+                    file_name=f"alocacao_papers_{ano_inicio}_{ano_fim}.csv",
+                    mime="text/csv",
+                    key="dl_alocacao_papers",
+                )
+
+                st.markdown("#### Papers Disputados")
+                if resultado.disputas.empty:
+                    st.caption(
+                        "Nenhum paper elegível é assinado por mais de um dos docentes "
+                        "selecionados — sem disputa, a alocação é só \"cada um com os seus "
+                        "melhores\"."
+                    )
+                else:
+                    st.caption(
+                        f"{len(resultado.disputas)} paper(s) que mais de um docente "
+                        "selecionado poderia usar. **Δ pontuação** é a diferença entre o "
+                        "candidato de maior pontuação e o segundo — é o que se perde ao "
+                        "entregar o paper ao segundo, e não o efeito no total (o docente "
+                        "preterido costuma ter outro paper para pôr no lugar)."
+                    )
+                    disputados = pd.DataFrame({
+                        "Título": resultado.disputas["titulo_artigo"],
+                        "Ano": resultado.disputas["ano"],
+                        "Candidatos": resultado.disputas["candidatos"],
+                        "Ficou com": resultado.disputas["vencedor"],
+                        "Δ pontuação": resultado.disputas["delta"].round(3),
+                        "DOI": resultado.disputas["doi"],
+                    })
+                    st.dataframe(disputados, use_container_width=True, hide_index=True)
+
+                with st.expander("Como esta alocação é calculada"):
+                    st.markdown(
+                        "**1. Os candidatos.** Uma linha por par (docente, paper) de "
+                        "`tb_artigo_periodico` na janela, já sob os dois filtros globais da "
+                        "barra lateral — fonte dos papers e regime de contagem. Como o "
+                        "recorte por docente é aplicado linha a linha, um mesmo paper pode "
+                        "ser elegível para um coautor e não para o outro."
+                    )
+                    st.markdown(
+                        "**2. A pontuação** é a do bloco *Modelo de pontuação* acima, e é do "
+                        "**par**, não do paper: `coautoria_aluno` e `maior_percentil` podem "
+                        "divergir entre as linhas de dois coautores do quadro (metadados "
+                        "contaminados na extração — veja *Limitações conhecidas* no README)."
+                    )
+                    st.markdown(
+                        "**3. Um paper é um paper.** Duas linhas de docentes diferentes são o "
+                        "mesmo artigo quando têm o mesmo DOI normalizado **ou** o mesmo título "
+                        "normalizado no mesmo ano (`dedup_publicacoes."
+                        "agrupar_papers_entre_docentes`, casamento sempre exato). É a única "
+                        "comparação do sistema que atravessa docentes, e existe justamente "
+                        "porque aqui o paper só pode ser usado uma vez."
+                    )
+                    st.markdown(
+                        "**4. A escolha é ótima, não heurística.** Maximiza-se a soma das "
+                        "pontuações com duas restrições — cada docente recebe no máximo a sua "
+                        "cota, cada paper é usado no máximo uma vez. É um problema de "
+                        "atribuição bipartida com cota, resolvido pelo algoritmo húngaro "
+                        "(`scipy.optimize.linear_sum_assignment`): o resultado é o **máximo "
+                        "exato**, não uma aproximação. A métrica *ganho sobre a alocação "
+                        "gulosa* mostra quanto se ganharia a menos entregando a cada docente "
+                        "os seus melhores papers ainda livres, um docente de cada vez."
+                    )
+                    st.markdown(
+                        "**5. Cota é teto, não meta.** Docente sem papers elegíveis "
+                        "suficientes fica com a cota incompleta; a alocação nunca inventa "
+                        "paper nem toma emprestado de quem não o assina."
+                    )
+                    st.markdown(f"**Recorte considerado.** {frase_recorte_docente()}.")
+                    st.caption(
+                        f"Pares avaliados: {resultado.diagnostico.get('pares_elegiveis', 0)} | "
+                        f"papers distintos: {resultado.papers_distintos} | "
+                        f"disputados: {resultado.diagnostico.get('papers_disputados', 0)} | "
+                        f"vagas consideradas: {resultado.vagas}"
+                    )
+
+# ------------------------------------------
 # PÁGINA 8: PANORAMA DE ORIENTAÇÕES
 # ------------------------------------------
 elif pagina_selecionada == "Panorama de Orientações Acadêmicas":
@@ -2348,63 +2730,21 @@ inclua cada aluno na seção de Orientações do seu currículo Lattes.</footer>
             """Colapsa em uma linha as várias linhas do mesmo paper — uma por
             docente do quadro que o assina.
 
-            Esta é a única deduplicação do sistema que **atravessa docentes**, e
-            existe só para exibição: a chave de deduplicação da base leva o
-            `id_lattes` como prefixo justamente para nunca fundir currículos
-            (ver `dedup_publicacoes.py`). Aqui a pergunta é outra — quantos
-            papers distintos o programa produziu com discentes —, então a fusão
-            é o que se quer.
-
-            O casamento é sempre EXATO, nunca por similaridade, e reaproveita as
-            duas normalizações canônicas do projeto: `normalizar_doi` (que já
-            devolve <NA> para o que não tem forma de DOI) e
-            `normalizar_titulo_dedup`. Duas linhas são o mesmo paper se têm o
-            mesmo DOI normalizado OU o mesmo título normalizado no mesmo ano; os
-            dois critérios são combinados por união (componentes conexos) porque
-            um mesmo paper costuma vir com DOI no registro de um docente e sem
-            DOI no de outro — sem a união, essas linhas não se encontrariam.
-
-            Fundir por DOI é seguro nesta coluna porque `sanear_doi_gravado` já
-            apagou dela os DOIs que uma fonte usa em mais de uma publicação do
-            mesmo docente; o que sobrou identifica publicação.
+            A regra do agrupamento vive em `dedup_publicacoes`
+            (`agrupar_papers_entre_docentes` + `escolher_representantes`), que é
+            a única comparação do sistema a **atravessar docentes** — a chave de
+            deduplicação da base leva o `id_lattes` como prefixo justamente para
+            nunca fundir currículos. Aqui a pergunta é outra (quantos papers
+            distintos o programa produziu com discentes), e na página de
+            Alocação Ótima é outra ainda (a quem entregar cada paper); as três
+            precisam concordar sobre o que é "o mesmo paper", então a regra é
+            uma só.
             """
             if df.empty:
                 return df.drop(columns=["docente"])
 
-            dois = df["doi"].map(dp.normalizar_doi).tolist()
-            titulos = df["titulo_artigo"].map(dp.normalizar_titulo_dedup).tolist()
-            anos = df["ano"].tolist()
-
-            pai = list(range(len(df)))
-
-            def raiz(x):
-                while pai[x] != x:
-                    pai[x] = pai[pai[x]]
-                    x = pai[x]
-                return x
-
-            def unir(a, b):
-                ra, rb = raiz(a), raiz(b)
-                if ra != rb:
-                    pai[rb] = ra
-
-            primeiro_doi, primeiro_titulo = {}, {}
-            for i in range(len(df)):
-                if not pd.isna(dois[i]):
-                    unir(primeiro_doi.setdefault(dois[i], i), i)
-                if titulos[i]:
-                    unir(primeiro_titulo.setdefault((titulos[i], anos[i]), i), i)
-
-            # Representante do grupo: a primeira linha que tem DOI (registro mais
-            # completo) ou, na falta de qualquer uma, a primeira do grupo.
-            representante = {}
-            for i in range(len(df)):
-                grupo = raiz(i)
-                atual = representante.get(grupo)
-                if atual is None or (pd.isna(dois[atual]) and not pd.isna(dois[i])):
-                    representante[grupo] = i
-
-            posicoes = sorted(representante.values())
+            grupos = dp.agrupar_papers_entre_docentes(df, coluna_ano="ano")
+            posicoes = dp.escolher_representantes(df, grupos)
             return (
                 df.iloc[posicoes]
                 .drop(columns=["docente"])

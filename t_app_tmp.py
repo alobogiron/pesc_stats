@@ -5,7 +5,7 @@ PAGINAS = [
     "Indicadores Institucionais", "Análise por Docente", "Série Histórica da Produção",
     "Repositório Geral de Artigos", "Avaliação Quadrienal Geral (A1-A8)",
     "Avaliação Quadrienal Restrita (A1-A4)", "Relatório de Credenciamento Consolidado",
-    "Credenciamento por Vigência",
+    "Credenciamento por Vigência", "Alocação Ótima de Papers",
     "Panorama de Orientações Acadêmicas", "Geração de Relatórios",
     "Comparativo entre Bases", "Configurações",
 ]

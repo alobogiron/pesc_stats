@@ -8,7 +8,8 @@ referência — este arquivo cobre só as convenções de desenvolvimento.
 
 - **Linguagem:** Python 3.13 (o `requirements.txt` fixa pandas 3 / numpy 2.4,
   que só têm wheel para cp313 em diante).
-- **Interface:** Streamlit (`app.py`), 11 páginas.
+- **Interface:** Streamlit (`app.py`), 12 páginas (13 quando a base traz
+  `tb_credenciamento_anos`).
 - **Processamento:** notebooks executados por `papermill`
   (`analyse_organizado.ipynb` e `analyse_organizado_comparação.ipynb`).
 - **Extração:** scriptLattes vendorizado em `scriptlattes/`, via Selenium.
@@ -34,7 +35,10 @@ referência — este arquivo cobre só as convenções de desenvolvimento.
   diferirem por causa do código, não dos dados.
 - **Deduplicação é sempre exata e sempre dentro de um mesmo docente.** Nada de
   limiar de similaridade — o casamento é por DOI normalizado ou título
-  normalizado, com `id_lattes` como prefixo da chave.
+  normalizado, com `id_lattes` como prefixo da chave. A **única** exceção mora
+  no mesmo módulo (`agrupar_papers_entre_docentes`), para as perguntas em que a
+  unidade é o paper e não o par (docente, paper): o relatório de coautoria
+  discente por paper e a página de Alocação Ótima. Continua exata.
 - **Notebooks são grandes** (`analyse_organizado.ipynb` tem ~430 KB): editar via
   script sobre o JSON bruto, não com ferramentas que carregam o arquivo inteiro.
 
@@ -52,7 +56,7 @@ python -m papermill analyse_organizado_comparação.ipynb /tmp/out_comp.ipynb \
   -p CAMINHO_JSONS_PROFESSORES "dados_brutos/raw_comparacao/<nome>/current/*.json" \
   -p ARQUIVO_DUCKDB_DESTINO /tmp/comp.duckdb
 
-# 3. smoke test das 11 páginas do app (streamlit.testing.v1.AppTest)
+# 3. smoke test das páginas do app (streamlit.testing.v1.AppTest)
 PESC_DATA_DIR=<dir com pesquisadores_teste.duckdb> python t_app_tmp.py
 ```
 
@@ -67,6 +71,9 @@ dizer `OK` para periódicos e congressos.
 
 - `app.py` — ponto de entrada da aplicação.
 - `dedup_publicacoes.py` — regra única de deduplicação (compartilhada).
+- `credenciamento.py` — regra única dos anos de credenciamento.
+- `alocacao_papers.py` — pontuação e alocação ótima de papers entre docentes
+  (usado só pela página homônima; sem Streamlit, para ser testável direto).
 - `jobs.py` — lockfiles, status em disco e disparo de jobs assíncronos.
 - `run_extract*.py` / `run_process*.py` — entrypoints dos jobs.
 - `dados_brutos/` — snapshots da extração e dados administrativos.

@@ -498,3 +498,92 @@ def auditar_duplicatas(df_unificado, df_bruto, rotulo):
                 .sort_values(['id_lattes', 'fonte', 'titulo_artigo']))
     if chaves_multiprofessor:
         print(f"  AVISO ({rotulo}): {int(chaves_multiprofessor)} chave(s) compartilhada(s) por professores diferentes.")
+
+
+# ---------------------------------------------------------------------------
+# 6. A exceção: agrupar o mesmo paper ENTRE docentes
+# ---------------------------------------------------------------------------
+# Tudo acima deduplica dentro de um único professor -- `calcular_chave_dedup`
+# prefixa a chave com o `id_lattes` justamente para nunca fundir currículos, e
+# é isso que mantém respondível a pergunta "quais artigos este professor tem?".
+#
+# Estas duas funções fazem o contrário, e existem para as perguntas em que a
+# unidade é o paper e não o par (professor, paper):
+#
+#   * "quantos papers distintos o programa produziu com discentes?"
+#     (relatório de coautoria discente); e
+#   * "qual paper vai para qual docente?" (página de Alocação Ótima), em que um
+#     paper coassinado por dois docentes do quadro só pode ser usado uma vez.
+#
+# O casamento continua sendo **exato**, nunca por similaridade, e reaproveita as
+# mesmas normalizações canônicas: mesmo DOI normalizado OU mesmo título
+# normalizado no mesmo ano. Os dois critérios são combinados por componentes
+# conexos porque o mesmo paper costuma vir com DOI no registro de um docente e
+# sem DOI no de outro -- sem a união, essas linhas não se encontrariam.
+#
+# Fundir por DOI é seguro aqui porque `sanear_doi_gravado` já apagou da coluna
+# os DOIs que uma fonte usa em mais de uma publicação do mesmo docente; o que
+# sobrou identifica publicação.
+def agrupar_papers_entre_docentes(df, coluna_titulo='titulo_artigo',
+                                  coluna_ano='ano', coluna_doi='doi'):
+    """Rotula cada linha com o paper a que ela pertence, atravessando docentes.
+
+    Devolve uma Series alinhada ao índice de `df` com um código inteiro por
+    paper distinto: duas linhas com o mesmo código são o mesmo paper, ainda que
+    sejam de professores diferentes."""
+    if df.empty:
+        return pd.Series([], dtype='int64', index=df.index)
+
+    # A coluna de DOI pode faltar (bases antigas): sem ela sobra o casamento por
+    # título+ano, que é o que o resto do módulo já faz quando o DOI é nulo.
+    if coluna_doi in df.columns:
+        dois = [normalizar_doi(v) for v in df[coluna_doi]]
+    else:
+        dois = [pd.NA] * len(df)
+    titulos = [normalizar_titulo_dedup(v) for v in df[coluna_titulo]]
+    anos = list(df[coluna_ano])
+
+    pai = list(range(len(df)))
+
+    def raiz(x):
+        while pai[x] != x:
+            pai[x] = pai[pai[x]]
+            x = pai[x]
+        return x
+
+    def unir(a, b):
+        ra, rb = raiz(a), raiz(b)
+        if ra != rb:
+            pai[rb] = ra
+
+    primeiro_doi, primeiro_titulo = {}, {}
+    for i in range(len(df)):
+        if not _e_nulo(dois[i]):
+            unir(primeiro_doi.setdefault(dois[i], i), i)
+        if titulos[i]:
+            unir(primeiro_titulo.setdefault((titulos[i], anos[i]), i), i)
+
+    return pd.Series([raiz(i) for i in range(len(df))], index=df.index, dtype='int64')
+
+
+def escolher_representantes(df, grupos, coluna_doi='doi'):
+    """Posições (para `df.iloc`) de uma linha por paper, em ordem crescente.
+
+    Prefere como representante de cada grupo a primeira linha que tem DOI — é o
+    registro mais completo —, e cai na primeira linha do grupo quando nenhuma
+    tem."""
+    if df.empty:
+        return []
+
+    if coluna_doi in df.columns:
+        tem_doi = [not _e_nulo(normalizar_doi(v)) for v in df[coluna_doi]]
+    else:
+        tem_doi = [False] * len(df)
+    codigos = list(grupos)
+
+    representante = {}
+    for i in range(len(df)):
+        atual = representante.get(codigos[i])
+        if atual is None or (not tem_doi[atual] and tem_doi[i]):
+            representante[codigos[i]] = i
+    return sorted(representante.values())
